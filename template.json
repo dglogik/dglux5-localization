@@ -1,0 +1,821 @@
+{
+  "file": {
+    "name": {
+      "is": {
+        "blank": "file name is blank"
+      },
+      "contains": {
+        "invalid": {
+          "char": "file name contains invalid char"
+        }
+      },
+      "": "name"
+    },
+    "": "file"
+  },
+  "at": "at",
+  "requires": {
+    "at": {
+      "least": {
+        "one": {
+          "dot(.)": {
+            "in": {
+              "the": {
+                "file": {
+                  "name": "requires at least one dot(.) in the file name"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "filename": {
+    "can": {
+      "not": {
+        "end": {
+          "with": {
+            "dot(.)": "filename can not end with dot(.)"
+          }
+        }
+      }
+    }
+  },
+  "directory": {
+    "name": {
+      "is": {
+        "blank": "directory name is blank"
+      }
+    }
+  },
+  "path": {
+    "is": {
+      "blank": "path is blank"
+    },
+    "contains": {
+      "invalid": {
+        "char": "path contains invalid char"
+      },
+      "blank": {
+        "directory": "path contains blank directory"
+      },
+      "": "contains"
+    },
+    "": "path"
+  },
+  "dot(.)": {
+    "is": {
+      "not": {
+        "allowed": {
+          "in": {
+            "dglux": {
+              "directory": {
+                "name": "dot(.) is not allowed in dglux directory name"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "File": {
+    "": "File",
+    "Manager": "File Manager",
+    "Saved": "File Saved"
+  },
+  "New": {
+    "File": "New File",
+    "Project": "New Project",
+    "Folder": "New Folder",
+    "view": "New view",
+    "": "New"
+  },
+  "Absolute": {
+    "Layout": "Absolute Layout"
+  },
+  "Open": {
+    "": "Open",
+    "Project": "Open Project",
+    "File": "Open File",
+    "or": {
+      "import": {
+        "a": {
+          "DGLux5": "Open or import a DGLux5"
+        }
+      }
+    },
+    "a": {
+      "recent": {
+        "DGLux5": "Open a recent DGLux5"
+      }
+    }
+  },
+  "Save": {
+    "File": "Save File",
+    "As": "Save As",
+    "": "Save"
+  },
+  "Import": {
+    "": "Import",
+    "DG5": "Import DG5",
+    "Project": "Import Project",
+    "was": {
+      "finished": "Import was finished"
+    },
+    "Library": "Import Library"
+  },
+  "Recover": "Recover",
+  "Clear": {
+    "": "Clear",
+    "History": "Clear History"
+  },
+  "Project": {
+    "": "Project",
+    "Properties": "Project Properties",
+    "Dataflow": "Project Dataflow",
+    "Import": "Project Import",
+    "Name": "Project Name"
+  },
+  "Recent": "Recent",
+  "Export": {
+    "/": {
+      "Import": "Export / Import"
+    },
+    "Current": {
+      "Project": "Export Current Project"
+    },
+    "": "Export"
+  },
+  "Edit": {
+    "": "Edit",
+    "Symbol": "Edit Symbol",
+    "Properties": "Edit Properties"
+  },
+  "Undo": "Undo",
+  "Redo": "Redo",
+  "Cut": "Cut",
+  "Copy": {
+    "": "Copy",
+    "File": "Copy File"
+  },
+  "Paste": "Paste",
+  "Duplicate": "Duplicate",
+  "Snapping": {
+    "": "Snapping",
+    "To": {
+      "Components": "Snapping To Components",
+      "Vertexes": "Snapping To Vertexes",
+      "": "To"
+    }
+  },
+  "Modify": "Modify",
+  "Align": {
+    "": "Align",
+    "Left": "Align Left",
+    "Center": "Align Center",
+    "Right": "Align Right",
+    "Top": "Align Top",
+    "Middle": "Align Middle",
+    "Bottom": "Align Bottom"
+  },
+  "Arrange": {
+    "": "Arrange",
+    "Horizontally": "Arrange Horizontally",
+    "Vertically": "Arrange Vertically"
+  },
+  "Distribute": {
+    "": "Distribute",
+    "Left": "Distribute Left",
+    "Center": "Distribute Center",
+    "Right": "Distribute Right",
+    "Top": "Distribute Top",
+    "Middle": "Distribute Middle",
+    "Bottom": "Distribute Bottom"
+  },
+  "Group": "Group",
+  "Ungroup": "Ungroup",
+  "Convert": {
+    "To": {
+      "Symbol": "Convert To Symbol"
+    }
+  },
+  "Insert": "Insert",
+  "Help": {
+    "": "Help",
+    "Contents": "Help Contents"
+  },
+  "Submit": {
+    "Feedback": "Submit Feedback",
+    "feedback": {
+      "to": {
+        "the": {
+          "DGLux": {
+            "5.0": {
+              "Team": "Submit feedback to the DGLux 5.0 Team"
+            }
+          }
+        }
+      },
+      "": "feedback"
+    },
+    "License": "Submit License",
+    "": "Submit"
+  },
+  "About": "About",
+  "Fill": {
+    "Color": "Fill Color",
+    "": "Fill"
+  },
+  "Stroke": {
+    "Color": "Stroke Color",
+    "": "Stroke"
+  },
+  "Upload": {
+    "favorites": "Upload favorites",
+    "File": "Upload File",
+    "file": "Upload file",
+    "Completed": "Upload Completed",
+    "": "Upload"
+  },
+  "Uploading": "Uploading",
+  "uploaded": {
+    "successfully!": "uploaded successfully!"
+  },
+  "Error": {
+    "uploading": {
+      "file": "Error uploading file"
+    },
+    "pasting": {
+      "file": "Error pasting file"
+    },
+    "": "Error"
+  },
+  "Please,": {
+    "check": {
+      "network": {
+        "and": {
+          "try": {
+            "again!": "Please, check network and try again!"
+          }
+        }
+      }
+    }
+  },
+  "Add": "Add",
+  "Remove": {
+    "": "Remove",
+    "item": "Remove item"
+  },
+  "Symbol": {
+    "Name": "Symbol Name",
+    "": "Symbol"
+  },
+  "Create": {
+    "Symbol": "Create Symbol",
+    "a": {
+      "blank": {
+        "project": {
+          "or": "Create a blank project or"
+        }
+      }
+    },
+    "Project": "Create Project",
+    "Folder": "Create Folder",
+    "": "Create"
+  },
+  "Close": "Close",
+  "Apply": "Apply",
+  "Ok": "Ok",
+  "Subject": "Subject",
+  "Email": "Email",
+  "Type": "Type",
+  "Description": "Description",
+  "Cancel": "Cancel",
+  "Send": "Send",
+  "Feedback": {
+    "was": {
+      "sent": {
+        "successfully": "Feedback was sent successfully"
+      },
+      "not": {
+        "sent.": {
+          "Check": {
+            "your": {
+              "internet": {
+                "connection": "Feedback was not sent. Check your internet connection"
+              }
+            }
+          }
+        }
+      },
+      "": "was"
+    },
+    "": "Feedback"
+  },
+  "Information": "Information",
+  "Value": "Value",
+  "Formatted": "Formatted",
+  "Expression": "Expression",
+  "Offset": {
+    "": "Offset",
+    "Left": "Offset Left",
+    "Right": "Offset Right"
+  },
+  "Input": {
+    "Min": "Input Min",
+    "Max": "Input Max",
+    "the": {
+      "name": {
+        "of": {
+          "new": {
+            "folder": "Input the name of new folder"
+          }
+        }
+      }
+    },
+    "": "Input"
+  },
+  "Output": {
+    "Min": "Output Min",
+    "Max": "Output Max",
+    "": "Output"
+  },
+  "Minimum": "Minimum",
+  "Maximum": "Maximum",
+  "Gradient": "Gradient",
+  "Data": {
+    "Mapping": "Data Mapping",
+    "Units": "Data Units",
+    "Interval": "Data Interval",
+    "Provider": "Data Provider",
+    "Source": "Data Source",
+    "": "Data"
+  },
+  "Case": "Case",
+  "Mapping": "Mapping",
+  "Select": {
+    "series": "Select series"
+  },
+  "Use": {
+    "exist": {
+      "axis": "Use exist axis"
+    }
+  },
+  "\"Error": {
+    "creating": {
+      "new": {
+        "folder": "\"Error creating new folder"
+      }
+    }
+  },
+  "Yes": "Yes",
+  "No": "No",
+  "Load": {
+    "": "Load",
+    "Completed": "Load Completed",
+    "File": "Load File"
+  },
+  "I": {
+    "Agree": "I Agree"
+  },
+  "Logout": "Logout",
+  "Search": "Search",
+  "DATE": {
+    "CREATED": "DATE CREATED",
+    "MODIFIED": "DATE MODIFIED",
+    "": "DATE"
+  },
+  "DESCRIPTION": "DESCRIPTION",
+  "CREATE": {
+    "NEW": "CREATE NEW"
+  },
+  "choose": {
+    "a": {
+      "template": "choose a template"
+    }
+  },
+  "OPEN": {
+    "/": {
+      "IMPORT": "OPEN / IMPORT"
+    }
+  },
+  "project": {
+    "file": "project file"
+  },
+  "RECENT": "RECENT",
+  "TUTORIALS": "TUTORIALS",
+  "View": {
+    "DGLux5": {
+      "tutorial": "View DGLux5 tutorial"
+    }
+  },
+  "videos": "videos",
+  "Name": "Name",
+  "Template": "Template",
+  "Category": {
+    "": "Category",
+    "Field": "Category Field"
+  },
+  "Who": {
+    "has": {
+      "access": "Who has access"
+    }
+  },
+  "Specific": {
+    "people": "Specific people"
+  },
+  "Anyone": {
+    "who": {
+      "has": {
+        "the": {
+          "link": {
+            "can": {
+              "view": "Anyone who has the link can view"
+            }
+          }
+        }
+      }
+    }
+  },
+  "was": {
+    "saved": "was saved"
+  },
+  "Is": {
+    "Owner": "Is Owner",
+    "HTML": "Is HTML",
+    "": "Is"
+  },
+  "Path": "Path",
+  "Size": "Size",
+  "Created": "Created",
+  "Modified": "Modified",
+  "Details": "Details",
+  "Metrics": "Metrics",
+  "Dataflow": "Dataflow",
+  "Properties": "Properties",
+  "Saving": {
+    "project": {
+      "dataflow": "Saving project dataflow"
+    },
+    "complete": "Saving complete",
+    "": "Saving"
+  },
+  "Query": "Query",
+  "Refresh": "Refresh",
+  "to": "to",
+  "these": "these",
+  "files": "files",
+  "Do": {
+    "you": {
+      "want": {
+        "to": {
+          "upload": "Do you want to upload"
+        }
+      }
+    }
+  },
+  "Loading...": "Loading...",
+  "Loading": {
+    "project": {
+      "dataflow": "Loading project dataflow"
+    }
+  },
+  "Reuse": {
+    "symbol": {
+      "instances": "Reuse symbol instances"
+    }
+  },
+  "Delete": {
+    "": "Delete",
+    "File": "Delete File",
+    "Folder": "Delete Folder",
+    "Completed": "Delete Completed"
+  },
+  "Make": {
+    "Default": "Make Default"
+  },
+  "Rename": {
+    "": "Rename",
+    "File": "Rename File"
+  },
+  "Download": "Download",
+  "Overwrite": {
+    "File": "Overwrite File",
+    "this": {
+      "file": "Overwrite this file"
+    },
+    "": "Overwrite"
+  },
+  "Uploading...": "Uploading...",
+  "All": {
+    "files": {
+      "in": {
+        "this": {
+          "folder": {
+            "will": {
+              "also": {
+                "be": {
+                  "deleted.": "All files in this folder will also be deleted."
+                }
+              }
+            }
+          }
+        }
+      },
+      "are": {
+        "skipped": "All files are skipped"
+      },
+      "": "files"
+    },
+    "": "All"
+  },
+  "Deleting": "Deleting",
+  "failed": "failed",
+  "will": {
+    "be": {
+      "renamed": {
+        "to": "will be renamed to"
+      }
+    }
+  },
+  "Failed": "Failed",
+  "Move": {
+    "File": "Move File"
+  },
+  "Moving": "Moving",
+  "Copying": "Copying",
+  "Completed": "Completed",
+  "Datatip": {
+    "Renderer": "Datatip Renderer"
+  },
+  "Date": "Date",
+  "Time": "Time",
+  "Horiz": {
+    "Axis": "Horiz Axis",
+    "Align": "Horiz Align",
+    "Line": "Horiz Line",
+    "": "Horiz"
+  },
+  "Vert": {
+    "Axis": "Vert Axis",
+    "Line": "Vert Line",
+    "": "Vert"
+  },
+  "Map": {
+    "": "Map",
+    "Type": "Map Type",
+    "Controls": "Map Controls"
+  },
+  "API": {
+    "Key": "API Key"
+  },
+  "Zoom": "Zoom",
+  "Longitude": "Longitude",
+  "Latitude": "Latitude",
+  "Weather": "Weather",
+  "Clouds": "Clouds",
+  "Video": {
+    "": "Video",
+    "Controls": "Video Controls"
+  },
+  "URL": "URL",
+  "Autoplay": "Autoplay",
+  "Repeater": "Repeater",
+  "Track": {
+    "Renderer": "Track Renderer",
+    "Fill": "Track Fill",
+    "Placement": "Track Placement",
+    "": "Track"
+  },
+  "Scale": {
+    "Type": "Scale Type",
+    "Number": {
+      "Renderer": "Scale Number Renderer"
+    },
+    "": "Scale"
+  },
+  "Start": {
+    "Angle": "Start Angle",
+    "Thickness": "Start Thickness",
+    "": "Start"
+  },
+  "End": {
+    "Angle": "End Angle",
+    "Thickness": "End Thickness",
+    "": "End"
+  },
+  "Radius": "Radius",
+  "Axis": {
+    "": "Axis",
+    "placement": "Axis placement",
+    "Type": "Axis Type"
+  },
+  "Title": "Title",
+  "Font": "Font",
+  "Labels": {
+    "": "Labels",
+    "Count": "Labels Count"
+  },
+  "Line": "Line",
+  "Format": {
+    "String": "Format String",
+    "": "Format"
+  },
+  "Compare": {
+    "Mode": "Compare Mode"
+  },
+  "Min": {
+    "": "Min",
+    "Font": {
+      "Size": "Min Font Size"
+    }
+  },
+  "Max": {
+    "": "Max",
+    "Font": {
+      "Size": "Max Font Size"
+    },
+    "Char": {
+      "Length": "Max Char Length"
+    }
+  },
+  "Major": {
+    "Interval": "Major Interval",
+    "Ticks": "Major Ticks",
+    "": "Major"
+  },
+  "Color": "Color",
+  "Width": "Width",
+  "Minor": {
+    "Ticks": "Minor Ticks",
+    "Interval": "Minor Interval",
+    "": "Minor"
+  },
+  "Series": {
+    "Set": "Series Set"
+  },
+  "X": {
+    "Column": {
+      "Rule": "X Column Rule",
+      "": "Column"
+    },
+    "Exclude": "X Exclude",
+    "": "X"
+  },
+  "Y": {
+    "Column": {
+      "Rule": "Y Column Rule",
+      "": "Column"
+    },
+    "Exclude": "Y Exclude",
+    "": "Y"
+  },
+  "Additional": {
+    "Columns": "Additional Columns"
+  },
+  "Selection": "Selection",
+  "Selected": {
+    "Index": "Selected Index"
+  },
+  "Advanced": "Advanced",
+  "Position": {
+    "and": {
+      "Size": "Position and Size"
+    },
+    "": "Position"
+  },
+  "Flexsize": "Flexsize",
+  "Text": {
+    "and": {
+      "Font": "Text and Font"
+    },
+    "": "Text"
+  },
+  "Horizontal": {
+    "Align": "Horizontal Align"
+  },
+  "Vertical": {
+    "Align": "Vertical Align"
+  },
+  "HScroll": "HScroll",
+  "VScroll": "VScroll",
+  "Justify": "Justify",
+  "OriginX": "OriginX",
+  "OriginY": "OriginY",
+  "Precision": "Precision",
+  "Letter": {
+    "Spacing": "Letter Spacing"
+  },
+  "Plot": {
+    "Area": "Plot Area"
+  },
+  "Gridlines": "Gridlines",
+  "Alt": {
+    "Fill": "Alt Fill"
+  },
+  "Plotted": {
+    "Area": {
+      "X": "Plotted Area X",
+      "Y": "Plotted Area Y",
+      "Width": "Plotted Area Width",
+      "Height": "Plotted Area Height",
+      "": "Area"
+    },
+    "": "Plotted"
+  },
+  "Scaling": "Scaling",
+  "Content": {
+    "Width": "Content Width",
+    "Height": "Content Height",
+    "": "Content"
+  },
+  "Licensee": "Licensee",
+  "Company": "Company",
+  "Host": "Host",
+  "use": {
+    "comma": {
+      "to": {
+        "seperate": {
+          "multiple": {
+            "hosts": "use comma to seperate multiple hosts"
+          }
+        }
+      }
+    }
+  },
+  "invalid": {
+    "email": "invalid email",
+    "license": {
+      "data": "invalid license data"
+    },
+    "advancedDevices": {
+      "number": "invalid advancedDevices number"
+    },
+    "": "invalid"
+  },
+  "licensee": {
+    "can't": {
+      "be": {
+        "blank": "licensee can't be blank"
+      }
+    }
+  },
+  "input": {
+    "license": {
+      "data": {
+        "here:": "input license data here:"
+      }
+    }
+  },
+  "ProductId": "ProductId",
+  "Host/Path": "Host/Path",
+  "Unlicensed": "Unlicensed",
+  "Request": {
+    "License": "Request License",
+    "successfully": {
+      "sent.": {
+        "We": {
+          "will": {
+            "check": {
+              "your": {
+                "request": {
+                  "and": {
+                    "send": {
+                      "you": {
+                        "a": {
+                          "new": {
+                            "license.": "Request successfully sent. We will check your request and send you a new license."
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "": "Request"
+  },
+  "License": {
+    "": "License",
+    "Request": "License Request"
+  },
+  "license": {
+    "data": {
+      "refused": {
+        "by": {
+          "server": "license data refused by server"
+        }
+      }
+    }
+  },
+  "not": {
+    "supported": "not supported"
+  },
+  "AdvancedDevices": "AdvancedDevices",
+  "BasicDevices": "BasicDevices"
+}
