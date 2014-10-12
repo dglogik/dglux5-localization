@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Грешка зачеркване проект",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "таймер ще чакам за изчакване, ако предишните натоварване не е завършена, изчакване се игнорира, когато ново искане е извикан от превключвател",
   "Delete Project": "Изтриване на проект",
   "Error deletinging project": "Грешка deletinging проект",

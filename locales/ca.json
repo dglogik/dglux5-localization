@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Projecte suprimint error",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "temporitzador s'esperarà a temps d'espera si càrrega anterior no està acabat, temps d'espera s'ignora quan Nova petició és invocada pel gallet",
   "Delete Project": "Eliminar el projecte",
   "Error deletinging project": "Projecte de deletinging d'error",

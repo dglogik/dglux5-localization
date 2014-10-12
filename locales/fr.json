@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Projet de suppression erreur",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "minuterie attendra timeout si chargement précédent n'est pas fini, timeout est ignorée lorsque la nouvelle demande est invoquée par déclencheur",
   "Delete Project": "Supprimer le projet",
   "Error deletinging project": "Projet effacer erreur",

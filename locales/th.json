@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "ข้อผิดพลาดลบโครงการ",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "เวลาจะรอหมดเวลาถ้าก่อนหน้านี้โหลดไม่เสร็จสิ้น หมดเวลาจะถูกละเว้นเมื่อคำขอใหม่จะถูกเรียก โดยทริกเกอร์",
   "Delete Project": "ลบโครงการ",
   "Error deletinging project": "ข้อผิดพลาด deletinging โครงการ",

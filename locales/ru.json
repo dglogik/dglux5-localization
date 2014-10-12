@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Ошибка удаления проекта",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "таймер будет ожидать тайм-аута, если Предыдущая загрузка не завершена, timeout игнорируется, когда новый запрос вызова триггером",
   "Delete Project": "Удаление проекта",
   "Error deletinging project": "Ошибка deletinging проект",

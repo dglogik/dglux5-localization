@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "删除项目时出错",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "计时器将等待超时，如果先前加载未完成，由触发器调用新的请求时，就会忽略超时",
   "Delete Project": "删除项目",
   "Error deletinging project": "Deletinging 项目时出错",

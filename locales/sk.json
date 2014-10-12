@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Chyba pri odstraňovaní projektu",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "časovač bude čakať na timeout Ak predchádzajúce zaťaženie nie je dokončená, časový limit sa ignoruje pri novej žiadosti je vyvolaný spúšť",
   "Delete Project": "Odstránenie projektu",
   "Error deletinging project": "Chyba pri deletinging projektu",

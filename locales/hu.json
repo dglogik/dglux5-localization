@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Hiba a törlés projekt",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "időzítő fogja várni időtúllépés, ha a korábbi be nem fejezte be, a timeout figyelmen kívül hagyja előhívásakor új kérelmet az eseményindító által",
   "Delete Project": "Projekt törlése",
   "Error deletinging project": "Hiba deletinging projekt",

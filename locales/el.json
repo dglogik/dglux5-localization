@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Λάθος διαγραφή έργου",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "χρονόμετρο θα περιμένω για το χρονικό όριο, αν δεν έχει τελειώσει η προηγούμενη φόρτωση, παραβλέπεται χρονικό όριο, όταν η νέα αίτηση γίνεται επίκληση από trigger",
   "Delete Project": "Διαγραφή έργου",
   "Error deletinging project": "Σφάλμα deletinging έργου",

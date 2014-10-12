@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Fejl slette projekt",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer vil vente på timeout, hvis foregående ladning ikke er færdig, timeout ignoreres, når nye anmodning påberåbes af udløser",
   "Delete Project": "Slette projekt",
   "Error deletinging project": "Fejl deletinging projekt",

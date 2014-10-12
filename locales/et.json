@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Tõrge kustutamisel projekti",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "taimer ootab ajalõpu kui eelmine laadimine on lõpetatud, timeout ignoreeritakse uue taotluse kutsumisel vallandada",
   "Delete Project": "Kustuta projekti",
   "Error deletinging project": "Tõrge deletinging projekti",

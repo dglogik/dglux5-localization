@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "오류 삭제 프로젝트",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "이전 로드 완료 되지 않습니다 경우 타이머 타임 아웃 대기, 새 요청이 트리거에 의해 호출 될 때 타임 아웃은 무시 됩니다.",
   "Delete Project": "프로젝트 삭제",
   "Error deletinging project": "오류 deletinging 프로젝트",

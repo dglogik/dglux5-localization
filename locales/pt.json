@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Projeto excluindo erro",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "temporizador aguardará para tempo limite se não terminou o carregamento anterior, tempo limite é ignorado quando nova solicitação é invocada pelo gatilho",
   "Delete Project": "Excluir o projeto",
   "Error deletinging project": "Projeto de erro deletinging",

@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Klaidų naikinimą projekto",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "laikmatis bus laukti timeout jei ankstesnių apkrovos nėra baigtas, timeout nepaisoma nauja užklausa iškviesta paleidiklį",
   "Delete Project": "Ištrinti projektą",
   "Error deletinging project": "Klaida deletinging projekto",

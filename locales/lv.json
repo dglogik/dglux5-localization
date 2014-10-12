@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Kļūda dzēšot projekta",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "taimera gaidīs timeout, ja iepriekšējā ielāde nav pabeigta, taimauta tiek ignorēts, ja pieprasījumā ir izsaukts ar trigeri",
   "Delete Project": "Dzēst projektu",
   "Error deletinging project": "Kļūda deletinging projekts",

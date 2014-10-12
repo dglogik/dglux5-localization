@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Hmong yuam kev ib qhov",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer yuav tos timeout yog hais tias cov chaw thau khoom tas los yog tsis meej, timeout yog ignored thaum tshiab thov invoked los txhais",
   "Delete Project": "Rho tawm qhov Project",
   "Error deletinging project": "Ib qhov yuam kev deletinging",

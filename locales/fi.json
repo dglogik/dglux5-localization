@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Virhe poistettaessa projektia",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "ajastin odottaa aikakatkaisu jos edellinen lataaminen ei ole päättynyt, aikakatkaisu ohitetaan, jos uutta pyyntöä vedotaan laukaista",
   "Delete Project": "Poista projekti",
   "Error deletinging project": "Virhe deletinging projektia",

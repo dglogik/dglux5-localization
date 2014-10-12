@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "שגיאה במחיקת פרוייקט",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "טיימר ימתין זמן קצוב אם טעינת הקודם לא הסתיימה, פסק זמן מתעלמת כאשר בקשה חדשה שתופעל על-ידי הגורם המפעיל",
   "Delete Project": "למחוק את הפרוייקט",
   "Error deletinging project": "שגיאה deletinging פרוייקט",

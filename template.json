@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Error deleting project",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger",
   "Delete Project": "Delete Project",
   "Error deletinging project": "Error deletinging project",

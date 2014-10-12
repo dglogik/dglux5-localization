@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "Ralat Menghapuskan projek",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "pemasa akan menunggu waktu tamat jika loading sebelumnya tidak selesai, tamat masa diabaikan apabila permintaan baru dipohon oleh pencetus",
   "Delete Project": "Hapuskan projek",
   "Error deletinging project": "Ralat deletinging projek",

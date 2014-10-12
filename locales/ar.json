@@ -1,4 +1,5 @@
 {
+  "Error deleting project": "خطأ حذف المشروع",
   "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "جهاز ضبط الوقت سوف انتظر المهلة إذا لم يتم الانتهاء من تحميل السابقة، يتم تجاهل مهلة عندما يتم استدعاء طلب جديد بالزناد",
   "Delete Project": "حذف المشروع",
   "Error deletinging project": "خطأ ديليتينجينج المشروع",
