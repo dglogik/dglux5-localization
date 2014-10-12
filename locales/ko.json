@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "이전 로드 완료 되지 않습니다 경우 타이머 타임 아웃 대기, 새 요청이 트리거에 의해 호출 될 때 타임 아웃은 무시 됩니다.",
+  "Delete Project": "프로젝트 삭제",
+  "Error deletinging project": "오류 deletinging 프로젝트",
+  "Autosave on close": "주변에 자동 저장",
+  "Autosave": "자동 저장",
+  "Logic": "논리",
+  "Operations": "작업",
+  "Scroll Event": "Scroll 이벤트",
+  "Date Format": "날짜 형식",
   "Editors": "편집자",
   "Logic Operations": "논리 작업",
   "Hub": "허브",

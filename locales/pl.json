@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "zegar będzie czekać na limit czasu, jeśli poprzedniego obciążenia nie jest gotowy, limit czasu jest ignorowane, gdy nowe żądanie jest wywoływany przez wyzwalacz",
+  "Delete Project": "Usunąć projektu",
+  "Error deletinging project": "Błąd deletinging projektu",
+  "Autosave on close": "AutoSave na Zamknij",
+  "Autosave": "Autozapis",
+  "Logic": "Logika",
+  "Operations": "Operacje",
+  "Scroll Event": "Przewijania",
+  "Date Format": "Format daty",
   "Editors": "Redakcja",
   "Logic Operations": "Operacje logiczne",
   "Hub": "Piasta",

@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer zal wachten op de time-out als vorige laden is niet voltooid, time-out wordt genegeerd wanneer nieuwe aanvraag is aangeroepen door trigger",
+  "Delete Project": "Project verwijderen",
+  "Error deletinging project": "Fout deletinging project",
+  "Autosave on close": "Automatisch opslaan bij sluiten",
+  "Autosave": "Automatisch opslaan",
+  "Logic": "Logica",
+  "Operations": "Operaties",
+  "Scroll Event": "Gebeurtenis Scroll",
+  "Date Format": "Datumnotatie",
   "Editors": "Editors",
   "Logic Operations": "Logische operaties",
   "Hub": "Hub",

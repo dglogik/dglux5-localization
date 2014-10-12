@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer akan menunggu timeout jika sebelumnya pemuatan tidak selesai, timeout diabaikan ketika permintaan dipanggil oleh memicu",
+  "Delete Project": "Menghapus proyek",
+  "Error deletinging project": "Kesalahan deletinging proyek",
+  "Autosave on close": "Autosave pada tutup",
+  "Autosave": "Autosave",
+  "Logic": "Logika",
+  "Operations": "Operasi",
+  "Scroll Event": "Event gulir",
+  "Date Format": "Format tanggal",
   "Editors": "Editor",
   "Logic Operations": "Logika operasi",
   "Hub": "Hub",

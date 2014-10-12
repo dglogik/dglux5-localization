@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "यदि पिछला लोडिंग समाप्त नहीं है टाइमआउट के लिए टाइमर इंतजार करेंगे, जब नई अनुरोध द्वारा ट्रिगर उठे है टाइमआउट को नजरअंदाज कर दिया है",
+  "Delete Project": "परियोजना को हटाना",
+  "Error deletinging project": "त्रुटि deletinging परियोजना",
+  "Autosave on close": "स्वत: बंद पर सहेजना",
+  "Autosave": "स्वतः सहेजें",
+  "Logic": "तर्क",
+  "Operations": "संचालन",
+  "Scroll Event": "स्क्रॉल घटना",
+  "Date Format": "दिनांक स्वरूप",
   "Editors": "संपादकों",
   "Logic Operations": "तर्क संचालन",
   "Hub": "हब",

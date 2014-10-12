@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "اگر بارگذاری قبلی تمام نشده تایمر برای تایم صبر کنید، هنگامی که درخواست جدیدی است استناد با ماشه ایست نادیده گرفته شده است",
+  "Delete Project": "حذف پروژه",
+  "Error deletinging project": "خطای deletinging پروژه",
+  "Autosave on close": "ذخیره خودکار در بستن",
+  "Autosave": "ذخیره خودکار",
+  "Logic": "منطق",
+  "Operations": "عملیات",
+  "Scroll Event": "رویداد تازه رفته",
+  "Date Format": "قالب تاريخ",
   "Editors": "ویراستاران",
   "Logic Operations": "منطق عملیات",
   "Hub": "توپی",

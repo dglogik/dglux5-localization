@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "li tap konometre pwal tann pou D' si précédente chaje pa fini, D' li te inyore lè nouvo demand envoke pa detant",
+  "Delete Project": "Retire pwojè",
+  "Error deletinging project": "Erreur deletinging pwojè",
+  "Autosave on close": "Enregistrement sou fèmen",
+  "Autosave": "Automatique",
+  "Logic": "Lojik",
+  "Operations": "Operasyon yo",
+  "Scroll Event": "Evènman ki gen",
+  "Date Format": "Fòma dat",
   "Editors": "Éditeurs",
   "Logic Operations": "Operasyon lojik",
   "Hub": "Mwaye",

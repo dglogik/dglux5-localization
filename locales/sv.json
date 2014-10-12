@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer kommer att vänta på timeout om tidigare lastning inte är färdig, timeout ignoreras när ny begäran anropas av utlösaren",
+  "Delete Project": "Ta bort projekt",
+  "Error deletinging project": "Fel deletinging projektet",
+  "Autosave on close": "Autospara på nära",
+  "Autosave": "Spara automatiskt",
+  "Logic": "Logik",
+  "Operations": "Verksamhet",
+  "Scroll Event": "Bläddra händelsen",
+  "Date Format": "Datumformat",
   "Editors": "Redaktörer",
   "Logic Operations": "Logiska operationer",
   "Hub": "Hub",

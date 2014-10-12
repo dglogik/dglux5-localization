@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "bộ đếm thời gian sẽ chờ đợi cho thời gian chờ nếu tải trước là không hoàn thành, thời gian chờ bỏ qua khi yêu cầu mới được kích hoạt bởi kích hoạt",
+  "Delete Project": "Xóa dự án",
+  "Error deletinging project": "Lỗi deletinging dự án",
+  "Autosave on close": "AutoSave ngày đóng",
+  "Autosave": "AutoSave",
+  "Logic": "Logic",
+  "Operations": "Hoạt động",
+  "Scroll Event": "Sự kiện di chuyển",
+  "Date Format": "Định dạng ngày tháng",
   "Editors": "Biên tập viên",
   "Logic Operations": "Logic hoạt động",
   "Hub": "Trung tâm",

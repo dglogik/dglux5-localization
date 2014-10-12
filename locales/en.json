@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger",
+  "Delete Project": "Delete Project",
+  "Error deletinging project": "Error deletinging project",
+  "Autosave on close": "Autosave on close",
+  "Autosave": "Autosave",
+  "Logic": "Logic",
+  "Operations": "Operations",
+  "Scroll Event": "Scroll Event",
+  "Date Format": "Date Format",
   "Editors": "Editors",
   "Logic Operations": "Logic Operations",
   "Hub": "Hub",

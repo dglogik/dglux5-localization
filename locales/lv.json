@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "taimera gaidīs timeout, ja iepriekšējā ielāde nav pabeigta, taimauta tiek ignorēts, ja pieprasījumā ir izsaukts ar trigeri",
+  "Delete Project": "Dzēst projektu",
+  "Error deletinging project": "Kļūda deletinging projekts",
+  "Autosave on close": "Saglabāšanas, aizvēršanas",
+  "Autosave": "Automātiskā saglabāšana",
+  "Logic": "Loģika",
+  "Operations": "Operācijas",
+  "Scroll Event": "Ritiniet notikums",
+  "Date Format": "Datuma formāts",
   "Editors": "Redaktore",
   "Logic Operations": "Loģikas operācijas",
   "Hub": "Rumbas",

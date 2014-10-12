@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "laikmatis bus laukti timeout jei ankstesnių apkrovos nėra baigtas, timeout nepaisoma nauja užklausa iškviesta paleidiklį",
+  "Delete Project": "Ištrinti projektą",
+  "Error deletinging project": "Klaida deletinging projekto",
+  "Autosave on close": "Automatiškai įrašyti uždarant",
+  "Autosave": "Automatinio įrašymo",
+  "Logic": "Logika",
+  "Operations": "Operacijų",
+  "Scroll Event": "Slinkties įvykis",
+  "Date Format": "Datos formatas",
   "Editors": "Redaktoriai",
   "Logic Operations": "Loginės operacijos",
   "Hub": "Stebulės",

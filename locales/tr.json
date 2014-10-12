@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "önceki yükleme bitmiş değil zaman zaman aşımı için bekler, yeni istek tetikleyici tarafından çağrıldığında zaman aşımı yoksayıldı",
+  "Delete Project": "Proje silme",
+  "Error deletinging project": "Hata deletinging projesi",
+  "Autosave on close": "Otomatik kapatma",
+  "Autosave": "Otomatik kaydetme",
+  "Logic": "Mantık",
+  "Operations": "İşlemleri",
+  "Scroll Event": "Kaydırma olayı",
+  "Date Format": "Tarih biçimi",
   "Editors": "Editörler",
   "Logic Operations": "Mantık işlemleri",
   "Hub": "Hub",

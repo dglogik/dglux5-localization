@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "cronometrul va aştepta pentru timeout dacă încărcarea anterioară nu este terminat, timeout este ignorată atunci când noua cerere se invocă de declanşare",
+  "Delete Project": "Şterge proiect",
+  "Error deletinging project": "Eroare deletinging proiect",
+  "Autosave on close": "Salvarea automata pe aproape",
+  "Autosave": "Salvare automată",
+  "Logic": "Logica",
+  "Operations": "Operaţiuni",
+  "Scroll Event": "Eveniment de parcurgere",
+  "Date Format": "Format dată",
   "Editors": "Editori",
   "Logic Operations": "Operaţiunile de logica",
   "Hub": "Hub",

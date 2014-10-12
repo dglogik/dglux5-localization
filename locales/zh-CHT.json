@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "計時器將等待超時，如果先前載入未完成，由觸發器調用新的請求時，就會忽略超時",
+  "Delete Project": "刪除專案",
+  "Error deletinging project": "Deletinging 專案時出錯",
+  "Autosave on close": "在關閉自動儲存",
+  "Autosave": "自動儲存",
+  "Logic": "邏輯",
+  "Operations": "操作",
+  "Scroll Event": "滾動事件",
+  "Date Format": "日期格式",
   "Editors": "編輯",
   "Logic Operations": "邏輯運算",
   "Hub": "集線器",

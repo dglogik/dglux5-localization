@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "temporizador aguardará para tempo limite se não terminou o carregamento anterior, tempo limite é ignorado quando nova solicitação é invocada pelo gatilho",
+  "Delete Project": "Excluir o projeto",
+  "Error deletinging project": "Projeto de erro deletinging",
+  "Autosave on close": "Autosave em close",
+  "Autosave": "Autosave",
+  "Logic": "Lógica",
+  "Operations": "Operações",
+  "Scroll Event": "Evento Scroll",
+  "Date Format": "Formato de data",
   "Editors": "Editores",
   "Logic Operations": "Operações lógicas",
   "Hub": "Hub",

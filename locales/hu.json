@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "időzítő fogja várni időtúllépés, ha a korábbi be nem fejezte be, a timeout figyelmen kívül hagyja előhívásakor új kérelmet az eseményindító által",
+  "Delete Project": "Projekt törlése",
+  "Error deletinging project": "Hiba deletinging projekt",
+  "Autosave on close": "Automatikus mentés a Bezárás",
+  "Autosave": "Automatikus mentés",
+  "Logic": "Logika",
+  "Operations": "Műveletek",
+  "Scroll Event": "Lapozzunk esemény",
+  "Date Format": "Dátum formátum",
   "Editors": "Szerkesztők",
   "Logic Operations": "Logikai műveletek",
   "Hub": "Hub",

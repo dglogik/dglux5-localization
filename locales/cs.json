@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "časovač bude čekat na časový limit, pokud není dokončen předchozí načítání, časový limit je ignorován, je-li nová žádost je vyvolána aktivační",
+  "Delete Project": "Odstranit projekt",
+  "Error deletinging project": "Při deletinging projektu",
+  "Autosave on close": "Automatické uložení při zavření",
+  "Autosave": "Automatické ukládání",
+  "Logic": "Logika",
+  "Operations": "Operace",
+  "Scroll Event": "Vyhledejte událost",
+  "Date Format": "Formát data",
   "Editors": "Editory",
   "Logic Operations": "Logické operace",
   "Hub": "Rozbočovač",

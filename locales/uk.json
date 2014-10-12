@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "таймер буде чекати тайм-аут незавершене попереднього завантаження, час очікування ігнорується, коли новий запит викликається тригера",
+  "Delete Project": "Видалення проекту",
+  "Error deletinging project": "Помилка deletinging проект",
+  "Autosave on close": "Автозбереження під час закриття",
+  "Autosave": "Автозбереження",
+  "Logic": "Логіка",
+  "Operations": "Операцій",
+  "Scroll Event": "Подій виділіть",
+  "Date Format": "Формат дати",
   "Editors": "Редактори",
   "Logic Operations": "Логіка операцій",
   "Hub": "Концентратор",

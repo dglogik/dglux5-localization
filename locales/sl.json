@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "razporejevalnika bo čakati na timeout, če prejšnji tovor ni končano, timeout prezrto novo zahtevo sklicujeta sprožilec",
+  "Delete Project": "Brisanje projekta",
+  "Error deletinging project": "Napaka deletinging projekta",
+  "Autosave on close": "Samodejno shranjevanje ob zapiranju",
+  "Autosave": "Samodejno shranjevanje",
+  "Logic": "Logika",
+  "Operations": "Operacije",
+  "Scroll Event": "Pomikanje dogodka",
+  "Date Format": "Oblika datuma",
   "Editors": "Uredniki",
   "Logic Operations": "Operacijah",
   "Hub": "Vozlišče",

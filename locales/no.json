@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "timer venter tidsavbrudd hvis forrige lasting ikke er ferdig, tidsavbrudd ignoreres når ny forespørsel aktiveres av utløseren",
+  "Delete Project": "Slette prosjekt",
+  "Error deletinging project": "Feil deletinging prosjekt",
+  "Autosave on close": "Autolagring ved lukking",
+  "Autosave": "Automatisk lagring",
+  "Logic": "Logikk",
+  "Operations": "Operasjoner",
+  "Scroll Event": "Bla hendelse",
+  "Date Format": "Datoformat",
   "Editors": "Redaktører",
   "Logic Operations": "Logikk operasjoner",
   "Hub": "Hub",

@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "טיימר ימתין זמן קצוב אם טעינת הקודם לא הסתיימה, פסק זמן מתעלמת כאשר בקשה חדשה שתופעל על-ידי הגורם המפעיל",
+  "Delete Project": "למחוק את הפרוייקט",
+  "Error deletinging project": "שגיאה deletinging פרוייקט",
+  "Autosave on close": "השמירה על סגירה",
+  "Autosave": "שמירה אוטומטית",
+  "Logic": "לוגיקה",
+  "Operations": "פעולות",
+  "Scroll Event": "Scroll Event",
+  "Date Format": "תבנית התאריך",
   "Editors": "עורכים",
   "Logic Operations": "פעולות ההיגיון",
   "Hub": "רכזת",

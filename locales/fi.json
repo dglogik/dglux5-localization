@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "ajastin odottaa aikakatkaisu jos edellinen lataaminen ei ole päättynyt, aikakatkaisu ohitetaan, jos uutta pyyntöä vedotaan laukaista",
+  "Delete Project": "Poista projekti",
+  "Error deletinging project": "Virhe deletinging projektia",
+  "Autosave on close": "Sulje Automaattinen tallennus",
+  "Autosave": "Automaattinen tallennus",
+  "Logic": "Logiikka",
+  "Operations": "Toiminnot",
+  "Scroll Event": "Siirry tapauksessa",
+  "Date Format": "Päivämäärämuoto",
   "Editors": "Toimittajat",
   "Logic Operations": "Loogisia operaatioita",
   "Hub": "Hub",

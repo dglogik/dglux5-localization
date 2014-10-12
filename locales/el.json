@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "χρονόμετρο θα περιμένω για το χρονικό όριο, αν δεν έχει τελειώσει η προηγούμενη φόρτωση, παραβλέπεται χρονικό όριο, όταν η νέα αίτηση γίνεται επίκληση από trigger",
+  "Delete Project": "Διαγραφή έργου",
+  "Error deletinging project": "Σφάλμα deletinging έργου",
+  "Autosave on close": "Αυτόματη αποθήκευση κατά το κλείσιμο",
+  "Autosave": "\"Αυτόματη αποθήκευση\"",
+  "Logic": "Λογική",
+  "Operations": "Επιχειρήσεις",
+  "Scroll Event": "Περίπτωση κύλιση",
+  "Date Format": "Μορφή ημερομηνίας",
   "Editors": "Συντάκτες",
   "Logic Operations": "Λογική επιχειρήσεις",
   "Hub": "Πλήμνη",

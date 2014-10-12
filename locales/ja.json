@@ -1,4 +1,13 @@
 {
+  "timer will wait for timeout if previous loading is not finished, timeout is ignored when new request is invoked by trigger": "タイマーが待つタイムアウト前の読み込みが完了していない場合、新しい要求がトリガーによって呼び出されたときに、タイムアウトは無視されます。",
+  "Delete Project": "プロジェクトを削除します。",
+  "Error deletinging project": "エラー deletinging プロジェクト",
+  "Autosave on close": "閉じるときに自動保存",
+  "Autosave": "自動保存",
+  "Logic": "ロジック",
+  "Operations": "操作",
+  "Scroll Event": "Scroll イベント",
+  "Date Format": "日付の形式",
   "Editors": "編集者",
   "Logic Operations": "論理演算",
   "Hub": "ハブ",
