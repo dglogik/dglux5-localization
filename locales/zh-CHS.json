@@ -614,7 +614,7 @@
   "Dataflow": "数据流",
   "Autosave on close": "在关闭自动保存",
   "Autosave": "自动保存",
-  "Project has been changed. Save project datalow anyway?": "项目已被更改。是否仍要保存项目 datalow？",
+  "Project has been changed. Save project dataflow anyway?": "项目已被更改。是否仍要保存项目数据流吗？",
   "Confirm save": "确认保存",
   "Saving project dataflow": "保存项目数据流",
   "Saving complete": "保存完整",

@@ -614,7 +614,7 @@
   "Dataflow": "جریان داده",
   "Autosave on close": "ذخیره خودکار در بستن",
   "Autosave": "ذخیره خودکار",
-  "Project has been changed. Save project datalow anyway?": "پروژه تغییر کرده است. Datalow پروژه ذخیره کنید؟",
+  "Project has been changed. Save project dataflow anyway?": "پروژه تغییر کرده است. به هر حال پروژه جریان داده را ذخیره کنید؟",
   "Confirm save": "تأیید ذخیره",
   "Saving project dataflow": "صرفه جویی در پروژه جریان داده",
   "Saving complete": "صرفه جویی کامل",

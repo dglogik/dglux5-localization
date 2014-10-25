@@ -614,7 +614,7 @@
   "Dataflow": "Dataflow",
   "Autosave on close": "อัตโนมัติเสียเมื่อปิด",
   "Autosave": "อัตโนมัติเสีย",
-  "Project has been changed. Save project datalow anyway?": "โครงการมีการเปลี่ยนแปลง บันทึกโครงการ datalow",
+  "Project has been changed. Save project dataflow anyway?": "โครงการมีการเปลี่ยนแปลง บันทึก dataflow โครงการ",
   "Confirm save": "ยืนยันการบันทึก",
   "Saving project dataflow": "บันทึกโครงการ dataflow",
   "Saving complete": "บันทึกเสร็จสมบูรณ์",

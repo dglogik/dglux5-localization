@@ -614,7 +614,7 @@
   "Dataflow": "Flux de données",
   "Autosave on close": "Enregistrement automatique lors de la fermeture",
   "Autosave": "Enregistrement automatique",
-  "Project has been changed. Save project datalow anyway?": "Projet a été modifié. Enregistrez le projet datalow toute façon ?",
+  "Project has been changed. Save project dataflow anyway?": "Projet a été modifié. Enregistrez le projet dataflow quand même ?",
   "Confirm save": "Confirmer enregistrer",
   "Saving project dataflow": "Enregistrement du flux de données du projet",
   "Saving complete": "Enregistrement complet",

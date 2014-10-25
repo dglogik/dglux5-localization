@@ -614,7 +614,7 @@
   "Dataflow": "データ フロー",
   "Autosave on close": "閉じるときに自動保存",
   "Autosave": "自動保存",
-  "Project has been changed. Save project datalow anyway?": "プロジェクトが変更されています。とにかくプロジェクト datalow を保存しますか。",
+  "Project has been changed. Save project dataflow anyway?": "プロジェクトが変更されています。プロジェクトのデータ フローをとにかく保存しますか。",
   "Confirm save": "保存の確認します。",
   "Saving project dataflow": "プロジェクトのデータ フローを保存",
   "Saving complete": "完全な保存",
