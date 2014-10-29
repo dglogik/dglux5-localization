@@ -614,7 +614,7 @@
   "Dataflow": "Ροή δεδομένων",
   "Autosave on close": "Αυτόματη αποθήκευση κατά το κλείσιμο",
   "Autosave": "\"Αυτόματη αποθήκευση\"",
-  "Project has been changed. Save project dataflow anyway?": "Έργο έχει αλλάξει. Αποθήκευση ροής δεδομένων έργου;",
+  "Project has been changed. Save project datalow anyway?": "Έργο έχει αλλάξει. Αποθήκευση έργου datalow;",
   "Confirm save": "Επιβεβαιώνουν εκτός",
   "Saving project dataflow": "Εξοικονόμηση ροής δεδομένων έργου",
   "Saving complete": "Εξοικονόμηση πλήρη",

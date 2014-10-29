@@ -614,7 +614,7 @@
   "Dataflow": "Да се създаде поток",
   "Autosave on close": "Автоматично записвай върху Затвори",
   "Autosave": "Автоматично записване",
-  "Project has been changed. Save project dataflow anyway?": "Проектът е променен. Запишете проект да се създаде поток Въпреки това?",
+  "Project has been changed. Save project datalow anyway?": "Проектът е променен. Запишете проект datalow Въпреки това?",
   "Confirm save": "Потвърдете запис",
   "Saving project dataflow": "Записване на проект да се създаде поток",
   "Saving complete": "Записването завърши",

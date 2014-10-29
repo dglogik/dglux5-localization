@@ -614,7 +614,7 @@
   "Dataflow": "Поток данных",
   "Autosave on close": "Автосохранение при закрытии",
   "Autosave": "Автосохранение",
-  "Project has been changed. Save project dataflow anyway?": "Проект был изменен. Сохранить проект потока данных в любом случае?",
+  "Project has been changed. Save project datalow anyway?": "Проект был изменен. В любом случае сохранить проект datalow?",
   "Confirm save": "Подтвердите сохранение",
   "Saving project dataflow": "Сохранение проекта потока данных",
   "Saving complete": "Сохранение полной",
