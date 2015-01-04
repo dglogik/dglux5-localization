@@ -500,6 +500,8 @@
   "Top": "ページのトップへ",
   "Bottom": "下部",
   "Flipped vertical": "垂直反転",
+  "Use div Labels": "Div のラベルを使用します。",
+  "Use div-based labels": "Div ベースのラベルを使用します。",
   "Line series": "ライン シリーズ",
   "Area series": "エリア シリーズ",
   "Column series": "連載コラム",

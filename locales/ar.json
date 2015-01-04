@@ -500,6 +500,8 @@
   "Top": "أعلى",
   "Bottom": "أسفل",
   "Flipped vertical": "انقلبت عمودي",
+  "Use div Labels": "استخدام علامات div",
+  "Use div-based labels": "استخدام التسميات المستندة إلى div",
   "Line series": "سلسلة سطر",
   "Area series": "مجموعة المجال",
   "Column series": "سلسلة عمود",

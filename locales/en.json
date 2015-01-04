@@ -500,6 +500,8 @@
   "Top": "Top",
   "Bottom": "Bottom",
   "Flipped vertical": "Flipped vertical",
+  "Use div Labels": "Use div Labels",
+  "Use div-based labels": "Use div-based labels",
   "Line series": "Line series",
   "Area series": "Area series",
   "Column series": "Column series",

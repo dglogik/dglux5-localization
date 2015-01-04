@@ -500,6 +500,8 @@
   "Top": "맨 위로",
   "Bottom": "하단",
   "Flipped vertical": "대칭 이동 된 수직",
+  "Use div Labels": "Div 레이블을 사용합니다",
+  "Use div-based labels": "Div 기반 레이블을 사용합니다",
   "Line series": "라인 시리즈",
   "Area series": "영역 시리즈",
   "Column series": "열 시리즈",

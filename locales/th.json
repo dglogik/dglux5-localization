@@ -500,6 +500,8 @@
   "Top": "ด้านบน",
   "Bottom": "ด้านล่าง",
   "Flipped vertical": "พลิกแนวตั้ง",
+  "Use div Labels": "ป้ายชื่อใช้ div",
+  "Use div-based labels": "ใช้ป้ายชื่อจาก div",
   "Line series": "ชุดบรรทัด",
   "Area series": "ตั้งชุด",
   "Column series": "ชุดคอลัมน์",

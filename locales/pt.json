@@ -500,6 +500,8 @@
   "Top": "Início",
   "Bottom": "Fundo",
   "Flipped vertical": "Vertical invertida",
+  "Use div Labels": "Use etiquetas div",
+  "Use div-based labels": "Usar rótulos baseados em div",
   "Line series": "Linha série",
   "Area series": "Série de área",
   "Column series": "Série de coluna",

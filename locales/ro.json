@@ -500,6 +500,8 @@
   "Top": "Partea de sus",
   "Bottom": "Partea de jos",
   "Flipped vertical": "Oglindită verticale",
+  "Use div Labels": "Utilizaţi etichete de div",
+  "Use div-based labels": "Utilizaţi etichete bazate pe div",
   "Line series": "Serie linie",
   "Area series": "Zona de serie",
   "Column series": "Coloana serie",

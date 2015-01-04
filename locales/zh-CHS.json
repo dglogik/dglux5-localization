@@ -500,6 +500,8 @@
   "Top": "返回页首",
   "Bottom": "底部",
   "Flipped vertical": "垂直翻转",
+  "Use div Labels": "使用 div 标签",
+  "Use div-based labels": "使用基于 div 标签",
   "Line series": "线系列",
   "Area series": "面积系列",
   "Column series": "列系列",

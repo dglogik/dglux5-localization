@@ -500,6 +500,8 @@
   "Top": "Топ",
   "Bottom": "Нижній",
   "Flipped vertical": "Повернута вертикальний",
+  "Use div Labels": "Використання міток div",
+  "Use div-based labels": "Використовувати div-сигналу етикетки",
   "Line series": "Лінія серія",
   "Area series": "Площа серія",
   "Column series": "Стовпець серія",

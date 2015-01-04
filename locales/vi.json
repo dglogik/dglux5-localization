@@ -500,6 +500,8 @@
   "Top": "Đầu trang",
   "Bottom": "Dưới cùng",
   "Flipped vertical": "Lộn dọc",
+  "Use div Labels": "Sử dụng div nhãn",
+  "Use div-based labels": "Sử dụng div dựa trên nhãn",
   "Line series": "Dòng phim",
   "Area series": "Khu vực loạt",
   "Column series": "Cột loạt",

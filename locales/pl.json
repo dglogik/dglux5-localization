@@ -500,6 +500,8 @@
   "Top": "Do góry",
   "Bottom": "Dno",
   "Flipped vertical": "Odbicie lustrzane pionowe",
+  "Use div Labels": "Użyj etykiet div",
+  "Use div-based labels": "Użyj etykiet opartej na dziel",
   "Line series": "Seria",
   "Area series": "Obszar serii",
   "Column series": "Seria kolumn",

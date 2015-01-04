@@ -500,6 +500,8 @@
   "Top": "Вверх",
   "Bottom": "Снизу",
   "Flipped vertical": "Перелистывание вертикальный",
+  "Use div Labels": "Использовать div метки",
+  "Use div-based labels": "Использовать на основе div метки",
   "Line series": "Серии Line",
   "Area series": "Область серии",
   "Column series": "Колонки серии",

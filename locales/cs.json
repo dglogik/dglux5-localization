@@ -500,6 +500,8 @@
   "Top": "Vrchol",
   "Bottom": "Dole",
   "Flipped vertical": "Převrácené svisle",
+  "Use div Labels": "Použít popisky div",
+  "Use div-based labels": "Div založené popisky použít",
   "Line series": "Line série",
   "Area series": "Oblast série",
   "Column series": "Sloupce série",

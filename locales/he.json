@@ -500,6 +500,8 @@
   "Top": "העליון",
   "Bottom": "התחתון",
   "Flipped vertical": "הפוך אנכית",
+  "Use div Labels": "שימוש בתוויות div",
+  "Use div-based labels": "שימוש בתוויות מבוסס-div",
   "Line series": "סדרת קו",
   "Area series": "סדרת באזור",
   "Column series": "סדרת טורים",

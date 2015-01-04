@@ -500,6 +500,8 @@
   "Top": "Retour au début",
   "Bottom": "Bas",
   "Flipped vertical": "Vertical Flipped",
+  "Use div Labels": "Utilisez des étiquettes de div",
+  "Use div-based labels": "Utilisez des étiquettes axée sur la div",
   "Line series": "Série en ligne",
   "Area series": "Série de zone",
   "Column series": "Série de colonne",

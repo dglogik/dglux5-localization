@@ -500,6 +500,8 @@
   "Top": "Alkuun",
   "Bottom": "Alhaalta",
   "Flipped vertical": "Käännetty pystysuunnassa",
+  "Use div Labels": "Käytä div otsikoita",
+  "Use div-based labels": "Käytä div-pohjainen tarroja",
   "Line series": "Line-sarjan",
   "Area series": "Alueen sarja",
   "Column series": "Sarakkeen sarja",

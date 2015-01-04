@@ -500,6 +500,8 @@
   "Top": "Sayfanın Üstü",
   "Bottom": "Alt",
   "Flipped vertical": "Döndürülmüş dikey",
+  "Use div Labels": "Div etiketleri kullanma",
+  "Use div-based labels": "Div tabanlı etiketleri kullanma",
   "Line series": "Çizgi dizi",
   "Area series": "Alan serisi",
   "Column series": "Sütun serisi",

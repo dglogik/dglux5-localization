@@ -500,6 +500,8 @@
   "Top": "بالا",
   "Bottom": "پایین",
   "Flipped vertical": "بدبختانه عمودی",
+  "Use div Labels": "استفاده دیو برچسب",
+  "Use div-based labels": "استفاده از div بر اساس برچسب ها",
   "Line series": "خط سری",
   "Area series": "مجموعه منطقه",
   "Column series": "ستون مجموعه",

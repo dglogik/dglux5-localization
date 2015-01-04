@@ -500,6 +500,8 @@
   "Top": "Top",
   "Bottom": "Alt",
   "Flipped vertical": "Ümberpööratud vertikaalne",
+  "Use div Labels": "Kasuta div Sildid",
+  "Use div-based labels": "Kasuta div Sildid",
   "Line series": "Line seeria",
   "Area series": "Klaasidest",
   "Column series": "Veerg rida",

@@ -500,6 +500,8 @@
   "Top": "Top",
   "Bottom": "Alsó",
   "Flipped vertical": "Tükrözött függőleges",
+  "Use div Labels": "Div címkék használata",
+  "Use div-based labels": "Div-kiindulópontul szolgáló feliratokkal",
   "Line series": "Vonal sorozat",
   "Area series": "Terület sorozat",
   "Column series": "Oszlop sorozat",

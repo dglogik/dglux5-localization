@@ -500,6 +500,8 @@
   "Top": "Nach oben",
   "Bottom": "Unten",
   "Flipped vertical": "Gekippte vertikal",
+  "Use div Labels": "Div die Bezeichnungen verwendet.",
+  "Use div-based labels": "Div-basierten die Bezeichnungen verwendet.",
   "Line series": "Line Serie",
   "Area series": "Flächenreihe",
   "Column series": "Spalte-Serie",
