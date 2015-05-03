@@ -398,7 +398,7 @@
   "None": "Ükski",
   "With previous": "Koos eelmisega",
   "With next": "Koos edasi",
-  "action works in stream mode when streamCache > 0": "meede toimib oja režiimis kui streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "meede toimib oja režiimis kui bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Üks aasta",
   "Three months": "Kolm kuud",

@@ -398,7 +398,7 @@
   "None": "Ei mitään",
   "With previous": "Edellisen kanssa",
   "With next": "Seuraavaan",
-  "action works in stream mode when streamCache > 0": "toimintoa voidaan käyttää stream tilassa kun streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "toimintoa voidaan käyttää stream tilassa kun bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Vuosi",
   "Three months": "Kolmen kuukauden",

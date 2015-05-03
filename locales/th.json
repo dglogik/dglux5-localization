@@ -398,7 +398,7 @@
   "None": "ไม่มี",
   "With previous": "ด้วยก่อนหน้านี้",
   "With next": "ด้วยถัดไป",
-  "action works in stream mode when streamCache > 0": "การทำงานในโหมดกระแสเมื่อ streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "การทำงานในโหมดกระแสเมื่อ bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "หนึ่งปี",
   "Three months": "สามเดือน",

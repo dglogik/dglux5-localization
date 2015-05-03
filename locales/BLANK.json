@@ -398,7 +398,7 @@
   "None": "",
   "With previous": "",
   "With next": "",
-  "action works in stream mode when streamCache > 0": "",
+  "action works in stream mode when bufferSize > 0": "",
   "Avg": "",
   "One year": "",
   "Three months": "",

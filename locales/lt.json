@@ -398,7 +398,7 @@
   "None": "Nė vienas",
   "With previous": "Su ankstesniais",
   "With next": "Kartu su paskesniu",
-  "action works in stream mode when streamCache > 0": "veiksmų veikia srauto režimu kai streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "veiksmų veikia srauto režimu kai bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Vienerius metus",
   "Three months": "Tris mėnesius",

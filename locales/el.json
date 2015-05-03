@@ -398,7 +398,7 @@
   "None": "Κανένας",
   "With previous": "Με την προηγούμενη",
   "With next": "Με την επόμενη",
-  "action works in stream mode when streamCache > 0": "δράση που λειτουργεί σε λειτουργία ρεύμα όταν streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "δράση που λειτουργεί σε λειτουργία ρεύμα όταν το bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Ένα έτος",
   "Three months": "Τρεις μήνες",

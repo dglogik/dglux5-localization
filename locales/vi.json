@@ -398,7 +398,7 @@
   "None": "Không có",
   "With previous": "Với trước",
   "With next": "Với kế tiếp",
-  "action works in stream mode when streamCache > 0": "hành động làm việc trong chế độ dòng khi streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "hành động làm việc trong chế độ dòng khi bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Một năm",
   "Three months": "Ba tháng",

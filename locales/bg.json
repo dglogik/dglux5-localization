@@ -398,7 +398,7 @@
   "None": "Няма",
   "With previous": "С предишния",
   "With next": "Със следващия",
-  "action works in stream mode when streamCache > 0": "действие работи в поток режим при streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "действие работи в поток режим при bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Една година",
   "Three months": "Три месеца",

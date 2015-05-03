@@ -398,7 +398,7 @@
   "None": "Neviens",
   "With previous": "Ar iepriekšējo",
   "With next": "Ar nākamo",
-  "action works in stream mode when streamCache > 0": "darbības plūsmu režīmā darbojas kad streamCache &gt; = 0",
+  "action works in stream mode when bufferSize > 0": "darbības plūsmu režīmā darbojas, bufferSize &gt; = 0",
   "Avg": "AVG",
   "One year": "Viens gads",
   "Three months": "Trīs mēnešus",

@@ -398,7 +398,7 @@
   "None": "Cap",
   "With previous": "Amb l'anterior",
   "With next": "Amb el següent",
-  "action works in stream mode when streamCache > 0": "acció treballa en mode de corrent quan streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "acció treballa en mode de corrent quan W:capacitat &gt; 0",
   "Avg": "AVG",
   "One year": "Un any",
   "Three months": "Tres mesos",

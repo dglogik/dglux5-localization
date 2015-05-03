@@ -398,7 +398,7 @@
   "None": "Žádný",
   "With previous": "S předchozím",
   "With next": "S dalším",
-  "action works in stream mode when streamCache > 0": "akce funguje v režimu datového proudu při streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "akce funguje v režimu proud když bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Jeden rok",
   "Three months": "Tři měsíce",

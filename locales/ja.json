@@ -398,7 +398,7 @@
   "None": "[なし]",
   "With previous": "直前の動作と",
   "With next": "次へ",
-  "action works in stream mode when streamCache > 0": "アクションはストリーム モードで動作時 streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "アクションはストリーム モードで動作するとき bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "1 年間",
   "Three months": "3 か月",

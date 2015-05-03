@@ -398,7 +398,7 @@
   "None": "Aucun",
   "With previous": "Ak ansyen",
   "With next": "Ak kap vini an",
-  "action works in stream mode when streamCache > 0": "aksyon travay nan ravin mòd lè streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "aksyon travay nan ravin mòd lè bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "Youn Ané",
   "Three months": "Twa mwa",

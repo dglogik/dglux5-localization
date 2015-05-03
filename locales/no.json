@@ -398,7 +398,7 @@
   "None": "Ingen",
   "With previous": "Med forrige",
   "With next": "Med neste",
-  "action works in stream mode when streamCache > 0": "handlingen fungerer i strømmen modus når streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "handlingen fungerer i strømmen modus når bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Ett år",
   "Three months": "Tre måneder",

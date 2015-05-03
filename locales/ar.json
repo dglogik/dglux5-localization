@@ -398,7 +398,7 @@
   "None": "لا شيء",
   "With previous": "مع السابق",
   "With next": "بالتالي",
-  "action works in stream mode when streamCache > 0": "يعمل الإجراء في وضع تيار عندما ستريمكاتشي &gt; 0",
+  "action works in stream mode when bufferSize > 0": "يعمل الإجراء في وضع تيار عندما bufferSize &gt; 0",
   "Avg": "متوسط",
   "One year": "سنة واحدة",
   "Three months": "ثلاثة أشهر",

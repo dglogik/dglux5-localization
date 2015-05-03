@@ -398,7 +398,7 @@
   "None": "هیچ کدام",
   "With previous": "با قبلی",
   "With next": "با بعدی",
-  "action works in stream mode when streamCache > 0": "آثار عمل در حالت جریان هنگامی که streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "آثار عمل در حالت جریان هنگامی که bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "یک سال",
   "Three months": "سه ماه",

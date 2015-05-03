@@ -398,7 +398,7 @@
   "None": "없음",
   "With previous": "이전 함께",
   "With next": "다음으로",
-  "action works in stream mode when streamCache > 0": "작업 스트림 모드에서 작동 될 때 streamCache &amp;gt; 0",
+  "action works in stream mode when bufferSize > 0": "작업 스트림 모드에서 작동 하면 bufferSize &amp;gt; 0",
   "Avg": "Avg",
   "One year": "1 년",
   "Three months": "3 개월",

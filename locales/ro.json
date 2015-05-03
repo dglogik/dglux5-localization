@@ -398,7 +398,7 @@
   "None": "Nici unul",
   "With previous": "Cu anterioare",
   "With next": "Cu următorul",
-  "action works in stream mode when streamCache > 0": "acţiune funcţionează în modul de streaming atunci când streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "acţiune funcţionează în modul de streaming atunci când bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "De un an",
   "Three months": "Trei luni",

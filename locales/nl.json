@@ -398,7 +398,7 @@
   "None": "Geen",
   "With previous": "Met vorige",
   "With next": "Met de volgende",
-  "action works in stream mode when streamCache > 0": "actie werkt in streaming modus wanneer streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "actie werkt in streaming modus wanneer schrijven &gt; 0",
   "Avg": "AVG",
   "One year": "Één jaar",
   "Three months": "Drie maanden",

@@ -398,7 +398,7 @@
   "None": "کوئی نہیں",
   "With previous": "پچھلے کے ساتھ",
   "With next": "اگلے کے ساتھ",
-  "action works in stream mode when streamCache > 0": "ایکشن اسٹریم کے موڈ میں کام کرتا ہے جب سٹریمکاکہی &gt; 0",
+  "action works in stream mode when bufferSize > 0": "ایکشن اسٹریم کے موڈ میں کام کرتا ہے جب بفارسای &gt; 0",
   "Avg": "اوسط",
   "One year": "ایک سال",
   "Three months": "تین ماہ",

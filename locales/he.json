@@ -398,7 +398,7 @@
   "None": "אף אחד",
   "With previous": "עם הקודם",
   "With next": "עם הבא",
-  "action works in stream mode when streamCache > 0": "פעולה פועלת במצב זרם כאשר streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "פעולה פועלת במצב זרם כאשר bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "שנה אחת",
   "Three months": "שלושה חודשים",

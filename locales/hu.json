@@ -398,7 +398,7 @@
   "None": "Egyik sem",
   "With previous": "A korábbi",
   "With next": "A következő",
-  "action works in stream mode when streamCache > 0": "akció adatfolyam-üzemmódban működik ha streamCache &amp;gt; 0",
+  "action works in stream mode when bufferSize > 0": "akció adatfolyam-üzemmódban működik ha bufferSize &amp;gt; 0",
   "Avg": "AVG",
   "One year": "Egy év",
   "Three months": "Három hónap",

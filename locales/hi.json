@@ -398,7 +398,7 @@
   "None": "कोई नहीं",
   "With previous": "पिछले के साथ",
   "With next": "अगले के साथ",
-  "action works in stream mode when streamCache > 0": "क्रिया स्ट्रीम मोड में काम करता है जब streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "क्रिया स्ट्रीम मोड में काम करता है जब bufferSize &gt; 0",
   "Avg": "औसत",
   "One year": "एक वर्ष",
   "Three months": "तीन महीने",

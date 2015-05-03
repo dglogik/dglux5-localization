@@ -398,7 +398,7 @@
   "None": "All",
   "With previous": "Yav dhau los uas",
   "With next": "Muaj ntxiv mus",
-  "action works in stream mode when streamCache > 0": "kawg ua kwj hom xwb thaum streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "kawg ua kwj hom xwb thaum bufferSize &gt; 0",
   "Avg": "Avg",
   "One year": "Ib xyoo",
   "Three months": "Peb lub hli",

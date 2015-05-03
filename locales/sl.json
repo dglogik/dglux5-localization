@@ -398,7 +398,7 @@
   "None": "Nobena",
   "With previous": "S prejšnjim",
   "With next": "Z naslednjo",
-  "action works in stream mode when streamCache > 0": "ukrep deluje v načinu tok ko streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "ukrep deluje v načinu tok ko velikost medpomnilnika &gt; 0",
   "Avg": "AVG",
   "One year": "Eno leto",
   "Three months": "Tri mesece",

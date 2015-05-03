@@ -398,7 +398,7 @@
   "None": "没有一个",
   "With previous": "与以前",
   "With next": "下一步",
-  "action works in stream mode when streamCache > 0": "操作工作流模式时 streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "操作工作流模式时设 &gt; 0",
   "Avg": "Avg",
   "One year": "一年",
   "Three months": "三个月",

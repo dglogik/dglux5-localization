@@ -398,7 +398,7 @@
   "None": "Tiada seorang pun",
   "With previous": "Dengan sebelumnya",
   "With next": "Dengan seterusnya",
-  "action works in stream mode when streamCache > 0": "tindakan kerja-kerja dalam mod aliran apabila streamCache &gt; 0",
+  "action works in stream mode when bufferSize > 0": "tindakan kerja-kerja dalam mod aliran apabila bufferSize &gt; 0",
   "Avg": "AVG",
   "One year": "Satu tahun",
   "Three months": "Tiga bulan",
