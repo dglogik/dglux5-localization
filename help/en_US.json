@@ -2597,7 +2597,7 @@
   ],
   "getNode.name": [
     "Name",
-    "Defines the display name of this component. This name appears in the Outline and breadcrumbs in DGLux."
+    ""
   ],
   "getNode.hasChildren": [
     "Has Children",
