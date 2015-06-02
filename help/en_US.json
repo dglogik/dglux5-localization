@@ -1184,8 +1184,8 @@
     ""
   ],
   "calCacheSymbol": [
-    " Callout  Cache  Symbol",
-    ""
+    "Callout  Cache  Symbol",
+    "Specifies whether to cache the callout symbol after it has been loaded the first time."
   ],
   "calVisible": [
     " Is  Callout  Visible",
