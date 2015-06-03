@@ -1032,24 +1032,24 @@
     ""
   ],
   "keepEqualPaddings": [
-    "Keep Equal Paddings",
-    ""
+    "Link Paddings",
+    "Links all four padding editors so that their values are equal."
   ],
   "paddingRight": [
-    "Padding Right",
-    ""
+    "Right Padding",
+    "Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
   ],
   "paddingLeft": [
-    "Padding Left",
-    ""
+    "Left Padding",
+    "Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
   ],
   "paddingBottom": [
-    "Padding Bottom",
-    ""
+    "Bottom Padding",
+    "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
   ],
   "paddingTop": [
-    "Padding Top",
-    ""
+    "Top Padding",
+    "Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
   ],
   "scrollFeedback": [
     "Scroll Feedback",
@@ -1064,12 +1064,12 @@
     ""
   ],
   "vScroll": [
-    "V Scroll",
-    ""
+    "Vertical Scrolling",
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling automatically gets enabled when content overflows.</p>"
   ],
   "hScroll": [
-    "H Scroll",
-    ""
+    "Horizontal Scrolling",
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling automatically gets enabled when content overflows.</p>"
   ],
   "hGap": [
     "H Gap",
@@ -1101,7 +1101,7 @@
   ],
   "clipContent": [
     "Clip Content",
-    ""
+    "<p>Defines the handling of content that overflows this container.</p>\n<p><strong>True</strong><br />\nAll overflowed content is clipped and is not visible.</p>\n<p><strong>False</strong><br />\nAll overflowed content is visible and responds to mouse events.</p>"
   ],
   "layout": [
     "Layout",
@@ -1497,7 +1497,7 @@
   ],
   "cursor": [
     "Cursor",
-    ""
+    "Defines which cursor to show when mousing over this element. Only works when Mouse Enabled property is true for both the element and its parents."
   ],
   "clickThrough": [
     "Click Through",
@@ -1505,7 +1505,7 @@
   ],
   "mouseEnabled": [
     "Mouse Enabled",
-    ""
+    "Defines whether this element responds to mouse events."
   ],
   "tooltip": [
     "Tooltip",
