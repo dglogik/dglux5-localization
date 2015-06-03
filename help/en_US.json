@@ -1188,16 +1188,16 @@
     "Specifies whether to cache the callout symbol after it has been loaded the first time."
   ],
   "calVisible": [
-    " Is  Callout  Visible",
-    ""
+    "Is  Callout  Visible",
+    "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the component."
   ],
   "calGrayOutComp": [
-    " Gray  Out  Component",
-    ""
+    "Gray  Out  Component",
+    "Defines whether the callout’s target becomes inactive and faded when the modal callout is displayed."
   ],
   "calModalFill": [
-    " Modal  Callout  Fill",
-    ""
+    "Modal  Callout  Fill",
+    "Specifies the background fill that appears when a modal callout is visible."
   ],
   "calModal": [
     " Modal  Callout",
@@ -1208,16 +1208,16 @@
     ""
   ],
   "calHideIfOver": [
-    " Hide  If  Over",
-    ""
+    "Hide  If  Over",
+    "Determines whether the callout disappears when the user mouses over the callout."
   ],
   "calHide": [
-    " Hide  Callout",
-    ""
+    "Hide  Callout",
+    "Hides the callout. You can bind data or properties to this button, or click it as part of a recorded action."
   ],
   "calShow": [
-    " Show  Callout",
-    ""
+    "Show  Callout",
+    "Shows the callout. You can bind data or properties to this button, or click it as part of a recorded action."
   ],
   "calAnimation": [
     " Callout  Animation",
@@ -1256,12 +1256,12 @@
     ""
   ],
   "calY": [
-    " Callout  Y",
-    ""
+    "Callout  Y  Offset",
+    "The Y Offset of a callout is the vertical distance from the top edge of the callout to the top edge of its target. You cannot manually set the Y Offset if the position of the callout is set as relative."
   ],
   "calX": [
-    " Callout  X",
-    ""
+    "Callout  X  Offset",
+    "The X Offset of a callout is the horizontal distance from the left edge of the callout to the left edge of its target. You cannot manually set the X Offset if the position of the callout is set as relative."
   ],
   "calRelTarget": [
     " Callout  Relative  To",
@@ -1276,8 +1276,8 @@
     ""
   ],
   "calloutSymbolId": [
-    " Callout",
-    ""
+    "Symbol",
+    "Specifies the symbol to use for the callout. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the full path to that symbol."
   ],
   "rotateY": [
     "Rotate Y",
