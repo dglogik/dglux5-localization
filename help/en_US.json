@@ -613,19 +613,19 @@
   ],
   "stroke": [
     "Stroke",
-    ""
+    "Defines the stroke for this element."
   ],
   "fill": [
     "Fill",
-    ""
+    "Defines the fill for this element."
   ],
   "strokeStyle": [
     "Stroke Style",
-    ""
+    "Defines the line style of the stroke for this element."
   ],
   "strokeWidth": [
     "Stroke Width",
-    ""
+    "Defines the width of the stroke line for this element."
   ],
   "filterUnits": [
     "Filter Units",
@@ -1017,7 +1017,7 @@
   ],
   "selectedIndex": [
     "Selected Index",
-    ""
+    "<p>Sets or returns the index of the selected item in this container.</p><p>The first item has an index of 0.</p><p>The value −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are returned.</p>"
   ],
   "symbol": [
     "Symbol",
@@ -1129,7 +1129,7 @@
   ],
   "shadows": [
     "Shadows",
-    ""
+    "Attaches one or more shadows to this component."
   ],
   "bottomRightRadius": [
     "Bottom Right Radius",
@@ -1280,12 +1280,12 @@
     "Specifies the symbol to use for the callout. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the full path to that symbol."
   ],
   "rotateY": [
-    "Rotate Y",
-    ""
+    "Rotation Y",
+    "Defines a 3-D rotation along the y-axis. The value is an angle in degrees."
   ],
   "rotateX": [
-    "Rotate X",
-    ""
+    "Rotation X",
+    "Defines a 3-D rotation along the x-axis. The value is an angle in degrees."
   ],
   "perspectiveOriginY": [
     "Perspective Origin Y",
@@ -1316,8 +1316,8 @@
     ""
   ],
   "rotate": [
-    "Rotate",
-    ""
+    "Rotation",
+    "Defines a 2-D rotation. The value is an angle in degrees."
   ],
   "translateY": [
     "Translate Y",
@@ -1497,7 +1497,7 @@
   ],
   "cursor": [
     "Cursor",
-    "Defines which cursor to show when mousing over this element. Only works when Mouse Enabled property is true for both the element and its parents."
+    "Defines which cursor to show when mousing over this element. Only works when the Mouse Enabled property is true for both the element and its parents."
   ],
   "clickThrough": [
     "Click Through",
@@ -1564,12 +1564,12 @@
     ""
   ],
   "flexShrink": [
-    "Flex Shrink",
-    ""
+    "Flex-Shrink",
+    "Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container."
   ],
   "flexGrow": [
-    "Flex Grow",
-    ""
+    "Flex-Grow",
+    "Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container."
   ],
   "vCenter": [
     "V Center",
@@ -1581,19 +1581,19 @@
   ],
   "bottom": [
     "Bottom",
-    ""
+    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of "Auto" positions the bottom edge of this component in its normal position.</p>"
   ],
   "right": [
     "Right",
-    ""
+    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of "Auto" positions the right edge of this component in its normal position.</p>"
   ],
   "top": [
-    "Y",
-    ""
+    "Top",
+    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of "Auto" positions the top edge of this component in its normal position.</p>"
   ],
   "left": [
-    "X",
-    ""
+    "Left",
+    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of "Auto" positions the left edge of this component in its normal position.</p>"
   ],
   "type": [
     "Type",
@@ -1749,7 +1749,7 @@
   ],
   "opacity": [
     "Opacity",
-    ""
+    "Defines opacity of this component. If this component is a group or container, all elements inside are affected."
   ],
   "url": [
     "Url",
