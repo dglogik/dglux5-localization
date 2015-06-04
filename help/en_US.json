@@ -929,11 +929,11 @@
   ],
   "maxCharLength": [
     "Max Char Length",
-    ""
+    "Specifies the maximum number of characters allowed in this text component."
   ],
   "letterSpacing": [
     "Letter Spacing",
-    ""
+    "Specifies the horizontal spacing between letters. If null, the default spacing for the selected font is used."
   ],
   "liveUpdate": [
     "Live Update",
@@ -941,15 +941,15 @@
   ],
   "wordWrap": [
     "Word Wrap",
-    ""
+    "Defines whether overflow text wraps. Mulitline must be enabled for this property to take effect."
   ],
   "verticalAlign": [
-    "Vertical Align",
-    ""
+    "Vertical Alignment",
+    "Defines whether the content in this component is positioned at the top, middle, or bottom of the container."
   ],
   "textAlign": [
-    "Text Align",
-    ""
+    "Horizontal Alignment",
+    "Defines whether the content in this component is left-justified, centered, or right-justified."
   ],
   "textDecoration": [
     "Text Decoration",
@@ -965,19 +965,19 @@
   ],
   "fontSize": [
     "Font Size",
-    ""
+    "Defines the font size for this component. If the font size value is set to Auto, the text scales to occupy the size of the component."
   ],
   "minFontSize": [
     "Min Font Size",
-    ""
+    "Defines the minimum font size for this text component. This property is only applicable when text size is set to Auto."
   ],
   "maxFontSize": [
     "Max Font Size",
-    ""
+    "Defines the maximum font size for this text component. This property is only applicable when text size is set to Auto."
   ],
   "lineHeight": [
-    "Line Height",
-    ""
+    "Line Spacing",
+    "Specifies the vertical spacing between lines. If 0, the default spacing for the selected font is used."
   ],
   "fontFamily": [
     "Font Family",
@@ -989,7 +989,7 @@
   ],
   "text": [
     "Text",
-    ""
+    "Sets or reflects the string that appears in the Text component."
   ],
   "autoSize": [
     "Auto Size",
@@ -1581,19 +1581,19 @@
   ],
   "bottom": [
     "Bottom",
-    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of \"Auto\" positions the bottom edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position.</p>"
   ],
   "right": [
     "Right",
-    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of \"Auto\" positions the right edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position.</p>"
   ],
   "top": [
     "Top",
-    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of \"Auto\" positions the top edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position.</p>"
   ],
   "left": [
     "Left",
-    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of \"Auto\" positions the left edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position.</p>"
   ],
   "type": [
     "Type",
@@ -1905,7 +1905,7 @@
   ],
   "color": [
     "Color",
-    ""
+    "Defines the font color for this component."
   ],
   "start": [
     "Start",
@@ -2680,16 +2680,16 @@
     ""
   ],
   "text.isHTML": [
-    "Is H T M L",
-    ""
+    "Is HTML",
+    "Defines whether the string in this text component is treated as HTML, and HTML tags are parsed. Does not parse advanced HTML tags such as URLs."
   ],
   "text.isAdvancedHTML": [
-    "Is Advanced H T M L",
-    ""
+    "Is Advanced HTML",
+    "Defines whether the string in this text component is treated as HTML, and all HTML tags are parsed, including URLs."
   ],
   "text.editable": [
     "Editable",
-    ""
+    "Defines whether the user can edit the text in this text component at runtime by clicking into it."
   ],
   "text.textSelectable": [
     "Text Selectable",
@@ -2697,7 +2697,7 @@
   ],
   "text.multiline": [
     "Multiline",
-    ""
+    "<p>Defines whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>true</strong><br />\nLine breaks are recognized.</p>\n<p><strong>false</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
   ],
   "img.src": [
     "Src",
