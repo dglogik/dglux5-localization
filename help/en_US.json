@@ -2697,7 +2697,7 @@
   ],
   "text.multiline": [
     "Multiline",
-    "<p>Defines whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>true</strong><br />\nLine breaks are recognized.</p>\n<p><strong>false</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
+    "<p>Defines whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>True</strong><br />\nLine breaks are recognized.</p>\n<p><strong>False</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
   ],
   "img.src": [
     "Src",
