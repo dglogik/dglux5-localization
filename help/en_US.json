@@ -369,7 +369,7 @@
   ],
   "saDir": [
     " Direction",
-    ""
+    "Defines the direction toward which the series slides. For example, if this property is set to Left, the series slides onto the chart from right to left."
   ],
   "saOffset": [
     " Offset",
@@ -385,7 +385,7 @@
   ],
   "saDurationEx": [
     " Duration",
-    ""
+    "Defines the duration of the animation in seconds."
   ],
   "saType": [
     " Series  Animation",
@@ -1080,12 +1080,12 @@
     ""
   ],
   "vAlign": [
-    "V Align",
+    "Vertical Alignment",
     ""
   ],
   "hAlign": [
-    "H Align",
-    ""
+    "Horizontal Alignment",
+    "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements positioned on the left. Elements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements positioned on the right. Elements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements positioned at the center. Elements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements positioned such that there are equal amounts of space in between them (when multiple elements exist). Elements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). Elements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements are stretched to fit the parent container. Elements stretch horizontally to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
   ],
   "reverseZIndex": [
     "Reverse Z Index",
