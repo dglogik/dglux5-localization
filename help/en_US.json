@@ -1000,7 +1000,51 @@
     ""
   ],
   "scrollbarStyles.width": [
-    "Scrollbar Width",
+    "Vertical Scrollbar Width",
+    ""
+  ],
+"scrollbarStyles.height": [
+    "Horizontal Scrollbar Height",
+    ""
+  ],
+"scrollbarStyles.thumb.background": [
+    "Thumb Fill",
+    "Defines the fill of the thumb in the scrollbars on this container."
+  ],
+"scrollbarStyles.thumb.border": [
+    "Thumb Stroke",
+    "Defines the stroke color of the thumb in the scrollbars on this container."
+  ],
+"scrollbarStyles.thumb.borderStyle": [
+    "Thumb Stroke Style",
+    "Defines the line style of stroke on the thumb in the scrollbars on this container."
+  ],
+"scrollbarStyles.thumb.borderWidth": [
+    "Thumb Stroke Weight",
+    "Defines the weight of the stroke on the thumb in the scrollbars on this container."
+  ],
+"scrollbarStyles.thumb.cornerRadius": [
+    "Thumb Corner Radius",
+    ""
+  ],
+"scrollbarStyles.track.background": [
+    "Track Fill",
+    "Defines the fill of the track in the scrollbars on this container."
+  ],
+"scrollbarStyles.track.border": [
+    "Track Stroke",
+    "Defines the stroke color of the track in the scrollbars on this container."
+  ],
+"scrollbarStyles.track.borderStyle": [
+    "Track Stroke Style",
+    "Defines the line style of stroke on the track in the scrollbars on this container."
+  ],
+"scrollbarStyles.track.borderWidth": [
+    "Track Stroke Weight",
+    "Defines the weight of the stroke on the track in the scrollbars on this container."
+  ],
+"scrollbarStyles.track.cornerRadius": [
+    "Track Corner Radius",
     ""
   ],
   "@onScroll": [
