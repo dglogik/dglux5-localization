@@ -1021,7 +1021,7 @@
   ],
   "symbol": [
     "Symbol",
-    ""
+    "Specifies the symbol to be used when iterating the rows of the linked table."
   ],
   "contentHeight": [
     "Content Height",
@@ -1085,7 +1085,7 @@
   ],
   "hAlign": [
     "Horizontal Alignment",
-    "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements positioned on the left. Elements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements positioned on the right. Elements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements positioned at the center. Elements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements positioned such that there are equal amounts of space in between them (when multiple elements exist). Elements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). Elements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements are stretched to fit the parent container. Elements stretch horizontally to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
+    ""
   ],
   "reverseZIndex": [
     "Reverse Z Index",
@@ -1108,20 +1108,32 @@
     "<p>Defines how elements are positioned within this container.</p>\n<p><strong>Absolute</strong><br />\nElements positioned freely.</p>\n<p><strong>Horizontal</strong><br />\nElements positioned in order horizontally left to right.</p>\n<p><strong>Vertical</strong><br />\nElements positioned in order vertically top to bottom.</p>"
   ],
   "alignContent": [
-    "Align Content",
-    ""
+    "Tile Alignment",
+    "<p>Defines positioning of  the columns and rows containing wrapped elements within this container.</p>
+<p><strong>Flex-start</strong><br />
+Elements positioned at the start of the container.The rows are packed against the top edge, or the columns are packed against the left edge.</p>
+<p><strong>Flex-end</strong><br />
+Elements positioned at the end of the container.The rows are packed against the bottom edge, or the columns are packed against the right edge.</p>
+<p><strong>Center</strong><br />
+Elements positioned at the center.The rows or columns are packed together around the center of the container.</p>
+<p><strong>Space-between</strong><br />
+Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p>
+<p><strong>Space-around</strong><br />
+Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p>
+<p><strong>Stretch</strong><br />
+Elements are stretched to fit the parent container.The rows or columns stretch to fit the parent container.</p>"
   ],
   "flexWrap": [
-    "Flex Wrap",
+    "Wrap",
     ""
   ],
   "alignItems": [
-    "Align Items",
-    ""
+    "Vertical Alignment",
+    "<p>Defines vertical positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements positioned on the top. Elements are packed against the top edge.</p>\n<p><strong>Flex-end</strong><br />\nElements positioned on the bottom. Elements are packed against the bottom edge.</p>\n<p><strong>Center</strong><br />\nElements positioned at the center. Elements are packed together around the vertical center.</p>\n<p><strong>Space-between*</strong><br />\nElements positioned such that there are equal amounts of space in between them (when multiple elements exist). Elements are distributed with the top element flush against the top edge, the bottom element flush against the bottom edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). Elements are distributed with equal space between them. The space at the top and bottom of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements are stretched to fit the parent container. Elements stretch vertically to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Vertical<br />\n<strong>**</strong>Only available when Layout property is set to Horizontal</p>"
   ],
   "justifyContent": [
-    "Justify Content",
-    ""
+    "Horizontal Alignment",
+    "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements positioned on the left. Elements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements positioned on the right. Elements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements positioned at the center. Elements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements positioned such that there are equal amounts of space in between them (when multiple elements exist). Elements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). Elements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements are stretched to fit the parent container. Elements stretch horizontally to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
   ],
   "filters": [
     "Filters",
@@ -1164,24 +1176,24 @@
     ""
   ],
   "borderStyle": [
-    "Border Style",
-    ""
+    "Stroke Style",
+    "Defines the line style of stroke for this component."
   ],
   "backgroundImageTransition": [
     "Background Image Transition",
     ""
   ],
   "borderWidth": [
-    "Border Width",
-    ""
+    "Stroke Weight",
+    "Defines the weight of the stroke line for this component."
   ],
   "border": [
-    "Border",
-    ""
+    "Stroke",
+    "Defines the stroke for this element."
   ],
   "background": [
-    "Background",
-    ""
+    "Fill",
+    "Defines the fill for this element."
   ],
   "calCacheSymbol": [
     "Callout  Cache  Symbol",
@@ -1228,12 +1240,12 @@
     ""
   ],
   "calStrokeWidth": [
-    " Callout  Stroke  Width",
-    ""
+    " Callout Bond Weight",
+    "Defines the stroke weight of the static callout’s bond."
   ],
   "calStrokeType": [
-    " Callout  Stroke",
-    ""
+    "Bond Stroke Type",
+    "Defines the stroke type for the static callout’s bond."
   ],
   "calBondColor": [
     " Callout  Bond  Color",
@@ -1265,7 +1277,7 @@
   ],
   "calRelTarget": [
     " Callout  Relative  To",
-    ""
+    "Specifies whether the callout’s relative position (X and Y offsets) and size are relative to the callout's target component or to the page."
   ],
   "calPos": [
     " Callout position",
@@ -1565,11 +1577,13 @@
   ],
   "flexShrink": [
     "Flex-Shrink",
-    "Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container."
+    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p>
+<p>For more information on flexible items go to: <a href="http://bocoup.com/weblog/dive-into-flexbox/">http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "flexGrow": [
     "Flex-Grow",
-    "Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container."
+    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p>
+<p>For more information on flexible items go to: <a href="http://bocoup.com/weblog/dive-into-flexbox/">http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "vCenter": [
     "V Center",
@@ -1685,7 +1699,7 @@
   ],
   "active": [
     "Active",
-    ""
+    "The Active property sets or returns whether the animation is currently running."
   ],
   "mode": [
     "Mode",
@@ -1793,7 +1807,7 @@
   ],
   "data": [
     "Data",
-    ""
+    "Specifies the table for the repeater to use as the data source."
   ],
   "loop": [
     "Loop",
@@ -1904,7 +1918,7 @@
     ""
   ],
   "color": [
-    "Color",
+    "Font Color",
     "Defines the font color for this component."
   ],
   "start": [
@@ -2720,8 +2734,8 @@
     ""
   ],
   "img.isAnimator": [
-    "Is Animator",
-    ""
+    "Frame Animator",
+    "The Frame Animator property determines whether the image component animates through a specified list of frames. The image defined for the image component is only displayed when the animation is not active, unless it is also defined as an animation frame."
   ],
   "img.frames": [
     "Frames",
@@ -2729,7 +2743,11 @@
   ],
   "img.reverse": [
     "Reverse",
-    ""
+    "<p>The Reverse property determines whether the animation frames are displayed in reverse.</p>
+<p><strong>True</strong><br />
+The topmost frame in the Property Inspector appears first in the animation sequence.</p>
+<p><strong>False</strong><br />
+The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
   ],
   "img.breakApart": [
     "Break Apart",
@@ -3068,8 +3086,8 @@
     ""
   ],
   "datagrid.defaultCellKeepEqualPaddings": [
-    "Default Cell Keep Equal Paddings",
-    ""
+    "Link Paddings",
+    "Links all four padding editors so that their values are equal."
   ],
   "datagrid.gridMode": [
     "Grid Mode",
