@@ -999,7 +999,7 @@
     " Widget  Group",
     ""
   ],
-"scrollbarStyles.width": [
+  "scrollbarStyles.width": [
     "Scrollbar Width",
     ""
   ],
@@ -1113,19 +1113,7 @@
   ],
   "alignContent": [
     "Tile Alignment",
-    "<p>Defines positioning of  the columns and rows containing wrapped elements within this container.</p>
-<p><strong>Flex-start</strong><br />
-Elements positioned at the start of the container.The rows are packed against the top edge, or the columns are packed against the left edge.</p>
-<p><strong>Flex-end</strong><br />
-Elements positioned at the end of the container.The rows are packed against the bottom edge, or the columns are packed against the right edge.</p>
-<p><strong>Center</strong><br />
-Elements positioned at the center.The rows or columns are packed together around the center of the container.</p>
-<p><strong>Space-between</strong><br />
-Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p>
-<p><strong>Space-around</strong><br />
-Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p>
-<p><strong>Stretch</strong><br />
-Elements are stretched to fit the parent container.The rows or columns stretch to fit the parent container.</p>"
+    "<p>Defines positioning of the columns and rows containing wrapped elements within this container.</p><p><strong>Flex-start</strong><br />Elements positioned at the start of the container.The rows are packed against the top edge, or the columns are packed against the left edge.</p><p><strong>Flex-end</strong><br />Elements positioned at the end of the container.The rows are packed against the bottom edge, or the columns are packed against the right edge.</p><p><strong>Center</strong><br />Elements positioned at the center.The rows or columns are packed together around the center of the container.</p><p><strong>Space-between</strong><br />Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p><p><strong>Space-around</strong><br />Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p><p><strong>Stretch</strong><br />Elements are stretched to fit the parent container.The rows or columns stretch to fit the parent container.</p>"
   ],
   "flexWrap": [
     "Wrap",
@@ -1531,7 +1519,7 @@ Elements are stretched to fit the parent container.The rows or columns stretch t
     "Display",
     ""
   ],
-"!label": [
+  "!label": [
     "Name",
     "Defines the display name of this component. This name appears in the Outline and breadcrumbs in DGLux."
   ],
@@ -1585,13 +1573,11 @@ Elements are stretched to fit the parent container.The rows or columns stretch t
   ],
   "flexShrink": [
     "Flex-Shrink",
-    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p>
-<p>For more information on flexible items go to: <a href="http://bocoup.com/weblog/dive-into-flexbox/">http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "flexGrow": [
     "Flex-Grow",
-    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p>
-<p>For more information on flexible items go to: <a href="http://bocoup.com/weblog/dive-into-flexbox/">http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "vCenter": [
     "V Center",
@@ -2751,11 +2737,7 @@ Elements are stretched to fit the parent container.The rows or columns stretch t
   ],
   "img.reverse": [
     "Reverse",
-    "<p>The Reverse property determines whether the animation frames are displayed in reverse.</p>
-<p><strong>True</strong><br />
-The topmost frame in the Property Inspector appears first in the animation sequence.</p>
-<p><strong>False</strong><br />
-The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
+    "<p>The Reverse property determines whether the animation frames are displayed in reverse.</p><p><strong>True</strong><br />The topmost frame in the Property Inspector appears first in the animation sequence.</p><p><strong>False</strong><br />The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
   ],
   "img.breakApart": [
     "Break Apart",
