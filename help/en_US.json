@@ -999,6 +999,10 @@
     " Widget  Group",
     ""
   ],
+"scrollbarStyles.width": [
+    "Scrollbar Width",
+    ""
+  ],
   "@onScroll": [
     "On Scroll",
     ""
