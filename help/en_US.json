@@ -1268,8 +1268,12 @@
     "Shows the callout. You can bind data or properties to this button, or click it as part of a recorded action."
   ],
   "calAnimation": [
-    " Callout  Animation",
+    "Callout Animation",
     ""
+  ],
+"calAnimation.duration": [
+    "Callout Animation Speed",
+    "The duration of the callout display animation in seconds."
   ],
   "calSpeed": [
     " Callout  Speed",
@@ -1807,9 +1811,25 @@
     "Url",
     ""
   ],
-  "tilingOpt": [
-    "Tiling Opt",
-    ""
+  "Image.tilingOpt": [
+    "Tiling/Scaling",
+    "<p>The Tiling/Scaling property determines whether the image tiles or scales within its container.</p><p><strong>No Tiling</strong><br />The image does not tile. An image larger than its container is clipped.</p><p><strong>Tiling</strong><br />The image tiles to fill the container either horizontally, vertically, or both horizontally and vertically.</p><p><strong>Scaling</strong><br />The image scales to the size of the container.</p>"
+  ],
+"Image.tilingOpt.tiling": [
+    "Tiling/Scaling Options",
+    "<p>When Tiling is selected, this property determines whether the image tiles horizontally, vertically, or both horizontally and vertically.</p><p><strong>Repeat</strong><br />The image tiles horizontally and vertically.</p><p><strong>Repeat Horizontally</strong><br />The image tiles horizontally only. One row of tiles appears.</p><p><strong>Repeat Vertically</strong><br />The image tiles vertically only. One column of tiles appears.</p><p>When Scaling is selected, this property determines how the image scales when its container size changes.</p><p><strong>Contain</strong><br />The image scales while maintaining its aspect ratio. Part of the container might be empty.</p><p><strong>Cover</strong><br />The image scales to fill the container while maintaining its aspect ratio. Any part of the image that overflows the container is clipped.</p><p><strong>Stretch</strong><br />The image stretches to cover the container. The image’s aspect ratio is not maintained.</p>"
+  ],
+"tilingOpt.angle": [
+    "Tiling Angle",
+    "If Repeat Horizontally or Repeat Vertically is selected, changing this value causes tiles to repeat along an angle. Valid values are between −45 and 45."
+  ],
+"tilingOpt.hAlign": [
+    "Horizontal Alignment",
+    "<p>The Horizontal Alignment property determines how images or tiles are horizontally aligned.</p><p><strong>Left</strong><br />The leftmost edge of the image or tiles is justified to the left container boundary.</p><p><strong>Center</strong><br />The image or tiles are horizontally centered.</p><p><strong>Right</strong><br />The rightmost edge of the image or tiles is justified to the right container boundary.</p>"
+  ],
+"tilingOpt.vAlign": [
+    "Vertical Alignment",
+    "<p>The Vertical Alignment property determines how tiled images are vertically aligned.</p><p><strong>Top</strong><br />The topmost edge of the image or tiles is justified to the top container boundary.</p><p><strong>Middle</strong><br />The image or tiles are vertically centered.</p><p><strong>Bottom</strong><br />The bottommost edge of the image or tiles is justified to the bottom container boundary.</p>"
   ],
   "gradient": [
     "Gradient",
@@ -1849,7 +1869,7 @@
   ],
   "loop": [
     "Loop",
-    ""
+    "<p>The Loop property determines whether the animation sequence is repeated.</p><p><strong>True</strong><br />As soon as it is complete, the animation starts again.</p><p><strong>False</strong><br />The animation happens once, and then the image defined for the image component is displayed. </p>"
   ],
   "step": [
     "Step",
