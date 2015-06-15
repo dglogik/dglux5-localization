@@ -992,8 +992,8 @@
     "Sets or reflects the string that appears in the Text component."
   ],
   "autoSize": [
-    "Auto Size",
-    ""
+    "Autosize",
+    "Defines whether the Page Include inherits the sizing properties of its .dg5 file, for example a width that is a set number of pixels."
   ],
   "!isWidget": [
     " Widget  Group",
@@ -1769,7 +1769,7 @@
   ],
   "path": [
     "Path",
-    ""
+    "Specifies the relative or absolute URL of the .dg5 file to be used as a Page Include. This lets you use other .dg5 files as components within this file. To specify a file, either type a URL in the field, click the folder to specify a path, or drag a .dg5 file from the Project panel to the field."
   ],
   "strengthBack": [
     "Strength Back",
@@ -2776,20 +2776,20 @@
     ""
   ],
   "img.!numFrames": [
-    "Num Frames",
-    ""
+    "Total Frames",
+    "The Total Frames is the number of frames in the animation, not including the image. This is a read-only property, thus changing it manually does nothing. Add frames by clicking the Add button."
   ],
   "img.frameIndex": [
     "Frame Index",
-    ""
+    "The Frame is the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on."
   ],
   "img.@onComplete": [
     "On Complete",
     ""
   ],
   "img.intervalMillis": [
-    "Interval Millis",
-    ""
+    "Interval",
+    "The Interval is the length of time that each frame is displayed, in seconds."
   ],
   "img.isAnimator": [
     "Frame Animator",
@@ -2797,7 +2797,7 @@
   ],
   "img.frames": [
     "Frames",
-    ""
+    "The Frames are the paths to each of the frames in the animation sequence. Click Add to add frames, and then specify an image path for each frame."
   ],
   "img.reverse": [
     "Reverse",
@@ -2805,11 +2805,11 @@
   ],
   "img.breakApart": [
     "Break Apart",
-    ""
+    "Separates an SVG into its component vectors to allow you to edit an SVG within DGLux."
   ],
   "iframe.scrolling": [
-    "Scrolling",
-    ""
+    "Iframe Scrolling",
+    "Specifies whether scrolling is enabled on the IFrame component. If this is disabled, then content that overflows the component is clipped."
   ],
   "iframe.refresh": [
     "Refresh",
@@ -2857,7 +2857,7 @@
   ],
   "map.mapControls": [
     "Map Controls",
-    ""
+    "Defines whether to show map controls, allowing the user to manipulate the map."
   ],
   "map.weatherLayer": [
     "Weather Layer",
@@ -2869,23 +2869,31 @@
   ],
   "map.trafficLayer": [
     "Traffic Layer",
-    ""
+    "Defines whether to show the Google Maps Traffic Layer on the map."
   ],
   "map.mapType": [
     "Map Type",
-    ""
+    "<p>Defines the type of Google Map to be displayed in the component.</p><p><strong>Roadmap</strong><br />The default road map view.</p><p><strong>Satellite</strong><br />Google Earth satellite images.</p><p><strong>Hybrid</strong><br />A mixture of road map and satellite images.</p><p><strong>Terrain</strong><br />A physical map based on terrain data.</p>"
   ],
   "map.temperatureUnit": [
     "Temperature Unit",
     ""
   ],
   "map.latField": [
-    "Lat Field",
-    ""
+    "Latitude Field",
+    "Defines the column in your table that contains latitude data."
   ],
   "map.lngField": [
-    "Lng Field",
-    ""
+    "Longitude Field",
+    "Defines the column in your table that contains longitude data."
+  ],
+"Google_Map.symbol": [
+    "Symbol",
+    "Defines the symbol to be used as a location marker. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+  ],
+"Google_Map.data": [
+    "Data",
+    "Defines the table from which latitude and longitude data for location markers can be determined."
   ],
   "map.imagePattern": [
     "Image Pattern",
