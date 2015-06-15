@@ -1811,11 +1811,11 @@
     "Url",
     ""
   ],
-  "Image.tilingOpt": [
+  "tilingOpt": [
     "Tiling/Scaling",
     "<p>The Tiling/Scaling property determines whether the image tiles or scales within its container.</p><p><strong>No Tiling</strong><br />The image does not tile. An image larger than its container is clipped.</p><p><strong>Tiling</strong><br />The image tiles to fill the container either horizontally, vertically, or both horizontally and vertically.</p><p><strong>Scaling</strong><br />The image scales to the size of the container.</p>"
   ],
-"Image.tilingOpt.tiling": [
+"tilingOpt.tiling": [
     "Tiling/Scaling Options",
     "<p>When Tiling is selected, this property determines whether the image tiles horizontally, vertically, or both horizontally and vertically.</p><p><strong>Repeat</strong><br />The image tiles horizontally and vertically.</p><p><strong>Repeat Horizontally</strong><br />The image tiles horizontally only. One row of tiles appears.</p><p><strong>Repeat Vertically</strong><br />The image tiles vertically only. One column of tiles appears.</p><p>When Scaling is selected, this property determines how the image scales when its container size changes.</p><p><strong>Contain</strong><br />The image scales while maintaining its aspect ratio. Part of the container might be empty.</p><p><strong>Cover</strong><br />The image scales to fill the container while maintaining its aspect ratio. Any part of the image that overflows the container is clipped.</p><p><strong>Stretch</strong><br />The image stretches to cover the container. The image’s aspect ratio is not maintained.</p>"
   ],
