@@ -2940,12 +2940,12 @@
     ""
   ],
   "calendar.prevArrowSymbol": [
-    "Previous Arrow Glyph",
-    "<p>Defines the text or the glyph used for the previous month arrow.</p><p>You can find more information on glyphs <a href='https://en.wikipedia.org/?title=Glyph'>here</a>.</p>"
+    "Previous Button Glyph",
+    "<p>Defines the text or the glyph used for the previous month button.</p><p>You can find more information on glyphs <a href='https://en.wikipedia.org/?title=Glyph'>here</a>.</p>"
   ],
   "calendar.nextArrowSymbol": [
-    "Next Arrow Symbol",
-    ""
+    "Next Button Glyph",
+    "<p>Defines the text or the glyph used for the next month button.</p><p>You can find more information on glyphs <a href='https://en.wikipedia.org/?title=Glyph'>here</a>.</p>"
   ],
   "calendar.currentMonth": [
     "Current Month",
@@ -2958,6 +2958,9 @@
   "calendar.arrowFontFamily": [
     "Arrow Font Family",
     ""
+  ],"daterange.nextRange": [
+    "Next Value",
+    "test"
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
