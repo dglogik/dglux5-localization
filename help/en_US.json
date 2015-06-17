@@ -413,15 +413,15 @@
   ],
   "markerStrokeStyle": [
     "Marker Stroke Style",
-    ""
+    "Defines the border stroke style for standard markers."
   ],
   "seriesType": [
     "Series Type",
-    ""
+    "<p>Defines how the series data is visually represented.</p><p><strong>Line series</strong><br />Markers represent the data points. These markers are connected with lines.</p><p><strong>Area series</strong><br />Markers represent the data points. These markers are connected with lines, and the area delimited by the lines is filled in.</p><p><strong>Bar series</strong><br />Horizontal bars represent the data points.</p><p><strong>Column series</strong><br />Vertical columns represent the data points.</p>"
   ],
   "dataTipSymbolId": [
-    "Data Tip Symbol Id",
-    ""
+    "Data Tip Renderer",
+    "Specifies the symbol to use as the datatip for the series. This property overrides any text entered in the Datatip property. To use a symbol from this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
   ],
   "dgDataTip": [
     "Dg Data Tip",
@@ -429,27 +429,29 @@
   ],
   "showDataTips": [
     "Show Data Tips",
-    ""
+    "Defines whether datatips are displayed when the user mouses over data points."
   ],
   "markerStrokeWidth": [
-    "Marker Stroke Width",
-    ""
+    "Marker Stroke Weight",
+    "Defines the border stroke weight, in pixels, for standard markers."
   ],
   "markerStroke": [
     "Marker Stroke",
-    ""
+    "Defines the border stroke color for standard markers."
   ],
   "markerFill": [
     "Marker Fill",
-    ""
+    "Defines the fill for standard markers."
   ],
   "markersType": [
-    "Markers Type",
-    ""
+    "Markers",
+    "<p>Defines the type of markers that represent data points in the series.</p><p><strong>None</strong><br />No markers are used.</p>
+<p><strong>Standard</strong><br />DGLux’s standard marker design is used.</p><p><strong>Custom</strong><br />Create your own marker design as a symbol.</p>"
   ],
   "form": [
-    "Form",
-    ""
+    "Line Form",
+    "<p>Defines the shape of the lines in a line or area series.</p><p><strong>Segment</strong><br />Markers are connected with line segments.</p><p><strong>Step</strong><br />Markers are connected with orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.</p><p><strong>ReverseStep</strong><br />Data points are connected with orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.</p><p><strong>Vertical</strong><br />
+Only the vertical segments from a Step line form are displayed.</p><p><strong>Horizontal</strong><br />Only the horizontal segments from a Step line form are displayed.</p><p><strong>Curve</strong><br />Markers are connected with a curve.</p>"
   ],
   "titleLetterSpacing": [
     "Title Letter Spacing",
@@ -531,6 +533,10 @@
     "Label Gap",
     ""
   ],
+"axis.title": [
+    "Axis Title",
+    "Defines the title text for the axis. This text appears as an axis title label."
+  ],
   "axisStrokeStyle": [
     "Axis Stroke Style",
     ""
@@ -552,8 +558,8 @@
     ""
   ],
   "dgDataProvider": [
-    "Dg Data Provider",
-    ""
+    "Data Source",
+    "Specifies the table that this series uses as the data source."
   ],
   "inverted": [
     "Inverted",
@@ -593,7 +599,7 @@
   ],
   "displayName": [
     "Display Name",
-    ""
+    "Defines the display name of this series. You can choose to have this name appear in your interface, for example in datatips."
   ],
   "title": [
     "Title",
@@ -873,27 +879,27 @@
   ],
   "showRange": [
     "Show Range",
-    ""
+    "Specifies whether the component includes an option to choose a starting date/time and ending date/time."
   ],
   "showYear": [
     "Show Year",
-    ""
+    "Specifies whether the component includes an option to choose a calendar year."
   ],
   "showMonth": [
     "Show Month",
-    ""
+    "Specifies whether the component includes an option to choose a calendar month."
   ],
   "showRelative": [
     "Show Relative",
-    ""
+    "Specifies whether the component includes an option to choose a date range relative to the current date."
   ],
   "showWeek": [
     "Show Week",
-    ""
+    "Specifies whether the component includes an option to choose a week beginning on Sunday and ending on Saturday."
   ],
   "showDay": [
     "Show Day",
-    ""
+    "Specifies whether the component includes an option to choose a day."
   ],
   "firstDow": [
     "First Day of Week",
@@ -909,15 +915,15 @@
   ],
   "yField": [
     "Y Field",
-    ""
+    "Specifies the table column that is mapped to the y-axis for this series."
   ],
   "xField": [
     "X Field",
-    ""
+    "Specifies the table column that is mapped to the x-axis for this series."
   ],
   "radius": [
     "Radius",
-    "Defines the radius of each item on the heat map."
+    "Defines the radius of each item on this component."
   ],
   "longitude": [
     "Longitude",
@@ -2143,31 +2149,39 @@
     "Weekday",
     ""
   ],
-  "dateRange.nextRange": [
-    "Next Range",
-    ""
+"daterange.format": [
+    "Date Fromat String",
+    "<p>Defines the date format used by the component, as a date format string — for example, “yyyy-MM-ddTHH:mm:ss”.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
-  "dateRange.thisRange": [
-    "This Range",
-    ""
+  "daterange.nextRange": [
+    "Next Value",
+    "Returns the next chronological date range after the currently selected date range."
   ],
-  "dateRange.previousRange": [
-    "Previous Range",
-    ""
+  "daterange.thisRange": [
+    "This Value",
+    "Returns the currently selected date range."
   ],
-  "dateRange.next": [
-    "Next",
-    ""
+  "daterange.previousRange": [
+    "Previous Value",
+    "Returns the previous chronological date range before the currently selected date range."
   ],
-  "dateRange.previous": [
-    "Previous",
-    ""
+  "daterange.next": [
+    "Next Daterange",
+    "Changes the currently selected value to the next chronological value. For example, if January 2016 is selected, this action changes the selection to February 2016."
   ],
-  "dateRange.rangeDelimiter": [
+  "daterange.previous": [
+    "Previous Daterange",
+    "Changes the currently selected value to the previous chronological value. For example, if January 2016 is selected, this action changes the selection to December 2015."
+  ],
+"daterange.duration": [
+    "Daterange Duration",
+    "The duration of the currently selected date range, in milliseconds."
+  ],
+  "daterange.rangeDelimiter": [
     "Range Delimiter",
-    ""
+    "Specifies the delimiter used between the start date and end date of the range."
   ],
-  "dateRange.keepSpecial": [
+  "daterange.keepSpecial": [
     "Keep Special",
     ""
   ],
@@ -2958,9 +2972,6 @@
   "calendar.arrowFontFamily": [
     "Arrow Font Family",
     ""
-  ],"daterange.nextRange": [
-    "Next Value",
-    "test"
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
@@ -2976,7 +2987,7 @@
   ],
   "daterangePicker.buttonFontSize": [
     "Button Font Size",
-    ""
+    "Defines the font size for buttons within the component."
   ],
   "daterangePicker.buttonFontStyle": [
     "Button Font Style",
@@ -2996,19 +3007,19 @@
   ],
   "daterangePicker.buttonBackground": [
     "Button Background",
-    ""
+    "Defines the fill for buttons within the component that are not currently active (selected) or moused-over."
   ],
   "daterangePicker.buttonBackgroundActive": [
     "Button Background Active",
-    ""
+    "Defines the fill for active (selected) buttons within the component."
   ],
   "daterangePicker.buttonBackgroundOver": [
     "Button Background Over",
-    ""
+    "Defines the fill for moused-over buttons within the component."
   ],
   "daterangePicker.buttonBorder": [
     "Button Border",
-    ""
+    "Defines the border color for all buttons within the component."
   ],
   "daterangePicker.buttonBorderWidth": [
     "Button Border Width",
