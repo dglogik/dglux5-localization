@@ -36,7 +36,7 @@
     ""
   ],
   "outOfMonthStyle ": [
-    "Out Of Month Style ",
+    "Out of Month Style ",
     ""
   ],
   "weekendStyle": [
@@ -44,7 +44,7 @@
     ""
   ],
   "dowStyle": [
-    "Dow Style",
+    "Day of Week Style",
     ""
   ],
   "titleStyle": [
@@ -60,8 +60,8 @@
     ""
   ],
   "todayCornerRadius": [
-    "Corner Radius",
-    ""
+    "Today Corner Radius",
+    "Defines the corner radius for out of month cells. A value of 0 means that corners are not rounded."
   ],
   "todayFontStyle": [
     "Today Font Style",
@@ -73,59 +73,59 @@
   ],
   "todayFontSize": [
     "Today Font Size",
-    ""
+    "Defines the font size to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontColor": [
     "Today Font Color",
-    ""
+    "Defines the font color to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontFamily": [
     "Today Font Family",
     ""
   ],
   "todayBorder": [
-    "Today Border",
-    ""
+    "Today Stroke Color",
+    "Defines the stroke color for strokes outlining the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayBackground": [
-    "Today Background",
-    ""
+    "Today Fill",
+    "Defines the fill for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "outOfMonthCornerRadius": [
-    "Corner Radius",
-    ""
+    "Out of Month Corner Radius",
+    "Defines the corner radius for few days that show on the current calendar page but are outside the month depicted. A value of 0 means that corners are not rounded."
   ],
   "outOfMonthFontStyle": [
-    "Out Of Month Font Style",
+    "Out of Month Font Style",
     ""
   ],
   "outOfMonthFontWeight": [
-    "Out Of Month Font Weight",
+    "Out of Month Font Weight",
     ""
   ],
   "outOfMonthFontSize": [
-    "Out Of Month Font Size",
-    ""
+    "Out of Month Font Size",
+    "Defines the font size to be used for numbers in out of month cells."
   ],
   "outOfMonthFontColor": [
-    "Out Of Month Font Color",
-    ""
+    "Out of Month Font Color",
+    "Defines the font color to be used for the days that show on the current calendar page but are outside the month depicted. Selected cells style properties take precedence over out of month cell properties."
   ],
   "outOfMonthFontFamily": [
-    "Out Of Month Font Family",
+    "Out of Month Font Family",
     ""
   ],
   "outOfMonthBorder": [
-    "Out Of Month Border",
-    ""
+    "Out of Month Stroke Color",
+    "Defines the stroke color for strokes outlining the few days that show on the current calendar page but are outside the month depicted."
   ],
   "outOfMonthBackground": [
-    "Out Of Month Background",
-    ""
+    "Out of Month Fill",
+    "Defines the fill for few days that show on the current calendar page but are outside the month depicted."
   ],
   "weekendCornerRadius": [
-    "Corner Radius",
-    ""
+    "Weekend Corner Radius",
+    "Defines the corner radius for weekend cells. A value of 0 means that corners are not rounded."
   ],
   "weekendFontStyle": [
     "Weekend Font Style",
@@ -137,66 +137,66 @@
   ],
   "weekendFontSize": [
     "Weekend Font Size",
-    ""
+    "Defines the font size to be used for numbers in weekend cells."
   ],
   "weekendFontColor": [
     "Weekend Font Color",
-    ""
+    "Defines the font color to be used for numbers in weekend cells."
   ],
   "weekendFontFamily": [
     "Weekend Font Family",
     ""
   ],
   "weekendBorder": [
-    "Weekend Border",
-    ""
+    "Weekend Stroke Color",
+    "Defines the stroke color for strokes outlining weekend cells."
   ],
   "weekendBackground": [
-    "Weekend Background",
-    ""
+    "Weekend Fill",
+    "Defines the fill for weekend cells."
   ],
   "dowCornerRadius": [
-    "Corner Radius",
-    ""
+    "Day of Week Corner Radius",
+    "Defines the corner radius for the cells containing the names of the days of the week. A value of 0 means that corners are not rounded."
   ],
   "dowFontStyle": [
-    "Dow Font Style",
+    "Day of Week Font Style",
     ""
   ],
   "dowFontWeight": [
-    "Dow Font Weight",
+    "Day of Week Font Weight",
     ""
   ],
   "dowFontSize": [
-    "Dow Font Size",
-    ""
+    "Day of Week Font Size",
+    "Defines the font size to be used for the names of the days of the week."
   ],
   "dowFontColor": [
-    "Dow Font Color",
-    ""
+    "Day of Week Font Color",
+    "Defines the font color to be used for the names of the days of the week."
   ],
   "dowFontFamily": [
-    "Dow Font Family",
+    "Day of Week Font Family",
     ""
   ],
   "dowBorder": [
-    "Dow Border",
-    ""
+    "Day of Week Stroke Color",
+    "Defines the stroke color for strokes outlining the cells that contain the names of the days of the week."
   ],
   "dowBackground": [
-    "Dow Background",
-    ""
+    "Day of Week Fill",
+    "Defines the fill for the cells containing the names of the days of the week."
   ],
   "titleFontColor": [
     "Title Font Color",
     ""
   ],
   "titleBorder": [
-    "Title Border",
+    "Title Stroke Color",
     ""
   ],
   "titleBackground": [
-    "Title Background",
+    "Title Fill",
     ""
   ],
   "highlightedCornerRadius": [
@@ -232,8 +232,8 @@
     ""
   ],
   "selectedCornerRadius": [
-    "Corner Radius",
-    ""
+    "Selected Corner Radius",
+    "Defines the corner radius for selected cells. A value of 0 means that corners are not rounded."
   ],
   "selectedFontStyle": [
     "Selected Font Style",
@@ -245,55 +245,55 @@
   ],
   "selectedFontSize": [
     "Selected Font Size",
-    ""
+    "Defines the font size for numbers in selected cells."
   ],
   "selectedFontColor": [
     "Selected Font Color",
-    ""
+    "Defines the font color for numbers in selected cells."
   ],
   "selectedFontFamily": [
     "Selected Font Family",
     ""
   ],
   "selectedBorder": [
-    "Selected Border",
-    ""
+    "Selected Stroke Color",
+    "Defines the stroke color for outlining selected cells."
   ],
   "selectedBackground": [
-    "Selected Background",
-    ""
+    "Selected Fill",
+    "Defines the fill for selected cells."
   ],
   "normalCornerRadius": [
-    "Corner Radius",
+    "Weekday Corner Radius",
     "Defines the corner radius for weekday cells. A value of 0 means that corners are not rounded."
   ],
   "normalFontStyle": [
-    "Normal Font Style",
+    "Weekday Font Style",
     ""
   ],
   "normalFontWeight": [
-    "Normal Font Weight",
+    "Weekday Font Weight",
     ""
   ],
   "normalFontSize": [
-    "Normal Font Size",
+    "Weekday Font Size",
     "Defines the font size for numbers in weekday cells."
   ],
   "normalFontColor": [
-    "Normal Font Color",
+    "Weekday Font Color",
     "Defines the font color for numbers in weekday cells."
   ],
   "normalFontFamily": [
-    "Normal Font Family",
+    "Weekday Font Family",
     ""
   ],
   "normalBorder": [
-    "Normal Border",
-    ""
+    "Weekday Stroke Color",
+    "Defines the stroke color for outlining each weekday cell."
   ],
   "normalBackground": [
-    "Normal Background",
-    ""
+    "Weekday Fill",
+    "Defines the fill for weekday cells."
   ],
   "calendarSpacingHorizontal": [
     "Horizontal Spacing",
@@ -320,7 +320,7 @@
     "Defines a number of pixels of space between the top edge of the date cells, and the header of the calendar."
   ],
   "titleHeight": [
-    "Title Height",
+    "Header Height",
     ""
   ],
   "additionalColumns": [
@@ -468,8 +468,8 @@
     ""
   ],
   "titleFontSize": [
-    "Title Font Size",
-    ""
+    "Header Font Size",
+    "Defines the font size used for the month and year text in the calendar header."
   ],
   "titleFontFamily": [
     "Title Font Family",
@@ -1744,7 +1744,7 @@
     "The Active property sets or returns whether the animation is currently running."
   ],
   "mode": [
-    "Mode",
+    "Selection Mode",
     "<p>Determines the selection mode for the component.</p><p><strong>Day</strong><br />The user can select one day.</p><p><strong>Week</strong><br />The user can select one week. Selecting any date selects a week that includes that date. The week selected starts on a Sunday and ends on a Saturday, regardless of the currently selected First Day of Week. </p><p><strong>Month</strong><br />The user can select one month. Selecting any date selects its entire calendar month.</p>"
   ],
   "filter": [
@@ -2940,8 +2940,8 @@
     ""
   ],
   "calendar.prevArrowSymbol": [
-    "Prev Arrow Symbol",
-    ""
+    "Previous Arrow Glyph",
+    "<p>Defines the text or the glyph used for the previous month arrow.</p><p>You can find more information on glyphs <a href='https://en.wikipedia.org/?title=Glyph'>here</a>.</p>"
   ],
   "calendar.nextArrowSymbol": [
     "Next Arrow Symbol",
