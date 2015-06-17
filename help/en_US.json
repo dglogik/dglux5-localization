@@ -265,7 +265,7 @@
   ],
   "normalCornerRadius": [
     "Corner Radius",
-    ""
+    "Defines the corner radius for weekday cells. A value of 0 means that corners are not rounded."
   ],
   "normalFontStyle": [
     "Normal Font Style",
@@ -277,11 +277,11 @@
   ],
   "normalFontSize": [
     "Normal Font Size",
-    ""
+    "Defines the font size for numbers in weekday cells."
   ],
   "normalFontColor": [
     "Normal Font Color",
-    ""
+    "Defines the font color for numbers in weekday cells."
   ],
   "normalFontFamily": [
     "Normal Font Family",
@@ -296,28 +296,28 @@
     ""
   ],
   "calendarSpacingHorizontal": [
-    "Calendar Spacing Horizontal",
-    ""
+    "Horizontal Spacing",
+    "Defines the amount of empty space, in pixels, between columns in the calendar."
   ],
   "calendarSpacingVertical": [
-    "Calendar Spacing Vertical",
-    ""
+    "Vertical Spacing",
+    "Defines the amount of empty space, in pixels, between rows in the calendar."
   ],
   "calendarPaddingRight": [
-    "Calendar Padding Right",
-    ""
+    "Right Padding",
+    "Defines a number of pixels of space between the right edge of the date cells, and the border of the calendar component."
   ],
   "calendarPaddingLeft": [
-    "Calendar Padding Left",
-    ""
+    "Left Padding",
+    "Defines a number of pixels of space between the left edge of the date cells, and the border of the calendar component."
   ],
   "calendarPaddingBottom": [
-    "Calendar Padding Bottom",
-    ""
+    "Bottom Padding",
+    "Defines a number of pixels of space between the bottom edge of the date cells, and the border of the calendar component."
   ],
   "calendarPaddingTop": [
-    "Calendar Padding Top",
-    ""
+    "Top Padding",
+    "Defines a number of pixels of space between the top edge of the date cells, and the header of the calendar."
   ],
   "titleHeight": [
     "Title Height",
@@ -896,16 +896,16 @@
     ""
   ],
   "firstDow": [
-    "First Dow",
-    ""
+    "First Day of Week",
+    "Defines the day of the week that appears in the leftmost column of the calendar."
   ],
   "dowNames": [
-    "Dow Names",
-    ""
+    "Day of Week Names",
+    "Defines the day of the week names that appear on the calendar, as a comma-separated list of 7 values. The first value is mapped to Monday and the last value to Sunday, regardless of the currently selected First Day of Week. Must be 7 values in order for defined names to take effect."
   ],
   "monthNames": [
     "Month Names",
-    ""
+    "Defines the month names that appear on the calendar, as a comma-separated list of 12 values. The first value is displayed for January, and the last is displayed for December. Must be 12 values in order for defined names to take effect."
   ],
   "yField": [
     "Y Field",
@@ -1745,7 +1745,7 @@
   ],
   "mode": [
     "Mode",
-    ""
+    "<p>Determines the selection mode for the component.</p><p><strong>Day</strong><br />The user can select one day.</p><p><strong>Week</strong><br />The user can select one week. Selecting any date selects a week that includes that date. The week selected starts on a Sunday and ends on a Saturday, regardless of the currently selected First Day of Week. </p><p><strong>Month</strong><br />The user can select one month. Selecting any date selects its entire calendar month.</p>"
   ],
   "filter": [
     "Filter",
@@ -2913,7 +2913,7 @@
   ],
   "heatMap.falloff": [
     "Falloff",
-    ""
+    "Defines the percentage of each heat map item that is covered by the highest intensity color for that shape. The specified inner portion of the shape is covered by the color representing the intensity of the data point. If falloff is less than 100%, then the outer portion of the shape blends from the color of this intensity value to the color of an intensity value of zero."
   ],
   "heatMap.dataField": [
     "Data Field",
@@ -2929,11 +2929,11 @@
   ],
   "calendar.selectedDays": [
     "Selected Days",
-    ""
+    "Sets or returns the currently selected date range as a comma-separated list."
   ],
   "calendar.noSelectFutureDate": [
-    "No Select Future Date",
-    ""
+    "Disable Selection of Future Dates",
+    "Determines whether it is possible for the user to select future dates. If Selection Mode is set to Week or Month, the user can select the current week or month even if it contains future dates."
   ],
   "calendar.highlightedDays": [
     "Highlighted Days",
@@ -2949,11 +2949,11 @@
   ],
   "calendar.currentMonth": [
     "Current Month",
-    ""
+    "Sets or returns the month of the current calendar page."
   ],
   "calendar.currentYear": [
     "Current Year",
-    ""
+    "Sets or returns the year of the current calendar page."
   ],
   "calendar.arrowFontFamily": [
     "Arrow Font Family",
