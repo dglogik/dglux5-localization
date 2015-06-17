@@ -917,7 +917,7 @@
   ],
   "radius": [
     "Radius",
-    ""
+    "Defines the radius of each item on the heat map."
   ],
   "longitude": [
     "Longitude",
@@ -1832,8 +1832,8 @@
     "<p>The Vertical Alignment property determines how tiled images are vertically aligned.</p><p><strong>Top</strong><br />The topmost edge of the image or tiles is justified to the top container boundary.</p><p><strong>Middle</strong><br />The image or tiles are vertically centered.</p><p><strong>Bottom</strong><br />The bottommost edge of the image or tiles is justified to the bottom container boundary.</p>"
   ],
   "gradient": [
-    "Gradient",
-    ""
+    "Gradient Fill",
+    "Defines the three colors for the heat map gradient. The left color indicates the lowest intensity, the middle color indicates medium intensity, and the right color indicates the highest intensity."
   ],
   "selector": [
     "Selector",
@@ -2817,27 +2817,27 @@
   ],
   "video.controls": [
     "Controls",
-    ""
+    "Specifies whether video controls are shown to the user."
   ],
   "video.autoplay": [
     "Autoplay",
-    ""
+    "Defines whether the video starts playing automatically when the video player element is loaded on the page."
   ],
   "video.play": [
     "Play",
-    ""
+    "Plays the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.pause": [
     "Pause",
-    ""
+    "Pauses the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.stop": [
     "Stop",
-    ""
+    "Stops the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.restart": [
     "Restart",
-    ""
+    "Restarts the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.@onEnded": [
     "On Ended",
@@ -2845,7 +2845,7 @@
   ],
   "video.volume": [
     "Volume",
-    ""
+    "Changes the video player’s volume. You can bind to this property, or modify it as part of a recorded action."
   ],
   "map.apikey": [
     "Apikey",
@@ -2909,7 +2909,7 @@
   ],
   "heatMap.showLegend": [
     "Show Legend",
-    ""
+    "Defines whether to show a simple legend in the heat map component."
   ],
   "heatMap.falloff": [
     "Falloff",
@@ -3249,11 +3249,11 @@
   ],
   "datagrid.sortOrder": [
     "Sort Order",
-    ""
+    "<p>Defines whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for the data grid component and edit the sort block.</p>"
   ],
   "datagrid.sortColumn": [
     "Sort Column",
-    ""
+    "Defines which column to use to sort the data, using the column name. Only works if the column has the Sortable property enabled."
   ],
   "datagrid.headerPaddingTop": [
     "Header Padding Top",
