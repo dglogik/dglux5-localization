@@ -2151,7 +2151,7 @@ Only the vertical segments from a Step line form are displayed.</p><p><strong>Ho
   ],
 "daterange.format": [
     "Date Fromat String",
-    "<p>Defines the date format used by the component, as a date format string — for example, “yyyy-MM-ddTHH:mm:ss”.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
+    "<p>Defines the date format used by the component, as a date format string — for example, \“yyyy-MM-ddTHH:mm:ss\”.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
   "daterange.nextRange": [
     "Next Value",
