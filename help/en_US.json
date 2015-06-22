@@ -480,8 +480,8 @@
     ""
   ],
   "divLabels": [
-    "Use &#60;div&#61; Labels",
-    "Defines whether the labels along an axis are coded as &#60;div&#61 elements, thereby allowing multi-line text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
+    "Use div Labels",
+    "Defines whether the labels along an axis are coded as &#60;div&#62 elements, thereby allowing multi-line text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
   ],
   "labelRotation": [
     "Label Rotation",
