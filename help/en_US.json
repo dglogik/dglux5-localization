@@ -3028,6 +3028,10 @@
     "Button Border Style",
     ""
   ],
+    "Data_Grid.data": [
+    "Table",
+    "Defines the table that feeds this data grid."
+  ],
   "datagrid.rowHeight": [
     "Row Height",
     ""
