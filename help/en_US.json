@@ -788,8 +788,8 @@
     ""
   ],
   "placement": [
-    "Axis Placement",
-    "<p>For a vertical axis, defines whether the axis is positionined on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p>"
+    "Axis or Track Placement",
+    "<p>For a vertical axis, defines whether the axis is positionined on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, defines whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
   ],
   "labelsLetterSpacing": [
     "Labels Letter Spacing",
@@ -821,19 +821,19 @@
   ],
   "maximum": [
     "Maximum",
-    ""
+    "Defines the highest number on the scale."
   ],
   "minimum": [
     "Minimum",
-    ""
+    "Defines the lowest number on the scale."
   ],
   "majorTicksCount": [
-    "Major Ticks Count",
-    ""
+    "Major Tick Count",
+    "Defines the total number of major ticks along the scale."
   ],
   "percentRadius": [
     "Percent Radius",
-    ""
+    "Defines the radius of the circle that defines the scale, as a percentage of either the width or height of the container, whichever is larger."
   ],
   "percentOriginY": [
     "Percent Origin Y",
@@ -844,12 +844,12 @@
     ""
   ],
   "angleTo": [
-    "Angle To",
-    ""
+    "Start Angle",
+    "Defines the start angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "angleFrom": [
-    "Angle From",
-    ""
+    "End Angle",
+    "Defines the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "minorTickStrokeWidth": [
     "Minor Tick Stroke Width",
@@ -861,15 +861,15 @@
   ],
   "offsetRight": [
     "Offset Right",
-    ""
+    "Defines the distance between the right side of a linear scale and the container bounds."
   ],
   "offsetLeft": [
     "Offset Left",
-    ""
+    "Defines the distance between the left side of a linear scale and the container bounds."
   ],
   "scaleType": [
     "Scale Type",
-    ""
+    "Specifies whether the shape of the scale is defined by a circle or a straight line."
   ],
   "showFullTime": [
     "Show Full Time",
@@ -1837,7 +1837,7 @@
   ],
   "gradient": [
     "Gradient Fill",
-    "Defines the three colors for the heat map gradient. The left color indicates the lowest intensity, the middle color indicates medium intensity, and the right color indicates the highest intensity."
+    "<p>Defines the colors for a gradient fill, for example for a heat map or a scale track. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
   ],
   "selector": [
     "Selector",
@@ -1865,7 +1865,7 @@
   ],
   "field": [
     "Column",
-    ""
+    "Defines the table column that contains the pie chart series data that determines wedge size."
   ],
   "data": [
     "Data",
@@ -3553,31 +3553,31 @@
   ],
   "scaleTicks.ticksPlacement": [
     "Ticks Placement",
-    ""
+    "Specifies whether the ticks are positioned on the inside, outside, or center of the circle or line that defines the scale."
   ],
   "scaleTicks.majorTickStroke": [
-    "Major Tick Stroke",
-    ""
+    "Major Tick Stroke Color",
+    "Defines the stroke color of the major ticks."
   ],
   "scaleTicks.majorTickStrokeWidth": [
     "Major Tick Stroke Width",
-    ""
+    "Defines the stroke weight of each major tick."
   ],
   "scaleTicks.majorTicksPercentLength": [
-    "Major Ticks Percent Length",
-    ""
+    "Major Tick Length",
+    "Defines the length of each major tick, as a pixel value or a percentage. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
   ],
   "scaleTicks.minorTicksCount": [
-    "Minor Ticks Count",
-    ""
+    "Minor Tick Count",
+    "Defines the number of minor ticks between each consecutive pair of major ticks."
   ],
   "scaleTicks.minorTicksPercentLength": [
-    "Minor Ticks Percent Length",
-    ""
+    "Minor Tick Length",
+    "Defines the length of each minor tick, as a pixel value or a percentage. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
   ],
   "scaleLabels.showMinMaxOnly": [
     "Show Min Max Only",
-    ""
+    "Defines whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
   ],
   "scaleLabels.percentTextSize": [
     "Percent Text Size",
@@ -3588,12 +3588,12 @@
     ""
   ],
   "scaleTrack.percentStartThickness": [
-    "Percent Start Thickness",
-    ""
+    "Start Thickness",
+    "Defines the thickness of the scale track at its start, as a pixel or percentage value. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
   ],
   "scaleTrack.percentEndThickness": [
-    "Percent End Thickness",
-    ""
+    "End Thickness",
+    "Defines the thickness of the scale track at its end, as a pixel or percentage value. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
   ],
   "textEditor.ignoreDefaultStyle": [
     "Ignore Default Style",
@@ -3812,16 +3812,16 @@
     ""
   ],
   "pieSeries.calloutStroke": [
-    "Callout Stroke",
-    ""
+    "Callout Stroke Color",
+    "Defines the stroke color for the wedge callout lines."
   ],
   "pieSeries.calloutStrokeWidth": [
     "Callout Stroke Width",
-    ""
+    "Defines the stroke weight for the wedge callout lines."
   ],
   "pieSeries.calloutStrokeStyle": [
     "Callout Stroke Style",
-    ""
+    "Defines the stroke type for the wedge callout lines."
   ],
   "pieSeries.labelPosition": [
     "Label Position",
