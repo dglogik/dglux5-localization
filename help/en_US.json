@@ -531,7 +531,7 @@
     "Label Gap",
     ""
   ],
-"axis.title": [
+  "axis.title": [
     "Axis Title",
     "Defines the title text for this axis. This text appears as an axis title label."
   ],
@@ -602,6 +602,50 @@
   "title": [
     "Title",
     ""
+  ],
+  "zoomerMode": [
+    "Zoomer Mode",
+    "<p>Sets or returns the Zoomer Mode of the chart. </p><p>Zoomer Modes allow the user to zoom in by dragging a marquee, and zoom out by clicking on the chart. Zoomer Modes work only with linear, log, and datetime axes. When any Zoomer Mode is enabled, both horizontal and vertical ranges can also be defined in the Property Inspector.</p>\n<p><strong>None</strong><br />\nNo zooming is enabled.</p>\n<p><strong>Horizontal</strong><br />\nThe user can zoom in to a specific horizontal range. The user cannot change the vertical zoom by dragging.</p><p><strong>Vertical</strong><br />\nThe user can zoom in to a specific vertical range. The user cannot change the horizontal zoom by dragging.</p><p><strong>Both</strong><br />\nThe user can zoom in to a specific horizontal and vertical range.</p>"
+  ],
+  "hZoomMin": [
+    "Horizontal Zoom Minimum",
+    "<p>Sets or returns the minimum of the range on the horizontal axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen.</p><p>Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\".</p>"
+  ],
+  "hZoomMax": [
+    "Horizontal Zoom Maximum",
+    "<p>Sets or returns the maximum of the range on the horizontal axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen.</p><p>Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\".</p>"
+  ],
+  "hZoomTrigger": [
+    "Horizontal Zoom Trigger",
+    "Zooms the chart to the range specified by the Horizontal Zoom Minimum and Maximum. To return the chart to its pre-zoom view, the user can click on the chart. Zooming works only with linear, log, and datetime axes."
+  ],
+  "vZoomMin": [
+    "Vertical Zoom Minimum",
+    "<p>Sets or returns the minimum of the range on the vertical axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen.</p><p>Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\".</p>"
+  ],
+  "vZoomMax": [
+    "Vertical Zoom Maximum",
+    "<p>Sets or returns the maximum of the range on the vertical axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen.</p><p>Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\".</p>"
+  ],
+  "vZoomTrigger": [
+    "Vertical Zoom Trigger",
+    "Zooms the chart to the range specified by the Vertical Zoom Minimum and Maximum. To return the chart to its pre-zoom view, the user can click on the chart. Zooming works only with linear, log, and datetime axes."
+  ],
+  "zoomerLineStrokeStyle": [
+    "Zoomer Stroke Style",
+    "Defines the stroke style for the outline of the zoom marquee."
+  ],
+  "zoomerLineStroke": [
+    "Zoomer Stroke Color",
+    "Defines the stroke color for the outline of the zoom marquee."
+  ],
+  "zoomerLineStrokeWidth": [
+    "Zoomer Stroke Weight",
+    "Defines the stroke weight for the outline of the zoom marquee."
+  ],
+  "zoomerFill": [
+    "Zoomer Fill",
+    "Defines the fill of the zoom marquee."
   ],
   "href": [
     "Href",
@@ -1008,47 +1052,47 @@
     "Vertical Scrollbar Width",
     ""
   ],
-"scrollbarStyles.height": [
+  "scrollbarStyles.height": [
     "Horizontal Scrollbar Height",
     ""
   ],
-"scrollbarStyles.thumb.background": [
+  "scrollbarStyles.thumb.background": [
     "Thumb Fill",
     "Defines the fill of the thumb in the scrollbars on this container."
   ],
-"scrollbarStyles.thumb.border": [
+  "scrollbarStyles.thumb.border": [
     "Thumb Stroke",
     "Defines the stroke color of the thumb in the scrollbars on this container."
   ],
-"scrollbarStyles.thumb.borderStyle": [
+  "scrollbarStyles.thumb.borderStyle": [
     "Thumb Stroke Style",
     "Defines the line style of stroke on the thumb in the scrollbars on this container."
   ],
-"scrollbarStyles.thumb.borderWidth": [
+  "scrollbarStyles.thumb.borderWidth": [
     "Thumb Stroke Weight",
     "Defines the weight of the stroke on the thumb in the scrollbars on this container."
   ],
-"scrollbarStyles.thumb.cornerRadius": [
+  "scrollbarStyles.thumb.cornerRadius": [
     "Thumb Corner Radius",
     ""
   ],
-"scrollbarStyles.track.background": [
+  "scrollbarStyles.track.background": [
     "Track Fill",
     "Defines the fill of the track in the scrollbars on this container."
   ],
-"scrollbarStyles.track.border": [
+  "scrollbarStyles.track.border": [
     "Track Stroke",
     "Defines the stroke color of the track in the scrollbars on this container."
   ],
-"scrollbarStyles.track.borderStyle": [
+  "scrollbarStyles.track.borderStyle": [
     "Track Stroke Style",
     "Defines the line style of stroke on the track in the scrollbars on this container."
   ],
-"scrollbarStyles.track.borderWidth": [
+  "scrollbarStyles.track.borderWidth": [
     "Track Stroke Weight",
     "Defines the weight of the stroke on the track in the scrollbars on this container."
   ],
-"scrollbarStyles.track.cornerRadius": [
+  "scrollbarStyles.track.cornerRadius": [
     "Track Corner Radius",
     ""
   ],
@@ -1276,7 +1320,7 @@
     "Callout Animation",
     ""
   ],
-"calAnimation.duration": [
+  "calAnimation.duration": [
     "Callout Animation Speed",
     "The duration of the callout display animation in seconds."
   ],
@@ -1820,19 +1864,19 @@
     "Tiling/Scaling",
     "<p>The Tiling/Scaling property determines whether the image tiles or scales within its container.</p><p><strong>No Tiling</strong><br />The image does not tile. An image larger than its container is clipped.</p><p><strong>Tiling</strong><br />The image tiles to fill the container either horizontally, vertically, or both horizontally and vertically.</p><p><strong>Scaling</strong><br />The image scales to the size of the container.</p>"
   ],
-"tilingOpt.tiling": [
+  "tilingOpt.tiling": [
     "Tiling/Scaling Options",
     "<p>When Tiling is selected, this property determines whether the image tiles horizontally, vertically, or both horizontally and vertically.</p><p><strong>Repeat</strong><br />The image tiles horizontally and vertically.</p><p><strong>Repeat Horizontally</strong><br />The image tiles horizontally only. One row of tiles appears.</p><p><strong>Repeat Vertically</strong><br />The image tiles vertically only. One column of tiles appears.</p><p>When Scaling is selected, this property determines how the image scales when its container size changes.</p><p><strong>Contain</strong><br />The image scales while maintaining its aspect ratio. Part of the container might be empty.</p><p><strong>Cover</strong><br />The image scales to fill the container while maintaining its aspect ratio. Any part of the image that overflows the container is clipped.</p><p><strong>Stretch</strong><br />The image stretches to cover the container. The image’s aspect ratio is not maintained.</p>"
   ],
-"tilingOpt.angle": [
+  "tilingOpt.angle": [
     "Tiling Angle",
     "If Repeat Horizontally or Repeat Vertically is selected, changing this value causes tiles to repeat along an angle. Valid values are between −45 and 45."
   ],
-"tilingOpt.hAlign": [
+  "tilingOpt.hAlign": [
     "Horizontal Alignment",
     "<p>The Horizontal Alignment property determines how images or tiles are horizontally aligned.</p><p><strong>Left</strong><br />The leftmost edge of the image or tiles is justified to the left container boundary.</p><p><strong>Center</strong><br />The image or tiles are horizontally centered.</p><p><strong>Right</strong><br />The rightmost edge of the image or tiles is justified to the right container boundary.</p>"
   ],
-"tilingOpt.vAlign": [
+  "tilingOpt.vAlign": [
     "Vertical Alignment",
     "<p>The Vertical Alignment property determines how tiled images are vertically aligned.</p><p><strong>Top</strong><br />The topmost edge of the image or tiles is justified to the top container boundary.</p><p><strong>Middle</strong><br />The image or tiles are vertically centered.</p><p><strong>Bottom</strong><br />The bottommost edge of the image or tiles is justified to the bottom container boundary.</p>"
   ],
@@ -2148,7 +2192,7 @@
     "Weekday",
     ""
   ],
-"daterange.format": [
+  "daterange.format": [
     "Date Format String",
     "<p>Defines the date format used by the component, as a date format string — for example, \"yyyy-MM-ddTHH:mm:ss\".</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
@@ -2172,7 +2216,7 @@
     "Previous Daterange",
     "Changes the currently selected value to the previous chronological value. For example, if January 2016 is selected, this action changes the selection to December 2015."
   ],
-"daterange.duration": [
+  "daterange.duration": [
     "Daterange Duration",
     "The duration of the currently selected date range, in milliseconds."
   ],
