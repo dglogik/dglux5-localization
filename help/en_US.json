@@ -489,23 +489,23 @@
   ],
   "labelsFontSize": [
     "Labels Font Size",
-    ""
+    "Defines the font size used for the labels along an axis."
   ],
   "tickStrokeWidth": [
     "Tick Stroke Width",
-    ""
+    "For major or minor ticks, defines the stroke width of each tick."
   ],
   "tickStroke": [
-    "Tick Stroke",
-    ""
+    "Tick Stroke Color",
+    "For major or minor ticks, defines the stroke color of the ticks."
   ],
   "tickPlacement": [
-    "Tick Placement",
-    ""
+    "Major Tick Placement",
+    "Defines whether the major ticks appear on the inside, outside, or center of the line that represents the axis."
   ],
   "tickLength": [
-    "Tick Length",
-    ""
+    "Major Tick Length",
+    "Defines the length of each major tick."
   ],
   "showLine": [
     "Show Line",
@@ -517,14 +517,14 @@
   ],
   "minorTickPlacement": [
     "Minor Tick Placement",
-    ""
+    "Defines whether the minor ticks appear on the inside, outside, or center of the line that represents an axis."
   ],
   "minorTickLength": [
     "Minor Tick Length",
-    ""
+    "Defines the length of each minor tick."
   ],
   "labelToEdgeGap": [
-    "Label To Edge Gap",
+    "Label to Edge Gap",
     ""
   ],
   "labelGap": [
@@ -537,15 +537,15 @@
   ],
   "axisStrokeStyle": [
     "Axis Stroke Style",
-    ""
+    "Defines the stroke style of the line that represents this axis."
   ],
   "axisStrokeWidth": [
     "Axis Stroke Width",
-    ""
+    "Defines the stroke width of the line that represents this axis."
   ],
   "axisStroke": [
     "Axis Stroke",
-    ""
+    "Defines the color of the line that represents this axis."
   ],
   "verticalAxisTitleAlignment": [
     "Vertical Axis Title Alignment",
@@ -788,8 +788,8 @@
     ""
   ],
   "placement": [
-    "Placement",
-    ""
+    "Axis Placement",
+    "<p>For a vertical axis, defines whether the axis is positionined on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p>"
   ],
   "labelsLetterSpacing": [
     "Labels Letter Spacing",
@@ -812,8 +812,8 @@
     ""
   ],
   "labelsColor": [
-    "Labels Color",
-    ""
+    "Labels Font Color",
+    "Defines the font color used for the labels along an axis."
   ],
   "formatString": [
     "Format String",
