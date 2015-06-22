@@ -480,8 +480,8 @@
     ""
   ],
   "divLabels": [
-    "Div Labels",
-    ""
+    "Use &#60;div&#61; Labels",
+    "Defines whether the labels along an axis are coded as &#60;div&#61 elements, thereby allowing multi-line text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
   ],
   "labelRotation": [
     "Label Rotation",
@@ -549,11 +549,11 @@
   ],
   "verticalAxisTitleAlignment": [
     "Vertical Axis Title Alignment",
-    ""
+    "Controls axis label orientation. You might want to select Flipped Vertical if the axis is on the right side of your chart."
   ],
   "labelAlign": [
-    "Label Align",
-    ""
+    "Label Alignment",
+    "<p>For a vertical axis, determines whether the labels are aligned vertically to the top, middle, or bottom of the major ticks.</p><p>For a horizontal axis, determines whether the labels are aligned to the left, center, or right of the major ticks.</p>"
   ],
   "dgDataProvider": [
     "Data Source",
@@ -561,7 +561,7 @@
   ],
   "inverted": [
     "Inverted",
-    ""
+    "<p>Controls whether the axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top of the axis if it is vertical, or the right of the axis if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>On</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
   "axisType": [
     "Axis Type",
@@ -584,8 +584,8 @@
     ""
   ],
   "dgAutoAdjust": [
-    "Dg Auto Adjust",
-    ""
+    "Auto Adjust",
+    "Defines whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
   ],
   "labelsMode": [
     "Labels Mode",
@@ -817,7 +817,7 @@
   ],
   "formatString": [
     "Format String",
-    ""
+    "Defines the format used for the axis labels. For example, a datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a> for a complete list of formats."
   ],
   "maximum": [
     "Maximum",
@@ -1280,11 +1280,11 @@
     "The duration of the callout display animation in seconds."
   ],
   "calSpeed": [
-    " Callout  Speed",
+    "Callout  Speed",
     ""
   ],
   "calStrokeWidth": [
-    " Callout Bond Weight",
+    "Callout Bond Weight",
     "Defines the stroke weight of the static callout’s bond."
   ],
   "calStrokeType": [
