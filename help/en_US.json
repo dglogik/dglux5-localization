@@ -492,16 +492,16 @@
     "Defines the font size used for the labels along an axis."
   ],
   "tickStrokeWidth": [
-    "Tick Stroke Width",
-    "For major or minor ticks, defines the stroke width of each tick."
+    "Major Tick Stroke Width",
+    "Defines the stroke width of each major tick."
   ],
   "tickStroke": [
-    "Tick Stroke Color",
-    "For major or minor ticks, defines the stroke color of the ticks."
+    "Major Tick Stroke Color",
+    "Defines the stroke color of the major ticks."
   ],
   "tickPlacement": [
     "Major Tick Placement",
-    "Defines whether the major ticks appear on the inside, outside, or center of the line that represents the axis."
+    "Defines whether the major ticks appear on the inside, outside, or center of the line that represents this axis."
   ],
   "tickLength": [
     "Major Tick Length",
@@ -533,7 +533,7 @@
   ],
 "axis.title": [
     "Axis Title",
-    "Defines the title text for the axis. This text appears as an axis title label."
+    "Defines the title text for this axis. This text appears as an axis title label."
   ],
   "axisStrokeStyle": [
     "Axis Stroke Style",
@@ -549,7 +549,7 @@
   ],
   "verticalAxisTitleAlignment": [
     "Vertical Axis Title Alignment",
-    "Controls axis label orientation. You might want to select Flipped Vertical if the axis is on the right side of your chart."
+    "Controls axis label orientation. You might want to select Flipped Vertical if this axis is on the right side of your chart."
   ],
   "labelAlign": [
     "Label Alignment",
@@ -561,7 +561,7 @@
   ],
   "inverted": [
     "Inverted",
-    "<p>Controls whether the axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top of the axis if it is vertical, or the right of the axis if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>On</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
+    "<p>Controls whether this axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>On</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
   "axisType": [
     "Axis Type",
@@ -853,11 +853,11 @@
   ],
   "minorTickStrokeWidth": [
     "Minor Tick Stroke Width",
-    ""
+    "Defines the stroke width of each minor tick."
   ],
   "minorTickStroke": [
-    "Minor Tick Stroke",
-    ""
+    "Minor Tick Stroke Color",
+    "Defines the stroke color of the minor ticks."
   ],
   "offsetRight": [
     "Offset Right",
