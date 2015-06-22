@@ -3700,6 +3700,14 @@
     "Text Anchor",
     ""
   ],
+  "axis.axisMinimum": [
+    "Minimum",
+    "Defines the minimum of the axis range."
+  ],
+  "axis.axisMaximum": [
+    "Maximum",
+    "Defines the maximum of the axis range."
+  ],
   "linearAxis.assignedMinorInterval": [
     "Assigned Minor Interval",
     ""
