@@ -492,8 +492,8 @@
     "Defines the font size used for the labels along an axis."
   ],
   "tickStrokeWidth": [
-    "Major Tick Stroke Width",
-    "Defines the stroke width of each major tick."
+    "Major Tick Stroke Weight",
+    "Defines the stroke weight of each major tick."
   ],
   "tickStroke": [
     "Major Tick Stroke Color",
@@ -540,8 +540,8 @@
     "Defines the stroke style of the line that represents this axis."
   ],
   "axisStrokeWidth": [
-    "Axis Stroke Width",
-    "Defines the stroke width of the line that represents this axis."
+    "Axis Stroke Weight",
+    "Defines the stroke weight of the line that represents this axis."
   ],
   "axisStroke": [
     "Axis Stroke",
@@ -628,8 +628,8 @@
     "Defines the line style of the stroke for this element."
   ],
   "strokeWidth": [
-    "Stroke Width",
-    "Defines the width of the stroke line for this element."
+    "Stroke Weight",
+    "Defines the weight of the stroke line for this element."
   ],
   "filterUnits": [
     "Filter Units",
@@ -789,7 +789,7 @@
   ],
   "placement": [
     "Axis or Track Placement",
-    "<p>For a vertical axis, defines whether the axis is positionined on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, defines whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
+    "<p>For a vertical axis, defines whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, defines whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
   ],
   "labelsLetterSpacing": [
     "Labels Letter Spacing",
@@ -852,8 +852,8 @@
     "Defines the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "minorTickStrokeWidth": [
-    "Minor Tick Stroke Width",
-    "Defines the stroke width of each minor tick."
+    "Minor Tick Stroke Weight",
+    "Defines the stroke weight of each minor tick."
   ],
   "minorTickStroke": [
     "Minor Tick Stroke Color",
@@ -1162,7 +1162,7 @@
   ],
   "alignContent": [
     "Tile Alignment",
-    "<p>Defines positioning of the columns and rows containing wrapped elements within this container.</p><p><strong>Flex-start</strong><br />Elements positioned at the start of the container.The rows are packed against the top edge, or the columns are packed against the left edge.</p><p><strong>Flex-end</strong><br />Elements positioned at the end of the container.The rows are packed against the bottom edge, or the columns are packed against the right edge.</p><p><strong>Center</strong><br />Elements positioned at the center.The rows or columns are packed together around the center of the container.</p><p><strong>Space-between</strong><br />Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p><p><strong>Space-around</strong><br />Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p><p><strong>Stretch</strong><br />Elements are stretched to fit the parent container.The rows or columns stretch to fit the parent container.</p>"
+    "<p>Defines positioning of the columns and rows containing wrapped elements within this container.</p><p><strong>Flex-start</strong><br />Elements positioned at the start of the container. The rows are packed against the top edge, or the columns are packed against the left edge.</p><p><strong>Flex-end</strong><br />Elements positioned at the end of the container. The rows are packed against the bottom edge, or the columns are packed against the right edge.</p><p><strong>Center</strong><br />Elements positioned at the center.The rows or columns are packed together around the center of the container.</p><p><strong>Space-between</strong><br />Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p><p><strong>Space-around</strong><br />Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p><p><strong>Stretch</strong><br />Elements are stretched to fit the parent container. The rows or columns stretch to fit the parent container.</p>"
   ],
   "flexWrap": [
     "Wrap",
@@ -1289,27 +1289,27 @@
     "Defines the stroke weight of the static callout’s bond."
   ],
   "calStrokeType": [
-    "Bond Stroke Type",
-    "Defines the stroke type for the static callout’s bond."
+    "Bond Stroke Style",
+    "Defines the stroke style for the static callout’s bond."
   ],
   "calBondColor": [
     " Callout  Bond  Color",
     ""
   ],
   "calBondType": [
-    "Cal Bond Type",
+    "Callout Bond Style",
     ""
   ],
   "calAutosize": [
-    " Callout  Autosize",
+    "Callout  Autosize",
     ""
   ],
   "calH": [
-    " Callout  Height",
+    "Callout  Height",
     ""
   ],
   "calW": [
-    " Callout  Width",
+    "Callout  Width",
     ""
   ],
   "calY": [
@@ -1329,7 +1329,7 @@
     ""
   ],
   "calType": [
-    " Callout  Type",
+    "Callout Type",
     ""
   ],
   "calloutSymbolId": [
@@ -3561,7 +3561,7 @@
     "Defines the stroke color of the major ticks."
   ],
   "scaleTicks.majorTickStrokeWidth": [
-    "Major Tick Stroke Width",
+    "Major Tick Stroke Weight",
     "Defines the stroke weight of each major tick."
   ],
   "scaleTicks.majorTicksPercentLength": [
@@ -3749,7 +3749,7 @@
     ""
   ],
   "lineSeries.lineStrokeWidth": [
-    "Line Stroke Width",
+    "Line Stroke Weight",
     ""
   ],
   "lineSeries.lineStrokeStyle": [
@@ -3761,7 +3761,7 @@
     ""
   ],
   "areaSeries.areaStrokeWidth": [
-    "Area Stroke Width",
+    "Area Stroke Weight",
     ""
   ],
   "areaSeries.areaStrokeStyle": [
@@ -3801,12 +3801,12 @@
     "Defines the stroke color for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.radialStrokeWidth": [
-    "Radial Stroke Width",
+    "Radial Stroke Weight",
     "Defines the stroke weight for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.radialStrokeStyle": [
     "Radial Stroke Style",
-    "Defines the stroke type for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
+    "Defines the stroke style for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.calloutGap": [
     "Callout Gap",
@@ -3817,12 +3817,12 @@
     "Defines the stroke color for the wedge callout lines."
   ],
   "pieSeries.calloutStrokeWidth": [
-    "Callout Stroke Width",
+    "Callout Stroke Weight",
     "Defines the stroke weight for the wedge callout lines."
   ],
   "pieSeries.calloutStrokeStyle": [
     "Callout Stroke Style",
-    "Defines the stroke type for the wedge callout lines."
+    "Defines the stroke style for the wedge callout lines."
   ],
   "pieSeries.labelPosition": [
     "Label Position",
@@ -3905,7 +3905,7 @@
     ""
   ],
   "gridlines.horizontalOriginStrokeWidth": [
-    "Horizontal Origin Stroke Width",
+    "Horizontal Origin Stroke Weight",
     ""
   ],
   "gridlines.horizontalShowOrigin": [
@@ -3917,8 +3917,8 @@
     "Defines the stroke color for horizontal gridlines."
   ],
   "gridlines.horizontalStrokeWidth": [
-    "Horizontal Stroke Width",
-    "Defines the stroke width for horizontal gridlines."
+    "Horizontal Stroke Weight",
+    "Defines the stroke weight for horizontal gridlines."
   ],
   "gridlines.horizontalStrokeStyle": [
     "Horizontal Stroke Style",
@@ -3945,7 +3945,7 @@
     ""
   ],
   "gridlines.verticalOriginStrokeWidth": [
-    "Vertical Origin Stroke Width",
+    "Vertical Origin Stroke Weight",
     ""
   ],
   "gridlines.verticalShowOrigin": [
@@ -3957,12 +3957,12 @@
     "Defines the stroke color for vertical gridlines."
   ],
   "gridlines.verticalStrokeWidth": [
-    "Vertical Stroke Width",
-    "Defines the stroke width for vertical gridlines."
+    "Vertical Stroke Weight",
+    "Defines the stroke weight for vertical gridlines."
   ],
   "gridlines.verticalStrokeStyle": [
     "Vertical Stroke Style",
-    "Defines the stroke type for vertical gridlines. A stroke weight greater than 0 overrides a stroke type of None."
+    "Defines the stroke style for vertical gridlines. A stroke weight greater than 0 overrides a stroke style of None."
   ],
   "gridlines.verticalTickAligned": [
     "Vertical Tick Aligned",
