@@ -3529,7 +3529,7 @@
   ],
   "chart.innerRadius": [
     "Inner Radius",
-    ""
+    "Defines the radius for the blank area in the center of the pie chart. This blank area is useful for creating multilevel pie charts and doughnut charts."
   ],
   "chart.outerRadius": [
     "Outer Radius",
@@ -3796,16 +3796,16 @@
     ""
   ],
   "pieSeries.radialStroke": [
-    "Radial Stroke",
-    ""
+    "Radial Stroke Color",
+    "Defines the stroke color for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.radialStrokeWidth": [
     "Radial Stroke Width",
-    ""
+    "Defines the stroke weight for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.radialStrokeStyle": [
     "Radial Stroke Style",
-    ""
+    "Defines the stroke type for the edges between wedges. To edit the inner and outer circles of the pie chart, use the Fill and Stroke properties for the series."
   ],
   "pieSeries.calloutGap": [
     "Callout Gap",
@@ -3849,7 +3849,7 @@
   ],
   "pieSeries.colorField": [
     "Color Field",
-    ""
+    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> &#8212; any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> &#8212; any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> &#8212; any RGBA color strin, including \"rgba\" and the parentheses.</li></ul>You can also specify colors in the Property Inspector by expanding Wedge Fills.</p>"
   ],
   "spectrumSeries.dateField": [
     "Date Field",
