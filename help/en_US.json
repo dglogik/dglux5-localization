@@ -3849,7 +3849,7 @@
   ],
   "pieSeries.colorField": [
     "Color Field",
-    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> &#8212; any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> &#8212; any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> &#8212; any RGBA color strin, including \"rgba\" and the parentheses.</li></ul>You can also specify colors in the Property Inspector by expanding Wedge Fills.</p>"
+    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> &#8212; any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> &#8212; any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> &#8212; any RGBA color string, including \"rgba\" and the parentheses.</li></ul>You can also specify colors in the Property Inspector by expanding Wedge Fills.</p>"
   ],
   "spectrumSeries.dateField": [
     "Date Field",
