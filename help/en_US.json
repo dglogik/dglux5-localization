@@ -705,7 +705,7 @@
   ],
   "datalist": [
     "Datalist",
-    ""
+    "Allows you to create a list of predefined colors for the user to choose from. Lists of predefined colors are not supported in all browsers. To add a color to the list, click Add and then define a color."
   ],
   "inputType": [
     "Input Type",
@@ -761,7 +761,7 @@
   ],
   "placeholder": [
     "Placeholder",
-    ""
+    "Defines the placeholder text that appears in this input component when there is no input text."
   ],
   "editorTooltip": [
     "Editor Tooltip",
@@ -989,7 +989,8 @@
   ],
   "textDir": [
     "Text Dir",
-    ""
+    "<p>Specifies the direction for text and input, to support the use of right-to-left languages.</p>\n<p><strong>Left to right</strong><br />\nThe text or user input direction is left to right.</p>\n<p><strong>Right to left</strong><br />\nThe text or user input direction is right to left.</p>\n<p><strong>Auto</strong><br />\nThe direction of user input is automatically detected as the user enters text.</p>"
+
   ],
   "text": [
     "Text",
@@ -1729,7 +1730,7 @@
   ],
   "fileName": [
     "File Name",
-    ""
+    "Sets or returns the name of the file to open."
   ],
   "dragData": [
     "Drag Data",
@@ -1793,7 +1794,7 @@
   ],
   "value": [
     "Value",
-    "Sets or returns the current contents of this text input component."
+    "Sets or returns the current contents of this input component."
   ],
   "durationBack": [
     "Duration Back",
@@ -1877,7 +1878,7 @@
   ],
   "step": [
     "Step",
-    ""
+    "Defines the interval between valid numbers for this input component. Valid numbers are the minimum and multiples of the Step value larger than the minimum. If no minimum is defined, valid numbers are zero and multiples of the Step value larger or smaller than zero. A Step value of zero means that any interval is allowed."
   ],
   "interval": [
     "Interval",
@@ -1993,11 +1994,11 @@
   ],
   "max": [
     "Max",
-    ""
+    "<p>Defines a maximum valid number for this input component.<p><p>If this is a range input component, and the maximum is null, the top of the range is 100.</p>"
   ],
   "min": [
     "Min",
-    ""
+    "<p>Defines a minimum valid number for this input component.</p><p>If this is a range input component, and the minimum is null, the bottom of the range is zero.</p>"
   ],
   "inputOutOfRange": [
     "Input Out Of Range",
@@ -3629,7 +3630,7 @@
   ],
   "rangeFormInput.ticks": [
     "Ticks",
-    ""
+    "Defines values where ticks appear on the range selector, as a list of comma-separated values."
   ],
   "listFormElement.showArrow": [
     "Show Arrow",
@@ -3685,7 +3686,7 @@
   ],
   "fileFormInput.file": [
     "File",
-    ""
+    "Displays the content of the selected file as a string or binary."
   ],
   "fileFormInput.open": [
     "Open",
