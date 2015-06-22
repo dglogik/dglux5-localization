@@ -709,11 +709,11 @@
   ],
   "inputType": [
     "Input Type",
-    ""
+    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> &#8212; a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> &#8212; a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> &#8212; a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> &#8212; a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> &#8212; a year, month, and day.</li><li><strong>Week</strong> &#8212; a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> &#8212; a month and year</li></ul></p>"
   ],
   "isValid": [
     "Is Valid",
-    ""
+    "<p>Returns whether this component’s current contents are valid. Validity is determined by the component type, and by properties like Minimum, Maximum, and Input Type.</p><p>Validity is checked whenever data is committed. Therefore, if Live Update is enabled, validity is checked constantly. If Live Update is disabled, validity is checked when the focus leaves the component.</p>"
   ],
   "onLoseFocus": [
     "On Lose Focus",
@@ -941,7 +941,7 @@
   ],
   "liveUpdate": [
     "Live Update",
-    ""
+    "<p>Specifies when the user’s changes to this component are committed. This property affects changes made in Preview Mode, the Viewer, and the deployed application. It does not affect changes you make within the Property Inspector. </p>\n<p><strong>True</strong><br />\nChanges are committed constantly, as the user makes them.</p>\n<p><strong>False</strong><br />\nChanges are committed only when focus leaves the component.</p>"
   ],
   "wordWrap": [
     "Word Wrap",
@@ -1793,7 +1793,7 @@
   ],
   "value": [
     "Value",
-    ""
+    "Sets or returns the current contents of this text input component."
   ],
   "durationBack": [
     "Duration Back",
