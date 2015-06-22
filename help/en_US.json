@@ -3884,12 +3884,12 @@
     ""
   ],
   "gridlines.gridDirection": [
-    "Grid Direction",
-    ""
+    "Gridlines",
+    "Defines which gridlines are displayed in the plotting area of the chart. You can choose to have horizontal only, vertical only, both, or none."
   ],
   "gridlines.horizontalAlternateFill": [
     "Horizontal Alternate Fill",
-    ""
+    "Defines the second of two fills that alternate in the plotting area between horizontal gridlines."
   ],
   "gridlines.horizontalChangeCount": [
     "Horizontal Change Count",
@@ -3897,7 +3897,7 @@
   ],
   "gridlines.horizontalFill": [
     "Horizontal Fill",
-    ""
+    "Defines the first of two fills that alternate in the plotting area between horizontal gridlines."
   ],
   "gridlines.horizontalOriginStroke": [
     "Horizontal Origin Stroke",
@@ -3912,16 +3912,16 @@
     ""
   ],
   "gridlines.horizontalStroke": [
-    "Horizontal Stroke",
-    ""
+    "Horizontal Line",
+    "Defines the stroke color for horizontal gridlines."
   ],
   "gridlines.horizontalStrokeWidth": [
     "Horizontal Stroke Width",
-    ""
+    "Defines the stroke width for horizontal gridlines."
   ],
   "gridlines.horizontalStrokeStyle": [
     "Horizontal Stroke Style",
-    ""
+    "Defines the stroke style for horizontal gridlines. A stroke weight greater than 0 overrides a stroke style of None."
   ],
   "gridlines.horizontalTickAligned": [
     "Horizontal Tick Aligned",
@@ -3929,7 +3929,7 @@
   ],
   "gridlines.verticalAlternateFill": [
     "Vertical Alternate Fill",
-    ""
+    "Defines the second of two fills that alternate in the plotting area between vertical gridlines."
   ],
   "gridlines.verticalChangeCount": [
     "Vertical Change Count",
@@ -3937,7 +3937,7 @@
   ],
   "gridlines.verticalFill": [
     "Vertical Fill",
-    ""
+    "Defines the first of two fills that alternate in the plotting area between vertical gridlines."
   ],
   "gridlines.verticalOriginStroke": [
     "Vertical Origin Stroke",
@@ -3952,16 +3952,16 @@
     ""
   ],
   "gridlines.verticalStroke": [
-    "Vertical Stroke",
-    ""
+    "Vertical Line",
+    "Defines the stroke color for vertical gridlines."
   ],
   "gridlines.verticalStrokeWidth": [
     "Vertical Stroke Width",
-    ""
+    "Defines the stroke width for vertical gridlines."
   ],
   "gridlines.verticalStrokeStyle": [
     "Vertical Stroke Style",
-    ""
+    "Defines the stroke type for vertical gridlines. A stroke weight greater than 0 overrides a stroke type of None."
   ],
   "gridlines.verticalTickAligned": [
     "Vertical Tick Aligned",
@@ -3969,19 +3969,19 @@
   ],
   "gridlines.plottedAreaX": [
     "Plotted Area X",
-    ""
+    "Returns the view x-coordinate at the left edge of the plotted area. This is a read-only property, so changing it manually does nothing."
   ],
   "gridlines.plottedAreaY": [
     "Plotted Area Y",
-    ""
+    "Returns the view y-coordinate at the top edge of the plotted area. This is a read-only property, so changing it manually does nothing."
   ],
   "gridlines.plottedAreaWidth": [
     "Plotted Area Width",
-    ""
+    "Returns the width of the plot area in pixels. This is a read-only property, so changing it manually does nothing."
   ],
   "gridlines.plottedAreaHeight": [
     "Plotted Area Height",
-    ""
+    "Returns the height of the plot area in pixels. This is a read-only property, so changing it manually does nothing."
   ],
   "projectInfo.projectId": [
     "Project Id",
