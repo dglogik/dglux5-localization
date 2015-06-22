@@ -420,7 +420,7 @@
     "<p>Defines how the series data is visually represented.</p><p><strong>Line series</strong><br />Markers represent the data points. These markers are connected with lines.</p><p><strong>Area series</strong><br />Markers represent the data points. These markers are connected with lines, and the area delimited by the lines is filled in.</p><p><strong>Bar series</strong><br />Horizontal bars represent the data points.</p><p><strong>Column series</strong><br />Vertical columns represent the data points.</p>"
   ],
   "dataTipSymbolId": [
-    "Data Tip Renderer",
+    "Datatip Renderer",
     "Specifies the symbol to use as the datatip for the series. This property overrides any text entered in the Datatip property. To use a symbol from this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
   ],
   "dgDataTip": [
@@ -428,7 +428,7 @@
     ""
   ],
   "showDataTips": [
-    "Show Data Tips",
+    "Show Datatips",
     "Defines whether datatips are displayed when the user mouses over data points."
   ],
   "markerStrokeWidth": [
@@ -445,13 +445,11 @@
   ],
   "markersType": [
     "Markers",
-    "<p>Defines the type of markers that represent data points in the series.</p><p><strong>None</strong><br />No markers are used.</p>
-<p><strong>Standard</strong><br />DGLux’s standard marker design is used.</p><p><strong>Custom</strong><br />Create your own marker design as a symbol.</p>"
+    "<p>Defines the type of markers that represent data points in the series.</p><p><strong>None</strong><br />No markers are used.</p><p><strong>Standard</strong><br />DGLux’s standard marker design is used.</p><p><strong>Custom</strong><br />Create your own marker design as a symbol.</p>"
   ],
   "form": [
     "Line Form",
-    "<p>Defines the shape of the lines in a line or area series.</p><p><strong>Segment</strong><br />Markers are connected with line segments.</p><p><strong>Step</strong><br />Markers are connected with orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.</p><p><strong>ReverseStep</strong><br />Data points are connected with orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.</p><p><strong>Vertical</strong><br />
-Only the vertical segments from a Step line form are displayed.</p><p><strong>Horizontal</strong><br />Only the horizontal segments from a Step line form are displayed.</p><p><strong>Curve</strong><br />Markers are connected with a curve.</p>"
+    "<p>Defines the shape of the lines in a line or area series.</p><p><strong>Segment</strong><br />Markers are connected with line segments.</p><p><strong>Step</strong><br />Markers are connected with orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.</p><p><strong>ReverseStep</strong><br />Data points are connected with orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.</p><p><strong>Vertical</strong><br />Only the vertical segments from a Step line form are displayed.</p><p><strong>Horizontal</strong><br />Only the horizontal segments from a Step line form are displayed.</p><p><strong>Curve</strong><br />Markers are connected with a curve.</p>"
   ],
   "titleLetterSpacing": [
     "Title Letter Spacing",
@@ -2150,8 +2148,8 @@ Only the vertical segments from a Step line form are displayed.</p><p><strong>Ho
     ""
   ],
 "daterange.format": [
-    "Date Fromat String",
-    "<p>Defines the date format used by the component, as a date format string — for example, \“yyyy-MM-ddTHH:mm:ss\”.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
+    "Date Format String",
+    "<p>Defines the date format used by the component, as a date format string — for example, \"yyyy-MM-ddTHH:mm:ss\".</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
   "daterange.nextRange": [
     "Next Value",
