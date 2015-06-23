@@ -3746,10 +3746,18 @@
   ],
   "axis.axisMinimum": [
     "Minimum",
-    "Defines the minimum of the axis range."
+    ""
   ],
   "axis.axisMaximum": [
     "Maximum",
+    ""
+  ],
+  "axis.dgAssignedMinimum": [
+    "Minimum",
+    "Defines the minimum of the axis range."
+  ],
+  "axis.dgAssignedMaximum": [
+    "Minimum",
     "Defines the maximum of the axis range."
   ],
   "linearAxis.assignedMinorInterval": [
