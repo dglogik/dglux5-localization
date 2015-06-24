@@ -481,7 +481,7 @@
   ],
   "divLabels": [
     "Use div Labels",
-    "Defines whether the labels along an axis are coded as &#60;div&#62 elements, thereby allowing multi-line text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
+    "Defines whether the labels along an axis are coded as &#60;div&#62 elements, thereby allowing multiline text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
   ],
   "labelRotation": [
     "Label Rotation",
@@ -981,7 +981,7 @@
   ],
   "letterSpacing": [
     "Letter Spacing",
-    "Specifies the horizontal spacing between letters. If null, the default spacing for the selected font is used."
+    "Specifies the horizontal spacing between characters. If null, the default spacing for the selected font is used."
   ],
   "liveUpdate": [
     "Live Update",
@@ -989,7 +989,7 @@
   ],
   "wordWrap": [
     "Word Wrap",
-    "Defines whether overflow text wraps. Mulitline must be enabled for this property to take effect."
+    "Defines whether overflow text wraps. Multiline text must be enabled for this property to take effect."
   ],
   "verticalAlign": [
     "Vertical Alignment",
@@ -1017,11 +1017,11 @@
   ],
   "minFontSize": [
     "Min Font Size",
-    "Defines the minimum font size for this text component. This property is only applicable when text size is set to Auto."
+    "Defines the minimum font size for this text component. This property is only applicable when font size is set to Auto."
   ],
   "maxFontSize": [
     "Max Font Size",
-    "Defines the maximum font size for this text component. This property is only applicable when text size is set to Auto."
+    "Defines the maximum font size for this text component. This property is only applicable when font size is set to Auto."
   ],
   "lineHeight": [
     "Line Spacing",
@@ -1032,13 +1032,13 @@
     ""
   ],
   "textDir": [
-    "Text Dir",
-    "<p>Specifies the direction for text and input, to support the use of right-to-left languages.</p>\n<p><strong>Left to right</strong><br />\nThe text or user input direction is left to right.</p>\n<p><strong>Right to left</strong><br />\nThe text or user input direction is right to left.</p>\n<p><strong>Auto</strong><br />\nThe direction of user input is automatically detected as the user enters text.</p>"
+    "Text Direction",
+    "<p>Specifies the direction for text and input in this component, to support the use of right-to-left languages.</p>\n<p><strong>Left to right</strong><br />\nThe text or user input direction is left to right.</p>\n<p><strong>Right to left</strong><br />\nThe text or user input direction is right to left.</p>\n<p><strong>Auto</strong><br />\nThe direction of user input is automatically detected as the user enters text.</p>"
 
   ],
   "text": [
     "Text",
-    "Sets or reflects the string that appears in the Text component."
+    "Sets or reflects the string that appears in this text component."
   ],
   "autoSize": [
     "Autosize",
@@ -1058,19 +1058,19 @@
   ],
   "scrollbarStyles.thumb.background": [
     "Thumb Fill",
-    "Defines the fill of the thumb in the scrollbars on this container."
+    "Defines the fill of the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.border": [
     "Thumb Stroke",
-    "Defines the stroke color of the thumb in the scrollbars on this container."
+    "Defines the stroke color of the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.borderStyle": [
     "Thumb Stroke Style",
-    "Defines the line style of stroke on the thumb in the scrollbars on this container."
+    "Defines the line style of stroke on the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.borderWidth": [
     "Thumb Stroke Weight",
-    "Defines the weight of the stroke on the thumb in the scrollbars on this container."
+    "Defines the weight of the stroke on the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.cornerRadius": [
     "Thumb Corner Radius",
@@ -1114,7 +1114,7 @@
   ],
   "selectedIndex": [
     "Selected Index",
-    "<p>Sets or returns the index of the selected item in this container.</p><p>The first item has an index of 0.</p><p>The value −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are returned.</p>"
+    "<p>Sets or returns the index of the selected item in this container.</p><p>The first item has an index of 0.</p><p>The index −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are returned.</p>"
   ],
   "symbol": [
     "Symbol",
@@ -1162,11 +1162,11 @@
   ],
   "vScroll": [
     "Vertical Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling automatically gets enabled when content overflows.</p>"
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
   ],
   "hScroll": [
     "Horizontal Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling automatically gets enabled when content overflows.</p>"
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
   ],
   "hGap": [
     "H Gap",
@@ -1202,11 +1202,11 @@
   ],
   "layout": [
     "Layout",
-    "<p>Defines how elements are positioned within this container.</p>\n<p><strong>Absolute</strong><br />\nElements positioned freely.</p>\n<p><strong>Horizontal</strong><br />\nElements positioned in order horizontally left to right.</p>\n<p><strong>Vertical</strong><br />\nElements positioned in order vertically top to bottom.</p>"
+    "<p>Defines how elements are positioned within this container.</p>\n<p><strong>Absolute</strong><br />\nElements are positioned freely.</p>\n<p><strong>Horizontal</strong><br />\nElements are positioned in order horizontally left to right.</p>\n<p><strong>Vertical</strong><br />\nElements are positioned in order vertically top to bottom.</p>"
   ],
   "alignContent": [
     "Tile Alignment",
-    "<p>Defines positioning of the columns and rows containing wrapped elements within this container.</p><p><strong>Flex-start</strong><br />Elements positioned at the start of the container. The rows are packed against the top edge, or the columns are packed against the left edge.</p><p><strong>Flex-end</strong><br />Elements positioned at the end of the container. The rows are packed against the bottom edge, or the columns are packed against the right edge.</p><p><strong>Center</strong><br />Elements positioned at the center.The rows or columns are packed together around the center of the container.</p><p><strong>Space-between</strong><br />Elements positioned such that there are equal amounts of space in between them (when multiple elements exist). The rows or columns are positioned against both edges, with equal space between them.</p><p><strong>Space-around</strong><br />Elements positioned such that there is an equal amount of space surrounding them (where multiple elements exist). The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p><p><strong>Stretch</strong><br />Elements are stretched to fit the parent container. The rows or columns stretch to fit the parent container.</p>"
+    "<p>Defines positioning of the columns and rows containing wrapped elements within this container.</p><p><strong>Flex-start</strong><br />The rows are packed against the top edge, or the columns are packed against the left edge.</p><p><strong>Flex-end</strong><br />The rows are packed against the bottom edge, or the columns are packed against the right edge.</p><p><strong>Center</strong><br />The rows or columns are packed together around the center of the container.</p><p><strong>Space-between</strong><br />The rows or columns are positioned against both edges, with equal space between them.</p><p><strong>Space-around</strong><br />The rows or columns are positioned with equal space between them, and space along both edges equal to half of the space between two rows or columns.</p><p><strong>Stretch</strong><br />The rows or columns stretch to fit the parent container.</p>"
   ],
   "flexWrap": [
     "Wrap",
@@ -1214,11 +1214,11 @@
   ],
   "alignItems": [
     "Vertical Alignment",
-    "<p>Defines vertical positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements are packed against the top edge.</p>\n<p><strong>Flex-end</strong><br />\nElements are packed against the bottom edge.</p>\n<p><strong>Center</strong><br />\nElements are packed together around the vertical center.</p>\n<p><strong>Space-between*</strong><br />\nElements are distributed with the top element flush against the top edge, the bottom element flush against the bottom edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements are distributed with equal space between them. The space at the top and bottom of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements stretch vertically to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Vertical<br />\n<strong>**</strong>Only available when Layout property is set to Horizontal</p>"
+    "<p>Defines vertical positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements are packed against the top edge.</p>\n<p><strong>Flex-end</strong><br />\nElements are packed against the bottom edge.</p>\n<p><strong>Center</strong><br />\nElements are packed together around the vertical center.</p>\n<p><strong>Space-between*</strong><br />\nElements are distributed with the top element flush against the top edge, the bottom element flush against the bottom edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements are distributed with equal space between them. The space at the top and bottom of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements stretch vertically to fit the parent container. Only works when the elements have a width value of Auto.</p>\n<p><strong>*</strong>Only available when Layout property is set to Vertical<br />\n<strong>**</strong>Only available when Layout property is set to Horizontal</p>"
   ],
   "justifyContent": [
     "Horizontal Alignment",
-    "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements stretch horizontally to fit the parent container. The elements must have Autosize enabled in the direction that they stretch.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
+    "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements stretch horizontally to fit the parent container. Only works when the elements have a height value of Auto.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
   ],
   "filters": [
     "Filters",
@@ -1262,7 +1262,7 @@
   ],
   "borderStyle": [
     "Stroke Style",
-    "Defines the line style of stroke for this component."
+    "Defines the line style of stroke for this element."
   ],
   "backgroundImageTransition": [
     "Background Image Transition",
@@ -1270,7 +1270,7 @@
   ],
   "borderWidth": [
     "Stroke Weight",
-    "Defines the weight of the stroke line for this component."
+    "Defines the weight of the stroke line for this element."
   ],
   "border": [
     "Stroke",
@@ -1306,7 +1306,7 @@
   ],
   "calHideIfOver": [
     "Hide  If  Over",
-    "Determines whether the callout disappears when the user mouses over the callout."
+    "Determines whether mousing over the callout causes it to disappear."
   ],
   "calHide": [
     "Hide  Callout",
@@ -1317,28 +1317,28 @@
     "Shows the callout. You can bind data or properties to this button, or click it as part of a recorded action."
   ],
   "calAnimation": [
-    "Callout Animation",
-    ""
+    "Animation Speed",
+    "The duration of the callout display animation in seconds."
   ],
   "calAnimation.duration": [
     "Callout Animation Speed",
-    "The duration of the callout display animation in seconds."
+    ""
   ],
   "calSpeed": [
     "Callout  Speed",
     ""
   ],
   "calStrokeWidth": [
-    "Callout Bond Weight",
-    "Defines the stroke weight of the static callout’s bond."
+    "Callout Bond Stroke Weight",
+    "Defines the stroke weight for the static callout’s bond."
   ],
   "calStrokeType": [
-    "Bond Stroke Style",
+    "Callout Bond Stroke Style",
     "Defines the stroke style for the static callout’s bond."
   ],
   "calBondColor": [
-    " Callout  Bond  Color",
-    ""
+    "Callout Bond Stroke Color",
+    "Defines the stroke color for the static callout's bond."
   ],
   "calBondType": [
     "Callout Bond Style",
@@ -1378,7 +1378,7 @@
   ],
   "calloutSymbolId": [
     "Symbol",
-    "Specifies the symbol to use for the callout. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the full path to that symbol."
+    "<p>Specifies the symbol to use for the callout.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the full path to that symbol.</p>"
   ],
   "rotateY": [
     "Rotation Y",
@@ -1598,7 +1598,7 @@
   ],
   "cursor": [
     "Cursor",
-    "Defines which cursor to show when mousing over this element. Only works when the Mouse Enabled property is true for both the element and its parents."
+    "Defines which cursor to show when the user mouses over this element. Only works when the Mouse Enabled property is true for this element and its parents."
   ],
   "clickThrough": [
     "Click Through",
@@ -1686,19 +1686,19 @@
   ],
   "bottom": [
     "Bottom",
-    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's height.</p>"
   ],
   "right": [
     "Right",
-    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's width.</p>"
   ],
   "top": [
     "Top",
-    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's height.</p>"
   ],
   "left": [
     "Left",
-    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position.</p>"
+    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's width.</p>"
   ],
   "type": [
     "Type",
@@ -1854,7 +1854,7 @@
   ],
   "opacity": [
     "Opacity",
-    "Defines opacity of this component. If this component is a group or container, all elements inside are affected."
+    "Defines the opacity of this component. If this component is a group or container, all elements inside are affected."
   ],
   "url": [
     "Url",
@@ -2810,15 +2810,15 @@
   ],
   "text.isHTML": [
     "Is HTML",
-    "Defines whether the string in this text component is treated as HTML, and HTML tags are parsed. Does not parse advanced HTML tags such as URLs."
+    "Defines whether the string in this text component is treated as HTML, and HTML tags are parsed. Does not parse advanced HTML tags such as hyperlinks."
   ],
   "text.isAdvancedHTML": [
     "Is Advanced HTML",
-    "Defines whether the string in this text component is treated as HTML, and all HTML tags are parsed, including URLs."
+    "Defines whether the string in this text component is treated as advanced HTML, and all HTML tags are parsed, including hyperlinks."
   ],
   "text.editable": [
     "Editable",
-    "Defines whether the user can edit the text in this text component at runtime by clicking into it."
+    "Defines whether the user can edit the text in this component at runtime by clicking it."
   ],
   "text.textSelectable": [
     "Text Selectable",
@@ -2946,7 +2946,7 @@
   ],
 "Google_Map.symbol": [
     "Symbol",
-    "Defines the symbol to be used as a location marker. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+    "<p>Defines the symbol to be used as a location marker.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
 "Google_Map.data": [
     "Data",
