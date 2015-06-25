@@ -200,99 +200,99 @@
     ""
   ],
   "highlightedCornerRadius": [
-    "Corner Radius",
+    "Highlighted Cells Corner Radius",
     ""
   ],
   "highlightedFontStyle": [
-    "Highlighted Font Style",
+    "Highlighted Cells Italic",
     ""
   ],
   "highlightedFontWeight": [
-    "Highlighted Font Weight",
+    "Highlighted Cells Bold",
     ""
   ],
   "highlightedFontSize": [
-    "Highlighted Font Size",
+    "Highlighted Cells Font Size",
     ""
   ],
   "highlightedFontColor": [
-    "Highlighted Font Color",
+    "Highlighted Cells Font Color",
     ""
   ],
   "highlightedFontFamily": [
-    "Highlighted Font Family",
+    "Highlighted Cells Font Family",
     ""
   ],
   "highlightedBorder": [
-    "Highlighted Border",
+    "Highlighted Cells Stroke Color",
     ""
   ],
   "highlightedBackground": [
-    "Highlighted Background",
+    "Highlighted Cells Fill",
     ""
   ],
   "selectedCornerRadius": [
-    "Selected Corner Radius",
+    "Selected Cells Corner Radius",
     "Defines the corner radius for selected cells. A value of 0 means that corners are not rounded."
   ],
   "selectedFontStyle": [
-    "Selected Font Style",
+    "Selected Cells Italic",
     ""
   ],
   "selectedFontWeight": [
-    "Selected Font Weight",
+    "Selected Cells Bold",
     ""
   ],
   "selectedFontSize": [
-    "Selected Font Size",
+    "Selected Cells Font Size",
     "Defines the font size for numbers in selected cells."
   ],
   "selectedFontColor": [
-    "Selected Font Color",
+    "Selected Cells Font Color",
     "Defines the font color for numbers in selected cells."
   ],
   "selectedFontFamily": [
-    "Selected Font Family",
+    "Selected Cells Font Family",
     ""
   ],
   "selectedBorder": [
-    "Selected Stroke Color",
+    "Selected Cells Stroke Color",
     "Defines the stroke color for outlining selected cells."
   ],
   "selectedBackground": [
-    "Selected Fill",
+    "Selected Cells Fill",
     "Defines the fill for selected cells."
   ],
   "normalCornerRadius": [
-    "Weekday Corner Radius",
+    "Weekday Cells Corner Radius",
     "Defines the corner radius for weekday cells. A value of 0 means that corners are not rounded."
   ],
   "normalFontStyle": [
-    "Weekday Font Style",
+    "Weekday Cells Italic",
     ""
   ],
   "normalFontWeight": [
-    "Weekday Font Weight",
+    "Weekday Cells Bold",
     ""
   ],
   "normalFontSize": [
-    "Weekday Font Size",
+    "Weekday Cells Font Size",
     "Defines the font size for numbers in weekday cells."
   ],
   "normalFontColor": [
-    "Weekday Font Color",
+    "Weekday Cells Font Color",
     "Defines the font color for numbers in weekday cells."
   ],
   "normalFontFamily": [
-    "Weekday Font Family",
+    "Weekday Cells Font Family",
     ""
   ],
   "normalBorder": [
-    "Weekday Stroke Color",
+    "Weekday Cells Stroke Color",
     "Defines the stroke color for outlining each weekday cell."
   ],
   "normalBackground": [
-    "Weekday Fill",
+    "Weekday Cells Fill",
     "Defines the fill for weekday cells."
   ],
   "calendarSpacingHorizontal": [
@@ -1061,7 +1061,7 @@
     "Defines the fill of the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.border": [
-    "Thumb Stroke",
+    "Thumb Stroke Color",
     "Defines the stroke color of the thumb in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.borderStyle": [
@@ -1078,19 +1078,19 @@
   ],
   "scrollbarStyles.track.background": [
     "Track Fill",
-    "Defines the fill of the track in the scrollbars on this container."
+    "Defines the fill of the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.border": [
-    "Track Stroke",
-    "Defines the stroke color of the track in the scrollbars on this container."
+    "Track Stroke Color",
+    "Defines the stroke color of the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.borderStyle": [
     "Track Stroke Style",
-    "Defines the line style of stroke on the track in the scrollbars on this container."
+    "Defines the line style of stroke on the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.borderWidth": [
     "Track Stroke Weight",
-    "Defines the weight of the stroke on the track in the scrollbars on this container."
+    "Defines the weight of the stroke on the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.cornerRadius": [
     "Track Corner Radius",
@@ -1273,8 +1273,8 @@
     "Defines the weight of the stroke line for this element."
   ],
   "border": [
-    "Stroke",
-    "Defines the stroke for this element."
+    "Stroke Color",
+    "Defines the stroke color for this element."
   ],
   "background": [
     "Fill",
@@ -1790,7 +1790,7 @@
   ],
   "active": [
     "Active",
-    "The Active property sets or returns whether the animation is currently running."
+    "Sets or returns whether the animation is currently running."
   ],
   "mode": [
     "Selection Mode",
@@ -1885,7 +1885,7 @@
     "<p>Defines the colors for a gradient fill, for example for a heat map or a scale track. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
   ],
   "selector": [
-    "Selector",
+    "Column Editor Selector",
     "<p>Specifies which data types or columns this column editor controls.</p><p>If the Type property is \"all,\" this property does nothing.</p><p>If the column editor type is \"type,\" this property specifies the JavaScript data type.</p><p>If the column editor type is \"name,\" this property specifies the name of one table column.</p>"
   ],
   "parseError": [
@@ -2905,7 +2905,7 @@
     "Changes the video player’s volume. You can bind to this property, or modify it as part of a recorded action."
   ],
   "map.apikey": [
-    "Apikey",
+    "API Key",
     ""
   ],
   "map.zoom": [
@@ -3142,19 +3142,19 @@
   ],
   "datagrid.rowBackgroundHover": [
     "Hovered Row Fill",
-    "Defines the fill for the hovered row, or the row that the user mouses over."
+    "Defines the fill for the row that the user mouses over."
   ],
   "datagrid.rowBorderHover": [
     "Hovered Row Stroke Color",
-    "Defines the stroke color for the hovered row, or the row that the user mouses over."
+    "Defines the stroke color for the row that the user mouses over."
   ],
   "datagrid.rowBorderWidthHover": [
     "Hovered Row Stroke Weight",
-    "Defines the stroke weight for the hovered row, or the row that the user mouses over."
+    "Defines the stroke weight for the row that the user mouses over."
   ],
   "datagrid.rowBorderStyleHover": [
     "Hovered Row Stroke Style",
-    "Defines the stroke style for the hovered row, or the row that the user mouses over."
+    "Defines the stroke style for the row that the user mouses over."
   ],
   "datagrid.cellPadding": [
     "Cell Padding",
