@@ -3074,87 +3074,87 @@
   ],
   "datagrid.rowHeight": [
     "Row Height",
-    ""
+    "Defines the height of this data grid's rows, in pixels."
   ],
   "datagrid.rowBackground": [
-    "Row Background",
-    ""
+    "Main Row Fill",
+    "Defines the fill for the first group of alternating rows."
   ],
   "datagrid.rowBackground2": [
-    "Row Background2",
-    ""
+    "Alternate Row Fill",
+    "Defines the fill for the second group of alternating rows."
   ],
   "datagrid.rowBorder": [
-    "Row Border",
-    ""
+    "Main Row Stroke Color",
+    "Defines the stroke color for outlining the first group of alternating rows."
   ],
   "datagrid.rowBorderWidth": [
-    "Row Border Width",
-    ""
+    "Main Row Stroke Weight",
+    "Defines the stroke weight for outlining the first group of alternating rows."
   ],
   "datagrid.rowBorderStyle": [
-    "Row Border Style",
-    ""
+    "Main Row Stroke Style",
+    "Defines the stroke style for outlining the first group of alternating rows."
   ],
   "datagrid.rowBorder2": [
-    "Row Border2",
-    ""
+    "Alternate Row Stroke Color",
+    "Defines the stroke color for outlining the second group of alternating rows."
   ],
   "datagrid.rowBorder2Width": [
-    "Row Border2 Width",
-    ""
+    "Alternate Row Stroke Weight",
+    "Defines the stroke weight for outlining the second group of alternating rows."
   ],
   "datagrid.rowBorder2Style": [
-    "Row Border2 Style",
-    ""
+    "Alternate Row Stroke Style",
+    "Defines the stroke style for outlining the second group of alternating rows."
   ],
   "datagrid.rowBackgroundSelect": [
-    "Row Background Select",
-    ""
+    "Selected Row Fill",
+    "Defines the fill for the selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBorderSelect": [
-    "Row Border Select",
-    ""
+    "Selected Row Stroke Color",
+    "Defines the stroke color for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBorderWidthSelect": [
-    "Row Border Width Select",
-    ""
+    "Selected Row Stroke Weight",
+    "Defines the stroke weight for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBorderStyleSelect": [
-    "Row Border Style Select",
-    ""
+    "Selected Row Stroke Style",
+    "Defines the stroke style for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBackgroundFocus": [
-    "Row Background Focus",
-    ""
+    "Focused Row Fill",
+    "<p>Defines the fill for the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBorderFocus": [
-    "Row Border Focus",
-    ""
+    "Focused Row Stroke Color",
+    "<p>Defines the stroke color for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBorderWidthFocus": [
-    "Row Border Width Focus",
-    ""
+    "Focused Row Stroke Weight",
+    "<p>Defines the stroke weight for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBorderStyleFocus": [
-    "Row Border Style Focus",
-    ""
+    "Focused Row Stroke Style",
+    "<p>Defines the stroke style for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBackgroundHover": [
-    "Row Background Hover",
-    ""
+    "Hovered Row Fill",
+    "Defines the fill for the hovered row, or the row that the user mouses over."
   ],
   "datagrid.rowBorderHover": [
-    "Row Border Hover",
-    ""
+    "Hovered Row Stroke Color",
+    "Defines the stroke color for the hovered row, or the row that the user mouses over."
   ],
   "datagrid.rowBorderWidthHover": [
-    "Row Border Width Hover",
-    ""
+    "Hovered Row Stroke Weight",
+    "Defines the stroke weight for the hovered row, or the row that the user mouses over."
   ],
   "datagrid.rowBorderStyleHover": [
-    "Row Border Style Hover",
-    ""
+    "Hovered Row Stroke Style",
+    "Defines the stroke style for the hovered row, or the row that the user mouses over."
   ],
   "datagrid.cellPadding": [
     "Cell Padding",
@@ -3209,64 +3209,64 @@
     "Links all four padding editors so that their values are equal."
   ],
   "datagrid.gridMode": [
-    "Grid Mode",
-    ""
+    "Gridlines",
+    "Defines whether the Property Inspector displays property editing options for horizontal gridlines, vertical gridlines, or both. Changing this property does not reset any gridline properties."
   ],
   "datagrid.hGridWidth": [
-    "H Grid Width",
-    ""
+    "Horizontal Gridline Stroke Weight",
+    "<p>Defines the stroke weight for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.hGridStroke": [
-    "H Grid Stroke",
-    ""
+    "Horizontal Gridline Stroke Style",
+    "<p>Defines the stroke style for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.hGridColor": [
-    "H Grid Color",
-    ""
+    "Horizontal Gridline Stroke Color",
+    "<p>Defines the stroke color for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.vGridWidth": [
-    "V Grid Width",
-    ""
+    "Vertical Gridline Stroke Weight",
+    "<p>Defines the stroke weight for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.vGridStroke": [
-    "V Grid Stroke",
-    ""
+    "Vertical Gridline Stroke Style",
+    "<p>Defines the stroke style for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.vGridColor": [
-    "V Grid Color",
-    ""
+    "Vertical Gridline Stroke Color",
+    "<p>Defines the stroke color for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
   ],
   "datagrid.headerHeight": [
     "Header Height",
-    ""
+    "Defines the height in pixels of this data grid's header."
   ],
   "datagrid.headerBackground": [
-    "Header Background",
-    ""
+    "Header Fill",
+    "Defines the fill for this data grid's header."
   ],
   "datagrid.headerBorder": [
-    "Header Border",
-    ""
+    "Header Outline Stroke Color",
+    "Defines the stroke color for outlining this data grid's header."
   ],
   "datagrid.headerBorderWidth": [
-    "Header Border Width",
-    ""
+    "Header Outline Stroke Weight",
+    "Defines the stroke weight for outlining this data grid's header."
   ],
   "datagrid.headerBorderStyle": [
-    "Header Border Style",
-    ""
+    "Header Outline Stroke Style",
+    "Defines the stroke style for outlining this data grid's header."
   ],
   "datagrid.vHeaderGridWidth": [
-    "V Header Grid Width",
-    ""
+    "Header Vertical Stroke Weight",
+    "Defines the stroke weight for the vertical lines that divide the column headers."
   ],
   "datagrid.vHeaderGridStroke": [
-    "V Header Grid Stroke",
-    ""
+    "Header Vertical Stroke Style",
+    "Defines the stroke style for the vertical lines that divide the column headers."
   ],
   "datagrid.vHeaderGridColor": [
-    "V Header Grid Color",
-    ""
+    "Header Vertical Stroke Color",
+    "Defines the stroke color for the vertical lines that divide the column headers."
   ],
   "datagrid.headerAlign": [
     "Header Align",
@@ -4085,16 +4085,16 @@
     ""
   ],
   "gridColumn.!label": [
-    "!label",
-    ""
+    "Column Label",
+    "Defines the label to be used as column headers for columns controlled by this column editor."
   ],
   "gridColumn.sortable": [
     "Sortable",
-    ""
+    "Specifies whether the columns affected by this column editor are sortable."
   ],
   "gridColumn.headerSymbol": [
     "Header Symbol",
-    ""
+    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "iframeMessage.match": [
     "Match",
