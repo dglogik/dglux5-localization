@@ -4086,15 +4086,15 @@
   ],
   "gridColumn.!label": [
     "Column Label",
-    "Defines the label to be used as column headers for columns controlled by this column editor."
+    "<p>Defines the label to be used as headers for columns controlled by this column editor.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
   "gridColumn.sortable": [
     "Sortable",
-    "Specifies whether the columns affected by this column editor are sortable."
+    "<p>Specifies whether the columns affected by this column editor are sortable.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
   "gridColumn.headerSymbol": [
     "Header Symbol",
-    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p>"
+    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
   "iframeMessage.match": [
     "Match",
