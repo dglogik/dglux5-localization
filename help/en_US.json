@@ -429,7 +429,7 @@
   ],
   "showDataTips": [
     "Show Datatips",
-    "Defines whether datatips are displayed when the user mouses over data points."
+    "Specifies whether datatips are displayed when the user mouses over data points."
   ],
   "markerStrokeWidth": [
     "Marker Stroke Weight",
@@ -481,7 +481,7 @@
   ],
   "divLabels": [
     "Use div Labels",
-    "Defines whether the labels along an axis are coded as &#60;div&#62 elements, thereby allowing multiline text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
+    "Specifies whether the labels along an axis are coded as &#60;div&#62 elements, thereby allowing multiline text and HTML tags. By default, labels are rendered as SVG text elements, which are faster but support fewer formatting options."
   ],
   "labelRotation": [
     "Label Rotation",
@@ -501,7 +501,7 @@
   ],
   "tickPlacement": [
     "Major Tick Placement",
-    "Defines whether the major ticks appear on the inside, outside, or center of the line that represents this axis."
+    "Specifies whether the major ticks appear on the inside, outside, or center of the line that represents this axis."
   ],
   "tickLength": [
     "Major Tick Length",
@@ -517,7 +517,7 @@
   ],
   "minorTickPlacement": [
     "Minor Tick Placement",
-    "Defines whether the minor ticks appear on the inside, outside, or center of the line that represents an axis."
+    "Specifies whether the minor ticks appear on the inside, outside, or center of the line that represents an axis."
   ],
   "minorTickLength": [
     "Minor Tick Length",
@@ -585,7 +585,7 @@
   ],
   "dgAutoAdjust": [
     "Auto Adjust",
-    "Defines whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
+    "Specifies whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
   ],
   "labelsMode": [
     "Labels Mode",
@@ -833,7 +833,7 @@
   ],
   "placement": [
     "Axis or Track Placement",
-    "<p>For a vertical axis, defines whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, defines whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, defines whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
+    "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, specifies whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
   ],
   "labelsLetterSpacing": [
     "Labels Letter Spacing",
@@ -989,15 +989,15 @@
   ],
   "wordWrap": [
     "Word Wrap",
-    "Defines whether overflow text wraps. Multiline text must be enabled for this property to take effect."
+    "Specifies whether overflow text wraps. Multiline text must be enabled for this property to take effect."
   ],
   "verticalAlign": [
     "Vertical Alignment",
-    "Defines whether the content in this component is positioned at the top, middle, or bottom of the container."
+    "Specifies whether the content in this component is positioned at the top, middle, or bottom of the container."
   ],
   "textAlign": [
     "Horizontal Alignment",
-    "Defines whether the content in this component is left-justified, centered, or right-justified."
+    "Specifies whether the content in this component is left-justified, centered, or right-justified."
   ],
   "textDecoration": [
     "Text Decoration",
@@ -1042,7 +1042,7 @@
   ],
   "autoSize": [
     "Autosize",
-    "Defines whether the Page Include inherits the sizing properties of its .dg5 file, for example a width that is a set number of pixels."
+    "Specifies whether the Page Include inherits the sizing properties of its .dg5 file, for example a width that is a set number of pixels."
   ],
   "!isWidget": [
     " Widget  Group",
@@ -1290,7 +1290,7 @@
   ],
   "calGrayOutComp": [
     "Gray  Out  Component",
-    "Defines whether the callout’s target becomes inactive and faded when the modal callout is displayed."
+    "Specifies whether the callout’s target becomes inactive and faded when the modal callout is displayed."
   ],
   "calModalFill": [
     "Modal  Callout  Fill",
@@ -1606,7 +1606,7 @@
   ],
   "mouseEnabled": [
     "Mouse Enabled",
-    "Defines whether this element responds to mouse events."
+    "Specifies whether this element responds to mouse events."
   ],
   "tooltip": [
     "Tooltip",
@@ -2810,15 +2810,15 @@
   ],
   "text.isHTML": [
     "Is HTML",
-    "Defines whether the string in this text component is treated as HTML, and HTML tags are parsed. Does not parse advanced HTML tags such as hyperlinks."
+    "Specifies whether the string in this text component is treated as HTML, and HTML tags are parsed. Does not parse advanced HTML tags such as hyperlinks."
   ],
   "text.isAdvancedHTML": [
     "Is Advanced HTML",
-    "Defines whether the string in this text component is treated as advanced HTML, and all HTML tags are parsed, including hyperlinks."
+    "Specifies whether the string in this text component is treated as advanced HTML, and all HTML tags are parsed, including hyperlinks."
   ],
   "text.editable": [
     "Editable",
-    "Defines whether the user can edit the text in this component at runtime by clicking it."
+    "Specifies whether the user can edit the text in this component at runtime by clicking it."
   ],
   "text.textSelectable": [
     "Text Selectable",
@@ -2826,7 +2826,7 @@
   ],
   "text.multiline": [
     "Multiline",
-    "<p>Defines whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>True</strong><br />\nLine breaks are recognized.</p>\n<p><strong>False</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
+    "<p>Specifies whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>True</strong><br />\nLine breaks are recognized.</p>\n<p><strong>False</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
   ],
   "img.src": [
     "Src",
@@ -2834,11 +2834,11 @@
   ],
   "img.!numFrames": [
     "Total Frames",
-    "The Total Frames is the number of frames in the animation, not including the image. This is a read-only property, thus changing it manually does nothing. Add frames by clicking the Add button."
+    "Returns the number of frames in the animation, not including the image. This is a read-only property, so changing it manually does nothing. Add frames by clicking the Add button."
   ],
   "img.frameIndex": [
     "Frame Index",
-    "The Frame is the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on."
+    "Returns the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on."
   ],
   "img.@onComplete": [
     "On Complete",
@@ -2846,26 +2846,26 @@
   ],
   "img.intervalMillis": [
     "Interval",
-    "The Interval is the length of time that each frame is displayed, in seconds."
+    "Defines the length of time that each frame is displayed, in seconds."
   ],
   "img.isAnimator": [
     "Frame Animator",
-    "The Frame Animator property determines whether the image component animates through a specified list of frames. The image defined for the image component is only displayed when the animation is not active, unless it is also defined as an animation frame."
+    "<p>Specifies whether the image component animates a specified list of frames.</p><p>The image at the URL defined for the image component is displayed only when the animation is not active, unless it is also defined as an animation frame.</p>"
   ],
   "img.frames": [
     "Frames",
-    "The Frames are the paths to each of the frames in the animation sequence. Click Add to add frames, and then specify an image path for each frame."
+    "Specifies the paths to each of the frames in the animation sequence. Click Add to add frames, and then specify an image path for each frame."
   ],
   "img.reverse": [
     "Reverse",
-    "<p>The Reverse property determines whether the animation frames are displayed in reverse.</p><p><strong>True</strong><br />The topmost frame in the Property Inspector appears first in the animation sequence.</p><p><strong>False</strong><br />The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
+    "<p>Determines whether the animation frames are displayed in reverse.</p><p><strong>True</strong><br />The topmost frame in the Property Inspector appears first in the animation sequence.</p><p><strong>False</strong><br />The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
   ],
   "img.breakApart": [
     "Break Apart",
-    "Separates an SVG into its component vectors to allow you to edit an SVG within DGLux."
+    "Separates an SVG into its component vectors to allow you to edit it within DGLux."
   ],
   "iframe.scrolling": [
-    "Iframe Scrolling",
+    "IFrame Scrolling",
     "Specifies whether scrolling is enabled on the IFrame component. If this is disabled, then content that overflows the component is clipped."
   ],
   "iframe.refresh": [
@@ -2878,7 +2878,7 @@
   ],
   "video.autoplay": [
     "Autoplay",
-    "Defines whether the video starts playing automatically when the video player element is loaded on the page."
+    "Specifies whether the video starts playing automatically when the video player element is loaded on the page."
   ],
   "video.play": [
     "Play",
@@ -2914,7 +2914,7 @@
   ],
   "map.mapControls": [
     "Map Controls",
-    "Defines whether to show map controls, allowing the user to manipulate the map."
+    "Specifies whether to show map controls, allowing the user to manipulate the map."
   ],
   "map.weatherLayer": [
     "Weather Layer",
@@ -2926,7 +2926,7 @@
   ],
   "map.trafficLayer": [
     "Traffic Layer",
-    "Defines whether to show the Google Maps Traffic Layer on the map."
+    "Specifies whether to show the Google Maps Traffic Layer on the map."
   ],
   "map.mapType": [
     "Map Type",
@@ -2966,7 +2966,7 @@
   ],
   "heatMap.showLegend": [
     "Show Legend",
-    "Defines whether to show a simple legend in the heat map component."
+    "Specifies whether to show a simple legend in the heat map component."
   ],
   "heatMap.falloff": [
     "Falloff",
@@ -3306,7 +3306,7 @@
   ],
   "datagrid.sortOrder": [
     "Sort Order",
-    "<p>Defines whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for the data grid component and edit the sort block.</p>"
+    "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for the data grid component and edit the sort block.</p>"
   ],
   "datagrid.sortColumn": [
     "Sort Column",
@@ -3622,7 +3622,7 @@
   ],
   "scaleLabels.showMinMaxOnly": [
     "Show Min Max Only",
-    "Defines whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
+    "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
   ],
   "scaleLabels.percentTextSize": [
     "Percent Text Size",
