@@ -36,7 +36,7 @@
     ""
   ],
   "outOfMonthStyle ": [
-    "Out of Month Style ",
+    "Out-of-Month Cells Italic",
     ""
   ],
   "weekendStyle": [
@@ -61,7 +61,7 @@
   ],
   "todayCornerRadius": [
     "Today Corner Radius",
-    "Defines the corner radius for out of month cells. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for out-of-month cells. A value of 0 means that corners are not rounded."
   ],
   "todayFontStyle": [
     "Today Font Style",
@@ -92,35 +92,35 @@
     "Defines the fill for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "outOfMonthCornerRadius": [
-    "Out of Month Corner Radius",
-    "Defines the corner radius for few days that show on the current calendar page but are outside the month depicted. A value of 0 means that corners are not rounded."
+    "Out-of-Month Cells Corner Radius",
+    "Defines the corner radius for the days that show on the current calendar page but are outside the month depicted. A value of 0 means that corners are not rounded."
   ],
   "outOfMonthFontStyle": [
-    "Out of Month Font Style",
+    "Out-of-Month Cells Italic",
     ""
   ],
   "outOfMonthFontWeight": [
-    "Out of Month Font Weight",
+    "Out-of-Month Cells Bold",
     ""
   ],
   "outOfMonthFontSize": [
-    "Out of Month Font Size",
-    "Defines the font size to be used for numbers in out of month cells."
+    "Out-of-Month Cells Font Size",
+    "Defines the font size to be used for numbers in out-of-month cells."
   ],
   "outOfMonthFontColor": [
-    "Out of Month Font Color",
-    "Defines the font color to be used for the days that show on the current calendar page but are outside the month depicted. Selected cells style properties take precedence over out of month cell properties."
+    "Out-of-Month Cells Font Color",
+    "Defines the font color to be used for the days that show on the current calendar page but are outside the month depicted. Selected cells style properties take precedence over out-of-month cell properties."
   ],
   "outOfMonthFontFamily": [
-    "Out of Month Font Family",
+    "Out-of-Month Cells Font Family",
     ""
   ],
   "outOfMonthBorder": [
-    "Out of Month Stroke Color",
+    "Out-of-Month Cells Stroke Color",
     "Defines the stroke color for strokes outlining the few days that show on the current calendar page but are outside the month depicted."
   ],
   "outOfMonthBackground": [
-    "Out of Month Fill",
+    "Out-of-Month Cells Fill",
     "Defines the fill for few days that show on the current calendar page but are outside the month depicted."
   ],
   "weekendCornerRadius": [
@@ -128,31 +128,31 @@
     "Defines the corner radius for weekend cells. A value of 0 means that corners are not rounded."
   ],
   "weekendFontStyle": [
-    "Weekend Font Style",
+    "Weekend Cells Italic",
     ""
   ],
   "weekendFontWeight": [
-    "Weekend Font Weight",
+    "Weekend Cells Bold",
     ""
   ],
   "weekendFontSize": [
-    "Weekend Font Size",
+    "Weekend Cells Font Size",
     "Defines the font size to be used for numbers in weekend cells."
   ],
   "weekendFontColor": [
-    "Weekend Font Color",
+    "Weekend Cells Font Color",
     "Defines the font color to be used for numbers in weekend cells."
   ],
   "weekendFontFamily": [
-    "Weekend Font Family",
+    "Weekend Cells Font Family",
     ""
   ],
   "weekendBorder": [
-    "Weekend Stroke Color",
+    "Weekend Cells Stroke Color",
     "Defines the stroke color for strokes outlining weekend cells."
   ],
   "weekendBackground": [
-    "Weekend Fill",
+    "Weekend Cells Fill",
     "Defines the fill for weekend cells."
   ],
   "dowCornerRadius": [
@@ -160,11 +160,11 @@
     "Defines the corner radius for the cells containing the names of the days of the week. A value of 0 means that corners are not rounded."
   ],
   "dowFontStyle": [
-    "Day of Week Font Style",
+    "Day of Week Italic",
     ""
   ],
   "dowFontWeight": [
-    "Day of Week Font Weight",
+    "Day of Week Bold",
     ""
   ],
   "dowFontSize": [
@@ -188,15 +188,15 @@
     "Defines the fill for the cells containing the names of the days of the week."
   ],
   "titleFontColor": [
-    "Title Font Color",
+    "Header Font Color",
     ""
   ],
   "titleBorder": [
-    "Title Stroke Color",
+    "Header Stroke Color",
     ""
   ],
   "titleBackground": [
-    "Title Fill",
+    "Header Fill",
     ""
   ],
   "highlightedCornerRadius": [
@@ -460,11 +460,11 @@
     ""
   ],
   "titleFontWeight": [
-    "Title Font Weight",
+    "Header Bold",
     ""
   ],
   "titleFontStyle": [
-    "Title Font Style",
+    "Header Italic",
     ""
   ],
   "titleFontSize": [
@@ -472,7 +472,7 @@
     "Defines the font size used for the month and year text in the calendar header."
   ],
   "titleFontFamily": [
-    "Title Font Family",
+    "Header Font Family",
     ""
   ],
   "titleColor": [
@@ -921,27 +921,27 @@
   ],
   "showRange": [
     "Show Range",
-    "Specifies whether the component includes an option to choose a starting date/time and ending date/time."
+    "Specifies whether this date range picker includes an option to choose a starting date/time and ending date/time."
   ],
   "showYear": [
     "Show Year",
-    "Specifies whether the component includes an option to choose a calendar year."
+    "Specifies whether this date range picker includes an option to choose a calendar year."
   ],
   "showMonth": [
     "Show Month",
-    "Specifies whether the component includes an option to choose a calendar month."
+    "Specifies whether this date range picker includes an option to choose a calendar month."
   ],
   "showRelative": [
     "Show Relative",
-    "Specifies whether the component includes an option to choose a date range relative to the current date."
+    "Specifies whether this date range picker includes an option to choose a date range relative to the current date."
   ],
   "showWeek": [
     "Show Week",
-    "Specifies whether the component includes an option to choose a week beginning on Sunday and ending on Saturday."
+    "Specifies whether this date range picker includes an option to choose a week beginning on Sunday and ending on Saturday."
   ],
   "showDay": [
     "Show Day",
-    "Specifies whether the component includes an option to choose a day."
+    "Specifies whether this date range picker includes an option to choose a day."
   ],
   "firstDow": [
     "First Day of Week",
@@ -2198,7 +2198,7 @@
   ],
   "daterange.nextRange": [
     "Next Value",
-    "Returns the next chronological date range after the currently selected date range."
+    "Returns the next chronological date range after the currently selected date range. For example, if January 2016 is selected, this action changes the selection to February 2016."
   ],
   "daterange.thisRange": [
     "This Value",
@@ -2206,18 +2206,18 @@
   ],
   "daterange.previousRange": [
     "Previous Value",
-    "Returns the previous chronological date range before the currently selected date range."
+    "Returns the previous chronological date range before the currently selected date range. For example, if January 2016 is selected, this action changes the selection to December 2015."
   ],
   "daterange.next": [
-    "Next Daterange",
+    "Next Date Range",
     "Changes the currently selected value to the next chronological value. For example, if January 2016 is selected, this action changes the selection to February 2016."
   ],
   "daterange.previous": [
-    "Previous Daterange",
+    "Previous Date Range",
     "Changes the currently selected value to the previous chronological value. For example, if January 2016 is selected, this action changes the selection to December 2015."
   ],
   "daterange.duration": [
-    "Daterange Duration",
+    "Date Range Duration",
     "The duration of the currently selected date range, in milliseconds."
   ],
   "daterange.rangeDelimiter": [
@@ -3030,7 +3030,7 @@
   ],
   "daterangePicker.buttonFontSize": [
     "Button Font Size",
-    "Defines the font size for buttons within the component."
+    "Defines the font size for buttons within this date range picker."
   ],
   "daterangePicker.buttonFontStyle": [
     "Button Font Style",
@@ -3049,28 +3049,28 @@
     ""
   ],
   "daterangePicker.buttonBackground": [
-    "Button Background",
-    "Defines the fill for buttons within the component that are not currently active (selected) or moused-over."
+    "Button Fill",
+    "Defines the fill for buttons within this date range picker that are not currently active (selected) or moused-over."
   ],
   "daterangePicker.buttonBackgroundActive": [
-    "Button Background Active",
-    "Defines the fill for active (selected) buttons within the component."
+    "Active Button Fill",
+    "Defines the fill for active (selected) buttons within this date range picker ."
   ],
   "daterangePicker.buttonBackgroundOver": [
-    "Button Background Over",
-    "Defines the fill for moused-over buttons within the component."
+    "Hovered Button Fill",
+    "Defines the fill for the button that the user mouses over, within this date range picker."
   ],
   "daterangePicker.buttonBorder": [
-    "Button Border",
-    "Defines the border color for all buttons within the component."
+    "Button Border Stroke Color",
+    "Defines the border stroke color for all buttons within this date range picker."
   ],
   "daterangePicker.buttonBorderWidth": [
-    "Button Border Width",
-    ""
+    "Button Border Stroke Width",
+    "Defines the border stroke width for all buttons within this date range picker."
   ],
   "daterangePicker.buttonBorderStyle": [
-    "Button Border Style",
-    ""
+    "Button Border Stroke Style",
+    "Defines the border stroke style for all buttons within this date range picker."
   ],
   "datagrid.rowHeight": [
     "Row Height",
