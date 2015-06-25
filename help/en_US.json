@@ -60,35 +60,35 @@
     ""
   ],
   "todayCornerRadius": [
-    "Today Corner Radius",
-    "Defines the corner radius for out-of-month cells. A value of 0 means that corners are not rounded."
+    "Today Cell Corner Radius",
+    "Defines the corner radius for the cell that represents the current day. A value of 0 means that corners are not rounded."
   ],
   "todayFontStyle": [
-    "Today Font Style",
+    "Today Cell Italic",
     ""
   ],
   "todayFontWeight": [
-    "Today Font Weight",
+    "Today Cell Bold",
     ""
   ],
   "todayFontSize": [
-    "Today Font Size",
+    "Today Cell Font Size",
     "Defines the font size to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontColor": [
-    "Today Font Color",
+    "Today Cell Font Color",
     "Defines the font color to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontFamily": [
-    "Today Font Family",
+    "Today Cell Font Family",
     ""
   ],
   "todayBorder": [
-    "Today Stroke Color",
+    "Today Cell Stroke Color",
     "Defines the stroke color for strokes outlining the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayBackground": [
-    "Today Fill",
+    "Today Cell Fill",
     "Defines the fill for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "outOfMonthCornerRadius": [
