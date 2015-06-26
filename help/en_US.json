@@ -2838,7 +2838,7 @@
   ],
   "img.frameIndex": [
     "Frame Index",
-    "Returns the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on."
+    "Returns the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on. This is a read-only property, so changing it manually does nothing."
   ],
   "img.@onComplete": [
     "On Complete",
