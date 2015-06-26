@@ -1013,7 +1013,7 @@
   ],
   "fontSize": [
     "Font Size",
-    "Defines the font size for this component. If the font size value is set to Auto, the text scales to occupy the size of the component."
+    "Defines the font size for this component. If the font size is set to Auto, the text scales to occupy the size of the component."
   ],
   "minFontSize": [
     "Min Font Size",
