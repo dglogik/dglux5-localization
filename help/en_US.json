@@ -980,7 +980,7 @@
     "Specifies the maximum number of characters allowed in this text component."
   ],
   "letterSpacing": [
-    "Letter Spacing",
+    "Character Spacing",
     "Specifies the horizontal spacing between characters. If null, the default spacing for the selected font is used."
   ],
   "liveUpdate": [
