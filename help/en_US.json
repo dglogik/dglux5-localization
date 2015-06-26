@@ -1000,15 +1000,15 @@
     "Specifies whether the content in this component is left-justified, centered, or right-justified."
   ],
   "textDecoration": [
-    "Text Decoration",
+    "Underline",
     ""
   ],
   "fontWeight": [
-    "Font Weight",
+    "Bold",
     ""
   ],
   "fontStyle": [
-    "Font Style",
+    "Italic",
     ""
   ],
   "fontSize": [
