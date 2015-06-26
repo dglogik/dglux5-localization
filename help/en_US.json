@@ -1862,7 +1862,7 @@
   ],
   "tilingOpt": [
     "Tiling/Scaling",
-    "<p>The Tiling/Scaling property determines whether the image tiles or scales within its container.</p><p><strong>No Tiling</strong><br />The image does not tile. An image larger than its container is clipped.</p><p><strong>Tiling</strong><br />The image tiles to fill the container either horizontally, vertically, or both horizontally and vertically.</p><p><strong>Scaling</strong><br />The image scales to the size of the container.</p>"
+    "<p>Determines whether the image tiles or scales within its container.</p><p><strong>No Tiling</strong><br />The image does not tile. An image larger than its container is clipped.</p><p><strong>Tiling</strong><br />The image tiles to fill the container either horizontally, vertically, or both horizontally and vertically.</p><p><strong>Scaling</strong><br />The image scales to the size of the container.</p>"
   ],
   "tilingOpt.tiling": [
     "Tiling/Scaling Options",
@@ -1874,11 +1874,11 @@
   ],
   "tilingOpt.hAlign": [
     "Horizontal Alignment",
-    "<p>The Horizontal Alignment property determines how images or tiles are horizontally aligned.</p><p><strong>Left</strong><br />The leftmost edge of the image or tiles is justified to the left container boundary.</p><p><strong>Center</strong><br />The image or tiles are horizontally centered.</p><p><strong>Right</strong><br />The rightmost edge of the image or tiles is justified to the right container boundary.</p>"
+    "<p>Determines how images or tiles are horizontally aligned.</p><p><strong>Left</strong><br />The leftmost edge of the image or tiles is justified to the left container boundary.</p><p><strong>Center</strong><br />The image or tiles are horizontally centered.</p><p><strong>Right</strong><br />The rightmost edge of the image or tiles is justified to the right container boundary.</p>"
   ],
   "tilingOpt.vAlign": [
     "Vertical Alignment",
-    "<p>The Vertical Alignment property determines how tiled images are vertically aligned.</p><p><strong>Top</strong><br />The topmost edge of the image or tiles is justified to the top container boundary.</p><p><strong>Middle</strong><br />The image or tiles are vertically centered.</p><p><strong>Bottom</strong><br />The bottommost edge of the image or tiles is justified to the bottom container boundary.</p>"
+    "<p>Determines how images or tiles are vertically aligned.</p><p><strong>Top</strong><br />The topmost edge of the image or tiles is justified to the top container boundary.</p><p><strong>Middle</strong><br />The image or tiles are vertically centered.</p><p><strong>Bottom</strong><br />The bottommost edge of the image or tiles is justified to the bottom container boundary.</p>"
   ],
   "gradient": [
     "Gradient Fill",
