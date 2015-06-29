@@ -544,7 +544,7 @@
     "Defines the stroke weight of the line that represents this axis."
   ],
   "axisStroke": [
-    "Axis Stroke",
+    "Axis Stroke Color",
     "Defines the color of the line that represents this axis."
   ],
   "verticalAxisTitleAlignment": [
@@ -561,7 +561,7 @@
   ],
   "inverted": [
     "Inverted",
-    "<p>Controls whether this axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>On</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
+    "<p>Controls whether this axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>False</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
   "axisType": [
     "Axis Type",
