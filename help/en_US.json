@@ -3965,7 +3965,7 @@
     ""
   ],
   "gridlines.horizontalStroke": [
-    "Horizontal Line",
+    "Horizontal Stroke Color",
     "Defines the stroke color for horizontal gridlines."
   ],
   "gridlines.horizontalStrokeWidth": [
@@ -4005,7 +4005,7 @@
     ""
   ],
   "gridlines.verticalStroke": [
-    "Vertical Line",
+    "Vertical Stroke Color",
     "Defines the stroke color for vertical gridlines."
   ],
   "gridlines.verticalStrokeWidth": [
