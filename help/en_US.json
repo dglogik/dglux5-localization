@@ -2873,7 +2873,7 @@
     ""
   ],
   "video.controls": [
-    "Controls",
+    "Video Controls",
     "Specifies whether video controls are shown to the user."
   ],
   "video.autoplay": [
