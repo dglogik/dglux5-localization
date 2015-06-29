@@ -3054,7 +3054,7 @@
   ],
   "daterangePicker.buttonBackgroundActive": [
     "Active Button Fill",
-    "Defines the fill for active (selected) buttons within this date range picker ."
+    "Defines the fill for active (selected) buttons within this date range picker."
   ],
   "daterangePicker.buttonBackgroundOver": [
     "Hovered Button Fill",
