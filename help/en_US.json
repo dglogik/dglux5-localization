@@ -436,7 +436,7 @@
     "Defines the border stroke weight, in pixels, for standard markers."
   ],
   "markerStroke": [
-    "Marker Stroke",
+    "Marker Stroke Color",
     "Defines the border stroke color for standard markers."
   ],
   "markerFill": [
