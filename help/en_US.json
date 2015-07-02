@@ -3701,19 +3701,19 @@
     ""
   ],
   "listFormElement.optionFontStyle": [
-    "Option Font Style",
+    "Option Font Italic",
     ""
   ],
   "listFormElement.optionFontWeight": [
-    "Option Font Weight",
+    "Option Font Bold",
     ""
   ],
   "listFormElement.optionTextDecoration": [
-    "Option Text Decoration",
+    "Option Font Underline",
     ""
   ],
   "listFormElement.optionColor": [
-    "Option Color",
+    "Option Font Color",
     ""
   ],
   "listFormElement.optionTextAlign": [
@@ -3722,6 +3722,14 @@
   ],
   "listFormElement.optionBackground": [
     "Option Background",
+    ""
+  ],
+  "listFormElement.fontFamily": [
+    "Selected Item Font",
+    ""
+  ],
+  "listFormElement.color": [
+    "Selected Item Font Color",
     ""
   ],
   "fileFormInput.binaryMode": [
