@@ -904,12 +904,12 @@
     "Defines the stroke color of the minor ticks."
   ],
   "offsetRight": [
-    "Offset Right",
-    "Defines the distance between the right side of a linear scale and the container bounds."
+    "Right Offset",
+    "Defines the distance between the right side of a linear scale and the container bounds, in pixels."
   ],
   "offsetLeft": [
-    "Offset Left",
-    "Defines the distance between the left side of a linear scale and the container bounds."
+    "Left Offset",
+    "Defines the distance between the left side of a linear scale and the container bounds, in pixels."
   ],
   "scaleType": [
     "Scale Type",
