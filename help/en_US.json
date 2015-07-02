@@ -3724,11 +3724,11 @@
     "Option Background",
     ""
   ],
-  "listFormElement.fontFamily": [
+  "list.fontFamily": [
     "Selected Item Font",
     ""
   ],
-  "listFormElement.color": [
+  "list.color": [
     "Selected Item Font Color",
     ""
   ],
