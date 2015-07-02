@@ -873,7 +873,7 @@
   ],
   "majorTicksCount": [
     "Major Tick Count",
-    "Defines the total number of major ticks along the scale."
+    "Defines the total number of major ticks along this scale."
   ],
   "percentRadius": [
     "Radius",
@@ -3610,7 +3610,7 @@
   ],
   "scaleTicks.majorTicksPercentLength": [
     "Major Tick Length",
-    "Defines the length of each major tick, as a pixel value or a percentage. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
+    "Defines the length of each major tick, as a pixel value or a percentage. For circular scales, a percentage is a portion of the circle’s radius. For linear scales, a percentage is a portion of half the container width."
   ],
   "scaleTicks.minorTicksCount": [
     "Minor Tick Count",
@@ -3618,10 +3618,10 @@
   ],
   "scaleTicks.minorTicksPercentLength": [
     "Minor Tick Length",
-    "Defines the length of each minor tick, as a pixel value or a percentage. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
+    "Defines the length of each minor tick, as a pixel value or a percentage. For circular scales, a percentage is a portion of the circle’s radius. For linear scales, a percentage is a portion of half the container width."
   ],
   "scaleLabels.showMinMaxOnly": [
-    "Show Min Max Only",
+    "Only Min/Max Labels",
     "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
   ],
   "scaleLabels.percentTextSize": [
@@ -3630,15 +3630,15 @@
   ],
   "scaleLabels.justify": [
     "Justify",
-    ""
+    "Specifies whether the labels appear on the inside, outside, or center of the circle or line that defines the scale."
   ],
   "scaleTrack.percentStartThickness": [
     "Start Thickness",
-    "Defines the thickness of the scale track at its start, as a pixel or percentage value. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
+    "Defines the thickness of the scale track at its start, as a pixel or percentage value. For circular scales, a percentage is a portion of the circle’s radius. For linear scales, a percentage is a portion of the entire container width."
   ],
   "scaleTrack.percentEndThickness": [
     "End Thickness",
-    "Defines the thickness of the scale track at its end, as a pixel or percentage value. For circular scales, the percentage is a portion of the circle’s radius. For linear scales, the percentage is a portion of the container width."
+    "Defines the thickness of the scale track at its end, as a pixel or percentage value. For circular scales, a percentage is a portion of the circle’s radius. For linear scales, a percentage is a portion of the entire container width."
   ],
   "textEditor.ignoreDefaultStyle": [
     "Ignore Default Style",
