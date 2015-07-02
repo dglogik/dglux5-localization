@@ -876,8 +876,8 @@
     "Defines the total number of major ticks along the scale."
   ],
   "percentRadius": [
-    "Percent Radius",
-    "Defines the radius of the circle that defines the scale, as a percentage of either the width or height of the container, whichever is larger."
+    "Radius",
+    "Defines the radius of the circle that defines the scale, as a percentage of either half the width or half the height of the container, whichever is larger."
   ],
   "percentOriginY": [
     "Percent Origin Y",
