@@ -3320,6 +3320,10 @@
     "Column Filter",
     "Specifies the columns for a filter, as a comma-separated list of table column names. Use the Filter Type property to specify whether these columns are shown in this data grid or hidden from it."
   ],
+  "datagrid.columnFilterType": [
+    "Filter Type",
+    "<p>Specifies how this filter handles the listed columns. Hidden columns retain their properties.</p><p><strong>Whitelist</strong><br />Only the listed columns are shown in this data grid.</p><p><strong>Blacklist</strong><br />The listed columns are hidden from this data grid.</p>"
+  ],
   "datagrid.sortOrder": [
     "Sort Order",
     "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for the data grid component and edit the sort block.</p>"
@@ -3356,9 +3360,9 @@
     "Focused Row Index",
     ""
   ],
-  "datagridRows.rowHeight": [
-    "Grid.row Height",
-    ""
+  "datagridRows.grid.rowHeight": [
+    "Row Height",
+    "Defines the height in pixels of each data grid row."
   ],
   "datagridRows.rowBackground": [
     "Grid.row Background",
