@@ -969,11 +969,11 @@
   ],
   "longitude": [
     "Longitude",
-    ""
+    "Sets or returns the longitude at the center of the map component."
   ],
   "latitude": [
     "Latitude",
-    ""
+    "Sets or returns the latitude at the center of the map component."
   ],
   "maxCharLength": [
     "Max Char Length",
@@ -1029,7 +1029,7 @@
   ],
   "fontFamily": [
     "Font Family",
-    ""
+    "<p>Specifies the font for this component. You can add a new font, and then specify it using the drop-down menu for this property.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "textDir": [
     "Text Direction",
@@ -1326,7 +1326,7 @@
   ],
   "calAnimation": [
     "Animation Speed",
-    "The duration of the callout display animation in seconds."
+    "Defines the duration of the callout display animation in seconds."
   ],
   "calAnimation.duration": [
     "Callout Animation Speed",
@@ -1826,7 +1826,7 @@
   ],
   "onComplete": [
     "On Complete",
-    ""
+    "Triggers an event on completion of this animation. Can be used to invoke actions or trigger other events."
   ],
   "path": [
     "Path",
@@ -1869,8 +1869,8 @@
     "Defines the opacity of this component. If this component is a group or container, all elements inside are affected."
   ],
   "url": [
-    "Url",
-    ""
+    "URL",
+    "<p>Specifies the URL to be displayed within the IFrame.</p><p>This allows you to use other third party or your own standalone CSS, JavaScript, and HTML components in your DGLux application. Your custom components will behave as if they were native DGLux components.</p>"
   ],
   "tilingOpt": [
     "Tiling/Scaling",
@@ -2806,7 +2806,7 @@
   ],
   "pageInclude.reload": [
     "Reload",
-    ""
+    "Refreshes the .dg5 file within the Page Include."
   ],
   "pageInclude.onContentLoaded": [
     "On Content Loaded",
@@ -2841,8 +2841,8 @@
     "<p>Specifies whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p>\n<p><strong>True</strong><br />\nLine breaks are recognized.</p>\n<p><strong>False</strong><br />\nLine breaks are ignored. All text is displayed on a single line.</p>"
   ],
   "img.src": [
-    "Src",
-    ""
+    "URL",
+    "<p>Defines the path where the image is located. You can click the folder icon to select or upload an image, or you can enter a relative URL within the project, such as assets/image.png. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any image format supported by the user's browser.</p>"
   ],
   "img.!numFrames": [
     "Total Frames",
@@ -2918,11 +2918,11 @@
   ],
   "map.apikey": [
     "API Key",
-    ""
+    "<p>Specifies the Google Maps API key to use.</p><p>You are responsible for the use of Google Maps and for compliance with Google's licensing. For details, please see <a href='https://developers.google.com/maps/terms#section_9_1'>Google's Terms of Service for Google Maps and Google Earth</a>.</p>"
   ],
   "map.zoom": [
     "Zoom",
-    ""
+    "Sets or returns the zoom level for the map. 0 is the lowest zoom level, in which the entire world can be seen in one map. For each map type, valid zoom levels are from 0 to the maximum zoom level for that location and map type. The maximum depends on available data and is typically between 18 and 21 for a given location and map type."
   ],
   "map.mapControls": [
     "Map Controls",
@@ -3315,6 +3315,10 @@
   "datagrid.hoveredIndex": [
     "Hovered Index",
     ""
+  ],
+  "datagrid.columnFilter": [
+    "Column Filter",
+    "Specifies the columns for a filter, as a comma-separated list of table column names. Use the Filter Type property to specify whether these columns are shown in this data grid or hidden from it."
   ],
   "datagrid.sortOrder": [
     "Sort Order",
