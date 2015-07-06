@@ -1868,7 +1868,11 @@
     "Opacity",
     "Defines the opacity of this component. If this component is a group or container, all elements inside are affected."
   ],
-  "url": [
+  "video.url": [
+    "URL",
+    "<p>Specifies the path where the video is located. You can click the folder icon to select or upload an image, or you can enter a relative URL within the project, such as assets/video.mp4. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any video format supported by the user's browser.</p>"
+  ],
+  "IFrame.url": [
     "URL",
     "<p>Specifies the URL to be displayed within the IFrame.</p><p>This allows you to use other third party or your own standalone CSS, JavaScript, and HTML components in your DGLux application. Your custom components will behave as if they were native DGLux components.</p>"
   ],
@@ -2909,8 +2913,8 @@
     "Restarts the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.@onEnded": [
-    "On Ended",
-    ""
+    "onEnded",
+    "Triggers an event on completion of this video. Can be used to invoke actions."
   ],
   "video.volume": [
     "Volume",
@@ -3250,7 +3254,7 @@
   ],
   "datagrid.headerHeight": [
     "Header Height",
-    "Defines the height in pixels of this data grid's header."
+    "Defines the height of the header in pixels. A value of Auto makes the header height depend on its content."
   ],
   "datagrid.headerBackground": [
     "Header Fill",
