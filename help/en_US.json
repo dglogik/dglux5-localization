@@ -1330,7 +1330,7 @@
   ],
   "calAnimation.duration": [
     "Callout Animation Speed",
-    "The duration of the callout display animation in seconds."
+    "Defines the duration of the callout display animation in seconds."
   ],
   "calSpeed": [
     "Callout  Speed",
