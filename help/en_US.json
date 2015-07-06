@@ -1226,7 +1226,11 @@
   ],
   "filter.ratio": [
     "Ratio",
-    ""
+    "<p>Defines the value of this filter effect. The meaning of this value differs depending on the type of effect:<ul><li><strong>Saturation</strong> &#8212; Changes the saturation of the element. Values under 100% create results with less saturation, and values over 100% create results with more saturation. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely unsaturated.</li><li><strong>Grayscale</strong> &#8212; Converts the element to grayscale. A value of 100% makes the element appear completely grayscale. A value of 0% leaves the element unchanged.</li><li><strong>Contrast</strong> &#8212; Controls the element's contrast. Values under 100% create results with more contrast, and values over 100% create results with less contrast. A value of 100% leaves the element unchanged. A value of 0% removes all contrast.</li><li><strong>Brightness</strong> &#8212; Controls the element's brightness. Values under 100% create results that appear dimmer, and values over 100% create results that appear brighter. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely black.</li><li><strong>Invert</strong> &#8212; Inverts the samples in the input element, giving a \"photo negative\" effect. A value of 100% inverts samples completely. A value of 0% leaves the element unchanged.</li><li><strong>Sepia</strong> &#8212; Converts the element to sepia. A value of 100% makes the element appear completely sepia. A value of 0% leaves the element unchanged.</li><li><strong>Hue Rotate</strong> &#8212; Applies a hue rotation to the element. Specifies the number of degrees around the color circle the input colors will be adjusted. A value of zero or 360 leaves the input unchanged. A value of 180 inverts the hues.</li></ul></p>"
+  ],
+  "filter.size": [
+    "Size",
+    "Controls the Gaussian blur on the input image, in pixels. A larger value creates more blur."
   ],
   "shadows": [
     "Shadows",
@@ -1290,7 +1294,7 @@
   ],
   "calVisible": [
     "Is  Callout  Visible",
-    "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the component."
+    "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the target."
   ],
   "calGrayOutComp": [
     "Gray  Out  Component",
@@ -1301,15 +1305,15 @@
     "Specifies the background fill that appears when a modal callout is visible."
   ],
   "calModal": [
-    " Modal  Callout",
-    ""
+    "Modal Callout",
+    "Determines whether the callouts for the element are modal. When a modal callout is displayed, other elements in the view become faded and inactive. If the Gray Out Component property is true, then the callout's target becomes faded and inactive along with other elements."
   ],
   "calTimeout": [
-    " Callout  Timeout",
-    ""
+    "Hide Timeout",
+    "Defines the time, in seconds, that a mouse-over or events callout is displayed before it automatically fades out. A value of zero means that the callout will not fade based on timeout."
   ],
   "calHideIfOver": [
-    "Hide  If  Over",
+    "Hide If Over",
     "Determines whether mousing over the callout causes it to disappear."
   ],
   "calHide": [
@@ -1326,7 +1330,7 @@
   ],
   "calAnimation.duration": [
     "Callout Animation Speed",
-    ""
+    "The duration of the callout display animation in seconds."
   ],
   "calSpeed": [
     "Callout  Speed",
@@ -1345,40 +1349,44 @@
     "Defines the stroke color for the static callout's bond."
   ],
   "calBondType": [
-    "Callout Bond Style",
-    ""
+    "Callout Bond",
+    "<p>Specifies the shape of the stroke that connects the callout to its target.</p><p><strong>Line</strong><br />A straight line segment.</p><p><strong>Curve</strong><br />An S-shaped stroke.</p>"
   ],
   "calAutosize": [
-    "Callout  Autosize",
-    ""
+    "Callout Autosize",
+    "<p>Determines the sizing relationship between the callout and its symbol.</p><p><strong>True</strong><br />The callout follows the size of the symbol. Only works properly when the callout's width and height are Auto, and the symbol size is in pixels.</p><p><strong>False</strong><br />The symbol follows the size of the callout. Only works properly when the callout's width and height are not Auto.</p>"
   ],
   "calH": [
-    "Callout  Height",
-    ""
+    "Callout Height",
+    "Defines the height of the callout, as a pixel value or a percentage of the height of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
   ],
   "calW": [
-    "Callout  Width",
-    ""
+    "Callout Width",
+    "Defines the width of the callout, as a pixel value or a percentage of the width of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
   ],
   "calY": [
-    "Callout  Y  Offset",
-    "The Y Offset of a callout is the vertical distance from the top edge of the callout to the top edge of its target. You cannot manually set the Y Offset if the position of the callout is set as relative."
+    "Callout YOffset",
+    "Defines the vertical distance from the top edge of this callout to the top edge of its target. You cannot manually set the Y Offset if the position of the callout is set as relative."
   ],
   "calX": [
-    "Callout  X  Offset",
-    "The X Offset of a callout is the horizontal distance from the left edge of the callout to the left edge of its target. You cannot manually set the X Offset if the position of the callout is set as relative."
+    "Callout X Offset",
+    "Defines the horizontal distance from the left edge of this callout to the left edge of its target. You cannot manually set the X Offset if the position of the callout is set as relative."
   ],
   "calRelTarget": [
-    " Callout  Relative  To",
-    "Specifies whether the callout’s relative position (X and Y offsets) and size are relative to the callout's target component or to the page."
+    "Callout Relative To",
+    "Specifies whether the callout’s Position, or X Offset and Y Offset, are relative to the callout's target component or to the page."
   ],
   "calPos": [
-    " Callout position",
-    ""
+    "Callout Position",
+    "<p>Determines where a callout is placed, relative to the page or the target.</p><p><strong>Any corner</strong><br />The anchor point of the callout is positioned on this corner of the target or the page.</p><p><strong>Center of any edge</strong><br />The anchor point of the callout is positioned on the center of this edge of the target or page. </p><p><strong>Center</strong><br />The anchor point of the callout is positioned at the center of the target or page.</p><p>This property overrides the Callout X Offset and Callout Y Offset.</p>"
+  ],
+  "calAnchor": [
+    "Callout Anchor",
+    "<p>Determines the anchor point of the callout. The anchor point is the part of the callout that is placed at the specified position.</p><p><strong>Any corner</strong><br />The anchor point is this corner of the callout.</p><p><strong>Center of any edge</strong><br />The anchor point is the center of this edge of the callout.</p><p><strong>Center</strong><br />The anchor point is the center of the callout.</p>"
   ],
   "calType": [
     "Callout Type",
-    ""
+    "<p>Defines when this element's callout is visible.</p><p><strong>None</strong><br />This element has no callout.</p><p><strong>Static</strong><br />This element's callout is always visible.</p><p><strong>Mouse-Over</strong><br />This element's callout is visible only when the user mouses over the element. Only works if this element's Mouse Enabled property is set to true.</p><p><strong>Events</strong><br />This element's callout is visible only when certain events occur. To configure an event for the callout, you can bind properties, events, or action triggers to the callout's Show and Hide triggers. Mouse events only work if this element's Mouse Enabled property is set to true.</p>"
   ],
   "calloutSymbolId": [
     "Symbol",
@@ -1666,7 +1674,7 @@
   ],
   "keepAspectRatio": [
     "Keep Aspect Ratio",
-    ""
+    "Maintains the aspect ratio of this element when its width or height properties are adjusted. If this component's width or height is set to Auto, the component has no explicit aspect ratio, and this property does nothing."
   ],
   "height": [
     "Height",
@@ -1681,28 +1689,28 @@
     "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "vCenter": [
-    "V Center",
-    ""
+    "Vertical Center",
+    "In absolute or horizontal layout, places this element so that its vertical center is in a position relative to the vertical center of its parent container. The value can be pixels, or a percent of the parent height. A value of zero positions the vertical center of this component at the vertical center of its parent container. A negative value moves the component up, and a positive value moves it down. A value of Auto positions the vertical center of this component in its normal position in the layout."
   ],
   "hCenter": [
-    "H Center",
-    ""
+    "Horizontal Center",
+    "In absolute or vertical layout, places this element so that its horizontal center is in a position relative to the horizontal center of its parent container. The value can be pixels, or a percent of the parent width. A value of zero positions the horizontal center of this component at the horizontal center of its parent container. A negative value moves the component to the left, and a positive value moves it to the right. A value of Auto positions the horizontal center of this component in its normal position in the layout."
   ],
   "bottom": [
     "Bottom",
-    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's height.</p>"
+    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position. Distances are either pixel values, or percentages of the parent height.</p>"
   ],
   "right": [
     "Right",
-    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's width.</p>"
+    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position. Distances are either pixel values, or percentages of the parent width.</p>"
   ],
   "top": [
     "Top",
-    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's height.</p>"
+    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position. Distances are either pixel values, or percentages of the parent height.</p>"
   ],
   "left": [
     "Left",
-    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position. Distances are either pixel values, or percentages of the parent's width.</p>"
+    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position. Distances are either pixel values, or percentages of the parent width.</p>"
   ],
   "type": [
     "Column Editor Type",
