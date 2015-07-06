@@ -1221,7 +1221,11 @@
     "<p>Defines horizontal positioning of all elements within this container.</p>\n<p><strong>Flex-start</strong><br />\nElements are packed against the left edge.</p>\n<p><strong>Flex-end</strong><br />\nElements are packed against the right edge.</p>\n<p><strong>Center</strong><br />\nElements are packed together around the horizontal center.</p>\n<p><strong>Space-between*</strong><br />\nElements are distributed with the left element flush against the left edge, the right element flush against the right edge, and equal space between the items.</p>\n<p><strong>Space-around*</strong><br />\nElements are distributed with equal space between them. The space at the left and right of the container equals half of the space between two adjacent items.</p>\n<p><strong>Baseline**</strong><br />\nBaseline of all elements aligned to the baseline of the parent container.</p>\n<p><strong>Stretch**</strong><br />\nElements stretch horizontally to fit the parent container. Only works when the elements have a height value of Auto.</p>\n<p><strong>*</strong>Only available when Layout property is set to Horizontal<br />\n<strong>**</strong>Only available when Layout property is set to Vertical</p>"
   ],
   "filters": [
-    "Filters",
+    "Add Effect",
+    "<p>Attaches one or more filter effects to this element. After selecting a filter from the drop-down menu, click the filter name and specify a value.</p><p>These effects work only in browser versions that support WebKit. They are supported in Firefox, Chrome, Safari, Opera, iOS Safari, Android Browser, and Chrome for Android. They might not work in Internet Explorer or Opera Mini.</p>"
+  ],
+  "filter.ratio": [
+    "Ratio",
     ""
   ],
   "shadows": [
@@ -1230,23 +1234,23 @@
   ],
   "bottomRightRadius": [
     "Bottom Right Radius",
-    ""
+    "Defines the bottom right rounded corner as an arc of a circle or an ellipse. The circle or ellipse is defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "bottomLeftRadius": [
     "Bottom Left Radius",
-    ""
+    "Defines the bottom left rounded corner as an arc of a circle or an ellipse. The circle or ellipse is defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "topRightRadius": [
     "Top Right Radius",
-    ""
+    "Defines the top right rounded corner as an arc of a circle or an ellipse. The circle or ellipse is defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "topLeftRadius": [
     "Top Left Radius",
-    ""
+    "Defines the top left rounded corner as an arc of a circle or an ellipse. The circle or ellipse is defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "cornerRadius": [
     "Corner Radius",
-    ""
+    "<p>Defines rounded corners for this component. Use the <strong>1</strong> option to define a single value for all enabled corners. Use the <strong>4</strong> option to set each corner individually. Click on any of the four corner buttons to enable or disable rounding for that corner.</p><p>Corners are defined as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively.</p>"
   ],
   "complexCornerRadius": [
     "Complex Corner Radius",
