@@ -1050,11 +1050,11 @@
   ],
   "scrollbarStyles.width": [
     "Vertical Scrollbar Width",
-    ""
+    "Defines the width of the vertical scrollbar on this container as a pixel value, or a percentage of the container width."
   ],
   "scrollbarStyles.height": [
     "Horizontal Scrollbar Height",
-    ""
+    "Defines the height of the horizontal scrollbar on this container as a pixel value, or a percentage of the container height."
   ],
   "scrollbarStyles.thumb.background": [
     "Thumb Fill",
@@ -1074,7 +1074,7 @@
   ],
   "scrollbarStyles.thumb.cornerRadius": [
     "Thumb Corner Radius",
-    ""
+    "Defines rounded corners of the thumbs in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "scrollbarStyles.track.background": [
     "Track Fill",
@@ -1094,7 +1094,7 @@
   ],
   "scrollbarStyles.track.cornerRadius": [
     "Track Corner Radius",
-    ""
+    "Defines rounded corners of the tracks in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "@onScroll": [
     "On Scroll",
@@ -1162,11 +1162,11 @@
   ],
   "vScroll": [
     "Vertical Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling is always disabled.</p>\n<p><strong>On</strong><br />\nScrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
   ],
   "hScroll": [
     "Horizontal Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling always disabled.</p>\n<p><strong>On</strong><br />\nScrolling always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
+    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling is always disabled.</p>\n<p><strong>On</strong><br />\nScrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
   ],
   "hGap": [
     "H Gap",
@@ -1210,7 +1210,7 @@
   ],
   "flexWrap": [
     "Wrap",
-    ""
+    "<p>Defines whether elements within this container can wrap when there is not enough space to fit them in a single row or column. When Layout is set to Vertical, elements can wrap into columns. When Layout is set to Horizontal, elements can wrap into rows.</p><p><strong>Nowrap</strong><br />Elements do not wrap.</p><p><strong>Wrap</strong><br />The first element that does not fit in a row or column starts a new row or column. Elements in a row are positioned from left to right. Elements in a column are positioned from top to bottom. The first row is on the top, or the first column is on the left.</p><p><strong>Wrap-reverse</strong><br />Elements behave as in Wrap, except that the first row is on the bottom, or the first column is on the right.</p>"
   ],
   "alignItems": [
     "Vertical Alignment",
@@ -1610,19 +1610,19 @@
   ],
   "tooltip": [
     "Tooltip",
-    ""
+    "Defines the tooltip text to appear when the user mouses over this element. Tooltips use the default tooltip appearance for the user's browser and operating system. Tooltips appear only when the Mouse Enabled property is true for both the element and its parents."
   ],
   "display": [
     "Display",
-    ""
+    "<p>Defines whether the element is displayed. If it is not displayed, the component does not affect layout. However, regardless of value, the element is stored in the user's browser memory. Performance might be affected as a result.</p><p><strong>True</strong><br />The element is displayed, and affects layout.</p><p><strong>False</strong><br />The element is not displayed, and does not affect layout. The element remains stored in browser memory.</p>"
   ],
   "!label": [
     "Name",
     "Defines the display name of this component. This name appears in the Outline and breadcrumbs in DGLux."
   ],
   "visibility": [
-    "Visibility",
-    ""
+    "Visible",
+    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>True</strong><br />The element is visible.</p><p><strong>False</strong><br />The element is not visible, but still affects layout and is stored in browser memory.</p>"
   ],
   "followPathBaseRotation": [
     "Follow Path Base Rotation",
