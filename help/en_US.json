@@ -1365,7 +1365,7 @@
     "Defines the width of the callout, as a pixel value or a percentage of the width of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
   ],
   "calY": [
-    "Callout YOffset",
+    "Callout Y Offset",
     "Defines the vertical distance from the top edge of this callout to the top edge of its target. You cannot manually set the Y Offset if the position of the callout is set as relative."
   ],
   "calX": [
