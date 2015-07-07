@@ -3018,7 +3018,7 @@
   ],
   "calendar.noSelectFutureDate": [
     "Disable Selection of Future Dates",
-    "<p>Determines whether it is possible for the user to select future dates.</p><p><strong>true</strong><br />The user can select future dates.</p><p><strong>false</strong><br />If Selection Mode is set to Day, the user cannot select future dates. If Selection Mode is set to Week or Month, the user cannot select weeks or months after the week or month containing today.</p>"
+    "<p>Determines whether it is possible for the user to select future dates.</p><p><strong>True</strong><br />If Selection Mode is set to Day, the user cannot select future dates. If Selection Mode is set to Week or Month, the user cannot select weeks or months after the week or month containing today.</p><p><strong>False</strong><br />The user can select future dates.</p>"
   ],
   "calendar.highlightedDays": [
     "Highlighted Days",
