@@ -3014,11 +3014,11 @@
   ],
   "calendar.selectedDays": [
     "Selected Days",
-    "Sets or returns the currently selected date range as a comma-separated list."
+    "Sets or returns the currently selected days as a comma-separated list."
   ],
   "calendar.noSelectFutureDate": [
     "Disable Selection of Future Dates",
-    "Determines whether it is possible for the user to select future dates. If Selection Mode is set to Week or Month, the user can select the current week or month even if it contains future dates."
+    "<p>Determines whether it is possible for the user to select future dates.</p><p><strong>true</strong><br />The user can select future dates.</p><p><strong>false</strong><br />If Selection Mode is set to Day, the user cannot select future dates. If Selection Mode is set to Week or Month, the user cannot select weeks or months after the week or month containing today.</p>"
   ],
   "calendar.highlightedDays": [
     "Highlighted Days",
