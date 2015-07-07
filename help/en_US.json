@@ -2988,9 +2988,21 @@
     "Falloff",
     "Defines the percentage of each heat map item that is covered by the highest intensity color for that shape. The specified inner portion of the shape is covered by the color representing the intensity of the data point. If falloff is less than 100%, then the outer portion of the shape blends from the color of this intensity value to the color of an intensity value of zero."
   ],
+  "heatMap.xField": [
+    "X Field",
+    "<p>Defines the table column from which the X values of the heat map data points are determined.</p><p>Each X value is a distance in pixels from the left edge of the component.</p>"
+  ],
+  "heatMap.yField": [
+    "Y Field",
+    "<p>Defines the table column from which the Y values of the heat map data points are determined.</p><p>Each Y value is a distance in pixels from the top edge of the component.</p>"
+  ],
   "heatMap.dataField": [
-    "Data Field",
-    ""
+    "Intensity Field",
+    "<p>Defines the table column from which the intensity values are determined.</p><p>\"Intensity\" refers to whatever units the heat map is measuring, for example temperature or air flow. Each data point on the heat map has an intensity value that determines its color. Intensity values range from 0 to the highest data value. An intensity of 0 corresponds to the left end of this heat map's gradient, and the highest intensity value corresponds to the right end of this heat map's gradient.</p>"
+  ],
+  "heatMap.radius": [
+    "Radius",
+    "Defines the radius of each item on the heat map."
   ],
   "calendar.selectedValue": [
     "Selected Value",
