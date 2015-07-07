@@ -1222,7 +1222,7 @@
   ],
   "filters": [
     "Add Effect",
-    "<p>Attaches one or more filter effects to this element. After selecting a filter from the drop-down menu, click the filter name and specify a value.</p><p>These effects work only in browser versions that support WebKit. They are supported in Firefox, Chrome, Safari, Opera, iOS Safari, Android Browser, and Chrome for Android. They might not work in Internet Explorer or Opera Mini.</p>"
+    "<p>Attaches one or more filter effects to this element. After selecting a filter from the drop-down menu, click the filter name and specify a value.</p><p>These effects work only in browser versions that are based on WebKit. They are supported in Chrome, Safari, Opera, iOS Safari, Android Browser, and Chrome for Android. They might not work in Firefox, Internet Explorer, or Opera Mini.</p>"
   ],
   "filter.ratio": [
     "Ratio",
