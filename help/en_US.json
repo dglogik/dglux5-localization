@@ -61,7 +61,7 @@
   ],
   "todayCornerRadius": [
     "Today Cell Corner Radius",
-    "Defines the corner radius for the cell that represents the current day. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for the cell that represents the current day, as arcs of circles or ellipses.The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "todayFontStyle": [
     "Today Cell Italic",
@@ -80,8 +80,8 @@
     "Defines the font color to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontFamily": [
-    "Today Cell Font Family",
-    ""
+    "Today Cell Font",
+    "<p>Specifies the font to be used for the calendar cell that represents the current day.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "todayBorder": [
     "Today Cell Stroke Color",
@@ -93,7 +93,7 @@
   ],
   "outOfMonthCornerRadius": [
     "Out-of-Month Cells Corner Radius",
-    "Defines the corner radius for the days that show on the current calendar page but are outside the month depicted. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for out-of-month cells, as arcs of circles or ellipses.The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "outOfMonthFontStyle": [
     "Out-of-Month Cells Italic",
@@ -109,7 +109,7 @@
   ],
   "outOfMonthFontColor": [
     "Out-of-Month Cells Font Color",
-    "Defines the font color to be used for the days that show on the current calendar page but are outside the month depicted. Selected cells style properties take precedence over out-of-month cell properties."
+    "Defines the font color to be used for numbers in out-of-month cells. Selected cells style properties take precedence over out-of-month cell properties."
   ],
   "outOfMonthFontFamily": [
     "Out-of-Month Cells Font Family",
@@ -117,15 +117,15 @@
   ],
   "outOfMonthBorder": [
     "Out-of-Month Cells Stroke Color",
-    "Defines the stroke color for strokes outlining the few days that show on the current calendar page but are outside the month depicted."
+    "Defines the stroke color for strokes outlining out-of-month cells."
   ],
   "outOfMonthBackground": [
     "Out-of-Month Cells Fill",
-    "Defines the fill for few days that show on the current calendar page but are outside the month depicted."
+    "Defines the fill for out-of-month cells.."
   ],
   "weekendCornerRadius": [
     "Weekend Corner Radius",
-    "Defines the corner radius for weekend cells. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for weekend cells, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "weekendFontStyle": [
     "Weekend Cells Italic",
@@ -144,8 +144,8 @@
     "Defines the font color to be used for numbers in weekend cells."
   ],
   "weekendFontFamily": [
-    "Weekend Cells Font Family",
-    ""
+    "Weekend Cells Font",
+    "<p>Specifies the font to be used for numbers in calendar weekend cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "weekendBorder": [
     "Weekend Cells Stroke Color",
@@ -156,35 +156,35 @@
     "Defines the fill for weekend cells."
   ],
   "dowCornerRadius": [
-    "Day of Week Corner Radius",
-    "Defines the corner radius for the cells containing the names of the days of the week. A value of 0 means that corners are not rounded."
+    "Days of Week Corner Radius",
+    "Defines the corner radius for the cells containing the names of the days of the week, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "dowFontStyle": [
-    "Day of Week Italic",
+    "Days of Week Italic",
     ""
   ],
   "dowFontWeight": [
-    "Day of Week Bold",
+    "Days of Week Bold",
     ""
   ],
   "dowFontSize": [
-    "Day of Week Font Size",
+    "Days of Week Font Size",
     "Defines the font size to be used for the names of the days of the week."
   ],
   "dowFontColor": [
-    "Day of Week Font Color",
+    "Days of Week Font Color",
     "Defines the font color to be used for the names of the days of the week."
   ],
   "dowFontFamily": [
-    "Day of Week Font Family",
-    ""
+    "Days of Week Font",
+    "<p>Specifies the font to be used for the names of the days of the week.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "dowBorder": [
-    "Day of Week Stroke Color",
+    "Days of Week Stroke Color",
     "Defines the stroke color for strokes outlining the cells that contain the names of the days of the week."
   ],
   "dowBackground": [
-    "Day of Week Fill",
+    "Days of Week Fill",
     "Defines the fill for the cells containing the names of the days of the week."
   ],
   "titleFontColor": [
@@ -201,7 +201,7 @@
   ],
   "highlightedCornerRadius": [
     "Highlighted Cells Corner Radius",
-    ""
+    "<p>Defines the rounded corners for highlighted cells, as arcs of circles or ellipses. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector.</p><p>This property defines rounded corners as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded.</p>"
   ],
   "highlightedFontStyle": [
     "Highlighted Cells Italic",
@@ -213,27 +213,27 @@
   ],
   "highlightedFontSize": [
     "Highlighted Cells Font Size",
-    ""
+    "Defines the font size for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector."
   ],
   "highlightedFontColor": [
     "Highlighted Cells Font Color",
-    ""
+    "Defines the font color for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector."
   ],
   "highlightedFontFamily": [
-    "Highlighted Cells Font Family",
-    ""
+    "Highlighted Cells Font",
+    "<p>Specifies the font for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "highlightedBorder": [
     "Highlighted Cells Stroke Color",
-    ""
+    "Defines the stroke color for outlining highlighted cells. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector."
   ],
   "highlightedBackground": [
     "Highlighted Cells Fill",
-    ""
+    "Defines the fill for highlighted cells. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector."
   ],
   "selectedCornerRadius": [
     "Selected Cells Corner Radius",
-    "Defines the corner radius for selected cells. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for selected cells, as arcs of circles or ellipses.  The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "selectedFontStyle": [
     "Selected Cells Italic",
@@ -252,8 +252,8 @@
     "Defines the font color for numbers in selected cells."
   ],
   "selectedFontFamily": [
-    "Selected Cells Font Family",
-    ""
+    "Selected Cells Font",
+    "<p>Specifies the font for numbers in selected cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "selectedBorder": [
     "Selected Cells Stroke Color",
@@ -265,7 +265,7 @@
   ],
   "normalCornerRadius": [
     "Weekday Cells Corner Radius",
-    "Defines the corner radius for weekday cells. A value of 0 means that corners are not rounded."
+    "Defines the corner radius for weekday cells, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "normalFontStyle": [
     "Weekday Cells Italic",
@@ -284,8 +284,8 @@
     "Defines the font color for numbers in weekday cells."
   ],
   "normalFontFamily": [
-    "Weekday Cells Font Family",
-    ""
+    "Weekday Cells Font",
+    "<p>Specifies the font for numbers in weekday cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "normalBorder": [
     "Weekday Cells Stroke Color",
@@ -321,7 +321,7 @@
   ],
   "titleHeight": [
     "Header Height",
-    ""
+    "Defines the height of the calendar header, as a pixel value or Auto. A value of Auto means that the height of the header is equal to other calendar cells, and therefore depends on the calendar height."
   ],
   "additionalColumns": [
     "Additional Columns",
@@ -467,13 +467,13 @@
     "Header Italic",
     ""
   ],
-  "titleFontSize": [
+  "calendar.titleFontSize": [
     "Header Font Size",
     "Defines the font size used for the month and year text in the calendar header."
   ],
-  "titleFontFamily": [
+  "calendar.titleFontFamily": [
     "Header Font Family",
-    ""
+    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "titleColor": [
     "Title Color",
@@ -1029,7 +1029,7 @@
   ],
   "fontFamily": [
     "Font Family",
-    "<p>Specifies the font for this component. You can add a new font, and then specify it using the drop-down menu for this property.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for this component.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "textDir": [
     "Text Direction",
@@ -3041,8 +3041,8 @@
     "Sets or returns the year of the current calendar page."
   ],
   "calendar.arrowFontFamily": [
-    "Arrow Font Family",
-    ""
+    "Arrow Font",
+    "<p>Specifies the font used for the left and right arrow glyphs in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
