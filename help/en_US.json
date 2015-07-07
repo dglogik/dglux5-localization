@@ -1116,9 +1116,9 @@
     "Selected Index",
     "<p>Sets or returns the index of the selected item in this container.</p><p>The first item has an index of 0.</p><p>The index −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are returned.</p>"
   ],
-  "symbol": [
+  "symbol.symbol": [
     "Symbol",
-    "Specifies the symbol to be used when iterating the rows of the linked table."
+    "<p>Specifies which symbol is displayed in this symbol component. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>By default, this is the only property for a symbol. To create more properties for a particular symbol, open the Edit Properties dialog for that symbol.</p>"
   ],
   "contentHeight": [
     "Content Height",
@@ -3005,12 +3005,12 @@
     "Defines the radius of each item on the heat map."
   ],
   "calendar.selectedValue": [
-    "Selected Value",
-    ""
+    "Selected Date",
+    "<p>Sets or returns the currently selected date for this calendar. Uses the format \"yyyy-MM-dd\". For more information about date formats, see <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>the DGLux wiki</a>.</p><p>If the user selects a range of dates, this property reflects only the date that the user clicked to select the range. </p>"
   ],
   "calendar.selectedRangeValue": [
-    "Selected Range Value",
-    ""
+    "Selected Range",
+    "<p>Sets or returns the currently selected date range for this calendar. Uses the format \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\". For more information about date formats, see <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>the DGLux wiki</a>.</p><p>To let the user change this property, set the Selection Mode property to Day, Week, or Month.</p><p>To change this property using the Property Inspector, click the Selected Range button to open a DGLux date range picker. Using this dialog, you can choose a date range in several ways:</p><p><strong>Range</strong><br />Specify a start date and end date. Optionally, you can also specify a start time and end time using 24-hour time.</p><p><strong>Day</strong><br />Specify one day.</p><p><strong>Week</strong><br />Specify one week. Clicking any date selects a week that includes that date. The selected week starts on a Sunday and ends on a Saturday.</p><p><strong>Month</strong><br />Specify a month and year.</p><p><strong>Year</strong><br />Specify a year.</p><p><strong>Relative</strong><br />Specify a range relative to the current date and time. Enter a number of seconds, minutes, hours, days, weeks, months, or years, and specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26 PM, the \"previous hour\" is the hour from 2:00 to 3:00.</p>"
   ],
   "calendar.selectedDays": [
     "Selected Days",
@@ -3022,7 +3022,7 @@
   ],
   "calendar.highlightedDays": [
     "Highlighted Days",
-    ""
+    "Sets the highlighted days, as a list of comma-separated values with the format "\yyyy-MM-dd\". For more information about date formats, see <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>the DGLux wiki</a>."
   ],
   "calendar.prevArrowSymbol": [
     "Previous Button Glyph",
