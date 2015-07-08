@@ -751,9 +751,9 @@
     "Editor Type",
     ""
   ],
-  "datalist": [
+  "colorFormInput.datalist": [
     "Datalist",
-    "Allows you to create a list of predefined colors for the user to choose from. Lists of predefined colors are not supported in all browsers. To add a color to the list, click Add and then define a color."
+    "<p>Specifies one of the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p></p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
   ],
   "inputType": [
     "Input Type",
@@ -855,17 +855,25 @@
     "Labels Italic",
     ""
   ],
-  "labelsFontFamily": [
+  "axisRenderer.labelsFontFamily": [
     "Labels Font",
     "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+  ],
+  "scaleLabels.labelsFontFamily": [
+    "Labels Font",
+    "<p>Defines the font used for the labels along this scale.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "labelsColor": [
     "Labels Font Color",
     "Defines the font color used for the labels along this axis."
   ],
-  "formatString": [
+  "axis.formatString": [
     "Format String",
     "Defines the format used for the axis labels. For example, a datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a> for a complete list of formats."
+  ],
+  "scaleLabels.formatString": [
+    "Format",
+    "<p>Defines the number format for scale labels, as a format string.</p><p>For example:<ul><li><strong>,##0.00<strong> — Labels have a thousands separator and two decimal digits. </li><li><strong>000.00</strong> — Labels have three mandatory digits before the decimal, and two mandatory digits after the decimal. </li></ul>See more information about supported formatting options <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>here</a>.</p>"
   ],
   "maximum": [
     "Maximum",
@@ -875,9 +883,13 @@
     "Minimum",
     "Defines the lowest number on the scale."
   ],
-  "majorTicksCount": [
+  "scaleTicks.majorTicksCount": [
     "Major Tick Count",
     "Defines the total number of major ticks along this scale."
+  ],
+  "scaleLabels.majorTicksCount": [
+    "Labels Cound",
+    "Defines the total number of labels along a labeled scale. Must be an integer greater than or equal to 2. The Only Min/Max Labels property overrides this property."
   ],
   "percentRadius": [
     "Radius",
@@ -3641,8 +3653,8 @@
     "<p>Defines the code for an SVG element to be repeated by this repeater.</p><p><strong>Example</strong><br />&#60;rect width&#61;\"30\" height&#61;\"30\" fill&#61;\"green\" x&#61;\"&#91;v1&#93;00\" y&#61;\"&#91;v2&#93;\"&#62;&#60;/rect&#62;</p><p>This example creates a repeating green rectangle SVG element. The SVG element appears at the x- and y-coordinates defined by columns v1 and v2 of the linked table. In the case of the x-coordinate, the table cell values are multiplied by 100 by concatenating two zeroes.</p>"
   ],
   "rawSvgRepeater.svgDefs": [
-    "Svg Defs",
-    ""
+    "SVG Defs",
+    "<p>Defines the &#60;defs&#62; element for the repeated SVG element.</p><p><strong>Example</strong><br />&#60;style&#62;rect&#123;fill:green;stroke:black;&#125;&#60;/style&#62;</p><p>This example defines a style for the repeated SVG rectangle. The style includes a green fill and a black border stroke.</p>"
   ],
   "rawSvgRepeater.dataTipSymbol": [
     "Datatip Symbol",
@@ -3677,8 +3689,8 @@
     "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
   ],
   "scaleLabels.percentTextSize": [
-    "Percent Text Size",
-    ""
+    "Size",
+    "Defines the height of the scale numbers, as a pixel value or percentage. For circular scales, a percentage is a portion of the circle's radius. For linear scales, a percentage is a portion of half the container width."
   ],
   "scaleLabels.justify": [
     "Justify",
@@ -3732,21 +3744,25 @@
     "Ticks",
     "Defines values where ticks appear on the range selector, as a list of comma-separated values."
   ],
+  "listFormElement.selectedIndex": [
+    "Selected Index",
+    "Sets or returns the index of the currently selected list element. A value of 0 indicates the top element in the list."
+  ],
   "listFormElement.showArrow": [
     "Show Arrow",
-    ""
+    "Determines whether an arrow graphic appears in the component, indicating a drop-down list."
   ],
   "listFormElement.arrowImage": [
     "Arrow Image",
-    ""
+    "Specifies a custom arrow graphic that appears if Show Arrow is enabled. If you don't specify an image, a default graphic is used."
   ],
   "listFormElement.options": [
     "Options",
-    ""
+    "Defines the list of options for this list element, as comma-separated values."
   ],
   "listFormElement.optionFontFamily": [
-    "Option Font Family",
-    ""
+    "Option Font",
+    "<p>Defines the font for the options that are not currently selected. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "listFormElement.optionLineHeight": [
     "Option Line Height",
@@ -3754,7 +3770,7 @@
   ],
   "listFormElement.optionFontSize": [
     "Option Font Size",
-    ""
+    "Defines the font size for the options that are not currently selected. Not supported in all browsers."
   ],
   "listFormElement.optionFontStyle": [
     "Option Font Italic",
@@ -3770,15 +3786,15 @@
   ],
   "listFormElement.optionColor": [
     "Option Font Color",
-    ""
+    "Defines the font color for the options that are not currently selected. Not supported in all browsers."
   ],
   "listFormElement.optionTextAlign": [
     "Option Text Align",
     ""
   ],
   "listFormElement.optionBackground": [
-    "Option Background",
-    ""
+    "Option Fill",
+    "Defines the fill for the options that are not currently selected. Not supported in all browsers."
   ],
   "list.fontFamily": [
     "Selected Item Font",
@@ -3789,8 +3805,8 @@
     ""
   ],
   "fileFormInput.binaryMode": [
-    "Binary Mode",
-    ""
+    "Mode",
+    "Sets whether the file content is displayed as a string or as binary."
   ],
   "fileFormInput.file": [
     "File",
@@ -3798,11 +3814,11 @@
   ],
   "fileFormInput.open": [
     "Open",
-    ""
+    "Opens the browser file chooser. To set the file chooser to open in certain circumstances, you can bind data or properties to this button, or click it as part of a recorded action."
   ],
   "fileFormInput.accept": [
     "Accept",
-    ""
+    "<p>Specifies the file formats that are accepted by this file chooser.</p><p>Enter one or more of the following values separated by commas:<ul><li><strong>.png, .jpg, .gif, etc.</strong> — Files of the format specified.</li><li><strong>audio/*</strong> — All sound files.</li><li><strong>video/*</strong> — All video files.</li><li><strong>image/*</strong> — All image files.</li><li><strong>media_type/*</strong> — Replace media_type with any valid media type, to accept all formats within that type. Look at IANA Media Types for a complete list of standard media types.</li></ul></p>"
   ],
   "svg:text.textAnchor": [
     "Text Anchor",
