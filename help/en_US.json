@@ -513,7 +513,7 @@
   ],
   "showLabels": [
     "Show Labels",
-    ""
+    "Specifies whether this series has labels."
   ],
   "minorTickPlacement": [
     "Minor Tick Placement",
@@ -1032,8 +1032,8 @@
     "Specifies the vertical spacing between lines. If 0, the default spacing for the selected font is used."
   ],
   "fontFamily": [
-    "Font Family",
-    "<p>Specifies the font for this component.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "Font",
+    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "textDir": [
     "Text Direction",
@@ -1929,12 +1929,12 @@
     ""
   ],
   "field": [
-    "Column",
+    "Field",
     "Defines the table column that contains the pie chart series data that determines wedge size."
   ],
   "data": [
     "Data",
-    "Specifies the table for the repeater to use as the data source."
+    "Specifies the table that this repeater uses as its data source."
   ],
   "loop": [
     "Loop",
@@ -3626,23 +3626,27 @@
   ],
   "chart.outerRadius": [
     "Outer Radius",
-    ""
+    "<p>Defines the radius of this pie chart, as a percentage of the radius of the largest pie chart that would fit. This depends on container size.</p><p>If the Reduce Outer Radius property is true, then the radius size might be automatically reduced in order to fit labels or other elements.</p>"
   ],
   "chart.reduceOuterRadius": [
     "Reduce Outer Radius",
-    ""
+    "<p>Defines whether the pie chart radius shrinks automatically in order to fit labels or other elements.</p><p><strong>True</strong><br />The pie chart radius might be smaller than that determined by the Outer Radius property, in order to fit labels or other elements.</p><p><strong>False</strong><br />The pie chart size is determined by the Outer Radius property only.</p>"
+  ],
+  "rawSvgRepeater.data": [
+    "Data Source",
+    "Defines the table that controls the SVG repeater. The SVG element will repeat once for each row in the table. Table columns can be used to represent attributes of the SVG element, such as style or coordinates."
   ],
   "rawSvgRepeater.svgItem": [
-    "Svg Item",
-    ""
+    "SVG Item",
+    "<p>Defines the code for an SVG element to be repeated by this repeater.</p><p><strong>Example</strong><br />&#60;rect width&#61;\"30\" height&#61;\"30\" fill&#61;\"green\" x&#61;\"&#91;v1&#93;00\" y&#61;\"&#91;v2&#93;\"&#62;&#60;/rect&#62;</p><p>This example creates a repeating green rectangle SVG element. The SVG element appears at the x- and y-coordinates defined by columns v1 and v2 of the linked table. In the case of the x-coordinate, the table cell values are multiplied by 100 by concatenating two zeroes.</p>"
   ],
   "rawSvgRepeater.svgDefs": [
     "Svg Defs",
     ""
   ],
   "rawSvgRepeater.dataTipSymbol": [
-    "Data Tip Symbol",
-    ""
+    "Datatip Symbol",
+    "Defines the symbol that appears as a datatip when mousing over an instance of the SVG in this repeater."
   ],
   "scaleTicks.ticksPlacement": [
     "Ticks Placement",
@@ -3905,8 +3909,8 @@
     ""
   ],
   "pieSeries.dgWedgeLabel": [
-    "Dg Wedge Label",
-    ""
+    "Wedge Label",
+    "Configures the text displayed in wedge labels for this series. Use the same tags you would use for a datatip."
   ],
   "pieSeries.radialStroke": [
     "Radial Stroke Color",
@@ -3922,7 +3926,7 @@
   ],
   "pieSeries.calloutGap": [
     "Callout Gap",
-    ""
+    "Defines the amount of empty space, in pixels, that is added to the gap between the edge of the pie and the edge of the labels. Does not define the entire gap, but rather the amount that is added to the default gap. A negative value makes the gap smaller than the default."
   ],
   "pieSeries.calloutStroke": [
     "Callout Stroke Color",
@@ -3938,7 +3942,7 @@
   ],
   "pieSeries.labelPosition": [
     "Label Position",
-    ""
+    "<p>Defines the position of the labels.</p><p><strong>None</strong><br />There are no labels.</p><p><strong>Outside</strong><br />Labels are positioned for each pie wedge, near the outer edge of the pie series. Labels might be inside or outside the wedges, depending on the outer radius of the series. </p><p><strong>Callout</strong><br />Labels are positioned outside of the chart, with callout lines.</p><p><strong>Inside</strong><br />Labels are positioned inside each pie wedge.</p><p><strong>Inside with Callout</strong><br />Labels are positioned inside each pie wedge when possible. If a label can't be positioned inside, it is positioned outside of the chart, with a callout line.</p>"
   ],
   "pieSeries.renderDirection": [
     "Render Direction",
@@ -3946,11 +3950,11 @@
   ],
   "pieSeries.explodeRadius": [
     "Explode Radius",
-    ""
+    "Defines the distance that the series is exploded, as a percentage of the outer radius of the chart. Wedges move away from the center by this distance without changing their shape."
   ],
   "pieSeries.dgFills": [
-    "Dg Fills",
-    ""
+    "Wedge Fills",
+    "<p>Specify colors for the pie wedges in this series. Click <strong>Add</strong> to add a color.  Click on a color to edit it.</p><p>Colors are used in order, with the top color corresponding to the top row of table data.</p><p>The Color Field property overrides this property.</p>"
   ],
   "pieSeries.innerRadiusInPixels": [
     "Inner Radius In Pixels",
@@ -3962,7 +3966,7 @@
   ],
   "pieSeries.colorField": [
     "Color Field",
-    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> &#8212; any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> &#8212; any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> &#8212; any RGBA color string, including \"rgba\" and the parentheses.</li></ul>You can also specify colors in the Property Inspector by expanding Wedge Fills.</p>"
+    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> &#8212; any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> &#8212; any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> &#8212; any RGBA color string, including \"rgba\" and the parentheses.</li></ul>Alternatively, you can specify colors in the Property Inspector by expanding Wedge Fills.</p>"
   ],
   "spectrumSeries.dateField": [
     "Date Field",
@@ -4038,7 +4042,7 @@
   ],
   "gridlines.horizontalTickAligned": [
     "Horizontal Tick Aligned",
-    ""
+    "<p>Defines where horizontal gridlines are placed.</p><p><strong>True</strong><br />Horizontal gridlines are positioned at major ticks.</p><p><strong>False</strong><br />Horizontal gridlines are positioned halfway between major ticks.</p>"
   ],
   "gridlines.verticalAlternateFill": [
     "Vertical Alternate Fill",
@@ -4078,7 +4082,7 @@
   ],
   "gridlines.verticalTickAligned": [
     "Vertical Tick Aligned",
-    ""
+    "<p>Defines where vertical gridlines are placed.</p><p><strong>True</strong><br />Vertical gridlines are positioned at major ticks.</p><p><strong>False</strong><br />Vertical gridlines are positioned halfway between major ticks.</p>"
   ],
   "gridlines.plottedAreaX": [
     "Plotted Area X",
