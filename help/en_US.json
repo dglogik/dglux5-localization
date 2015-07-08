@@ -424,7 +424,7 @@
     "Specifies the symbol to use as the datatip for the series. This property overrides any text entered in the Datatip property. To use a symbol from this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
   ],
   "dgDataTip": [
-    "Dg Data Tip",
+    "Datatip",
     ""
   ],
   "showDataTips": [
@@ -917,7 +917,7 @@
   ],
   "showFullTime": [
     "Show Full Time",
-    ""
+    "<p>Determines whether the Range portion of the date range picker includes time.</p><p><strong>True</strong><br />The date range picker can specify start and end times, as well as start and end dates.</p><p><strong>False</strong><br />The date range picker can specify start and end dates only.</p>"
   ],
   "showRange": [
     "Show Range",
@@ -2210,7 +2210,7 @@
   ],
   "daterange.input": [
     "Value",
-    "<p>Returns the currently selected date range in the date range picker as one of the formats listed below.<ul><li><strong>Range</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> &#8212; \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> &#8212; \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> &#8212; \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> &#8212; \"[current/previous]N[seconds/minutes/hours/days/weeks/months/years]\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
+    "<p>Returns the currently selected date range in the date range picker as one of the formats listed below.<ul><li><strong>Range</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> &#8212; \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> &#8212; \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> &#8212; \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> &#8212; \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
   ],
   "daterange.formatted": [
     "Formatted Value",
@@ -3061,12 +3061,12 @@
     ""
   ],
   "daterangePicker.popupBackground": [
-    "Popup Background",
-    ""
+    "Dialog Background",
+    "Defines the background color for this date range picker."
   ],
   "daterangePicker.buttonFontFamily": [
-    "Button Font Family",
-    ""
+    "Button Font",
+    "<p>Defines the font for buttons within this date range picker.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol>"
   ],
   "daterangePicker.buttonFontSize": [
     "Button Font Size",
@@ -3609,8 +3609,8 @@
     ""
   ],
   "chart.dataTipMode": [
-    "Data Tip Mode",
-    ""
+    "Datatip Mode",
+    "<p>Defines datatip behavior.</p><p><strong>None</strong><br />No datatips are displayed.</p><p><strong>Single</strong><br />When the user mouses over a data point, a datatip is displayed. Only one datatip is displayed at a time.</p><p><strong>Multiple</strong><br />When the user mouses over a data point, a datatip is displayed. If points from multiple series exist at the moused-over position, multiple datatips are displayed. Only one datatip is displayed per series.</p>"
   ],
   "chart.columnWidthRatio": [
     "Column Width Ratio",
