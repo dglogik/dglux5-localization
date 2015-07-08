@@ -1130,7 +1130,7 @@
   ],
   "selectedIndex": [
     "Selected Index",
-    "<p>Sets or returns the index of the selected item in this container.</p><p>The first item has an index of 0.</p><p>The index −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are returned.</p>"
+    "<p>Sets or returns the index of the selected item in this container.</p><p>An index of 0 indicates the first item.</p><p>An index of −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are used.</p>"
   ],
   "symbol.symbol": [
     "Symbol",
@@ -1242,7 +1242,7 @@
   ],
   "filter.ratio": [
     "Ratio",
-    "<p>Defines the value of this filter effect. The meaning of this value differs depending on the type of effect:<ul><li><strong>Saturation</strong> &#8212; Changes the saturation of the element. Values under 100% create results with less saturation, and values over 100% create results with more saturation. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely unsaturated.</li><li><strong>Grayscale</strong> &#8212; Converts the element to grayscale. A value of 100% makes the element appear completely grayscale. A value of 0% leaves the element unchanged.</li><li><strong>Contrast</strong> &#8212; Controls the element's contrast. Values under 100% create results with more contrast, and values over 100% create results with less contrast. A value of 100% leaves the element unchanged. A value of 0% removes all contrast.</li><li><strong>Brightness</strong> &#8212; Controls the element's brightness. Values under 100% create results that appear dimmer, and values over 100% create results that appear brighter. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely black.</li><li><strong>Invert</strong> &#8212; Inverts the samples in the input element, giving a \"photo negative\" effect. A value of 100% inverts samples completely. A value of 0% leaves the element unchanged.</li><li><strong>Sepia</strong> &#8212; Converts the element to sepia. A value of 100% makes the element appear completely sepia. A value of 0% leaves the element unchanged.</li><li><strong>Hue Rotate</strong> &#8212; Applies a hue rotation to the element. Specifies the number of degrees around the color circle the input colors will be adjusted. A value of zero or 360 leaves the input unchanged. A value of 180 inverts the hues.</li></ul></p>"
+    "<p>Defines the value of this filter effect. The meaning of this value differs depending on the type of effect:<ul><li><strong>Saturation</strong> &#8212; Changes the saturation of the element. Values under 100% create results with less saturation, and values over 100% create results with more saturation. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely unsaturated.</li><li><strong>Grayscale</strong> &#8212; Converts the element to grayscale. A value of 100% makes the element appear completely grayscale. A value of 0% leaves the element unchanged.</li><li><strong>Contrast</strong> &#8212; Controls the element's contrast. Values under 100% create results with less contrast, and values over 100% create results with more contrast. A value of 100% leaves the element unchanged. A value of 0% removes all contrast.</li><li><strong>Brightness</strong> &#8212; Controls the element's brightness. Values under 100% create results that appear dimmer, and values over 100% create results that appear brighter. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely black.</li><li><strong>Invert</strong> &#8212; Inverts the samples in the input element, giving a \"photo negative\" effect. A value of 100% inverts samples completely. A value of 0% leaves the element unchanged.</li><li><strong>Sepia</strong> &#8212; Converts the element to sepia. A value of 100% makes the element appear completely sepia. A value of 0% leaves the element unchanged.</li><li><strong>Hue Rotate</strong> &#8212; Applies a hue rotation to the element. Specifies the number of degrees around the color circle the input colors will be adjusted. A value of zero or 360 leaves the input unchanged. A value of 180 inverts the hues.</li></ul></p>"
   ],
   "filter.size": [
     "Size",
@@ -1270,7 +1270,7 @@
   ],
   "cornerRadius": [
     "Corner Radius",
-    "<p>Defines rounded corners for this component. Use the <strong>1</strong> option to define a single value for all enabled corners. Use the <strong>4</strong> option to set each corner individually. Click on any of the four corner buttons to enable or disable rounding for that corner.</p><p>Corners are defined as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively.</p>"
+    "<p>Defines rounded corners for this component. Use the <strong>1</strong> option to define a single value for all enabled corners. Use the <strong>4</strong> option to set each corner individually. Click on any of the four corner buttons to enable or disable rounding for that corner.</p><p>Corners are defined as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value defines the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively.</p>"
   ],
   "complexCornerRadius": [
     "Complex Corner Radius",
@@ -1286,7 +1286,7 @@
   ],
   "borderStyle": [
     "Stroke Style",
-    "Defines the line style of stroke for this element."
+    "Defines the stroke style for outlining this element."
   ],
   "backgroundImageTransition": [
     "Background Image Transition",
@@ -1294,11 +1294,11 @@
   ],
   "borderWidth": [
     "Stroke Weight",
-    "Defines the weight of the stroke line for this element."
+    "Defines the stroke weight for outlining this element."
   ],
   "border": [
     "Stroke Color",
-    "Defines the stroke color for this element."
+    "Defines the stroke color for outlining this element."
   ],
   "background": [
     "Fill",
@@ -1309,8 +1309,8 @@
     "Specifies whether to cache the callout symbol after it has been loaded the first time."
   ],
   "calVisible": [
-    "Is  Callout  Visible",
-    "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the target."
+    "Is Callout Visible",
+    "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the target. This is a read-only property, so changing it manually does nothing."
   ],
   "calGrayOutComp": [
     "Gray  Out  Component",
@@ -1354,31 +1354,31 @@
   ],
   "calStrokeWidth": [
     "Callout Bond Stroke Weight",
-    "Defines the stroke weight for the static callout’s bond."
+    "Defines the stroke weight for this static callout’s bond."
   ],
   "calStrokeType": [
     "Callout Bond Stroke Style",
-    "Defines the stroke style for the static callout’s bond."
+    "Defines the stroke style for this static callout’s bond."
   ],
   "calBondColor": [
     "Callout Bond Stroke Color",
-    "Defines the stroke color for the static callout's bond."
+    "Defines the stroke color for this static callout's bond."
   ],
   "calBondType": [
     "Callout Bond",
-    "<p>Specifies the shape of the stroke that connects the callout to its target.</p><p><strong>Line</strong><br />A straight line segment.</p><p><strong>Curve</strong><br />An S-shaped stroke.</p>"
+    "<p>Specifies the shape of the stroke that connects this callout to its target.</p><p><strong>Line</strong><br />A straight line segment.</p><p><strong>Curve</strong><br />An S-shaped stroke.</p>"
   ],
   "calAutosize": [
     "Callout Autosize",
-    "<p>Determines the sizing relationship between the callout and its symbol.</p><p><strong>True</strong><br />The callout follows the size of the symbol. Only works properly when the callout's width and height are Auto, and the symbol size is in pixels.</p><p><strong>False</strong><br />The symbol follows the size of the callout. Only works properly when the callout's width and height are not Auto.</p>"
+    "<p>Determines the sizing relationship between this callout and its symbol.</p><p><strong>True</strong><br />This callout follows the size of the symbol. Only works properly when the callout's width and height are Auto, and the symbol size is in pixels.</p><p><strong>False</strong><br />The content follows the size of this callout. Only works properly when the callout's width and height are not Auto.</p>"
   ],
   "calH": [
     "Callout Height",
-    "Defines the height of the callout, as a pixel value or a percentage of the height of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
+    "Defines the height of this callout, as a pixel value or a percentage of the height of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
   ],
   "calW": [
     "Callout Width",
-    "Defines the width of the callout, as a pixel value or a percentage of the width of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
+    "Defines the width of this callout, as a pixel value or a percentage of the width of the page. A value of Auto is intended for use only if the Callout Autosize property is enabled."
   ],
   "calY": [
     "Callout Y Offset",
@@ -1406,7 +1406,7 @@
   ],
   "calloutSymbolId": [
     "Symbol",
-    "<p>Specifies the symbol to use for the callout.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the full path to that symbol.</p>"
+    "<p>Specifies the symbol to use for this callout.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the full path to that symbol.</p>"
   ],
   "rotateY": [
     "Rotation Y",
@@ -1690,7 +1690,7 @@
   ],
   "keepAspectRatio": [
     "Keep Aspect Ratio",
-    "Maintains the aspect ratio of this element when its width or height properties are adjusted. If this component's width or height is set to Auto, the component has no explicit aspect ratio, and this property does nothing."
+    "Maintains the aspect ratio of this element when its width or height properties are adjusted. If this element's width or height is set to Auto, it has no explicit aspect ratio, and this property does nothing."
   ],
   "height": [
     "Height",
@@ -1698,35 +1698,35 @@
   ],
   "flexShrink": [
     "Flex-Shrink",
-    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it will shrink depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it shrinks depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "flexGrow": [
     "Flex-Grow",
-    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it will grow depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it grows depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "vCenter": [
     "Vertical Center",
-    "In absolute or horizontal layout, places this element so that its vertical center is in a position relative to the vertical center of its parent container. The value can be pixels, or a percent of the parent height. A value of zero positions the vertical center of this component at the vertical center of its parent container. A negative value moves the component up, and a positive value moves it down. A value of Auto positions the vertical center of this component in its normal position in the layout."
+    "<p>In absolute or horizontal layout, sets the vertical center of this element to a distance above or below the vertical center of its parent container. The value can be pixels, or a percent of the parent height.</p><p>A negative value moves this element up, and a positive value moves it down. A value of Auto positions the vertical center of this element in its normal position in the layout. To set a value of Auto, click the blue dot and select Reset.</p>"
   ],
   "hCenter": [
     "Horizontal Center",
-    "In absolute or vertical layout, places this element so that its horizontal center is in a position relative to the horizontal center of its parent container. The value can be pixels, or a percent of the parent width. A value of zero positions the horizontal center of this component at the horizontal center of its parent container. A negative value moves the component to the left, and a positive value moves it to the right. A value of Auto positions the horizontal center of this component in its normal position in the layout."
+    "<p>In absolute or vertical layout, sets the horizontal center of this element to a distance to the left or right of the the horizontal center of its parent container. The value can be pixels, or a percent of the parent width.</p><p>AA negative value moves this element to the left, and a positive value moves it to the right. A value of Auto positions the horizontal center of this element in its normal position in the layout. To set a value of Auto, click the blue dot and select Reset.</p>"
   ],
   "bottom": [
     "Bottom",
-    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the bottom edge of this component in its normal position. Distances are either pixel values, or percentages of the parent height.</p>"
+    "<p>In absolute layout, sets the bottom edge of this element to a distance above or below the bottom edge of its parent container.</p><p>In vertical or horizontal layout, sets the bottom edge of this element to a distance above or below its normal position.</p><p>Distances are either pixel values, or percentages of the parent height. A value of Auto positions the bottom edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset. </p>"
   ],
   "right": [
     "Right",
-    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the right edge of this component in its normal position. Distances are either pixel values, or percentages of the parent width.</p>"
+    "<p>In absolute layout, sets the right edge of this element to a distance to the left or right of the right edge of its parent container.</p><p>In vertical or horizontal layout, sets the right edge of this element to a distance to the left or right of its normal position.</p><p>Distances are either pixel values, or percentages of the parent width. A value of Auto positions the right edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset. </p>"
   ],
   "top": [
     "Top",
-    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>A value of Auto positions the top edge of this component in its normal position. Distances are either pixel values, or percentages of the parent height.</p>"
+    "<p>In absolute layout, sets the top edge of this element to a distance above or below the top edge of its parent container.</p><p>In vertical or horizontal layout, sets the top edge of this element to a distance above or below its normal position.</p><p>Distances are either pixel values, or percentages of the parent height. A value of Auto positions the top edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset. </p>"
   ],
   "left": [
     "Left",
-    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>A value of Auto positions the left edge of this component in its normal position. Distances are either pixel values, or percentages of the parent width.</p>"
+    "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>Distances are either pixel values, or percentages of the parent width. A value of Auto positions the left edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset. </p>"
   ],
   "type": [
     "Column Editor Type",
@@ -2984,11 +2984,11 @@
     "Longitude Field",
     "Defines the column in your table that contains longitude data."
   ],
-"Google_Map.symbol": [
+  "Google_Map.symbol": [
     "Symbol",
     "<p>Defines the symbol to be used as a location marker.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
-"Google_Map.data": [
+  "Google_Map.data": [
     "Data",
     "Defines the table from which latitude and longitude data for location markers can be determined."
   ],
