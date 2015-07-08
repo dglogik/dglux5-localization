@@ -1066,31 +1066,31 @@
   ],
   "scrollbarStyles.width": [
     "Vertical Scrollbar Width",
-    "Defines the width of the vertical scrollbar on this container as a pixel value, or a percentage of the container width."
+    "Defines the width of the vertical scrollbar on this container, as a pixel value or a percentage of the container width."
   ],
   "scrollbarStyles.height": [
     "Horizontal Scrollbar Height",
-    "Defines the height of the horizontal scrollbar on this container as a pixel value, or a percentage of the container height."
+    "Defines the height of the horizontal scrollbar on this container, as a pixel value or a percentage of the container height."
   ],
   "scrollbarStyles.thumb.background": [
     "Thumb Fill",
-    "Defines the fill of the thumb in this container's scrollbars."
+    "Defines the fill of the thumbs in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.border": [
     "Thumb Stroke Color",
-    "Defines the stroke color of the thumb in this container's scrollbars."
+    "Defines the stroke color for outlining the thumbs in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.borderStyle": [
     "Thumb Stroke Style",
-    "Defines the line style of stroke on the thumb in this container's scrollbars."
+    "Defines the stroke style for outlining the thumbs in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.borderWidth": [
     "Thumb Stroke Weight",
-    "Defines the weight of the stroke on the thumb in this container's scrollbars."
+    "Defines the stroke weight for outlining the thumbs in this container's scrollbars."
   ],
   "scrollbarStyles.thumb.cornerRadius": [
     "Thumb Corner Radius",
-    "Defines rounded corners of the thumbs in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
+    "Defines rounded corners for the thumbs in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value defines the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "scrollbarStyles.track.background": [
     "Track Fill",
@@ -1098,19 +1098,19 @@
   ],
   "scrollbarStyles.track.border": [
     "Track Stroke Color",
-    "Defines the stroke color of the track in this container's scrollbars."
+    "Defines the stroke color for outlining the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.borderStyle": [
     "Track Stroke Style",
-    "Defines the line style of stroke on the track in this container's scrollbars."
+    "Defines the stroke style for outlining the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.borderWidth": [
     "Track Stroke Weight",
-    "Defines the weight of the stroke on the track in this container's scrollbars."
+    "Defines the stroke weight for outlining the track in this container's scrollbars."
   ],
   "scrollbarStyles.track.cornerRadius": [
     "Track Corner Radius",
-    "Defines rounded corners of the tracks in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
+    "Defines rounded corners for the tracks in this container's scrollbars, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value defines the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the component's width and height, respectively."
   ],
   "@onScroll": [
     "On Scroll",
@@ -1178,11 +1178,11 @@
   ],
   "vScroll": [
     "Vertical Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling is always disabled.</p>\n<p><strong>On</strong><br />\nScrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
+    "<p>Defines vertical scrolling behavior on this element.</p><p><strong>Off</strong><br />Vertical scrolling is always disabled.</p><p><strong>On</strong><br />Vertical scrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />Vertical scrolling is automatically enabled when content overflows.</p>"
   ],
   "hScroll": [
     "Horizontal Scrolling",
-    "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling is always disabled.</p>\n<p><strong>On</strong><br />\nScrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
+    "<p>Defines horizontal scrolling behavior on this element.</p><p><strong>Off</strong><br />Horizontal scrolling is always disabled.</p><p><strong>On</strong><br />Horizontal scrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />Horizontal scrolling is automatically enabled when content overflows.</p>"
   ],
   "hGap": [
     "Horizontal Gap",
