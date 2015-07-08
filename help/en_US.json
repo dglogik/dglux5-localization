@@ -2208,9 +2208,21 @@
     "Weekday",
     ""
   ],
+  "daterange.input": [
+    "Value",
+    "<p>Returns the currently selected date range in the date range picker as one of the formats listed below.<ul><li><strong>Range</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> &#8212; \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> &#8212; \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> &#8212; \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> &#8212; \"[current/previous]N[seconds/minutes/hours/days/weeks/months/years]\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
+  ],
+  "daterange.formatted": [
+    "Formatted Value",
+    "<p>Returns a formatted version of the Value property. The format is determined using the Date Format String, Range Delimiter, and Keep Special Value properties.</p><p>Changing this property changes the text displayed in this date range component, but it does not change the Value selected.</p>"
+  ],
+  "Daterange.inputMode": [
+    "Input Mode",
+    "<p>Sets or returns the currently selected input mode. The user can select from enabled input modes in a pop-up dialog. To enable and disable input modes in the Property Inspector, toggle the input mode properties, such as Show Range and Show Day.</p><p><strong>Range</strong><br />The user can specify a start date and end date using two calendars. If Show Full Time is enabled, the user can also specify a start time and end time using 24-hour time.</p><p><strong>Day</strong><br />The user can specify one day using a calendar, or specify today or yesterday using buttons.</p><p><strong>Week</strong><br />The user can specify one week using a calendar, or specify this week and last week using buttons. Clicking any date selects a week that includes that date. A week starts on a Sunday and ends on a Saturday.</p><p><strong>Month</strong><br />The user can specify a month and year using drop-down menus, or specify this month or last month using buttons.</p><p><strong>Year</strong><br />The user can specify one of the past ten years, using a drop-down menu, or specify this year and last year using buttons.</p><p><strong>Relative</strong><br />The user can specify a range relative to the current date and time. The user is prompted to enter a number of seconds, minutes, hours, days, weeks, months, or years, and to specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26, the \"previous hour\" is the hour from 2:00 to 3:00.</p>"
+  ],
   "daterange.format": [
     "Date Format String",
-    "<p>Defines the date format used by the component, as a date format string — for example, \"yyyy-MM-ddTHH:mm:ss\".</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
+    "<p>Defines the date format used by the component, as a date format string. If null, the string \"yyyy-MM-ddTHH:mm:ss\" is used.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
   "daterange.nextRange": [
     "Next Value",
@@ -2238,7 +2250,7 @@
   ],
   "daterange.rangeDelimiter": [
     "Range Delimiter",
-    "Specifies the delimiter used between the start date and end date of the range."
+    "<p>Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
   "daterange.keepSpecial": [
     "Keep Special",
