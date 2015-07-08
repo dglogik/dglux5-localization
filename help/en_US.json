@@ -356,40 +356,40 @@
     ""
   ],
   "saRelTo": [
-    " Relative  To",
-    ""
+    "Relative To",
+    "<p>Controls the bounding box used to determine the focal point of the zoom animation. Used together with Horizontal Focus and Vertical Focus.</p><p><strong>Series</strong><br />The bounding box tightly surrounds the horizontal and vertical minimums and maximums of the series data.</p><p><strong>Chart</strong><br />The bounding box tightly surrounds the plot area of the chart.</p>"
   ],
   "saVFocus": [
-    " Vertical  Focus",
-    ""
+    "Vertical Focus",
+    "<p>Together with Horizontal Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Top</strong><br />The zoom animation begins at the top of the bounding box defined in Relative To.</p><p><strong>Bottom</strong><br />The zoom animation begins at the bottom of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the vertical center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Vertical Focus is null, and Horizontal Focus is not null, then the focus is a horizontal line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saHFocus": [
-    " Horizontal  Focus",
-    ""
+    "Horizontal Focus",
+    "<p>Together with Vertical Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Left</strong><br />The zoom animation begins at the left of the bounding box defined in Relative To.</p><p><strong>Right</strong><br />The zoom animation begins at the right of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the horizontal center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Horizontal Focus is null, and Vertical Focus is not null, then the focus is a vertical line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saDir": [
     " Direction",
     "Defines the direction toward which the series slides. For example, if this property is set to Left, the series slides onto the chart from right to left."
   ],
   "saOffset": [
-    " Offset",
-    ""
+    "Offset",
+    "<p>Specifies the amount of time, in seconds, that the animation is delayed.</p><p>Use this property to stagger effects on multiple series.</p>"
   ],
   "saMinElDuration": [
-    " Minimum  Element  Duration",
-    ""
+    "Minimum  Element  Duration",
+    "<p>Specifies the minimum amount of time, in seconds, that an individual element takes to complete the animation.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
   ],
   "saElOffset": [
-    " Element  Offset",
-    ""
+    "Element  Offset",
+    "<p>Specifies the amount of time, in seconds, that the animation of each element in the series is delayed. A value of zero means that all elements in the series begin animating at the same time and finish at the same time. A value of 1 means that the second element starts and finishes animating one second after the first element, and so on.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
   ],
   "saDurationEx": [
-    " Duration",
-    "Defines the duration of the animation in seconds."
+    "Duration",
+    "<p>Defines the duration of the animation in seconds.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
   ],
   "saType": [
-    " Series  Animation",
-    ""
+    "Series Animation",
+    "<p>Defines animation behavior for this series.</p><p><strong>None</strong><br />An updated chart replaces the old chart without any animation.</p><p><strong>Interpolate</strong><br />The series goes through a smooth transition, with the old chart as the first frame and the new chart as the final frame.</p><p><strong>Slide</strong><br />The series \"slides\" in and out of the chart boundaries from a direction that you specify.</p><p><strong>Zoom</strong><br />The series \"implodes\" and \"explodes\" from a focal point that you specify.</p>"
   ],
   "mainValueAxis": [
     "Main Value Axis",
@@ -445,7 +445,7 @@
   ],
   "markersType": [
     "Markers",
-    "<p>Defines the type of markers that represent data points in the series.</p><p><strong>None</strong><br />No markers are used.</p><p><strong>Standard</strong><br />DGLux’s standard marker design is used.</p><p><strong>Custom</strong><br />Create your own marker design as a symbol.</p>"
+    "<p>Defines the type of markers used by this series. Markers are used to visually represent each data point in the series, in addition to the line or shape that represents the entire series.</p><p><strong>None</strong><br />No markers are used by this series.</p><p><strong>Standard</strong><br />This series uses DGLux’s standard marker design, a circle with a customizable fill, stroke, and size.</p><p><strong>Custom</strong><br />This series uses the specified symbol as a marker.</p>"
   ],
   "form": [
     "Line Form",
@@ -485,7 +485,7 @@
   ],
   "labelRotation": [
     "Label Rotation",
-    ""
+    "Defines the angle of rotation for the labels on this axis. Valid values are between −90 and 90."
   ],
   "labelsFontSize": [
     "Labels Font Size",
@@ -525,15 +525,19 @@
   ],
   "labelToEdgeGap": [
     "Label to Edge Gap",
-    ""
+    "Defines the distance, in pixels, between the chart container and the labels for this axis."
   ],
   "labelGap": [
     "Label Gap",
-    ""
+    "Defines the distance, in pixels, between the major tick marks and the labels for this axis."
   ],
   "axis.title": [
     "Axis Title",
     "Defines the title text for this axis. This text appears as an axis title label."
+  ],
+  "axis.labelsMode": [
+    "Axis Labels Mode",
+    "<p>Specifies how many labels appear along the axis.</p><p><strong>None</strong><br />No labels appear.</p><p><strong>Min Max</strong><br />Only the minimum and maximum labels appear.</p><p><strong>Auto</strong><br />The number of labels depends on the amount of available space.</p><p><strong>Show All</strong><br />A label appears for every major tick.</p>"
   ],
   "axisStrokeStyle": [
     "Axis Stroke Style",
@@ -548,8 +552,8 @@
     "Defines the color of the line that represents this axis."
   ],
   "verticalAxisTitleAlignment": [
-    "Vertical Axis Title Alignment",
-    "Controls axis label orientation. You might want to select Flipped Vertical if this axis is on the right side of your chart."
+    "Vertical Axis Placement",
+    "Specifies whether this vertical axis appears on the left side or the right side of the chart."
   ],
   "labelAlign": [
     "Label Alignment",
@@ -559,17 +563,17 @@
     "Data Source",
     "Specifies the table that this series uses as the data source."
   ],
-  "inverted": [
+  "axis.inverted": [
     "Inverted",
-    "<p>Controls whether this axis is inverted.</p>\n<p><strong>True</strong><br />\nThe smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p>\n<p><strong>False</strong><br />\nThe smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
+    "<p>Controls whether this axis is inverted.</p><p><strong>True</strong><br />The smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p><p><strong>False</strong><br />The smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
   "axisType": [
     "Axis Type",
-    ""
+    "<p>Defines the scale type of an axis.</p><p><strong>Linear axis</strong><br />The axis represents linearly increasing values.</p><p><strong>Log axis</strong><br />The axis represents logarithmically increasing values. You might want a logarithmic axis if your data has a large range.</p><p><strong>Datetime axis</strong><br />The axis represents linearly progressing date and time.</p><p><strong>Category axis</strong><br />The axis uses categories instead of a scale. Use a category axis when the data's linear progression doesn't matter, or when there is no way to interpret the data as a number or a date.</p>"
   ],
   "assignedInterval": [
-    "Assigned Interval",
-    ""
+    "Major Interval",
+    "Defines the interval between each consecutive pair of major ticks, in the units of the axis."
   ],
   "dgAssignedMaximum": [
     "Maximum",
@@ -581,7 +585,7 @@
   ],
   "baseAtZero": [
     "Base At Zero",
-    ""
+    "<p>Allows you to change the axis range minimum to decrease unused space on the chart.</p><p><strong>True</strong><br />The axis minimum is zero, unless there are negative data values on this axis. In that case, the axis minimum is equal to, or slightly below, the lowest data value.</p><p><strong>False</strong><br />The axis minimum is equal to, or slightly below, the lowest data value.</p>"
   ],
   "dgAutoAdjust": [
     "Auto Adjust",
@@ -836,28 +840,28 @@
     "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, specifies whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
   ],
   "labelsLetterSpacing": [
-    "Labels Letter Spacing",
-    ""
+    "Labels Character Spacing",
+    "Specifies the horizontal spacing between characters, in pixels. A null value means the font's default spacing is used."
   ],
   "labelsTextDecoration": [
-    "Labels Text Decoration",
+    "Labels Underline",
     ""
   ],
   "labelsFontWeight": [
-    "Labels Font Weight",
+    "Labels Bold",
     ""
   ],
   "labelsFontStyle": [
-    "Labels Font Style",
+    "Labels Italic",
     ""
   ],
   "labelsFontFamily": [
-    "Labels Font Family",
-    ""
+    "Labels Font",
+    "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "labelsColor": [
     "Labels Font Color",
-    "Defines the font color used for the labels along an axis."
+    "Defines the font color used for the labels along this axis."
   ],
   "formatString": [
     "Format String",
@@ -965,7 +969,7 @@
   ],
   "radius": [
     "Radius",
-    ""
+    "<p>For standard markers, defines the marker radius in pixels.</p></p>For custom markers, defines the largest radius of an inscribed ellipse, in pixels. In other words, this property is equal to half the symbol width or half the symbol height, whichever is larger.</p>"
   ],
   "longitude": [
     "Longitude",
@@ -1842,11 +1846,11 @@
   ],
   "strength": [
     "Strength",
-    ""
+    "Affects the differential or the change rate of the easing function. A value of 0.5 is the default. Values below 0.5 decrease the differential or the change rate, making the easing appear less pronounced. Values above 0.5 increase the differential or the change rate, making the easing appear more pronounced."
   ],
   "easing": [
     "Easing",
-    ""
+    "<p>Specifies the rate of change over time for this animation.</p><p><strong>Linear</strong><br />The animation's rate of change is constant.</p><p><strong>Ease In</strong><br />The animation starts slowly and accelerates linearly as it executes.</p><p><strong>Ease Out</strong><br />The animation starts with a fast change rate and decelerates linearly as it executes.</p><p><strong>Ease In Out</strong><br />The animation starts slowly, accelerates linearly, and then decelerates linearly as it executes.</p><p><strong>Cubic In</strong><br />The animation starts slowly and accelerates cubically as it executes.</p><p><strong>Cubic Out</strong><br />The animation starts with a fast change rate and decelerates cubically as it executes.</p><p><strong>Cubic In Out</strong><br />The animation starts slowly, accelerates cubically, and then decelerates cubically as it executes.</p><p><strong>Elastic In</strong><br />The animation's rate of change starts on a small-amplitude sine wave. The sine wave grows as the animation executes.</p><p><strong>Elastic Out</strong><br />The animation's rate of change starts on a large-amplitude sine wave. The sine wave decays as the animation executes.</p><p><strong>Elastic In Out</strong><br />The animation's rate of change starts on a small-amplitude sine wave. The sine wave grows and then decays as the animation executes.</p><p><strong>Bounce</strong><br />The animation starts with a fast change rate, and decelerates to zero with an effect similar to a ball falling and bouncing on a floor.</p>"
   ],
   "value": [
     "Value",
@@ -2215,10 +2219,6 @@
   "daterange.formatted": [
     "Formatted Value",
     "<p>Returns a formatted version of the Value property. The format is determined using the Date Format String, Range Delimiter, and Keep Special Value properties.</p><p>Changing this property changes the text displayed in this date range component, but it does not change the Value selected.</p>"
-  ],
-  "daterangePicker.inputMode": [
-    "Input Mode",
-    "<p>Sets or returns the currently selected input mode. The user can select from enabled input modes in a pop-up dialog. To enable and disable input modes in the Property Inspector, toggle the input mode properties, such as Show Range and Show Day.</p><p><strong>Range</strong><br />The user can specify a start date and end date using two calendars. If Show Full Time is enabled, the user can also specify a start time and end time using 24-hour time.</p><p><strong>Day</strong><br />The user can specify one day using a calendar, or specify today or yesterday using buttons.</p><p><strong>Week</strong><br />The user can specify one week using a calendar, or specify this week and last week using buttons. Clicking any date selects a week that includes that date. A week starts on a Sunday and ends on a Saturday.</p><p><strong>Month</strong><br />The user can specify a month and year using drop-down menus, or specify this month or last month using buttons.</p><p><strong>Year</strong><br />The user can specify one of the past ten years, using a drop-down menu, or specify this year and last year using buttons.</p><p><strong>Relative</strong><br />The user can specify a range relative to the current date and time. The user is prompted to enter a number of seconds, minutes, hours, days, weeks, months, or years, and to specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26, the \"previous hour\" is the hour from 2:00 to 3:00.</p>"
   ],
   "daterange.format": [
     "Date Format String",
@@ -3058,7 +3058,7 @@
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
-    ""
+    "<p>Sets or returns the currently selected input mode. The user can select from enabled input modes in a pop-up dialog. To enable and disable input modes in the Property Inspector, toggle the input mode properties, such as Show Range and Show Day.</p><p><strong>Range</strong><br />The user can specify a start date and end date using two calendars. If Show Full Time is enabled, the user can also specify a start time and end time using 24-hour time.</p><p><strong>Day</strong><br />The user can specify one day using a calendar, or specify today or yesterday using buttons.</p><p><strong>Week</strong><br />The user can specify one week using a calendar, or specify this week and last week using buttons. Clicking any date selects a week that includes that date. A week starts on a Sunday and ends on a Saturday.</p><p><strong>Month</strong><br />The user can specify a month and year using drop-down menus, or specify this month or last month using buttons.</p><p><strong>Year</strong><br />The user can specify one of the past ten years, using a drop-down menu, or specify this year and last year using buttons.</p><p><strong>Relative</strong><br />The user can specify a range relative to the current date and time. The user is prompted to enter a number of seconds, minutes, hours, days, weeks, months, or years, and to specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26, the \"previous hour\" is the hour from 2:00 to 3:00.</p>"
   ],
   "daterangePicker.popupBackground": [
     "Dialog Background",
@@ -3073,31 +3073,31 @@
     "Defines the font size for buttons within this date range picker."
   ],
   "daterangePicker.buttonFontStyle": [
-    "Button Font Style",
+    "Button Italic",
     ""
   ],
   "daterangePicker.buttonFontWeight": [
-    "Button Font Weight",
+    "Button Bold",
     ""
   ],
   "daterangePicker.buttonTextDecoration": [
-    "Button Text Decoration",
+    "Button Underline",
     ""
   ],
   "daterangePicker.buttonFontColor": [
     "Button Font Color",
-    ""
+    "Defines the font color for buttons within this date range picker."
   ],
   "daterangePicker.buttonBackground": [
-    "Button Fill",
+    "Button Background",
     "Defines the fill for buttons within this date range picker that are not currently active (selected) or moused-over."
   ],
   "daterangePicker.buttonBackgroundActive": [
-    "Active Button Fill",
+    "Active Button Background",
     "Defines the fill for active (selected) buttons within this date range picker."
   ],
   "daterangePicker.buttonBackgroundOver": [
-    "Hovered Button Fill",
+    "Hovered Button Background",
     "Defines the fill for the button that the user mouses over, within this date range picker."
   ],
   "daterangePicker.buttonBorder": [
@@ -3809,8 +3809,8 @@
     ""
   ],
   "linearAxis.assignedMinorInterval": [
-    "Assigned Minor Interval",
-    ""
+    "Minor Interval",
+    "Defines the interval between each consecutive pair of minor ticks, in the units of the axis."
   ],
   "categoryAxis.categoryField": [
     "Category Field",
@@ -3881,8 +3881,8 @@
     ""
   ],
   "columnSeries.dgOffset": [
-    "Dg Offset",
-    ""
+    "Column Series Offset",
+    "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A value of −0.1 moves the columns to the left by 10&#37; of this maximum width. A value of 0.1 moves the columns to the right by 10&#37; of this maximum width.</p><p>This Property is related to the Column Width Ratio property for the chart. Column Width Ratio determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The Column Width Ratio is 60&#37;, and there are two series. You want to offset the columns in series 1 by 10&#37; of their width. For Column Offset, use the value &#40;0.6 &#47; 2&#41; &#42; 0.1 &#61; 0.03.</p>"
   ],
   "bubbleSeries.rAxisType": [
     "R Axis Type",
