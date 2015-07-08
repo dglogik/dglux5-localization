@@ -835,9 +835,9 @@
     "Target",
     ""
   ],
-  "placement": [
-    "Axis or Track Placement",
-    "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p><p>For a scale track, specifies whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale.</p>"
+  "axisRenderer.placement": [
+    "Axis Placement",
+    "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p>"
   ],
   "labelsLetterSpacing": [
     "Labels Character Spacing",
@@ -968,7 +968,7 @@
     "Specifies the table column that is mapped to the x-axis for this series."
   ],
   "radius": [
-    "Radius",
+    "Marker Radius",
     "<p>For standard markers, defines the marker radius in pixels.</p></p>For custom markers, defines the largest radius of an inscribed ellipse, in pixels. In other words, this property is equal to half the symbol width or half the symbol height, whichever is larger.</p>"
   ],
   "longitude": [
@@ -3687,6 +3687,10 @@
   "scaleTrack.percentEndThickness": [
     "End Thickness",
     "Defines the thickness of the scale track at its end, as a pixel or percentage value. For circular scales, a percentage is a portion of the circle’s radius. For linear scales, a percentage is a portion of the entire container width."
+  ],
+  "scaleTrack.placement": [
+    "Track Placement",
+    "Specifies whether the track is positioned on the inside, outside, or center of the circle or line that defines the scale."
   ],
   "textEditor.ignoreDefaultStyle": [
     "Ignore Default Style",
