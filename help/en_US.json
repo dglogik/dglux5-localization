@@ -1185,12 +1185,12 @@
     "<p>Defines scrolling behavior on this element.</p>\n<p><strong>Off</strong><br />\nScrolling is always disabled.</p>\n<p><strong>On</strong><br />\nScrolling is always enabled. The track appears even if the content does not overflow.</p>\n<p><strong>Auto</strong><br />\nScrolling is automatically enabled when content overflows.</p>"
   ],
   "hGap": [
-    "H Gap",
-    ""
+    "Horizontal Gap",
+    "<p>Defines the minimum number of pixels between elements in a horizontal layout, or between columns in a wrapped vertical layout.</p><p><strong>Notes about padding with a wrapped horizontal layout:</strong><ul><li>When Horizontal Alignment is Flex-Start, Horizontal Gap defines a right padding, but you must define a left padding separately.</li><li>For all other Horizontal Alignments, Horizontal Gap defines a left padding, but you must define a right padding separately.</li></ul></p>"
   ],
   "vGap": [
-    "V Gap",
-    ""
+    "Vertical Gap",
+    "<p>Defines the minimum number of pixels between elements in a vertical layout, or between columns in a wrapped horizontal layout.</p><p><strong>Notes about padding with a wrapped vertical layout:</strong><ul><li>When Vertical Alignment is Flex-Start, Vertical Gap defines a bottom padding, but you must define a top padding separately.</li><li>For all other Vertical Alignments, Vertical Gap defines a top padding, but you must define a bottom padding separately.</li></ul></p>"
   ],
   "vAlign": [
     "Vertical Alignment",
@@ -1614,7 +1614,7 @@
   ],
   "selected": [
     "Selected",
-    ""
+    "<p>A runtime property that shows whether this element is selected. This property is not saved in Edit mode.</p><p>This property is related to the parent's Selection Behavior property. For example, if this element is one of several children in a group, and the group’s Selection Behavior is Single Select, then clicking this element selects it and deselects other children in the group. For more about the Selection Behavior property, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:allcomponents#selection_properties'>the DGLux5 wiki</a>.</p><p>Regardless of the parent’s Selection Behavior, you can also change this property in the Property Inspector. For example, if you want this element to be selected when the user clicks a menu button, bind the Selected property of the button to the Selected property of this element.</p>"
   ],
   "moveToTop": [
     "Move To Top",
@@ -1694,7 +1694,7 @@
   ],
   "height": [
     "Height",
-    ""
+    "<p>Specifies the height of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto height</strong><br />To set Auto height, click the blue dot and select <strong>Reset</strong>. Auto height is recommended whenever possible. It creates the most responsive layouts. You can use Auto height in the following ways:<ul><li><strong>Stretch</strong> &#8212; For all components, when the parent layout is Horizontal, and vertical alignment is Stretch, use Auto height to make this element’s height inherit the parent height. Does not work properly for calendars, or with wrapping. </li><li><strong>Flex-Grow</strong> &#8212; For all components, when the parent layout is Vertical, use Auto height together with Flex-Grow to cause this element and its siblings to share the entire parent height. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> &#8212; Use Auto height to make this component's height follow the content height. If Auto width is also used, the component follows the content size.</li><li><strong>Symbols</strong> &#8212; Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to true, and the internal symbol width and height are is in pixels. </li><li><strong>Groups</strong> &#8212; Use Auto height to make this group’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> &#8212; Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to true, and the internal content height is set to pixels or percent. </li><li><strong>Videos</strong> &#8212; Use Auto height and a pixel or percent width to make this component’s height follow the content aspect ratio without growing taller than the content. Depending on the width, part of the container might be empty. If Auto width is also used, the component follows the content size.</li></ul></p>"
   ],
   "flexShrink": [
     "Flex-Shrink",
@@ -1878,7 +1878,7 @@
   ],
   "width": [
     "Width",
-    ""
+    "<p>Specifies the width of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto width</strong><br />To set Auto width, click the blue dot and select <strong>Reset</strong>. Auto width is recommended whenever possible. It creates the most responsive layouts. You can use Auto width in the following ways:<ul><li><strong>Stretch</strong> &#8212; For all components, when the parent layout is Vertical, and horizontal alignment is Stretch, use Auto width to make this element’s width inherit the parent width. Does not work properly for calendars, or with wrapping.</li><li><strong>Flex-Grow</strong> &#8212; For all components, when the parent layout is Horizontal, use Auto width together with Flex-Grow to cause this element and its siblings to share the entire parent width. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> &#8212; Use Auto width to make this component's width follow the content width. If Auto height is also used, the component follows the content size.</li><li><strong>Symbols</strong> &#8212; Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to true, and the internal symbol width and height are in pixels.</li><li><strong>Groups</strong> &#8212; Use Auto width to make this component’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> &#8212; Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to true, and the internal content width is set to pixels or percent. </li><li><strong>Videos</strong> &#8212; Use Auto width and a pixel or percent height to make this component’s width follow the content aspect ratio without growing wider than the content. Depending on the height, part of the container might be empty. If Auto height is also used, the component follows the content size.</li></ul></p>"
   ],
   "opacity": [
     "Opacity",
@@ -3004,6 +3004,10 @@
     "Image Max Zoom",
     ""
   ],
+  "mapGroup.symbol": [
+    "Symbol",
+    "<p>Defines the symbol to be used as a location marker in this map group. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>A map group repeater is useful when you want to have multiple repeaters, or other components, in your map, or when you want your markers to be placed at each set of coordinates without being centered on the location.</p>"
+  ],
   "heatMap.showLegend": [
     "Show Legend",
     "Specifies whether to show a simple legend in the heat map component."
@@ -3123,6 +3127,10 @@
   "daterangePicker.buttonBorderStyle": [
     "Button Border Stroke Style",
     "Defines the border stroke style for all buttons within this date range picker."
+  ],
+  "datagrid.data": [
+    "Table",
+    "Defines the table that the data grid uses as a data source."
   ],
   "datagrid.rowHeight": [
     "Row Height",
@@ -4171,6 +4179,10 @@
   "gridColumn.sortable": [
     "Sortable",
     "<p>Specifies whether the columns affected by this column editor are sortable.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+  ],
+  "gridColumn.symbol": [
+    "Symbol",
+    "Defines the symbol that appears in each cell of the columns affected by this column editor. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
   ],
   "gridColumn.headerSymbol": [
     "Header Symbol",
