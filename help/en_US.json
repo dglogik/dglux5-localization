@@ -1313,7 +1313,7 @@
     "Returns whether the callout is currently visible. For example, a mouse-over callout is visible only when the user mouses over the target. This is a read-only property, so changing it manually does nothing."
   ],
   "calGrayOutComp": [
-    "Gray  Out  Component",
+    "Gray Out Component",
     "Specifies whether the callout’s target becomes inactive and faded when the modal callout is displayed."
   ],
   "calModalFill": [
@@ -1322,11 +1322,11 @@
   ],
   "calModal": [
     "Modal Callout",
-    "Determines whether the callouts for the element are modal. When a modal callout is displayed, other elements in the view become faded and inactive. If the Gray Out Component property is true, then the callout's target becomes faded and inactive along with other elements."
+    "Determines whether the callout for this element is modal. When a modal callout is displayed, other elements in the view become faded and inactive. If the Gray Out Component property is true, then the callout's target becomes faded and inactive along with other elements."
   ],
   "calTimeout": [
     "Hide Timeout",
-    "Defines the time, in seconds, that a mouse-over or events callout is displayed before it automatically fades out. A value of zero means that the callout will not fade based on timeout."
+    "Defines the time, in seconds, that a mouse-over callout or event callout is displayed before it automatically fades out. A value of zero means that the callout will not fade based on timeout."
   ],
   "calHideIfOver": [
     "Hide If Over",
@@ -1390,11 +1390,11 @@
   ],
   "calRelTarget": [
     "Callout Relative To",
-    "Specifies whether the callout’s Position, or X Offset and Y Offset, are relative to the callout's target component or to the page."
+    "Specifies whether the callout’s Position property, or X Offset and Y Offset properties, are relative to the callout's target component or to the page."
   ],
   "calPos": [
     "Callout Position",
-    "<p>Determines where a callout is placed, relative to the page or the target.</p><p><strong>Any corner</strong><br />The anchor point of the callout is positioned on this corner of the target or the page.</p><p><strong>Center of any edge</strong><br />The anchor point of the callout is positioned on the center of this edge of the target or page. </p><p><strong>Center</strong><br />The anchor point of the callout is positioned at the center of the target or page.</p><p>This property overrides the Callout X Offset and Callout Y Offset.</p>"
+    "<p>Determines where a callout is placed, relative to the page or the target.</p><p><strong>Any corner</strong><br />The anchor point of the callout is positioned on this corner of the target or the page.</p><p><strong>Center of any edge</strong><br />The anchor point of the callout is positioned on the center of this edge of the target or page. </p><p><strong>Center</strong><br />The anchor point of the callout is positioned at the center of the target or page.</p><p>This property overrides the Callout X Offset and Callout Y Offset properties.</p>"
   ],
   "calAnchor": [
     "Callout Anchor",
