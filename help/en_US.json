@@ -567,7 +567,7 @@
     "Inverted",
     "<p>Controls whether this axis is inverted.</p><p><strong>True</strong><br />The smaller values appear at the top if this axis is vertical, or the right if it is horizontal. For a category axis, the top values in the table appear at the top or right of the axis.</p><p><strong>False</strong><br />The smaller values appear at the bottom or left of the axis. For a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
-  "axisType": [
+  "axis.axisType": [
     "Axis Type",
     "<p>Defines the scale type of an axis.</p><p><strong>Linear axis</strong><br />The axis represents linearly increasing values.</p><p><strong>Log axis</strong><br />The axis represents logarithmically increasing values. You might want a logarithmic axis if your data has a large range.</p><p><strong>Datetime axis</strong><br />The axis represents linearly progressing date and time.</p><p><strong>Category axis</strong><br />The axis uses categories instead of a scale. Use a category axis when the data's linear progression doesn't matter, or when there is no way to interpret the data as a number or a date.</p>"
   ],
