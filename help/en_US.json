@@ -65,27 +65,27 @@
   ],
   "todayFontStyle": [
     "Today Cell Italic",
-    ""
+    "Specifies whether the text in the today cell is italicized."
   ],
   "todayFontWeight": [
     "Today Cell Bold",
-    ""
+    "Specifies whether the text in the today cell is bold."
   ],
   "todayFontSize": [
     "Today Cell Font Size",
-    "Defines the font size to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
+    "Defines the font size for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontColor": [
     "Today Cell Font Color",
-    "Defines the font color to be used for the calendar cell that represents the current day, based on the user’s date and time settings."
+    "Defines the font color for the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayFontFamily": [
     "Today Cell Font",
-    "<p>Specifies the font to be used for the calendar cell that represents the current day.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for the calendar cell that represents the current day.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "todayBorder": [
     "Today Cell Stroke Color",
-    "Defines the stroke color for strokes outlining the calendar cell that represents the current day, based on the user’s date and time settings."
+    "Defines the stroke color for outlining the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayBackground": [
     "Today Cell Fill",
@@ -97,31 +97,31 @@
   ],
   "outOfMonthFontStyle": [
     "Out-of-Month Cells Italic",
-    ""
+    "Specifies whether the text in out-of-month cells is italicized."
   ],
   "outOfMonthFontWeight": [
     "Out-of-Month Cells Bold",
-    ""
+    "Specifies whether the text in out-of-month cells is bold."
   ],
   "outOfMonthFontSize": [
     "Out-of-Month Cells Font Size",
-    "Defines the font size to be used for numbers in out-of-month cells."
+    "Defines the font size for numbers in out-of-month cells."
   ],
   "outOfMonthFontColor": [
     "Out-of-Month Cells Font Color",
-    "Defines the font color to be used for numbers in out-of-month cells. Selected cells style properties take precedence over out-of-month cell properties."
+    "Defines the font color for numbers in out-of-month cells. Selected cells style properties take precedence over out-of-month cell properties."
   ],
   "outOfMonthFontFamily": [
     "Out-of-Month Cells Font Family",
-    ""
+    "<p>Specifies the font for out-of-month cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "outOfMonthBorder": [
     "Out-of-Month Cells Stroke Color",
-    "Defines the stroke color for strokes outlining out-of-month cells."
+    "Defines the stroke color for outlining out-of-month cells."
   ],
   "outOfMonthBackground": [
     "Out-of-Month Cells Fill",
-    "Defines the fill for out-of-month cells.."
+    "Defines the fill for out-of-month cells."
   ],
   "weekendCornerRadius": [
     "Weekend Corner Radius",
@@ -129,27 +129,27 @@
   ],
   "weekendFontStyle": [
     "Weekend Cells Italic",
-    ""
+    "Specifies whether the text in weekend cells is italicized."
   ],
   "weekendFontWeight": [
     "Weekend Cells Bold",
-    ""
+    "Specifies whether the text in weekend cells is bold."
   ],
   "weekendFontSize": [
     "Weekend Cells Font Size",
-    "Defines the font size to be used for numbers in weekend cells."
+    "Defines the font size for numbers in weekend cells."
   ],
   "weekendFontColor": [
     "Weekend Cells Font Color",
-    "Defines the font color to be used for numbers in weekend cells."
+    "Defines the font color for numbers in weekend cells."
   ],
   "weekendFontFamily": [
     "Weekend Cells Font",
-    "<p>Specifies the font to be used for numbers in calendar weekend cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in calendar weekend cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "weekendBorder": [
     "Weekend Cells Stroke Color",
-    "Defines the stroke color for strokes outlining weekend cells."
+    "Defines the stroke color for outlining weekend cells."
   ],
   "weekendBackground": [
     "Weekend Cells Fill",
@@ -161,27 +161,27 @@
   ],
   "dowFontStyle": [
     "Days of Week Italic",
-    ""
+    "Specifies whether the names of the days of the week are italicized."
   ],
   "dowFontWeight": [
     "Days of Week Bold",
-    ""
+    "Specifies whether the names of the days of the week are bold."
   ],
   "dowFontSize": [
     "Days of Week Font Size",
-    "Defines the font size to be used for the names of the days of the week."
+    "Defines the font size for the names of the days of the week."
   ],
   "dowFontColor": [
     "Days of Week Font Color",
-    "Defines the font color to be used for the names of the days of the week."
+    "Defines the font color for the names of the days of the week."
   ],
   "dowFontFamily": [
     "Days of Week Font",
-    "<p>Specifies the font to be used for the names of the days of the week.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for the names of the days of the week.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "dowBorder": [
     "Days of Week Stroke Color",
-    "Defines the stroke color for strokes outlining the cells that contain the names of the days of the week."
+    "Defines the stroke color for outlining the cells that contain the names of the days of the week."
   ],
   "dowBackground": [
     "Days of Week Fill",
@@ -189,47 +189,47 @@
   ],
   "titleFontColor": [
     "Header Font Color",
-    ""
+    "Defines the font color for the header."
   ],
   "titleBorder": [
     "Header Stroke Color",
-    ""
+    "Defines the stroke color for outlining the header."
   ],
   "titleBackground": [
     "Header Fill",
-    ""
+    "Defines the fill for the header."
   ],
   "highlightedCornerRadius": [
     "Highlighted Cells Corner Radius",
-    "<p>Defines the rounded corners for highlighted cells, as arcs of circles or ellipses. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector.</p><p>This property defines rounded corners as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded.</p>"
+    "Defines the rounded corners for the cells the user mouses over, or the highlighted cells specified using the Property Inspector, as arcs of circles or ellipses. The circles or ellipses are defined using a pixel value or percentage. A pixel value is the radius of a circle. A percentage value defines an ellipse with horizontal and vertical radii that are that percentage of the cell's width and height, respectively. A value of 0 means that corners are not rounded."
   ],
   "highlightedFontStyle": [
     "Highlighted Cells Italic",
-    ""
+    "Specifies whether the text in highlighted cells is italicized."
   ],
   "highlightedFontWeight": [
     "Highlighted Cells Bold",
-    ""
+    "Specifies whether the text in highlighted cells is bold."
   ],
   "highlightedFontSize": [
     "Highlighted Cells Font Size",
-    "Defines the font size for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector."
+    "Defines the font size for numbers in the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
   ],
   "highlightedFontColor": [
     "Highlighted Cells Font Color",
-    "Defines the font color for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector."
+    "Defines the font color for numbers in the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
   ],
   "highlightedFontFamily": [
     "Highlighted Cells Font",
-    "<p>Specifies the font for numbers in highlighted cells. The user can highlight cells by mousing over them, and you can specify highlighted cells in the Property Inspector.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in the cells the user mouses over, or the highlighted cells specified using the Property Inspector</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "highlightedBorder": [
     "Highlighted Cells Stroke Color",
-    "Defines the stroke color for outlining highlighted cells. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector."
+    "Defines the stroke color for outlining the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
   ],
   "highlightedBackground": [
     "Highlighted Cells Fill",
-    "Defines the fill for highlighted cells. The user can highlight cells by mousing over them. You can also specify highlighted cells in the Property Inspector."
+    "Defines the fill for highlighted the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
   ],
   "selectedCornerRadius": [
     "Selected Cells Corner Radius",
@@ -237,11 +237,11 @@
   ],
   "selectedFontStyle": [
     "Selected Cells Italic",
-    ""
+    "Specifies whether the text in selected cells is italicized."
   ],
   "selectedFontWeight": [
     "Selected Cells Bold",
-    ""
+    "Specifies whether the text in selected cells is bold."
   ],
   "selectedFontSize": [
     "Selected Cells Font Size",
@@ -269,11 +269,11 @@
   ],
   "normalFontStyle": [
     "Weekday Cells Italic",
-    ""
+    "Specifies whether the text in weekday cells is italicized."
   ],
   "normalFontWeight": [
     "Weekday Cells Bold",
-    ""
+    "Specifies whether the text in weekday cells is bold."
   ],
   "normalFontSize": [
     "Weekday Cells Font Size",
@@ -461,11 +461,11 @@
   ],
   "titleFontWeight": [
     "Header Bold",
-    ""
+    "Defines whether the header text is bold."
   ],
   "titleFontStyle": [
     "Header Italic",
-    ""
+    "Defines whether the header text is italicized."
   ],
   "calendar.titleFontSize": [
     "Header Font Size",
@@ -1702,11 +1702,11 @@
   ],
   "flexShrink": [
     "Flex-Shrink",
-    "<p>Specifies how much this element will shrink relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it shrinks depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will shrink relative to the other flexible items inside the same container. A value greater than zero indicates that this component will shrink to counteract insufficient space. The amount that it shrinks depends on its flex-shrink factor and the sum of all the flex-shrink factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "flexGrow": [
     "Flex-Grow",
-    "<p>Specifies how much this element will grow relative to the rest of the flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it grows depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
+    "<p>Specifies how much this element will grow relative to the other flexible items inside the same container. A value greater than zero indicates that this component will grow to absorb extra space. The amount that it grows depends on its flex-grow factor and the sum of all the flex-grow factors assigned to items in the container.</p><p>For more information on flexible items go to: <a href='http://bocoup.com/weblog/dive-into-flexbox/'>http://bocoup.com/weblog/dive-into-flexbox/</a></p>"
   ],
   "vCenter": [
     "Vertical Center",
@@ -1890,7 +1890,7 @@
   ],
   "video.url": [
     "URL",
-    "<p>Specifies the path where the video is located. You can click the folder icon to select or upload an image, or you can enter a relative URL within the project, such as assets/video.mp4. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any video format supported by the user's browser.</p>"
+    "<p>Specifies the path where the video is located. Click the folder icon to select or upload an image, or enter a relative URL within the project, such as assets/video.mp4. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any video format that is supported by the user's browser.</p>"
   ],
   "IFrame.url": [
     "URL",
@@ -2941,7 +2941,7 @@
     "Restarts the video. You can bind to this button, or click it as part of a recorded action."
   ],
   "video.@onEnded": [
-    "onEnded",
+    "On Ended",
     "Triggers an event on completion of this video. Can be used to invoke actions."
   ],
   "video.volume": [
@@ -3016,9 +3016,13 @@
     "Show Legend",
     "Specifies whether to show a simple legend in the heat map component."
   ],
+  "heatMap.data": [
+    "Data",
+    "Specifies the table that the heat map uses as a data source."
+  ],
   "heatMap.falloff": [
     "Falloff",
-    "Defines the percentage of each heat map item that is covered by the highest intensity color for that shape. The specified inner portion of the shape is covered by the color representing the intensity of the data point. If falloff is less than 100%, then the outer portion of the shape blends from the color of this intensity value to the color of an intensity value of zero."
+    "Defines the percentage of each heat map item that is covered by the highest intensity color for that shape. The specified inner portion of the shape is covered by the color representing the intensity of the data point. The remaining outer portion of the shape blends from the color of this intensity value to the color of an intensity value of zero."
   ],
   "heatMap.xField": [
     "X Field",
@@ -3030,7 +3034,7 @@
   ],
   "heatMap.dataField": [
     "Intensity Field",
-    "<p>Defines the table column from which the intensity values are determined.</p><p>\"Intensity\" refers to whatever units the heat map is measuring, for example temperature or air flow. Each data point on the heat map has an intensity value that determines its color. Intensity values range from 0 to the highest data value. An intensity of 0 corresponds to the left end of this heat map's gradient, and the highest intensity value corresponds to the right end of this heat map's gradient.</p>"
+    "<p>Defines the table column from which the intensity values are determined.</p><p>\"Intensity\" refers to whatever units the heat map is measuring, for example temperature or air flow. Each data point on the heat map has an intensity value that determines its color.</p><p>Intensity values range from 0 to the highest data value. An intensity of 0 corresponds to the left end of this heat map's gradient, and the highest intensity value corresponds to the right end of this heat map's gradient.</p>"
   ],
   "heatMap.radius": [
     "Radius",
@@ -3210,15 +3214,15 @@
   ],
   "datagrid.rowBorderHover": [
     "Hovered Row Stroke Color",
-    "Defines the stroke color for the row that the user mouses over."
+    "Defines the stroke color for outlining the row that the user mouses over."
   ],
   "datagrid.rowBorderWidthHover": [
     "Hovered Row Stroke Weight",
-    "Defines the stroke weight for the row that the user mouses over."
+    "Defines the stroke weight for outlining the row that the user mouses over."
   ],
   "datagrid.rowBorderStyleHover": [
     "Hovered Row Stroke Style",
-    "Defines the stroke style for the row that the user mouses over."
+    "Defines the stroke style for outlining the row that the user mouses over."
   ],
   "datagrid.cellPadding": [
     "Cell Padding",
@@ -4316,13 +4320,29 @@
     "Sortable",
     "<p>Specifies whether the columns affected by this column editor are sortable.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
+  "gridColumn.visible": [
+    "Visible",
+    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>True</strong><br />This element is visible.</p><p><strong>False</strong><br />This element is not visible, but it still affects layout and is stored in browser memory.</p>"
+  ],
+  "gridColumn.sortingIndicator": [
+    "Sorting Indicator",
+    "Specifies whether a graphic appears in the column that currently sorts the data. The Sorting Indicator property for a Name column editor overrides the Sorting Indicator property for an All column editor."
+  ],
+  "gridColumn.sortingAsc": [
+    "Sort Ascending",
+    "Sorts the data using this column, in ascending order. Using this trigger changes the sort order to Ascending, under Data Grid properties."
+  ],
+  "gridColumn.sortingDesc": [
+    "Sort Descending",
+    "Sorts the data using this column, in descending order. Using this trigger changes the sort order to Descending, under Data Grid properties."
+  ],
   "gridColumn.symbol": [
     "Symbol",
-    "Defines the symbol that appears in each cell of the columns affected by this column editor. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+    "<p>Defines the symbol that appears in each cell of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "gridColumn.headerSymbol": [
     "Header Symbol",
-    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
   "iframeMessage.match": [
     "Match",
