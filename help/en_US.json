@@ -473,7 +473,7 @@
   ],
   "calendar.titleFontFamily": [
     "Header Font Family",
-    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "titleColor": [
     "Title Color",
@@ -857,11 +857,11 @@
   ],
   "axisRenderer.labelsFontFamily": [
     "Labels Font",
-    "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "scaleLabels.labelsFontFamily": [
     "Labels Font",
-    "<p>Defines the font used for the labels along this scale.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font used for the labels along this scale.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "labelsColor": [
     "Labels Font Color",
@@ -1017,19 +1017,19 @@
   ],
   "textDecoration": [
     "Underline",
-    ""
+    "Specifies whether the text in this element is underlined."
   ],
   "fontWeight": [
     "Bold",
-    ""
+    "Specifies whether the text in this element is bold."
   ],
   "fontStyle": [
     "Italic",
-    ""
+    "Specifies whether the text in this element is italicized."
   ],
   "fontSize": [
     "Font Size",
-    "Defines the font size for this component. If the font size is set to Auto, the text scales to occupy the size of the component."
+    "Defines the font size for this element. If the font size is set to Auto, the text scales to occupy the size of the component."
   ],
   "minFontSize": [
     "Min Font Size",
@@ -1045,7 +1045,7 @@
   ],
   "fontFamily": [
     "Font",
-    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "textDir": [
     "Text Direction",
@@ -1058,7 +1058,7 @@
   ],
   "autoSize": [
     "Autosize",
-    "Specifies whether the Page Include inherits the sizing properties of its .dg5 file, for example a width that is a set number of pixels."
+    "If true, causes this container to follow the content width. Only works if this container's width or height is set to Auto, and the content's width or height is set to pixels or percent."
   ],
   "!isWidget": [
     " Widget  Group",
@@ -1134,7 +1134,11 @@
   ],
   "symbol.symbol": [
     "Symbol",
-    "<p>Specifies which symbol is displayed in this symbol component. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>By default, this is the only property for a symbol. To create more properties for a particular symbol, open the Edit Properties dialog for that symbol.</p>"
+    "<p>Specifies which symbol is displayed in this symbol component.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>By default, this is the only property for a symbol. To create more properties for a particular symbol, open the Edit Properties dialog for that symbol.</p>"
+  ],
+  "viewDeck.symbol": [
+    "Symbol",
+    "<p>Defines the symbol to be used when iterating the rows of the linked table.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "contentHeight": [
     "Content Height",
@@ -1614,7 +1618,7 @@
   ],
   "selected": [
     "Selected",
-    "<p>A runtime property that shows whether this element is selected. This property is not saved in Edit mode.</p><p>This property is related to the parent's Selection Behavior property. For example, if this element is one of several children in a group, and the group’s Selection Behavior is Single Select, then clicking this element selects it and deselects other children in the group. For more about the Selection Behavior property, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:allcomponents#selection_properties'>the DGLux5 wiki</a>.</p><p>Regardless of the parent’s Selection Behavior, you can also change this property in the Property Inspector. For example, if you want this element to be selected when the user clicks a menu button, bind the Selected property of the button to the Selected property of this element.</p>"
+    "<p>A runtime property that shows whether this element is selected. This property is not saved in Edit mode.</p><p>This property is related to the parent's Selection Behavior property. For example, if the Selection Behavior of this element's parent is Single Select, then clicking this element selects it and deselects its siblings. For more about the Selection Behavior property, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:allcomponents#selection_properties'>the DGLux5 wiki</a>.</p><p>Regardless of the parent’s Selection Behavior, you can also change this property in the Property Inspector. For example, if you want this element to be selected when the user clicks a menu button, bind the Selected property of the button to the Selected property of this element.</p>"
   ],
   "moveToTop": [
     "Move To Top",
@@ -1840,7 +1844,7 @@
     "Error",
     ""
   ],
-  "onComplete": [
+  "img.@onComplete": [
     "On Complete",
     "Triggers an event on completion of this animation. Can be used to invoke actions or trigger other events."
   ],
@@ -1890,7 +1894,7 @@
   ],
   "IFrame.url": [
     "URL",
-    "<p>Specifies the URL to be displayed within the IFrame.</p><p>This allows you to use other third party or your own standalone CSS, JavaScript, and HTML components in your DGLux application. Your custom components will behave as if they were native DGLux components.</p>"
+    "<p>Specifies the URL to be displayed within the IFrame.</p><p>This allows you to use third-party or your own standalone CSS, JavaScript, and HTML components in your DGLux application. Your custom components will behave as if they were native DGLux components.</p>"
   ],
   "tilingOpt": [
     "Tiling/Scaling",
@@ -1950,7 +1954,7 @@
   ],
   "loop": [
     "Loop",
-    "<p>The Loop property determines whether the animation sequence is repeated.</p><p><strong>True</strong><br />As soon as it is complete, the animation starts again.</p><p><strong>False</strong><br />The animation happens once, and then the image defined for the image component is displayed. </p>"
+    "<p>Determines whether the animation sequence is repeated.</p><p><strong>True</strong><br />As soon as it is complete, the animation starts again.</p><p><strong>False</strong><br />The animation happens once, and then the image defined by the URL property is displayed. </p>"
   ],
   "step": [
     "Step",
@@ -2058,7 +2062,7 @@
   ],
   "color": [
     "Font Color",
-    "Defines the font color for this component."
+    "Defines the font color for this element."
   ],
   "start": [
     "Start",
@@ -2834,7 +2838,7 @@
   ],
   "pageInclude.reload": [
     "Reload",
-    "Refreshes the .dg5 file within the Page Include."
+    "Refreshes the .dg5 file within this Page Include."
   ],
   "pageInclude.onContentLoaded": [
     "On Content Loaded",
@@ -2870,7 +2874,7 @@
   ],
   "img.src": [
     "URL",
-    "<p>Defines the path where the image is located. You can click the folder icon to select or upload an image, or you can enter a relative URL within the project, such as assets/image.png. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any image format supported by the user's browser.</p>"
+    "<p>Defines the path where the image is located. Click the folder icon to select or upload an image, or enter a relative URL within the project, such as assets/image.png. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any image format that is supported by the user's browser.</p>"
   ],
   "img.!numFrames": [
     "Total Frames",
@@ -2878,7 +2882,7 @@
   ],
   "img.frameIndex": [
     "Frame Index",
-    "Returns the index of the frame currently displayed in the animation. The image at the URL defined for the image component is 0, the topmost frame in the animation sequence is 1, and so on. This is a read-only property, so changing it manually does nothing."
+    "Returns the index of the frame currently displayed in the animation. The image defined by the URL property is 0, the topmost frame in the animation sequence is 1, and so on. This is a read-only property, so changing it manually does nothing."
   ],
   "img.@onComplete": [
     "On Complete",
@@ -2886,11 +2890,11 @@
   ],
   "img.intervalMillis": [
     "Interval",
-    "Defines the length of time that each frame is displayed, in seconds."
+    "Defines how long each frame is displayed, in seconds."
   ],
   "img.isAnimator": [
     "Frame Animator",
-    "<p>Specifies whether the image component animates a specified list of frames.</p><p>The image at the URL defined for the image component is displayed only when the animation is not active, unless it is also defined as an animation frame.</p>"
+    "<p>Specifies whether the image component animates a specified list of frames.</p><p>The image defined by the URL property is displayed only when the animation is not active.</p>"
   ],
   "img.frames": [
     "Frames",
@@ -2950,11 +2954,11 @@
   ],
   "map.zoom": [
     "Zoom",
-    "Sets or returns the zoom level for the map. 0 is the lowest zoom level, in which the entire world can be seen in one map. For each map type, valid zoom levels are from 0 to the maximum zoom level for that location and map type. The maximum depends on available data and is typically between 18 and 21 for a given location and map type."
+    "Sets or returns the zoom level for the map. Zero is the lowest zoom level, in which the entire world can be seen in one map. For each map type, valid zoom levels are from 0 to the maximum zoom level for that location and map type. The maximum depends on available data and is typically between 18 and 21 for a given location and map type."
   ],
   "map.mapControls": [
     "Map Controls",
-    "Specifies whether to show map controls, allowing the user to manipulate the map."
+    "Specifies whether to show map controls, allowing the user to manipulate the map. Controls allow the user to zoom in or out, and move left, right, down, or up."
   ],
   "map.weatherLayer": [
     "Weather Layer",
@@ -2978,11 +2982,11 @@
   ],
   "map.latField": [
     "Latitude Field",
-    "Defines the column in your table that contains latitude data."
+    "Defines the column in your table that contains latitude data. Type the name of the table column in the field."
   ],
   "map.lngField": [
     "Longitude Field",
-    "Defines the column in your table that contains longitude data."
+    "Defines the column in your table that contains longitude data. Type the name of the table column in the field."
   ],
   "Google_Map.symbol": [
     "Symbol",
@@ -3006,7 +3010,7 @@
   ],
   "mapGroup.symbol": [
     "Symbol",
-    "<p>Defines the symbol to be used as a location marker in this map group. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>A map group repeater is useful when you want to have multiple repeaters, or other components, in your map, or when you want your markers to be placed at each set of coordinates without being centered on the location.</p>"
+    "<p>Defines the symbol to be used as a location marker in this map group. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol.</p><p>A map group is useful when you want to have multiple repeaters, or other components, in your map, or when you want your markers to be placed at each set of coordinates without being centered on the location.</p>"
   ],
   "heatMap.showLegend": [
     "Show Legend",
@@ -3070,7 +3074,7 @@
   ],
   "calendar.arrowFontFamily": [
     "Arrow Font",
-    "<p>Specifies the font used for the left and right arrow glyphs in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the fonts folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font used for the left and right arrow glyphs in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
@@ -3370,15 +3374,15 @@
   ],
   "datagrid.columnFilterType": [
     "Filter Type",
-    "<p>Specifies how this filter handles the listed columns. Hidden columns retain their properties.</p><p><strong>Whitelist</strong><br />Only the listed columns are shown in this data grid.</p><p><strong>Blacklist</strong><br />The listed columns are hidden from this data grid.</p>"
+    "<p>Specifies how this filter handles the listed columns.</p><p><strong>Whitelist</strong><br />Only the listed columns are shown in this data grid.</p><p><strong>Blacklist</strong><br />The listed columns are hidden from this data grid.</p>"
   ],
   "datagrid.sortOrder": [
     "Sort Order",
-    "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for the data grid component and edit the sort block.</p>"
+    "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for this data grid and edit the sort block.</p>"
   ],
   "datagrid.sortColumn": [
     "Sort Column",
-    "Defines which column to use to sort the data, using the column name. Only works if the column has the Sortable property enabled."
+    "Defines which column to use to sort the data, using the table column name. Only works if the column has the Sortable property enabled."
   ],
   "datagrid.headerPaddingTop": [
     "Header Padding Top",
@@ -3496,13 +3500,53 @@
     "Grid.cell Padding",
     ""
   ],
-  "datagridRows.defaultCellAlign": [
-    "Grid.default Cell Align",
-    ""
+  "datagrid.grid.defaultCellFontFamily": [
+    "Rows Font",
+    "Defines the font color for this element."
   ],
-  "datagridRows.defaultCellVerticalAlign": [
-    "Grid.default Cell Vertical Align",
-    ""
+  "datagrid.grid.defaultCellFontColor": [
+    "Rows Font Color",
+    "Defines the font color for this element."
+  ],
+  "datagrid.grid.defaultCellFontSize": [
+    "Rows Font Size",
+    "Defines the font size for this element."
+  ],
+  "datagrid.grid.defaultCellFontWeight": [
+    "Rows Font Bold",
+    "Specifies whether the text in this element is bold."
+  ],
+  "datagrid.grid.defaultCellFontStyle": [
+    "Rows Font Italic",
+    "Specifies whether the text in this element is italicized."
+  ],
+  "datagrid.grid.defaultCellPaddingTop": [
+    "Rows Top Padding",
+    "Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagrid.grid.defaultCellPaddingBottom": [
+    "Rows Bottom Padding",
+    "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagrid.grid.defaultCellPaddingLeft": [
+    "Rows Left Padding",
+    "Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagrid.grid.defaultCellPaddingRight": [
+    "Rows Right Padding",
+    "Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagrid.grid.defaultCellKeepEqualPaddings": [
+    "Link Paddings",
+    "Links all four padding editors so that their values are equal."
+  ],
+  "datagridRows.grid.defaultCellAlign": [
+    "Rows Horizontal Alignment",
+    "Specifies whether the content in the rows is left-justified, centered, or right-justified."
+  ],
+  "datagridRows.grid.defaultCellVerticalAlign": [
+    "Rows Vertical Alignment",
+    "Specifies whether the content in the rows is positioned at the top, middle, or bottom of the container."
   ],
   "datagridRows.defaultCellFontFamily": [
     "Grid.default Cell Font Family",
@@ -3547,6 +3591,70 @@
   "datagridRows.gridMode": [
     "Grid.grid Mode",
     ""
+  ],
+  "datagridHeader.grid.headerFontFamily": [
+    "Header Font",
+    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+  ],
+  "datagridHeader.grid.headerFontColor": [
+    "Header Font Color",
+    "Defines the font color for this element."
+  ],
+  "datagridHeader.grid.headerFontSize": [
+    "Header Font Size",
+    "Defines the font size for this element."
+  ],
+  "datagridHeader.grid.headerFontStyle": [
+    "Header Font Italic",
+    "Specifies whether the text in this element is italicized."
+  ],
+  "datagridHeader.grid.headerFontWeight": [
+    "Header Font Bold",
+    "Specifies whether the text in this element is bold."
+  ],
+  "datagridHeader.grid.headerAlign": [
+    "Header Horizontal Alignment",
+    "Specifies whether the content in the header is left-justified, centered, or right-justified."
+  ],
+  "datagridHeader.grid.headerVerticalAlign": [
+    "Header Vertical Alignment",
+    "Specifies whether the content in the header is positioned at the top, middle, or bottom of the container."
+  ],
+  "datagridHeader.grid.headerPaddingLeft": [
+    "Header Left Padding",
+    "Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagridHeader.grid.headerPaddingRight": [
+    "Header Right Padding",
+    "Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagridHeader.grid.headerPaddingTop": [
+    "Header Top Padding",
+    "Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagridHeader.grid.headerPaddingBottom": [
+    "Header Bottom Padding",
+    "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
+  ],
+  "datagridHeader.grid.keepEqualPaddingHeadings": [
+    "Link Paddings",
+    "Links all four padding editors so that their values are equal."
+  ],
+  "datagridHeader.grid.vHeaderGridColor": [
+    "Header Vertical Gridline Stroke Color",
+    "Defines the color for the vertical lines that divide the column headers."
+  ],
+  "datagridHeader.grid.vHeaderGridWidth": [
+    "Header Vertical Gridline Stroke Weight",
+    "Defines the stroke weight for the vertical lines that divide the column headers."
+  ],
+  "datagridHeader.grid.vHeaderGridStroke": [
+    "Header Vertical Gridline Stroke Style",
+    "Defines the stroke style for the vertical lines that divide the column headers."
+  ],
+  "datagridHeader.grid.headerHeight": [
+    "Header Height",
+    "Defines the height of the header in pixels. A value of Auto makes the header height follow the size of its content."
   ],
   "datagridHeader.headerHeight": [
     "Grid.header Height",
