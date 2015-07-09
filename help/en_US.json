@@ -1146,11 +1146,11 @@
   ],
   "contentHeight": [
     "Content Height",
-    ""
+    "Returns the height of the group content before scaling happens, in pixels. Scaling is calculated based on this height. This is a read-only property, so changing it manually does nothing."
   ],
   "contentWidth": [
     "Content Width",
-    ""
+    "Returns the width of the group content before scaling happens, in pixels. Scaling is calculated based on this width. This is a read-only property, so changing it manually does nothing."
   ],
   "keepEqualPaddings": [
     "Link Paddings",
@@ -1214,11 +1214,11 @@
   ],
   "scaleContent": [
     "Scale Content",
-    ""
+    "<p>Specifies the scaling behavior of children of this group when the group size changes. Only works when group layout is absolute.</p><p><strong>None</strong><br />Children do not scale when group size changes.</p><p><strong>Fit ratio</strong><br />Children scale while maintaining their aspect ratios.</p><p><strong>Fit</strong><br />Children scale without maintaining their aspect ratios.</p>"
   ],
   "autoSizeContent": [
-    "Auto Size Content",
-    ""
+    "Autosize Content",
+    "<p>Specifies whether this group’s content inherits the group size.</p><p><strong>True</strong><br />Content inherits the group size. This property can also be used to bring overflowing content into the bounds of the group, but only if the content overflows to the right or bottom of the group.</p><p><strong>False</strong><br />Content does not inherit the group size.</p>"
   ],
   "clipContent": [
     "Clip Content",
