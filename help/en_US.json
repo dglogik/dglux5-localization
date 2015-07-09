@@ -472,7 +472,7 @@
     "Defines the font size used for the month and year text in the calendar header."
   ],
   "calendar.titleFontFamily": [
-    "Header Font Family",
+    "Header Font",
     "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "titleColor": [
@@ -4328,11 +4328,11 @@
     "Sorting Indicator",
     "Specifies whether a graphic appears in the column that currently sorts the data. The Sorting Indicator property for a Name column editor overrides the Sorting Indicator property for an All column editor."
   ],
-  "gridColumn.sortingAsc": [
+  "gridColumn.sortAsc": [
     "Sort Ascending",
     "Sorts the data using this column, in ascending order. Using this trigger changes the sort order to Ascending, under Data Grid properties."
   ],
-  "gridColumn.sortingDesc": [
+  "gridColumn.sortDesc": [
     "Sort Descending",
     "Sorts the data using this column, in descending order. Using this trigger changes the sort order to Descending, under Data Grid properties."
   ],
