@@ -3500,43 +3500,43 @@
     "Grid.cell Padding",
     ""
   ],
-  "datagrid.grid.defaultCellFontFamily": [
+  "datagridRows.grid.defaultCellFontFamily": [
     "Rows Font",
     "Defines the font color for this element."
   ],
-  "datagrid.grid.defaultCellFontColor": [
+  "datagridRows.grid.defaultCellFontColor": [
     "Rows Font Color",
     "Defines the font color for this element."
   ],
-  "datagrid.grid.defaultCellFontSize": [
+  "datagridRows.grid.defaultCellFontSize": [
     "Rows Font Size",
     "Defines the font size for this element."
   ],
-  "datagrid.grid.defaultCellFontWeight": [
+  "datagridRows.grid.defaultCellFontWeight": [
     "Rows Font Bold",
     "Specifies whether the text in this element is bold."
   ],
-  "datagrid.grid.defaultCellFontStyle": [
+  "datagridRows.grid.defaultCellFontStyle": [
     "Rows Font Italic",
     "Specifies whether the text in this element is italicized."
   ],
-  "datagrid.grid.defaultCellPaddingTop": [
+  "datagridRows.grid.defaultCellPaddingTop": [
     "Rows Top Padding",
     "Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
   ],
-  "datagrid.grid.defaultCellPaddingBottom": [
+  "datagridRows.grid.defaultCellPaddingBottom": [
     "Rows Bottom Padding",
     "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
   ],
-  "datagrid.grid.defaultCellPaddingLeft": [
+  "datagridRows.grid.defaultCellPaddingLeft": [
     "Rows Left Padding",
     "Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
   ],
-  "datagrid.grid.defaultCellPaddingRight": [
+  "datagridRows.grid.defaultCellPaddingRight": [
     "Rows Right Padding",
     "Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
   ],
-  "datagrid.grid.defaultCellKeepEqualPaddings": [
+  "datagridRows.grid.defaultCellKeepEqualPaddings": [
     "Link Paddings",
     "Links all four padding editors so that their values are equal."
   ],
@@ -3636,7 +3636,7 @@
     "Header Bottom Padding",
     "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
   ],
-  "datagridHeader.grid.keepEqualPaddingHeadings": [
+  "datagridHeader.grid.keepEqualHeaderPaddings": [
     "Link Paddings",
     "Links all four padding editors so that their values are equal."
   ],
