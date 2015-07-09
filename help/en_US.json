@@ -2230,7 +2230,7 @@
   ],
   "daterange.input": [
     "Value",
-    "<p>Returns the currently selected date range in the date range picker as one of the formats listed below.<ul><li><strong>Range</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> &#8212; \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> &#8212; \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> &#8212; \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> &#8212; \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
+    "<p>Returns the currently selected date range in the date range picker using one of the formats listed below.<ul><li><strong>Range</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> &#8212; \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> &#8212; \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> &#8212; \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> &#8212; \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> &#8212; \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
   ],
   "daterange.formatted": [
     "Formatted Value",
@@ -2269,8 +2269,8 @@
     "<p>Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used.</p><p>See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</p>"
   ],
   "daterange.keepSpecial": [
-    "Keep Special",
-    ""
+    "Keep Special Value",
+    "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:daterange'>the DGLux5 wiki</a>."
   ],
   "if.0": [
     "Input 0",
@@ -3098,15 +3098,15 @@
   ],
   "daterangePicker.buttonFontStyle": [
     "Button Italic",
-    ""
+    "Defines whether the text for buttons within this date range picker is italicized."
   ],
   "daterangePicker.buttonFontWeight": [
     "Button Bold",
-    ""
+    "Defines whether the text for buttons within this date range picker is bold."
   ],
   "daterangePicker.buttonTextDecoration": [
     "Button Underline",
-    ""
+    "Defines whether the text for buttons within this date range picker is underlined."
   ],
   "daterangePicker.buttonFontColor": [
     "Button Font Color",
