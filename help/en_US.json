@@ -361,11 +361,11 @@
   ],
   "saVFocus": [
     "Vertical Focus",
-    "<p>Together with Horizontal Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Top</strong><br />The zoom animation begins at the top of the bounding box defined in Relative To.</p><p><strong>Bottom</strong><br />The zoom animation begins at the bottom of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the vertical center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Vertical Focus is null, and Horizontal Focus is not null, then the focus is a horizontal line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
+    "<p>Together with Horizontal Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Top</strong><br />The zoom animation begins at the top of the bounding box defined in Relative To.</p><p><strong>Bottom</strong><br />The zoom animation begins at the bottom of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the vertical center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Vertical Focus is null, and Horizontal Focus is not null, then the focus is a vertical line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saHFocus": [
     "Horizontal Focus",
-    "<p>Together with Vertical Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Left</strong><br />The zoom animation begins at the left of the bounding box defined in Relative To.</p><p><strong>Right</strong><br />The zoom animation begins at the right of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the horizontal center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Horizontal Focus is null, and Vertical Focus is not null, then the focus is a vertical line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
+    "<p>Together with Vertical Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Left</strong><br />The zoom animation begins at the left of the bounding box defined in Relative To.</p><p><strong>Right</strong><br />The zoom animation begins at the right of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the horizontal center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Horizontal Focus is null, and Vertical Focus is not null, then the focus is a horizontal line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saDir": [
     " Direction",
@@ -376,7 +376,7 @@
     "<p>Specifies the amount of time, in seconds, that the animation is delayed.</p><p>Use this property to stagger effects on multiple series.</p>"
   ],
   "saMinElDuration": [
-    "Minimum  Element  Duration",
+    "Minimum Element Duration",
     "<p>Specifies the minimum amount of time, in seconds, that an individual element takes to complete the animation.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
   ],
   "saElOffset": [
@@ -417,11 +417,11 @@
   ],
   "seriesType": [
     "Series Type",
-    "<p>Defines how the series data is visually represented.</p><p><strong>Line series</strong><br />Markers represent the data points. These markers are connected with lines.</p><p><strong>Area series</strong><br />Markers represent the data points. These markers are connected with lines, and the area delimited by the lines is filled in.</p><p><strong>Bar series</strong><br />Horizontal bars represent the data points.</p><p><strong>Column series</strong><br />Vertical columns represent the data points.</p>"
+    "<p>Defines how the series data is visually represented.</p><p><strong>Line series</strong><br />Markers represent the data points. Lines connect the markers.</p><p><strong>Area series</strong><br />Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.</p><p><strong>Bar series</strong><br />Horizontal bars represent the data points.</p><p><strong>Column series</strong><br />Vertical columns represent the data points.</p>"
   ],
   "dataTipSymbolId": [
     "Datatip Renderer",
-    "Specifies the symbol to use as the datatip for the series. This property overrides any text entered in the Datatip property. To use a symbol from this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+    "<p>Specifies the symbol to use as the datatip for the series.</p><p>This property overrides any text entered in the Datatip property.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "dgDataTip": [
     "Datatip",
@@ -449,7 +449,7 @@
   ],
   "form": [
     "Line Form",
-    "<p>Defines the shape of the lines in a line or area series.</p><p><strong>Segment</strong><br />Markers are connected with line segments.</p><p><strong>Step</strong><br />Markers are connected with orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.</p><p><strong>ReverseStep</strong><br />Data points are connected with orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.</p><p><strong>Vertical</strong><br />Only the vertical segments from a Step line form are displayed.</p><p><strong>Horizontal</strong><br />Only the horizontal segments from a Step line form are displayed.</p><p><strong>Curve</strong><br />Markers are connected with a curve.</p>"
+    "<p>Defines the shape of the lines in a line or area series.</p><p><strong>Segment</strong><br />Markers are connected using line segments.</p><p><strong>Step</strong><br />Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.</p><p><strong>ReverseStep</strong><br />Data points are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.</p><p><strong>Vertical</strong><br />Only the vertical segments from a Step line form are displayed.</p><p><strong>Horizontal</strong><br />Only the horizontal segments from a Step line form are displayed.</p><p><strong>Curve</strong><br />Markers are connected using a curve.</p>"
   ],
   "titleLetterSpacing": [
     "Title Letter Spacing",
@@ -539,6 +539,10 @@
     "Axis Labels Mode",
     "<p>Specifies how many labels appear along the axis.</p><p><strong>None</strong><br />No labels appear.</p><p><strong>Min Max</strong><br />Only the minimum and maximum labels appear.</p><p><strong>Auto</strong><br />The number of labels depends on the amount of available space.</p><p><strong>Show All</strong><br />A label appears for every major tick.</p>"
   ],
+  "axis.dgAutoAdjust": [
+    "Auto Adjust",
+    "Specifies whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
+  ],
   "axisStrokeStyle": [
     "Axis Stroke Style",
     "Defines the stroke style of the line that represents this axis."
@@ -571,19 +575,19 @@
     "Axis Type",
     "<p>Defines the scale type of an axis.</p><p><strong>Linear axis</strong><br />The axis represents linearly increasing values.</p><p><strong>Log axis</strong><br />The axis represents logarithmically increasing values. You might want a logarithmic axis if your data has a large range.</p><p><strong>Datetime axis</strong><br />The axis represents linearly progressing date and time.</p><p><strong>Category axis</strong><br />The axis uses categories instead of a scale. Use a category axis when the data's linear progression doesn't matter, or when there is no way to interpret the data as a number or a date.</p>"
   ],
-  "assignedInterval": [
+  "axis.assignedInterval": [
     "Major Interval",
     "Defines the interval between each consecutive pair of major ticks, in the units of the axis."
   ],
-  "dgAssignedMaximum": [
+  "axis.dgAssignedMaximum": [
     "Maximum",
     "Defines the maximum of the axis range."
   ],
-  "dgAssignedMinimum": [
+  "axis.dgAssignedMinimum": [
     "Minimum",
     "Defines the minimum of the axis range."
   ],
-  "baseAtZero": [
+  "axis.baseAtZero": [
     "Base At Zero",
     "<p>Allows you to change the axis range minimum to decrease unused space on the chart.</p><p><strong>True</strong><br />The axis minimum is zero, unless there are negative data values on this axis. In that case, the axis minimum is equal to, or slightly below, the lowest data value.</p><p><strong>False</strong><br />The axis minimum is equal to, or slightly below, the lowest data value.</p>"
   ],
@@ -753,11 +757,11 @@
   ],
   "colorFormInput.datalist": [
     "Datalist",
-    "<p>Specifies one of the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p></p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
+    "<p>Specifies the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p></p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
   ],
   "inputType": [
     "Input Type",
-    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> &#8212; a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> &#8212; a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> &#8212; a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> &#8212; a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> &#8212; a year, month, and day.</li><li><strong>Week</strong> &#8212; a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> &#8212; a month and year</li></ul></p>"
+    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> &#8212; a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> &#8212; a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> &#8212; a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> &#8212; a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> &#8212; a year, month, and day.</li><li><strong>Week</strong> &#8212; a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> &#8212; a month and year.</li></ul></p>"
   ],
   "isValid": [
     "Is Valid",
@@ -845,15 +849,15 @@
   ],
   "labelsTextDecoration": [
     "Labels Underline",
-    ""
+    "Defines whether these labels are underlined."
   ],
   "labelsFontWeight": [
     "Labels Bold",
-    ""
+    "Defines whether these labels are bold."
   ],
   "labelsFontStyle": [
     "Labels Italic",
-    ""
+    "Defines whether these labels are italicized."
   ],
   "axisRenderer.labelsFontFamily": [
     "Labels Font",
@@ -888,7 +892,7 @@
     "Defines the total number of major ticks along this scale."
   ],
   "scaleLabels.majorTicksCount": [
-    "Labels Cound",
+    "Labels Count",
     "Defines the total number of labels along a labeled scale. Must be an integer greater than or equal to 2. The Only Min/Max Labels property overrides this property."
   ],
   "percentRadius": [
@@ -904,11 +908,11 @@
     ""
   ],
   "angleTo": [
-    "Start Angle",
+    "End Angle",
     "Defines the start angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "angleFrom": [
-    "End Angle",
+    "Start Angle",
     "Defines the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "minorTickStrokeWidth": [
@@ -920,11 +924,11 @@
     "Defines the stroke color of the minor ticks."
   ],
   "offsetRight": [
-    "Right Offset",
+    "Right Padding",
     "Defines the distance between the right side of a linear scale and the container bounds, in pixels."
   ],
   "offsetLeft": [
-    "Left Offset",
+    "Left Padding",
     "Defines the distance between the left side of a linear scale and the container bounds, in pixels."
   ],
   "scaleType": [
@@ -1805,7 +1809,7 @@
     ""
   ],
   "fileName": [
-    "File Name",
+    "Filename",
     "Sets or returns the name of the file to open."
   ],
   "dragData": [
@@ -3837,8 +3841,8 @@
     "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
   ],
   "scaleLabels.percentTextSize": [
-    "Size",
-    "Defines the height of the scale numbers, as a pixel value or percentage. For circular scales, a percentage is a portion of the circle's radius. For linear scales, a percentage is a portion of half the container width."
+    "Labels Size",
+    "Defines the height of the scale labels, as a pixel value or percentage. For circular scales, a percentage is a portion of the circle's radius. For linear scales, a percentage is a portion of half the container width."
   ],
   "scaleLabels.justify": [
     "Justify",
@@ -3910,7 +3914,7 @@
   ],
   "listFormElement.optionFontFamily": [
     "Option Font",
-    "<p>Defines the font for the options that are not currently selected. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font for the option list. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "listFormElement.optionLineHeight": [
     "Option Line Height",
@@ -3918,7 +3922,7 @@
   ],
   "listFormElement.optionFontSize": [
     "Option Font Size",
-    "Defines the font size for the options that are not currently selected. Not supported in all browsers."
+    "Defines the font size for the option list. Not supported in all browsers."
   ],
   "listFormElement.optionFontStyle": [
     "Option Font Italic",
@@ -3934,7 +3938,7 @@
   ],
   "listFormElement.optionColor": [
     "Option Font Color",
-    "Defines the font color for the options that are not currently selected. Not supported in all browsers."
+    "Defines the font color for the option list. Not supported in all browsers."
   ],
   "listFormElement.optionTextAlign": [
     "Option Text Align",
@@ -3942,7 +3946,7 @@
   ],
   "listFormElement.optionBackground": [
     "Option Fill",
-    "Defines the fill for the options that are not currently selected. Not supported in all browsers."
+    "Defines the fill for the option list. Not supported in all browsers."
   ],
   "list.fontFamily": [
     "Selected Item Font",
@@ -3957,7 +3961,7 @@
     "Sets whether the file content is displayed as a string or as binary."
   ],
   "fileFormInput.file": [
-    "File",
+    "File Content",
     "Displays the content of the selected file as a string or binary."
   ],
   "fileFormInput.open": [
@@ -3966,7 +3970,7 @@
   ],
   "fileFormInput.accept": [
     "Accept",
-    "<p>Specifies the file formats that are accepted by this file chooser.</p><p>Enter one or more of the following values separated by commas:<ul><li><strong>.png, .jpg, .gif, etc.</strong> — Files of the format specified.</li><li><strong>audio/*</strong> — All sound files.</li><li><strong>video/*</strong> — All video files.</li><li><strong>image/*</strong> — All image files.</li><li><strong>media_type/*</strong> — Replace media_type with any valid media type, to accept all formats within that type. Look at IANA Media Types for a complete list of standard media types.</li></ul></p>"
+    "<p>Specifies the file formats that are accepted by this file chooser.</p><p>Enter one or more of the following values separated by commas:<ul><li><strong>.png, .jpg, .gif, etc.</strong> — Files of the format specified.</li><li><strong>audio/*</strong> — All sound files.</li><li><strong>video/*</strong> — All video files.</li><li><strong>image/*</strong> — All image files.</li><li><strong>media_type/*</strong> — Replace media_type with any valid media type, to accept all formats within that type. Look at <a href='http://www.iana.org/assignments/media-types/media-types.xhtml'>IANA Media Types</a> for a complete list of standard media types.</li></ul></p>"
   ],
   "svg:text.textAnchor": [
     "Text Anchor",
@@ -3974,13 +3978,13 @@
   ],
   "axis.axisMinimum": [
     "Minimum",
-    ""
+    "Returns the minimum of the axis range. This is a read-only property, so changing it manually does nothing."
   ],
   "axis.axisMaximum": [
     "Maximum",
-    ""
+    "Returns the maximum of the axis range. This is a read-only property, so changing it manually does nothing."
   ],
-  "linearAxis.assignedMinorInterval": [
+  "axis.assignedMinorInterval": [
     "Minor Interval",
     "Defines the interval between each consecutive pair of minor ticks, in the units of the axis."
   ],
@@ -4036,6 +4040,10 @@
     "Line Stroke Style",
     ""
   ],
+  "lineSeries.symbol": [
+    "Marker Renderer",
+    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+  ],
   "areaSeries.areaStroke": [
     "Area Stroke",
     ""
@@ -4052,9 +4060,21 @@
     "Area Fill",
     ""
   ],
+  "areaSeries.symbol": [
+    "Marker Renderer",
+    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+  ],
   "columnSeries.dgOffset": [
     "Column Series Offset",
     "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A value of −0.1 moves the columns to the left by 10&#37; of this maximum width. A value of 0.1 moves the columns to the right by 10&#37; of this maximum width.</p><p>This Property is related to the Column Width Ratio property for the chart. Column Width Ratio determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The Column Width Ratio is 60&#37;, and there are two series. You want to offset the columns in series 1 by 10&#37; of their width. For Column Offset, use the value &#40;0.6 &#47; 2&#41; &#42; 0.1 &#61; 0.03.</p>"
+  ],
+  "columnSeries.symbol": [
+    "Column Renderer",
+    "<p>Specifies the symbol to use for custom columns.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+  ],
+  "barSeries.symbol": [
+    "Bar Renderer",
+    "<p>Specifies the symbol to use for custom bars.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
   ],
   "bubbleSeries.rAxisType": [
     "R Axis Type",
