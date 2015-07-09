@@ -1918,7 +1918,7 @@
   ],
   "gradient": [
     "Gradient Fill",
-    "<p>Defines the colors for a gradient fill, for example for a heat map or a scale track. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
+    "<p>Defines the colors for a gradient fill. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
   ],
   "selector": [
     "Column Editor Selector",
