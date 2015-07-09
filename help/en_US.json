@@ -3548,6 +3548,34 @@
     "Rows Vertical Alignment",
     "Specifies whether the content in the rows is positioned at the top, middle, or bottom of the container."
   ],
+  "datagridRows.grid.gridMode": [
+    "Gridlines",
+    "Defines whether the Property Inspector displays property editing options for horizontal gridlines, vertical gridlines, or both. Changing this property does not reset any gridline properties."
+  ],
+  "datagridRows.grid.hGridWidth": [
+    "Horizontal Gridline Stroke Weight",
+    "<p>Defines the stroke weight for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridRows.grid.hGridStroke": [
+    "Horizontal Gridline Stroke Style",
+    "<p>Defines the stroke style for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridRows.grid.hGridColor": [
+    "Horizontal Gridline Stroke Color",
+    "<p>Defines the stroke color for this data grid's horizontal gridlines.</p><p>To define the line between the top row of data and the header, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridRows.grid.vGridWidth": [
+    "Vertical Gridline Stroke Weight",
+    "<p>Defines the stroke weight for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridRows.grid.vGridStroke": [
+    "Vertical Gridline Stroke Style",
+    "<p>Defines the stroke style for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridRows.grid.vGridColor": [
+    "Vertical Gridline Stroke Color",
+    "<p>Defines the stroke color for the vertical lines that divide columns.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  ],
   "datagridRows.defaultCellFontFamily": [
     "Grid.default Cell Font Family",
     ""
