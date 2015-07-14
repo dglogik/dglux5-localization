@@ -1928,6 +1928,10 @@
     "Gradient Fill",
     "<p>Defines the colors for a gradient fill. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
   ],
+  "fill.gradient": [
+    "Gradient Fill",
+    "<p>Defines the colors for a gradient fill. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
+  ],
   "selector": [
     "Column Editor Selector",
     "<p>Specifies which data types or columns this column editor controls.</p><p>If the Type property is \"all,\" this property does nothing.</p><p>If the column editor type is \"type,\" this property specifies the JavaScript data type.</p><p>If the column editor type is \"name,\" this property specifies the name of one table column.</p>"
