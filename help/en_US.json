@@ -85,7 +85,7 @@
   ],
   "todayBorder": [
     "Today Cell Stroke Color",
-    "Defines the stroke color for outlining the calendar cell that represents the current day, based on the user’s date and time settings."
+    "Defines the stroke color or border image for outlining the calendar cell that represents the current day, based on the user’s date and time settings."
   ],
   "todayBackground": [
     "Today Cell Fill",
@@ -117,7 +117,7 @@
   ],
   "outOfMonthBorder": [
     "Out-of-Month Cells Stroke Color",
-    "Defines the stroke color for outlining out-of-month cells."
+    "Defines the stroke color or border image for outlining out-of-month cells."
   ],
   "outOfMonthBackground": [
     "Out-of-Month Cells Fill",
@@ -149,7 +149,7 @@
   ],
   "weekendBorder": [
     "Weekend Cells Stroke Color",
-    "Defines the stroke color for outlining weekend cells."
+    "Defines the stroke color or border image for outlining weekend cells."
   ],
   "weekendBackground": [
     "Weekend Cells Fill",
@@ -181,7 +181,7 @@
   ],
   "dowBorder": [
     "Days of Week Stroke Color",
-    "Defines the stroke color for outlining the cells that contain the names of the days of the week."
+    "Defines the stroke color or border image for outlining the cells that contain the names of the days of the week."
   ],
   "dowBackground": [
     "Days of Week Fill",
@@ -193,7 +193,7 @@
   ],
   "titleBorder": [
     "Header Stroke Color",
-    "Defines the stroke color for outlining the header."
+    "Defines the stroke color or border image for outlining the header."
   ],
   "titleBackground": [
     "Header Fill",
@@ -225,7 +225,7 @@
   ],
   "highlightedBorder": [
     "Highlighted Cells Stroke Color",
-    "Defines the stroke color for outlining the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
+    "Defines the stroke color or border image for outlining the cells the user mouses over, or the highlighted cells specified using the Property Inspector"
   ],
   "highlightedBackground": [
     "Highlighted Cells Fill",
@@ -257,7 +257,7 @@
   ],
   "selectedBorder": [
     "Selected Cells Stroke Color",
-    "Defines the stroke color for outlining selected cells."
+    "Defines the stroke color or border image for outlining selected cells."
   ],
   "selectedBackground": [
     "Selected Cells Fill",
@@ -289,7 +289,7 @@
   ],
   "normalBorder": [
     "Weekday Cells Stroke Color",
-    "Defines the stroke color for outlining each weekday cell."
+    "Defines the stroke color or border image for outlining each weekday cell."
   ],
   "normalBackground": [
     "Weekday Cells Fill",
@@ -677,11 +677,11 @@
   ],
   "strokeStyle": [
     "Stroke Style",
-    "Defines the line style of the stroke for this element."
+    "Defines the stroke style for outlining this element."
   ],
   "strokeWidth": [
-    "Stroke Weight",
-    "Defines the weight of the stroke line for this element."
+    "Border Width",
+    "Defines the stroke weight or border width for outlining this element."
   ],
   "filterUnits": [
     "Filter Units",
@@ -1305,8 +1305,8 @@
     "Defines the stroke weight for outlining this element."
   ],
   "border": [
-    "Stroke Color",
-    "Defines the stroke color for outlining this element."
+    "Border",
+    "Defines the stroke color or border image for outlining this element."
   ],
   "background": [
     "Fill",
@@ -2562,19 +2562,31 @@
   ],
   "fill.gradientType": [
     "Gradient Type",
-    ""
+    "<p>Specifies whether a radial or linear gradient fills this element. To add colors to the gradient, click below the track in the dialog. To delete colors, right-click on them. To move colors, left-click them and drag.</p><p><strong>Linear</strong><br />The gradient is defined by a linear axis.</p><p><strong>Radial</strong><br />The gradient is defined by a circle or an ellipse.</p>"
   ],
   "fill.angle": [
-    "Angle",
-    ""
+    "Gradient Angle",
+    "Specifies the angle of the line that defines this linear gradient. Valid values are between −180 and 180."
+  ],
+  "fill.gradientRepeat": [
+    "Gradient Repeat",
+    "Specifies whether this gradient repeats to fill this element. Only appies if the track that defines the gradient has either a left edge or a right edge that is undefined."
   ],
   "fill.fillType": [
     "Fill Type",
-    ""
+    "<p>Defines the type of fill for this element.</p><p><strong>No Fill</strong><br />The element has no fill.</p><p><strong>Solid Color</strong><br />The element is filled with a single color that you specify.</p><p><strong>Gradient</strong><br />The element is filled with a gradient that you specify.</p><p><strong>Image</strong><br />The element is filled using an image that you specify.</p>"
+  ],
+  "fill.color": [
+    "Fill Color",
+    "Specifies the solid color fill for this element."
+  ],
+  "fill.opacity": [
+    "Fill Opacity",
+    "Specifies the opacity of this element's solid color fill."
   ],
   "fill.gradientShapeCircle": [
-    "Gradient Shape Circle",
-    ""
+    "Gradient Shape",
+    "Specifies whether this radial gradient is defined by a circle or an ellipse."
   ],
   "fill.gradientSize": [
     "Gradient Size",
@@ -2582,19 +2594,19 @@
   ],
   "fill.gradientCenterX": [
     "Gradient Center X",
-    ""
+    "Specifies the distance from the leftmost edge of the container to the center of the circle or ellipse that defines this radial gradient, as a pixel value or a percentage of the container width."
   ],
   "fill.gradientCenterY": [
     "Gradient Center Y",
-    ""
+    "Spsecifies the distance from the topmost edge of the container to the center of the circle or ellipse that defines this radial gradient, as a pixel value or a percentage of the container height."
   ],
   "fill.gradientSizeX": [
     "Gradient Size X",
-    ""
+    "Specifies the horizontal radius of the circle or ellipse that defines this radial gradient, as a pixel value or a percentage of half the container width."
   ],
   "fill.gradientSizeY": [
     "Gradient Size Y",
-    ""
+    "Specifies the vertical radius of the ellipse that defines this radial gradient, as a pixel value or a percentage of half the container height."
   ],
   "border.borderLeft": [
     "Border Left",
@@ -2617,12 +2629,12 @@
     ""
   ],
   "gradientStop.ratio": [
-    "Ratio",
-    ""
+    "Position",
+    "Defines the position of the selected fill color in the gradient. A value of 0% positions the selected color at the leftmost edge of the track that defines the gradient. A value of 100% positions it at the rightmost edge."
   ],
   "gradientStop.alpha": [
-    "Alpha",
-    ""
+    "Opacity",
+    "Defines the opacity of the selected fill color in the gradient."
   ],
   "setState.0": [
     "Path 0",
@@ -3130,15 +3142,15 @@
   ],
   "daterangePicker.buttonBorder": [
     "Button Border Stroke Color",
-    "Defines the border stroke color for all buttons within this date range picker."
+    "Defines the stroke color or border image for outlining all buttons within this date range picker."
   ],
   "daterangePicker.buttonBorderWidth": [
     "Button Border Stroke Width",
-    "Defines the border stroke width for all buttons within this date range picker."
+    "Defines the stroke weight or border width for outlining all buttons within this date range picker."
   ],
   "daterangePicker.buttonBorderStyle": [
     "Button Border Stroke Style",
-    "Defines the border stroke style for all buttons within this date range picker."
+    "Defines the stroke style for outlining all buttons within this date range picker."
   ],
   "datagrid.data": [
     "Table",
@@ -3158,11 +3170,11 @@
   ],
   "datagrid.rowBorder": [
     "Main Row Stroke Color",
-    "Defines the stroke color for outlining the first group of alternating rows."
+    "Defines the stroke color or border image for outlining the first group of alternating rows."
   ],
   "datagrid.rowBorderWidth": [
     "Main Row Stroke Weight",
-    "Defines the stroke weight for outlining the first group of alternating rows."
+    "Defines the stroke weight or border width for outlining the first group of alternating rows."
   ],
   "datagrid.rowBorderStyle": [
     "Main Row Stroke Style",
@@ -3170,11 +3182,11 @@
   ],
   "datagrid.rowBorder2": [
     "Alternate Row Stroke Color",
-    "Defines the stroke color for outlining the second group of alternating rows."
+    "Defines the stroke color or border image for outlining the second group of alternating rows."
   ],
   "datagrid.rowBorder2Width": [
     "Alternate Row Stroke Weight",
-    "Defines the stroke weight for outlining the second group of alternating rows."
+    "Defines the stroke weight or border width for outlining the second group of alternating rows."
   ],
   "datagrid.rowBorder2Style": [
     "Alternate Row Stroke Style",
@@ -3186,11 +3198,11 @@
   ],
   "datagrid.rowBorderSelect": [
     "Selected Row Stroke Color",
-    "Defines the stroke color for outlining selected rows. Only works when selection is enabled for the data grid."
+    "Defines the stroke color or border image for outlining for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBorderWidthSelect": [
     "Selected Row Stroke Weight",
-    "Defines the stroke weight for outlining selected rows. Only works when selection is enabled for the data grid."
+    "Defines the stroke weight or border width for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
   "datagrid.rowBorderStyleSelect": [
     "Selected Row Stroke Style",
@@ -3202,11 +3214,11 @@
   ],
   "datagrid.rowBorderFocus": [
     "Focused Row Stroke Color",
-    "<p>Defines the stroke color for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
+    "<p>Defines the stroke color or border image for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBorderWidthFocus": [
     "Focused Row Stroke Weight",
-    "<p>Defines the stroke weight for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
+    "<p>Defines the stroke weight or border width for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
   "datagrid.rowBorderStyleFocus": [
     "Focused Row Stroke Style",
@@ -3218,11 +3230,11 @@
   ],
   "datagrid.rowBorderHover": [
     "Hovered Row Stroke Color",
-    "Defines the stroke color for outlining the row that the user mouses over."
+    "Defines the stroke color or border image for outlining the row that the user mouses over."
   ],
   "datagrid.rowBorderWidthHover": [
     "Hovered Row Stroke Weight",
-    "Defines the stroke weight for outlining the row that the user mouses over."
+    "Defines the stroke weight or border width for outlining the row that the user mouses over."
   ],
   "datagrid.rowBorderStyleHover": [
     "Hovered Row Stroke Style",
@@ -3318,11 +3330,11 @@
   ],
   "datagrid.headerBorder": [
     "Header Outline Stroke Color",
-    "Defines the stroke color for outlining this data grid's header."
+    "Defines the stroke color or border image for outlining this data grid's header."
   ],
   "datagrid.headerBorderWidth": [
     "Header Outline Stroke Weight",
-    "Defines the stroke weight for outlining this data grid's header."
+    "Defines the stroke weight or border width for outlining this data grid's header."
   ],
   "datagrid.headerBorderStyle": [
     "Header Outline Stroke Style",
