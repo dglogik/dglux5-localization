@@ -2072,7 +2072,7 @@
     "Format",
     ""
   ],
-  "color": [
+  "text.color": [
     "Font Color",
     "Defines the font color for this element."
   ],
