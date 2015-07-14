@@ -2606,7 +2606,7 @@
   ],
   "fill.gradientCenterY": [
     "Gradient Center Y",
-    "Spsecifies the distance from the topmost edge of the container to the center of the circle or ellipse that defines this radial gradient, as a pixel value or a percentage of the container height."
+    "Specifies the distance from the topmost edge of the container to the center of the circle or ellipse that defines this radial gradient, as a pixel value or a percentage of the container height."
   ],
   "fill.gradientSizeX": [
     "Gradient Size X",
