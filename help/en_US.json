@@ -4076,7 +4076,7 @@
     "Left Right Label Threshold",
     ""
   ],
-  "datetimeAxis.compareMode": [
+  "axis.compareMode": [
     "Compare Mode",
     "<p>Defines the Compare Mode of this axis. Use a Compare Mode when you want to overlay data for different dates and times.</p><p>To configure your chart to start using Compare Mode:</p><p><ol><li>Insert a blank chart.</li><li>Drag your metric onto the chart, and click OK.</li><li>Drag the same metric onto the chart a second time. Check \"Use Existing Axis\" for both axes, and click OK.</li><li>Open dataflow for the chart. Select a <strong>timeRange</strong> for each of the two <strong>loadHistory</strong> blocks. Ensure that the two ranges are the same range type. For example, both ranges could be be one day long, or both could be one week long.</li></ol></p><p>Now you are ready to use the Compare Mode property. There are six choices:</p><p><strong>None</strong><br />Series from different dates and times are not aligned.</p><p><strong>Hour</strong><br />Times of day are aligned, so you can compare midnight with midnight.</p><p><strong>Day</strong><br />Date ranges are aligned, so you can compare \"day one\" from different ranges.</p><p><strong>Week</strong><br />Days of the week are aligned, so you can compare Mondays with Mondays.</p><p><strong>Month</strong>Days of the month are aligned, so you can compare firsts of the month.<br /></p><p><strong>Year</strong><br />Days of the year are aligned, so you can compare January first with January first.</p>"
   ],
