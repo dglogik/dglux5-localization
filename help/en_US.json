@@ -2598,7 +2598,7 @@
   ],
   "fill.gradientSize": [
     "Gradient Size",
-    ""
+    "<p>Specifies the size of the circle or ellipse that defines this radial gradient.</p><p><strong>Absolute</strong><br />You specify a value for the horizontal radius. If the shape is an ellipse, you also specify a value for the vertical radius.</p><p><strong>Farthest Corner</strong><br />The edge of the circle or ellipse meets the corner of the container that is farthest from the circle or ellipse's center.</p><p><strong>Closest Side</strong><br />If the shape is a circle, its edge meets the container edge closest to its center. If the shape is an ellipse, its edge meets the two container edges closest to its center.</p><p><strong>Farthest Side</strong><br />If the shape is a circle, its edge meets the container edge farthest from its center. If the shape is an ellipse, its edge meets the two container edges farthest from its center.</p><p><strong>Closest Corner</strong><br />The edge of the circle or ellipse meets the corner of the container that is closest to the circle or ellipse's center.</p>"
   ],
   "fill.url": [
     "URL",
