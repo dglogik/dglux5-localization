@@ -1666,15 +1666,15 @@
   ],
   "followPathBaseRotation": [
     "Follow Path Base Rotation",
-    ""
+    "Defines a rotation for the element, as an angle. If the Follow Path Rotation property is set to true, then this base value becomes a constant that is added to the path-based rotation."
   ],
   "followPathPosition": [
     "Follow Path Position",
-    ""
+    "Defines how far along the path this element is located. Typically, a value of 0% indicates the top-left corner of the path. Valid values are between 0% and 100%."
   ],
   "followPathRotationEnabled": [
     "Follow Path Rotation",
-    ""
+    "<p>Specifies whether this element rotates as it follows its path.</p><p><strong>True</strong><br />This element rotates relative to its path. If Base Rotation is 0, then the bottom edge of the element stays parallel to the path. A non-zero Base Rotation value adds to or subtracts from this angle.</p><p><strong>False</strong><br />This element's rotation is independent from its position on the path.</p>"
   ],
   "followFor": [
     "Follow For",
