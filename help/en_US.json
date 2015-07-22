@@ -2580,7 +2580,7 @@
     "Gradient Repeat",
     "Specifies whether this gradient repeats to fill this element. Only appies if the track that defines the gradient has either a left edge or a right edge that is undefined."
   ],
-  "fill.fillType": [
+  "fillType": [
     "Fill Type",
     "<p>Defines the type of fill for this element.</p><p><strong>No Fill</strong><br />The element has no fill.</p><p><strong>Solid Color</strong><br />The element is filled with a single color that you specify.</p><p><strong>Gradient</strong><br />The element is filled with a gradient that you specify.</p><p><strong>Image</strong><br />The element is filled using an image that you specify.</p>"
   ],
