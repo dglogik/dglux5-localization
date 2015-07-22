@@ -2584,11 +2584,11 @@
     "Fill Type",
     "<p>Defines the type of fill for this element.</p><p><strong>No Fill</strong><br />The element has no fill.</p><p><strong>Solid Color</strong><br />The element is filled with a single color that you specify.</p><p><strong>Gradient</strong><br />The element is filled with a gradient that you specify.</p><p><strong>Image</strong><br />The element is filled using an image that you specify.</p>"
   ],
-  "fill.color": [
+  "color": [
     "Fill Color",
     "Specifies the solid color fill for this element."
   ],
-  "fill.opacity": [
+  "opacity": [
     "Fill Opacity",
     "Specifies the opacity of this element's solid color fill."
   ],
@@ -2600,7 +2600,7 @@
     "Gradient Size",
     "<p>Specifies the size of the circle or ellipse that defines this radial gradient.</p><p><strong>Absolute</strong><br />You specify a value for the horizontal radius. If the shape is an ellipse, you also specify a value for the vertical radius.</p><p><strong>Farthest Corner</strong><br />The edge of the circle or ellipse meets the corner of the container that is farthest from the circle or ellipse's center.</p><p><strong>Closest Side</strong><br />If the shape is a circle, its edge meets the container edge closest to its center. If the shape is an ellipse, its edge meets the two container edges closest to its center.</p><p><strong>Farthest Side</strong><br />If the shape is a circle, its edge meets the container edge farthest from its center. If the shape is an ellipse, its edge meets the two container edges farthest from its center.</p><p><strong>Closest Corner</strong><br />The edge of the circle or ellipse meets the corner of the container that is closest to the circle or ellipse's center.</p>"
   ],
-  "fill.url": [
+  "url": [
     "URL",
     "<p>Specifies the location of the image that fills this element. Click the folder icon to select or upload an image, or enter a relative URL within the project, such as assets/image.png. You can also enter any absolute URL, even if it is outside of your project or DGLux.</p><p>You can use any image format that is supported by the user's browser.</p>"
   ],
