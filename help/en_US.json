@@ -3366,7 +3366,7 @@
   ],
   "datagrid.headerHeight": [
     "Header Height",
-    "Defines the height of the header in pixels. A value of Auto makes the header height depend on its content."
+    "Defines the height of the header in pixels. A value of Auto makes the header height depend on its content. A value of zero hides the header."
   ],
   "datagrid.headerBackground": [
     "Header Fill",
