@@ -1956,7 +1956,7 @@
     "Method",
     ""
   ],
-  "field": [
+  "pieSeries.field": [
     "Field",
     "Defines the table column that contains the pie chart series data that determines wedge size."
   ],
@@ -2416,157 +2416,317 @@
     "Save",
     ""
   ],
-  "tableFilter.condition": [
-    "Condition",
-    ""
-  ],
-  "tableRollup.dateColumn": [
-    "Date Column",
-    ""
-  ],
-  "tableRollup.valueColumn": [
-    "Value Column",
-    ""
-  ],
-  "tableJoin.input1": [
-    "Input1",
-    ""
-  ],
-  "tableJoin.input2": [
-    "Input2",
-    ""
-  ],
-  "tableJoin.field1": [
-    "Column1",
-    ""
-  ],
-  "tableJoin.field2": [
-    "Column2",
-    ""
-  ],
-  "tableJoin.join": [
-    "Join",
-    ""
-  ],
-  "tableJoin.renameColumns": [
-    "Rename Columns",
-    ""
-  ],
-  "tablePage.pageSize": [
-    "Page Size",
-    ""
-  ],
-  "tablePage.nextPage": [
-    "Next Page",
-    ""
-  ],
-  "tablePage.prevPage": [
-    "Prev Page",
-    ""
-  ],
-  "tablePage.firstPage": [
-    "First Page",
-    ""
-  ],
-  "tablePage.lastPage": [
-    "Last Page",
-    ""
-  ],
-  "tablePage.currentPage": [
-    "Current Page",
-    ""
-  ],
-  "tablePage.totalPage": [
-    "Total Page",
-    ""
-  ],
-  "tableSelectRows.indexes": [
-    "Indexes",
-    ""
-  ],
-  "tableAggregation.column": [
-    "Column",
-    ""
-  ],
-  "tableColumnMapping.retainColumns": [
-    "Retain Columns",
-    ""
-  ],
-  "tableColumnMapping.0": [
-    "Name 0",
-    ""
-  ],
-  "tableColumnMapping.1": [
-    "From 0",
-    ""
-  ],
-  "tableGroupBy.baseColumn": [
-    "Base Column",
-    ""
-  ],
-  "tableGroupBy.nestedData": [
-    "Nested Data",
-    ""
-  ],
-  "tableGroupBy.includeBlankValue": [
-    "Include Blank Value",
-    ""
-  ],
-  "tableGroupBy.0": [
-    "Column 0",
-    ""
-  ],
-  "tableGroupBy.1": [
-    "Method 0",
-    ""
-  ],
-  "tableGroupBy.2": [
-    "Out Column 0",
-    ""
-  ],
-  "tableRowCells.row": [
-    "Row",
-    ""
-  ],
-  "tableRowCells.0": [
-    "Column 0",
-    ""
-  ],
-  "tableRowCells.1": [
-    "Value 0",
-    ""
-  ],
-  "tableTranspose.ignoreColumns": [
-    "Ignore Columns",
-    ""
-  ],
-  "tableTranspose.includeHeaders": [
-    "Include Headers",
-    ""
-  ],
-  "tableTranspose.headerPrefix": [
-    "Header Prefix",
-    ""
-  ],
-  "jsonParser.drillDownDepth": [
-    "Drill Down Depth",
-    ""
-  ],
-  "jsonParser.drillDownFilter": [
-    "Drill Down Filter",
-    ""
-  ],
-  "jsonParser.flatFilter": [
-    "Flat Filter",
-    ""
+  "csvParser.input": [
+    "input",
+    "Receives the CSV string. It is often the output from a string loader block."
   ],
   "csvParser.withHeader": [
-    "With Header",
-    ""
+    "withHeader",
+    "Specifies whether the CSV string includes a header row."
   ],
   "csvParser.delimiter": [
-    "Delimiter",
-    ""
+    "delimiter",
+    "Specifies the character that separates items in the CSV string. Typically this is a comma (,). "
+  ],
+  "csvParser.parseError": [
+    "parseError",
+    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
+  ],
+  "csvParser.output": [
+    "input",
+    "Returns a table parsed from the CSV data."
+  ],
+  "jsonParser.input": [
+    "input",
+    "Receives the JSON string. Sometimes it is the output from a string loader block."
+  ],
+  "jsonParser.output": [
+    "output",
+    "Returns a table parsed from the JSON data."
+  ],
+  "jsonParser.parseError": [
+    "parseError",
+    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
+  ],
+  "jsonParser.selector": [
+    "selector",
+    "Specifies the location of the data in the JSON string to parse into a table."
+  ],
+  "jsonParser.drillDownDepth": [
+    "drillDownDepth",
+    "Specifies how far to drill down into the JSON when creating nested tables. Nested tables below the drillDownDepth are not included in the output. Only works when a drillDownFilter is specified."
+  ],
+  "jsonParser.drillDownFilter": [
+    "drillDownFilter",
+    "Specifies what to return for nested tables. Enter * to return all the nested tables to the specified drillDownDepth."
+  ],
+  "jsonParser.flatFilter": [
+    "flatFilter",
+    "Specifies what to return for a flat table. Enter * to return all data to the specified drillDownDepth, in a flat table."
+  ],
+  "tableColumnMapping.input": [
+    "input",
+    "Receives the table whose column names you want to change."
+  ],
+  "tableColumnMapping.retainColumns": [
+    "retainColumns",
+    "Specifies whether to include the original column as well as the new column in the output table."
+  ],
+  "tableColumnMapping.0": [
+    "name n",
+    "Specifies the new column name."
+  ],
+  "tableColumnMapping.1": [
+    "from n",
+    "Specifies the old column name."
+  ],
+  "tableColumnMapping.print": [
+    "print",
+    "Displays error messages and other notifications for debugging your dataflow."
+  ],
+  "tableColumnMapping.output": [
+    "output",
+    "Returns the output table with new column names."
+  ],
+  "tableSort.input": [
+    "input",
+    "Receives the table that you want to sort."
+  ],
+  "tableSort.field": [
+    "column",
+    "Specifies the name of the table column to sort by."
+  ],
+  "tableSort.method": [
+    "method",
+    "Specifies whether to sort values as numbers or strings."
+  ],
+  "tableSort.order": [
+    "order",
+    "Specifies whether to sort values in ascending or descending order."
+  ],
+  "tableSort.output": [
+    "output",
+    "Returns the sorted table."
+  ],
+  "tableFilter.input": [
+    "input",
+    "Receives the table that you want to filter."
+  ],
+  "tableFilter.condition": [
+    "condition",
+    "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, Damper_Pos==0 returns all rows where the value of the Damper_Pos column is 0."
+  ],
+  "tableFilter.print": [
+    "print",
+    "Returns output from the condition field. Use for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+  ],
+  "tableFilter.output": [
+    "output",
+    "Returns the filtered table."
+  ],
+  "tableGroupBy.input": [
+    "input",
+    "Receives the table whose values you want to group."
+  ],
+  "tableGroupBy.baseColumn": [
+    "baseColumn",
+    "Specifies the name of the column from the input table on which to sort values. "
+  ],
+  "tableGroupBy.nestedData": [
+    "nestedData",
+    "Specifies whether to keep the original rows and include them child tables, stored in a new column of the output table. You can view the child table data by binding a cell containing a table to a table dataflow block."
+  ],
+  "tableGroupBy.includeBlankValue": [
+    "includeBlankValue",
+    "Specifies whether to include a row for a blank value of the baseColumn, if a blank value exists."
+  ],
+  "tableGroupBy.0": [
+    "column n",
+    "Specifies the name of a column from the input table to group."
+  ],
+  "tableGroupBy.1": [
+    "method n",
+    "<p>specifies how to group values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong><br />Returns the first value.</p><p><strong>last</strong><br />Returns the last value.</p><p><strong>average</strong><br />Returns the average of all number values. Non-number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong><br />Returns the sum of all number values If there are no number values, return 0.</p><p><strong>max</strong><br />Returns he the largest number value. If there are no number values, return null.</p><p><strong>min</strong><br />Returns the smallest number. If there are no number values, return null.</p><p><strong>count</strong><br />Returns the number of values.</p><p><strong>concat</strong><br />Returns all values, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong><br />Returns all unique values, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong><br />Returns a table of values.</p>"
+  ],
+  "tableGroupBy.2": [
+    "outColumn n",
+    "Specifies the label for the column of grouped column <em>n</em> values."
+  ],
+  "tableGroupBy.output": [
+    "output",
+    "Returns the output table. It contains one row for each unique entry in the specified column."
+  ],
+  "tableJoin.input1": [
+    "input1",
+    "Specifies the first table to join."
+  ],
+  "tableJoin.input2": [
+    "input2",
+    "Specifies the second table to join."
+  ],
+  "tableJoin.field1": [
+    "column1",
+    "Specifies the name of the key column from the input1 table."
+  ],
+  "tableJoin.field2": [
+    "column2",
+    "Specifies the name of the key column from the input2 table."
+  ],
+  "tableJoin.join": [
+    "join",
+    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from the input1 table are included. Rows from the input2 table are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from the input2 table are included. Rows from the input1 table are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
+  ],
+  "tableJoin.renameColumns": [
+    "renameColumns",
+    "Determines the naming in the output table for columns that come from the input2 table. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
+  ],
+  "tableJoin.output": [
+    "output",
+    "Returns the joined table."
+  ],
+  "tablePage.input": [
+    "input",
+    "Receives the table for which you want to create paging."
+  ],
+  "tablePage.pageSize": [
+    "pageSize",
+    "Specifies the number of rows per page."
+  ],
+  "tablePage.start": [
+    "start",
+    "Specifies the row index to start paging on. Rows before this index are omitted from the output."
+  ],
+  "tablePage.nextPage": [
+    "nextPage",
+    "Advances the output table to the next page."
+  ],
+  "tablePage.prevPage": [
+    "prevPage",
+    "Changes the output table to the previous page."
+  ],
+  "tablePage.firstPage": [
+    "firstPage",
+    "Changes the output table to the first page."
+  ],
+  "tablePage.lastPage": [
+    "lastPage",
+    "Advances the output table to the last page."
+  ],
+  "tablePage.currentPage": [
+    "currentPage",
+    "Sets or returns the current page."
+  ],
+  "tablePage.totalPage": [
+    "totalPage",
+    "Returns the total number of pages for this table."
+  ],
+  "tablePage.output": [
+    "output",
+    "Returns the portion of the input table specified by the paging parameters."
+  ],
+  "tableRollup.input": [
+    "input",
+    "Receives the table in which you want to roll up values."
+  ],
+  "tableRollup.interval": [
+    "interval",
+    "Specifies the length of the range to roll up. It can be any of the following.<ul><li>One minute</li><li>Five minutes</li><li>Ten minutes</li><li>Fifteen minutes</li><li>Twenty minutes</li><li>Thirty minutes</li><li>Hour</li><li>Two hours</li><li>Three hours</li><li>Four hours</li><li>Six hours</li><li>Twelve hours</li><li>Day</li><li>Two days</li><li>Week</li><li>Month</li><li>Year</li></ul>"
+  ],
+  "tableRollup.dateColumn": [
+    "dateColumn",
+    "Specifies the name of the table column that holds the dates."
+  ],
+  "tableRollup.valueColumn": [
+    "valueColumn",
+    "Specifies the name of the table column that holds the values to be rolled up."
+  ],
+  "tableRollup.valueRollup": [
+    "valueRollup",
+    "<p>Specifies the type of rollup used.</p><p><strong>First</strong><br />Returns the first value for the interval.</p><p><strong>Last</strong><br />Returns the last value for the interval.</p><p><strong>Average</strong><br />Returns the average of all number values for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values for the interval. If there are no number values, return 0.</p><p><strong>Max</strong><br />Returns the largest number value from the interval. If there are no number values, return null.</p><p><strong>Min</strong><br />Returns the smallest number value for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values that exist for the interval. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values for the interval, separated by commas. Includes duplicate values.</p><p><strong>ConcatUnique</strong><br />Returns all unique values for the interval, separated by commas. Duplicate values are not included.</p>"
+  ],
+  "tableRollup.roundTime": [
+    "roundTime",
+    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>True</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>False</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+  ],
+  "tableRollup.output": [
+    "output",
+    "Returns the rolled up table."
+  ],
+  "tableAggregation.input": [
+    "input",
+    "Receives the table in which you want to aggregate values."
+  ],
+  "tableAggregation.column": [
+    "column",
+    "Specifies the name of the table column."
+  ],
+  "tableAggregation.method": [
+    "method",
+    "<p>Specifies the type of aggregation.</p><p><strong>First</strong><br />Returns the first value in the specified column.</p><p><strong>Last</strong><br />Returns the last value in the specified column.</p><p><strong>Average</strong><br />Returns the average of all number values in the specified column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values in the specified column. If there are no number values, return 0.</p><p><strong>Max</strong><br />Returns the maximum number value in the specified column. If there are no number values, return null.</p><p><strong>Min</strong><br />Returns the minimum number value in the specified column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values in the specified column. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values in the column as a comma-separated list. Duplicate values are included.</p><p><strong>Concat unique</strong><br />Returns all unique values in the column as a comma-separated list. Duplicate values are not included.</p><p><strong>Table Union</strong><br />If the data type of the input column is table, perform a union join on the nested tables and return the joined table.</p>"
+  ],
+  "tableAggregation.output": [
+    "output",
+    "Returns the output string as determined by the method parameter."
+  ],
+  "tableSelectRows.input": [
+    "input",
+    "Receives the table from which you want to select rows."
+  ],
+  "tableSelectRows.indexes": [
+    "indexes",
+    "Specifies the rows in the input table to select, as comma-separated values."
+  ],
+  "tableSelectRows.output": [
+    "output",
+    "Returns the output table. It contains only the rows at the specified indexes."
+  ],
+  "tableGetColumns.input": [
+    "input",
+    "Receives the table from which you want to get values."
+  ],
+  "tableGetColumns.output": [
+    "output",
+    "Returns the output table. It contains a record for each column in the input table."
+  ],
+  "tableRowCells.input": [
+    "table",
+    "Receives the table from which you want to get values."
+  ],
+  "tableRowCells.row": [
+    "row",
+    "Specifies a row index in the input table."
+  ],
+  "tableRowCells.0": [
+    "column n",
+    "Specifies a column name in the input table"
+  ],
+  "tableRowCells.1": [
+    "value n",
+    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it will write to the data source only if the data source is the Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
+  ],
+  "tableTranspose.input": [
+    "input",
+    "Receives the table that you want to transpose."
+  ],
+  "tableTranspose.ignoreColumns": [
+    "ignoreColumns",
+    "Specifies the names of columns in the input table to ignore when transposing, as comma-separated values."
+  ],
+  "tableTranspose.headerColumn": [
+    "headerColumn",
+    "Specifies the column from the input table to use as headers in the output table."
+  ],
+  "tableTranspose.includeHeaders": [
+    "includeHeaders",
+    "Specifies whether the header row from the input table is included as a column in the output table."
+  ],
+  "tableTranspose.headerPrefix": [
+    "headerPrefix",
+    "Specifies the text before the column number for each column header in the output table. It only works when the headerColumn property is null."
+  ],
+  "tableTranspose.output": [
+    "output",
+    "Returns the transposed table."
   ],
   "fill.gradientType": [
     "Gradient Type",
