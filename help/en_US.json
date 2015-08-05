@@ -2418,7 +2418,7 @@
   ],
   "csvParser.input": [
     "input",
-    "Receives the CSV string. It is often the output from a string loader block."
+    "Receives the CSV string. It is often the output from a String Loader block."
   ],
   "csvParser.withHeader": [
     "withHeader",
@@ -2438,7 +2438,7 @@
   ],
   "jsonParser.input": [
     "input",
-    "Receives the JSON string. Sometimes it is the output from a string loader block."
+    "Receives the JSON string. Sometimes it is the output from a String Loader block."
   ],
   "jsonParser.output": [
     "output",
@@ -2454,11 +2454,11 @@
   ],
   "jsonParser.drillDownDepth": [
     "drillDownDepth",
-    "Specifies how far to drill down into the JSON when creating nested tables. Nested tables below the drillDownDepth are not included in the output. Only works when a drillDownFilter is specified."
+    "specifies how far to drill down into the JSON when extracting data. Data below the drillDownDepth is not included in the output. Only works when a drillDownFilter or flatFilter is specified"
   ],
   "jsonParser.drillDownFilter": [
     "drillDownFilter",
-    "Specifies what to return for nested tables. Enter * to return all the nested tables to the specified drillDownDepth."
+    "Specifies what to return for nested tables. Enter * to return all nested tables to the specified drillDownDepth."
   ],
   "jsonParser.flatFilter": [
     "flatFilter",
@@ -2478,7 +2478,7 @@
   ],
   "tableColumnMapping.1": [
     "from n",
-    "Specifies the old column name."
+    "Specifies the data to appear in the new column, using <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>JavaScript notation</a>. For example:<ul><li>\"=v1+v2\" returns the sum of the values in the \"v1\" column and the \"v2\" column.</li><li>\"=dateFormat(timestamp,\"y-MM-dd\")\" returns the date in the \"timestamp\" column with the specified formatting.</li><li>\"=numberFormat(value,\"0.00\")\" returns the value in the \"value\" column, rounded to the hundredths place.</li></ul>."
   ],
   "tableColumnMapping.print": [
     "print",
@@ -2486,7 +2486,7 @@
   ],
   "tableColumnMapping.output": [
     "output",
-    "Returns the output table with new column names."
+    "Returns the output table with new columns."
   ],
   "tableSort.input": [
     "input",
@@ -2514,7 +2514,7 @@
   ],
   "tableFilter.condition": [
     "condition",
-    "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, Damper_Pos==0 returns all rows where the value of the Damper_Pos column is 0."
+    "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
   ],
   "tableFilter.print": [
     "print",
@@ -2530,11 +2530,11 @@
   ],
   "tableGroupBy.baseColumn": [
     "baseColumn",
-    "Specifies the name of the column from the input table on which to sort values. "
+    "Specifies the name of the table column on which to sort values. "
   ],
   "tableGroupBy.nestedData": [
     "nestedData",
-    "Specifies whether to keep the original rows and include them child tables, stored in a new column of the output table. You can view the child table data by binding a cell containing a table to a table dataflow block."
+    "Specifies whether to keep the original rows in a new column of the output table as nested tables. You can view the child table data by binding a cell containing a table to a Table dataflow block."
   ],
   "tableGroupBy.includeBlankValue": [
     "includeBlankValue",
@@ -2546,15 +2546,15 @@
   ],
   "tableGroupBy.1": [
     "method n",
-    "<p>specifies how to group values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong><br />Returns the first value.</p><p><strong>last</strong><br />Returns the last value.</p><p><strong>average</strong><br />Returns the average of all number values. Non-number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong><br />Returns the sum of all number values If there are no number values, return 0.</p><p><strong>max</strong><br />Returns he the largest number value. If there are no number values, return null.</p><p><strong>min</strong><br />Returns the smallest number. If there are no number values, return null.</p><p><strong>count</strong><br />Returns the number of values.</p><p><strong>concat</strong><br />Returns all values, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong><br />Returns all unique values, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong><br />Returns a table of values.</p>"
+    "<p>specifies how to return values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong><br />Returns the first value in the group.</p><p><strong>last</strong><br />Returns the last value in the group.</p><p><strong>average</strong><br />Returns the average of all number values in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong><br />Returns the sum of all number values in the group. If there are no number values, return 0.</p><p><strong>max</strong><br />Returns the largest number value in the group. If there are no number values, return null.</p><p><strong>min</strong><br />Returns the smallest number in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>count</strong><br />Returns the number of values in the group.</p><p><strong>concat</strong><br />Returns all values in the group, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong><br />Returns all unique values in the group, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong><br />Returns a table of values.</p>"
   ],
   "tableGroupBy.2": [
     "outColumn n",
-    "Specifies the label for the column of grouped column <em>n</em> values."
+    "Specifies the label for the column of grouped <strong>column <em>n</em></strong> values."
   ],
   "tableGroupBy.output": [
     "output",
-    "Returns the output table. It contains one row for each unique entry in the specified column."
+    "Returns the output table. It contains one row for each unique value in <strong>baseColumn</strong>."
   ],
   "tableJoin.input1": [
     "input1",
@@ -2574,11 +2574,11 @@
   ],
   "tableJoin.join": [
     "join",
-    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from the input1 table are included. Rows from the input2 table are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from the input2 table are included. Rows from the input1 table are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
+    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from input1 are included. Rows from input2 are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from input2 are included. Rows from input1 are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
   ],
   "tableJoin.renameColumns": [
     "renameColumns",
-    "Determines the naming in the output table for columns that come from the input2 table. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
+    "Determines the naming in the output table for columns that come from input2. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
   ],
   "tableJoin.output": [
     "output",
@@ -2662,7 +2662,7 @@
   ],
   "tableAggregation.method": [
     "method",
-    "<p>Specifies the type of aggregation.</p><p><strong>First</strong><br />Returns the first value in the specified column.</p><p><strong>Last</strong><br />Returns the last value in the specified column.</p><p><strong>Average</strong><br />Returns the average of all number values in the specified column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values in the specified column. If there are no number values, return 0.</p><p><strong>Max</strong><br />Returns the maximum number value in the specified column. If there are no number values, return null.</p><p><strong>Min</strong><br />Returns the minimum number value in the specified column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values in the specified column. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values in the column as a comma-separated list. Duplicate values are included.</p><p><strong>Concat unique</strong><br />Returns all unique values in the column as a comma-separated list. Duplicate values are not included.</p><p><strong>Table Union</strong><br />If the data type of the input column is table, perform a union join on the nested tables and return the joined table.</p>"
+    "<p>Specifies the type of aggregation.</p><p><strong>First</strong><br />Returns the first value in the column.</p><p><strong>Last</strong><br />Returns the last value in the column.</p><p><strong>Average</strong><br />Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values in the column. If there are no number values, returns 0.</p><p><strong>Max</strong><br />Returns the maximum number value in the column. If there are no number values, returns null.</p><p><strong>Min</strong><br />Returns the minimum number value in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values in the column. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values in the column as a comma-separated list. Duplicate values are included.</p><p><strong>Concat unique</strong><br />Returns all unique values in the column as a comma-separated list. Duplicate values are not included.</p><p><strong>Table Union</strong><br />If the data type of the input column is table, perform a union join on the nested tables and return the joined table.</p>"
   ],
   "tableAggregation.output": [
     "output",
@@ -2678,7 +2678,7 @@
   ],
   "tableSelectRows.output": [
     "output",
-    "Returns the output table. It contains only the rows at the specified indexes."
+    "Returns a new table. It contains only the rows at the specified indexes."
   ],
   "tableGetColumns.input": [
     "input",
@@ -2702,7 +2702,7 @@
   ],
   "tableRowCells.1": [
     "value n",
-    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it will write to the data source only if the data source is the Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
+    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it will write to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
   ],
   "tableTranspose.input": [
     "input",
@@ -2722,7 +2722,7 @@
   ],
   "tableTranspose.headerPrefix": [
     "headerPrefix",
-    "Specifies the text before the column number for each column header in the output table. It only works when the headerColumn property is null."
+    "Specifies the text string to include before the column number for each column header in the output table. It only works when the headerColumn property is null."
   ],
   "tableTranspose.output": [
     "output",
@@ -3906,7 +3906,7 @@
   ],
   "datagridHeader.grid.headerHeight": [
     "Header Height",
-    "Defines the height of the header in pixels. A value of Auto makes the header height follow the size of its content.  A value of zero hides the header."
+    "Defines the height of the header in pixels. A value of Auto makes the header height follow the size of its content. A value of zero hides the header."
   ],
   "datagridHeader.headerHeight": [
     "Grid.header Height",
