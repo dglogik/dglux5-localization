@@ -4210,55 +4210,55 @@
   ],
   "and.op": [
     "op",
-    ""
+    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an And block is \"and\".The block will not act as described if you change this property.</p>"
   ],
   "and.0": [
     "input n",
-    ""
+    "<p>Specifies one of the input values. All <strong>input <em>n</em></strong> values must evaluate to TRUE for the And block to return the <strong>then</strong> value. For example, \"input 0 AND input 1\" is a comparison expression. If the values <strong>input 0</strong> and <strong>input 1</strong> are TRUE, the expression evaluates to TRUE and the And block outputs the <strong>then</strong> value. Otherwise, if one of the inputs is FALSE, the And block outputs the <strong>else</strong> value.</p><p>If <strong>input <em>n</em></strong> is a number, a value of 0 evaluates to FALSE and a value of 1 evaluates to TRUE.</p><p>Add more <strong>input <em>n</em></strong> properties by clicking the plus sign.</p>"
   ],
   "and.then": [
     "then",
-    ""
+    "Specifies the value to return if all of the input properties evaluate to TRUE."
   ],
   "and.else": [
     "else",
-    ""
+    "Specifies the value to return if one or more of the input properties evaluate to FALSE."
   ],
   "and.output": [
     "output",
-    ""
+    "Returns either the <strong>then</strong> value or the <strong>else</strong> value. It returns the <strong>then</strong> value if all of the <strong>input <em>n</em></strong> values evaluate to TRUE, and the <strong>else</strong> value otherwise."
   ],
   "or.op": [
     "op",
-    ""
+    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an Or block is \"or\".The block will not act as described if you change this property.</p>"
   ],
   "or.0": [
     "input n",
-    ""
+    "<p>Specifies one of the input values. One or more of the <strong>input <em>n</em></strong> values must evaluate to TRUE for the Or block to return the <strong>then</strong> value. For example, \"input 0 OR input 1\" is a comparison expression. If <strong>input 0</strong> is TRUE and <strong>input 1</strong> is FALSE, the expression evaluates to TRUE and the Or block outputs the <strong>then</strong> value. Otherwise, if both of the inputs are FALSE, the Or block outputs the <strong>else</strong> value.</p><p>If <strong>input <em>n</em></strong> is a number, a value of 0 evaluates to FALSE and a value of 1 evaluates to TRUE.</p><p>Add more <strong>input <em>n</em></strong> properties by clicking the plus sign.</p>"
   ],
   "or.then": [
     "then",
-    ""
+    "Specifies the value to return if one or more of the input properties evaluate to TRUE."
   ],
   "or.else": [
     "else",
-    ""
+    "Specifies the value to return if all of the input properties evaluate to FALSE."
   ],
   "or.output": [
     "output",
-    ""
+    "Returns either the <strong>then</strong> value or the <strong>else</strong> value. It returns the <strong>then</strong> value if all of the <strong>input <em>n</em></strong> values evaluate to TRUE, and the <strong>else</strong> value otherwise."
   ],
   "not.input": [
     "input",
-    ""
+    "Specifies a value that can be evaluated to TRUE or FALSE. If <strong>input</strong> is a number, a value of 0 evaluates to FALSE and a value of 1 evaluates to TRUE."
   ],
   "not.output": [
     "output",
-    ""
+    "Returns FALSE if the input is TRUE, or returns TRUE if the input is FALSE."
   ],
   "if.op": [
     "op",
-    ""
+    "Specifies the arithmetic, comparison, or text operator to apply to the input values. It is used in conjunction with <strong>input <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE. For example, \"input 0 = input 1\" is a logical expression. If the value in <strong>input 0</strong> is equal to the value in <strong>input 1</strong>, the expression evaluates to TRUE. Otherwise, the expression evaluates to FALSE.<ul><li><strong>= (equal to)</strong> – The expression is true if all input values are equal.</li><li><strong>&#62; (greater than) </strong> – The expression is true if each input value is greater than the value that immediately follows it.</li><li><strong>&#60; (less than)</strong> – The expression is true if each input value is less than the value that immediately follows it.</li><li><strong>&#62;= (greater than or equal to)</strong> – The expression is true if each input value is greater than or equal to the value that immediately follows it.</li><li><strong>&#60;= (less than or equal to)</strong> – The expression is true if each input value is less than or equal to the value that immediately follows it.</li><li><strong>!= (not equal to)</strong> – The expression is true if all input values are different. No two can be equal.</li><li><strong>and</strong> – The expression is true if all input values evaluate to TRUE.</li><li><strong>or</strong> – The expression is true if one or more input values evaluate to TRUE. </li></ul>"
   ],
   "if.0": [
     "input n",
@@ -4266,195 +4266,191 @@
   ],
   "if.then": [
     "then",
-    ""
+    "Specifies the value to return if the expression evaluates to TRUE. To display the word TRUE, use the logical value TRUE for this parameter. <strong>then</strong> can be an input from another block or set of blocks, including formulas."
   ],
   "if.else": [
     "else",
-    ""
+    "Specifies the value to return if the expression evaluates to FALSE. To display the word FALSE, use the logical value FALSE for this parameter. <strong>else</strong> can be an input from another block or set of blocks, including formulas."
   ],
   "if.output": [
     "output",
-    ""
+    "Returns either the <strong>then</strong> value or the <strong>else</strong> value. It returns the <strong>then</strong> value if the expression evaluates to TRUE, and the <strong>else</strong> value otherwise"
   ],
   "case.op": [
     "op",
-    ""
+    "Specifies the arithmetic, comparison, or text operator to apply to the source value and each test value. It is used in conjunction with <strong>input</strong> and <strong>case <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE."
   ],
   "case.input": [
     "input",
-    ""
+    "Specifies the source value that is to be compared with each test value."
   ],
   "case.0": [
     "case n",
-    ""
+    "Specifies a test value to compare with the input."
   ],
   "case.1": [
     "then n",
-    ""
+    "Specifies the result value if the expression formed by <strong>input</strong>, <strong>operator</strong>, and <strong>case <em>n</em></strong> is TRUE."
   ],
   "case.else": [
     "else",
-    ""
+    "Specifies the result value to return if none of the expressions evaluates to TRUE."
   ],
   "case.output": [
     "output",
-    ""
+    "Returns either the <strong>else</strong> value or one of the <strong>then <em>n</em></strong> values. If one of the expressions evaluates to TRUE, <strong>output</strong> returns the <strong>then <em>n</em></strong> value for that expression. If none of the expressions evaluates to TRUE, <strong>output</strong> returns the <strong>else</strong> value."
   ],
   "hub.0": [
     "input n",
-    ""
+    "Sets and returns one of the values watched by this hub."
   ],
   "hub.index": [
     "index",
-    ""
+    "Returns the index of the <strong>input <em>n</em></strong> value that was updated most recently. The index is the number in the input's property name. For example, when <strong>input 0</strong> updates at 11:00am, and <strong>input 1</strong> updates at 11:05am, <strong>index</strong> is 1 because <strong>input 1</strong> updated last."
   ],
   "hub.output": [
-    "index",
-    ""
-  ],
-  "hub.onChange": [
-    "index",
-    ""
+    "output",
+    "Returns the value of the most recently updated <strong>input <em>n</em></strong> property."
   ],
   "eventGate.reset": [
     "reset",
-    ""
+    "Resets the listener."
   ],
   "eventGate.logOrder": [
     "logOrder",
-    ""
+    "<p>Specifies how events are logged.</p><p><strong>none</strong><br />Events are not logged.</p><p><strong>firstOccurance</strong><br />The first event for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its first update.<p><strong>lastOccurance</strong><br />The last input change for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its most recent update.</p><p><strong>all</strong><br />All input changes are logged, beginning with a reset and ending when all fields have been updated at least once. The <strong>order</strong> property returns a list of input indexes in the order that the inputs were changed.</p>"
   ],
   "eventGate.0": [
     "input n",
-    ""
+    "Specifies one of the values that this block listens to."
   ],
   "eventGate.onFinish": [
     "onFinish",
-    ""
+    "Fires an event when all of the inputs have been updated at least once.."
   ],
   "eventGate.order": [
     "order",
-    ""
+    "Returns a comma-separated list of integers representing the order in which the input events occurred, as specified by the <strong>logOrder</strong> property."
   ],
   "script.invoke": [
     "invoke",
-    ""
+    "Causes the script to run."
   ],
   "script.autoRun": [
     "autoRun",
-    ""
+    "Specifies whether the script is constantly running automatically."
   ],
   "script.script": [
-    "Script",
-    ""
+    "script",
+    "Specifies the instance of DGScript held by this block. See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a> for more information about creating a script."
   ],
   "script.output": [
     "output",
-    ""
+    "Returns the output of your script."
   ],
   "script.print": [
     "print",
-    ""
+    "Returns a string that is used for errors, other notifications, and debugging."
   ],
   "script.a": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.b": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.c": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.d": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.e": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.f": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.g": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.i": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.j": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.k": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.l": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.m": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.n": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.o": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.p": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.q": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.r": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.s": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.t": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.u": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.v": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.w": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.x": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.y": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "script.z": [
     "a–z",
-    ""
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "stopwatch.enabled": [
     "enabled",
