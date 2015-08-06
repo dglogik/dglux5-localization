@@ -4454,63 +4454,63 @@
   ],
   "stopwatch.enabled": [
     "enabled",
-    ""
+    "Sets or returns whether the stopwatch is currently running."
   ],
   "stopwatch.interval": [
     "interval",
-    ""
+    "Specifies the duration, in seconds, between stopwatch updates. For example, if <strong>interval</strong> is 0.5 seconds, the stopwatch counts up every 0.5 seconds."
   ],
   "stopwatch.step": [
     "step",
-    ""
+    "Specifies the number that is added to the output with each update. For example, if <strong>step</strong> is 1, then each time the stopwatch updates, its output increases by 1."
   ],
   "stopwatch.modulo": [
     "modulo",
-    ""
+    "Specifies the output value before which the stop watch stops or loops. When its output gets as close as possible to the modulo value without reaching it, the stopwatch either stops or loops, depending on the value of the <strong>loop</strong> property. If the remainder equals the <strong>step</strong> value, the stopwatch restarts at 0. If the remainder is less than the <strong>step</strong> value, the remainder is added to 0 when the stopwatch loops."
   ],
   "stopwatch.loop": [
     "loop",
-    ""
+    "Determines whether the stopwatch loops when it gets near the <strong>modulo</strong> value."
   ],
   "stopwatch.reset": [
     "reset",
-    ""
+    "Causes the stopwatch to restart at 0."
   ],
   "stopwatch.output": [
     "output",
-    ""
+    "Returns the current stopwatch value."
   ],
   "stopwatch.onLoop": [
     "onLoop",
-    ""
+    "Fires when the stopwatch either loops or stops. It can be used to trigger an action."
   ],
   "changeState.invoke": [
     "invoke",
-    ""
+    "Activates the state. An event relative to the component, such as onMouseDown, can be bound to <strong>invoke</strong>, in which case the state is invoked when the event occurs."
   ],
   "changeState.revert": [
     "revert",
-    ""
+    "Deactivates the invoked state. An event relative to the component, such as onMouseUp, can be bound to <strong>revert</strong>, in which case the state is reverted when the event occurs."
   ],
   "changeState.enabled": [
     "enabled",
-    ""
+    "Determines whether the Set State action is enabled. If the action is disabled, the triggering events do not invoke or revert states."
   ],
   "changeState.duration": [
     "duration",
-    ""
+    "Defines the duration of the transition to the defined state, in seconds. Click the \"i\" icon next to <strong>change <em>n</em></strong> to view options for the transition, including animation options."
   ],
   "changeState.durationBack": [
     "durationBack",
-    ""
+    "Defines the duration of the transition when the state is reverted."
   ],
   "changeState.0": [
     "path n",
-    ""
+    "Defines a DGLux component whose properties change as part of the state."
   ],
   "changeState.1": [
     "change n",
-    ""
+    "Defines the property values change for the component at path n."
   ],
   "changeState.onFinished": [
     "onFinished",
@@ -4522,83 +4522,83 @@
   ],
   "mouseEventData.input": [
     "input",
-    ""
+    "<p>Specifies the event that triggers this block. Make sure that you have selected the correct parent element for the event, and then find the event in the Advanced properties and bind it to this property. Examples include:<ul><li><strong>onClick</strong> – The user clicks the element.</li><li><strong>onClickOff</strong> – The user clicks the element (paired with onClickOn).</li><li><strong>onClickOn</strong> – The user clicks the element (paired with onClickOff).</li><li><strong>onDoubleClick</strong> – The user double-clicks the element.</li><li><strong>onMouseDown</strong> – The user presses the mouse button over the element.</li><li><strong>onMouseEnter</strong> – The user moves the cursor onto the element.</li><li><strong>onMouseLeave</strong> – The user moves the cursor off of the element.</li><li><strong>onMouseMove</strong> – The user moves the cursor while it is over the element.</li><li><strong>onMouseMoveGlobal</strong> – The user moves the cursor anywhere on the screen.</li><li><strong>onMouseUp</strong> – The user releases the mouse button over the element.</li><li><strong>onMouseUpGlobal</strong> – The user releases the mouse button anywhere on the screen.</li><li><strong>onMouseWheel</strong> – The user rotates the mouse wheel either up or down.</li><li><strong>onRightClick</strong> – The user right-clicks on the element.</li></ul></p>"
   ],
   "mouseEventData.active": [
     "active",
-    ""
+    "Sets or returns whether this block is currently listening for the specified event."
   ],
   "mouseEventData.event": [
     "event",
-    ""
+    "Returns the event type that this listener heard. It is also an event trigger that can be bound to other events."
   ],
   "mouseEventData.x": [
     "x",
-    ""
+    "Returns the distance, in pixels, from the left container boundary of the element to the cursor at the time of the mouse event. Positive values are to the right of the boundary."
   ],
   "mouseEventData.y": [
     "y",
-    ""
+    "Returns the distance, in pixels, from the top container boundary of the element to the cursor at the time of the mouse event. Positive values are below the top container boundary."
   ],
   "mouseEventData.pageX": [
     "pageX",
-    ""
+    "Returns the distance, in pixels, from the left page boundary to the cursor at the time of the mouse event. Positive values are to the right of the left page boundary."
   ],
   "mouseEventData.pageY": [
     "pageY",
-    ""
+    "Returns the distance, in pixels, from the top page boundary to the cursor at the time of the mouse event. Positive values are below the top page boundary."
   ],
   "mouseEventData.dragData": [
     "dragData",
-    ""
+    "<p>Returns the binary data of the file that is dropped onto this element. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this element.<li><li>Set the <strong>dropGroup</strong> Advanced property for this element to <code>file_png</code>. You can also replace <code>png</code> with another file extension.</li></ul></p>"
   ],
   "mouseEventData.dragSource": [
     "dragSource",
-    ""
+    "<p>Returns the ID of the element that is dropped onto this element. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this element.</li><li>Enable the <strong>draggable</strong> Advanced property for the element to be dragged.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both elements.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both elements.</li></ul></p>"
   ],
   "mouseEventData.fileName": [
     "fileName",
-    ""
+    "<p>Returns the name of the file that is dropped onto this element. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this element.</li><li>Set the <strong>dropGroup</strong> Advanced property for this element to <code>file_png</code>. You can also replace <code>png</code> with another file extension.</li></ul></p>"
   ],
   "keyboardEventData.input": [
     "input",
-    ""
+    "<p>Specifies the event that triggers this block. Make sure that you have selected the correct parent element for the event, and then find the event in the Advanced properties and bind it to this property. Valid events are:<ul><li><strong>onKeyDown</strong> – The user depresses a key while the element is in focus.</li><li><strong>onKeyUp</strong> – The user releases the depressed key.</li></ul></p>"
   ],
   "keyboardEventData.active": [
     "active",
-    ""
+    "Sets or returns whether this block is currently listening for the specified event."
   ],
   "keyboardEventData.event": [
     "event",
-    ""
+    "Returns the name of the event type that triggers this block, such as onKeyDown."
   ],
   "keyboardEventData.keyCode": [
     "keyCode",
-    ""
+    "Returns the key code of the last key to undergo key down or key up, whichever was specified. Refer to instances of JavaScript <code>keyCode</code>."
   ],
   "keyboardEventData.ctrl": [
     "ctrl",
-    ""
+    "For an onKeyUp event, returns whether Ctrl is still being held, if it was held with the last key typed. For anOnKeyDown event, returns whether Ctrl was the last key down."
   ],
   "keyboardEventData.alt": [
     "alt",
-    ""
+    "For an onKeyUp event, returns whether Alt is still being held, if it was held with the last key typed. For anOnKeyDown event, returns whether Alt was the last key down."
   ],
   "keyboardEventData.shift": [
     "shift",
-    ""
+    "For an onKeyUp event, returns whether Shift is still being held, if it was held with the last key typed. For anOnKeyDown event, returns whether Shift was the last key down."
   ],
   "keyboardEventData.meta": [
     "meta",
-    ""
+    "For an onKeyUp event, returns whether Meta is still being held, if it was held with the last key typed. For anOnKeyDown event, returns whether Meta was the last key down."
   ],
   "keyboardEventData.filter": [
     "filter",
-    ""
+    "<p>Specifies the keystroke to listen for. This can be a character, or one of the following strings:<ul><li><strong>esc</strong> – Escape key</li><li><strong>enter</strong> – Enter or Return key</li><li><strong>up</strong> – Up arrow</li><li><strong>down</strong> – Down arrow</li><li><strong>left</strong> – Left arrow</li><li><strong>right</strong> – Right arrow</li><li><strong>Combination strings such as \"alt+enter\"</strong></li></ul></p>"
   ],
   "keyboardEventData.output": [
     "output",
-    ""
+    "Fires when the specified event occurs."
   ],
   "scrollEventData.input": [
     "input",
