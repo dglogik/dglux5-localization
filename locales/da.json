@@ -517,6 +517,8 @@
   "All": "Alle",
   "File": "Fil",
   "Directory": "Register",
+  "Remove Column": "Fjerne kolonne",
+  "Delete Column": "Slet kolonne",
   "file name is blank": "filnavnet er tomt",
   "file name contains invalid char": "Filnavnet indeholder ugyldige tegn",
   "at": "på",

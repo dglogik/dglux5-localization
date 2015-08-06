@@ -517,6 +517,8 @@
   "All": "Όλα",
   "File": "Αρχείο",
   "Directory": "Κατάλογος Ξενοδοχεία",
+  "Remove Column": "Κατάργηση στήλης",
+  "Delete Column": "Διαγραφή στήλης",
   "file name is blank": "όνομα αρχείου είναι κενό",
   "file name contains invalid char": "όνομα αρχείου περιέχει μη έγκυρο char",
   "at": "στο",

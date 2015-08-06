@@ -517,6 +517,8 @@
   "All": "Tüm",
   "File": "Dosya",
   "Directory": "Dizin",
+  "Remove Column": "Sütun kaldırma",
+  "Delete Column": "Sütun Sil",
   "file name is blank": "dosya adı boş",
   "file name contains invalid char": "dosya adı geçersiz karakter içeriyor",
   "at": "at",

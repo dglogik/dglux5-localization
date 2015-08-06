@@ -517,6 +517,8 @@
   "All": "Toate",
   "File": "Fişier",
   "Directory": "Director",
+  "Remove Column": "Elimina coloana",
+  "Delete Column": "Ștergere coloană",
   "file name is blank": "nume de fişier este necompletată",
   "file name contains invalid char": "numele fişierului conţine caracter nevalid",
   "at": "la",

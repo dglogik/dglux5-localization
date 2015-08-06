@@ -517,6 +517,8 @@
   "All": "Visi",
   "File": "Failas",
   "Directory": "Katalogas",
+  "Remove Column": "Pašalinti stulpelį",
+  "Delete Column": "Naikinti stulpelį",
   "file name is blank": "failo pavadinimas yra tuščias",
   "file name contains invalid char": "failo varde yra netinkamas simbolis",
   "at": "ne",

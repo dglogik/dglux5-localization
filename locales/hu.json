@@ -517,6 +517,8 @@
   "All": "Minden",
   "File": "Fájl",
   "Directory": "Könyvtár",
+  "Remove Column": "Oszlop eltávolítása",
+  "Delete Column": "Oszlop törlése",
   "file name is blank": "filenév üres",
   "file name contains invalid char": "Fájlnév tartalmaz érvénytelen karakter",
   "at": "a",

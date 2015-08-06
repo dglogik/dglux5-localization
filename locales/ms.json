@@ -517,6 +517,8 @@
   "All": "Semua",
   "File": "Fail",
   "Directory": "Direktori",
+  "Remove Column": "Memadam lajur",
+  "Delete Column": "Hapuskan kolum",
   "file name is blank": "nama fail adalah kosong",
   "file name contains invalid char": "nama fail mengandungi char tidak sah",
   "at": "pada",

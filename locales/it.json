@@ -517,6 +517,8 @@
   "All": "Tutti",
   "File": "File",
   "Directory": "Directory",
+  "Remove Column": "Rimuovere la colonna",
+  "Delete Column": "Elimina colonna",
   "file name is blank": "nome del file è vuoto",
   "file name contains invalid char": "nome del file contiene char non valido",
   "at": "presso",

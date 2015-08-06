@@ -517,6 +517,8 @@
   "All": "所有",
   "File": "文件",
   "Directory": "目录",
+  "Remove Column": "删除列",
+  "Delete Column": "删除列",
   "file name is blank": "文件的名称为空",
   "file name contains invalid char": "文件名称包含无效字符",
   "at": "在",

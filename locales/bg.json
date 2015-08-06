@@ -517,6 +517,8 @@
   "All": "Всички",
   "File": "Файл",
   "Directory": "Директория",
+  "Remove Column": "Премахване на колона",
+  "Delete Column": "Изтриване на колона",
   "file name is blank": "името на файла е празно",
   "file name contains invalid char": "името на файла съдържа невалиден знак",
   "at": "в",

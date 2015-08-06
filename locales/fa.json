@@ -517,6 +517,8 @@
   "All": "همه",
   "File": "دریافت فایل",
   "Directory": "دایرکتوری",
+  "Remove Column": "حذف ستون",
+  "Delete Column": "حذف ستون",
   "file name is blank": "نام فایل خالی است",
   "file name contains invalid char": "نام پرونده شامل نویسه های نامعتبر",
   "at": "در",

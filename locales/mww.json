@@ -517,6 +517,8 @@
   "All": "Tag nrho",
   "File": "Cov ntaub ntawv",
   "Directory": "Directory",
+  "Remove Column": "Tshem cov kem",
+  "Delete Column": "Rho tawm sab",
   "file name is blank": "cov ntaub ntawv muaj npe hu ua dawb paug",
   "file name contains invalid char": "lub npe hauv cov ntaub ntawv muaj cov invalid char",
   "at": "tom",

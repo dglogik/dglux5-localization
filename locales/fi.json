@@ -517,6 +517,8 @@
   "All": "Kaikki",
   "File": "Tiedosto",
   "Directory": "Hakemisto",
+  "Remove Column": "Poista sarake",
+  "Delete Column": "Poista sarake",
   "file name is blank": "tiedostonimi on tyhjä",
   "file name contains invalid char": "tiedostonimessä on virheellinen merkki",
   "at": "klo",

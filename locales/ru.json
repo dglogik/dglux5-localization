@@ -517,6 +517,8 @@
   "All": "Все",
   "File": "Файл",
   "Directory": "Каталог",
+  "Remove Column": "Удалить столбец",
+  "Delete Column": "Удалить столбец",
   "file name is blank": "имя файла пусто",
   "file name contains invalid char": "имя файла содержит недопустимый символ",
   "at": "в",

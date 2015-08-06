@@ -517,6 +517,8 @@
   "All": "Vse",
   "File": "Datoteke",
   "Directory": "Imenik",
+  "Remove Column": "Stolpec odstranite",
+  "Delete Column": "Izbriši stolpec",
   "file name is blank": "ime datoteke je prazno",
   "file name contains invalid char": "ime datoteke vsebuje neveljaven znak",
   "at": "na",

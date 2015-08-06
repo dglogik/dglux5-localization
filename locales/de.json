@@ -517,6 +517,8 @@
   "All": "Alle",
   "File": "Datei",
   "Directory": "Verzeichnis",
+  "Remove Column": "Spalte entfernen",
+  "Delete Column": "Spalte löschen",
   "file name is blank": "Dateiname ist leer",
   "file name contains invalid char": "Dateiname enthält ungültige char",
   "at": "bei",

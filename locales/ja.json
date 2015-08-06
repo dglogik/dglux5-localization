@@ -517,6 +517,8 @@
   "All": "すべて",
   "File": "ファイル",
   "Directory": "ディレクトリ",
+  "Remove Column": "列を削除します。",
+  "Delete Column": "列を削除します。",
   "file name is blank": "ファイル名が空白",
   "file name contains invalid char": "ファイル名に無効な文字が含まれています",
   "at": "で",

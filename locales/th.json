@@ -517,6 +517,8 @@
   "All": "ทั้งหมด",
   "File": "แฟ้ม",
   "Directory": "ไดเรกทอรี",
+  "Remove Column": "เอาคอลัมน์ออก",
+  "Delete Column": "ลบคอลัมน์",
   "file name is blank": "ชื่อแฟ้มว่างเปล่า",
   "file name contains invalid char": "ชื่อแฟ้มประกอบด้วยอักขระที่ไม่ถูกต้อง",
   "at": "ที่",

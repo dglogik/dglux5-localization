@@ -517,6 +517,8 @@
   "All": "Tots els",
   "File": "Arxiu",
   "Directory": "Directori",
+  "Remove Column": "Suprimeix la columna",
+  "Delete Column": "Suprimeix la columna",
   "file name is blank": "nom d'arxiu és en blanc",
   "file name contains invalid char": "nom del fitxer conté char invàlid",
   "at": "a",

@@ -517,6 +517,8 @@
   "All": "Alle",
   "File": "Bestand",
   "Directory": "Directory",
+  "Remove Column": "Kolom verwijderen",
+  "Delete Column": "Kolom verwijderen",
   "file name is blank": "bestandsnaam is leeg",
   "file name contains invalid char": "bestandsnaam bevat ongeldige tekens",
   "at": "bij",
