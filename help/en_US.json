@@ -4602,23 +4602,23 @@
   ],
   "scrollEventData.input": [
     "input",
-    ""
+    "Specifies the event on which the scroll listener starts reporting data. By default, <strong>input</strong> is an instance of onScrollEvent, so the listener returns data whenever the parent is scrolled. Note that the onScrollEvent property does not exist for all component types."
   ],
   "scrollEventData.active": [
     "active",
-    ""
+    "<p>Determines whether the block is currently listening.</p><p><strong>True</strong><br />The output properties of the block update whenever the user scrolls.</p><p><strong>False</strong><br />The output properties of the block do not update.</p>"
   ],
   "scrollEventData.event": [
     "event",
-    ""
+    "Returns the type of event that triggered this block."
   ],
   "scrollEventData.scrollLeft": [
     "scrollLeft",
-    ""
+    "Returns the difference in pixels between the left edge of the content and the left edge of the portion currently scrolled to."
   ],
   "scrollEventData.scrollTop": [
     "scrollTop",
-    ""
+    "Returns the difference in pixels between the top edge of the content and the top edge of the portion currently scrolled to."
   ],
   "scrollEventData.scrollLeftMax": [
     "scrollLeftMax",
@@ -4630,107 +4630,107 @@
   ],
   "resizeEventData.input": [
     "input",
-    ""
+    "Specifies the event type to listen for. By default, it is the onResize event for this element."
   ],
   "resizeEventData.active": [
     "active",
-    ""
+    "Specifies whether the listener is currently listening."
   ],
   "fastResponse": [
     "fastResponse",
-    ""
+    "<p>Determines whether the fastResponse feature is enabled. Use this feature when you troubleshoot performance speed issues relating to this block.</p><p><strong>True</strong><br />The execution of this block’s event is slightly prioritized, and the queue is kept clear.</p><p><strong>False</strong><br />This is the default behavior.</p>"
   ],
   "resizeEventData.event": [
     "event",
-    ""
+    "Fires when the input event occurs and displays the name of the event type. It can be bound to an event."
   ],
   "resizeEventData.offsetWidth": [
     "offsetWidth",
-    ""
+    "Returns the width of this entire element, in pixels, when the element is resized."
   ],
   "resizeEventData.offsetHeight": [
     "offsetHeight",
-    ""
+    "Returns the height of this entire element, in pixels, when the element is resized."
   ],
   "resizeEventData.clientWidth": [
     "clientWidth",
-    ""
+    "Returns the width of the contents of this element, in pixels, when the element is resized. It includes padding, but it does not include the border or vertical scroll bar."
   ],
   "resizeEventData.clientHeight": [
     "clientHeight",
-    ""
+    "Returns the height of the contents of this element, in pixels, when the element is resized. It includes padding, but it does not include the border or horizontal scroll bar."
   ],
   "dragPosition.dragStart": [
     "dragStart",
-    ""
+    "Specifies the event that starts moving the object. Typically, this is the onMouseDown event for the child. In that case, find the event in the child’s Advanced properties, and bind it to this property."
   ],
   "dragPosition.dragEnd": [
     "dragEnd",
-    ""
+    "Specifies the event that stops moving the object. Typically, this is the onMouseUp event for the child. In that case, find the event in the child’s Advanced properties, and bind it to this property."
   ],
   "dragPosition.percents": [
     "percents",
-    ""
+    "Determines whether the <strong>boundsLeft</strong>, <strong>boundsTop</strong>, <strong>boundsRight</strong>, and <strong>boundsBottom</strong> properties are pixel values or percent values."
   ],
   "dragPosition.boundsLeft": [
     "boundsLeft",
-    ""
+    "Specifies the distance from the left boundary of the moved object’s parent to the left boundary of the area available for moving the object. The left edge of the object cannot go beyond this boundary. This can be a pixel value, or a percentage of the parent width. Positive values are inside the parent boundary."
   ],
   "dragPosition.boundsTop": [
     "boundsTop",
-    ""
+    "Specifies the distance from the top boundary of the moved object’s parent to the top boundary of the area available for moving the object. The top edge of the object cannot go beyond this boundary. This can be a pixel value, or a percentage of the parent width. Positive values are inside the parent boundary."
   ],
   "dragPosition.boundsRight": [
     "boundsRight",
-    ""
+    "Specifies the distance from the right boundary of the moved object’s parent to the right boundary of the area available for moving the object. The right edge of the object cannot go beyond this boundary. This can be a pixel value, or a percentage of the parent width. Positive values are inside the parent boundary."
   ],
   "dragPosition.boundsBottom": [
     "boundsBottom",
-    ""
+    "Specifies the distance from the bottom boundary of the moved object’s parent to the bottom boundary of the area available for moving the object. The bottom edge of the object cannot go beyond this boundary. This can be a pixel value, or a percentage of the parent width. Positive values are inside the parent boundary."
   ],
   "dragPosition.dragMode": [
     "dragMode",
-    ""
+    "<p>Specifies restrictions on the direction of movement.</p><p><strong>Default</strong><br />Movement is not restricted.</p><p><strong>Vertical</strong><br />The user can move the object vertically by dragging, but not horizontally.</p><p><strong>Horizontal</strong><br />The user can move the object horizontally by dragging, but not vertically.</p>"
   ],
   "dragPosition.isDragging": [
     "isDragging",
-    ""
+    "Returns TRUE if the dragStart event for this block has occurred and the dragEnd event has not occurred yet."
   ],
   "dragSize.dragStart": [
     "dragStart",
-    ""
+    "Specifies the mouse event that starts moving the object. Typically, this is the onMouseDown event for the child. In that case, find the event in the child’s Advanced properties, and bind it to this property."
   ],
   "dragSize.dragEnd": [
     "dragEnd",
-    ""
+    "Specifies the event that stops moving the object. Typically, this is onMouseUpGlobal."
   ],
   "dragSize.percents": [
     "percents",
-    ""
+    "<p>Determines whether the <strong>minWidth</strong>, <strong>minHeight</strong>, <strong>maxWidth</strong>, and <strong>maxHeight</strong> properties are pixel values or percent values.</p><p><strong>True</strong><br />The width values are a percentage of the width of the parent of the element being resized. The height values are a percentage of the height of the parent of the element being resized.</p><p><strong>False</strong><br />The values are in pixels.</p>"
   ],
   "dragSize.minWidth": [
     "minWidth",
-    ""
+    "Specifies the smallest width that the element can be resized to, as a pixel value or a percentage of its parent’s width."
   ],
   "dragSize.minHeight": [
     "minHeight",
-    ""
+    "Specifies the smallest height that the element can be resized to, as a pixel value or a percentage of its parent’s height."
   ],
   "dragSize.maxWidth": [
     "maxWidth",
-    ""
+    "Specifies the largest width that the element can be resized to, as a pixel value or a percentage of its parent’s width."
   ],
   "dragSize.maxHeight": [
     "maxHeight",
-    ""
+    "Specifies the largest height that the element can be resized to, as a pixel value or a percentage of its parent’s height."
   ],
   "dragSize.dragMode": [
     "dragMode",
-    ""
+    "<p>Specifies restrictions on the direction of resizing.</p><p><strong>maxWidth</strong><br />Resizing is not restricted.</p><p><strong>maxHeight</strong><br />The user can resize the object vertically by dragging, but not horizontally.</p><p><strong>dragMode</strong><br />The user can resize the object horizontally by dragging, but not vertically.</p>"
   ],
   "dragSize.isResizing": [
     "isResizing",
-    ""
+    "Returns TRUE if the dragStart event for this block has occurred and the dragEnd event has not occurred yet."
   ],
   "setState.0": [
     "Path 0",
