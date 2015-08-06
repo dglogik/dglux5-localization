@@ -1824,11 +1824,7 @@
     "Event",
     ""
   ],
-  "fastResponse": [
-    "Fast Response",
-    ""
-  ],
-  "active": [
+  "img.active": [
     "Active",
     "Sets or returns whether the animation is currently running."
   ],
@@ -1876,7 +1872,35 @@
     "Easing",
     "<p>Specifies the rate of change over time for this animation.</p><p><strong>Linear</strong><br />The animation's rate of change is constant.</p><p><strong>Ease In</strong><br />The animation starts slowly and accelerates linearly as it executes.</p><p><strong>Ease Out</strong><br />The animation starts with a fast change rate and decelerates linearly as it executes.</p><p><strong>Ease In Out</strong><br />The animation starts slowly, accelerates linearly, and then decelerates linearly as it executes.</p><p><strong>Cubic In</strong><br />The animation starts slowly and accelerates cubically as it executes.</p><p><strong>Cubic Out</strong><br />The animation starts with a fast change rate and decelerates cubically as it executes.</p><p><strong>Cubic In Out</strong><br />The animation starts slowly, accelerates cubically, and then decelerates cubically as it executes.</p><p><strong>Elastic In</strong><br />The animation's rate of change starts on a small-amplitude sine wave. The sine wave grows as the animation executes.</p><p><strong>Elastic Out</strong><br />The animation's rate of change starts on a large-amplitude sine wave. The sine wave decays as the animation executes.</p><p><strong>Elastic In Out</strong><br />The animation's rate of change starts on a small-amplitude sine wave. The sine wave grows and then decays as the animation executes.</p><p><strong>Bounce</strong><br />The animation starts with a fast change rate, and decelerates to zero with an effect similar to a ball falling and bouncing on a floor.</p>"
   ],
-  "value": [
+  "textFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "textAreaFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "passwordFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "dateFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "colorFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "numberFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "rangeFormInput.value": [
+    "Value",
+    "Sets or returns the current contents of this input component."
+  ],
+  "listFormElement.value": [
     "Value",
     "Sets or returns the current contents of this input component."
   ],
@@ -2284,450 +2308,6 @@
     "Keep Special Value",
     "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:daterange'>the DGLux5 wiki</a>."
   ],
-  "if.0": [
-    "Input 0",
-    ""
-  ],
-  "if.then": [
-    "Then",
-    ""
-  ],
-  "case.0": [
-    "Case 0",
-    ""
-  ],
-  "case.1": [
-    "Then 0",
-    ""
-  ],
-  "hub.0": [
-    "Input 0",
-    ""
-  ],
-  "hub.index": [
-    "Index",
-    ""
-  ],
-  "eventGate.logOrder": [
-    "Log Order",
-    ""
-  ],
-  "eventGate.0": [
-    "Input 0",
-    ""
-  ],
-  "eventGate.onFinish": [
-    "On Finish",
-    ""
-  ],
-  "script.script": [
-    "Script",
-    ""
-  ],
-  "script.a": [
-    "A",
-    ""
-  ],
-  "script.b": [
-    "B",
-    ""
-  ],
-  "script.c": [
-    "C",
-    ""
-  ],
-  "script.d": [
-    "D",
-    ""
-  ],
-  "script.e": [
-    "E",
-    ""
-  ],
-  "script.f": [
-    "F",
-    ""
-  ],
-  "script.g": [
-    "G",
-    ""
-  ],
-  "script.i": [
-    "I",
-    ""
-  ],
-  "script.j": [
-    "J",
-    ""
-  ],
-  "script.k": [
-    "K",
-    ""
-  ],
-  "script.l": [
-    "L",
-    ""
-  ],
-  "script.m": [
-    "M",
-    ""
-  ],
-  "script.n": [
-    "N",
-    ""
-  ],
-  "script.o": [
-    "O",
-    ""
-  ],
-  "script.p": [
-    "P",
-    ""
-  ],
-  "script.q": [
-    "Q",
-    ""
-  ],
-  "script.r": [
-    "R",
-    ""
-  ],
-  "script.s": [
-    "S",
-    ""
-  ],
-  "script.t": [
-    "T",
-    ""
-  ],
-  "script.u": [
-    "U",
-    ""
-  ],
-  "script.v": [
-    "V",
-    ""
-  ],
-  "stopwatch.onLoop": [
-    "On Loop",
-    ""
-  ],
-  "table.save": [
-    "Save",
-    ""
-  ],
-  "csvParser.input": [
-    "input",
-    "Receives the CSV string. It is often the output from a String Loader block."
-  ],
-  "csvParser.withHeader": [
-    "withHeader",
-    "Specifies whether the CSV string includes a header row."
-  ],
-  "csvParser.delimiter": [
-    "delimiter",
-    "Specifies the character that separates items in the CSV string. Typically this is a comma (,). "
-  ],
-  "csvParser.parseError": [
-    "parseError",
-    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
-  ],
-  "csvParser.output": [
-    "output",
-    "Returns a table parsed from the CSV data."
-  ],
-  "jsonParser.input": [
-    "input",
-    "Receives the JSON string. Sometimes it is the output from a String Loader block."
-  ],
-  "jsonParser.output": [
-    "output",
-    "Returns a table parsed from the JSON data."
-  ],
-  "jsonParser.parseError": [
-    "parseError",
-    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
-  ],
-  "jsonParser.selector": [
-    "selector",
-    "Specifies the location of the data in the JSON string to parse into a table."
-  ],
-  "jsonParser.drillDownDepth": [
-    "drillDownDepth",
-    "specifies how far to drill down into the JSON when extracting data. Data below the drillDownDepth is not included in the output. Only works when a drillDownFilter or flatFilter is specified"
-  ],
-  "jsonParser.drillDownFilter": [
-    "drillDownFilter",
-    "Specifies what to return for nested tables. Enter * to return all nested tables to the specified drillDownDepth."
-  ],
-  "jsonParser.flatFilter": [
-    "flatFilter",
-    "Specifies what to return for a flat table. Enter * to return all data to the specified drillDownDepth, in a flat table."
-  ],
-  "tableColumnMapping.input": [
-    "input",
-    "Receives the input table."
-  ],
-  "tableColumnMapping.retainColumns": [
-    "retainColumns",
-    "Specifies whether to include the original column as well as the new column in the output table."
-  ],
-  "tableColumnMapping.0": [
-    "name n",
-    "Specifies the new column name."
-  ],
-  "tableColumnMapping.1": [
-    "from n",
-    "Specifies the data to appear in the new column, using <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>JavaScript notation</a>. For example:<ul><li>\"=v1+v2\" returns the sum of the values in the \"v1\" column and the \"v2\" column.</li><li>\"=dateFormat(timestamp,\"y-MM-dd\")\" returns the date in the \"timestamp\" column with the specified formatting.</li><li>\"=numberFormat(value,\"0.00\")\" returns the value in the \"value\" column, rounded to the hundredths place.</li></ul>"
-  ],
-  "tableColumnMapping.print": [
-    "print",
-    "Displays error messages and other notifications for debugging your dataflow."
-  ],
-  "tableColumnMapping.output": [
-    "output",
-    "Returns the output table with new columns."
-  ],
-  "tableSort.input": [
-    "input",
-    "Receives the table that you want to sort."
-  ],
-  "tableSort.field": [
-    "column",
-    "Specifies the name of the table column to sort by."
-  ],
-  "tableSort.method": [
-    "method",
-    "Specifies whether to sort values as numbers or strings."
-  ],
-  "tableSort.order": [
-    "order",
-    "Specifies whether to sort values in ascending or descending order."
-  ],
-  "tableSort.output": [
-    "output",
-    "Returns the sorted table."
-  ],
-  "tableFilter.input": [
-    "input",
-    "Receives the table that you want to filter."
-  ],
-  "tableFilter.condition": [
-    "condition",
-    "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
-  ],
-  "tableFilter.print": [
-    "print",
-    "Returns output from the condition field. Use for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
-  ],
-  "tableFilter.output": [
-    "output",
-    "Returns the filtered table."
-  ],
-  "tableGroupBy.input": [
-    "input",
-    "Receives the table whose values you want to group."
-  ],
-  "tableGroupBy.baseColumn": [
-    "baseColumn",
-    "Specifies the name of the table column in which to group values. "
-  ],
-  "tableGroupBy.nestedData": [
-    "nestedData",
-    "Specifies whether to keep the original rows in a new column of the output table as nested tables. You can view the child table data by binding a cell containing a table to a Table dataflow block."
-  ],
-  "tableGroupBy.includeBlankValue": [
-    "includeBlankValue",
-    "Specifies whether to include a row for a blank value of the baseColumn, if a blank value exists."
-  ],
-  "tableGroupBy.0": [
-    "column n",
-    "Specifies the name of an input table column to group."
-  ],
-  "tableGroupBy.1": [
-    "method n",
-    "<p>specifies how to return values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong><br />Returns the first value in the group.</p><p><strong>last</strong><br />Returns the last value in the group.</p><p><strong>average</strong><br />Returns the average of all number values in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong><br />Returns the sum of all number values in the group. If there are no number values, returns 0.</p><p><strong>max</strong><br />Returns the largest number value in the group. If there are no number values, returns null.</p><p><strong>min</strong><br />Returns the smallest number in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>count</strong><br />Returns the number of values in the group.</p><p><strong>concat</strong><br />Returns all values in the group, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong><br />Returns all unique values in the group, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong><br />Returns a table of values.</p>"
-  ],
-  "tableGroupBy.2": [
-    "outColumn n",
-    "Specifies the label for the column of grouped <strong>column <em>n</em></strong> values."
-  ],
-  "tableGroupBy.output": [
-    "output",
-    "Returns the output table. It contains one row for each unique value in <strong>baseColumn</strong>."
-  ],
-  "tableJoin.input1": [
-    "input1",
-    "Specifies the first table to join."
-  ],
-  "tableJoin.input2": [
-    "input2",
-    "Specifies the second table to join."
-  ],
-  "tableJoin.field1": [
-    "column1",
-    "Specifies the name of the key column from the input1 table."
-  ],
-  "tableJoin.field2": [
-    "column2",
-    "Specifies the name of the key column from the input2 table."
-  ],
-  "tableJoin.join": [
-    "join",
-    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from input1 are included. Rows from input2 are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from input2 are included. Rows from input1 are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
-  ],
-  "tableJoin.renameColumns": [
-    "renameColumns",
-    "Determines the naming in the output table for columns that come from input2. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
-  ],
-  "tableJoin.output": [
-    "output",
-    "Returns the joined table."
-  ],
-  "tablePage.input": [
-    "input",
-    "Receives the table for which you want to create paging."
-  ],
-  "tablePage.pageSize": [
-    "pageSize",
-    "Specifies the number of rows per page."
-  ],
-  "tablePage.start": [
-    "start",
-    "Specifies the row index to start paging on. Rows before this index are omitted from the output."
-  ],
-  "tablePage.nextPage": [
-    "nextPage",
-    "Advances the output table to the next page."
-  ],
-  "tablePage.prevPage": [
-    "prevPage",
-    "Changes the output table to the previous page."
-  ],
-  "tablePage.firstPage": [
-    "firstPage",
-    "Changes the output table to the first page."
-  ],
-  "tablePage.lastPage": [
-    "lastPage",
-    "Advances the output table to the last page."
-  ],
-  "tablePage.currentPage": [
-    "currentPage",
-    "Sets or returns the current page."
-  ],
-  "tablePage.totalPage": [
-    "totalPage",
-    "Returns the total number of pages for this table."
-  ],
-  "tablePage.output": [
-    "output",
-    "Returns the portion of the input table specified by the paging parameters."
-  ],
-  "tableRollup.input": [
-    "input",
-    "Receives the table in which you want to roll up values."
-  ],
-  "tableRollup.interval": [
-    "interval",
-    "Specifies the length of the range to roll up. It can be any of the following.<ul><li>One minute</li><li>Five minutes</li><li>Ten minutes</li><li>Fifteen minutes</li><li>Twenty minutes</li><li>Thirty minutes</li><li>Hour</li><li>Two hours</li><li>Three hours</li><li>Four hours</li><li>Six hours</li><li>Twelve hours</li><li>Day</li><li>Two days</li><li>Week</li><li>Month</li><li>Year</li></ul>"
-  ],
-  "tableRollup.dateColumn": [
-    "dateColumn",
-    "Specifies the name of the table column that holds the dates."
-  ],
-  "tableRollup.valueColumn": [
-    "valueColumn",
-    "Specifies the name of the table column that holds the values to be rolled up."
-  ],
-  "tableRollup.valueRollup": [
-    "valueRollup",
-    "<p>Specifies the type of rollup used.</p><p><strong>First</strong><br />Returns the first value for the interval.</p><p><strong>Last</strong><br />Returns the last value for the interval.</p><p><strong>Average</strong><br />Returns the average of all number values for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values for the interval. If there are no number values, returns 0.</p><p><strong>Max</strong><br />Returns the largest number value from the interval. If there are no number values, returns null.</p><p><strong>Min</strong><br />Returns the smallest number value for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values that exist for the interval. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values for the interval, separated by commas. Includes duplicate values.</p><p><strong>ConcatUnique</strong><br />Returns all unique values for the interval, separated by commas. Duplicate values are not included.</p>"
-  ],
-  "tableRollup.roundTime": [
-    "roundTime",
-    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>True</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>False</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
-  ],
-  "tableRollup.output": [
-    "output",
-    "Returns the rolled up table."
-  ],
-  "tableAggregation.input": [
-    "input",
-    "Receives the table in which you want to aggregate values."
-  ],
-  "tableAggregation.column": [
-    "column",
-    "Specifies the name of the table column."
-  ],
-  "tableAggregation.method": [
-    "method",
-    "<p>Specifies the type of aggregation.</p><p><strong>First</strong><br />Returns the first value in the column.</p><p><strong>Last</strong><br />Returns the last value in the column.</p><p><strong>Average</strong><br />Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values in the column. If there are no number values, returns 0.</p><p><strong>Max</strong><br />Returns the maximum number value in the column. If there are no number values, returns null.</p><p><strong>Min</strong><br />Returns the minimum number value in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values in the column. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values in the column as a comma-separated list. Duplicate values are included.</p><p><strong>Concat unique</strong><br />Returns all unique values in the column as a comma-separated list. Duplicate values are not included.</p><p><strong>Table Union</strong><br />If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</p>"
-  ],
-  "tableAggregation.output": [
-    "output",
-    "Returns the output string as determined by the method parameter."
-  ],
-  "tableSelectRows.input": [
-    "input",
-    "Receives the table from which you want to select rows."
-  ],
-  "tableSelectRows.indexes": [
-    "indexes",
-    "Specifies the rows in the input table to select, as comma-separated values."
-  ],
-  "tableSelectRows.output": [
-    "output",
-    "Returns a new table. It contains only the rows at the specified indexes."
-  ],
-  "tableGetColumns.input": [
-    "input",
-    "Receives the table from which you want to get column names."
-  ],
-  "tableGetColumns.output": [
-    "output",
-    "Returns the output table. It contains a row for each column in the input table."
-  ],
-  "tableRowCells.table": [
-    "table",
-    "Receives the table from which you want to get values."
-  ],
-  "tableRowCells.row": [
-    "row",
-    "Specifies a row index in the input table."
-  ],
-  "tableRowCells.0": [
-    "column n",
-    "Specifies a column name in the input table"
-  ],
-  "tableRowCells.1": [
-    "value n",
-    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it writes to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
-  ],
-  "tableTranspose.input": [
-    "input",
-    "Receives the table that you want to transpose."
-  ],
-  "tableTranspose.ignoreColumns": [
-    "ignoreColumns",
-    "Specifies the names of columns in the input table to ignore when transposing, as comma-separated values."
-  ],
-  "tableTranspose.headerColumn": [
-    "headerColumn",
-    "Specifies the column from the input table to use as headers in the output table."
-  ],
-  "tableTranspose.includeHeaders": [
-    "includeHeaders",
-    "Specifies whether the header row from the input table is included as a column in the output table."
-  ],
-  "tableTranspose.headerPrefix": [
-    "headerPrefix",
-    "Specifies the text string to include before the column number for each column header in the output table. It only works when the headerColumn property is null."
-  ],
-  "tableTranspose.output": [
-    "output",
-    "Returns the transposed table."
-  ],
   "fill.gradientType": [
     "Gradient Type",
     "<p>Specifies whether a radial or linear gradient fills this element. To add colors to the gradient, click below the track in the dialog. To delete colors, right-click on them. To move colors, left-click them and drag.</p><p><strong>Linear</strong><br />The gradient is defined by a linear axis.</p><p><strong>Radial</strong><br />The gradient is defined by a circle or an ellipse.</p>"
@@ -2839,194 +2419,6 @@
   "gradientStop.alpha": [
     "Opacity",
     "Defines the opacity of the selected fill color in the gradient."
-  ],
-  "setState.0": [
-    "Path 0",
-    ""
-  ],
-  "setState.1": [
-    "Value 0",
-    ""
-  ],
-  "setState.2": [
-    "Original 0",
-    ""
-  ],
-  "changeState.0": [
-    "Path 0",
-    ""
-  ],
-  "changeState.1": [
-    "Change 0",
-    ""
-  ],
-  "changeState.onFinished": [
-    "On Finished",
-    ""
-  ],
-  "changeState.onReverted": [
-    "On Reverted",
-    ""
-  ],
-  "stateItem.original": [
-    "Original",
-    ""
-  ],
-  "strLoader.headers": [
-    "Headers",
-    ""
-  ],
-  "strLoader.sendCookies": [
-    "Send Cookies",
-    ""
-  ],
-  "strLoader.respHeaders": [
-    "Resp Headers",
-    ""
-  ],
-  "jsonpLoader.callback": [
-    "Callback",
-    ""
-  ],
-  "mouseEventData.pageX": [
-    "Page X",
-    ""
-  ],
-  "mouseEventData.pageY": [
-    "Page Y",
-    ""
-  ],
-  "mouseEventData.dragSource": [
-    "Drag Source",
-    ""
-  ],
-  "keyboardEventData.charCode": [
-    "Char Code",
-    ""
-  ],
-  "keyboardEventData.keyCode": [
-    "Key Code",
-    ""
-  ],
-  "keyboardEventData.ctrl": [
-    "Ctrl",
-    ""
-  ],
-  "keyboardEventData.alt": [
-    "Alt",
-    ""
-  ],
-  "keyboardEventData.shift": [
-    "Shift",
-    ""
-  ],
-  "keyboardEventData.meta": [
-    "Meta",
-    ""
-  ],
-  "scrollEventData.scrollLeft": [
-    "Scroll Left",
-    ""
-  ],
-  "scrollEventData.scrollTop": [
-    "Scroll Top",
-    ""
-  ],
-  "scrollEventData.scrollWidth": [
-    "Scroll Width",
-    ""
-  ],
-  "scrollEventData.scrollHeight": [
-    "Scroll Height",
-    ""
-  ],
-  "queryBinding.0": [
-    "Case 0",
-    ""
-  ],
-  "queryBinding.1": [
-    "Then 0",
-    ""
-  ],
-  "valueBinding.0": [
-    "Case 0",
-    ""
-  ],
-  "valueBinding.1": [
-    "Then 0",
-    ""
-  ],
-  "relativize.serviceId": [
-    "Service Id",
-    ""
-  ],
-  "relativize.fullPath": [
-    "Full Path",
-    ""
-  ],
-  "loadValue.lastUpdate": [
-    "Last Update",
-    ""
-  ],
-  "invokeAction.action": [
-    "Action",
-    ""
-  ],
-  "invokeAction.getTable": [
-    "Get Table",
-    ""
-  ],
-  "invokeAction.bufferSize": [
-    "Buffer Size",
-    ""
-  ],
-  "dbQuery.db": [
-    "Db",
-    ""
-  ],
-  "dbQuery.query": [
-    "Query",
-    ""
-  ],
-  "getNode.name": [
-    "Name",
-    ""
-  ],
-  "getNode.hasChildren": [
-    "Has Children",
-    ""
-  ],
-  "getNode.hasValue": [
-    "Has Value",
-    ""
-  ],
-  "getNode.hasHistory": [
-    "Has History",
-    ""
-  ],
-  "getNode.icon": [
-    "Icon",
-    ""
-  ],
-  "getNode.enum": [
-    "Enum",
-    ""
-  ],
-  "getNode.actions": [
-    "Actions",
-    ""
-  ],
-  "loadHistories.paths": [
-    "Paths",
-    ""
-  ],
-  "loadHistories.showStatus": [
-    "Show Status",
-    ""
-  ],
-  "loadHistories.missingValue": [
-    "Missing Value",
-    ""
   ],
   "svgLightElement.azimuth": [
     "Azimuth",
@@ -4504,6 +3896,114 @@
     "Plotted Area Height",
     "Returns the height of the plot area in pixels. This is a read-only property, so changing it manually does nothing."
   ],
+  "stateItem.original": [
+    "Original",
+    ""
+  ],
+  "strLoader.headers": [
+    "Headers",
+    ""
+  ],
+  "strLoader.sendCookies": [
+    "Send Cookies",
+    ""
+  ],
+  "strLoader.respHeaders": [
+    "Resp Headers",
+    ""
+  ],
+  "jsonpLoader.callback": [
+    "Callback",
+    ""
+  ],
+  "queryBinding.0": [
+    "Case 0",
+    ""
+  ],
+  "queryBinding.1": [
+    "Then 0",
+    ""
+  ],
+  "valueBinding.0": [
+    "Case 0",
+    ""
+  ],
+  "valueBinding.1": [
+    "Then 0",
+    ""
+  ],
+  "relativize.serviceId": [
+    "Service Id",
+    ""
+  ],
+  "relativize.fullPath": [
+    "Full Path",
+    ""
+  ],
+  "loadValue.lastUpdate": [
+    "Last Update",
+    ""
+  ],
+  "invokeAction.action": [
+    "Action",
+    ""
+  ],
+  "invokeAction.getTable": [
+    "Get Table",
+    ""
+  ],
+  "invokeAction.bufferSize": [
+    "Buffer Size",
+    ""
+  ],
+  "dbQuery.db": [
+    "Db",
+    ""
+  ],
+  "dbQuery.query": [
+    "Query",
+    ""
+  ],
+  "getNode.name": [
+    "Name",
+    ""
+  ],
+  "getNode.hasChildren": [
+    "Has Children",
+    ""
+  ],
+  "getNode.hasValue": [
+    "Has Value",
+    ""
+  ],
+  "getNode.hasHistory": [
+    "Has History",
+    ""
+  ],
+  "getNode.icon": [
+    "Icon",
+    ""
+  ],
+  "getNode.enum": [
+    "Enum",
+    ""
+  ],
+  "getNode.actions": [
+    "Actions",
+    ""
+  ],
+  "loadHistories.paths": [
+    "Paths",
+    ""
+  ],
+  "loadHistories.showStatus": [
+    "Show Status",
+    ""
+  ],
+  "loadHistories.missingValue": [
+    "Missing Value",
+    ""
+  ],
   "projectInfo.projectId": [
     "Project Id",
     ""
@@ -4583,6 +4083,10 @@
   "gridColumn.headerSymbol": [
     "Header Symbol",
     "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+  ],
+  "table.save": [
+    "Save",
+    ""
   ],
   "iframeMessage.match": [
     "Match",
@@ -4704,20 +4208,856 @@
     "Object Path",
     ""
   ],
+  "and.op": [
+    "op",
+    ""
+  ],
+  "and.0": [
+    "input n",
+    ""
+  ],
+  "and.then": [
+    "then",
+    ""
+  ],
+  "and.else": [
+    "else",
+    ""
+  ],
+  "and.output": [
+    "output",
+    ""
+  ],
+  "or.op": [
+    "op",
+    ""
+  ],
+  "or.0": [
+    "input n",
+    ""
+  ],
+  "or.then": [
+    "then",
+    ""
+  ],
+  "or.else": [
+    "else",
+    ""
+  ],
+  "or.output": [
+    "output",
+    ""
+  ],
+  "not.input": [
+    "input",
+    ""
+  ],
+  "not.output": [
+    "output",
+    ""
+  ],
+  "if.op": [
+    "op",
+    ""
+  ],
+  "if.0": [
+    "input n",
+    ""
+  ],
+  "if.then": [
+    "then",
+    ""
+  ],
+  "if.else": [
+    "else",
+    ""
+  ],
+  "if.output": [
+    "output",
+    ""
+  ],
+  "case.op": [
+    "op",
+    ""
+  ],
+  "case.input": [
+    "input",
+    ""
+  ],
+  "case.0": [
+    "case n",
+    ""
+  ],
+  "case.1": [
+    "then n",
+    ""
+  ],
+  "case.else": [
+    "else",
+    ""
+  ],
+  "case.output": [
+    "output",
+    ""
+  ],
+  "hub.0": [
+    "input n",
+    ""
+  ],
+  "hub.index": [
+    "index",
+    ""
+  ],
+  "hub.output": [
+    "index",
+    ""
+  ],
+  "hub.onChange": [
+    "index",
+    ""
+  ],
+  "eventGate.reset": [
+    "reset",
+    ""
+  ],
+  "eventGate.logOrder": [
+    "logOrder",
+    ""
+  ],
+  "eventGate.0": [
+    "input n",
+    ""
+  ],
+  "eventGate.onFinish": [
+    "onFinish",
+    ""
+  ],
+  "eventGate.order": [
+    "order",
+    ""
+  ],
+  "script.invoke": [
+    "invoke",
+    ""
+  ],
+  "script.autoRun": [
+    "autoRun",
+    ""
+  ],
+  "script.script": [
+    "Script",
+    ""
+  ],
+  "script.output": [
+    "output",
+    ""
+  ],
+  "script.print": [
+    "print",
+    ""
+  ],
+  "script.a": [
+    "a–z",
+    ""
+  ],
+  "script.b": [
+    "a–z",
+    ""
+  ],
+  "script.c": [
+    "a–z",
+    ""
+  ],
+  "script.d": [
+    "a–z",
+    ""
+  ],
+  "script.e": [
+    "a–z",
+    ""
+  ],
+  "script.f": [
+    "a–z",
+    ""
+  ],
+  "script.g": [
+    "a–z",
+    ""
+  ],
+  "script.i": [
+    "a–z",
+    ""
+  ],
+  "script.j": [
+    "a–z",
+    ""
+  ],
+  "script.k": [
+    "a–z",
+    ""
+  ],
+  "script.l": [
+    "a–z",
+    ""
+  ],
+  "script.m": [
+    "a–z",
+    ""
+  ],
+  "script.n": [
+    "a–z",
+    ""
+  ],
+  "script.o": [
+    "a–z",
+    ""
+  ],
+  "script.p": [
+    "a–z",
+    ""
+  ],
+  "script.q": [
+    "a–z",
+    ""
+  ],
+  "script.r": [
+    "a–z",
+    ""
+  ],
+  "script.s": [
+    "a–z",
+    ""
+  ],
+  "script.t": [
+    "a–z",
+    ""
+  ],
+  "script.u": [
+    "a–z",
+    ""
+  ],
+  "script.v": [
+    "a–z",
+    ""
+  ],
+  "script.w": [
+    "a–z",
+    ""
+  ],
+  "script.x": [
+    "a–z",
+    ""
+  ],
+  "script.y": [
+    "a–z",
+    ""
+  ],
+  "script.z": [
+    "a–z",
+    ""
+  ],
+  "stopwatch.enabled": [
+    "enabled",
+    ""
+  ],
+  "stopwatch.interval": [
+    "interval",
+    ""
+  ],
+  "stopwatch.step": [
+    "step",
+    ""
+  ],
+  "stopwatch.modulo": [
+    "modulo",
+    ""
+  ],
+  "stopwatch.loop": [
+    "loop",
+    ""
+  ],
+  "stopwatch.reset": [
+    "reset",
+    ""
+  ],
+  "stopwatch.output": [
+    "output",
+    ""
+  ],
+  "stopwatch.onLoop": [
+    "onLoop",
+    ""
+  ],
+  "changeState.invoke": [
+    "invoke",
+    ""
+  ],
+  "changeState.revert": [
+    "revert",
+    ""
+  ],
+  "changeState.enabled": [
+    "enabled",
+    ""
+  ],
+  "changeState.duration": [
+    "duration",
+    ""
+  ],
+  "changeState.durationBack": [
+    "durationBack",
+    ""
+  ],
+  "changeState.0": [
+    "path n",
+    ""
+  ],
+  "changeState.1": [
+    "change n",
+    ""
+  ],
+  "changeState.onFinished": [
+    "onFinished",
+    ""
+  ],
+  "changeState.onReverted": [
+    "onReverted",
+    ""
+  ],
+  "mouseEventData.input": [
+    "input",
+    ""
+  ],
+  "mouseEventData.active": [
+    "active",
+    ""
+  ],
+  "mouseEventData.event": [
+    "event",
+    ""
+  ],
+  "mouseEventData.x": [
+    "x",
+    ""
+  ],
+  "mouseEventData.y": [
+    "y",
+    ""
+  ],
+  "mouseEventData.pageX": [
+    "pageX",
+    ""
+  ],
+  "mouseEventData.pageY": [
+    "pageY",
+    ""
+  ],
+  "mouseEventData.dragData": [
+    "dragData",
+    ""
+  ],
+  "mouseEventData.dragSource": [
+    "dragSource",
+    ""
+  ],
+  "mouseEventData.fileName": [
+    "fileName",
+    ""
+  ],
+  "keyboardEventData.input": [
+    "input",
+    ""
+  ],
+  "keyboardEventData.active": [
+    "active",
+    ""
+  ],
+  "keyboardEventData.event": [
+    "event",
+    ""
+  ],
+  "keyboardEventData.keyCode": [
+    "keyCode",
+    ""
+  ],
+  "keyboardEventData.ctrl": [
+    "ctrl",
+    ""
+  ],
+  "keyboardEventData.alt": [
+    "alt",
+    ""
+  ],
+  "keyboardEventData.shift": [
+    "shift",
+    ""
+  ],
+  "keyboardEventData.meta": [
+    "meta",
+    ""
+  ],
+  "keyboardEventData.filter": [
+    "filter",
+    ""
+  ],
+  "keyboardEventData.output": [
+    "output",
+    ""
+  ],
+  "scrollEventData.input": [
+    "input",
+    ""
+  ],
+  "scrollEventData.active": [
+    "active",
+    ""
+  ],
+  "scrollEventData.event": [
+    "event",
+    ""
+  ],
+  "scrollEventData.scrollLeft": [
+    "scrollLeft",
+    ""
+  ],
+  "scrollEventData.scrollTop": [
+    "scrollTop",
+    ""
+  ],
+  "scrollEventData.scrollLeftMax": [
+    "scrollLeftMax",
+    ""
+  ],
+  "scrollEventData.scrollTopMax": [
+    "scrollTopMax",
+    ""
+  ],
+  "resizeEventData.input": [
+    "input",
+    ""
+  ],
+  "resizeEventData.active": [
+    "active",
+    ""
+  ],
+  "fastResponse": [
+    "fastResponse",
+    ""
+  ],
+  "resizeEventData.event": [
+    "event",
+    ""
+  ],
+  "resizeEventData.offsetWidth": [
+    "offsetWidth",
+    ""
+  ],
+  "resizeEventData.offsetHeight": [
+    "offsetHeight",
+    ""
+  ],
+  "resizeEventData.clientWidth": [
+    "clientWidth",
+    ""
+  ],
+  "resizeEventData.clientHeight": [
+    "clientHeight",
+    ""
+  ],
+  "dragPosition.dragStart": [
+    "dragStart",
+    ""
+  ],
+  "dragPosition.dragEnd": [
+    "dragEnd",
+    ""
+  ],
+  "dragPosition.percents": [
+    "percents",
+    ""
+  ],
   "dragPosition.boundsLeft": [
-    "Bounds Left",
+    "boundsLeft",
     ""
   ],
   "dragPosition.boundsTop": [
-    "Bounds Top",
+    "boundsTop",
     ""
   ],
   "dragPosition.boundsRight": [
-    "Bounds Right",
+    "boundsRight",
     ""
   ],
   "dragPosition.boundsBottom": [
-    "Bounds Bottom",
+    "boundsBottom",
     ""
+  ],
+  "dragPosition.dragMode": [
+    "dragMode",
+    ""
+  ],
+  "dragPosition.isDragging": [
+    "isDragging",
+    ""
+  ],
+  "dragSize.dragStart": [
+    "dragStart",
+    ""
+  ],
+  "dragSize.dragEnd": [
+    "dragEnd",
+    ""
+  ],
+  "dragSize.percents": [
+    "percents",
+    ""
+  ],
+  "dragSize.minWidth": [
+    "minWidth",
+    ""
+  ],
+  "dragSize.minHeight": [
+    "minHeight",
+    ""
+  ],
+  "dragSize.maxWidth": [
+    "maxWidth",
+    ""
+  ],
+  "dragSize.maxHeight": [
+    "maxHeight",
+    ""
+  ],
+  "dragSize.dragMode": [
+    "dragMode",
+    ""
+  ],
+  "dragSize.isResizing": [
+    "isResizing",
+    ""
+  ],
+  "setState.0": [
+    "Path 0",
+    ""
+  ],
+  "setState.1": [
+    "Value 0",
+    ""
+  ],
+  "setState.2": [
+    "Original 0",
+    ""
+  ],
+  "csvParser.input": [
+    "input",
+    "Receives the CSV string. It is often the output from a String Loader block."
+  ],
+  "csvParser.withHeader": [
+    "withHeader",
+    "Specifies whether the CSV string includes a header row."
+  ],
+  "csvParser.delimiter": [
+    "delimiter",
+    "Specifies the character that separates items in the CSV string. Typically this is a comma (,). "
+  ],
+  "csvParser.parseError": [
+    "parseError",
+    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
+  ],
+  "csvParser.output": [
+    "output",
+    "Returns a table parsed from the CSV data."
+  ],
+  "jsonParser.input": [
+    "input",
+    "Receives the JSON string. Sometimes it is the output from a String Loader block."
+  ],
+  "jsonParser.output": [
+    "output",
+    "Returns a table parsed from the JSON data."
+  ],
+  "jsonParser.parseError": [
+    "parseError",
+    "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
+  ],
+  "jsonParser.selector": [
+    "selector",
+    "Specifies the location of the data in the JSON string to parse into a table."
+  ],
+  "jsonParser.drillDownDepth": [
+    "drillDownDepth",
+    "specifies how far to drill down into the JSON when extracting data. Data below the drillDownDepth is not included in the output. Only works when a drillDownFilter or flatFilter is specified"
+  ],
+  "jsonParser.drillDownFilter": [
+    "drillDownFilter",
+    "Specifies what to return for nested tables. Enter * to return all nested tables to the specified drillDownDepth."
+  ],
+  "jsonParser.flatFilter": [
+    "flatFilter",
+    "Specifies what to return for a flat table. Enter * to return all data to the specified drillDownDepth, in a flat table."
+  ],
+  "tableColumnMapping.input": [
+    "input",
+    "Receives the input table."
+  ],
+  "tableColumnMapping.retainColumns": [
+    "retainColumns",
+    "Specifies whether to include the original column as well as the new column in the output table."
+  ],
+  "tableColumnMapping.0": [
+    "name n",
+    "Specifies the new column name."
+  ],
+  "tableColumnMapping.1": [
+    "from n",
+    "Specifies the data to appear in the new column, using <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>JavaScript notation</a>. For example:<ul><li>\"=v1+v2\" returns the sum of the values in the \"v1\" column and the \"v2\" column.</li><li>\"=dateFormat(timestamp,\"y-MM-dd\")\" returns the date in the \"timestamp\" column with the specified formatting.</li><li>\"=numberFormat(value,\"0.00\")\" returns the value in the \"value\" column, rounded to the hundredths place.</li></ul>"
+  ],
+  "tableColumnMapping.print": [
+    "print",
+    "Displays error messages and other notifications for debugging your dataflow."
+  ],
+  "tableColumnMapping.output": [
+    "output",
+    "Returns the output table with new columns."
+  ],
+  "tableSort.input": [
+    "input",
+    "Receives the table that you want to sort."
+  ],
+  "tableSort.field": [
+    "column",
+    "Specifies the name of the table column to sort by."
+  ],
+  "tableSort.method": [
+    "method",
+    "Specifies whether to sort values as numbers or strings."
+  ],
+  "tableSort.order": [
+    "order",
+    "Specifies whether to sort values in ascending or descending order."
+  ],
+  "tableSort.output": [
+    "output",
+    "Returns the sorted table."
+  ],
+  "tableFilter.input": [
+    "input",
+    "Receives the table that you want to filter."
+  ],
+  "tableFilter.condition": [
+    "condition",
+    "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
+  ],
+  "tableFilter.print": [
+    "print",
+    "Returns output from the condition field. Use for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+  ],
+  "tableFilter.output": [
+    "output",
+    "Returns the filtered table."
+  ],
+  "tableGroupBy.input": [
+    "input",
+    "Receives the table whose values you want to group."
+  ],
+  "tableGroupBy.baseColumn": [
+    "baseColumn",
+    "Specifies the name of the table column in which to group values. "
+  ],
+  "tableGroupBy.nestedData": [
+    "nestedData",
+    "Specifies whether to keep the original rows in a new column of the output table as nested tables. You can view the child table data by binding a cell containing a table to a Table dataflow block."
+  ],
+  "tableGroupBy.includeBlankValue": [
+    "includeBlankValue",
+    "Specifies whether to include a row for a blank value of the baseColumn, if a blank value exists."
+  ],
+  "tableGroupBy.0": [
+    "column n",
+    "Specifies the name of an input table column to group."
+  ],
+  "tableGroupBy.1": [
+    "method n",
+    "<p>specifies how to return values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong><br />Returns the first value in the group.</p><p><strong>last</strong><br />Returns the last value in the group.</p><p><strong>average</strong><br />Returns the average of all number values in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong><br />Returns the sum of all number values in the group. If there are no number values, returns 0.</p><p><strong>max</strong><br />Returns the largest number value in the group. If there are no number values, returns null.</p><p><strong>min</strong><br />Returns the smallest number in the group. Non-number values are treated as null and are not included in the calculation.</p><p><strong>count</strong><br />Returns the number of values in the group.</p><p><strong>concat</strong><br />Returns all values in the group, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong><br />Returns all unique values in the group, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong><br />Returns a table of values.</p>"
+  ],
+  "tableGroupBy.2": [
+    "outColumn n",
+    "Specifies the label for the column of grouped <strong>column <em>n</em></strong> values."
+  ],
+  "tableGroupBy.output": [
+    "output",
+    "Returns the output table. It contains one row for each unique value in <strong>baseColumn</strong>."
+  ],
+  "tableJoin.input1": [
+    "input1",
+    "Specifies the first table to join."
+  ],
+  "tableJoin.input2": [
+    "input2",
+    "Specifies the second table to join."
+  ],
+  "tableJoin.field1": [
+    "column1",
+    "Specifies the name of the key column from the input1 table."
+  ],
+  "tableJoin.field2": [
+    "column2",
+    "Specifies the name of the key column from the input2 table."
+  ],
+  "tableJoin.join": [
+    "join",
+    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from input1 are included. Rows from input2 are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from input2 are included. Rows from input1 are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
+  ],
+  "tableJoin.renameColumns": [
+    "renameColumns",
+    "Determines the naming in the output table for columns that come from input2. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
+  ],
+  "tableJoin.output": [
+    "output",
+    "Returns the joined table."
+  ],
+  "tablePage.input": [
+    "input",
+    "Receives the table for which you want to create paging."
+  ],
+  "tablePage.pageSize": [
+    "pageSize",
+    "Specifies the number of rows per page."
+  ],
+  "tablePage.start": [
+    "start",
+    "Specifies the row index to start paging on. Rows before this index are omitted from the output."
+  ],
+  "tablePage.nextPage": [
+    "nextPage",
+    "Advances the output table to the next page."
+  ],
+  "tablePage.prevPage": [
+    "prevPage",
+    "Changes the output table to the previous page."
+  ],
+  "tablePage.firstPage": [
+    "firstPage",
+    "Changes the output table to the first page."
+  ],
+  "tablePage.lastPage": [
+    "lastPage",
+    "Advances the output table to the last page."
+  ],
+  "tablePage.currentPage": [
+    "currentPage",
+    "Sets or returns the current page."
+  ],
+  "tablePage.totalPage": [
+    "totalPage",
+    "Returns the total number of pages for this table."
+  ],
+  "tablePage.output": [
+    "output",
+    "Returns the portion of the input table specified by the paging parameters."
+  ],
+  "tableRollup.input": [
+    "input",
+    "Receives the table in which you want to roll up values."
+  ],
+  "tableRollup.interval": [
+    "interval",
+    "Specifies the length of the range to roll up. It can be any of the following.<ul><li>One minute</li><li>Five minutes</li><li>Ten minutes</li><li>Fifteen minutes</li><li>Twenty minutes</li><li>Thirty minutes</li><li>Hour</li><li>Two hours</li><li>Three hours</li><li>Four hours</li><li>Six hours</li><li>Twelve hours</li><li>Day</li><li>Two days</li><li>Week</li><li>Month</li><li>Year</li></ul>"
+  ],
+  "tableRollup.dateColumn": [
+    "dateColumn",
+    "Specifies the name of the table column that holds the dates."
+  ],
+  "tableRollup.valueColumn": [
+    "valueColumn",
+    "Specifies the name of the table column that holds the values to be rolled up."
+  ],
+  "tableRollup.valueRollup": [
+    "valueRollup",
+    "<p>Specifies the type of rollup used.</p><p><strong>First</strong><br />Returns the first value for the interval.</p><p><strong>Last</strong><br />Returns the last value for the interval.</p><p><strong>Average</strong><br />Returns the average of all number values for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values for the interval. If there are no number values, returns 0.</p><p><strong>Max</strong><br />Returns the largest number value from the interval. If there are no number values, returns null.</p><p><strong>Min</strong><br />Returns the smallest number value for the interval. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values that exist for the interval. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values for the interval, separated by commas. Includes duplicate values.</p><p><strong>ConcatUnique</strong><br />Returns all unique values for the interval, separated by commas. Duplicate values are not included.</p>"
+  ],
+  "tableRollup.roundTime": [
+    "roundTime",
+    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>True</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>False</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+  ],
+  "tableRollup.output": [
+    "output",
+    "Returns the rolled up table."
+  ],
+  "tableAggregation.input": [
+    "input",
+    "Receives the table in which you want to aggregate values."
+  ],
+  "tableAggregation.column": [
+    "column",
+    "Specifies the name of the table column."
+  ],
+  "tableAggregation.method": [
+    "method",
+    "<p>Specifies the type of aggregation.</p><p><strong>First</strong><br />Returns the first value in the column.</p><p><strong>Last</strong><br />Returns the last value in the column.</p><p><strong>Average</strong><br />Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Sum</strong><br />Returns the sum of all number values in the column. If there are no number values, returns 0.</p><p><strong>Max</strong><br />Returns the maximum number value in the column. If there are no number values, returns null.</p><p><strong>Min</strong><br />Returns the minimum number value in the column. Non-number values are treated as null and are not included in the calculation.</p><p><strong>Count</strong><br />Returns the number of values in the column. Null values are not included.</p><p><strong>Concat</strong><br />Returns all values in the column as a comma-separated list. Duplicate values are included.</p><p><strong>Concat unique</strong><br />Returns all unique values in the column as a comma-separated list. Duplicate values are not included.</p><p><strong>Table Union</strong><br />If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</p>"
+  ],
+  "tableAggregation.output": [
+    "output",
+    "Returns the output string as determined by the method parameter."
+  ],
+  "tableSelectRows.input": [
+    "input",
+    "Receives the table from which you want to select rows."
+  ],
+  "tableSelectRows.indexes": [
+    "indexes",
+    "Specifies the rows in the input table to select, as comma-separated values."
+  ],
+  "tableSelectRows.output": [
+    "output",
+    "Returns a new table. It contains only the rows at the specified indexes."
+  ],
+  "tableGetColumns.input": [
+    "input",
+    "Receives the table from which you want to get column names."
+  ],
+  "tableGetColumns.output": [
+    "output",
+    "Returns the output table. It contains a row for each column in the input table."
+  ],
+  "tableRowCells.table": [
+    "table",
+    "Receives the table from which you want to get values."
+  ],
+  "tableRowCells.row": [
+    "row",
+    "Specifies a row index in the input table."
+  ],
+  "tableRowCells.0": [
+    "column n",
+    "Specifies a column name in the input table"
+  ],
+  "tableRowCells.1": [
+    "value n",
+    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it writes to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
+  ],
+  "tableTranspose.input": [
+    "input",
+    "Receives the table that you want to transpose."
+  ],
+  "tableTranspose.ignoreColumns": [
+    "ignoreColumns",
+    "Specifies the names of columns in the input table to ignore when transposing, as comma-separated values."
+  ],
+  "tableTranspose.headerColumn": [
+    "headerColumn",
+    "Specifies the column from the input table to use as headers in the output table."
+  ],
+  "tableTranspose.includeHeaders": [
+    "includeHeaders",
+    "Specifies whether the header row from the input table is included as a column in the output table."
+  ],
+  "tableTranspose.headerPrefix": [
+    "headerPrefix",
+    "Specifies the text string to include before the column number for each column header in the output table. It only works when the headerColumn property is null."
+  ],
+  "tableTranspose.output": [
+    "output",
+    "Returns the transposed table."
   ]
 }
