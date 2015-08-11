@@ -3900,6 +3900,10 @@
     "Original",
     ""
   ],
+  "number.value": [
+    "value",
+    "Sets and returns the value of this Number block or Constant block."
+  ],
   "strLoader.headers": [
     "Headers",
     ""
@@ -4743,6 +4747,106 @@
   "setState.2": [
     "Original 0",
     ""
+  ],
+  "abs.input": [
+    "input",
+    "Specifies the number for which to calculate absolute value."
+  ],
+  "abs.output": [
+    "output",
+    "Returns the absolute value of the input."
+  ],
+  "bound.input": [
+    "input",
+    "Specifies the number to compare to the range."
+  ],
+  "bound.min": [
+    "min",
+    "Specifies the minimum of the range."
+  ],
+  "bound.max": [
+    "max",
+    "Specifies the maximum of the range."
+  ],
+  "bound.inputOutOfRange": [
+    "inputOutOfRange",
+    "Returns TRUE if the input is outside the range, FALSE otherwise."
+  ],
+  "bound.output": [
+    "output",
+    "Returns the input number if it is within the range, the **min** value if **input** is below the range, or the **max** value if **input** is above the range."
+  ],
+  "round.input": [
+    "input",
+    "Specifies any real number that you want to round."
+  ],
+  "round.precision": [
+    "precision",
+    "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number to the nearest integer."
+  ],
+  "round.output": [
+    "output",
+    "Returns the rounded number."
+  ],
+  "roundUp.input": [
+    "input",
+    "Specifies any real number that you want rounded up."
+  ],
+  "roundUp.precision": [
+    "precision",
+    "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number up to the nearest integer."
+  ],
+  "roundUp.output": [
+    "output",
+    "Returns the rounded-up number."
+  ],
+  "roundDown.input": [
+    "input",
+    "Specifies any real number that you want rounded down."
+  ],
+  "roundDown.precision": [
+    "precision",
+    "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number down to the nearest integer."
+  ],
+  "roundDown.output": [
+    "output",
+    "Returns the rounded-down number."
+  ],
+  "gradientMapping.input": [
+    "input",
+    "Specifies the number to translate to a color from the gradient."
+  ],
+  "gradientMapping.min": [
+    "min",
+    "Specifies the minimum of the number scale, corresponding to the left end of the gradient."
+  ],
+  "gradientMapping.max": [
+    "max",
+    "Specifies the maximum of the number scale, corresponding to the right end of the gradient."
+  ],
+  "gradientMapping.output": [
+    "output",
+    "Returns the color in the gradient that corresponds to the input's position in the number range."
+  ],
+  "formatNumber.input": [
+    "input",
+    "Specifies the number to format."
+  ],
+  "formatNumber.format": [
+    "format",
+    "Specifies specifies a combination of <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home?&#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
+  ],
+  "formatNumber.output": [
+    "output",
+    "Returns the formatted number or string."
+  ],
+  "parseNumber.input": [
+    "input",
+    "Specifies the string from which to extract a numeric value."
+  ],
+  "parseNumber.output": [
+    "output",
+    "Returns the first numeric value parsed from the input string."
   ],
   "csvParser.input": [
     "input",
