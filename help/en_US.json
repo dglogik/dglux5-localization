@@ -2136,110 +2136,6 @@
     "Output",
     ""
   ],
-  "add.0": [
-    "Input 0",
-    ""
-  ],
-  "subtract.0": [
-    "Input 0",
-    ""
-  ],
-  "multiply.0": [
-    "Input 0",
-    ""
-  ],
-  "divide.0": [
-    "Input 0",
-    ""
-  ],
-  "max.0": [
-    "Input 0",
-    ""
-  ],
-  "min.0": [
-    "Input 0",
-    ""
-  ],
-  "modulo.quotient": [
-    "Quotient",
-    ""
-  ],
-  "modulo.remainder": [
-    "Remainder",
-    ""
-  ],
-  "log.base": [
-    "Base",
-    ""
-  ],
-  "power.power": [
-    "Power",
-    ""
-  ],
-  "root.root": [
-    "Root",
-    ""
-  ],
-  "average.0": [
-    "Input 0",
-    ""
-  ],
-  "median.0": [
-    "Input 0",
-    ""
-  ],
-  "mode.0": [
-    "Input 0",
-    ""
-  ],
-  "variance.0": [
-    "Input 0",
-    ""
-  ],
-  "stdDeviation.0": [
-    "Input 0",
-    ""
-  ],
-  "scale.inputMin": [
-    "Input Min",
-    ""
-  ],
-  "scale.inputMax": [
-    "Input Max",
-    ""
-  ],
-  "scale.outputMin": [
-    "Output Min",
-    ""
-  ],
-  "scale.outputMax": [
-    "Output Max",
-    ""
-  ],
-  "concat.0": [
-    "Input 0",
-    ""
-  ],
-  "concat.strict": [
-    "Strict",
-    ""
-  ],
-  "substring.end": [
-    "End",
-    ""
-  ],
-  "replace.regexp": [
-    "Regexp",
-    ""
-  ],
-  "replace.0": [
-    "Find 0",
-    ""
-  ],
-  "replace.1": [
-    "Replace 0",
-    ""
-  ],
   "label.label": [
     "Label",
     ""
@@ -4747,6 +4643,210 @@
   "setState.2": [
     "Original 0",
     ""
+  ],
+  "concat.0": [
+    "input n",
+    "Specifies one of the strings to concatenate."
+  ],
+  "concat.strict": [
+    "strict",
+    ""
+  ],
+  "concat.output": [
+    "output",
+    "Returns a string formed by concatenating all of the input values."
+  ],
+  "left.input": [
+    "input",
+    "Specifies the text string that contains the characters to extract."
+  ],
+  "left.length": [
+    "length",
+    "Specifies how many characters to extract."
+  ],
+  "left.output": [
+    "output",
+    "Returns the extracted characters."
+  ],
+  "length.input": [
+    "input",
+    "Specifies the text to find the length for. Spaces count as characters."
+  ],
+  "length.output": [
+    "output",
+    "Returns the number of characters in the input string."
+  ],
+  "right.input": [
+    "input",
+    "Specifies the text string that contains the characters to extract."
+  ],
+  "right.length": [
+    "length",
+    "Specifies how many characters to extract."
+  ],
+  "right.output": [
+    "output",
+    "Returns the extracted characters."
+  ],
+  "substring.input": [
+    "input",
+    "Specifies the text string that contains the characters to extract."
+  ],
+  "substring.start": [
+    "start",
+    "Determines the position of the first character to extract from the input text. A value of 0 indicates the first character in the input."
+  ],
+  "substring.length": [
+    "length",
+    "Specifies the number of characters to extract from the input."
+  ],
+  "substring.end": [
+    "end",
+    "Determines the position of the last character to extract from the input text."
+  ],
+  "substring.output": [
+    "length",
+    "Returns the substring."
+  ],
+  "replace.input": [
+    "input",
+    "Specifies the text string in which to replace characters."
+  ],
+  "replace.regexp": [
+    "regexp",
+    "Specifies whether you are replacing using a regular expression"
+  ],
+  "replace.0": [
+    "find n",
+    "Specifies the text to replace."
+  ],
+  "replace.1": [
+    "replace n",
+    "Specifies the text to replace <strong>find <em>n</em></strong> with."
+  ],
+  "replace.output": [
+    "output",
+    "Returns the string with all replacements."
+  ],
+  "add.0": [
+    "input n",
+    "Specifies one of the numbers to add."
+  ],
+  "add.output": [
+    "output",
+    "Returns the result of adding all of the input values."
+  ],
+  "divide.0": [
+    "input n",
+    "<strong>input 0</strong> specifies the initial dividend. All other <strong>input <em>n</em></strong> values specify divisors. Division is calculated in order, top to bottom."
+  ],
+  "divide.output": [
+    "output",
+    "Returns the result of dividing the input values."
+  ],
+  "factorial.input": [
+    "input",
+    "Specifies the number to find the factorial for."
+  ],
+  "factorial.output": [
+    "output",
+    "Returns the factorial of the input. If the input is not an integer, it is truncated."
+  ],
+  "log.input": [
+    "input",
+    "Specifies the number to get the logarithm for."
+  ],
+  "log.base": [
+    "base",
+    "Specifies the base for the logarithm."
+  ],
+  "log.output": [
+    "output",
+    "Returns the logarithm for the specified <strong>input</strong> and <strong>base</strong>."
+  ],
+  "modulo.input": [
+    "input",
+    "Specifies the dividend."
+  ],
+  "modulo.modulo": [
+    "modulo",
+    "Specifies the divisor."
+  ],
+  "modulo.quotient": [
+    "quotient",
+    "Returns the integer result of the input value divided by the modulo value."
+  ],
+  "modulo.remainder": [
+    "remainder",
+    "Returns the remainder. It always has the same sign as the input, or dividend, value."
+  ],
+  "multiply.0": [
+    "input n",
+    "Specifies one of the numbers to multiply."
+  ],
+  "multiply.output": [
+    "output",
+    "Returns the product of multiplying all of the input values."
+  ],
+  "power.input": [
+    "input",
+    "Specifies the value to be raised to an exponent."
+  ],
+  "power.power": [
+    "power",
+    "Specifies the exponent to raise <strong>input</strong> to."
+  ],
+  "power.output": [
+    "output",
+    "Returns the result of raising <strong>input</strong> to the power of <strong>power</strong>."
+  ],
+  "root.input": [
+    "input",
+    "Specifies the value to take the root of."
+  ],
+  "root.root": [
+    "root",
+    "Specifies the root to use. For example, a value of 3 calculates a cubic root."
+  ],
+  "root.output": [
+    "output",
+    "Returns the result of taking the <strong>root</strong>-th root of the <strong>input</strong> value."
+  ],
+  "scale.input": [
+    "input",
+    "Specifies the number to re-scale."
+  ],
+  "scale.inputMin": [
+    "inputMin",
+    "Specifies the minimum of the original scale."
+  ],
+  "scale.inputMax": [
+    "inputMax",
+    "Specifies the maximum of the original scale."
+  ],
+  "scale.outputMin": [
+    "outputMin",
+    "Specifies the minimum of the new scale."
+  ],
+  "scale.outputMax": [
+    "outputMax",
+    "Specifies the maximum of the new scale."
+  ],
+  "scale.inputOutOfRange": [
+    "inputOutOfRange",
+    "Returns TRUE if the input is outside the range, FALSE otherwise."
+  ],
+  "scale.output": [
+    "output",
+    "Returns the value in the new scale that corresponds to <strong>input</strong> in the old scale. If <strong>input</strong> is below the input range, <strong>output</strong> returns <strong>outputMin</strong>. If <strong>input</strong> is above the input range, output returns <strong>outputMax</strong>."
+  ],
+  "subtract.0": [
+    "input n",
+    "Specifies one of the numbers to subtract. Subtraction is calculated in order, top to bottom."
+  ],
+  "subtract.output": [
+    "output",
+    "Returns the result of subtracting the input values."
   ],
   "abs.input": [
     "input",
