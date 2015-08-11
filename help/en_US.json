@@ -4714,7 +4714,7 @@
   ],
   "replace.regexp": [
     "regexp",
-    "Specifies whether you are replacing using a regular expression"
+    "Specifies whether to find strings using a regular expression."
   ],
   "replace.0": [
     "find n",
@@ -5036,11 +5036,11 @@
     "input",
     "Returns the cosine of the input."
   ],
-  "cotan.input": [
+  "cot.input": [
     "input",
     "Specifies the angle to get the cotangent for, in degrees."
   ],
-  "cotan.output": [
+  "cot.output": [
     "input",
     "Returns the cotangent of the input."
   ],
