@@ -4728,6 +4728,14 @@
     "output",
     "Returns the string with all replacements."
   ],
+  "trim.input": [
+    "output",
+    "Specifies the text to remove spaces from."
+  ],
+  "trim.output": [
+    "output",
+    "Returns the input text, with any leading or trailing spaces removed."
+  ],
   "add.0": [
     "input n",
     "Specifies one of the numbers to add."
