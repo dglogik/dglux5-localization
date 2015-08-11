@@ -4774,7 +4774,7 @@
   ],
   "bound.output": [
     "output",
-    "Returns the input number if it is within the range, the **min** value if **input** is below the range, or the **max** value if **input** is above the range."
+    "Returns the input number if it is within the range, the <strong>min</strong> value if <strong>input</strong> is below the range, or the <strong>max</strong> value if <strong>input</strong> is above the range."
   ],
   "round.input": [
     "input",
