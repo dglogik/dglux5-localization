@@ -4848,6 +4848,134 @@
     "output",
     "Returns the first numeric value parsed from the input string."
   ],
+  "average.0": [
+    "input n",
+    "Specifies one of the values to average."
+  ],
+  "average.output": [
+    "output",
+    "Returns the mean of all input values."
+  ],
+  "max.0": [
+    "input n",
+    "Specifies one of the input values for the statistical function."
+  ],
+  "max.output": [
+    "output",
+    "Returns the largest of the input values."
+  ],
+  "median.0": [
+    "input n",
+    "Specifies one of the input values for the statistical function."
+  ],
+  "median.output": [
+    "output",
+    "Returns the median of all input values."
+  ],
+  "min.0": [
+    "input n",
+    "Specifies one of the input values for the statistical function."
+  ],
+  "min.output": [
+    "output",
+    "Returns the smallest of the input values."
+  ],
+  "mode.0": [
+    "input n",
+    "Specifies one of the input values for the statistical function."
+  ],
+  "mode.output": [
+    "output",
+    "Returns the mode of all input values."
+  ],
+  "stdDeviation.0": [
+    "input n",
+    "Specifies one of the numbers in the sample."
+  ],
+  "stdDeviation.output": [
+    "output",
+    "Returns the standard deviation of the input values."
+  ],
+  "variance.0": [
+    "input n",
+    "Defines one of the numbers in the set."
+  ],
+  "variance.output": [
+    "output",
+    "Returns the variance of the input values."
+  ],
+  "acos.input": [
+    "input",
+    "Defines the cosine to get the angle for. Must be between −1 and 1."
+  ],
+  "acos.output": [
+    "input",
+    "Returns the arccosine of the input, in degrees."
+  ],
+  "asin.input": [
+    "input",
+    "Defines the sine to get the angle for. Must be between −1 and 1."
+  ],
+  "asin.output": [
+    "input",
+    "Returns the arcsine of the input, in degrees."
+  ],
+  "atan.input": [
+    "input",
+    "Defines the tangent to get the angle for."
+  ],
+  "atan.output": [
+    "input",
+    "Returns the arctangent of the input, in degrees."
+  ],
+  "cos.input": [
+    "input",
+    "Specifies the angle to get the cosine for, in degrees."
+  ],
+  "cos.output": [
+    "input",
+    "Returns the cosine of the input."
+  ],
+  "cotan.input": [
+    "input",
+    "Specifies the angle to get the cotangent for, in degrees."
+  ],
+  "cotan.output": [
+    "input",
+    "Returns the cotangent of the input."
+  ],
+  "toDegree.input": [
+    "input",
+    "Specifies the angle in radians, to convert to degrees."
+  ],
+  "toDegree.output": [
+    "input",
+    "Returns the input value, converted from radians to degrees."
+  ],
+  "toRadian.input": [
+    "input",
+    "Specifies the angle in degrees, to convert to radians."
+  ],
+  "toRadian.output": [
+    "input",
+    "Returns the input value, converted from degrees to radians."
+  ],
+  "sin.input": [
+    "input",
+    "Specifies the angle to get the sine for, in degrees."
+  ],
+  "sin.output": [
+    "input",
+    "Returns the sine of the input."
+  ],
+  "tan.input": [
+    "input",
+    "Specifies the angle to get the tangent for, in degrees."
+  ],
+  "tan.output": [
+    "input",
+    "Returns the tangent of the input."
+  ],
   "csvParser.input": [
     "input",
     "Receives the CSV string. It is often the output from a String Loader block."
