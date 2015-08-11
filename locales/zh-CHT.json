@@ -798,6 +798,7 @@
   "Multi-select": "多重選取",
   "Deselect Child On Click": "取消選擇點擊的孩子",
   "Row Focusable": "一個可獲得焦點的行",
+  "Show Ellipsis": "顯示省略號",
   "Rows": "行",
   "Columns": "列",
   "Use * to match any iframe message": "使用 * 匹配任何 iframe 消息",

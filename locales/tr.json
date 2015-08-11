@@ -798,6 +798,7 @@
   "Multi-select": "Çoklu seçim",
   "Deselect Child On Click": "Tıkırtı üstünde çocuk seçimini kaldırın",
   "Row Focusable": "Satır Focusable",
+  "Show Ellipsis": "Üç nokta göster",
   "Rows": "Satırları",
   "Columns": "Sütunlar",
   "Use * to match any iframe message": "Kullan * herhangi bir IFRAME mesaj eşleştirmek için",

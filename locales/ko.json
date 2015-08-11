@@ -798,6 +798,7 @@
   "Multi-select": "다중 선택",
   "Deselect Child On Click": "아이 클릭을 해제합니다",
   "Row Focusable": "행 포커스",
+  "Show Ellipsis": "줄임표를 표시",
   "Rows": "행",
   "Columns": "열",
   "Use * to match any iframe message": "사용 * 모든 iframe 메시지와 일치 하",

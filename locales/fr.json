@@ -798,6 +798,7 @@
   "Multi-select": "Sélection multiple",
   "Deselect Child On Click": "Décochez la case enfant lors du clic sur",
   "Row Focusable": "Ligne Focusable",
+  "Show Ellipsis": "Voir la sélection",
   "Rows": "Lignes",
   "Columns": "Colonnes",
   "Use * to match any iframe message": "Utilisation * pour correspondre à n'importe quel message d'iframe",

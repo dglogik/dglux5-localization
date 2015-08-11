@@ -798,6 +798,7 @@
   "Multi-select": "Множественный выбор",
   "Deselect Child On Click": "Снимите ребенка по щелчку",
   "Row Focusable": "Строка фокус",
+  "Show Ellipsis": "Показать с многоточием",
   "Rows": "Строк",
   "Columns": "Столбцы",
   "Use * to match any iframe message": "Используйте * для соответствия любого сообщения iframe",

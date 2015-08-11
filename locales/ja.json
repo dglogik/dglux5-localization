@@ -798,6 +798,7 @@
   "Multi-select": "複数選択",
   "Deselect Child On Click": "子をクリックして選択を解除します。",
   "Row Focusable": "フォーカスを設定できる行",
+  "Show Ellipsis": "省略記号を表示します。",
   "Rows": "行",
   "Columns": "列",
   "Use * to match any iframe message": "使用 * すべての iframe のメッセージに一致するには",

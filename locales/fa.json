@@ -798,6 +798,7 @@
   "Multi-select": "چند را انتخاب کنید",
   "Deselect Child On Click": "عدم انتخاب کودک کلیک",
   "Row Focusable": "ردیف Focusable",
+  "Show Ellipsis": "سه نقطه را نشان می دهد",
   "Rows": "ردیف",
   "Columns": "ستون",
   "Use * to match any iframe message": "استفاده * برای مطابقت با هر پیام iframe",

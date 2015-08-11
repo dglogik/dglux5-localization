@@ -798,6 +798,7 @@
   "Multi-select": "Wybór wielokrotny",
   "Deselect Child On Click": "Usuń zaznaczenie opcji dziecko na Click",
   "Row Focusable": "Wiersz aktywowana",
+  "Show Ellipsis": "Pokaż wielokropka",
   "Rows": "Wiersze",
   "Columns": "Kolumny",
   "Use * to match any iframe message": "Wykorzystanie * aby dopasować żadnego komunikatu iframe",

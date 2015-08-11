@@ -798,6 +798,7 @@
   "Multi-select": "Usean kohteen valinta",
   "Deselect Child On Click": "Poista lapsi napsauttamalla",
   "Row Focusable": "Rivin Focusable",
+  "Show Ellipsis": "Näytä kolme pistettä",
   "Rows": "Rivit",
   "Columns": "Sarakkeet",
   "Use * to match any iframe message": "Käytön * vastaamaan iframe viestiä",

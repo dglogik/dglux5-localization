@@ -798,6 +798,7 @@
   "Multi-select": "Πολλαπλή επιλογή",
   "Deselect Child On Click": "Καταργήστε την επιλογή του παιδιού με το κλικ",
   "Row Focusable": "Σειρά Focusable",
+  "Show Ellipsis": "Εμφάνιση αποσιωπητικά",
   "Rows": "Σειρές",
   "Columns": "Στήλες",
   "Use * to match any iframe message": "Χρήση * να ταιριάζει με οποιοδήποτε μήνυμα iframe",

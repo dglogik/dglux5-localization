@@ -798,6 +798,7 @@
   "Multi-select": "Із множинним вибором",
   "Deselect Child On Click": "Зніміть виділення з дитиною на натисніть",
   "Row Focusable": "Рядок фокусованої",
+  "Show Ellipsis": "Показати три крапки",
   "Rows": "Рядки",
   "Columns": "Стовпці",
   "Use * to match any iframe message": "Використання * щоб відповідати будь-яке повідомлення iframe",

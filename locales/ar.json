@@ -798,6 +798,7 @@
   "Multi-select": "تحديد متعدد",
   "Deselect Child On Click": "قم بإلغاء تحديد الطفل فوق",
   "Row Focusable": "مركز الصف",
+  "Show Ellipsis": "إظهار علامة القطع",
   "Rows": "الصفوف",
   "Columns": "الأعمدة",
   "Use * to match any iframe message": "استخدام * تطابق أي رسالة iframe",

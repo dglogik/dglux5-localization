@@ -798,6 +798,7 @@
   "Multi-select": "בחירה מרובה",
   "Deselect Child On Click": "בטלו את הבחירה צאצא, לחץ",
   "Row Focusable": "שורה ניתן למיקוד",
+  "Show Ellipsis": "הצג שלוש נקודות",
   "Rows": "שורות",
   "Columns": "עמודות",
   "Use * to match any iframe message": "שימוש * כדי להתאים כל הודעה iframe",

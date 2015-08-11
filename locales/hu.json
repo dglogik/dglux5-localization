@@ -798,6 +798,7 @@
   "Multi-select": "Többszörös kijelölés",
   "Deselect Child On Click": "Törölje a gyermek gombjára",
   "Row Focusable": "Sor fókuszálható",
+  "Show Ellipsis": "Három pont megjelenítése",
   "Rows": "Sorok",
   "Columns": "Oszlopok",
   "Use * to match any iframe message": "Használata * egyeztetendő iframe-üzenetekre",

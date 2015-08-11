@@ -798,6 +798,7 @@
   "Multi-select": "เลือกหลาย",
   "Deselect Child On Click": "ลูกคลิกยกเลิก",
   "Row Focusable": "แถว Focusable",
+  "Show Ellipsis": "แสดงจุดไข่ปลา",
   "Rows": "แถว",
   "Columns": "คอลัมน์",
   "Use * to match any iframe message": "ใช้ * เพื่อให้ตรงกับข้อ iframe",
