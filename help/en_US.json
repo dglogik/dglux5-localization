@@ -2148,18 +2148,6 @@
     "Align",
     ""
   ],
-  "datetime.isUTC": [
-    "Is U T C",
-    ""
-  ],
-  "parseDateTime.time": [
-    "Time",
-    ""
-  ],
-  "parseDateTime.weekday": [
-    "Weekday",
-    ""
-  ],
   "daterange.input": [
     "Value",
     "<p>Returns the currently selected date range in the date range picker using one of the formats listed below.<ul><li><strong>Range</strong> — \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> — \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> — \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> — \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> — \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> — \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
@@ -3928,10 +3916,6 @@
     "Version",
     ""
   ],
-  "localStorage.global": [
-    "Global",
-    ""
-  ],
   "openDashboard.dashboard": [
     "Dashboard",
     ""
@@ -3985,124 +3969,156 @@
     "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
   ],
   "table.save": [
-    "Save",
+    "save",
     ""
   ],
   "iframeMessage.match": [
-    "Match",
+    "match",
     ""
   ],
   "iframeMessage.origin": [
-    "Origin",
+    "origin",
     ""
   ],
   "frameMsgBroadcaster.messageGroup": [
-    "Message Group",
+    "messageGroup",
     ""
   ],
   "frameMsgReceiver.messageGroups": [
-    "Message Groups",
+    "messageGroups",
     ""
   ],
   "frameMsgReceiver.onMessage": [
-    "On Message",
+    "onMessage",
     ""
+  ],
+  "webDocument.width": [
+    "width",
+    "Retrieves the width of the usable portion of the user’s browser window in pixels."
+  ],
+  "webDocument.height": [
+    "height",
+    "Retrieves the height of the usable portion of the user’s browser window in pixels."
   ],
   "webDocument.screenWidth": [
-    "Screen Width",
-    ""
+    "screenWidth",
+    "Retrieves the width of the user’s entire screen in pixels."
   ],
   "webDocument.screenHeight": [
-    "Screen Height",
-    ""
+    "screenHeight",
+    "Retrieves the height of the user’s entire screen in pixels."
+  ],
+  "webDocument.URL": [
+    "URL",
+    "Returns the URL of this project."
   ],
   "webDocument.pixelDepth": [
-    "Pixel Depth",
-    ""
+    "pixelDepth",
+    "Retrieves the color depth or bit depth of the user’s screen, as reported by the browser. This is the number of bits used to determine the color of a pixel."
   ],
   "webDocument.pixelRatio": [
-    "Pixel Ratio",
-    ""
+    "pixelRatio",
+    "Retrieves the ratio of the width to the height of each pixel on the user’s monitor, as reported by the browser."
   ],
   "webDocument.protocol": [
-    "Protocol",
-    ""
+    "protocol",
+    "Returns whether the project’s URL begins with HTTP or HTTPS."
   ],
   "webDocument.host": [
-    "Host",
-    ""
+    "host",
+    "Returns the path to the host of this project."
   ],
   "webDocument.pathname": [
-    "Pathname",
-    ""
+    "pathname",
+    "Returns the pathname of this project. This is the portion of the URL after the protocol and host, and before any hash or search strings."
   ],
   "webDocument.inIFrame": [
-    "In I Frame",
-    ""
+    "inIFrame",
+    "Returns whether this instance of the project is within an IFrame."
   ],
   "webDocument.hash": [
-    "Hash",
-    ""
+    "hash",
+    "Sets or returns the string to appear after the hash (#) symbol in the URL. This allows you to create deep links and custom experiences based on data, properties, or user interaction. The hash value is saved across sessions and browser windows. The browser’s Back and Forward commands iterate through hash addresses."
   ],
   "webDocument.search": [
-    "Search",
-    ""
+    "search",
+    "Returns the string that appears after the question mark (?) symbol in the URL. You can bind the search property to a script block and use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#string'>string functions</a>, such as <code>str.decodeUriComponent()</code>, to parse it into a usable string."
   ],
   "webDocument.language": [
-    "Language",
-    ""
+    "language",
+    "Retrieves the language code of the browser."
   ],
   "webDocument.platform": [
-    "Platform",
-    ""
+    "platform",
+    "Retrieves the platform the browser is running on."
   ],
   "webDocument.userAgent": [
-    "User Agent",
-    ""
+    "userAgent",
+    "Retrieves the user–agent string, which identifies the browser and certain system details. It might not be accurate."
   ],
   "webDocument.appName": [
-    "App Name",
-    ""
+    "appName",
+    "Retrieves the name of the user’s browser. However, it is not a reliable source of information and often returns \"Netscape\" for various browsers."
   ],
   "webDocument.appCodeName": [
-    "App Code Name",
-    ""
+    "appCodeName",
+    "Retrieves the internal code name of the browser. However, it is not a reliable source of information and returns \"Mozilla\" in most cases."
   ],
   "webDocument.appVersion": [
-    "App Version",
-    ""
+    "appVersion",
+    "Retrieves the browser version. It might not be accurate."
   ],
   "webDocument.product": [
-    "Product",
-    ""
+    "product",
+    "Always returns \"Gecko,\" on any browser. It is not a reliable source of information."
   ],
   "webDocument.productSub": [
-    "Product Sub",
-    ""
+    "productSub",
+    "Retrieves the build number of the browser."
   ],
   "webDocument.vendor": [
-    "Vendor",
-    ""
+    "vendor",
+    "Retrieves the vendor name of the browser."
   ],
   "webDocument.vendorSub": [
-    "Vendor Sub",
-    ""
+    "vendorSub",
+    "Retrieves the version number substring of the vendor information. However, it is not a reliable source of information."
   ],
   "webDocument.isMobile": [
-    "Is Mobile",
-    ""
+    "isMobile",
+    "Returns whether the user is using a mobile device."
   ],
   "webDocument.hasTouch": [
-    "Has Touch",
-    ""
+    "hasTouch",
+    "Returns whether the user’s device has a touch screen."
   ],
   "webDocument.initialScale": [
-    "Initial Scale",
-    ""
+    "initialScale",
+    "<p>Determines the zoom level at which the project is opened. Only applies to mobile devices.</p><p><strong>A value of 1</strong><br />The application appears at normal scale.</p><p><strong>Values greater than 1</strong><br />The application appears smaller on mobile devices.</p><p><strong>Values less than 1</strong><br />The application appears larger on mobile devices.</p>"
   ],
   "webDocument.lockScale": [
-    "Lock Scale",
-    ""
+    "lockScale",
+    "<p>Determines whether zooming is allowed. Only applies to mobile devices.</p><p><strong>True</strong><br />Zooming is not allowed on mobile.</p><p><strong>False</strong><br />The user can pinch to zoom on mobile.</p>"
+  ],
+  "webDocument.@onBeforePrint": [
+    "onBeforePrint",
+    "Fires before the browser window contents are sent to the printer dialog. You can use this for changing configuration to prepare for printing."
+  ],
+  "webDocument.@onAfterPrint": [
+    "onAfterPrint",
+    "Fires after the browser window contents are sent to the printer dialog. You can use this for reverting changes made using <strong>onBeforePrint</strong>."
+  ],
+  "localStorage.key": [
+    "key",
+    "Sets or returns the key for a key-value pair."
+  ],
+  "localStorage.global": [
+    "global",
+    "<p>Specifies whether this block sets and returns the global or non-global value for the key.</p><p><strong>True</strong><br />This block sets and returns this user’s global value for the key, which stays consistent over any DGLux project.</p><p><strong>False</strong><br />This block sets and returns this user’s non-global value for the key, which applies only to this DGLux project.</p>"
+  ],
+  "localStorage.value": [
+    "value",
+    "Sets or returns the value for a key-value pair."
   ],
   "getViewProperty.objectPath": [
     "Object Path",
@@ -4922,7 +4938,7 @@
   ],
   "gradientMapping.input": [
     "input",
-    "Specifies the number to translate to a color from the gradient."
+    "Specifies the number to translate to a color in the gradient."
   ],
   "gradientMapping.min": [
     "min",
@@ -4942,7 +4958,7 @@
   ],
   "formatNumber.format": [
     "format",
-    "Specifies specifies a combination of <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home?&#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
+    "Specifies specifies a combination of <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
   ],
   "formatNumber.output": [
     "output",
@@ -5395,5 +5411,133 @@
   "tableTranspose.output": [
     "output",
     "Returns the transposed table."
+  ],
+  "datetime.year": [
+    "year",
+    "Specifies the year. Can include one to four digits."
+  ],
+  "datetime.month": [
+    "month",
+    "Specifies the month of the year, from 1 to 12 (January to December). Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.day": [
+    "day",
+    "Specifies the day of the month, from 1 to 31. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.hour": [
+    "hour",
+    "Specifies the hour of the day, from 1 to 24. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.minute": [
+    "minute",
+    "Specifies the minute of the hour, from 1 to 60. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.second": [
+    "second",
+    "Specifies the second of the minute, from 1 to 60. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.millisecond": [
+    "millisecond",
+    "Specifies the millisecond of the second, from 1 to 1000. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+  ],
+  "datetime.isUTC": [
+    "isUTC",
+    "Determines whether to use UTC. By default, DGLux will use your computer's time zone when converting to serial number. Set the **isUTC** boolean to TRUE if you want to use UTC instead."
+  ],
+  "datetime.output": [
+    "output",
+    "Returns the sequential serial number that represents a particular date and time."
+  ],
+  "dateformat.input": [
+    "input",
+    "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#examples_of_supported_new_datetime_datestring_formats'>Scripting and Syntax</a>."
+  ],
+  "dateformat.format": [
+    "format",
+    "Specifies a combination of desired <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>dateFormat</a> patterns. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\"."
+  ],
+  "dateformat.output": [
+    "output",
+    "Returns a DateTime string created from the specified input string and format."
+  ],
+  "parseDateTime.input": [
+    "input",
+    "Specifies the serial number or any supported date time string as outlined <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>here</a>."
+  ],
+  "parseDateTime.time": [
+    "time",
+    "Returns the serial number."
+  ],
+  "parseDateTime.year": [
+    "year",
+    "Returns the year."
+  ],
+  "parseDateTime.month": [
+    "month",
+    "Returns the month of the year as a number from 1 to 12."
+  ],
+  "parseDateTime.day": [
+    "day",
+    "Returns the day of the month as a number from 1 to 31."
+  ],
+  "parseDateTime.hour": [
+    "hour",
+    "Returns the hour of the day as a number from 1 to 24."
+  ],
+  "parseDateTime.minute": [
+    "minute",
+    "Returns the minute of the hour as a number from 1 to 60."
+  ],
+  "parseDateTime.second": [
+    "second",
+    "Returns the second of the minute as a number from 1 to 60."
+  ],
+  "parseDateTime.millisecond": [
+    "millisecond",
+    "Returns the millisecond of the second as a number from 1 to 1000."
+  ],
+  "parseDateTime.weekday": [
+    "weekday",
+    "Returns the day of the week as a number from 1 to 7. The number 1 represents Sunday, and the number 7 represents Saturday."
+  ],
+  "dateMath.input": [
+    "input",
+    "Specifies the serial number or any supported date time string as outlined <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>here</a>."
+  ],
+  "dateMath.op": [
+    "op",
+    "<p>pecifies whether Date Math performs \"Before\" calculations or \"After\" calculations on the input date.</p><p><strong>After</strong><br />The values of the other inputs are added to the <strong>input</strong> value.</p><p><strong>Before</strong><br />The values of the other inputs are subtracted from the <strong>input</strong> value.</p>"
+  ],
+  "dateMath.year": [
+    "year",
+    "Specifies the number of years to add or subtract, as a number with one to four digits."
+  ],
+  "dateMath.month": [
+    "month",
+    "Specifies the number of months to add or subtract."
+  ],
+  "dateMath.day": [
+    "day",
+    "Specifies the number of days to add or subtract."
+  ],
+  "dateMath.hour": [
+    "hour",
+    "Specifies the number of days to add or subtract."
+  ],
+  "dateMath.minute": [
+    "minute",
+    "Specifies the number of minutes to add or subtract."
+  ],
+  "dateMath.second": [
+    "second",
+    "Specifies the number of seconds to add or subtract."
+  ],
+  "dateMath.millisecond": [
+    "millisecond",
+    "Specifies how many milliseconds to add or subtract."
+  ],
+  "dateMath.output": [
+    "output",
+    "Returns the result of adding or subtracting the other inputs with the input value, depending on the <strong>op</strong> value."
   ]
 }
