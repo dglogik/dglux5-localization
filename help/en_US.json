@@ -3784,9 +3784,21 @@
     "Original",
     ""
   ],
+  "string.value": [
+    "value",
+    "Sets and returns the value of this String block."
+  ],
   "number.value": [
     "value",
     "Sets and returns the value of this Number block or Constant block."
+  ],
+  "bool.value": [
+    "value",
+    "Sets and returns the value of this Boolean block."
+  ],
+  "table.data": [
+    "data",
+    "Sets and returns the value of this Table block as a DGLux Table."
   ],
   "strLoader.headers": [
     "Headers",
@@ -3992,6 +4004,22 @@
     "onMessage",
     ""
   ],
+  "geoLocation.enabled": [
+    "enabled",
+    "Specifies whether the block is currently collecting location data."
+  ],
+  "geoLocation.latitude": [
+    "latitude",
+    "Returns the latitude of the user."
+  ],
+  "geoLocation.longitude": [
+    "longitude",
+    "Returns the longitude of the user."
+  ],
+  "webDocument.title": [
+    "title",
+    "Specifies the title for this web document. Typically, the user sees this title in the title bar of the browser window or tab. Only works in viewer mode."
+  ],
   "webDocument.width": [
     "width",
     "Retrieves the width of the usable portion of the user’s browser window in pixels."
@@ -4008,8 +4036,8 @@
     "screenHeight",
     "Retrieves the height of the user’s entire screen in pixels."
   ],
-  "webDocument.URL": [
-    "URL",
+  "webDocument.url": [
+    "url",
     "Returns the URL of this project."
   ],
   "webDocument.pixelDepth": [
@@ -4242,7 +4270,7 @@
   ],
   "eventGate.onFinish": [
     "onFinish",
-    "Fires an event when all of the inputs have been updated at least once.."
+    "Fires an event when all of the inputs have been updated at least once."
   ],
   "eventGate.order": [
     "order",
@@ -4745,7 +4773,7 @@
     "Returns the string with all replacements."
   ],
   "trim.input": [
-    "output",
+    "input",
     "Specifies the text to remove spaces from."
   ],
   "trim.output": [
@@ -5448,15 +5476,15 @@
     "output",
     "Returns the sequential serial number that represents a particular date and time."
   ],
-  "dateformat.input": [
+  "dateFormat.input": [
     "input",
     "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#examples_of_supported_new_datetime_datestring_formats'>Scripting and Syntax</a>."
   ],
-  "dateformat.format": [
+  "dateFormat.format": [
     "format",
     "Specifies a combination of desired <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>dateFormat</a> patterns. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\"."
   ],
-  "dateformat.output": [
+  "dateFormat.output": [
     "output",
     "Returns a DateTime string created from the specified input string and format."
   ],
@@ -5522,7 +5550,7 @@
   ],
   "dateMath.hour": [
     "hour",
-    "Specifies the number of days to add or subtract."
+    "Specifies the number of hours to add or subtract."
   ],
   "dateMath.minute": [
     "minute",
