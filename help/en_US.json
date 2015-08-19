@@ -1406,11 +1406,11 @@
   ],
   "calPos": [
     "Callout Position",
-    "<p>Determines where a callout is placed. The callout's Anchor also affects its placement. Placement can be relative to the page or the target.</p><p><strong>Any corner</strong><br />The anchor is positioned on this corner.</p><p><strong>Center of any edge</strong><br />The anchor is positioned on the center of this edge.</p><p><strong>Center</strong><br />The anchor is positioned at the center of the target or page.</p><p>This property overrides the Callout X Offset and Callout Y Offset properties.</p>"
+    "<p>Determines where a callout is placed. The callout's Anchor also affects its placement. Placement can be relative to the page or the target. This property overrides the Callout X Offset and Callout Y Offset properties.</p><p><strong>Any corner</strong><br />The Anchor is positioned on this corner.</p><p><strong>Center of any edge</strong><br />The Anchor is positioned on the center of this edge.</p><p><strong>Center</strong><br />The Anchor is positioned at the center of the target or page.</p>"
   ],
   "calAnchor": [
     "Callout Anchor",
-    "<p>Determines the part of the callout that is used to determine placement. The Position also affects callout placement.</p><p><strong>Any corner</strong><br />This corner of the callout acts as its anchor.</p><p><strong>Center of any edge</strong><br />This edge of the callout acts as its anchor point.</p><p><strong>Center</strong><br />The center of the callout acts as its anchor.</p>"
+    "<p>Determines the part of the callout that is used to determine placement. The Position also affects callout placement.</p><p><strong>Any corner</strong><br />This corner of the callout acts as its Anchor.</p><p><strong>Center of any edge</strong><br />This edge of the callout acts as its Anchor.</p><p><strong>Center</strong><br />The center of the callout acts as its Anchor.</p>"
   ],
   "calType": [
     "Callout Type",
