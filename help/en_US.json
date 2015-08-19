@@ -1406,11 +1406,11 @@
   ],
   "calPos": [
     "Callout Position",
-    "Two points determine where a callout is placed: the Callout Position and the Callout Anchor. The Callout Position is a point on the target object or the page. The Callout Anchor is a point on the callout. The callout is placed such that the two points join."
+    "Two points determine where a callout is placed: the Callout Position and the Callout Anchor. The Callout Position is a point on the target object or the page. The Callout Anchor is a point on the callout itself. The callout is placed such that the two points join."
   ],
   "calAnchor": [
     "Callout Anchor",
-    "Two points determine where a callout is placed: the Callout Position and the Callout Anchor. The Callout Position is a point on the target object or the page. The Callout Anchor is a point on the callout. The callout is placed such that the two points join."
+    "Two points determine where a callout is placed: the Callout Position and the Callout Anchor. The Callout Position is a point on the target object or the page. The Callout Anchor is a point on the callout itself. The callout is placed such that the two points join."
   ],
   "calType": [
     "Callout Type",
