@@ -4168,9 +4168,49 @@
     "error",
     "Returns the error string, if any."
   ],
+  "jsonpLoader.invoke": [
+    "invoke",
+    "Causes the data to be loaded. Only works when <strong>enabled</strong> is set to TRUE."
+  ],
+  "jsonpLoader.enabled": [
+    "enabled",
+    "<p>Specifies whether the loader is active.</p><p><strong>TRUE</strong><br />The JSONP data is retrieved as specified by <strong>invoke</strong>, <strong>interval</strong>, and <strong>autoRun</strong>.</p><p><strong>FALSE</strong><br />Nothing happens when this block is invoked.</p>"
+  ],
+  "jsonpLoader.interval": [
+    "interval",
+    "Specifies how often the loader gets data, in seconds."
+  ],
+  "jsonpLoader.autoRun": [
+    "autoRun",
+    "Specifies whether the loader gets data automatically. Only works when <strong>enabled</strong> is set to TRUE."
+  ],
+  "jsonpLoader.timeout": [
+    "timeout",
+    "Specifies how long the loader will attempt to load the string before the request is canceled."
+  ],
+  "jsonpLoader.loading": [
+    "loading",
+    "Returns whether the block is currently loading data."
+  ],
+  "jsonpLoader.url": [
+    "url",
+    "Specifies the location of the JSON string."
+  ],
   "jsonpLoader.callback": [
     "callback",
-    ""
+    "Specifies the name of the callback function used to retrieve the data. This function must be defined at the URL. You might be able to copy the function name from the URL string, or you might need to find it at the URL."
+  ],
+  "jsonpLoader.output": [
+    "output",
+    "Returns the JSON string."
+  ],
+  "jsonpLoader.onComplete": [
+    "onComplete",
+    "Fires when the JSON string is loaded."
+  ],
+  "jsonpLoader.error": [
+    "error",
+    "Returns the error message, if any."
   ],
   "queryBinding.0": [
     "Case 0",
@@ -4452,9 +4492,89 @@
     "value",
     "Sets or returns the value for a key-value pair."
   ],
+  "iframeMessage.invoke": [
+    "invoke",
+    "Causes the message to be sent. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "iframeMessage.enabled": [
+    "enabled",
+    "<p>Specifies whether message sending is enabled.</p><p><strong>TRUE</strong><br />Messages are sent as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p><p><strong>FALSE</strong><br />No messages are sent.</p>"
+  ],
+  "iframeMessage.interval": [
+    "interval",
+    "Specifies how often the message is sent automatically, in seconds. A value of 0 means that it is sent on <strong>autoRun</strong> or <strong>invoke</strong> only."
+  ],
+  "iframeMessage.autoRun": [
+    "autoRun",
+    "Specifies whether the message is sent automatically when the page loads."
+  ],
+  "iframeMessage.timeout": [
+    "timeout",
+    "Specifies how long the sending attempt will continue before it is canceled, in seconds."
+  ],
+  "iframeMessage.loading": [
+    "loading",
+    "Returns TRUE if the message is currently being sent, FALSE otherwise."
+  ],
+  "iframeMessage.message": [
+    "message",
+    "Holds the message to send, if it is a JSON string. Use this property when sending a message from DGLux."
+  ],
+  "iframeMessage.key": [
+    "key",
+    "<strong>key</strong> and <strong>match</strong> specify a key-value pair that must be matched somewhere in the JSON message, in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message from DGLux."
+  ],
+  "iframeMessage.match": [
+    "match",
+    "<strong>key</strong> and <strong>match</strong> specify a key-value pair that must be matched somewhere in the JSON message, in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message from DGLux."
+  ],
+  "iframeMessage.matchRegExp": [
+    "matchRegExp",
+    "Specifies a regular expression that the message must match."
+  ],
+  "iframeMessage.output": [
+    "output",
+    "Returns the message."
+  ],
+  "iframeMessage.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "exportHTML.invoke": [
+    "invoke",
+    "Causes the file to be exported. Only works when <strong>enabled</strong> is set to TRUE."
+  ],
+  "exportHTML.enabled": [
+    "enabled",
+    "<p>Specifies whether exporting to HTML is enabled.</p><p><strong>TRUE</strong><br />The file is exported as specified by <strong>invoke</strong>.</p><p><strong>FALSE</strong><br />The file is not exported.</p>"
+  ],
+  "exportHTML.format": [
+    "format",
+    "Specifies the file format to download. Select <strong>HTML</strong> for this property."
+  ],
+  "exportHTML.filename": [
+    "filename",
+    "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded."
+  ],
+  "exportHTML.output": [
+    "output",
+    "Returns the contents of the exported file, if no filename is defined."
+  ],
   "getViewProperty.objectPath": [
-    "Object Path",
-    ""
+    "objectPath",
+    "Specifies the path of the element to get a property for. For the parent of this dataflow block, enter <code>@parent</code>. See <a href='dglux5_wiki:dgscript:home#page_model'>Scripting and Syntax</a>."
+  ],
+  "getViewProperty.field": [
+    "field",
+    "<p>Specifies the property whose value you want to retrieve. Use one of these properties:<ul><li>offsetWidth</li><li>offsetHeight</li><li>offsetLeft</li><li>offsetTop</li><li>scrollWidth</li><li>scrollHeight</li><li>scrollLeft</li><li>scrollTop</li><li>maxScrollX</li><li>maxScrollY</li></ul></p><p>For information about these properties, see an HTML reference such as <a href='https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement'>this one</a>.</p>"
+  ],
+  "getViewProperty.invoke": [
+    "invoke",
+    "Causes the property value to load."
+  ],
+  "getViewProperty.output": [
+    "output",
+    "Returns the value of the property."
   ],
   "and.op": [
     "op",
