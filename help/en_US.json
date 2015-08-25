@@ -3804,17 +3804,70 @@
     "data",
     "Sets and returns the value of this Table block as a DGLux Table."
   ],
+  "strLoader.invoke": [
+    "invoke",
+    "Causes the string to be loaded. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "strLoader.enabled": [
+    "enabled",
+    "<p>Specifies whether the string loader is enabled. </p><p><strong>FALSE</strong><br />The string does not load.</p><p><strong>TRUE</strong><br />The string loads as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p>"
+  ],
+  "strLoader.interval": [
+    "interval",
+    "Specifies how often the string is reloaded automatically, in seconds. A value of 0 means that the string is reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only.
+"
+  ],
+  "strLoader.autoRun": [
+    "autoRun",
+    "Specifies whether the string is loaded automatically when the page loads."
+  ],
+  "strLoader.timeout": [
+    "timeout",
+    "Specifies how long the block attempts to load the string before the request is canceled."
+  ],
+  "strLoader.loading": [
+    "loading",
+    "Returns whether the string is currently being loaded."
+  ],
+  "strLoader.method": [
+    "method",
+    "<p>Specifies the <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html'>HTTP request method</a> for loading the string. In almost all cases, you want GET or POST.</p><p><strong>GET</strong><br />Retrieves the string at the specified URL.</p><p><strong>POST</strong><br />Adds something to the string at the specified URL.</p>"
+  ],
   "strLoader.headers": [
-    "Headers",
-    ""
+    "headers",
+    "Sets the headers for the HTTP request. Use the following syntax: <code>abc=abc&def=def</code>"
   ],
   "strLoader.sendCookies": [
-    "Send Cookies",
-    ""
+    "sendCookies",
+    "Specifies whether to send the user’s cookie to the URL from which you are retrieving the string. It is safer not to send cookies, but you must send cookies in order to get certain custom information, such as a particular user’s Twitter feed."
+  ],
+  "strLoader.path": [
+    "path",
+    "Specifies the URL to load the string from. It can be a DGLux file path relative to the root, or it can be some other URL."
+  ],
+  "strLoader.data": [
+    "data",
+    "Sets and returns either the payload for a POST request, or the string to be added to the URL for a GET request."
   ],
   "strLoader.respHeaders": [
-    "Resp Headers",
-    ""
+    "respHeaders",
+    "Returns the HTTP response headers received when the string is loaded."
+  ],
+  "strLoader.status": [
+    "status",
+    "Returns the <a href='https://en.wikipedia.org/wiki/List_of_HTTP_status_codes'>HTTP response status code</a>."
+  ],
+  "strLoader.output": [
+    "output",
+    "Returns the string contained in the file. Link this property to the input of a Parser block to create a table."
+  ],
+  "strLoader.onComplete": [
+    "onComplete",
+    "Fires when the string finishes loading. "
+  ],
+  "strLoader.error": [
+    "error",
+    "Returns the error message, if any."
   ],
   "jsonpLoader.callback": [
     "Callback",
