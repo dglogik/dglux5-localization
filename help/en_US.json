@@ -4076,6 +4076,98 @@
     "output",
     "<p>Returns a table of the given histories' values. Columns are:<ul><li><strong>timestamp</strong> – the time when the data was collected.</li><li><strong>v<em>n</em></strong> – the first data node's value, or its delta if specified.</li><li><strong>status</strong> (if specified) – the status of the data node at the time of collection. Can sometimes be used to indicate the reliability of the data.</li></ul></p>"
   ],
+  "loadValue.path": [
+    "path",
+    "Specifies the node for which to return information."
+  ],
+  "loadValue.enabled": [
+    "enabled",
+    "Specifies whether the Load Value block updates when the node’s value changes."
+  ],
+  "loadValue.format": [
+    "format",
+    ""
+  ],
+  "loadValue.value": [
+    "value",
+    "Returns the current value of the node, if <strong>enabled</strong> is TRUE. Returns the last collected value of the node, if <strong>enabled</strong> is FALSE."
+  ],
+  "loadValue.unit": [
+    "unit",
+    "Returns the units of the node."
+  ],
+  "loadValue.formatted": [
+    "formatted",
+    "Returns the formatted value. For example, for a numeric value, it returns a string that includes units. For an enum or boolean value, it returns the string associated with the value."
+  ],
+  "loadValue.status": [
+    "status",
+    "returns the status of the node, if applicable, such as \"down\" or \"overridden.\" It can indicate the reliability of the value."
+  ],
+  "loadValue.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "loadValue.lastUpdate": [
+    "lastUpdate",
+    "Returns a string indicating when the node was last updated."
+  ],
+  "loadHistory.invoke": [
+    "invoke",
+    "Causes the history to be loaded. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "loadHistory.enabled": [
+    "enabled",
+    "<p>Specifies whether the history loader is enabled.</p><p><strong>TRUE</strong><br />The history loads as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p><p><strong>FALSE</strong><br />The history does not load.</p>"
+  ],
+  "loadHistory.interval": [
+    "interval",
+    "Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on <strong>autoLoad</strong> or <strong>invoke</strong> only."
+  ],
+  "loadHistory.autoRun": [
+    "autoRun",
+    "Specifies whether the history is loaded automatically when the page loads."
+  ],
+  "loadHistory.timeout": [
+    "timeout",
+    "Specifies how long the loader attempts to load the history before the request is canceled."
+  ],
+  "loadHistory.loading": [
+    "loading",
+    "Returns whether the history is currently loading."
+  ],
+  "loadHistory.path": [
+    "path",
+    "Specifies the history for which to return information."
+  ],
+  "loadHistory.timeRange": [
+    "timeRange",
+    "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range."
+  ],
+  "loadHistory.dataInterval": [
+    "dataInterval",
+    "Specifies the date or time interval between each consecutive pair of data points. "
+  ],
+  "loadHistory.rollup": [
+    "rollup",
+    "<p>Specifies the type of rollup used. Options are:<ul><li><strong>Avg</strong> – the average of all number values for the interval</li><li><strong>Min</strong> – the smallest number value for the interval</li><li><strong>Max</strong> – the largest number value from the interval</li><li><strong>Sum</strong> – the sum of all number values for the interval</li><li><strong>First</strong> – the first value for the interval</li><li><strong>Last</strong> – the last value for the interval</li><li><strong>Count</strong> – the number of non-null values that exist for the interval</li></ul></p>"
+  ],
+  "loadHistory.header": [
+    "header",
+    "<p>Specifies which string is used to name the \"value\" column in the output table.<ul><li><strong>Default</strong> – the default string \"value\"</li><li><strong>Name</strong> – the name of the data node for which this is a history</li><li><strong>Parent</strong> – the name of the data node's parent</li><li><strong>Parent_Name</strong> – the names of both this node and its parent</li></ul></p>"
+  ],
+  "loadHistory.delta": [
+    "delta",
+    "<p>Specifies what is in the \"value\" column of the output table.<ul><li><strong>None</strong> – the value collected at the given time</li><li><strong>With previous</strong> – the difference between the values in this row and the previous one</li><li><strong>With next</strong> – the difference between the values in this row and the next one</li></ul></p>"
+  ],
+  "loadHistory.output": [
+    "output",
+    "<p>Returns a table of the given history's values. Columns are:<ul><li><strong>timestamp</strong> – the time when the data was collected</li><li><strong>value</strong> – the data node's value, or the delta if specified</li><li><strong>status</strong> – the status of the data node at the time of collection. Can sometimes be used to indicate the reliability of the data.</li></ul></p>"
+  ],
+  "loadHistory.error": [
+    "error",
+    "Returns the error string, if any."
+  ],
   "jsonpLoader.callback": [
     "callback",
     ""
@@ -4094,10 +4186,6 @@
   ],
   "valueBinding.1": [
     "Then 0",
-    ""
-  ],
-  "loadValue.lastUpdate": [
-    "Last Update",
     ""
   ],
   "invokeAction.action": [
