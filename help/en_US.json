@@ -3814,8 +3814,7 @@
   ],
   "strLoader.interval": [
     "interval",
-    "Specifies how often the string is reloaded automatically, in seconds. A value of 0 means that the string is reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only.
-"
+    "Specifies how often the string is reloaded automatically, in seconds. A value of 0 means that the string is reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only."
   ],
   "strLoader.autoRun": [
     "autoRun",
@@ -3869,8 +3868,36 @@
     "error",
     "Returns the error message, if any."
   ],
+  "strUploader.invoke": [
+    "invoke",
+    "Causes the new file to be created. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "strUploader.enabled": [
+    "enabled",
+    "<p>Specifies whether the string uploader is enabled.</p><p><strong>TRUE</strong><br />A file containing the string is uploaded when this block is invoked.</p><p><strong>FALSE</strong><br />Nothing happens when this block is invoked.</p>"
+  ],
+  "strUploader.path": [
+    "path",
+    "<p>Specifies where to upload the new file, relative to the root of this project. Must include a file name and extension.</p><p><ul><li>To save to the root, enter <code>&#47;&#60;filename&#62;.&#60;extension&#62;</code>.</li><li>To save to the <code>assets</code> folder, enter <code>assets&#47;&#60;filename&#62;.&#60;extension&#62;</code></li></ul></p>"
+  ],
+  "strUploader.data": [
+    "data",
+    "Holds the string that becomes the contents of this file."
+  ],
+  "strUploader.deleteEmptyFile": [
+    "deleteEmptyFile",
+    "<p>Specifies whether to delete the file if <strong>data</strong> is null.</p><p><strong>TRUE</strong><br />If <strong>data</strong> is null, nothing happens when this block is invoked.</p><p><strong>FALSE</strong><br />Even if <strong>data</strong> is null, a file is created when this block is invoked. The file is blank.</p>"
+  ],
+  "strUploader.onComplete": [
+    "onComplete",
+    "Fires when the file has been created."
+  ],
+  "strUploader.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
   "jsonpLoader.callback": [
-    "Callback",
+    "callback",
     ""
   ],
   "queryBinding.0": [
