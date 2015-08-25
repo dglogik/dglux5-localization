@@ -5164,6 +5164,22 @@
     "isResizing",
     "Returns TRUE if the dragStart event for this block has occurred and the dragEnd event has not occurred yet."
   ],
+  "delay.input": [
+    "input",
+    "Holds the value to deliver after a delay."
+  ],
+  "delay.delay": [
+    "delay",
+    "Sets the length of the delay, in seconds."
+  ],
+  "delay.interuptMode": [
+    "interruptMode",
+    "<p>specifies the behavior of this block in cases where <strong>input</strong> changes more than once during the duration of a delay.</p><p><strong>default</strong><br />Each input change is moved to <strong>output</strong> <em>n</em> seconds after it is accepted. Therefore, all changes to <strong>input</strong> are seen in <strong>output</strong>.</p><p><strong>replace</strong><br /> If the delay timer is not already running, an input change starts it. If another change happens while the timer is running, the timer does not reset. When the timer ends, whatever is in the <strong>input</strong> is moved to <strong>output</strong>. Therefore, if multiple changes happen during the same delay, only the last one of those changes is seen in <strong>output</strong>.</p><p><strong>restart</strong><br />Each input restarts the delay timer. Changes are moved to <strong>output</strong> only when the timer finishes. Therefore, if multiple changes happen during the same delay, only the last change is returned, and only after a delay that lasts the length of the timer.</p>"
+  ],
+  "delay.output": [
+    "output",
+    "Returns the input value after the delay."
+  ],
   "setState.0": [
     "Path 0",
     ""
