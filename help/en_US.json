@@ -4034,7 +4034,7 @@
   ],
   "loadHistories.timeout": [
     "timeout",
-    "specifies how long the block attempts to load the histories before the request is canceled."
+    "Specifies how long the block attempts to load the histories before the request is canceled."
   ],
   "loadHistories.loading": [
     "loading",
@@ -4042,7 +4042,7 @@
   ],
   "loadHistories.paths": [
     "paths",
-    "<p>specifies the histories that this block loads. To specify the histories:<ol><li>Click the <strong>Expand</strong> icon to open a <strong>loadHistories.paths</strong> panel.</li><li>In the Data panel, click the relevant device or data source.</li><li>In the Metrics panel, select a relevant device point, and drag its <strong>History</strong> icon to the <strong>loadHistories.paths</strong> panel.</li><li>Press Alt + Enter to create a new line.</li><li>Repeat steps 2–4 until all paths are entered.</li></ol></p>"
+    "<p>Specifies the histories that this block loads. To specify the histories:<ol><li>Click the <strong>Expand</strong> icon to open a <strong>loadHistories.paths</strong> panel.</li><li>In the Data panel, click the relevant device or data source.</li><li>In the Metrics panel, select a relevant device point, and drag its <strong>History</strong> icon to the <strong>loadHistories.paths</strong> panel.</li><li>Press Alt + Enter to create a new line.</li><li>Repeat steps 2–4 until all paths are entered.</li></ol></p>"
   ],
   "loadHistories.timeRange": [
     "timeRange",
@@ -4074,7 +4074,7 @@
   ],
   "loadHistories.output": [
     "output",
-    "<p>Returns a table of the given histories' values. Columns are:<ul><li><strong>timestamp</strong> – the time when the data was collected.</li><li><strong>v<em>n</em></strong> – the first data node's value, or its delta if specified.</li><li><strong>status</strong> (if specified) – </li><li><strong></strong> – the status of the data node at the time of collection. Can sometimes be used to indicate the reliability of the data.</li></ul></p>"
+    "<p>Returns a table of the given histories' values. Columns are:<ul><li><strong>timestamp</strong> – the time when the data was collected.</li><li><strong>v<em>n</em></strong> – the first data node's value, or its delta if specified.</li><li><strong>status</strong> (if specified) – the status of the data node at the time of collection. Can sometimes be used to indicate the reliability of the data.</li></ul></p>"
   ],
   "jsonpLoader.callback": [
     "callback",
