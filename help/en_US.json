@@ -81,7 +81,7 @@
   ],
   "todayFontFamily": [
     "Today Cell Font",
-    "<p>Specifies the font for the calendar cell that represents the current day.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for the calendar cell that represents the current day.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "todayBorder": [
     "Today Cell Stroke Color",
@@ -113,7 +113,7 @@
   ],
   "outOfMonthFontFamily": [
     "Out-of-Month Cells Font Family",
-    "<p>Specifies the font for out-of-month cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for out-of-month cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "outOfMonthBorder": [
     "Out-of-Month Cells Stroke Color",
@@ -145,7 +145,7 @@
   ],
   "weekendFontFamily": [
     "Weekend Cells Font",
-    "<p>Specifies the font for numbers in calendar weekend cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in calendar weekend cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "weekendBorder": [
     "Weekend Cells Stroke Color",
@@ -177,7 +177,7 @@
   ],
   "dowFontFamily": [
     "Days of Week Font",
-    "<p>Specifies the font for the names of the days of the week.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for the names of the days of the week.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "dowBorder": [
     "Days of Week Stroke Color",
@@ -221,7 +221,7 @@
   ],
   "highlightedFontFamily": [
     "Highlighted Cells Font",
-    "<p>Specifies the font for numbers in the cells the user mouses over, or the highlighted cells specified using the Property Inspector</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in the cells the user mouses over, or the highlighted cells specified using the Property Inspector</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "highlightedBorder": [
     "Highlighted Cells Stroke Color",
@@ -253,7 +253,7 @@
   ],
   "selectedFontFamily": [
     "Selected Cells Font",
-    "<p>Specifies the font for numbers in selected cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in selected cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "selectedBorder": [
     "Selected Cells Stroke Color",
@@ -285,7 +285,7 @@
   ],
   "normalFontFamily": [
     "Weekday Cells Font",
-    "<p>Specifies the font for numbers in weekday cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for numbers in weekday cells.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "normalBorder": [
     "Weekday Cells Stroke Color",
@@ -425,7 +425,7 @@
   ],
   "dgDataTip": [
     "Datatip",
-    "<p>Configures the text displayed in a datatip for a series. Use the tags listed below to format the datatip and include data.</p><p><strong>HTML tags</strong><br />Include these tags to format the datatip:<ul><li><strong>&#60;br&#47;&#62;</strong> — line break</li><li><strong>&#60;b&#62;insert text here&#60;&#47;b&#62;</strong> — bold</li><li><strong>&#60;i&#62;insert text here&#60;&#47;i&#62;</strong> — italic</li></ul></p><p><strong>Including data</strong><br />Include these tags to show values from the data:<ul><li><strong>%displayName%</strong> — the Display Name property for this series</li><li><strong>%xValue%</strong> — the X value of the point</li><li><strong>%yValue%</strong> — the Y value of the point</li><li><strong>%value%</strong> — the value of the pie wedge</li><li><strong>%yValueTotal%</strong> — The sum of the Y values for this point and other points in this table row. Only includes points from this series and others that appear above it inside this series stacker.</li><li><strong>%A%</strong> — Replace A with the name of a column to show the value of that column.</li></ul></p><p><strong>Formatting numbers</strong><br />To control how a number is formatted, include a format string inside brackets, before the final percent sign. For example:<ul><li><strong>%yValue&#91;,##0.00&#93;%</strong> — the Y value with a thousands separator and two decimal digits</li><li><strong>%value&#91;000.00&#93;%</strong> — the pie wedge value with three mandatory digits before the decimal, and two mandatory digits after the decimal. See number formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a>.</li></ul></p><p><strong>Formatting dates</strong><br />To control how a date is formatted, include a format string inside brackets, before the final percent sign. For example:<ul><li><strong>%xValue&#91;yy/MM/dd&#93;%</strong> — the X value as a date with a two-digit year, two-digit month, and two-digit day</li><li><strong>%xValue&#91;y MMMM dd&#93;%</strong> — the X value as a date with the full year, the name of the month, and a two-digit day</li><li><strong>%xValue&#91;yy/MM/dd HH:mm:ss&#93;%</strong> — the X value as a date and time</li><li><strong>%xValue&#91;yMd&#93;%</strong> — the X value as a localized short date pattern. The pattern will be different based on the locale.</li><li><strong>%xValue&#91;yMMMd&#124; &#124;Hms&#93;%</strong> — the X value as a localized date and time. The pattern will be different based on the locale. In this example, vertical bar symbols (&#124;) are used to join three patterns: one for the localized date, one that contains a space, and one for the localized time. See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</li></ul></p>"
+    "<p>Configures the text displayed in a datatip for a series. Use the tags listed below to format the datatip and include data.</p><p><strong>HTML tags</strong><br />Include these tags to format the datatip:<ul><li><strong>&#60;br&#47;&#62;</strong> – line break</li><li><strong>&#60;b&#62;insert text here&#60;&#47;b&#62;</strong> – bold</li><li><strong>&#60;i&#62;insert text here&#60;&#47;i&#62;</strong> – italic</li></ul></p><p><strong>Including data</strong><br />Include these tags to show values from the data:<ul><li><strong>%displayName%</strong> – the Display Name property for this series</li><li><strong>%xValue%</strong> – the X value of the point</li><li><strong>%yValue%</strong> – the Y value of the point</li><li><strong>%value%</strong> – the value of the pie wedge</li><li><strong>%yValueTotal%</strong> – The sum of the Y values for this point and other points in this table row. Only includes points from this series and others that appear above it inside this series stacker.</li><li><strong>%A%</strong> – Replace A with the name of a column to show the value of that column.</li></ul></p><p><strong>Formatting numbers</strong><br />To control how a number is formatted, include a format string inside brackets, before the final percent sign. For example:<ul><li><strong>%yValue&#91;,##0.00&#93;%</strong> – the Y value with a thousands separator and two decimal digits</li><li><strong>%value&#91;000.00&#93;%</strong> – the pie wedge value with three mandatory digits before the decimal, and two mandatory digits after the decimal. See number formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a>.</li></ul></p><p><strong>Formatting dates</strong><br />To control how a date is formatted, include a format string inside brackets, before the final percent sign. For example:<ul><li><strong>%xValue&#91;yy/MM/dd&#93;%</strong> – the X value as a date with a two-digit year, two-digit month, and two-digit day</li><li><strong>%xValue&#91;y MMMM dd&#93;%</strong> – the X value as a date with the full year, the name of the month, and a two-digit day</li><li><strong>%xValue&#91;yy/MM/dd HH:mm:ss&#93;%</strong> – the X value as a date and time</li><li><strong>%xValue&#91;yMd&#93;%</strong> – the X value as a localized short date pattern. The pattern will be different based on the locale.</li><li><strong>%xValue&#91;yMMMd&#124; &#124;Hms&#93;%</strong> – the X value as a localized date and time. The pattern will be different based on the locale. In this example, vertical bar symbols (&#124;) are used to join three patterns: one for the localized date, one that contains a space, and one for the localized time. See date formatting help <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>here</a>.</li></ul></p>"
   ],
   "showDataTips": [
     "Show Datatips",
@@ -473,7 +473,7 @@
   ],
   "calendar.titleFontFamily": [
     "Header Font",
-    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "titleColor": [
     "Title Color",
@@ -569,7 +569,7 @@
   ],
   "axis.inverted": [
     "Inverted",
-    "<p>Controls whether this axis is inverted. If this is a category axis, and the Category Order property is not null, then this property is ignored.</p><p><strong>True</strong><br />The smaller values appear at the top if this axis is vertical, or the right if it is horizontal. If this is a category axis, the top values in the table appear at the top or right of the axis.</p><p><strong>False</strong><br />The smaller values appear at the bottom or left of the axis. If this is a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
+    "<p>Controls whether this axis is inverted. If this is a category axis, and the Category Order property is not null, then this property is ignored.</p><p><strong>TRUE</strong><br />The smaller values appear at the top if this axis is vertical, or the right if it is horizontal. If this is a category axis, the top values in the table appear at the top or right of the axis.</p><p><strong>FALSE</strong><br />The smaller values appear at the bottom or left of the axis. If this is a category axis, the top values in the table appear at the bottom or left of the axis.</p>"
   ],
   "axis.axisType": [
     "Axis Type",
@@ -589,7 +589,7 @@
   ],
   "axis.baseAtZero": [
     "Base At Zero",
-    "<p>Allows you to change the axis range minimum to decrease unused space on the chart.</p><p><strong>True</strong><br />The axis minimum is zero, unless there are negative data values on this axis. In that case, the axis minimum is equal to, or slightly below, the lowest data value.</p><p><strong>False</strong><br />The axis minimum is equal to, or slightly below, the lowest data value.</p>"
+    "<p>Allows you to change the axis range minimum to decrease unused space on the chart.</p><p><strong>TRUE</strong><br />The axis minimum is zero, unless there are negative data values on this axis. In that case, the axis minimum is equal to, or slightly below, the lowest data value.</p><p><strong>FALSE</strong><br />The axis minimum is equal to, or slightly below, the lowest data value.</p>"
   ],
   "axis.dgDataUnits": [
     "Data Units",
@@ -765,7 +765,7 @@
   ],
   "inputType": [
     "Input Type",
-    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> — a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> — a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> — a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> — a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> — a year, month, and day.</li><li><strong>Week</strong> — a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> — a month and year.</li></ul></p>"
+    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> – a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> – a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> – a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> – a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> – a year, month, and day.</li><li><strong>Week</strong> – a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> – a month and year.</li></ul></p>"
   ],
   "isValid": [
     "Is Valid",
@@ -865,11 +865,11 @@
   ],
   "axisRenderer.labelsFontFamily": [
     "Labels Font",
-    "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font used for the labels along this axis.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "scaleLabels.labelsFontFamily": [
     "Labels Font",
-    "<p>Defines the font used for the labels along this scale.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font used for the labels along this scale.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "labelsColor": [
     "Labels Font Color",
@@ -881,7 +881,7 @@
   ],
   "scaleLabels.formatString": [
     "Format",
-    "<p>Defines the number format for scale labels, as a format string.</p><p>For example:<ul><li><strong>,##0.00<strong> — Labels have a thousands separator and two decimal digits. </li><li><strong>000.00</strong> — Labels have three mandatory digits before the decimal, and two mandatory digits after the decimal. </li></ul>See more information about supported formatting options <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>here</a>.</p>"
+    "<p>Defines the number format for scale labels, as a format string.</p><p>For example:<ul><li><strong>,##0.00<strong> – Labels have a thousands separator and two decimal digits. </li><li><strong>000.00</strong> – Labels have three mandatory digits before the decimal, and two mandatory digits after the decimal. </li></ul>See more information about supported formatting options <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>here</a>.</p>"
   ],
   "maximum": [
     "Maximum",
@@ -941,7 +941,7 @@
   ],
   "showFullTime": [
     "Show Full Time",
-    "<p>Determines whether the Range portion of the date range picker includes time.</p><p><strong>True</strong><br />The date range picker can specify start and end times, as well as start and end dates.</p><p><strong>False</strong><br />The date range picker can specify start and end dates only.</p>"
+    "<p>Determines whether the Range portion of the date range picker includes time.</p><p><strong>TRUE</strong><br />The date range picker can specify start and end times, as well as start and end dates.</p><p><strong>FALSE</strong><br />The date range picker can specify start and end dates only.</p>"
   ],
   "showRange": [
     "Show Range",
@@ -1009,7 +1009,7 @@
   ],
   "liveUpdate": [
     "Live Update",
-    "<p>Specifies when the user’s changes to this component are committed. This property affects changes made in Preview Mode, the Viewer, and the deployed application. It does not affect changes you make within the Property Inspector.</p><p><strong>True</strong><br />Changes are committed constantly, as the user makes them.</p><p><strong>False</strong><br />Changes are committed only when focus leaves the component.</p>"
+    "<p>Specifies when the user’s changes to this component are committed. This property affects changes made in Preview Mode, the Viewer, and the deployed application. It does not affect changes you make within the Property Inspector.</p><p><strong>TRUE</strong><br />Changes are committed constantly, as the user makes them.</p><p><strong>FALSE</strong><br />Changes are committed only when focus leaves the component.</p>"
   ],
   "wordWrap": [
     "Word Wrap",
@@ -1053,7 +1053,7 @@
   ],
   "fontFamily": [
     "Font",
-    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "textDir": [
     "Text Direction",
@@ -1066,7 +1066,7 @@
   ],
   "autoSize": [
     "Autosize",
-    "If true, causes this container to follow the content width. Only works if this container's width or height is set to Auto, and the content's width or height is set to pixels or percent."
+    "If TRUE, causes this container to follow the content width. Only works if this container's width or height is set to Auto, and the content's width or height is set to pixels or percent."
   ],
   "!isWidget": [
     "Widget Group",
@@ -1226,11 +1226,11 @@
   ],
   "autoSizeContent": [
     "Autosize Content",
-    "<p>Specifies whether this group’s content inherits the group size.</p><p><strong>True</strong><br />Content inherits the group size. This property can also be used to bring overflowing content into the bounds of the group, but only if the content overflows to the right or bottom of the group.</p><p><strong>False</strong><br />Content does not inherit the group size.</p>"
+    "<p>Specifies whether this group’s content inherits the group size.</p><p><strong>TRUE</strong><br />Content inherits the group size. This property can also be used to bring overflowing content into the bounds of the group, but only if the content overflows to the right or bottom of the group.</p><p><strong>FALSE</strong><br />Content does not inherit the group size.</p>"
   ],
   "clipContent": [
     "Clip Content",
-    "<p>Defines the handling of content that overflows this container.</p><p><strong>True</strong><br />All overflowed content is clipped and is not visible.</p><p><strong>False</strong><br />All overflowed content is visible and responds to mouse events.</p>"
+    "<p>Defines the handling of content that overflows this container.</p><p><strong>TRUE</strong><br />All overflowed content is clipped and is not visible.</p><p><strong>FALSE</strong><br />All overflowed content is visible and responds to mouse events.</p>"
   ],
   "layout": [
     "Layout",
@@ -1258,7 +1258,7 @@
   ],
   "filter.ratio": [
     "Ratio",
-    "<p>Defines the value of this filter effect. The meaning of this value differs depending on the type of effect:<ul><li><strong>Saturation</strong> — Changes the saturation of the element. Values under 100% create results with less saturation, and values over 100% create results with more saturation. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely unsaturated.</li><li><strong>Grayscale</strong> — Converts the element to grayscale. A value of 100% makes the element appear completely grayscale. A value of 0% leaves the element unchanged.</li><li><strong>Contrast</strong> — Controls the element's contrast. Values under 100% create results with less contrast, and values over 100% create results with more contrast. A value of 100% leaves the element unchanged. A value of 0% removes all contrast.</li><li><strong>Brightness</strong> — Controls the element's brightness. Values under 100% create results that appear dimmer, and values over 100% create results that appear brighter. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely black.</li><li><strong>Invert</strong> — Inverts the samples in the input element, giving a \"photo negative\" effect. A value of 100% inverts samples completely. A value of 0% leaves the element unchanged.</li><li><strong>Sepia</strong> — Converts the element to sepia. A value of 100% makes the element appear completely sepia. A value of 0% leaves the element unchanged.</li><li><strong>Hue Rotate</strong> — Applies a hue rotation to the element. Specifies the number of degrees around the color circle the input colors will be adjusted. A value of zero or 360 leaves the input unchanged. A value of 180 inverts the hues.</li></ul></p>"
+    "<p>Defines the value of this filter effect. The meaning of this value differs depending on the type of effect:<ul><li><strong>Saturation</strong> – Changes the saturation of the element. Values under 100% create results with less saturation, and values over 100% create results with more saturation. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely unsaturated.</li><li><strong>Grayscale</strong> – Converts the element to grayscale. A value of 100% makes the element appear completely grayscale. A value of 0% leaves the element unchanged.</li><li><strong>Contrast</strong> – Controls the element's contrast. Values under 100% create results with less contrast, and values over 100% create results with more contrast. A value of 100% leaves the element unchanged. A value of 0% removes all contrast.</li><li><strong>Brightness</strong> – Controls the element's brightness. Values under 100% create results that appear dimmer, and values over 100% create results that appear brighter. A value of 100% leaves the element unchanged. A value of 0% makes the element appear completely black.</li><li><strong>Invert</strong> – Inverts the samples in the input element, giving a \"photo negative\" effect. A value of 100% inverts samples completely. A value of 0% leaves the element unchanged.</li><li><strong>Sepia</strong> – Converts the element to sepia. A value of 100% makes the element appear completely sepia. A value of 0% leaves the element unchanged.</li><li><strong>Hue Rotate</strong> – Applies a hue rotation to the element. Specifies the number of degrees around the color circle the input colors will be adjusted. A value of zero or 360 leaves the input unchanged. A value of 180 inverts the hues.</li></ul></p>"
   ],
   "filter.size": [
     "Size",
@@ -1338,7 +1338,7 @@
   ],
   "calModal": [
     "Modal Callout",
-    "Determines whether the callout for this element is modal. When a modal callout is displayed, other elements in the view become faded and inactive. If the Gray Out Component property is true, then the callout's target becomes faded and inactive along with other elements."
+    "Determines whether the callout for this element is modal. When a modal callout is displayed, other elements in the view become faded and inactive. If the Gray Out Component property is TRUE, then the callout's target becomes faded and inactive along with other elements."
   ],
   "calTimeout": [
     "Hide Timeout",
@@ -1386,7 +1386,7 @@
   ],
   "calAutosize": [
     "Callout Autosize",
-    "<p>Determines the sizing relationship between this callout and its symbol.</p><p><strong>True</strong><br />This callout follows the size of the symbol. Only works properly when the callout's width and height are Auto, and the symbol size is in pixels.</p><p><strong>False</strong><br />The content follows the size of this callout. Only works properly when the callout's width and height are not Auto.</p>"
+    "<p>Determines the sizing relationship between this callout and its symbol.</p><p><strong>TRUE</strong><br />This callout follows the size of the symbol. Only works properly when the callout's width and height are Auto, and the symbol size is in pixels.</p><p><strong>FALSE</strong><br />The content follows the size of this callout. Only works properly when the callout's width and height are not Auto.</p>"
   ],
   "calH": [
     "Callout Height",
@@ -1418,7 +1418,7 @@
   ],
   "calType": [
     "Callout Type",
-    "<p>Defines when this element's callout is visible.</p><p><strong>None</strong><br />This element has no callout.</p><p><strong>Static</strong><br />This element's callout is always visible.</p><p><strong>Mouse-Over</strong><br />This element's callout is visible only when the user mouses over the element. Only works if this element's Mouse Enabled property is set to true.</p><p><strong>Events</strong><br />This element's callout is visible only when certain events occur. To configure an event for the callout, you can bind properties, events, or action triggers to the callout's Show and Hide triggers. Mouse events only work if this element's Mouse Enabled property is set to true.</p>"
+    "<p>Defines when this element's callout is visible.</p><p><strong>None</strong><br />This element has no callout.</p><p><strong>Static</strong><br />This element's callout is always visible.</p><p><strong>Mouse-Over</strong><br />This element's callout is visible only when the user mouses over the element. Only works if this element's Mouse Enabled property is set to TRUE.</p><p><strong>Events</strong><br />This element's callout is visible only when certain events occur. To configure an event for the callout, you can bind properties, events, or action triggers to the callout's Show and Hide triggers. Mouse events only work if this element's Mouse Enabled property is set to TRUE.</p>"
   ],
   "calloutSymbolId": [
     "Symbol",
@@ -1642,7 +1642,7 @@
   ],
   "cursor": [
     "Cursor",
-    "Specifies which cursor to show when the user mouses over this element. Only works when the Mouse Enabled property is true for this element and its parents."
+    "Specifies which cursor to show when the user mouses over this element. Only works when the Mouse Enabled property is TRUE for this element and its parents."
   ],
   "clickThrough": [
     "Click Through",
@@ -1654,11 +1654,11 @@
   ],
   "tooltip": [
     "Tooltip",
-    "Defines the tooltip text to appear when the user mouses over this element. Tooltips use the default tooltip appearance for the user's browser and operating system. Tooltips appear only when the Mouse Enabled property is true for the element and its parents."
+    "Defines the tooltip text to appear when the user mouses over this element. Tooltips use the default tooltip appearance for the user's browser and operating system. Tooltips appear only when the Mouse Enabled property is TRUE for the element and its parents."
   ],
   "display": [
     "Display",
-    "<p>Defines whether this element is displayed. If it is not displayed, the component does not affect layout. However, regardless of value, the element is stored in the user's browser memory. Performance might be affected as a result.</p><p><strong>True</strong><br />This element is displayed, and it affects layout.</p><p><strong>False</strong><br />This element is not displayed, and it does not affect layout. The element remains stored in browser memory.</p>"
+    "<p>Defines whether this element is displayed. If it is not displayed, the component does not affect layout. However, regardless of value, the element is stored in the user's browser memory. Performance might be affected as a result.</p><p><strong>TRUE</strong><br />This element is displayed, and it affects layout.</p><p><strong>FALSE</strong><br />This element is not displayed, and it does not affect layout. The element remains stored in browser memory.</p>"
   ],
   "!label": [
     "Name",
@@ -1666,11 +1666,11 @@
   ],
   "visibility": [
     "Visible",
-    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>True</strong><br />This element is visible.</p><p><strong>False</strong><br />This element is not visible, but it still affects layout and is stored in browser memory.</p>"
+    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>TRUE</strong><br />This element is visible.</p><p><strong>FALSE</strong><br />This element is not visible, but it still affects layout and is stored in browser memory.</p>"
   ],
   "followPathBaseRotation": [
     "Follow Path Base Rotation",
-    "Defines a rotation for the element, as an angle. If the Follow Path Rotation property is set to true, then this base value becomes a constant that is added to the path-based rotation."
+    "Defines a rotation for the element, as an angle. If the Follow Path Rotation property is set to TRUE, then this base value becomes a constant that is added to the path-based rotation."
   ],
   "followPathPosition": [
     "Follow Path Position",
@@ -1678,7 +1678,7 @@
   ],
   "followPathRotationEnabled": [
     "Follow Path Rotation",
-    "<p>Specifies whether this element rotates as it follows its path.</p><p><strong>True</strong><br />This element rotates relative to its path. If Base Rotation is 0, then the bottom edge of the element stays parallel to the path. A non-zero Base Rotation value adds to or subtracts from this angle.</p><p><strong>False</strong><br />This element's rotation is independent from its position on the path.</p>"
+    "<p>Specifies whether this element rotates as it follows its path.</p><p><strong>TRUE</strong><br />This element rotates relative to its path. If Base Rotation is 0, then the bottom edge of the element stays parallel to the path. A non-zero Base Rotation value adds to or subtracts from this angle.</p><p><strong>FALSE</strong><br />This element's rotation is independent from its position on the path.</p>"
   ],
   "followFor": [
     "Follow For",
@@ -1710,7 +1710,7 @@
   ],
   "height": [
     "Height",
-    "<p>Specifies the height of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto height</strong><br />To set Auto height, click the blue dot and select <strong>Reset</strong>. Auto height is recommended whenever possible. It creates the most responsive layouts. You can use Auto height in the following ways:<ul><li><strong>Stretch</strong> — For all components, when the parent layout is Horizontal, and vertical alignment is Stretch, use Auto height to make this element’s height inherit the parent height. Does not work properly for calendars, or with wrapping.</li><li><strong>Flex-Grow</strong> — For all components, when the parent layout is Vertical, use Auto height together with Flex-Grow to cause this element and its siblings to share the entire parent height. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> — Use Auto height to make this component's height follow the content height. If Auto width is also used, the component follows the content size.</li><li><strong>Symbols</strong> — Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to true, and the internal symbol width and height are is in pixels.</li><li><strong>Groups</strong> — Use Auto height to make this group’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> — Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to true, and the internal content height is set to pixels or percent.</li><li><strong>Videos</strong> — Use Auto height and a pixel or percent width to make this component’s height follow the content aspect ratio without growing taller than the content. Depending on the width, part of the container might be empty. If Auto width is also used, the component follows the content size.</li></ul></p>"
+    "<p>Specifies the height of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto height</strong><br />To set Auto height, click the blue dot and select <strong>Reset</strong>. Auto height is recommended whenever possible. It creates the most responsive layouts. You can use Auto height in the following ways:<ul><li><strong>Stretch</strong> – For all components, when the parent layout is Horizontal, and vertical alignment is Stretch, use Auto height to make this element’s height inherit the parent height. Does not work properly for calendars, or with wrapping.</li><li><strong>Flex-Grow</strong> – For all components, when the parent layout is Vertical, use Auto height together with Flex-Grow to cause this element and its siblings to share the entire parent height. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> – Use Auto height to make this component's height follow the content height. If Auto width is also used, the component follows the content size.</li><li><strong>Symbols</strong> – Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to TRUE, and the internal symbol width and height are is in pixels.</li><li><strong>Groups</strong> – Use Auto height to make this group’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> – Use Auto height to cause this container to follow the content height. Only works if the boolean autoSize property is set to TRUE, and the internal content height is set to pixels or percent.</li><li><strong>Videos</strong> – Use Auto height and a pixel or percent width to make this component’s height follow the content aspect ratio without growing taller than the content. Depending on the width, part of the container might be empty. If Auto width is also used, the component follows the content size.</li></ul></p>"
   ],
   "flexShrink": [
     "Flex-Shrink",
@@ -1918,7 +1918,7 @@
   ],
   "width": [
     "Width",
-    "<p>Specifies the width of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto width</strong><br />To set Auto width, click the blue dot and select <strong>Reset</strong>. Auto width is recommended whenever possible. It creates the most responsive layouts. You can use Auto width in the following ways:<ul><li><strong>Stretch</strong> — For all components, when the parent layout is Vertical, and horizontal alignment is Stretch, use Auto width to make this element’s width inherit the parent width. Does not work properly for calendars, or with wrapping.</li><li><strong>Flex-Grow</strong> — For all components, when the parent layout is Horizontal, use Auto width together with Flex-Grow to cause this element and its siblings to share the entire parent width. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> — Use Auto width to make this component's width follow the content width. If Auto height is also used, the component follows the content size.</li><li><strong>Symbols</strong> — Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to true, and the internal symbol width and height are in pixels.</li><li><strong>Groups</strong> — Use Auto width to make this component’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> — Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to true, and the internal content width is set to pixels or percent.</li><li><strong>Videos</strong> — Use Auto width and a pixel or percent height to make this component’s width follow the content aspect ratio without growing wider than the content. Depending on the height, part of the container might be empty. If Auto height is also used, the component follows the content size.</li></ul></p>"
+    "<p>Specifies the width of this element, as a pixel value, a percentage of the parent width, or Auto.</p><p><strong>About Auto width</strong><br />To set Auto width, click the blue dot and select <strong>Reset</strong>. Auto width is recommended whenever possible. It creates the most responsive layouts. You can use Auto width in the following ways:<ul><li><strong>Stretch</strong> – For all components, when the parent layout is Vertical, and horizontal alignment is Stretch, use Auto width to make this element’s width inherit the parent width. Does not work properly for calendars, or with wrapping.</li><li><strong>Flex-Grow</strong> – For all components, when the parent layout is Horizontal, use Auto width together with Flex-Grow to cause this element and its siblings to share the entire parent width. Alternatively, you can use Flex-Grow with a pixel or percent size, but Auto is usually a better choice.</li><li><strong>Text Components</strong> – Use Auto width to make this component's width follow the content width. If Auto height is also used, the component follows the content size.</li><li><strong>Symbols</strong> – Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to TRUE, and the internal symbol width and height are in pixels.</li><li><strong>Groups</strong> – Use Auto width to make this component’s width follow the content width. Only works when this group’s layout is vertical or horizontal.</li><li><strong>Page Includes</strong> – Use Auto width to cause this container to follow the content width. Only works if the boolean autoSize property is set to TRUE, and the internal content width is set to pixels or percent.</li><li><strong>Videos</strong> – Use Auto width and a pixel or percent height to make this component’s width follow the content aspect ratio without growing wider than the content. Depending on the height, part of the container might be empty. If Auto height is also used, the component follows the content size.</li></ul></p>"
   ],
   "opacity": [
     "Opacity",
@@ -1994,7 +1994,7 @@
   ],
   "loop": [
     "Loop",
-    "<p>Determines whether the animation sequence is repeated.</p><p><strong>True</strong><br />As soon as it is complete, the animation starts again.</p><p><strong>False</strong><br />The animation happens once, and then the image defined by the URL property is displayed.</p>"
+    "<p>Determines whether the animation sequence is repeated.</p><p><strong>TRUE</strong><br />As soon as it is complete, the animation starts again.</p><p><strong>FALSE</strong><br />The animation happens once, and then the image defined by the URL property is displayed.</p>"
   ],
   "step": [
     "Step",
@@ -2154,7 +2154,7 @@
   ],
   "daterange.input": [
     "Value",
-    "<p>Returns the currently selected date range in the date range picker using one of the formats listed below.<ul><li><strong>Range</strong> — \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> — \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> — \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> — \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> — \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> — \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
+    "<p>Returns the currently selected date range in the date range picker using one of the formats listed below.<ul><li><strong>Range</strong> – \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Day</strong> – \"yyyy-MM-dd\", \"today\", or \"yesterday\"</li><li><strong>Week</strong> – \"yyyy-MM-ddThh:mm:ss/yyyy-MM-ddThh:mm:ss\"</li><li><strong>Month</strong> – \"yyyy-MM\", \"thisMonth\", or \"lastMonth\"</li><li><strong>Year</strong> – \"yyyy\", \"thisYear\", or \"lastYear\"</li><li><strong>Relative</strong> – \"&#91;current/previous&#93;N&#91;seconds/minutes/hours/days/weeks/months/years&#93;\", where N is a number and one element is chosen from each set of square brackets</li></ul></p>"
   ],
   "daterange.formatted": [
     "Formatted Value",
@@ -2370,7 +2370,7 @@
   ],
   "text.multiline": [
     "Multiline",
-    "<p>Specifies whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p><p><strong>True</strong><br />Line breaks are recognized.</p><p><strong>False</strong><br />Line breaks are ignored. All text is displayed on a single line.</p>"
+    "<p>Specifies whether this text component has multiline capability. Hold Alt+Enter to insert a line break.</p><p><strong>TRUE</strong><br />Line breaks are recognized.</p><p><strong>FALSE</strong><br />Line breaks are ignored. All text is displayed on a single line.</p>"
   ],
   "img.src": [
     "URL",
@@ -2402,7 +2402,7 @@
   ],
   "img.reverse": [
     "Reverse",
-    "<p>Determines whether the animation frames are displayed in reverse.</p><p><strong>True</strong><br />The topmost frame in the Property Inspector appears first in the animation sequence.</p><p><strong>False</strong><br />The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
+    "<p>Determines whether the animation frames are displayed in reverse.</p><p><strong>TRUE</strong><br />The topmost frame in the Property Inspector appears first in the animation sequence.</p><p><strong>FALSE</strong><br />The bottommost frame in the Property Inspector appears first in the animation sequence.</p>"
   ],
   "img.breakApart": [
     "Break Apart",
@@ -2554,7 +2554,7 @@
   ],
   "calendar.noSelectFutureDate": [
     "Disable Selection of Future Dates",
-    "<p>Determines whether it is possible for the user to select future dates.</p><p><strong>True</strong><br />If Selection Mode is set to Day, the user cannot select future dates. If Selection Mode is set to Week or Month, the user cannot select weeks or months after the week or month containing today.</p><p><strong>False</strong><br />The user can select future dates.</p>"
+    "<p>Determines whether it is possible for the user to select future dates.</p><p><strong>TRUE</strong><br />If Selection Mode is set to Day, the user cannot select future dates. If Selection Mode is set to Week or Month, the user cannot select weeks or months after the week or month containing today.</p><p><strong>FALSE</strong><br />The user can select future dates.</p>"
   ],
   "calendar.highlightedDays": [
     "Highlighted Days",
@@ -2578,7 +2578,7 @@
   ],
   "calendar.arrowFontFamily": [
     "Arrow Font",
-    "<p>Specifies the font used for the left and right arrow glyphs in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font used for the left and right arrow glyphs in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "daterangePicker.inputMode": [
     "Input Mode",
@@ -2590,7 +2590,7 @@
   ],
   "daterangePicker.buttonFontFamily": [
     "Button Font",
-    "<p>Defines the font for buttons within this date range picker.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol>"
+    "<p>Defines the font for buttons within this date range picker.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol>"
   ],
   "daterangePicker.buttonFontSize": [
     "Button Font Size",
@@ -3126,7 +3126,7 @@
   ],
   "datagridHeader.grid.headerFontFamily": [
     "Header Font",
-    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts.\"</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font for this element.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "datagridHeader.grid.headerFontColor": [
     "Header Font Color",
@@ -3286,11 +3286,11 @@
   ],
   "chart.outerRadius": [
     "Outer Radius",
-    "<p>Defines the radius of this pie chart, as a percentage of the radius of the largest pie chart that would fit. This depends on container size.</p><p>If the Reduce Outer Radius property is true, then the radius size might be automatically reduced in order to fit labels or other elements.</p>"
+    "<p>Defines the radius of this pie chart, as a percentage of the radius of the largest pie chart that would fit. This depends on container size.</p><p>If the Reduce Outer Radius property is TRUE, then the radius size might be automatically reduced in order to fit labels or other elements.</p>"
   ],
   "chart.reduceOuterRadius": [
     "Reduce Outer Radius",
-    "<p>Defines whether the pie chart radius shrinks automatically in order to fit labels or other elements.</p><p><strong>True</strong><br />The pie chart radius might be smaller than that determined by the Outer Radius property, in order to fit labels or other elements.</p><p><strong>False</strong><br />The pie chart size is determined by the Outer Radius property only.</p>"
+    "<p>Defines whether the pie chart radius shrinks automatically in order to fit labels or other elements.</p><p><strong>TRUE</strong><br />The pie chart radius might be smaller than that determined by the Outer Radius property, in order to fit labels or other elements.</p><p><strong>FALSE</strong><br />The pie chart size is determined by the Outer Radius property only.</p>"
   ],
   "rawSvgRepeater.data": [
     "Data Source",
@@ -3410,7 +3410,7 @@
   ],
   "listFormElement.optionFontFamily": [
     "Option Font",
-    "<p>Defines the font for the option list. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named \"fonts\".</li><li>Navigate to the font file on your computer and drag it to the \"fonts\" folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Defines the font for the option list. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "listFormElement.optionLineHeight": [
     "Option Line Height",
@@ -3466,7 +3466,7 @@
   ],
   "fileFormInput.accept": [
     "Accept",
-    "<p>Specifies the file formats that are accepted by this file chooser.</p><p>Enter one or more of the following values separated by commas:<ul><li><strong>.png, .jpg, .gif, etc.</strong> — Files of the format specified.</li><li><strong>audio/*</strong> — All sound files.</li><li><strong>video/*</strong> — All video files.</li><li><strong>image/*</strong> — All image files.</li><li><strong>media_type/*</strong> — Replace media_type with any valid media type, to accept all formats within that type. Look at <a href='http://www.iana.org/assignments/media-types/media-types.xhtml'>IANA Media Types</a> for a complete list of standard media types.</li></ul></p>"
+    "<p>Specifies the file formats that are accepted by this file chooser.</p><p>Enter one or more of the following values separated by commas:<ul><li><strong>.png, .jpg, .gif, etc.</strong> – Files of the format specified.</li><li><strong>audio/*</strong> – All sound files.</li><li><strong>video/*</strong> – All video files.</li><li><strong>image/*</strong> – All image files.</li><li><strong>media_type/*</strong> – Replace media_type with any valid media type, to accept all formats within that type. Look at <a href='http://www.iana.org/assignments/media-types/media-types.xhtml'>IANA Media Types</a> for a complete list of standard media types.</li></ul></p>"
   ],
   "svg:text.textAnchor": [
     "Text Anchor",
@@ -3650,7 +3650,7 @@
   ],
   "pieSeries.colorField": [
     "Color Field",
-    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> — any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> — any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> — any RGBA color string, including \"rgba\" and the parentheses.</li></ul>Alternatively, you can specify colors in the Property Inspector by expanding Wedge Fills.</p>"
+    "<p>Specifies the table column that contains data from which to determine wedge colors. The following formats are supported:<ul><li><strong>#EEE</strong> – any shortened, three-digit hexadecimal color string, including the # symbol.</li><li><strong>#FF00FF</strong> – any hexadecimal color string, including the # symbol.</li><li><strong>rgba(255, 0, 0, 0.5)</strong> – any RGBA color string, including \"rgba\" and the parentheses.</li></ul>Alternatively, you can specify colors in the Property Inspector by expanding Wedge Fills.</p>"
   ],
   "spectrumSeries.dateField": [
     "Date Field",
@@ -3726,7 +3726,7 @@
   ],
   "gridlines.horizontalTickAligned": [
     "Horizontal Tick Aligned",
-    "<p>Defines where horizontal gridlines are placed.</p><p><strong>True</strong><br />Horizontal gridlines are positioned at major ticks.</p><p><strong>False</strong><br />Horizontal gridlines are positioned halfway between major ticks.</p>"
+    "<p>Defines where horizontal gridlines are placed.</p><p><strong>TRUE</strong><br />Horizontal gridlines are positioned at major ticks.</p><p><strong>FALSE</strong><br />Horizontal gridlines are positioned halfway between major ticks.</p>"
   ],
   "gridlines.verticalAlternateFill": [
     "Vertical Alternate Fill",
@@ -3766,7 +3766,7 @@
   ],
   "gridlines.verticalTickAligned": [
     "Vertical Tick Aligned",
-    "<p>Defines where vertical gridlines are placed.</p><p><strong>True</strong><br />Vertical gridlines are positioned at major ticks.</p><p><strong>False</strong><br />Vertical gridlines are positioned halfway between major ticks.</p>"
+    "<p>Defines where vertical gridlines are placed.</p><p><strong>TRUE</strong><br />Vertical gridlines are positioned at major ticks.</p><p><strong>FALSE</strong><br />Vertical gridlines are positioned halfway between major ticks.</p>"
   ],
   "gridlines.plottedAreaX": [
     "Plotted Area X",
@@ -3893,6 +3893,54 @@
     "Fires when the file has been created."
   ],
   "strUploader.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "listFiles.invoke": [
+    "invoke",
+    "Causes the table to be created. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "listFiles.enabled": [
+    "enabled",
+    "<p>Specifies whether the block is enabled.</p><p><strong>TRUE</strong><br />The table is created as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p><p><strong>FALSE</strong><br />The table is not created.</p>"
+  ],
+  "listFiles.interval": [
+    "interval",
+    "Specifies how often the table is automatically generated. A value of 0 means that the table is generated on <strong>autoRun</strong> or <strong>invoke</strong> only."
+  ],
+  "listFiles.autoRun": [
+    "autoRun",
+    "Specifies whether the table is generated automatically when the page loads."
+  ],
+  "listFiles.timeout": [
+    "timeout",
+    "Specifies how long the block will attempt to create the table before the request is canceled."
+  ],
+  "listFiles.loading": [
+    "loading",
+    "Returns whether the list is currently loading."
+  ],
+  "listFiles.path": [
+    "path",
+    "<p>Specifies the directory for which to create a table.</p><p><ul><li>To list the contents of the root, leave this field blank.</li><li>To list the contents of the <code>assets</code> folder, drag the folder from the Project panel to this field.</li></ul></p>"
+  ],
+  "listFiles.filter": [
+    "filter",
+    "<p>Specifies a string that file names must include in order to be listed. For example, this could be a file extension. Directories are always included in the output and are not filtered out.</p><p><ul><li>To list only PNG files, enter <code>png</code>.</li><li>To list all files, leave this field blank.</li></ul></p>"
+  ],
+  "listFiles.mode": [
+    "mode",
+    "<p>Specifies whether the output table lists only files, only directories, or both.</p><p><strong>All</strong><br />Files and directories are listed.</p><p><strong>Files</strong><br />Only files are listed.</p><strong>Directories</strong><br />Only directories are listed.</p>"
+  ],
+  "listFiles.output": [
+    "output",
+    "<p>Returns a table that lists the contents of the specified directory. The table includes the following fields:</p><p><ul><li><strong>name</strong> – the filename or directory name.</li><li><strong>path</strong> – the path of the item, relative to the root.</li><li><strong>isDirectory</strong> – TRUE if the item is a directory, FALSE if it is a file.</li><li><strong>created</strong> – 0, if the item is a directory. The serial number for the creation date and time, if it is a file.</li><li><strong>modified</strong> – 0, if the item is a directory. The serial number for the last update date and time, if it is a file.</li></ul></p>"
+  ],
+  "listFiles.onComplete": [
+    "onComplete",
+    "Fires when the table is finished loading."
+  ],
+  "listFiles.error": [
     "error",
     "Returns the error message, if any."
   ],
@@ -4042,7 +4090,7 @@
   ],
   "gridColumn.visible": [
     "Visible",
-    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>True</strong><br />This element is visible.</p><p><strong>False</strong><br />This element is not visible, but it still affects layout and is stored in browser memory.</p>"
+    "<p>Defines whether this element is visible. Regardless of value, the element affects layout and is stored in the user's browser memory. Because the element is stored in memory, performance might be affected.</p><p><strong>TRUE</strong><br />This element is visible.</p><p><strong>FALSE</strong><br />This element is not visible, but it still affects layout and is stored in browser memory.</p>"
   ],
   "gridColumn.sortingIndicator": [
     "Sorting Indicator",
@@ -4210,7 +4258,7 @@
   ],
   "webDocument.lockScale": [
     "lockScale",
-    "<p>Determines whether zooming is allowed. Only applies to mobile devices.</p><p><strong>True</strong><br />Zooming is not allowed on mobile.</p><p><strong>False</strong><br />The user can pinch to zoom on mobile.</p>"
+    "<p>Determines whether zooming is allowed. Only applies to mobile devices.</p><p><strong>TRUE</strong><br />Zooming is not allowed on mobile.</p><p><strong>FALSE</strong><br />The user can pinch to zoom on mobile.</p>"
   ],
   "webDocument.@onBeforePrint": [
     "onBeforePrint",
@@ -4226,7 +4274,7 @@
   ],
   "localStorage.global": [
     "global",
-    "<p>Specifies whether this block sets and returns the global or non-global value for the key.</p><p><strong>True</strong><br />This block sets and returns this user’s global value for the key, which stays consistent over any DGLux project.</p><p><strong>False</strong><br />This block sets and returns this user’s non-global value for the key, which applies only to this DGLux project.</p>"
+    "<p>Specifies whether this block sets and returns the global or non-global value for the key.</p><p><strong>TRUE</strong><br />This block sets and returns this user’s global value for the key, which stays consistent over any DGLux project.</p><p><strong>FALSE</strong><br />This block sets and returns this user’s non-global value for the key, which applies only to this DGLux project.</p>"
   ],
   "localStorage.value": [
     "value",
@@ -4634,7 +4682,7 @@
   ],
   "scrollEventData.active": [
     "active",
-    "<p>Determines whether the block is currently listening.</p><p><strong>True</strong><br />The output properties of the block update whenever the user scrolls.</p><p><strong>False</strong><br />The output properties of the block do not update.</p>"
+    "<p>Determines whether the block is currently listening.</p><p><strong>TRUE</strong><br />The output properties of the block update whenever the user scrolls.</p><p><strong>FALSE</strong><br />The output properties of the block do not update.</p>"
   ],
   "scrollEventData.event": [
     "event",
@@ -4666,7 +4714,7 @@
   ],
   "fastResponse": [
     "fastResponse",
-    "<p>Determines whether the fastResponse feature is enabled. Use this feature when you troubleshoot performance speed issues relating to this block.</p><p><strong>True</strong><br />The execution of this block’s event is slightly prioritized, and the queue is kept clear.</p><p><strong>False</strong><br />This is the default behavior.</p>"
+    "<p>Determines whether the fastResponse feature is enabled. Use this feature when you troubleshoot performance speed issues relating to this block.</p><p><strong>TRUE</strong><br />The execution of this block’s event is slightly prioritized, and the queue is kept clear.</p><p><strong>FALSE</strong><br />This is the default behavior.</p>"
   ],
   "resizeEventData.event": [
     "event",
@@ -4734,7 +4782,7 @@
   ],
   "dragSize.percents": [
     "percents",
-    "<p>Determines whether the <strong>minWidth</strong>, <strong>minHeight</strong>, <strong>maxWidth</strong>, and <strong>maxHeight</strong> properties are pixel values or percent values.</p><p><strong>True</strong><br />The width values are a percentage of the width of the parent of the element being resized. The height values are a percentage of the height of the parent of the element being resized.</p><p><strong>False</strong><br />The values are in pixels.</p>"
+    "<p>Determines whether the <strong>minWidth</strong>, <strong>minHeight</strong>, <strong>maxWidth</strong>, and <strong>maxHeight</strong> properties are pixel values or percent values.</p><p><strong>TRUE</strong><br />The width values are a percentage of the width of the parent of the element being resized. The height values are a percentage of the height of the parent of the element being resized.</p><p><strong>FALSE</strong><br />The values are in pixels.</p>"
   ],
   "dragSize.minWidth": [
     "minWidth",
@@ -5442,7 +5490,7 @@
   ],
   "tableRollup.roundTime": [
     "roundTime",
-    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>True</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>False</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>TRUE</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>FALSE</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
   ],
   "tableRollup.output": [
     "output",
