@@ -1150,7 +1150,7 @@
   ],
   "creationPolicy": [
     "creationPolicy",
-    "<p>Determines when the children of this container are created in browser memory. Applies to groups, symbols, page includes, and view decks. Change this property when optimizing the performance or speed of any of these four types of containers.</p><p>When you add a new container, its behavior is On Display. For old containers that existed when this feature was introduced, the default behavior is <strong>Always</strong> to ensure compatibility.</p><p>If none of the children are displayed or created, the container appears only if it has a pixel or percentage width and height defined.</p><p><strong>Always</strong><br />This behavior might be taxing when the group is first loaded. All children of this group are loaded when the page is opened, and stay loaded until the page is closed.</p><p><strong>On Demand</strong><br />This behavior might cause the page to run slowly after it has been open for a while. When the page is loaded, children of this group are created only if their Display property is set to TRUE. Subsequently, whenever a child's Display property is set to TRUE, it is also loaded. After it is created, a child stays in memory. For view decks, the child whose index is currently selected is created. After it is created, a child stays in memory.</p><p><strong>On Display</strong><br />In most situations, especially when children of the container take up a large amount of memory, this behavior creates the fastest applications. A child is created in browser memory only if its Display property is set to TRUE. When its display property is set to FALSE, a child is deleted from memory. For view decks, the child whose index is currently selected is created. When a child’s index is no longer selected, or when the Display property of the view deck is set to FALSE, the child is deleted from memory.</p>"
+    "<p>Determines when the children of this container are created in browser memory. Applies to groups, symbols, page includes, and view decks. Change this property when optimizing the performance or speed of any of these four types of containers.</p><p>When you add a new container, its behavior is <strong>On Display</strong>. For old containers that existed when this feature was introduced, the default behavior is <strong>Always</strong> to ensure compatibility.</p><p>If none of the children are displayed or created, the container appears only if it has a pixel or percentage width and height defined.</p><p><strong>Always</strong><br />This behavior might be taxing when the group is first loaded. All children of this group are loaded when the page is opened, and stay loaded until the page is closed.</p><p><strong>On Demand</strong><br />This behavior might cause the page to run slowly after it has been open for a while. When the page is loaded, children of this group are created only if their Display property is set to TRUE. Subsequently, whenever a child's Display property is set to TRUE, it is also loaded. After it is created, a child stays in memory. For view decks, the child whose index is currently selected is created. After it is created, a child stays in memory.</p><p><strong>On Display</strong><br />In most situations, especially when children of the container take up a large amount of memory, this behavior creates the fastest applications. A child is created in browser memory only if its Display property is set to TRUE. When its display property is set to FALSE, a child is deleted from memory. For view decks, the child whose index is currently selected is created. When a child’s index is no longer selected, or when the Display property of the view deck is set to FALSE, the child is deleted from memory.</p>"
   ],
   "contentHeight": [
     "Content Height",
@@ -3999,6 +3999,70 @@
   "getNode.error": [
     "error",
     "Returns the error string, if applicable."
+  ],
+  "listNode.path": [
+    "path",
+    "Specifies the absolute location of the node to get metadata for. Drag the relevant node from the Data panel to this field."
+  ],
+  "listNode.mode": [
+    "mode",
+    "<p>Determines which children of this node are listed.</p><p><strong>all</strong><br />all children</p><p><strong>points</strong><br />only nodes representing data points</p><p><strong>actions</strong><br />only nodes representing actions</p><p><strong>nodes</strong><br />only nodes that are not points or actions</p>"
+  ],
+  "listNode.resolveActions": [
+    "resolveActions",
+    "Determines whether to create an output table describing available actions for this node's children. By default, this property is disabled."
+  ],
+  "listNode.name": [
+    "name",
+    "Returns the name of the node."
+  ],
+  "listNode.profile": [
+    "profile",
+    ""
+  ],
+  "listNode.children": [
+    "children",
+    "Returns a table that lists the children of the specified node."
+  ],
+  "listNode.metadata": [
+    "metadata",
+    "Returns a table that lists metadata about the specified node."
+  ],
+  "listNode.actions": [
+    "actions",
+    "Returns a table of the actions that can be taken on this node, such as overriding it. Each row of this table contains a nested table that lists the parameters of that action. To view a nested table, drag a Table dataflow block into the dataflow window, and drag the cell containing the table onto it."
+  ],
+  "listNode.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "projectInfo.projectId": [
+    "projectId",
+    "Returns the automatically generated unique ID of this DGLux5 project."
+  ],
+  "projectInfo.projectName": [
+    "projectName",
+    "Returns this DGLux5 project's name."
+  ],
+  "projectInfo.user": [
+    "user",
+    "Returns the currently logged in user for this session."
+  ],
+  "projectInfo.superUser": [
+    "superUser",
+    "Returns whether the currently logged in user is a Super User."
+  ],
+  "projectInfo.description": [
+    "description",
+    "Returns your description of this project. Add a description by selecting <strong>Project</strong> &#62; <strong>Project Properties</strong>."
+  ],
+  "projectInfo.version": [
+    "version",
+    "Returns the version number you have given to this project. Add a version number by selecting <strong>Project</strong> &#62; <strong>Project Properties</strong>."
+  ],
+  "projectInfo.isDesigner": [
+    "isDesigner",
+    "Returns whether the currently logged in user is a designer for this project."
   ],
   "relativize.path": [
     "path",
