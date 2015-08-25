@@ -1856,7 +1856,7 @@
     "On Complete",
     "Triggers an event on completion of this animation. Can be used to invoke actions or trigger other events."
   ],
-  "path": [
+  "pageInclude.path": [
     "Path",
     "Specifies the relative or absolute URL of the .dg5 file to be used as a Page Include. This lets you use other .dg5 files as components within this file. To specify a file, either type a URL in the field, click the folder to specify a path, or drag a .dg5 file from the Project panel to the field."
   ],
@@ -3944,6 +3944,138 @@
     "error",
     "Returns the error message, if any."
   ],
+  "getChildren.path": [
+    "path",
+    "Specifies the node for which to list children. You can drag the node's icon from the Data panel to this field."
+  ],
+  "getChildren.output": [
+    "output",
+    "<p>Returns a table that lists the children of the specified node. The table includes the following fields:</p><p><ul><li><strong>name</strong> – the name of the child node</li><li><strong>path</strong> – the full path of the child node</li><li><strong>hasChildren</strong> – TRUE if the child node has children, FALSE if the child node is terminal</li><li><strong>hasValue</strong> – TRUE if the child node is associated with a value, FALSE otherwise</li><li><strong>hasHistory</strong> – TRUE if the child node is associated with a value history, FALSE otherwise</li><li><strong>type</strong> – the data type of the child node, if applicable</li><li><strong>icon</strong> – the absolute file path to the icon that represents the child node</li><li><strong>unit</strong> – the units of the child node, if applicable</li><li><strong>enum</strong> – the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\".</li></ul></p>"
+  ],
+  "getChildren.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "getNode.path": [
+    "path",
+    "Specifies the absolute location of the node to get metadata for. Either type the path, or use a Get Children block and drag the relevant path from the output table to this field."
+  ],
+  "getNode.name": [
+    "name",
+    "Returns the name of the node."
+  ],
+  "getNode.hasChildren": [
+    "hasChildren",
+    "Returns TRUE if the node has children, FALSE if it is terminal."
+  ],
+  "getNode.hasValue": [
+    "hasValue",
+    "Returns TRUE if the node is associated with a value, FALSE otherwise."
+  ],
+  "getNode.hasHistory": [
+    "hasHistory",
+    "Returns TRUE if the node is associated with a value history, FALSE otherwise."
+  ],
+  "getNode.type": [
+    "type",
+    "Returns the data type of the node, if applicable."
+  ],
+  "getNode.icon": [
+    "icon",
+    "Returns the absolute file path to the icon that represents the node."
+  ],
+  "getNode.unit": [
+    "unit",
+    "Returns the units of the node, if applicable."
+  ],
+  "getNode.enum": [
+    "enum",
+    "returns the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\"."
+  ],
+  "getNode.actions": [
+    "actions",
+    "Returns a table of the actions that can be taken on this node, such as overriding it. Each row of this table contains a nested table that lists the parameters of that action. To view a nested table, drag a Table dataflow block into the dataflow window, and drag the cell containing the table onto it."
+  ],
+  "getNode.error": [
+    "error",
+    "Returns the error string, if applicable."
+  ],
+  "relativize.path": [
+    "path",
+    "Sets and returns the current parent directory containing the relative paths."
+  ],
+  "relativize.output": [
+    "output",
+    "An instance of the DGLux relativizing service. Click the button to interact with the service. For details, watch the video <a href='http://www.dglogik.com/index.php/videos/introduction-to-relativization'>Introduction to Relativization</a>."
+  ],
+  "relativize.serviceId": [
+    "Service Id",
+    ""
+  ],
+  "relativize.fullPath": [
+    "Full Path",
+    ""
+  ],
+  "loadHistories.invoke": [
+    "invoke",
+    "Causes the histories to be loaded. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "loadHistories.enabled": [
+    "enabled",
+    "<p>Specifies whether the history loader is enabled.</p><p><strong>TRUE</strong><br />The histories load as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p><p><strong>FALSE</strong><br />The histories do not load.</p>"
+  ],
+  "loadHistories.interval": [
+    "interval",
+    "Specifies how often the histories are loaded, in seconds. A value of 0 means that they are reloaded on <strong>autoLoad</strong> or <strong>invoke</strong> only."
+  ],
+  "loadHistories.autoRun": [
+    "autoRun",
+    "Specifies whether the histories are loaded automatically when the page loads."
+  ],
+  "loadHistories.timeout": [
+    "timeout",
+    "specifies how long the block attempts to load the histories before the request is canceled."
+  ],
+  "loadHistories.loading": [
+    "loading",
+    "Returns whether the histories are currently loading."
+  ],
+  "loadHistories.paths": [
+    "paths",
+    "<p>specifies the histories that this block loads. To specify the histories:<ol><li>Click the <strong>Expand</strong> icon to open a <strong>loadHistories.paths</strong> panel.</li><li>In the Data panel, click the relevant device or data source.</li><li>In the Metrics panel, select a relevant device point, and drag its <strong>History</strong> icon to the <strong>loadHistories.paths</strong> panel.</li><li>Press Alt + Enter to create a new line.</li><li>Repeat steps 2–4 until all paths are entered.</li></ol></p>"
+  ],
+  "loadHistories.timeRange": [
+    "timeRange",
+    "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range."
+  ],
+  "loadHistories.dataInterval": [
+    "dataInterval",
+    "Specifies the date or time interval between each consecutive pair of data points."
+  ],
+  "loadHistories.showStatus": [
+    "showStatus",
+    "Determines whether a status column is included for each history in the output table. Status values report the status of the node data at the time that data was collected, such as \"down\" or \"overridden.\" This can indicate the reliability of the value."
+  ],
+  "loadHistories.rollup": [
+    "rollup",
+    "<p>Specifies the type of rollup used. Options are:<ul><li><strong>Avg</strong> – the average of all number values for the interval</li><li><strong>Min</strong> – the smallest number value for the interval</li><li><strong>Max</strong> – the largest number value from the interval</li><li><strong>Sum</strong> – the sum of all number values for the interval</li><li><strong>First</strong> – the first value for the interval</li><li><strong>Last</strong> – the last value for the interval</li><li><strong>Count</strong> – the number of non-null values that exist for the interval</li></ul></p>"
+  ],
+  "loadHistories.missingValue": [
+    "missingValue",
+    "<p>Specifies what value to display if there is no data collected for a certain interval.<ul><li><strong>Null</strong> – a null value</li><li><strong>Use previous</strong> – the value for the previous timestamp</li><li><strong>Use next</strong> – the value for the next timestamp</li><li><strong>Interpolate</strong> – the average between the previous and next timestamps</li><li><strong>Zero</strong> – zero</li></ul></p>"
+  ],
+  "loadHistories.header": [
+    "header",
+    "<p>Specifies which string is used to name each value column in the output table.<ul><li><strong>Default</strong> – the default string \"v<em>n</em>\" </li><li><strong>Name</strong> – the name of the data node for which this is a history</li><li><strong>Parent</strong> – the name of the data node's parent</li><li><strong>Parent_Name</strong> – the names of both this node and its parent</li></ul></p>"
+  ],
+  "loadHistories.delta": [
+    "delta",
+    "<p>Specifies what is in each value column of the output table.<ul><li><strong>None</strong> – the value collected at the given time</li><li><strong>With previous</strong> – the difference between the values in this row and the previous one</li><li><strong>With next</strong> – the difference between the values in this row and the next one</li></ul></p>"
+  ],
+  "loadHistories.output": [
+    "output",
+    "<p>Returns a table of the given histories' values. Columns are:<ul><li><strong>timestamp</strong> – the time when the data was collected.</li><li><strong>v<em>n</em></strong> – the first data node's value, or its delta if specified.</li><li><strong>status</strong> (if specified) – </li><li><strong></strong> – the status of the data node at the time of collection. Can sometimes be used to indicate the reliability of the data.</li></ul></p>"
+  ],
   "jsonpLoader.callback": [
     "callback",
     ""
@@ -3962,14 +4094,6 @@
   ],
   "valueBinding.1": [
     "Then 0",
-    ""
-  ],
-  "relativize.serviceId": [
-    "Service Id",
-    ""
-  ],
-  "relativize.fullPath": [
-    "Full Path",
     ""
   ],
   "loadValue.lastUpdate": [
@@ -3994,46 +4118,6 @@
   ],
   "dbQuery.query": [
     "Query",
-    ""
-  ],
-  "getNode.name": [
-    "Name",
-    ""
-  ],
-  "getNode.hasChildren": [
-    "Has Children",
-    ""
-  ],
-  "getNode.hasValue": [
-    "Has Value",
-    ""
-  ],
-  "getNode.hasHistory": [
-    "Has History",
-    ""
-  ],
-  "getNode.icon": [
-    "Icon",
-    ""
-  ],
-  "getNode.enum": [
-    "Enum",
-    ""
-  ],
-  "getNode.actions": [
-    "Actions",
-    ""
-  ],
-  "loadHistories.paths": [
-    "Paths",
-    ""
-  ],
-  "loadHistories.showStatus": [
-    "Show Status",
-    ""
-  ],
-  "loadHistories.missingValue": [
-    "Missing Value",
     ""
   ],
   "projectInfo.projectId": [
@@ -4606,7 +4690,7 @@
   ],
   "mouseEventData.event": [
     "event",
-    "Returns the event type that this listener heard. It is also an event trigger that can be bound to other events."
+    "Returns the event type that this listener heard."
   ],
   "mouseEventData.x": [
     "x",
@@ -5602,7 +5686,7 @@
   ],
   "datetime.isUTC": [
     "isUTC",
-    "Determines whether to use UTC. By default, DGLux will use your computer's time zone when converting to serial number. Set the **isUTC** boolean to TRUE if you want to use UTC instead."
+    "Determines whether to use UTC. By default, DGLux will use your computer's time zone when converting to serial number. Set the <strong>isUTC</strong> boolean to TRUE if you want to use UTC instead."
   ],
   "datetime.output": [
     "output",
