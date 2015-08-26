@@ -4884,6 +4884,18 @@
     "a–z",
     "Set or return the values of properties that you can use in your script as needed."
   ],
+  "trace.tracing": [
+    "tracing",
+    "<p>Specifies whether the changes are recorded. To learn about setting the value to Auto, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace'>this page</a>.</p><p><strong>TRUE</strong><br />Changes are logged in the console.</p><p><strong>FALSE</strong><br />Changes are not logged.</p><p><strong>Auto</strong><br />Changes are logged only if the Advanced property **traceLabel** is not null for the Stage.</p>"
+  ],
+  "trace.msg": [
+    "msg",
+    "Specifies a string to be included in the developer console when values for this block are updated."
+  ],
+  "trace.0": [
+    "input n",
+    "Specifies the path to one of the properties that this block monitors."
+  ],
   "stopwatch.enabled": [
     "enabled",
     "Sets or returns whether the stopwatch is currently running."
