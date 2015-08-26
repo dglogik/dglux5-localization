@@ -3958,7 +3958,7 @@
   ],
   "getNode.path": [
     "path",
-    "Specifies the absolute location of the node to get metadata for. Either type the path, or use a Get Children block and drag the relevant path from the output table to this field."
+    "Specifies the absolute location of the node to get metadata for."
   ],
   "getNode.name": [
     "name",
@@ -3990,7 +3990,7 @@
   ],
   "getNode.enum": [
     "enum",
-    "returns the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\"."
+    "Returns the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\"."
   ],
   "getNode.actions": [
     "actions",
@@ -4166,7 +4166,7 @@
   ],
   "loadValue.status": [
     "status",
-    "returns the status of the node, if applicable, such as \"down\" or \"overridden.\" It can indicate the reliability of the value."
+    "Returns the status of the node, if applicable, such as \"down\" or \"overridden.\" It can indicate the reliability of the value."
   ],
   "loadValue.error": [
     "error",
@@ -4604,23 +4604,23 @@
     "error",
     "Returns the error message, if any."
   ],
-  "exportHTML.invoke": [
+  "exportHtml.invoke": [
     "invoke",
     "Causes the file to be exported. Only works when <strong>enabled</strong> is set to TRUE."
   ],
-  "exportHTML.enabled": [
+  "exportHtml.enabled": [
     "enabled",
     "<p>Specifies whether exporting to HTML is enabled.</p><p><strong>TRUE</strong><br />The file is exported as specified by <strong>invoke</strong>.</p><p><strong>FALSE</strong><br />The file is not exported.</p>"
   ],
-  "exportHTML.format": [
+  "exportHtml.format": [
     "format",
     "Specifies the file format to download. Select <strong>HTML</strong> for this property."
   ],
-  "exportHTML.filename": [
+  "exportHtml.filename": [
     "filename",
     "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded."
   ],
-  "exportHTML.output": [
+  "exportHtml.output": [
     "output",
     "Returns the contents of the exported file, if no filename is defined."
   ],
