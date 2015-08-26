@@ -3926,7 +3926,7 @@
   ],
   "listFiles.filter": [
     "filter",
-    "<p>Specifies a string that file names must include in order to be listed. For example, this could be a file extension. Directories are always included in the output and are not filtered out.</p><p><ul><li>To list only PNG files, enter <code>png</code>.</li><li>To list all files, leave this field blank.</li></ul></p>"
+    "<p>Specifies a string that file names must include in order to be listed. For example, this could be a file extension. Directories are always included in the output if <strong>mode</strong> is <strong>All</strong> or <strong>Directories</strong>. They are not filtered by this property.</p><p><ul><li>To list only PNG files, enter <code>png</code>.</li><li>To list all files, leave this field blank.</li></ul></p>"
   ],
   "listFiles.mode": [
     "mode",
