@@ -4232,6 +4232,54 @@
     "error",
     "Returns the error string, if any."
   ],
+  "dbQuery.invoke": [
+    "invoke",
+    "Causes the query to run. Only works when <strong>enabled</strong> is TRUE."
+  ],
+  "dbQuery.enabled": [
+    "enabled",
+    "<p>Specifies whether the query block is enabled.</p><p><strong>TRUE</strong><br />The query runs when this block is invoked.</p><p><strong>FALSE</strong><br />Nothing happens when this block is invoked.</p>"
+  ],
+  "dbQuery.interval": [
+    "interval",
+    "Specifies how often the string is reloaded automatically, in seconds. A value of 0 means that the string is reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only."
+  ],
+  "dbQuery.autoRun": [
+    "autoRun",
+    "Specifies whether the string is loaded automatically when the page loads. It is disabled by default."
+  ],
+  "dbQuery.timeout": [
+    "timeout",
+    "Specifies how long the block attempts to run the query before the request is canceled."
+  ],
+  "dbQuery.loading": [
+    "loading",
+    "Returns whether the string is currently being loaded."
+  ],
+  "dbQuery.path": [
+    "path",
+    "Specifies the path where the query is run. You can specify the path here, or you can leave this field blank and specify the path as part of the <strong>query</strong> string."
+  ],
+  "dbQuery.db": [
+    "db",
+    "Specifies the database type. This field is automatically populated when you drag the block from the Data panel."
+  ],
+  "dbQuery.query": [
+    "query",
+    "Specifies the query sent by this block."
+  ],
+  "dbQuery.output": [
+    "output",
+    "Returns the table of query results."
+  ],
+  "dbQuery.error": [
+    "error",
+    "Returns the error message, if any."
+  ],
+  "dbQuery.onComplete": [
+    "onComplete",
+    "Fires when the string finishes loading."
+  ],
   "jsonpLoader.invoke": [
     "invoke",
     "Causes the data to be loaded. Only works when <strong>enabled</strong> is set to TRUE."
@@ -4639,6 +4687,122 @@
   "getViewProperty.output": [
     "output",
     "Returns the value of the property."
+  ],
+  "javascript.invoke": [
+    "invoke",
+    "Causes the JavaScript to be loaded in the global source for the page and runs the <code>init</code> function."
+  ],
+  "javascript.autoRun": [
+    "autoRun",
+    "Specifies whether the JavaScript loads and runs automatically when the page loads."
+  ],
+  "javascript.scriptPath": [
+    "scriptPath",
+    "Specifies the path to the JavaScript file. It can be DGLux file path relative to the root, or it can be some other URL. The file extension must be <code>.js</code>."
+  ],
+  "javascript.initFunction": [
+    "initFunction",
+    "Specifies the name of the <code>init</code> function in the file."
+  ],
+  "javascript.a": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.b": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.c": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.d": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.e": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.f": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.g": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.i": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.j": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.k": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.l": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.m": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.n": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.o": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.p": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.q": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.r": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.s": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.t": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.u": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.v": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.w": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.x": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.y": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
+  ],
+  "javascript.z": [
+    "a–z",
+    "Set or return the values of properties that you can use in your script as needed."
   ],
   "and.op": [
     "op",
@@ -5908,6 +6072,18 @@
     "output",
     "Returns a new table. It contains only the rows at the specified indexes."
   ],
+  "tableSelectColumns.input": [
+    "input",
+    "Receives the table from which you want to select columns."
+  ],
+  "tableSelectColumns.columns": [
+    "indexes",
+    "Specifies the columns in the input table to select, as comma-separated column names."
+  ],
+  "tableSelectColumns.output": [
+    "output",
+    "Returns a new table. It contains only the specified columns."
+  ],
   "tableGetColumns.input": [
     "input",
     "Receives the table from which you want to get column names."
@@ -6083,5 +6259,49 @@
   "dateMath.output": [
     "output",
     "Returns the result of adding or subtracting the other inputs with the input value, depending on the <strong>op</strong> value."
+  ],
+  "dateRange.input": [
+    "input",
+    "Specifies the currently selected range. You can select a range by clicking the property and using the pop-up dialog."
+  ],
+  "dateRange.formatted": [
+    "formatted",
+    "Returns the range, formatted according to the <strong>format</strong>, <strong>rangeDelimiter</strong>, and <strong>keepSpecial</strong> properties."
+  ],
+  "dateRange.nextRange": [
+    "nextRange",
+    "Returns the the next range of the same length after <strong>input</strong>."
+  ],
+  "dateRange.thisRange": [
+    "thisRange",
+    "Returns the currently selected range in <strong>input</strong>."
+  ],
+  "dateRange.previousRange": [
+    "previousRange",
+    "Returns the previous range of the same length before <strong>input</strong>."
+  ],
+  "dateRange.next": [
+    "next",
+    "Advances the <strong>input</strong> value to the next range of the same length."
+  ],
+  "dateRange.previous": [
+    "previous",
+    "Changes the <strong>input</strong> value to the previous range of the same length."
+  ],
+  "dateRange.format": [
+    "format",
+    "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>dateFormat</a> string used to represent the ranges in this block when they are formatted."
+  ],
+  "dateRange.rangeDelimiter": [
+    "rangeDelimiter",
+    "Specifies the string used between the strings that represent the beginning and end of the range. For example, you could use the string \" to \", or the character \"/\"."
+  ],
+  "dateRange.keepSpecial": [
+    "keepSpecial",
+    "Specifies when the format string is used. For a detailed list, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange#keep_special_value_formatting'>Keep Special Value Formatting</a>."
+  ],
+  "dateRange.duration": [
+    "duration",
+    "Returns the duration of the currently selected range, in milliseconds."
   ]
 }
