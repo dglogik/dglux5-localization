@@ -6132,6 +6132,30 @@
     "output",
     "Returns the transposed table."
   ],
+  "realtimeRecorder.bufferSize": [
+    "bufferSize",
+    "Specifies the number of rows the output table can hold. When the buffer is full, the oldest rows are deleted from memory."
+  ],
+  "realtimeRecorder.ignoreNullValue": [
+    "ignoreNullValue",
+    ""
+  ],
+  "realtimeRecorder.reset": [
+    "reset",
+    "Clears the table."
+  ],
+  "realtimeRecorder.0": [
+    "name n",
+    "Specifies a column name for the <strong>value <em>n</em></strong> values in the output table."
+  ],
+  "realtimeRecorder.1": [
+    "value n",
+    "Specifies a value to monitor and output in the output table."
+  ],
+  "realtimeRecorder.output": [
+    "output",
+    "Returns a table of timestamps and values. It contains a row for each monitored change."
+  ],
   "datetime.year": [
     "year",
     "Specifies the year. Can include one to four digits."
