@@ -473,7 +473,7 @@
   ],
   "calendar.titleFontFamily": [
     "Header Font",
-    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "<p>Specifies the font used for the month and year in the calendar header.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "titleColor": [
     "Title Color",
@@ -3574,7 +3574,7 @@
   ],
   "barSeries.symbol": [
     "Bar Renderer",
-    "<p>Specifies the symbol to use for custom bars.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+    "<p>Specifies the symbol to use for custom bars.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "bubbleSeries.rAxisType": [
     "R Axis Type",
@@ -4062,7 +4062,7 @@
   ],
   "projectInfo.isDesigner": [
     "isDesigner",
-    "Returns whether the currently logged in user is a designer for this project."
+    "<p>Returns whether the project is currently open in Edit mode.</p><p><strong>TRUE</strong><br />The project is open in Edit mode.</p><p><strong>FALSE</strong><br />The project is open in Preview mode or the Viewer.</p>"
   ],
   "relativize.path": [
     "path",
