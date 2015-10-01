@@ -989,7 +989,7 @@
   ],
   "radius": [
     "Marker Radius",
-    "<p>For standard markers, defines the marker radius in pixels.</p></p>For custom markers, defines the largest radius of an inscribed ellipse, in pixels. In other words, this property is equal to half the symbol width or half the symbol height, whichever is larger.</p>"
+    "<p>For standard markers, defines the marker radius in pixels.</p><p>For custom markers, defines the largest radius of an inscribed ellipse, in pixels. In other words, this property is equal to half the symbol width or half the symbol height, whichever is larger.</p>"
   ],
   "longitude": [
     "Longitude",
