@@ -761,7 +761,7 @@
   ],
   "colorFormInput.datalist": [
     "Datalist",
-    "<p>Specifies the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p></p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
+    "<p>Specifies the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p><p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
   ],
   "inputType": [
     "Input Type",
