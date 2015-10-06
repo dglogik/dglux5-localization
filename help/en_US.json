@@ -429,7 +429,7 @@
   ],
   "showDataTips": [
     "Show Datatips",
-    "Specifies whether datatips are displayed when the user mouses over data points."
+    "Specifies whether datatips are displayed when the user mouses over data points. If this series uses custom markers, datatips are shown by default."
   ],
   "markerStrokeWidth": [
     "Marker Stroke Weight",
