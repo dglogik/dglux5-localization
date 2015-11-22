@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "기호 이름",
+  "Create Symbol": "기호 만들기",
   "Add Parameter": "매개 변수 추가",
   "Warning": "경고",
   "Stage": "단계",
@@ -975,8 +977,6 @@
   "Duplicate": "중복",
   "Remove item": "항목 제거",
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' t symbol\\의 루트 컨테이너와 같은 행동을",
-  "Symbol Name": "기호 이름",
-  "Create Symbol": "기호 만들기",
   "Ok": "괜찮았던 것",
   "Close": "닫기",
   "Apply": "적용",

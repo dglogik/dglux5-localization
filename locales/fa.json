@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "نام نماد",
+  "Create Symbol": "ایجاد نماد",
   "Add Parameter": "اضافه کردن پارامتر",
   "Warning": "هشدار",
   "Stage": "مرحله",
@@ -975,8 +977,6 @@
   "Duplicate": "تکراری",
   "Remove item": "حذف مورد",
   "You can\\'t do such action with symbol\\'s root container": "شما can\\ ŧ چنین عملی با ظرف ریشه symbol\\ را نکنید",
-  "Symbol Name": "نام نماد",
-  "Create Symbol": "ایجاد نماد",
   "Ok": "باشه",
   "Close": "بستن",
   "Apply": "درخواست",

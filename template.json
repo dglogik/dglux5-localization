@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Symbol Name",
+  "Create Symbol": "Create Symbol",
   "Add Parameter": "Add Parameter",
   "Warning": "Warning",
   "Stage": "Stage",
@@ -975,8 +977,6 @@
   "Duplicate": "Duplicate",
   "Remove item": "Remove item",
   "You can\\'t do such action with symbol\\'s root container": "You can\\'t do such action with symbol\\'s root container",
-  "Symbol Name": "Symbol Name",
-  "Create Symbol": "Create Symbol",
   "Ok": "Ok",
   "Close": "Close",
   "Apply": "Apply",

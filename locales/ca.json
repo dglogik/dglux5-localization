@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Nom símbol",
+  "Create Symbol": "Crear símbol",
   "Add Parameter": "Afegir el paràmetre",
   "Warning": "Avís",
   "Stage": "Etapa",
@@ -975,8 +977,6 @@
   "Duplicate": "Duplicat",
   "Remove item": "Esborrar element",
   "You can\\'t do such action with symbol\\'s root container": "Vostè Can \\ ' t fer aquesta acció amb contenidor d'arrel de symbol\\",
-  "Symbol Name": "Nom símbol",
-  "Create Symbol": "Crear símbol",
   "Ok": "Correcte",
   "Close": "Tancar",
   "Apply": "S'apliquen",

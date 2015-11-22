@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Συμβολικό όνομα",
+  "Create Symbol": "Δημιουργία σύμβολο",
   "Add Parameter": "Προσθέστε την παράμετρο",
   "Warning": "Προειδοποίηση",
   "Stage": "Στάδιο",
@@ -975,8 +977,6 @@
   "Duplicate": "Διπλότυπο",
   "Remove item": "Κατάργηση στοιχείου",
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t κάνει μια τέτοια ενέργεια με δοχείο ρίζα του symbol\\",
-  "Symbol Name": "Συμβολικό όνομα",
-  "Create Symbol": "Δημιουργία σύμβολο",
   "Ok": "Ok",
   "Close": "Κλείσιμο",
   "Apply": "Ισχύουν",

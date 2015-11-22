@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "اسم الرمز",
+  "Create Symbol": "إنشاء رمز",
   "Add Parameter": "إضافة معلمة",
   "Warning": "تحذير",
   "Stage": "المرحلة",
@@ -975,8 +977,6 @@
   "Duplicate": "مكررة",
   "Remove item": "إزالة العنصر",
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' ر القيام بمثل هذا العمل مع symbol\\ في الحاوية الجذر",
-  "Symbol Name": "اسم الرمز",
-  "Create Symbol": "إنشاء رمز",
   "Ok": "موافق",
   "Close": "قم بإغلاق",
   "Apply": "تطبيق",

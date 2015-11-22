@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "סמל שם",
+  "Create Symbol": "ליצור סמל",
   "Add Parameter": "להוסיף פרמטר",
   "Warning": "אזהרה",
   "Stage": "הבמה",
@@ -975,8 +977,6 @@
   "Duplicate": "שכפל",
   "Remove item": "הסר פריט",
   "You can\\'t do such action with symbol\\'s root container": "את can\\ עשיתי פעולה כזו עם מיכל השורש של symbol\\",
-  "Symbol Name": "סמל שם",
-  "Create Symbol": "ליצור סמל",
   "Ok": "אוקיי",
   "Close": "סגור",
   "Apply": "החל",

@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Szimbolikus név",
+  "Create Symbol": "-Szimbólum létrehozása",
   "Add Parameter": "Adja hozzá a paramétert",
   "Warning": "Figyelmeztetés",
   "Stage": "Szakasz",
@@ -975,8 +977,6 @@
   "Duplicate": "Ismétlődő",
   "Remove item": "Elem eltávolítása",
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t csinál ilyen cselekvés symbol\\ barátait legfelső szintű tárolója",
-  "Symbol Name": "Szimbolikus név",
-  "Create Symbol": "-Szimbólum létrehozása",
   "Ok": "oké",
   "Close": "Zár",
   "Apply": "Alkalmazása",

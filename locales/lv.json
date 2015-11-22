@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Simbola nosaukums",
+  "Create Symbol": "Izveidot simbolu",
   "Add Parameter": "Pievienojiet parametru",
   "Warning": "Brīdinājums",
   "Stage": "Posma",
@@ -975,8 +977,6 @@
   "Duplicate": "Dublicēt",
   "Remove item": "Noņemt vienumu",
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' t darīt šāda rīcība ar symbol\\ ir saknes konteineris",
-  "Symbol Name": "Simbola nosaukums",
-  "Create Symbol": "Izveidot simbolu",
   "Ok": "labi",
   "Close": "Aizvērt",
   "Apply": "Lietot",

@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Simge adı",
+  "Create Symbol": "Sembol oluşturma",
   "Add Parameter": "Parametre Ekle",
   "Warning": "Uyarı",
   "Stage": "Sahne",
@@ -975,8 +977,6 @@
   "Duplicate": "Çoğalt",
   "Remove item": "Öğe Kaldır",
   "You can\\'t do such action with symbol\\'s root container": "böyle eylem ile symbol\\'ın kök kapsayıcısını yapmak can\\",
-  "Symbol Name": "Simge adı",
-  "Create Symbol": "Sembol oluşturma",
   "Ok": "Tamam",
   "Close": "Kapat",
   "Apply": "Uygula",

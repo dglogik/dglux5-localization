@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Symboolnaam",
+  "Create Symbol": "Symbool maken",
   "Add Parameter": "Parameter toevoegen",
   "Warning": "Waarschuwing",
   "Stage": "Stadium",
@@ -975,8 +977,6 @@
   "Duplicate": "Dupliceren",
   "Remove item": "Object verwijderen",
   "You can\\'t do such action with symbol\\'s root container": "U huicheltaal\\ 't doen dergelijke actie met symbol\\ de basiscontainer",
-  "Symbol Name": "Symboolnaam",
-  "Create Symbol": "Symbool maken",
   "Ok": "OK",
   "Close": "Sluiten",
   "Apply": "Toepassing",

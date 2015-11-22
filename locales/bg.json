@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Име на символ",
+  "Create Symbol": "Създаване на символ",
   "Add Parameter": "Добавяне на параметър",
   "Warning": "Предупреждение",
   "Stage": "Етап",
@@ -975,8 +977,6 @@
   "Duplicate": "Дубликат",
   "Remove item": "Премахни елемента",
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t направи такова действие с symbol\\ на главен контейнер",
-  "Symbol Name": "Име на символ",
-  "Create Symbol": "Създаване на символ",
   "Ok": "OK",
   "Close": "Затвори",
   "Apply": "Приложи",

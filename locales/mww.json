@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Cim npe",
+  "Create Symbol": "Ua tau ib cim",
   "Add Parameter": "Ntxiv Parameter",
   "Warning": "Ceeb toom",
   "Stage": "Theem",
@@ -975,8 +977,6 @@
   "Duplicate": "Theej tawm",
   "Remove item": "Tshem item",
   "You can\\'t do such action with symbol\\'s root container": "Koj can\\'t ua xws nkaus nrog symbol\\ tus cag thawv",
-  "Symbol Name": "Cim npe",
-  "Create Symbol": "Ua tau ib cim",
   "Ok": "ua li",
   "Close": "Kaw",
   "Apply": "Thov",

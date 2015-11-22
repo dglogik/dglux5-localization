@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "符號名稱",
+  "Create Symbol": "創建符號",
   "Add Parameter": "添加參數",
   "Warning": "警告",
   "Stage": "階段",
@@ -975,8 +977,6 @@
   "Duplicate": "重複的",
   "Remove item": "刪除專案",
   "You can\\'t do such action with symbol\\'s root container": "你就不會做這種動作與 symbol\\ 的根容器",
-  "Symbol Name": "符號名稱",
-  "Create Symbol": "創建符號",
   "Ok": "還行",
   "Close": "關閉",
   "Apply": "申請",

@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "علامت کا نام",
+  "Create Symbol": "علامت کی تخلیق",
   "Add Parameter": "پیرامیٹر کا اضافہ کریں",
   "Warning": "تنبیہ",
   "Stage": "مرحلہ",
@@ -975,8 +977,6 @@
   "Duplicate": "مثنی",
   "Remove item": "شے ہٹائیں",
   "You can\\'t do such action with symbol\\'s root container": "ہجے symbol\\ کی جڑ کنٹینر کے ساتھ اس طرح عمل کرتے ہیں تم can\\",
-  "Symbol Name": "علامت کا نام",
-  "Create Symbol": "علامت کی تخلیق",
   "Ok": "ٹھيک ہے",
   "Close": "بند کریں",
   "Apply": "لگائیں",

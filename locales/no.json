@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Symbolet navn",
+  "Create Symbol": "Opprette Symbol",
   "Add Parameter": "Legge til Parameter",
   "Warning": "Advarsel",
   "Stage": "Scenen",
@@ -975,8 +977,6 @@
   "Duplicate": "Duplikat",
   "Remove item": "Fjern element",
   "You can\\'t do such action with symbol\\'s root container": "Du skrånende\\ 't gjøre slike tiltak med symbol\\'s rot container",
-  "Symbol Name": "Symbolet navn",
-  "Create Symbol": "Opprette Symbol",
   "Ok": "ok",
   "Close": "Lukk",
   "Apply": "Bruke",

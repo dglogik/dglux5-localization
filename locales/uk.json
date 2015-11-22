@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Символ ім'я",
+  "Create Symbol": "Створити символ",
   "Add Parameter": "Додати параметр",
   "Warning": "Попередження",
   "Stage": "Етап",
@@ -975,8 +977,6 @@
   "Duplicate": "Створення дублікату",
   "Remove item": "Видалити елемент",
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' t зробити такі дії з symbol\\ в корінь контейнер",
-  "Symbol Name": "Символ ім'я",
-  "Create Symbol": "Створити символ",
   "Ok": "Гаразд",
   "Close": "Закрити",
   "Apply": "Застосувати",

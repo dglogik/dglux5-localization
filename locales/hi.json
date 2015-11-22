@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "प्रतीक नाम",
+  "Create Symbol": "प्रतीक बनाएँ",
   "Add Parameter": "पैरामीटर जोड़ें",
   "Warning": "चेतावनी",
   "Stage": "स्टेज",
@@ -975,8 +977,6 @@
   "Duplicate": "डुप्लिकेट",
   "Remove item": "आइटम निकालें",
   "You can\\'t do such action with symbol\\'s root container": "आप ' t symbol\\ की रूट कंटेनर के साथ ऐसी कार्रवाई करते हैं can\\",
-  "Symbol Name": "प्रतीक नाम",
-  "Create Symbol": "प्रतीक बनाएँ",
   "Ok": "ठीक है",
   "Close": "बंद करें",
   "Apply": "लागू करें",

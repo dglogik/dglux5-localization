@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "ชื่อสัญลักษณ์",
+  "Create Symbol": "สร้างสัญลักษณ์",
   "Add Parameter": "เพิ่มพารามิเตอร์",
   "Warning": "คำเตือน",
   "Stage": "ขั้นตอน",
@@ -975,8 +977,6 @@
   "Duplicate": "ซ้ำ",
   "Remove item": "เอารายการออก",
   "You can\\'t do such action with symbol\\'s root container": "คุณ can\\ ไม่ทำการกระทำดังกล่าว มีรูทคอนเทนเนอร์ของ symbol\\",
-  "Symbol Name": "ชื่อสัญลักษณ์",
-  "Create Symbol": "สร้างสัญลักษณ์",
   "Ok": "ตกลง, ได้",
   "Close": "ปิด",
   "Apply": "นำไปใช้",

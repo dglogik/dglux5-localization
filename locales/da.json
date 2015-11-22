@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Symbol navn",
+  "Create Symbol": "Opret Symbol",
   "Add Parameter": "Tilføj Parameter",
   "Warning": "Advarsel",
   "Stage": "Fase",
@@ -975,8 +977,6 @@
   "Duplicate": "Dublet",
   "Remove item": "Fjern element",
   "You can\\'t do such action with symbol\\'s root container": "Du kan ikke\\ 't gøre sådan handling med symbol\\'s root container",
-  "Symbol Name": "Symbol navn",
-  "Create Symbol": "Opret Symbol",
   "Ok": "Ok",
   "Close": "Luk",
   "Apply": "Anvende",

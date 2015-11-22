@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Nama simbol",
+  "Create Symbol": "Menciptakan simbol",
   "Add Parameter": "Menambahkan Parameter",
   "Warning": "Peringatan",
   "Stage": "Panggung",
@@ -975,8 +977,6 @@
   "Duplicate": "Duplikat",
   "Remove item": "Menghapus item",
   "You can\\'t do such action with symbol\\'s root container": "Anda can\\'t melakukan tindakan tersebut dengan symbol\\'s akar kontainer",
-  "Symbol Name": "Nama simbol",
-  "Create Symbol": "Menciptakan simbol",
   "Ok": "Oke",
   "Close": "Tutup",
   "Apply": "Menerapkan",

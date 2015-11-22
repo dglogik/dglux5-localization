@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Simbolio pavadinimas",
+  "Create Symbol": "Sukurti simbolis",
   "Add Parameter": "Pridėti parametras",
   "Warning": "Įspėjimas",
   "Stage": "Etapas",
@@ -975,8 +977,6 @@
   "Duplicate": "Du kartus",
   "Remove item": "Pašalinti elementą",
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t padaryti tokių veiksmų su symbol\\'s šaknis konteineris",
-  "Symbol Name": "Simbolio pavadinimas",
-  "Create Symbol": "Sukurti simbolis",
   "Ok": "gerai",
   "Close": "Uždaryti",
   "Apply": "Taikyti",

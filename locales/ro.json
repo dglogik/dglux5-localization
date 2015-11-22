@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Numele de simbol",
+  "Create Symbol": "Crea Simbol",
   "Add Parameter": "Adauga parametrul",
   "Warning": "Avertisment",
   "Stage": "Etapa",
@@ -975,8 +977,6 @@
   "Duplicate": "Duplicat",
   "Remove item": "Eliminaţi elementul",
   "You can\\'t do such action with symbol\\'s root container": "Tu can\\'t face o astfel de acţiune cu symbol\\ pe rădăcina container",
-  "Symbol Name": "Numele de simbol",
-  "Create Symbol": "Crea Simbol",
   "Ok": "ok",
   "Close": "Închide",
   "Apply": "Se aplică",

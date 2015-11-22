@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Tên ký hiệu",
+  "Create Symbol": "Tạo biểu tượng",
   "Add Parameter": "Thêm tham số",
   "Warning": "Cảnh báo",
   "Stage": "Giai đoạn",
@@ -975,8 +977,6 @@
   "Duplicate": "Bản sao",
   "Remove item": "Loại bỏ khoản mục",
   "You can\\'t do such action with symbol\\'s root container": "Bạn can\\'t làm những hành động đó với symbol\\ của gốc container",
-  "Symbol Name": "Tên ký hiệu",
-  "Create Symbol": "Tạo biểu tượng",
   "Ok": "Ok",
   "Close": "Đóng",
   "Apply": "Áp dụng",

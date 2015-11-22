@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "Nom du symbole",
+  "Create Symbol": "Créer le symbole",
   "Add Parameter": "Ajouter le paramètre",
   "Warning": "Mise en garde",
   "Stage": "Stade",
@@ -975,8 +977,6 @@
   "Duplicate": "Dupliquer",
   "Remove item": "Supprimer un élément",
   "You can\\'t do such action with symbol\\'s root container": "Vous can\\ ' t faire telle action avec conteneur racine de symbol\\",
-  "Symbol Name": "Nom du symbole",
-  "Create Symbol": "Créer le symbole",
   "Ok": "Ok",
   "Close": "Fermer",
   "Apply": "Appliquer",

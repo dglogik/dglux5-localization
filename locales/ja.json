@@ -1,4 +1,6 @@
 {
+  "Symbol Name": "シンボル名",
+  "Create Symbol": "シンボルを作成します。",
   "Add Parameter": "パラメーターを追加します。",
   "Warning": "警告",
   "Stage": "ステージ",
@@ -975,8 +977,6 @@
   "Duplicate": "重複しています。",
   "Remove item": "項目を削除します",
   "You can\\'t do such action with symbol\\'s root container": "あなたは can\\ ' t は symbol\\ のルート コンテナーをそのような行動を行う",
-  "Symbol Name": "シンボル名",
-  "Create Symbol": "シンボルを作成します。",
   "Ok": "わかりました",
   "Close": "閉じる",
   "Apply": "適用",
