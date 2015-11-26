@@ -3818,7 +3818,7 @@
   ],
   "strLoader.autoRun": [
     "autoRun",
-    "Specifies whether the string is loaded automatically when the page loads."
+    "<p>Specifies whether the string is loaded automatically.</p><p><strong>TRUE</strong><br/>The string is loaded every time any property is changed. This includes the first time that the <strong>path</strong> property is populated.</p><p><strong>FALSE</strong><br/>The string is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
   ],
   "strLoader.timeout": [
     "timeout",
@@ -3910,7 +3910,7 @@
   ],
   "listFiles.autoRun": [
     "autoRun",
-    "Specifies whether the table is generated automatically when the page loads."
+    "<p>Specifies whether the table is generated automatically.</p><p><strong>TRUE</strong><br/>The table is generated every time any property is changed. This includes the first time that the <strong>path</strong> property is populated.</p><p><strong>FALSE</strong><br/>The table is generated only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
   ],
   "listFiles.timeout": [
     "timeout",
@@ -4094,7 +4094,7 @@
   ],
   "loadHistories.autoRun": [
     "autoRun",
-    "Specifies whether the histories are loaded automatically when the page loads."
+    "<p>Specifies whether the histories are loaded automatically.</p><p><strong>TRUE</strong><br/>The histories are loaded every time any property is changed. This includes the first time that the <strong>path</strong> property is populated.</p><p><strong>FALSE</strong><br/>The histories are loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
   ],
   "loadHistories.timeout": [
     "timeout",
@@ -4190,7 +4190,7 @@
   ],
   "loadHistory.autoRun": [
     "autoRun",
-    "Specifies whether the history is loaded automatically when the page loads."
+    "<p>Specifies whether the history is loaded automatically.</p><p><strong>TRUE</strong><br/>The history is loaded every time any property is changed. This includes the first time that the <strong>path</strong> property is populated.</p><p><strong>FALSE</strong><br/>The history is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
   ],
   "loadHistory.timeout": [
     "timeout",
@@ -4246,7 +4246,7 @@
   ],
   "dbQuery.autoRun": [
     "autoRun",
-    "Specifies whether the string is loaded automatically when the page loads. It is disabled by default."
+    "Specifies whether the string is loaded automatically."
   ],
   "dbQuery.timeout": [
     "timeout",
@@ -4294,7 +4294,7 @@
   ],
   "jsonpLoader.autoRun": [
     "autoRun",
-    "Specifies whether the loader gets data automatically. Only works when <strong>enabled</strong> is set to TRUE."
+    "<p>Specifies whether the data is loaded automatically.</p><p><strong>TRUE</strong><br/>The data is loaded every time any property is changed. This includes the first time that the <strong>url</strong> property is populated.</p><p><strong>FALSE</strong><br/>The data is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>Specifies whether the loader gets data automatically. Only works when <strong>enabled</strong> is set to TRUE."
   ],
   "jsonpLoader.timeout": [
     "timeout",
@@ -4694,7 +4694,7 @@
   ],
   "javascript.autoRun": [
     "autoRun",
-    "Specifies whether the JavaScript loads and runs automatically when the page loads."
+    "<p>Specifies whether the script runs automatically.</p><p><strong>TRUE</strong><br/>The script runs every time the script is changed, and every time any property is changed. This includes the first time that the script is initialized.</p><p><strong>FALSE</strong><br/>The script runs only when the <strong>invoke</strong> property is triggered.</p>"
   ],
   "javascript.scriptPath": [
     "scriptPath",
@@ -4934,7 +4934,7 @@
   ],
   "script.autoRun": [
     "autoRun",
-    "Specifies whether the script is constantly running automatically."
+    "<p>Specifies whether the script runs automatically.</p><p><strong>TRUE</strong><br/>The script runs every time the script is changed, and every time any property is changed. This includes the first time that the script is initialized.</p><p><strong>FALSE</strong><br/>The script runs only when the <strong>invoke</strong> property is triggered.</p>"
   ],
   "script.script": [
     "script",
