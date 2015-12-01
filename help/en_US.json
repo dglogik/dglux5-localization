@@ -4294,7 +4294,7 @@
   ],
   "jsonpLoader.autoRun": [
     "autoRun",
-    "<p>Specifies whether the data is loaded automatically.</p><p><strong>TRUE</strong><br/>The data is loaded every time any property is changed. This includes the first time that the <strong>url</strong> property is populated.</p><p><strong>FALSE</strong><br/>The data is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>Specifies whether the loader gets data automatically. Only works when <strong>enabled</strong> is set to TRUE."
+    "<p>Specifies whether the data is loaded automatically.</p><p><strong>TRUE</strong><br/>The data is loaded every time any property is changed. This includes the first time that the <strong>url</strong> property is populated.</p><p><strong>FALSE</strong><br/>The data is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
   ],
   "jsonpLoader.timeout": [
     "timeout",
@@ -4698,7 +4698,7 @@
   ],
   "javascript.scriptPath": [
     "scriptPath",
-    "Specifies the path to the JavaScript file. It can be DGLux file path relative to the root, or it can be some other URL. The file extension must be <code>.js</code>."
+    "Specifies the path to the JavaScript file. It can be a DGLux5 file path relative to the root, or it can be some other URL. The file extension must be <code>.js</code>."
   ],
   "javascript.initFunction": [
     "initFunction",
