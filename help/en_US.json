@@ -4438,7 +4438,7 @@
   ],
   "table.save": [
     "save",
-    ""
+    "Removes any binding to the <strong>data</strong> property. When <strong>save</strong> is invoked, data currently in the table is maintained."
   ],
   "iframeMessage.match": [
     "match",
