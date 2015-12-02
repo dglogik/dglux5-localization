@@ -65,7 +65,7 @@
   ],
   "todayFontStyle": [
     "Today Cell Italic",
-    "Specifies whether the text in the today cell is italicized."
+    "Specifies whether the text in the today cell is italic."
   ],
   "todayFontWeight": [
     "Today Cell Bold",
@@ -97,7 +97,7 @@
   ],
   "outOfMonthFontStyle": [
     "Out-of-Month Cells Italic",
-    "Specifies whether the text in out-of-month cells is italicized."
+    "Specifies whether the text in out-of-month cells is italic."
   ],
   "outOfMonthFontWeight": [
     "Out-of-Month Cells Bold",
@@ -129,7 +129,7 @@
   ],
   "weekendFontStyle": [
     "Weekend Cells Italic",
-    "Specifies whether the text in weekend cells is italicized."
+    "Specifies whether the text in weekend cells is italic."
   ],
   "weekendFontWeight": [
     "Weekend Cells Bold",
@@ -161,7 +161,7 @@
   ],
   "dowFontStyle": [
     "Days of Week Italic",
-    "Specifies whether the names of the days of the week are italicized."
+    "Specifies whether the names of the days of the week are italic."
   ],
   "dowFontWeight": [
     "Days of Week Bold",
@@ -205,7 +205,7 @@
   ],
   "highlightedFontStyle": [
     "Highlighted Cells Italic",
-    "Specifies whether the text in highlighted cells is italicized."
+    "Specifies whether the text in highlighted cells is italic."
   ],
   "highlightedFontWeight": [
     "Highlighted Cells Bold",
@@ -237,7 +237,7 @@
   ],
   "selectedFontStyle": [
     "Selected Cells Italic",
-    "Specifies whether the text in selected cells is italicized."
+    "Specifies whether the text in selected cells is italic."
   ],
   "selectedFontWeight": [
     "Selected Cells Bold",
@@ -269,7 +269,7 @@
   ],
   "normalFontStyle": [
     "Weekday Cells Italic",
-    "Specifies whether the text in weekday cells is italicized."
+    "Specifies whether the text in weekday cells is italic."
   ],
   "normalFontWeight": [
     "Weekday Cells Bold",
@@ -465,7 +465,7 @@
   ],
   "titleFontStyle": [
     "Header Italic",
-    "Defines whether the header text is italicized."
+    "Defines whether the header text is italic."
   ],
   "calendar.titleFontSize": [
     "Header Font Size",
@@ -865,7 +865,7 @@
   ],
   "labelsFontStyle": [
     "Labels Italic",
-    "Defines whether these labels are italicized."
+    "Defines whether these labels are italic."
   ],
   "axisRenderer.labelsFontFamily": [
     "Labels Font",
@@ -885,7 +885,7 @@
   ],
   "scaleLabels.formatString": [
     "Format",
-    "<p>Defines the number format for scale labels, as a format string.</p><p>For example:<ul><li><strong>,##0.00<strong> – Labels have a thousands separator and two decimal digits. </li><li><strong>000.00</strong> – Labels have three mandatory digits before the decimal, and two mandatory digits after the decimal. </li></ul>See more information about supported formatting options <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>here</a>.</p>"
+    "<p>Defines the number format for scale labels, as a format string.</p><p>For example:<ul><li><strong>,##0.00</strong> – Labels have a thousands separator and two decimal digits. </li><li><strong>000.00</strong> – Labels have three mandatory digits before the decimal, and two mandatory digits after the decimal. </li></ul>See more information about supported formatting options <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>here</a>.</p>"
   ],
   "maximum": [
     "Maximum",
@@ -901,7 +901,7 @@
   ],
   "scaleLabels.majorTicksCount": [
     "Labels Count",
-    "Defines the total number of labels along a labeled scale. Must be an integer greater than or equal to 2. The Only Min/Max Labels property overrides this property."
+    "Defines the total number of labels along a labeled scale. Must be an integer greater than or equal to 2. The <strong>Only Min/Max Labels</strong> property overrides this property."
   ],
   "percentRadius": [
     "Radius",
@@ -917,11 +917,11 @@
   ],
   "angleTo": [
     "End Angle",
-    "Defines the start angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
+    "Defines the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "angleFrom": [
     "Start Angle",
-    "Defines the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
+    "Defines the start angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between −180 and 180."
   ],
   "minorTickStrokeWidth": [
     "Minor Tick Stroke Weight",
@@ -933,11 +933,11 @@
   ],
   "offsetRight": [
     "Right Padding",
-    "Defines the distance between the right side of a linear scale and the container bounds, in pixels."
+    "Defines the distance between the right side of a linear scale and the container bounds, in pixels. If a border stroke is defined, defines the distance between the scale and the border stroke. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>"
   ],
   "offsetLeft": [
     "Left Padding",
-    "Defines the distance between the left side of a linear scale and the container bounds, in pixels."
+    "Defines the distance between the left side of a linear scale and the container bounds, in pixels. If a border stroke is defined, defines the distance between the scale and the border stroke. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>."
   ],
   "scaleType": [
     "Scale Type",
@@ -2622,7 +2622,7 @@
   ],
   "daterangePicker.buttonFontStyle": [
     "Button Italic",
-    "Defines whether the text for buttons within this date range picker is italicized."
+    "Defines whether the text for buttons within this date range picker is italic."
   ],
   "daterangePicker.buttonFontWeight": [
     "Button Bold",
@@ -3046,7 +3046,7 @@
   ],
   "datagridRows.grid.defaultCellFontStyle": [
     "Rows Font Italic",
-    "Specifies whether the text in this element is italicized."
+    "Specifies whether the text in this element is italic."
   ],
   "datagridRows.grid.defaultCellPaddingTop": [
     "Rows Top Padding",
@@ -3162,7 +3162,7 @@
   ],
   "datagridHeader.grid.headerFontStyle": [
     "Header Font Italic",
-    "Specifies whether the text in this element is italicized."
+    "Specifies whether the text in this element is italic."
   ],
   "datagridHeader.grid.headerFontWeight": [
     "Header Font Bold",
@@ -3358,7 +3358,7 @@
   ],
   "scaleLabels.showMinMaxOnly": [
     "Only Min/Max Labels",
-    "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the Labels Count property."
+    "Specifies whether the labels for the minimum and maximum of the scale are the only two labels that appear. This property overrides the <strong>Labels Count</strong> property."
   ],
   "scaleLabels.percentTextSize": [
     "Labels Size",
