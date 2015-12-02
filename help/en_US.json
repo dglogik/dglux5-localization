@@ -763,9 +763,13 @@
     "Datalist",
     "<p>Specifies the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value.</p><p>Click on a color in the Property Inspector to edit it.</p><p>Colors are displayed in order in this color input component, with the top color appearing first.</p>"
   ],
-  "inputType": [
+  "dateFormInput.inputType": [
     "Input Type",
-    "<p>Specifies the valid input type, or the expected input type, for this input component.</p><p>Input types for a text input component:<ul><li><strong>Text</strong> – a single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong> – a single, properly formatted e-mail address, or the empty string.</li><li><strong>URL</strong> – a single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong> – a single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</li></ul></p><p>Input types for a date input component:<ul><li><strong>Date</strong> – a year, month, and day.</li><li><strong>Week</strong> – a year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong> – a month and year.</li></ul></p>"
+    "<p>Specifies the valid input type, or the expected input type.</p><p><strong>Date</strong><br />A year, month, and day.</p><p><strong>Week</strong><br />A year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</p><p><strong>Month</strong><br />A month and year.</p>"
+  ],
+  "textFormInput.inputType": [
+    "Input Type",
+    "<p>Specifies the valid input type, or the expected input type.</p><p><strong>Text</strong><br />A single line of text. Line breaks are automatically removed.</p><p><strong>Email</strong><br />A single, properly formatted e-mail address, or the empty string.</p><p><strong>URL</strong><br />A single, valid, absolute URL, or the empty string.</p><p><strong>Tel</strong><br />A single line of text. Line breaks are automatically removed. On mobile devices, the on-screen keyboard is optimized for number entry.</p>"
   ],
   "isValid": [
     "Is Valid",
@@ -1009,7 +1013,7 @@
   ],
   "liveUpdate": [
     "Live Update",
-    "<p>Specifies when the user’s changes to this component are committed. This property affects changes made in Preview Mode, the Viewer, and the deployed application. It does not affect changes you make within the Property Inspector.</p><p><strong>TRUE</strong><br />Changes are committed constantly, as the user makes them.</p><p><strong>FALSE</strong><br />Changes are committed only when focus leaves the component.</p>"
+    "<p>Specifies when the user’s changes to this component are committed. This property affects changes made in Preview Mode, the Viewer, and the deployed application. It does not affect changes that you make within the Property Inspector.</p><p><strong>TRUE</strong><br />Changes are committed constantly, as the user makes them.</p><p><strong>FALSE</strong><br />Changes are committed only when focus leaves the component.</p>"
   ],
   "wordWrap": [
     "Word Wrap",
@@ -1033,7 +1037,7 @@
   ],
   "fontStyle": [
     "Italic",
-    "Specifies whether the text in this element is italicized."
+    "Specifies whether the text in this element is italic."
   ],
   "fontSize": [
     "Font Size",
@@ -1166,19 +1170,19 @@
   ],
   "paddingRight": [
     "Right Padding",
-    "Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
+    "<p>Defines a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed.</p><p>Paddings are part of an object's width and height. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>.</p>"
   ],
   "paddingLeft": [
     "Left Padding",
-    "Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
+    "<p>Defines a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed.</p><p>Paddings are part of an object's width and height. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>.</p>"
   ],
   "paddingBottom": [
     "Bottom Padding",
-    "Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
+    "<p>Defines a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed.</p><p>Paddings are part of an object's width and height. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>.</p>"
   ],
   "paddingTop": [
     "Top Padding",
-    "Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
+    "<p>Defines a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed.</p><p>Paddings are part of an object's width and height. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box-sizing:home'>Borders, Padding, and Content Size</a>.</p>"
   ],
   "scrollFeedback": [
     "Scroll Feedback",
@@ -1906,7 +1910,27 @@
   ],
   "listFormElement.value": [
     "Value",
-    "Sets or returns the current contents of this input component."
+    "Sets or returns the currently selected list option."
+  ],
+  "textFormInput.color": [
+    "Font Color",
+    "Defines the font color for this component."
+  ],
+  "textAreaFormInput.color": [
+    "Font Color",
+    "Defines the font color for this component."
+  ],
+  "passwordFormInput.color": [
+    "Font Color",
+    "Defines the font color for this component."
+  ],
+  "dateFormInput.color": [
+    "Font Color",
+    "Defines the font color for this component."
+  ],
+  "numberFormInput.color": [
+    "Font Color",
+    "Defines the font color for this component."
   ],
   "durationBack": [
     "Duration Back",
@@ -3394,7 +3418,7 @@
   ],
   "listFormElement.selectedIndex": [
     "Selected Index",
-    "Sets or returns the index of the currently selected list element. A value of 0 indicates the top element in the list."
+    "Sets or returns the index of the currently selected list option. A value of 0 indicates the top option in the list."
   ],
   "listFormElement.showArrow": [
     "Show Arrow",
@@ -3402,39 +3426,63 @@
   ],
   "listFormElement.arrowImage": [
     "Arrow Image",
-    "Specifies a custom arrow graphic that appears if Show Arrow is enabled. If you don't specify an image, a default graphic is used."
+    "Specifies a custom arrow graphic that appears if <strong>Show Arrow</strong> is enabled. If you don't specify an image, a default graphic is used."
   ],
   "listFormElement.options": [
     "Options",
     "Defines the list of options for this list element, as comma-separated values."
   ],
+  "listFormElement.fontFamily": [
+    "Selected Element Font",
+    "<p>Defines the font for the selected option.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+  ],
+  "listFormElement.color": [
+    "Selected Element Font Color",
+    "Defines the font color for the selected option."
+  ],
+  "listFormElement.fontSize": [
+    "Selected Element Font Size",
+    "Defines the font size for the selected option."
+  ],
+  "listFormElement.fontStyle": [
+    "Selected Element Font Italic",
+    "Defines whether the selected option is italic."
+  ],
+  "listFormElement.fontWeight": [
+    "Selected Element Font Bold",
+    "Defines whether the selected option is bold."
+  ],
+  "listFormElement.textDecoration": [
+    "Selected Element Font Underline",
+    "Defines whether the selected option is underlined."
+  ],
   "listFormElement.optionFontFamily": [
-    "Option Font",
-    "<p>Defines the font for the option list. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
+    "Options Font",
+    "<p>Defines the font for the options list. Not supported in all browsers.</p><p>To add a new font to your project and use it for this property:<ol><li>If you have not already done so, right-click the root folder for your project, and add a new folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop-down menu for this property.</li></ol></p>"
   ],
   "listFormElement.optionLineHeight": [
     "Option Line Height",
     ""
   ],
   "listFormElement.optionFontSize": [
-    "Option Font Size",
-    "Defines the font size for the option list. Not supported in all browsers."
+    "Options Font Size",
+    "Defines the font size for the options list. Not supported in all browsers."
   ],
   "listFormElement.optionFontStyle": [
-    "Option Font Italic",
-    ""
+    "Options Font Italic",
+    "Defines whether the options list is italic. Not supported in all browsers."
   ],
   "listFormElement.optionFontWeight": [
-    "Option Font Bold",
-    ""
+    "Options Font Bold",
+    "Defines whether the options list is bold. Not supported in all browsers."
   ],
   "listFormElement.optionTextDecoration": [
-    "Option Font Underline",
-    ""
+    "Options Font Underline",
+    "Defines whether the options list is underlined. Not supported in all browsers."
   ],
   "listFormElement.optionColor": [
-    "Option Font Color",
-    "Defines the font color for the option list. Not supported in all browsers."
+    "Options Font Color",
+    "Defines the font color for the options list. Not supported in all browsers."
   ],
   "listFormElement.optionTextAlign": [
     "Option Text Align",
@@ -3442,7 +3490,7 @@
   ],
   "listFormElement.optionBackground": [
     "Option Fill",
-    "Defines the fill for the option list. Not supported in all browsers."
+    "Defines the fill for the options list. Not supported in all browsers."
   ],
   "list.fontFamily": [
     "Selected Item Font",
@@ -3462,7 +3510,7 @@
   ],
   "fileFormInput.open": [
     "Open",
-    "Opens the browser file chooser. To set the file chooser to open in certain circumstances, you can bind data or properties to this button, or click it as part of a recorded action."
+    "A trigger that opens the browser file chooser. For information about using triggers, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:bindings:home#triggers'>this page</a>."
   ],
   "fileFormInput.accept": [
     "Accept",
@@ -5846,15 +5894,15 @@
   ],
   "jsonParser.drillDownDepth": [
     "drillDownDepth",
-    "specifies how far to drill down into the JSON when extracting data. Data below the drillDownDepth is not included in the output. Only works when a drillDownFilter or flatFilter is specified"
+    "Specifies how far to drill down into the JSON when extracting data. Data below the drillDownDepth is not included in the output. Only works when a <strong>drillDownFilter</strong> or <strong>flatFilter</strong> is specified."
   ],
   "jsonParser.drillDownFilter": [
     "drillDownFilter",
-    "Specifies what to return for nested tables. Enter * to return all nested tables to the specified drillDownDepth."
+    "Specifies what to return for nested tables. Enter * to return all nested tables to the specified <strong>drillDownDepth</strong>. For more information about nested tables, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
   ],
   "jsonParser.flatFilter": [
     "flatFilter",
-    "Specifies what to return for a flat table. Enter * to return all data to the specified drillDownDepth, in a flat table."
+    "Specifies what to return for a flat table. Enter * to return all data to the specified <strong>drillDownDepth</strong>, in a flat table."
   ],
   "tableColumnMapping.input": [
     "input",
@@ -5874,7 +5922,7 @@
   ],
   "tableColumnMapping.print": [
     "print",
-    "Displays error messages and other notifications for debugging your dataflow."
+    "Displays error messages and other notifications for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a> your dataflow."
   ],
   "tableColumnMapping.output": [
     "output",
@@ -5890,7 +5938,7 @@
   ],
   "tableSort.method": [
     "method",
-    "Specifies whether to sort values as numbers or strings."
+    "Specifies whether to sort values as strings (alphabetically) or as numbers."
   ],
   "tableSort.order": [
     "order",
@@ -5926,11 +5974,11 @@
   ],
   "tableGroupBy.nestedData": [
     "nestedData",
-    "Specifies whether to keep the original rows in a new column of the output table as nested tables. You can view the child table data by binding a cell containing a table to a Table dataflow block."
+    "Specifies whether to keep the original rows in a new column of the output table as nested tables. For more information about nested tables, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
   ],
   "tableGroupBy.includeBlankValue": [
     "includeBlankValue",
-    "Specifies whether to include a row for a blank value of the baseColumn, if a blank value exists."
+    "Specifies whether to include a row for a blank value of <strong>baseColumn</strong>, if a blank value exists."
   ],
   "tableGroupBy.0": [
     "column n",
@@ -5958,19 +6006,19 @@
   ],
   "tableJoin.field1": [
     "column1",
-    "Specifies the name of the key column from the input1 table."
+    "Specifies the name of the key column from the <strong>input1</strong> table."
   ],
   "tableJoin.field2": [
     "column2",
-    "Specifies the name of the key column from the input2 table."
+    "Specifies the name of the key column from the <strong>input2</strong> table."
   ],
   "tableJoin.join": [
     "join",
-    "Determines the method of joining.<p></p><p><strong>Left</strong><br />All rows from input1 are included. Rows from input2 are merged when the column2 value matches a column1 value.</p><p><strong>Right</strong><br />All rows from input2 are included. Rows from input1 are merged when the column1 value matches a column2 value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in column1 and column2 are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of column1 and column2 are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
+    "<p>Determines the method of joining.</p><p><strong>Left</strong><br />All rows from <strong>input1</strong> are included. Rows from <strong>input2</strong> are merged when the <strong>column2</strong> value matches a <strong>column1</strong> value.</p><p><strong>Right</strong><br />All rows from <strong>input2</strong> are included. Rows from <strong>input1</strong> are merged when the <strong>column1</strong> value matches a <strong>column2</strong> value.</p><p><strong>Inner</strong><br />Rows are included and merged only when the values in <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Full</strong><br />All rows from both tables are included, and the rows are merged if the values of <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Union</strong><br />All rows from both tables are included in a new table. Rows are not merged.</p>"
   ],
   "tableJoin.renameColumns": [
     "renameColumns",
-    "Determines the naming in the output table for columns that come from input2. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
+    "Determines the naming in the output table for columns that come from <strong>input2</strong>. Make sure to rename columns if you don’t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create a new line."
   ],
   "tableJoin.output": [
     "output",
@@ -6038,7 +6086,7 @@
   ],
   "tableRollup.roundTime": [
     "roundTime",
-    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>TRUE</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at a multiple of five minutes past the hour.</p><p><strong>FALSE</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+    "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>TRUE</strong><br />Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong><br />The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
   ],
   "tableRollup.output": [
     "output",
@@ -6058,7 +6106,7 @@
   ],
   "tableAggregation.output": [
     "output",
-    "Returns the output string as determined by the method parameter."
+    "Returns the output string as determined by the <strong>method</strong> property."
   ],
   "tableSelectRows.input": [
     "input",
@@ -6090,7 +6138,7 @@
   ],
   "tableGetColumns.output": [
     "output",
-    "Returns the output table. It contains a row for each column in the input table."
+    "Returns the output table. It contains the names and data types of the input table's columns."
   ],
   "tableRowCells.table": [
     "table",
@@ -6106,7 +6154,7 @@
   ],
   "tableRowCells.1": [
     "value n",
-    "<p>Sets or returns the cell value at the specified row and column <em>n</em>.</p><p>Although value <em>n</em> is an Input/Output property, changing it writes to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
+    "<p>Sets or returns the cell value at the specified row and <strong>column <em>n</em></strong>.</p><p>Although <strong>value <em>n</em></strong> is an Input/Output property, changing it writes to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
   ],
   "tableTranspose.input": [
     "input",
@@ -6126,11 +6174,15 @@
   ],
   "tableTranspose.headerPrefix": [
     "headerPrefix",
-    "Specifies the text string to include before the column number for each column header in the output table. It only works when the headerColumn property is null."
+    "Specifies the text string to include before the column number for each column header in the output table. It only works when the <strong>headerColumn</strong> property is null."
   ],
   "tableTranspose.output": [
     "output",
     "Returns the transposed table."
+  ],
+  "realtimeRecorder.enabled": [
+    "enabled",
+    "Determines whether the block is currently recording and creating a table."
   ],
   "realtimeRecorder.bufferSize": [
     "bufferSize",
@@ -6194,7 +6246,7 @@
   ],
   "dateFormat.input": [
     "input",
-    "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#examples_of_supported_new_datetime_datestring_formats'>Scripting and Syntax</a>."
+    "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>Scripting and Syntax</a>."
   ],
   "dateFormat.format": [
     "format",
@@ -6250,7 +6302,7 @@
   ],
   "dateMath.op": [
     "op",
-    "<p>pecifies whether Date Math performs \"Before\" calculations or \"After\" calculations on the input date.</p><p><strong>After</strong><br />The values of the other inputs are added to the <strong>input</strong> value.</p><p><strong>Before</strong><br />The values of the other inputs are subtracted from the <strong>input</strong> value.</p>"
+    "<p>Specifies whether Date Math performs \"Before\" calculations or \"After\" calculations on the input date.</p><p><strong>After</strong><br />The values of the other inputs are added to the <strong>input</strong> value.</p><p><strong>Before</strong><br />The values of the other inputs are subtracted from the <strong>input</strong> value.</p>"
   ],
   "dateMath.year": [
     "year",
@@ -6278,11 +6330,11 @@
   ],
   "dateMath.millisecond": [
     "millisecond",
-    "Specifies how many milliseconds to add or subtract."
+    "Specifies the number of milliseconds to add or subtract."
   ],
   "dateMath.output": [
     "output",
-    "Returns the result of adding or subtracting the other inputs with the input value, depending on the <strong>op</strong> value."
+    "Returns the result of adding or subtracting the other inputs with the <strong>input</strong> value, depending on the <strong>op</strong> value."
   ],
   "dateRange.input": [
     "input",
@@ -6314,7 +6366,7 @@
   ],
   "dateRange.format": [
     "format",
-    "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>dateFormat</a> string used to represent the ranges in this block when they are formatted."
+    "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>dateFormat</a> string used to represent the ranges in this block when they are formatted."
   ],
   "dateRange.rangeDelimiter": [
     "rangeDelimiter",
@@ -6322,7 +6374,7 @@
   ],
   "dateRange.keepSpecial": [
     "keepSpecial",
-    "Specifies when the format string is used. For a detailed list, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange#keep_special_value_formatting'>Keep Special Value Formatting</a>."
+    "Specifies when the <strong>format</strong> string is used. For a detailed list, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange:home#keep_special'>Keep Special Value Formatting</a>."
   ],
   "dateRange.duration": [
     "duration",
