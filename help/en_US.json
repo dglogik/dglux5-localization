@@ -3322,7 +3322,7 @@
   ],
   "rawSvgRepeater.svgItem": [
     "SVG Item",
-    "<p>Defines the code for an SVG element to be repeated by this repeater.</p><p><strong>Example</strong><br />&#60;rect width&#61;\"30\" height&#61;\"30\" fill&#61;\"green\" x&#61;\"&#91;v1&#93;00\" y&#61;\"&#91;v2&#93;\"&#62;&#60;/rect&#62;</p><p>This example creates a repeating green rectangle SVG element. The SVG element appears at the x- and y-coordinates defined by columns v1 and v2 of the linked table. In the case of the x-coordinate, the table cell values are multiplied by 100 by concatenating two zeroes.</p>"
+    "<p>Defines the code for an SVG element to be repeated by this repeater.</p><p><strong>Example</strong><br />&#60;rect width&#61;\"30\" height&#61;\"30\" fill&#61;\"green\" x&#61;\"&#91;v1&#93;00\" y&#61;\"&#91;v2&#93;\"&#62;&#60;/rect&#62;</p><p>This example creates a repeating green rectangle SVG element. The SVG element appears at the x- and y-coordinates defined by columns v1 and v2 of the linked table. In the case of the x-coordinate, the table cell values are multiplied by 100 by concatenating two zeroes.</p><p>Each X value is a distance in pixels from the left edge of this repeater. Each Y value is a distance in pixels from the top edge of this repeater.</p>"
   ],
   "rawSvgRepeater.svgDefs": [
     "SVG Defs",
