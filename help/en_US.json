@@ -557,7 +557,7 @@
   ],
   "verticalAxisTitleAlignment": [
     "Vertical Axis Placement",
-    "Specifies whether this vertical axis appears on the left side or the right side of the chart."
+    "Controls axis label orientation for a vertical axis. Orientation can be either Vertical or Flipped Vertical. You might want to select Vertical if the axis is on the left of the chart, and Flipped Vertical if the axis is on the right."
   ],
   "labelAlign": [
     "Label Alignment",
