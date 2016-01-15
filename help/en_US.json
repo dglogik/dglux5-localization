@@ -445,7 +445,7 @@
   ],
   "markersType": [
     "Markers",
-    "<p>Defines the type of markers used by this series. Markers are used to visually represent each data point in the series, in addition to the line or shape that represents the entire series.</p><p><strong>None</strong><br />No markers are used by this series.</p><p><strong>Standard</strong><br />This series uses DGLux’s standard marker design, a circle with a customizable fill, stroke, and size.</p><p><strong>Custom</strong><br />This series uses the specified symbol as a marker.</p>"
+    "<p>Defines the type of markers used by this series. Markers are used to visually represent each data point in the series, in addition to the line or shape that represents the entire series.</p><p><strong>None</strong><br />No markers are used by this series.</p><p><strong>Standard</strong><br />This series uses DGLux5’s standard marker design, a circle with a customizable fill, stroke, and size.</p><p><strong>Custom</strong><br />This series uses the specified symbol as a marker.</p>"
   ],
   "form": [
     "Line Form",
@@ -852,8 +852,8 @@
     "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart.</p><p>For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p>"
   ],
   "labelsLetterSpacing": [
-    "Labels Character Spacing",
-    "Specifies the horizontal spacing between characters, in pixels. A null value means the font's default spacing is used."
+    "Labels Tracking",
+    "Specifies the horizontal spacing between characters. A null value means the font's default spacing is used."
   ],
   "labelsTextDecoration": [
     "Labels Underline",
@@ -1008,7 +1008,7 @@
     "Specifies the maximum number of characters allowed in this text component."
   ],
   "letterSpacing": [
-    "Character Spacing",
+    "Tracking",
     "Specifies the horizontal spacing between characters. If null, the default spacing for the selected font is used."
   ],
   "liveUpdate": [
@@ -1052,8 +1052,8 @@
     "Defines the maximum font size for this text component. This property is only applicable when font size is set to Auto."
   ],
   "lineHeight": [
-    "Line Spacing",
-    "Specifies the vertical spacing between lines. If 0, the default spacing for the selected font is used."
+    "Leading",
+    "Specifies the vertical spacing between lines of text."
   ],
   "fontFamily": [
     "Font",
@@ -3590,7 +3590,7 @@
   ],
   "lineSeries.symbol": [
     "Marker Renderer",
-    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "areaSeries.areaStroke": [
     "Area Stroke",
@@ -3610,15 +3610,15 @@
   ],
   "areaSeries.symbol": [
     "Marker Renderer",
-    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "columnSeries.dgOffset": [
     "Column Series Offset",
-    "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A value of −0.1 moves the columns to the left by 10% of this maximum width. A value of 0.1 moves the columns to the right by 10% of this maximum width.</p><p>This Property is related to the Column Width Ratio property for the chart. Column Width Ratio determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The Column Width Ratio is 60%, and there are two series. You want to offset the columns in series 1 by 10% of their width. For Column Offset, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03.</p>"
+    "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A value of −0.1 moves the columns to the left by 10% of this maximum width. A value of 0.1 moves the columns to the right by 10% of this maximum width.</p><p>This Property is related to the Column Width Ratio property for the chart. Column Width Ratio determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The Column Width Ratio is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
   ],
   "columnSeries.symbol": [
     "Column Renderer",
-    "<p>Specifies the symbol to use for custom columns.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol</p>."
+    "<p>Specifies the symbol to use for custom columns.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "barSeries.symbol": [
     "Bar Renderer",
@@ -5122,11 +5122,11 @@
   ],
   "stopwatch.modulo": [
     "modulo",
-    "Specifies the output value before which the stop watch stops or loops. When its output gets as close as possible to the modulo value without reaching it, the stopwatch either stops or loops, depending on the value of the <strong>loop</strong> property. If the remainder equals the <strong>step</strong> value, the stopwatch restarts at 0. If the remainder is less than the <strong>step</strong> value, the remainder is added to 0 when the stopwatch loops."
+    "specifies the value that signals the stopwatch to stop or reset. If <strong>loop</strong> is TRUE, then the <strong>output</strong> value is always less than <strong>modulo</strong>. If <strong>loop</strong> is FALSE, then the <strong>output</strong> value is always equal to or less than <strong>modulo</strong>."
   ],
   "stopwatch.loop": [
     "loop",
-    "Determines whether the stopwatch loops when it gets near the <strong>modulo</strong> value."
+    "<p>Determines whether the stopwatch resets in a loop, based on the the <strong>modulo</strong> value.</p><p><strong>TRUE</strong><br />The stopwatch resets when its <strong>output</strong> reaches the final step before reaching <strong>modulo</strong>. If the difference between the final step and <strong>modulo</strong> equals the <strong>step</strong> value, the stopwatch restarts at 0. If the difference is less than the <strong>step</strong> value, the stopwatch restarts with a value of that difference.</p><p><strong>FALSE</strong><br />The stopwatch stops counting when it reaches the final step where <strong>output</strong> is less than or equal to <strong>modulo</strong>."
   ],
   "stopwatch.reset": [
     "reset",
