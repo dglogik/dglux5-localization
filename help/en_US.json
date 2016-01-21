@@ -1750,7 +1750,7 @@
   ],
   "type": [
     "Column Editor Type",
-    "<p>Specifies the kind of column group this column editor controls.</p><p><strong>all</strong><br />Properties are applied to all columns in the data grid.</p><p><strong>type</strong><br />Properties are applied to all columns that contain a certain JavaScript data type, such as number, string, or object.</p><p><strong>name</strong><br />Properties are applied to one column with the specified name.</p>"
+    "<p>Specifies the kind of column group this column editor controls.</p><p><strong>all</strong><br />Properties are applied to all columns in the data grid.</p><p><strong>name</strong><br />Properties are applied to one column with the specified name.</p>"
   ],
   "delta": [
     "Delta",
