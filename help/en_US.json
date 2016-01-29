@@ -1748,13 +1748,10 @@
     "Left",
     "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>Distances are either pixel values, or percentages of the parent width. A value of Auto positions the left edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset.</p>"
   ],
-<<<<<<< HEAD
-=======
   "type": [
     "Column Editor Type",
     "<p>Specifies the kind of column group this column editor controls.</p><p><strong>all</strong><br />Properties are applied to all columns in the data grid.</p><p><strong>name</strong><br />Properties are applied to one column with the specified name.</p>"
   ],
->>>>>>> origin/master
   "delta": [
     "Delta",
     ""
