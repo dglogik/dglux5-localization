@@ -1748,10 +1748,6 @@
     "Left",
     "<p>In absolute layout, sets the left edge of this element to a distance to the left or right of the left edge of its parent container.</p><p>In vertical or horizontal layout, sets the left edge of this element to a distance to the left or right of its normal position.</p><p>Distances are either pixel values, or percentages of the parent width. A value of Auto positions the left edge of this component in its normal position. To set a value of Auto, click the blue dot and select Reset.</p>"
   ],
-  "type": [
-    "Column Editor Type",
-    "<p>Specifies the kind of column group this column editor controls.</p><p><strong>all</strong><br />Properties are applied to all columns in the data grid.</p><p><strong>type</strong><br />Properties are applied to all columns that contain a certain JavaScript data type, such as number, string, or object.</p><p><strong>name</strong><br />Properties are applied to one column with the specified name.</p>"
-  ],
   "delta": [
     "Delta",
     ""
@@ -1983,10 +1979,6 @@
   "fill.gradient": [
     "Gradient Fill",
     "<p>Defines the colors for a gradient fill. To add colors, click below the track in the dialog. To delete colors, right-click on them in the dialog.</p><p>For a heat map, the left color indicates the lowest intensity, middle colors indicates medium intensity, and the right color indicates the highest intensity.</p>"
-  ],
-  "selector": [
-    "Column Editor Selector",
-    "<p>Specifies which data types or columns this column editor controls.</p><p>If the Type property is \"all,\" this property does nothing.</p><p>If the column editor type is \"type,\" this property specifies the JavaScript data type.</p><p>If the column editor type is \"name,\" this property specifies the name of one table column.</p>"
   ],
   "parseError": [
     "Parse Error",
@@ -2898,7 +2890,7 @@
   ],
   "datagrid.columnFilter": [
     "Column Filter",
-    "Specifies the columns for a filter, as a comma-separated list of table column names. Use the Filter Type property to specify whether these columns are shown in this data grid or hidden from it."
+    "Specifies the columns for a filter, as a comma-separated list of table column names. Use the <strong>Filter Type</strong> property to specify whether these columns are shown in this data grid or hidden from it. The order of columns in a whitelist filter overrides the column order in the Outline and the source table."
   ],
   "datagrid.columnFilterType": [
     "Filter Type",
@@ -2906,11 +2898,11 @@
   ],
   "datagrid.sortOrder": [
     "Sort Order",
-    "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for this data grid and edit the sort block.</p>"
+    "<p>Specifies whether the data is sorted in ascending or descending order.</p><p>To change whether the data is treated as strings or numbers when sorted, open the dataflow for this data grid and edit the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>Sort</a> block.</p>"
   ],
   "datagrid.sortColumn": [
     "Sort Column",
-    "Defines which column to use to sort the data, using the table column name. Only works if the column has the Sortable property enabled."
+    "Specifies the name of the column by which to sort the data. Only works if the column has the <strong>Sortable</strong> property enabled."
   ],
   "datagrid.headerPaddingTop": [
     "Header Padding Top",
@@ -3198,15 +3190,27 @@
   ],
   "datagridHeader.grid.vHeaderGridColor": [
     "Header Vertical Gridline Stroke Color",
-    "Defines the color for the vertical lines that divide the column headers."
+    "Defines the color for the vertical lines that divide the column headings."
   ],
   "datagridHeader.grid.vHeaderGridWidth": [
     "Header Vertical Gridline Stroke Weight",
-    "Defines the stroke weight for the vertical lines that divide the column headers."
+    "Defines the stroke weight for the vertical lines that divide the column headings."
   ],
   "datagridHeader.grid.vHeaderGridStroke": [
     "Header Vertical Gridline Stroke Style",
-    "Defines the stroke style for the vertical lines that divide the column headers."
+    "Defines the stroke style for the vertical lines that divide the column headings."
+  ],
+  "datagridHeader.grid.hHeaderGridColor": [
+    "Header Horizontal Gridline Stroke Color",
+    "<p>Defines the color for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridHeader.grid.vHeaderGridWidth": [
+    "Header Vertical Gridline Stroke Weight",
+    "<p>Defines the stroke weight for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  ],
+  "datagridHeader.grid.vHeaderGridStroke": [
+    "Header Vertical Gridline Stroke Style",
+    "<p>Defines the stroke style for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
   ],
   "datagridHeader.grid.headerHeight": [
     "Header Height",
@@ -4454,11 +4458,23 @@
   ],
   "gridColumn.!label": [
     "Column Label",
-    "<p>Defines the label to be used as headers for columns controlled by this column editor.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+    "<p>Defines the label to be used as heading text for columns controlled by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>.</p>"
+  ],
+  "gridColumn.type": [
+    "Column Editor Type",
+    "<p>Specifies the kind of column group this column editor controls. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>About Column Editors and Column Order</a>.</p><p><strong>all</strong><br />An All column editor dictates that all of the columns from the source table are included in the grid, except for those that you filter out of the entire grid. Grid columns appear in source table order, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to all columns.</p><p><strong>name</strong><br />Each Name column editor dictates that one column from the source table is included in the grid. Grid columns appear in the order in which they appear in the Outline, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to this column.</p><p><strong>repeater</strong><br />A Repeater column editor lets you use a configuration table to determine which source table columns appear in the grid, which symbols represent those columns (if any), and properties of the symbols.</p>"
+  ],
+  "gridColumn.selector": [
+    "Column Editor Selector",
+    "<p>Specifies which data types or columns this column editor controls.</p><p>If the column editor type is All, this property does nothing.</p><p>If the column editor type is Name, this property specifies the name of one table column.</p><p>If the column editor type is Repeater, this property specifies which column of the configuration table  contains the data table column names.</p>"
+  ],
+  "gridColumn.category": [
+    "Category",
+    "<p>Specifies the category to which this column belongs. Must match the <strong>Selector</strong> property of some other column editor in this grid. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#categories'Using the Category Feature</a>.</p>"
   ],
   "gridColumn.sortable": [
     "Sortable",
-    "<p>Specifies whether the columns affected by this column editor are sortable.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+    "<p>Specifies whether the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a> are sortable.</p>"
   ],
   "gridColumn.visible": [
     "Visible",
@@ -4470,19 +4486,19 @@
   ],
   "gridColumn.sortAsc": [
     "Sort Ascending",
-    "Sorts the data using this column, in ascending order. Using this trigger changes the sort order to Ascending, under Data Grid properties."
+    "Sorts the data using this column, in ascending order. Using this trigger changes the <strong>Sort Order</strong> to Ascending, under Data Grid properties."
   ],
   "gridColumn.sortDesc": [
     "Sort Descending",
-    "Sorts the data using this column, in descending order. Using this trigger changes the sort order to Descending, under Data Grid properties."
+    "Sorts the data using this column, in descending order. Using this trigger changes the <strong>Sort Order</strong> to Descending, under Data Grid properties."
   ],
   "gridColumn.symbol": [
     "Symbol",
-    "<p>Defines the symbol that appears in each cell of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
+    "<p>Defines the symbol that appears in each cell of the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "gridColumn.headerSymbol": [
     "Header Symbol",
-    "<p>Defines the symbol that appears in the header of the columns affected by this column editor.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>A column editor lets you edit the properties of a group of one or more data grid columns. You can find your column editors in the Outline. To add a column editor, go to the Data Grid properties and click Add Column.</p>"
+    "<p>Defines the symbol that appears in the header of the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>.</p><p>If the symbol is in this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
   ],
   "table.save": [
     "save",
