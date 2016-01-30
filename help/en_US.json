@@ -1280,7 +1280,7 @@
     "Autosize Content",
     "<p>Specifies whether this group’s content inherits the group size.</p><p><strong>TRUE</strong><br />Content inherits the group size. This property can also be used to bring overflowing content into the bounds of the group, but only if the content overflows to the right or bottom of the group.</p><p><strong>FALSE</strong><br />Content does not inherit the group size.</p>"
   ],
-  "defaultCellClipContent": [
+  "datagridRows.grid.defaultCellClipContent": [
     "Clip Content",
     "<p>Defines the handling of content that overflows this cell.</p><p><strong>TRUE</strong><br />All overflowed content is clipped and is not visible.</p><p><strong>FALSE</strong><br />All overflowed content is visible and responds to mouse events.</p>"
   ],
@@ -3372,7 +3372,7 @@
     "Datatip Mode",
     "<p>Defines datatip behavior.</p><p><strong>None</strong><br />No datatips are displayed.</p><p><strong>Single</strong><br />When the user mouses over a data point, a datatip is displayed. Only one datatip is displayed at a time.</p><p><strong>Multiple</strong><br />When the user mouses over a data point, a datatip is displayed. If points from multiple series exist at the moused-over position, multiple datatips are displayed. Only one datatip is displayed per series.</p>"
   ],
-  "chart.dataTipPosition": [
+  "chart.datatipPosition": [
     "Datatip Position",
     "<p>Specifies where datatips appear, relative to data points. Selecting the top left square of the gadget dictates that datatips appear above and to the left of data points.</p>"
   ],
