@@ -357,15 +357,15 @@
   ],
   "saRelTo": [
     "Relative To",
-    "<p>Controls the bounding box used to determine the focal point of the zoom animation. Used together with Horizontal Focus and Vertical Focus.</p><p><strong>Series</strong><br />The bounding box tightly surrounds the horizontal and vertical minimums and maximums of the series data.</p><p><strong>Chart</strong><br />The bounding box tightly surrounds the plot area of the chart.</p>"
+    "<p>Controls the bounding box used to determine the focal point of the zoom animation. Used together with <strong>Horizontal Focus</strong> and <strong>Vertical Focus</strong>.</p><p><strong>Series</strong><br />The bounding box tightly surrounds the horizontal and vertical minimums and maximums of the series data.</p><p><strong>Chart</strong><br />The bounding box tightly surrounds the plot area of the chart.</p>"
   ],
   "saVFocus": [
     "Vertical Focus",
-    "<p>Together with Horizontal Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Top</strong><br />The zoom animation begins at the top of the bounding box defined in Relative To.</p><p><strong>Bottom</strong><br />The zoom animation begins at the bottom of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the vertical center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Vertical Focus is null, and Horizontal Focus is not null, then the focus is a vertical line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
+    "<p>Together with <strong>Horizontal Focus</strong> and <strong>Relative To</strong>, determines the focal point of the zoom animation.</p><p><strong>Top</strong><br />The zoom animation begins at the top of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Bottom</strong><br />The zoom animation begins at the bottom of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Center</strong><br />The zoom animation begins at the vertical center of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Null</strong><br />If <strong>Vertical Focus</strong> is null, and <strong>Horizontal Focus</strong> is not null, then the focus is a vertical line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saHFocus": [
     "Horizontal Focus",
-    "<p>Together with Vertical Focus and Relative To, determines the focal point of the zoom animation.</p><p><strong>Left</strong><br />The zoom animation begins at the left of the bounding box defined in Relative To.</p><p><strong>Right</strong><br />The zoom animation begins at the right of the bounding box defined in Relative To.</p><p><strong>Center</strong><br />The zoom animation begins at the horizontal center of the bounding box defined in Relative To.</p><p><strong>Null</strong><br />If Horizontal Focus is null, and Vertical Focus is not null, then the focus is a horizontal line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
+    "<p>Together with <strong>Vertical Focus</strong> and <strong>Relative To</strong>, determines the focal point of the zoom animation.</p><p><strong>Left</strong><br />The zoom animation begins at the left of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Right</strong><br />The zoom animation begins at the right of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Center</strong><br />The zoom animation begins at the horizontal center of the bounding box defined in <strong>Relative To</strong>.</p><p><strong>Null</strong><br />If <strong>Horizontal Focus</strong> is null, and <strong>Vertical Focus</strong> is not null, then the focus is a horizontal line rather than a point. If both values are null, then the focal point is the center of the bounding box.</p>"
   ],
   "saDir": [
     "Direction",
@@ -377,15 +377,15 @@
   ],
   "saMinElDuration": [
     "Minimum Element Duration",
-    "<p>Specifies the minimum amount of time, in seconds, that an individual element takes to complete the animation.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
+    "<p>Specifies the minimum amount of time, in seconds, that an individual element takes to complete the animation.</p><p>The <strong>Element Offset</strong> and <strong>Minimum Element Duration</strong> properties can cause the animation duration to be longer than that specified by the <strong>Duration</strong> property.</p>"
   ],
   "saElOffset": [
     "Element Offset",
-    "<p>Specifies the amount of time, in seconds, that the animation of each element in the series is delayed. A value of zero means that all elements in the series begin animating at the same time and finish at the same time. A value of 1 means that the second element starts and finishes animating one second after the first element, and so on.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
+    "<p>Specifies the amount of time, in seconds, that the animation of each element in the series is delayed. A value of zero means that all elements in the series begin animating at the same time and finish at the same time. A value of 1 means that the second element starts and finishes animating one second after the first element, and so on.</p><p>The <strong>Element Offset</strong> and <strong>Minimum Element Duration</strong> properties can cause the animation duration to be longer than that specified by the <strong>Duration</strong> property.</p>"
   ],
-  "saDurationEx": [
+  "saDurationEx.duration": [
     "Duration",
-    "<p>Defines the duration of the animation in seconds.</p><p>The Element Offset and Minimum Element Duration properties can cause the animation duration to be longer than that specified by the Duration property.</p>"
+    "<p>Defines the duration of the animation in seconds.</p><p>The <strong>Element Offset</strong> and <strong>Minimum Element Duration</strong> properties can cause the animation duration to be longer than that specified by the <strong>Duration</strong> property.</p>"
   ],
   "saType": [
     "Series Animation",
@@ -421,7 +421,7 @@
   ],
   "dataTipSymbolId": [
     "Datatip Renderer",
-    "<p>Specifies the symbol to use as the datatip for the series.</p><p>This property overrides any text entered in the Datatip property.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
+    "<p>Specifies the symbol to use as the datatip for the series.</p><p>This property overrides any text entered in the Datatip property.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>When you populate this field with a symbol, the datatip renderer appears in the <a href='http://wiki.dglogik.com/dglux5_wiki:workspace_and_workflow:panels_and_menus:outline'>Outline</a> as a child of this series, and you can bind table columns to symbol properties in the <a href='http://wiki.dglogik.com/dglux5_wiki:workspace_and_workflow:panels_and_menus:properties_panel'Property Inspector</a>.</p>"
   ],
   "dgDataTip": [
     "Datatip",
@@ -531,13 +531,21 @@
     "Label Gap",
     "Defines the distance, in pixels, between the major tick marks and the labels for this axis."
   ],
+  "axisRenderer.labelToTitleGap": [
+    "Label to Title Gap",
+    "Defines the distance, in pixels, between the axis title and the axis labels."
+  ],
   "axis.title": [
-    "Axis Title",
+    "Title",
     "Defines the title text for this axis. This text appears as an axis title label."
   ],
   "axis.labelsMode": [
-    "Axis Labels Mode",
+    "Labels",
     "<p>Specifies how many labels appear along the axis.</p><p><strong>None</strong><br />No labels appear.</p><p><strong>Min Max</strong><br />Only the minimum and maximum labels appear.</p><p><strong>Auto</strong><br />The number of labels depends on the amount of available space.</p><p><strong>Show All</strong><br />A label appears for every major tick.</p>"
+  ],
+  "axisRenderer.labelSymbol": [
+    "Label Symbol",
+    "Specifies the symbol to use for a custom label renderer."
   ],
   "axis.dgAutoAdjust": [
     "Auto Adjust",
@@ -556,8 +564,36 @@
     "Defines the color of the line that represents this axis."
   ],
   "verticalAxisTitleAlignment": [
-    "Vertical Axis Placement",
-    "Controls axis label orientation for a vertical axis. Orientation can be either Vertical or Flipped Vertical. You might want to select Vertical if the axis is on the left of the chart, and Flipped Vertical if the axis is on the right."
+    "Vertical Axis Title Orientation",
+    "Controls axis title orientation for a vertical axis. Orientation can be either Vertical or Flipped Vertical. You might want to select Vertical if the axis is on the left of the chart, and Flipped Vertical if the axis is on the right."
+  ],
+  "axisRenderer.titleAlign": [
+    "Title Alignment",
+    "For a vertical axis, specifies whether the axis title is aligned to the top, bottom, or center of the axis. For a horizontal axis, specifies whether the axis title is aligned to the left, right, or center of the axis."
+  ],
+  "axisRenderer.titleFontFamily": [
+    "Title Font",
+    "Defines the font used for the title of this axis."
+  ],
+  "axisRenderer.titleColor": [
+    "Title Font Color",
+    "Defines the font color used for the title of this axis."
+  ],
+  "axisRenderer.titleFontSize": [
+    "Title Font Size",
+    "Defines the font size used for the title of this axis."
+  ],
+  "axisRenderer.titleFontStyle": [
+    "Title Italic",
+    "Defines whether title of this axis is italicized."
+  ],
+  "axisRenderer.titleFontWeight": [
+    "Title Bold",
+    "Defines whether the title of this axis is bold."
+  ],
+  "axisRenderer.titleTextDecoration": [
+    "Title Underline",
+    "Defines whether the title of this axis is underlined."
   ],
   "labelAlign": [
     "Label Alignment",
@@ -580,12 +616,24 @@
     "Defines the interval between each consecutive pair of major ticks, in the units of the axis."
   ],
   "axis.dgAssignedMaximum": [
-    "Maximum",
+    "Axis Maximum",
     "Defines the maximum of the axis range."
   ],
   "axis.dgAssignedMinimum": [
-    "Minimum",
+    "Axis Minimum",
     "Defines the minimum of the axis range."
+  ],
+  "axis.computedMinimum": [
+    "Computed Minimum",
+    "Returns the minimum of the axis range, which is defined either automatically or by the <strong>Axis Minimum</strong> property. This is a read-only property, so changing it does nothing."
+  ],
+  "axis.computedMaximum": [
+    "Computed Maximum",
+    "Returns the maximum of the axis range, which is defined either automatically or by the <strong>Axis Maximum</strong> property. This is a read-only property, so changing it does nothing."
+  ],
+  "axis.computedInterval": [
+    "Computed Interval",
+    "Returns the interval between major ticks, which is defined either automatically or by the <strong>Major Interval</strong> or <strong>Data Interval</strong> property. This is a read-only property, so changing it does nothing."
   ],
   "axis.baseAtZero": [
     "Base At Zero",
@@ -593,7 +641,7 @@
   ],
   "axis.dgDataUnits": [
     "Data Units",
-    "<p>Defines the units for this datetime axis.</p><p>A value of Auto means that units are determined automatically based on the data feeding the chart.</p>"
+    "<p>Defines the units for this Datetime axis.</p><p>A value of Auto means that units are determined automatically based on the data feeding the chart.</p>"
   ],
   "dgAutoAdjust": [
     "Auto Adjust",
@@ -881,7 +929,7 @@
   ],
   "axis.formatString": [
     "Format String",
-    "Defines the format used for the axis labels. For example, a datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a> for a complete list of formats."
+    "Defines the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>here</a> for a complete list of formats."
   ],
   "scaleLabels.formatString": [
     "Format",
@@ -1231,6 +1279,10 @@
   "autoSizeContent": [
     "Autosize Content",
     "<p>Specifies whether this group’s content inherits the group size.</p><p><strong>TRUE</strong><br />Content inherits the group size. This property can also be used to bring overflowing content into the bounds of the group, but only if the content overflows to the right or bottom of the group.</p><p><strong>FALSE</strong><br />Content does not inherit the group size.</p>"
+  ],
+  "defaultCellClipContent": [
+    "Clip Content",
+    "<p>Defines the handling of content that overflows this cell.</p><p><strong>TRUE</strong><br />All overflowed content is clipped and is not visible.</p><p><strong>FALSE</strong><br />All overflowed content is visible and responds to mouse events.</p>"
   ],
   "clipContent": [
     "Clip Content",
@@ -2664,10 +2716,6 @@
     "Main Row Fill",
     "Defines the fill for the first group of alternating rows."
   ],
-  "datagrid.rowBackground2": [
-    "Alternate Row Fill",
-    "Defines the fill for the second group of alternating rows."
-  ],
   "datagrid.rowBorder": [
     "Main Row Stroke Color",
     "Defines the stroke color or border image for outlining the first group of alternating rows."
@@ -2680,6 +2728,14 @@
     "Main Row Stroke Style",
     "Defines the stroke style for outlining the first group of alternating rows."
   ],
+  "datagridRows.grid.defaultCellFontColor": [
+    "Main Row Font Color",
+    "Defines the font color for the first group of alternating rows."
+  ],
+  "datagrid.rowBackground2": [
+    "Alternate Row Fill",
+    "Defines the fill for the second group of alternating rows."
+  ],
   "datagrid.rowBorder2": [
     "Alternate Row Stroke Color",
     "Defines the stroke color or border image for outlining the second group of alternating rows."
@@ -2691,6 +2747,10 @@
   "datagrid.rowBorder2Style": [
     "Alternate Row Stroke Style",
     "Defines the stroke style for outlining the second group of alternating rows."
+  ],
+  "datagridRows.grid.defaultCellFontColorAlt": [
+    "Alternate Row Font Color",
+    "Defines the font color for the second group of alternating rows."
   ],
   "datagrid.rowBackgroundSelect": [
     "Selected Row Fill",
@@ -2708,6 +2768,10 @@
     "Selected Row Stroke Style",
     "Defines the stroke style for outlining selected rows. Only works when selection is enabled for the data grid."
   ],
+  "datagridRows.grid.defaultCellFontColorSelect": [
+    "Selected Row Font Color",
+    "Defines the font color for selected rows. Only works when selection is enabled for the data grid."
+  ],
   "datagrid.rowBackgroundFocus": [
     "Focused Row Fill",
     "<p>Defines the fill for the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
@@ -2724,6 +2788,10 @@
     "Focused Row Stroke Style",
     "<p>Defines the stroke style for outlining the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
   ],
+  "datagridRows.grid.defaultCellFontColorFocus": [
+    "Focused Row Font Color",
+    "<p>Defines the font color for the row in the data grid that is in focus.</p><p>When the user mouses over the row, the hovered row properties override the focused row properties.</p>"
+  ],
   "datagrid.rowBackgroundHover": [
     "Hovered Row Fill",
     "Defines the fill for the row that the user mouses over."
@@ -2739,6 +2807,10 @@
   "datagrid.rowBorderStyleHover": [
     "Hovered Row Stroke Style",
     "Defines the stroke style for outlining the row that the user mouses over."
+  ],
+  "datagridRows.grid.defaultCellFontColorHover": [
+    "Hovered Row Font Color",
+    "Defines the font color for the row that the user mouses over."
   ],
   "datagrid.cellPadding": [
     "Cell Padding",
@@ -2894,7 +2966,7 @@
   ],
   "datagrid.columnFilterType": [
     "Filter Type",
-    "<p>Specifies how this filter handles the listed columns.</p><p><strong>Whitelist</strong><br />Only the listed columns are shown in this data grid.</p><p><strong>Blacklist</strong><br />The listed columns are hidden from this data grid.</p>"
+    "<p>Specifies how this filter handles the listed columns.</p><p><strong>Whitelist</strong><br />Only the listed columns are shown in this data grid. Columns appear in the order specified in the filter.</p><p><strong>Blacklist</strong><br />The listed columns are hidden from this data grid.</p>"
   ],
   "datagrid.sortOrder": [
     "Sort Order",
@@ -3202,15 +3274,15 @@
   ],
   "datagridHeader.grid.hHeaderGridColor": [
     "Header Horizontal Gridline Stroke Color",
-    "<p>Defines the color for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+    "Defines the color for the horizontal lines that divide the column headings and category headings."
   ],
-  "datagridHeader.grid.vHeaderGridWidth": [
-    "Header Vertical Gridline Stroke Weight",
-    "<p>Defines the stroke weight for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  "datagridHeader.grid.hHeaderGridWidth": [
+    "Header Horizontal Gridline Stroke Weight",
+    "Defines the stroke weight for the horizontal lines that divide the column headings and category headings."
   ],
-  "datagridHeader.grid.vHeaderGridStroke": [
-    "Header Vertical Gridline Stroke Style",
-    "<p>Defines the stroke style for the horizontal lines that divide the column headings and category headings.</p><p>To define the lines between column headers, use the header's Fill and Stroke properties.</p>"
+  "datagridHeader.grid.hHeaderGridStroke": [
+    "Header Horizontal Gridline Stroke Style",
+    "Defines the stroke style for the horizontal lines that divide the column headings and category headings."
   ],
   "datagridHeader.grid.headerHeight": [
     "Header Height",
@@ -3299,6 +3371,10 @@
   "chart.dataTipMode": [
     "Datatip Mode",
     "<p>Defines datatip behavior.</p><p><strong>None</strong><br />No datatips are displayed.</p><p><strong>Single</strong><br />When the user mouses over a data point, a datatip is displayed. Only one datatip is displayed at a time.</p><p><strong>Multiple</strong><br />When the user mouses over a data point, a datatip is displayed. If points from multiple series exist at the moused-over position, multiple datatips are displayed. Only one datatip is displayed per series.</p>"
+  ],
+  "chart.dataTipPosition": [
+    "Datatip Position",
+    "<p>Specifies where datatips appear, relative to data points. Selecting the top left square of the gadget dictates that datatips appear above and to the left of data points.</p>"
   ],
   "chart.columnWidthRatio": [
     "Column Width Ratio",
@@ -3570,7 +3646,7 @@
   ],
   "axis.compareMode": [
     "Compare Mode",
-    "<p>Defines the Compare Mode of this axis. Use a Compare Mode when you want to overlay data for different dates and times.</p><p>To configure your chart to start using Compare Mode:</p><p><ol><li>Insert a blank chart.</li><li>Drag your metric onto the chart, and click OK.</li><li>Drag the same metric onto the chart a second time. Check \"Use Existing Axis\" for both axes, and click OK.</li><li>Open dataflow for the chart. Select a <strong>timeRange</strong> for each of the two <strong>loadHistory</strong> blocks. Ensure that the two ranges are the same range type. For example, both ranges could be be one day long, or both could be one week long.</li></ol></p><p>Now you are ready to use the Compare Mode property. There are six choices:</p><p><strong>None</strong><br />Series from different dates and times are not aligned.</p><p><strong>Hour</strong><br />Times of day are aligned, so you can compare midnight with midnight.</p><p><strong>Day</strong><br />Date ranges are aligned, so you can compare \"day one\" from different ranges.</p><p><strong>Week</strong><br />Days of the week are aligned, so you can compare Mondays with Mondays.</p><p><strong>Month</strong>Days of the month are aligned, so you can compare firsts of the month.<br /></p><p><strong>Year</strong><br />Days of the year are aligned, so you can compare January first with January first.</p>"
+    "<p>Defines the Compare Mode of this axis. Use a Compare Mode when you want to overlay data for different dates and times.</p><p>To configure your chart to start using Compare Mode:</p><p><ol><li>Insert a blank chart.</li><li>Drag your metric onto the chart, and click OK.</li><li>Drag the same metric onto the chart a second time. Check \"Use Existing Axis\" for both axes, and click OK.</li><li>Open dataflow for the chart. Select a <strong>timeRange</strong> for each of the two <strong>loadHistory</strong> blocks. Ensure that the two ranges are the same range type. For example, both ranges could be be one day long, or both could be one week long.</li></ol></p><p>Now you are ready to use the Compare Mode property. There are six choices:</p><p><strong>None</strong><br />Series from different dates and times are not aligned.</p><p><strong>Hour</strong><br />Times of day are aligned, so you can compare midnight with midnight.</p><p><strong>Day</strong><br />Date ranges are aligned, so you can compare \"day one\" from different ranges.</p><p><strong>Week</strong><br />Days of the week are aligned, so you can compare Mondays with Mondays.</p><p><strong>Month</strong><br />Days of the month are aligned, so you can compare firsts of the month.<br /></p><p><strong>Year</strong><br />Days of the year are aligned, so you can compare January first with January first.</p>"
   ],
   "datetimeAxis.dateRange": [
     "Date Range",
@@ -3594,7 +3670,7 @@
   ],
   "lineSeries.symbol": [
     "Marker Renderer",
-    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p>"
+    "<p>Specifies the symbol to use for custom markers.</p><p>To use a symbol from this project, enter the name of the symbol.</p><p>To use a symbol from another project in your library, enter the path to that symbol.</p><p>When you populate this field with a symbol, the marker's item renderer appears in the <a href='http://wiki.dglogik.com/dglux5_wiki:workspace_and_workflow:panels_and_menus:outline'>Outline</a> as a child of this series, and you can bind table columns to symbol properties in the <a href='http://wiki.dglogik.com/dglux5_wiki:workspace_and_workflow:panels_and_menus:properties_panel'Property Inspector</a>.</p>"
   ],
   "areaSeries.areaStroke": [
     "Area Stroke",
@@ -3618,7 +3694,7 @@
   ],
   "columnSeries.dgOffset": [
     "Column Series Offset",
-    "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A value of −0.1 moves the columns to the left by 10% of this maximum width. A value of 0.1 moves the columns to the right by 10% of this maximum width.</p><p>This Property is related to the Column Width Ratio property for the chart. Column Width Ratio determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The Column Width Ratio is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
+    "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart.</p><p>A <strong>Column Series Offset</strong> of −0.1 moves the columns to the left by 10% of this maximum width. A <strong>Column Series Offset</strong> of 0.1 moves the columns to the right by 10% of this maximum width.</p><p>This property is related to the <strong>Column Width Ratio</strong> property for the chart. The <strong>Column Width Ratio</strong> determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong><br />The <strong>Column Width Ratio</strong> is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
   ],
   "columnSeries.symbol": [
     "Column Renderer",
@@ -4462,7 +4538,7 @@
   ],
   "gridColumn.type": [
     "Column Editor Type",
-    "<p>Specifies the kind of column group this column editor controls. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>About Column Editors and Column Order</a>.</p><p><strong>all</strong><br />An All column editor dictates that all of the columns from the source table are included in the grid, except for those that you filter out of the entire grid. Grid columns appear in source table order, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to all columns.</p><p><strong>name</strong><br />Each Name column editor dictates that one column from the source table is included in the grid. Grid columns appear in the order in which they appear in the Outline, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to this column.</p><p><strong>repeater</strong><br />A Repeater column editor lets you use a configuration table to determine which source table columns appear in the grid, which symbols represent those columns (if any), and properties of the symbols.</p>"
+    "<p>Specifies the kind of column group this column editor controls. See <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>About Column Editors and Column Order</a>.</p><p><strong>All</strong><br />An All column editor dictates that all of the columns from the source table are included in the grid, except for those that you filter out of the entire grid. Grid columns appear in source table order, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to all columns.</p><p><strong>Name</strong><br />Each Name column editor dictates that one column from the source table is included in the grid. Grid columns appear in the order in which they appear in the Outline, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to this column.</p><p><strong>Repeater</strong><br />A Repeater column editor lets you use a configuration table to determine which source table columns appear in the grid, which symbols represent those columns (if any), and properties of the symbols.</p>"
   ],
   "gridColumn.selector": [
     "Column Editor Selector",
@@ -4470,7 +4546,7 @@
   ],
   "gridColumn.category": [
     "Category",
-    "<p>Specifies the category to which this column belongs. Must match the <strong>Selector</strong> property of some other column editor in this grid. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#categories'Using the Category Feature</a>.</p>"
+    "<p>Specifies the category to which this column belongs. Must match the <strong>Selector</strong> property of some other column editor in this grid. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#categories'>Using the Category Feature</a>.</p>"
   ],
   "gridColumn.sortable": [
     "Sortable",
