@@ -4588,13 +4588,77 @@
     "Then 0",
     ""
   ],
-  "valueBinding.0": [
-    "Case 0",
-    ""
+  "queryBinding.expression": [
+    "Expression",
+    "<p>The Expression is the string used to format the source value. This creates the target value. The Expression can include a <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>Number Format Pattern</a>. It can also include other strings, such as units.</p><p>Number format patterns must be in square brackets ([]).</p><p>The string value enclosed in square brackets becomes the exact source value, as a string.</p><p>Examples:<br /><br />Source: 5<br />Expression: [#0.00]< br />Target: \"5.00\" <br /><br />Source: 13000.6<br />Expression: [#,##0.00]<br />Target: \"13,000.60\"<br /><br />Source: 47<br />Expression: [0] hours<br />Target: \"47 hours\"<br /><br />Source: 17.8<br />Expression: [#0] °C<br />Target: \"18 °C\"<br /><br />Source: 63.21 <br />Expression: [value] hours<br />Target: \"63.21 hours\"</p>"
   ],
-  "valueBinding.1": [
-    "Then 0",
-    ""
+  "queryBinding.offset": [
+    "Offset Operator",
+    "<p>The Offset Operator is the operator that indicates how the source value and the Offset Value are used to create the target value.</p><p>Possible values:<ul><li><strong>add</strong> — The source value and Offset Value are added together.</li><li><strong>subtract</strong> — The Offset Value is subtracted from the source value.</li><li><strong>multiply</strong> — The source value and Offset Value are multiplied together.</li><li><strong>divide</strong> — The source value is divided by the Offset Value, and a decimal value is returned.<br /><br />Example:<br /><br />Source: 30<br />Offset: divide 8<br />Target: 3.75<br /><br />This is because 30 / 8 = 3.75.</li><li><strong>modulo</strong> — The source value is divided by the Offset Value, and the remainder is returned.<br /><br />Example:<br /><br />Source: 30<br />Offset: modulo 8<br />Target: 6<br /><br />This is because 30 / 8 = 3r6.</li><li><strong>divide (int)</strong> — The source value is divided by the Offset Value, and the quotient is returned, rounded down to the nearest integer.<br /><br />Example:<br /><br />Source: 30<br />Offset: divide 8<br />Target: 3<br /><br />This is because 30 / 8 = 3r6.</li></ul></p>"
+  ],
+  "queryBinding.offsetVal": [
+    "Offset Value",
+    "The Offset Value is the number that is used together with the source value and Offset Operator to determine the target value."
+  ],
+  "queryBinding.scaleInputMin": [
+    "Scale Input Minimum",
+    "<p>The lower bound of the original scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p>"
+  ],
+  "queryBinding.scaleInputMax": [
+    "Scale Input Maximum",
+    "<p>The upper bound of the original scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p>"
+  ],
+  "queryBinding.scaleOutputMin": [
+    "Scale Output Minimum",
+    "<p>The lower bound of the new scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p>"
+  ],
+  "queryBinding.scaleOutputMax": [
+    "Scale Output Maximum",
+    "<p>The upper bound of the new scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p>"
+  ],
+  "queryBinding.0": [
+    "Case and Mapping",
+    "<p>A data mapping compares a binding's source value to one or more <strong>Case</strong> values in order, until the statement it is evaluating is true:<ul><li>For numbers, a data mapping checks whether the source value is less than or equal to the Case value.</li><li>For other data types, the data mapping checks whether the source value is equal to the Case value.</li></ul></p><p>When the first true statement is encountered, that <strong>Mapping</strong> value is assigned to the binding's target. If none of the statements is true, then the <strong>default</strong> value is assigned to the binding's target.</p><p>More complex case mappings can be created in the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:home'>dataflow</a> using the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case'>Case</a> block.</p>"
+  ],
+  "queryBinding.default": [
+    "default",
+    "A value to assign to the target if none of the expressions are true."
+  ],
+  "valueBinding.expression": [
+    "Expression",
+    "<p>The Expression is the string used to format the source value. This creates the target value. The Expression can include a <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>Number Format Pattern</a>. It can also include other strings, such as units.</p><p>Number format patterns must be in square brackets ([]).</p><p>The string value enclosed in square brackets becomes the exact source value, as a string.</p><p>Examples:<br /><br />Source: 5<br />Expression: [#0.00]< br />Target: \"5.00\" <br /><br />Source: 13000.6<br />Expression: [#,##0.00]<br />Target: \"13,000.60\"<br /><br />Source: 47<br />Expression: [0] hours<br />Target: \"47 hours\"<br /><br />Source: 17.8<br />Expression: [#0] °C<br />Target: \"18 °C\"<br /><br />Source: 63.21 <br />Expression: [value] hours<br />Target: \"63.21 hours\"</p>"
+  ],
+  "valueBinding.offset": [
+    "Offset Operator",
+    "<p>The Offset Operator is the operator that indicates how the source value and the Offset Value are used to create the target value.</p><p>Possible values:<ul><li><strong>add</strong> — The source value and Offset Value are added together.</li><li><strong>subtract</strong> — The Offset Value is subtracted from the source value.</li><li><strong>multiply</strong> — The source value and Offset Value are multiplied together.</li><li><strong>divide</strong> — The source value is divided by the Offset Value, and a decimal value is returned.<br /><br />Example:<br /><br />Source: 30<br />Offset: divide 8<br />Target: 3.75<br /><br />This is because 30 / 8 = 3.75.</li><li><strong>modulo</strong> — The source value is divided by the Offset Value, and the remainder is returned.<br /><br />Example:<br /><br />Source: 30<br />Offset: modulo 8<br />Target: 6<br /><br />This is because 30 / 8 = 3r6.</li><li><strong>divide (int)</strong> — The source value is divided by the Offset Value, and the quotient is returned, rounded down to the nearest integer.<br /><br />Example:<br /><br />Source: 30<br />Offset: divide 8<br />Target: 3<br /><br />This is because 30 / 8 = 3r6.</li></ul></p>"
+  ],
+  "valueBinding.offsetVal": [
+    "Offset Value",
+    "The Offset Value is the number that is used together with the source value and Offset Operator to determine the target value."
+  ],
+  "valueBinding.scaleInputMin": [
+    "Scale Input Minimum",
+    "<p>The lower bound of the original scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p>"
+  ],
+  "valueBinding.scaleInputMax": [
+    "Scale Input Maximum",
+    "<p>The upper bound of the original scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p><p>A gradient binding takes the source value's position on an original scale, and returns the color that is at the corresponding position on a specified gradient.</p>"
+  ],
+  "valueBinding.scaleOutputMin": [
+    "Scale Output Minimum",
+    "<p>The lower bound of the new scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p>"
+  ],
+  "valueBinding.scaleOutputMax": [
+    "Scale Output Maximum",
+    "<p>The upper bound of the new scale.</p><p>A scale binding takes the source value's relationship to an original scale, and returns the corresponding value on a new scale.</p>"
+  ],
+  "valueBinding.0": [
+    "Case and Mapping",
+    "<p>A data mapping compares a binding's source value to one or more <strong>Case</strong> values in order, until the statement it is evaluating is true:<ul><li>For numbers, a data mapping checks whether the source value is less than or equal to the Case value.</li><li>For other data types, the data mapping checks whether the source value is equal to the Case value.</li></ul></p><p>When the first true statement is encountered, that <strong>Mapping</strong> value is assigned to the binding's target. If none of the statements is true, then the <strong>default</strong> value is assigned to the binding's target.</p><p>More complex case mappings can be created in the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:home'>dataflow</a> using the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case'>Case</a> block.</p>"
+  ],
+  "valueBinding.default": [
+    "default",
+    "A value to assign to the target if none of the expressions are true."
   ],
   "invokeAction.action": [
     "Action",
@@ -5074,7 +5138,7 @@
   ],
   "and.op": [
     "op",
-    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an And block is \"and\".The block will not act as described if you change this property.</p>"
+    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an And block is \"and\". The block will not act as described if you change this property.</p>"
   ],
   "and.0": [
     "input n",
@@ -5094,7 +5158,7 @@
   ],
   "or.op": [
     "op",
-    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an Or block is \"or\".The block will not act as described if you change this property.</p>"
+    "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an Or block is \"or\". The block will not act as described if you change this property.</p>"
   ],
   "or.0": [
     "input n",
