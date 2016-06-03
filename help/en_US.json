@@ -4292,6 +4292,30 @@
     "error",
     "Returns the error message, if any."
   ],
+  "subscribeValue.path": [
+    "path",
+    "Specifies the absolute location of the node."
+  ],
+  "subscribeValue.enabled": [
+    "enabled",
+    "<p>Specifies whether this block is currently set to update when the value updates.</p><p><strong>TRUE</strong><br />This block retrieves the value when the value changes.</p><p><strong>FALSE</strong><br />This block does nothing, even when the value changes.</p>"
+  ],
+  "subscribeValue.value": [
+    "value",
+    "Returns the most recently loaded value."
+  ],
+  "subscribeValue.lastUpdate": [
+    "lastUpdate",
+    "Returns the date and time of the most recently loaded value."
+  ],
+  "getDefaultParams.path": [
+    "path",
+    "Specifies the absolute location of the node where the data action is located."
+  ],
+  "getDefaultParams.action": [
+    "action",
+    "Specifies the name of the data action to get default parameters for."
+  ],
   "projectInfo.projectId": [
     "projectId",
     "Returns the automatically generated unique ID of this DGLux5 project."
@@ -4487,6 +4511,62 @@
   "loadHistory.error": [
     "error",
     "Returns the error string, if any."
+  ],
+  "zipUpload.invoke": [
+    "invoke",
+    "Causes the files to be added to the folder. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "zipUpload.enabled": [
+    "enabled",
+    "<p>Specifies whether the block is currently set to add the files to the folder.</p><p><strong>TRUE</strong><br />The files are added to the project as specified by <strong>invoke</strong> and <strong>autoRun</strong>.</p><p><strong>FALSE</strong><br />The files are not added to the project.</p>"
+  ],
+  "zipUpload.autoRun": [
+    "autoRun",
+    "<p>Specifies whether the files are added automatically.</p><p><strong>TRUE</strong><br />The files are added every time any property is changed. The first time that the <strong>data</strong> property is populated counts as a change.</p><p><strong>FALSE</strong><br />The files are added only when the <strong>invoke</strong> property is triggered.</p>"
+  ],
+  "zipUpload.folder": [
+    "folder",
+    "Specifies the project folder where the files are to be inserted."
+  ],
+  "zipUpload.data": [
+    "data",
+    "Specifies the ZIP file, as binary."
+  ],
+  "zipUpload.onComplete": [
+    "onComplete",
+    "Fires when the files have been added to the folder."
+  ],
+  "zipDownload.invoke": [
+    "invoke",
+    "causes the files to be converted to ZIP and to be output as binary. Only works if <strong>enabled</strong> is set to TRUE."
+  ],
+  "zipDownload.enabled": [
+    "enabled",
+    "<p>Specifies whether the block is currently set to convert the files.</p><p><strong>TRUE</strong><br />The files are converted as specified by <strong>invoke</strong> and <strong>autoRun</strong>.</p><p><strong>FALSE</strong><br />The files are not converted.</p>"
+  ],
+  "zipDownload.autoRun": [
+    "autoRun",
+    "<p>Specifies whether the files are converted automatically.</p><p><strong>TRUE</strong><br />The files are converted every time any property is changed.</p><p><strong>FALSE</strong><br />The files are converted only when the <strong>invoke</strong> property is triggered.</p>"
+  ],
+  "zipDownload.filePaths": [
+    "filePaths",
+    "Specifies the list of paths to the files to convert, separated by line breaks. Do not use commas to separate file names. You can drag files from the Project panel to this field. Press Alt + Enter to create line breaks."
+  ],
+  "zipDownload.output": [
+    "output",
+    "Returns the ZIP file, expressed in binary."
+  ],
+  "zipDownload.onComplete": [
+    "onComplete",
+    "Fires when the files have been converted."
+  ],
+  "zipParser.data": [
+    "data",
+    "Receives a ZIP file, specified as a binary object."
+  ],
+  "zipParser.output": [
+    "output",
+    "Returns a table that contains the files that comprise the input ZIP file."
   ],
   "dbQuery.invoke": [
     "invoke",
@@ -5672,6 +5752,26 @@
     "isResizing",
     "Returns TRUE if the dragStart event for this block has occurred and the dragEnd event has not occurred yet."
   ],
+  "catchError.errorGroup": [
+    "errorGroup",
+    "Determines the string that identifies the error group. The <strong>errorGroup</strong> property of the Catch Error block must be identical to the <strong>errorGroup</strong> property of all blocks that this Catch Error block monitors."
+  ],
+  "catchError.output": [
+    "output",
+    "Returns the most recent error encountered by any of the blocks in the error group."
+  ],
+  "repeater.symbol": [
+    "symbol",
+    "Specifies the name of the dataflow symbol to repeat."
+  ],
+  "repeater.data": [
+    "symbol",
+    "Specifies the table that determines the number of symbol instances and the properties of each symbol instance."
+  ],
+  "repeater.output": [
+    "output",
+    "Returns a table that lists the symbol parameter values for each instance of the symbol."
+  ],
   "delay.input": [
     "input",
     "Holds the value to deliver after a delay."
@@ -5792,6 +5892,18 @@
     "output",
     "Returns the input text, with any leading or trailing spaces removed."
   ],
+  "split.input": [
+    "input",
+    "Specifies the string to separate into pieces."
+  ],
+  "split.separator": [
+    "separator",
+    "Specifies the character or string that delimits the pieces."
+  ],
+  "split.output": [
+    "output",
+    "Returns a table that contains the pieces of the input string as rows."
+  ],
   "add.0": [
     "input n",
     "Specifies one of the numbers to add."
@@ -5810,11 +5922,11 @@
   ],
   "factorial.input": [
     "input",
-    "Specifies the number to find the factorial for."
+    "Specifies the number to find the factorial for. If the input is not an integer, it is truncated."
   ],
   "factorial.output": [
     "output",
-    "Returns the factorial of the input. If the input is not an integer, it is truncated."
+    "Returns the factorial of the input."
   ],
   "log.input": [
     "input",
@@ -5838,11 +5950,11 @@
   ],
   "modulo.quotient": [
     "quotient",
-    "Returns the integer result of the input value divided by the modulo value."
+    "Returns the integer result of <strong>input</strong> divided by <strong>modulo</strong>."
   ],
   "modulo.remainder": [
     "remainder",
-    "Returns the remainder. It always has the same sign as the input, or dividend, value."
+    "Returns the remainder. The <strong>remainder</strong> property always has the same sign as the <strong>input</strong> property."
   ],
   "multiply.0": [
     "input n",
@@ -5850,7 +5962,7 @@
   ],
   "multiply.output": [
     "output",
-    "Returns the product of multiplying all of the input values."
+    "Returns the result of multiplying all of the input values."
   ],
   "power.input": [
     "input",
@@ -5862,7 +5974,7 @@
   ],
   "power.output": [
     "output",
-    "Returns the result of raising <strong>input</strong> to the power of <strong>power</strong>."
+    "Returns the result of the calculation."
   ],
   "root.input": [
     "input",
@@ -5874,7 +5986,7 @@
   ],
   "root.output": [
     "output",
-    "Returns the result of taking the <strong>root</strong>-th root of the <strong>input</strong> value."
+    "Returns the result of the calculation."
   ],
   "scale.input": [
     "input",
@@ -6002,7 +6114,7 @@
   ],
   "formatNumber.output": [
     "output",
-    "Returns the formatted number or string."
+    "Returns the number or formatted string."
   ],
   "parseNumber.input": [
     "input",
@@ -6026,7 +6138,7 @@
   ],
   "max.output": [
     "output",
-    "Returns the largest of the input values."
+    "Returns the greatest of the input values."
   ],
   "median.0": [
     "input n",
@@ -6159,6 +6271,18 @@
   "csvParser.output": [
     "output",
     "Returns a table parsed from the CSV data."
+  ],
+  "csvWriter.input": [
+    "input",
+    "Receives the table that you want to write as a CSV string."
+  ],
+  "csvWriter.withHeader": [
+    "withHeader",
+    "Specifies whether the input table contains a header row."
+  ],
+  "csvWriter.output": [
+    "output",
+    "Returns a CSV string of the input table."
   ],
   "jsonParser.input": [
     "input",
@@ -6434,11 +6558,111 @@
   ],
   "tableRowCells.0": [
     "column n",
-    "Specifies a column name in the input table"
+    "Specifies a column name in the input table."
   ],
   "tableRowCells.1": [
     "value n",
     "<p>Sets or returns the cell value at the specified row and <strong>column <em>n</em></strong>.</p><p>Although <strong>value <em>n</em></strong> is an Input/Output property, changing it writes to the data source only if the data source is a Table block in the dataflow. For other data sources, changing the value does nothing.</p>"
+  ],
+  "tableAddRow.invoke": [
+    "invoke",
+    "Causes the row to be added."
+  ],
+  "tableAddRow.table": [
+    "table",
+    "Specifies the input table that will receive the added row."
+  ],
+  "tableAddRow.0": [
+    "column n",
+    "The name of a column in the input table."
+  ],
+  "tableAddRow.1": [
+    "value n",
+    "The value for <strong>column <em>n</em></strong> to add in the new row."
+  ],
+  "tableRemoveRows.invoke": [
+    "invoke",
+    "Causes the rows to be removed."
+  ],
+  "tableRemoveRows.enabled": [
+    "enabled",
+    "Determines whether the block is enabled. If it is enabled, the rows are removed when the trigger is invoked."
+  ],
+  "tableRemoveRows.table": [
+    "table",
+    "Specifies the input table from which rows will be deleted."
+  ],
+  "tableRemoveRows.condition": [
+    "condition",
+    "An expression that determines which rows should be removed. For example, to remove the first row in the table, enter <code>row==0</code>."
+  ],
+  "tableRemoveRows.print": [
+    "print",
+    "Returns a string that is used for errors, other notifications, and <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+  ],
+  "tableEditRows.invoke": [
+    "invoke",
+    "Causes the values to be replaced."
+  ],
+  "tableEditRows.enabled": [
+    "enabled",
+    "Determines whether the block is enabled. If it is enabled, the values are replaced when the trigger is invoked."
+  ],
+  "tableEditRows.table": [
+    "table",
+    "Specifies the input table in which some values will be replaced."
+  ],
+  "tableEditRows.condition": [
+    "condition",
+    "An expression that determines which rows should be edited. For example, to edit the first row in the table, enter <code>row==0</code>."
+  ],
+  "tableEditRows.0": [
+    "column n",
+    "Specifies the name of a column in the input table."
+  ],
+  "tableEditRows.1": [
+    "value n",
+    "Specifies the value for <strong>column <em>n</em></strong> to insert in the table."
+  ],
+  "tableEditRows.print": [
+    "print",
+    "Returns a string that is used for errors, other notifications, and <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>"
+  ],
+  "realtimeRecorder.enabled": [
+    "enabled",
+    "Determines whether the block is currently recording and creating a table."
+  ],
+  "realtimeRecorder.bufferSize": [
+    "bufferSize",
+    "Specifies the number of rows the output table can hold. When the buffer is full, the oldest rows are deleted from memory."
+  ],
+  "realtimeRecorder.reset": [
+    "reset",
+    "Clears the table."
+  ],
+  "realtimeRecorder.0": [
+    "name n",
+    "Specifies a column name for the <strong>value <em>n</em></strong> values in the output table."
+  ],
+  "realtimeRecorder.1": [
+    "value n",
+    "Specifies a value to monitor and output in the output table."
+  ],
+  "realtimeRecorder.output": [
+    "output",
+    "Returns a table of timestamps and values. The table contains a row for each monitored change."
+  ],
+  "seriesRealtimeRecorder.enabled": [
+    "enabled",
+    "Determines whether the block is currently recording and updating the table."
+  ],
+  "seriesRealtimeRecorder.0": [
+    "name n and value n",
+    "<strong>value <em>n</em></strong> specifies a value in the output table, and <strong>name <em>n</em></strong> specifies a name for the value."
+  ],
+  "seriesRealtimeRecorder.output": [
+    "output",
+    "Returns a table of names and values."
   ],
   "tableTranspose.input": [
     "input",
@@ -6498,31 +6722,31 @@
   ],
   "datetime.month": [
     "month",
-    "Specifies the month of the year, from 1 to 12 (January to December). Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the month of the year, from 1 to 12 (January to December). Can be a positive or negative integer."
   ],
   "datetime.day": [
     "day",
-    "Specifies the day of the month, from 1 to 31. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the day of the month, from 1 to 31. Can be a positive or negative integer."
   ],
   "datetime.hour": [
     "hour",
-    "Specifies the hour of the day, from 1 to 24. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the hour of the day, from 0 to 23. Can be a positive or negative integer."
   ],
   "datetime.minute": [
     "minute",
-    "Specifies the minute of the hour, from 1 to 60. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the minute of the hour, from 0 to 59. Can be a positive or negative integer."
   ],
   "datetime.second": [
     "second",
-    "Specifies the second of the minute, from 1 to 60. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the second of the minute, from 0 to 59. Can be a positive or negative integer."
   ],
   "datetime.millisecond": [
     "millisecond",
-    "Specifies the millisecond of the second, from 1 to 1000. Can be a positive or negative integer. See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time'>the DGLux5 wiki</a> for details."
+    "Specifies the millisecond of the second, from 0 to 999. Can be a positive or negative integer."
   ],
   "datetime.isUTC": [
     "isUTC",
-    "Determines whether to use UTC. By default, DGLux will use your computer's time zone when converting to serial number. Set the <strong>isUTC</strong> boolean to TRUE if you want to use UTC instead."
+    "Determines whether to use UTC. By default, this property is FALSE and DGLux5 uses your computer’s time zone."
   ],
   "datetime.output": [
     "output",
@@ -6530,11 +6754,11 @@
   ],
   "dateFormat.input": [
     "input",
-    "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>Scripting and Syntax</a>."
+    "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>. This can also be a string from which a date can be parsed."
   ],
   "dateFormat.format": [
     "format",
-    "Specifies a combination of desired <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>dateFormat</a> patterns. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\"."
+    "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
   ],
   "dateFormat.output": [
     "output",
@@ -6542,7 +6766,7 @@
   ],
   "parseDateTime.input": [
     "input",
-    "Specifies the serial number or any supported date time string as outlined <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>here</a>."
+    "Specifies the serial number or any supported date time string as outlined <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>here</a>. This can also be text from which a date can be parsed."
   ],
   "parseDateTime.time": [
     "time",
@@ -6562,19 +6786,19 @@
   ],
   "parseDateTime.hour": [
     "hour",
-    "Returns the hour of the day as a number from 1 to 24."
+    "Returns the hour of the day as a number from 0 to 23."
   ],
   "parseDateTime.minute": [
     "minute",
-    "Returns the minute of the hour as a number from 1 to 60."
+    "Returns the minute of the hour as a number from 0 to 59."
   ],
   "parseDateTime.second": [
     "second",
-    "Returns the second of the minute as a number from 1 to 60."
+    "Returns the second of the minute as a number from 0 to 59."
   ],
   "parseDateTime.millisecond": [
     "millisecond",
-    "Returns the millisecond of the second as a number from 1 to 1000."
+    "Returns the millisecond of the second as a number from 0 to 999."
   ],
   "parseDateTime.weekday": [
     "weekday",
@@ -6586,7 +6810,7 @@
   ],
   "dateMath.op": [
     "op",
-    "<p>Specifies whether Date Math performs \"Before\" calculations or \"After\" calculations on the input date.</p><p><strong>After</strong><br />The values of the other inputs are added to the <strong>input</strong> value.</p><p><strong>Before</strong><br />The values of the other inputs are subtracted from the <strong>input</strong> value.</p>"
+    "<p>Specifies the operator that the Date Math block uses to perform calculations on the input date. The value of the <strong>op</strong> property can be one of the following:</p><p><strong>After</strong><br />The values of the other inputs are added to the <strong>input</strong> value.</p><p><strong>Before</strong><br />The values of the other inputs are subtracted from the <strong>input</strong> value.</p>"
   ],
   "dateMath.year": [
     "year",
@@ -6618,11 +6842,11 @@
   ],
   "dateMath.output": [
     "output",
-    "Returns the result of adding or subtracting the other inputs with the <strong>input</strong> value, depending on the <strong>op</strong> value."
+    "Returns the result of the operation."
   ],
   "dateRange.input": [
     "input",
-    "Specifies the currently selected range. You can select a range by clicking the property and using the pop-up dialog."
+    "Specifies the currently selected range. You can select a range by clicking the property and using the pop-up window."
   ],
   "dateRange.formatted": [
     "formatted",
@@ -6630,7 +6854,7 @@
   ],
   "dateRange.nextRange": [
     "nextRange",
-    "Returns the the next range of the same length after <strong>input</strong>."
+    "Returns the the next range of the same duration after <strong>input</strong>."
   ],
   "dateRange.thisRange": [
     "thisRange",
@@ -6638,27 +6862,27 @@
   ],
   "dateRange.previousRange": [
     "previousRange",
-    "Returns the previous range of the same length before <strong>input</strong>."
+    "Returns the previous range of the same duration before <strong>input</strong>."
   ],
   "dateRange.next": [
     "next",
-    "Advances the <strong>input</strong> value to the next range of the same length."
+    "Advances the value of the <strong>input</strong> property to the next range of the same duration."
   ],
   "dateRange.previous": [
     "previous",
-    "Changes the <strong>input</strong> value to the previous range of the same length."
+    "Changes the value of the <strong>input</strong> property to the previous range of the same duration."
   ],
   "dateRange.format": [
     "format",
-    "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>dateFormat</a> string used to represent the ranges in this block when they are formatted."
+    "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>date and time formatting string</a> that is used to format the dates and times in this block."
   ],
   "dateRange.rangeDelimiter": [
     "rangeDelimiter",
-    "Specifies the string used between the strings that represent the beginning and end of the range. For example, you could use the string \" to \", or the character \"/\"."
+    "Specifies the string used to delimit the beginning of the range and the end of the range."
   ],
   "dateRange.keepSpecial": [
     "keepSpecial",
-    "Specifies when the <strong>format</strong> string is used. For a detailed list, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange:home#keep_special'>Keep Special Value Formatting</a>."
+    "<p>Specifies when a special value is used as the output properties, versus when the values of the <strong>format</strong> and <strong>delimiter</strong> properties are used. The value of the <strong>keepSpecial</strong> property can be one of the following: </p><p><strong>None</strong><br />The <strong>format</strong> and <strong>delimiter</strong> properties are always used, if defined.</p><p><strong>Raw</strong>The special value is used, if applicable. Otherwise, the <strong>format</strong> and <strong>delimiter</strong> properties are used.<br /></p><p><strong>Formatted</strong><br />The special value is used, if applicable. Short default formats are automatically used when available. The <strong>format</strong> and <strong>delimiter</strong> properties are used when necessary.</p><p><strong>Format Clean</strong><br />The special value is used, if applicable. Shortened versions of the <strong>format</strong> property are used when available.</p>"
   ],
   "dateRange.duration": [
     "duration",
