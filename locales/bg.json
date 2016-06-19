@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t направи такова действие с symbol\\ на главен контейнер",
   "Symbol Name": "Име на символ",
   "Create Symbol": "Създаване на символ",
+  "You have read-only access to Symbol ": "Имате достъп само за четене до символ ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Този символ е от друг dg5, \\nit ще бъдат записани автоматично след редактиране",
   "Bind": "Обвърже",
   "Bring Forward": "Да внесе",

@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t padaryti tokių veiksmų su symbol\\'s šaknis konteineris",
   "Symbol Name": "Simbolio pavadinimas",
   "Create Symbol": "Sukurti simbolis",
+  "You have read-only access to Symbol ": "Jūs turite skaitymo prieigą prie simbolis ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Šis simbolis yra iš kito dg5, \\nit bus išsaugoti automatiškai po redagavimo",
   "Bind": "Įpareigoti",
   "Bring Forward": "Pateikti",

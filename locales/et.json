@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t kas sellistest meetmetest koos symbol\\'s root konteiner",
   "Symbol Name": "Sümboli nimi",
   "Create Symbol": "Loo märk",
+  "You have read-only access to Symbol ": "Teil on kirjutuskaitstud juurdepääs sümbol ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "See sümbol on alates teisest dg5, \\nit salvestatakse automaatselt pärast redigeerimist",
   "Bind": "Siduda",
   "Bring Forward": "Too ettepoole",

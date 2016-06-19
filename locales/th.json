@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "คุณ can\\ ไม่ทำการกระทำดังกล่าว มีรูทคอนเทนเนอร์ของ symbol\\",
   "Symbol Name": "ชื่อสัญลักษณ์",
   "Create Symbol": "สร้างสัญลักษณ์",
+  "You have read-only access to Symbol ": "คุณสามารถอ่านการเข้าถึงสัญลักษณ์ ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "สัญลักษณ์นี้มาจาก dg5 อื่น \\nit จะถูกบันทึกโดยอัตโนมัติหลังจากการแก้ไข",
   "Bind": "ผูก",
   "Bring Forward": "นำไปข้างหน้า",

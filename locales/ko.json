@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' t symbol\\의 루트 컨테이너와 같은 행동을",
   "Symbol Name": "기호 이름",
   "Create Symbol": "기호 만들기",
+  "You have read-only access to Symbol ": "기호에 대 한 읽기 전용 액세스를가지고 ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "이 기호는 다른 dg5에서, \\nit은 편집 후 자동으로 저장 될 것 이다",
   "Bind": "바인딩",
   "Bring Forward": "앞으로 가져오기",

@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "आप ' t symbol\\ की रूट कंटेनर के साथ ऐसी कार्रवाई करते हैं can\\",
   "Symbol Name": "प्रतीक नाम",
   "Create Symbol": "प्रतीक बनाएँ",
+  "You have read-only access to Symbol ": "आप केवल-पठन पहुँच करने के लिए प्रतीक है ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "इस प्रतीक से एक और dg5 है, \\nit स्वचालित रूप से संपादित करने के बाद बच जाएगा",
   "Bind": "बाँध",
   "Bring Forward": "आगे लाना",

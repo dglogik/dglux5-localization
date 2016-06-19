@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' t darīt šāda rīcība ar symbol\\ ir saknes konteineris",
   "Symbol Name": "Simbola nosaukums",
   "Create Symbol": "Izveidot simbolu",
+  "You have read-only access to Symbol ": "Jums ir tikai lasāmo piekļuvi simbols ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Šis simbols ir no cita dg5, \\nit tiks sagla-bāts automātiski pēc rediģēšanas",
   "Bind": "Sasaistīt",
   "Bring Forward": "Izvirzīt",

@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Vostè Can \\ ' t fer aquesta acció amb contenidor d'arrel de symbol\\",
   "Symbol Name": "Nom símbol",
   "Create Symbol": "Crear símbol",
+  "You have read-only access to Symbol ": "Vostè té accés només de lectura al símbol ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Aquest símbol és d'un altre dg5, \\nit es desaran automàticament després d'editar",
   "Bind": "S'uneixen",
   "Bring Forward": "Portar endavant",

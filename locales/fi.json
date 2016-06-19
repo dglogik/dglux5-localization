@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Te erikoiskieli\\ tehdä tällainen toiminta symbol\\'s juuri kontti",
   "Symbol Name": "Symbolin nimi:",
   "Create Symbol": "Luo merkki",
+  "You have read-only access to Symbol ": "Voit käyttää vain luku-symboli ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Tämä symboli on toinen dg5, \\nit tallennetaan automaattisesti jäljessä painos",
   "Bind": "Sitoa",
   "Bring Forward": "Esittää",

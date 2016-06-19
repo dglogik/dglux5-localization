@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "את can\\ עשיתי פעולה כזו עם מיכל השורש של symbol\\",
   "Symbol Name": "סמל שם",
   "Create Symbol": "ליצור סמל",
+  "You have read-only access to Symbol ": "יש לך גישת קריאה בלבד לסימן ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "סמל זה הוא מן dg5 אחר, \\nit יישמרו באופן אוטומטי לאחר העריכה",
   "Bind": "לאגד",
   "Bring Forward": "הבא קדימה",

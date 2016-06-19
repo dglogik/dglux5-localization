@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\ ' ر القيام بمثل هذا العمل مع symbol\\ في الحاوية الجذر",
   "Symbol Name": "اسم الرمز",
   "Create Symbol": "إنشاء رمز",
+  "You have read-only access to Symbol ": "لديك وصول للقراءة فقط إلى رمز ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "هذا الرمز من dg5 أخرى، سيتم حفظ \\nit تلقائياً بعد التحرير",
   "Bind": "ربط",
   "Bring Forward": "إحضار إلى الأمام",

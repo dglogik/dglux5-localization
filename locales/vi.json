@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Bạn can\\'t làm những hành động đó với symbol\\ của gốc container",
   "Symbol Name": "Tên ký hiệu",
   "Create Symbol": "Tạo biểu tượng",
+  "You have read-only access to Symbol ": "Bạn có quyền truy cập chỉ đọc vào biểu tượng ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Biểu tượng này là từ một dg5, \\nit sẽ được lưu tự động sau khi chỉnh sửa",
   "Bind": "Ràng buộc",
   "Bring Forward": "Mang về phía trước",

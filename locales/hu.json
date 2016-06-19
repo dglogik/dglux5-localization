@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t csinál ilyen cselekvés symbol\\ barátait legfelső szintű tárolója",
   "Symbol Name": "Szimbolikus név",
   "Create Symbol": "-Szimbólum létrehozása",
+  "You have read-only access to Symbol ": "Van olvasási hozzáférése szimbólum ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Ez a szimbólum egy másik dg5, \\nit menti automatikusan után szerkesztés",
   "Bind": "Bind",
   "Bring Forward": "Előbbre",

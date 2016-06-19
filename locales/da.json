@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Du kan ikke\\ 't gøre sådan handling med symbol\\'s root container",
   "Symbol Name": "Symbol navn",
   "Create Symbol": "Opret Symbol",
+  "You have read-only access to Symbol ": "Har du skrivebeskyttet adgang til Symbol ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Dette Symbol er fra en anden dg5, \\nit vil blive gemt automatisk efter redigering",
   "Bind": "Binde",
   "Bring Forward": "Bringe frem",

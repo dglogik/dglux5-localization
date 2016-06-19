@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Can\\'t κάνει μια τέτοια ενέργεια με δοχείο ρίζα του symbol\\",
   "Symbol Name": "Συμβολικό όνομα",
   "Create Symbol": "Δημιουργία σύμβολο",
+  "You have read-only access to Symbol ": "Έχετε πρόσβαση μόνο για ανάγνωση σε σύμβολο ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Το σύμβολο αυτό είναι από μια άλλη dg5, η \\nit θα αποθηκευτούν αυτόματα μετά την επεξεργασία",
   "Bind": "Δεσμεύουν",
   "Bring Forward": "Υποβάλει",

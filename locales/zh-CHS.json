@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "你就不会做这种动作与 symbol\\ 的根容器",
   "Symbol Name": "符号名称",
   "Create Symbol": "创建符号",
+  "You have read-only access to Symbol ": "您可以为只读访问符号",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "这个符号是从另一个 dg5，\\nit 将编辑后自动保存",
   "Bind": "绑定",
   "Bring Forward": "提出了",

@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Du Skränande\\ 't gör sådana åtgärder med symbol\\'s rotbehållare",
   "Symbol Name": "Symbolnamnet",
   "Create Symbol": "Skapa Symbol",
+  "You have read-only access to Symbol ": "Du har skrivskyddad åtkomst till Symbol ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Denna Symbol är från en annan dg5, \\nit kommer att sparas automatiskt efter redigering",
   "Bind": "Bind",
   "Bring Forward": "Tidigarelägga",

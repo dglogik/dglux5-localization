@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "あなたは can\\ ' t は symbol\\ のルート コンテナーをそのような行動を行う",
   "Symbol Name": "シンボル名",
   "Create Symbol": "シンボルを作成します。",
+  "You have read-only access to Symbol ": "シンボルを読み取り専用のアクセス権があります。",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "このシンボルが別の dg5 から、\\nit が編集した後自動的に保存",
   "Bind": "バインド",
   "Bring Forward": "前面へ移動",

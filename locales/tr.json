@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "böyle eylem ile symbol\\'ın kök kapsayıcısını yapmak can\\",
   "Symbol Name": "Simge adı",
   "Create Symbol": "Sembol oluşturma",
+  "You have read-only access to Symbol ": "Sembol salt okunur erişiminiz vardır ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Bu sembolü başka bir dg5, \\nit düzenledikten sonra otomatik olarak kaydedilir",
   "Bind": "Bağlama",
   "Bring Forward": "Öne getir",

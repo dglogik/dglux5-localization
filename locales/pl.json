@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "Cantomat\\ 't czynić takich akcji z kontenera root w symbol\\",
   "Symbol Name": "Nazwa symbolu",
   "Create Symbol": "Utwórz Symbol",
+  "You have read-only access to Symbol ": "Masz dostęp do symbolu tylko do odczytu ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "Ten Symbol jest z innego dg5, \\nit zostaną automatycznie zapisane po edycji",
   "Bind": "Binda",
   "Bring Forward": "Przedstawienia",

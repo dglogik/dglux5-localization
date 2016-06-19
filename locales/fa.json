@@ -364,6 +364,7 @@
   "You can\\'t do such action with symbol\\'s root container": "شما can\\ ŧ چنین عملی با ظرف ریشه symbol\\ را نکنید",
   "Symbol Name": "نام نماد",
   "Create Symbol": "ایجاد نماد",
+  "You have read-only access to Symbol ": "شما باید دسترسی فقط خواندنی به نماد ",
   "This Symbol is from another dg5,\\nit will be saved automatically after editing": "این نماد از dg5 دیگر، \\nit به طور خودکار پس از ویرایش ذخیره می شود",
   "Bind": "صحافی کردن و دوختن",
   "Bring Forward": "به پیش آوردن",
