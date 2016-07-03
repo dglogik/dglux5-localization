@@ -297,7 +297,7 @@
   "Who has access": "Kas gali naudotis",
   "Enter username": "Įveskite naudotojo vardą",
   "Specific people": "Konkrečių žmonių",
-  "Anyone who has the link can view": "Visiems, kurie turi nuorodą galite peržiūrėti",
+  "Anyone with the link": "Bet kas, turintis nuorodą",
   "Sunday": "Sekmadienis",
   "Monday": "Pirmadienis",
   "was saved": "buvo įrašytas",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Įkelti visi mazgai",
   "Expand All Nodes": "Išskleisti visus mazgus",
   "Show Loading Indicator": "Rodyti krovimo indikatorius",
+  "Scroll Feedback:": "Slinkties atsiliepimus:",
   "Blacklist": "Juodasis sąrašas",
   "Whitelist": "Baltąjį sąrašą",
   "Multi-select": "Kelių pasirinkčių",
@@ -754,7 +755,6 @@
   "Autosize Content": "Automatinis turinio",
   "Fit Ratio": "Tinka santykis",
   "Fit": "Tinka",
-  "Scroll Feedback:": "Slinkties atsiliepimus:",
   "Center Point": "Centrinio taško",
   "Styled Maps Wizard": "Stiliaus žemėlapiai vedlys",
   "Roadmap": "Veiksmų planas",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Autentifikavimo prarado arba serveris yra neveiksnus.&lt;br&gt;Prašome atsarginės jūsų failus su File-&gt;Import(Ctrl+7) ir atnaujinti naršyklę",
   "Connection Error": "Prisijungimo klaida",
   "New view": "Naujas vaizdas",
+  "DSA Configurator by DGLogik": "DSA konfigūratorius iš DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Nuotolinis eBiuras redaktorius iš DGLogik",
   "DGLux5 by DGLogik": "DGLux5 iš DGLogik"
 }

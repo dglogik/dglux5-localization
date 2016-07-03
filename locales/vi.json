@@ -297,7 +297,7 @@
   "Who has access": "Những người có quyền truy cập",
   "Enter username": "Nhập tên người dùng",
   "Specific people": "Những người cụ thể",
-  "Anyone who has the link can view": "Bất cứ ai có liên kết có thể xem",
+  "Anyone with the link": "Bất cứ ai có liên kết",
   "Sunday": "Chủ Nhật",
   "Monday": "Thứ hai",
   "was saved": "đã được lưu",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Tải tất cả các nút",
   "Expand All Nodes": "Mở rộng tất cả các nút",
   "Show Loading Indicator": "Hiển thị tải chỉ báo",
+  "Scroll Feedback:": "Di chuyển thông tin phản hồi:",
   "Blacklist": "Danh sách đen",
   "Whitelist": "Danh sách trắng",
   "Multi-select": "Chọn nhiều",
@@ -754,7 +755,6 @@
   "Autosize Content": "Autosize nội dung",
   "Fit Ratio": "Phù hợp với tỷ lệ",
   "Fit": "Phù hợp với",
-  "Scroll Feedback:": "Di chuyển thông tin phản hồi:",
   "Center Point": "Điểm trung tâm",
   "Styled Maps Wizard": "Thuật sĩ theo kiểu bản đồ",
   "Roadmap": "Lộ trình",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Xác thực bị mất hoặc server down.&lt;br&gt;Xin vui lòng sao lưu tập tin của bạn với File-&gt;Import(Ctrl+7) và làm mới trình duyệt",
   "Connection Error": "Lỗi kết nối",
   "New view": "Cái nhìn mới",
+  "DSA Configurator by DGLogik": "DSA cấu hình bởi DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Biên tập viên từ xa Dataflow bởi DGLogik",
   "DGLux5 by DGLogik": "DGLux5 bởi DGLogik"
 }

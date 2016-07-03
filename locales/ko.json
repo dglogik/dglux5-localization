@@ -297,7 +297,7 @@
   "Who has access": "누가 권한이",
   "Enter username": "사용자 이름 입력",
   "Specific people": "특정 사용자",
-  "Anyone who has the link can view": "누군가 링크를 볼 수 있습니다.",
+  "Anyone with the link": "링크가 있는",
   "Sunday": "일요일",
   "Monday": "월요일",
   "was saved": "저장 된",
@@ -724,6 +724,7 @@
   "Load All Nodes": "모든 노드가 로드",
   "Expand All Nodes": "모든 노드 확장",
   "Show Loading Indicator": "로딩 표시기 표시",
+  "Scroll Feedback:": "스크롤 의견:",
   "Blacklist": "블랙 리스트",
   "Whitelist": "허용 된 사이트 목록",
   "Multi-select": "다중 선택",
@@ -754,7 +755,6 @@
   "Autosize Content": "Autosize 콘텐츠",
   "Fit Ratio": "맞는 비율",
   "Fit": "에 맞게",
-  "Scroll Feedback:": "스크롤 의견:",
   "Center Point": "센터 포인트",
   "Styled Maps Wizard": "스타일된 지도 마법사",
   "Roadmap": "로드맵",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "인증 손실 되거나 서버가 다운 되어.&lt;br&gt;File-&gt;Import(Ctrl+7) 사용 하 여 파일을 백업 하시고 브라우저를 새로 고침",
   "Connection Error": "연결 오류",
   "New view": "새로운 보기",
+  "DSA Configurator by DGLogik": "DGLogik에 의해 DSA 구성",
+  "Remote Dataflow Editor by DGLogik": "DGLogik에 의해 원격 데이터 흐름 편집기",
   "DGLux5 by DGLogik": "DGLogik, DGLux5"
 }

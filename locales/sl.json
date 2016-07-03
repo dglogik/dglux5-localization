@@ -297,7 +297,7 @@
   "Who has access": "Kdo ima dostop",
   "Enter username": "Vnesite uporabniško ime",
   "Specific people": "Določenih oseb",
-  "Anyone who has the link can view": "Lahko vidi kdor koli, ki ima povezavo",
+  "Anyone with the link": "Vsakdo s povezavo",
   "Sunday": "Nedelja",
   "Monday": "Ponedeljek",
   "was saved": "je bila shranjena",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Naložiti vsa vozlišča",
   "Expand All Nodes": "Razširite vsa vozlišča",
   "Show Loading Indicator": "Pokaži nakladanje kazalnik",
+  "Scroll Feedback:": "Poiščite povratne informacije:",
   "Blacklist": "Črni seznam",
   "Whitelist": "Seznam dovoljenih",
   "Multi-select": "Večkratna izbira",
@@ -754,7 +755,6 @@
   "Autosize Content": "Samodejno prilagodi velikost vsebine",
   "Fit Ratio": "Prilagodi razmerje",
   "Fit": "Fit",
-  "Scroll Feedback:": "Poiščite povratne informacije:",
   "Center Point": "Center točka",
   "Styled Maps Wizard": "Styled karte čarovnik",
   "Roadmap": "Načrt",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Preverjanje pristnosti izgubil ali strežnik navzdol.&lt;br&gt;Prosim prislon vaš pila s File-&gt;Import(Ctrl+7) in osvežite brskalnik",
   "Connection Error": "Napake pri povezavi",
   "New view": "Nov pogled",
+  "DSA Configurator by DGLogik": "DSA konfigurator s DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Oddaljeni podatkovni tok urednik z DGLogik",
   "DGLux5 by DGLogik": "DGLux5 z DGLogik"
 }

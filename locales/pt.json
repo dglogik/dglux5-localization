@@ -297,7 +297,7 @@
   "Who has access": "Quem tem acesso",
   "Enter username": "Digite nome de usuário",
   "Specific people": "Pessoas específicas",
-  "Anyone who has the link can view": "Quem tiver o link pode ver os",
+  "Anyone with the link": "Qualquer pessoa com o link",
   "Sunday": "Domingo",
   "Monday": "Segunda-feira",
   "was saved": "foi salvo",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Carregar todos os nós",
   "Expand All Nodes": "Expandir todos os nós",
   "Show Loading Indicator": "Mostrar indicador de carregamento",
+  "Scroll Feedback:": "Feedback de rolagem:",
   "Blacklist": "Lista negra",
   "Whitelist": "Whitelist",
   "Multi-select": "Seleção múltipla",
@@ -754,7 +755,6 @@
   "Autosize Content": "Conteúdo de AutoSize",
   "Fit Ratio": "Ajuste da proporção",
   "Fit": "Caber",
-  "Scroll Feedback:": "Feedback de rolagem:",
   "Center Point": "Ponto central",
   "Styled Maps Wizard": "Assistente de estilo mapas",
   "Roadmap": "Roteiro",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Autenticação perdidos ou servidor é baixo.&lt;br&gt;Por favor, backup de seus arquivos com File-&gt;Import(Ctrl+7) e atualize o navegador",
   "Connection Error": "Erro de conexão",
   "New view": "Nova vista",
+  "DSA Configurator by DGLogik": "Configurador DSA por DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Editor de fluxo de dados remoto por DGLogik",
   "DGLux5 by DGLogik": "DGLux5 por DGLogik"
 }

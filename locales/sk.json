@@ -297,7 +297,7 @@
   "Who has access": "Kto má prístup",
   "Enter username": "Zadajte užívateľské meno",
   "Specific people": "Konkrétnych ľudí",
-  "Anyone who has the link can view": "Každý, kto má odkaz môžete zobraziť",
+  "Anyone with the link": "Niekto s odkazom",
   "Sunday": "Nedeľa",
   "Monday": "Pondelok",
   "was saved": "bol uložený",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Načítať všetky uzly",
   "Expand All Nodes": "Rozbaliť všetky uzly",
   "Show Loading Indicator": "Zobraziť načítanie indikátor",
+  "Scroll Feedback:": "Prejdite spätnú väzbu:",
   "Blacklist": "Čierna listina",
   "Whitelist": "Whitelist",
   "Multi-select": "Viacnásobný výber",
@@ -754,7 +755,6 @@
   "Autosize Content": "Automaticky upraviť veľkosť obsahu",
   "Fit Ratio": "Vhodné pomer",
   "Fit": "Fit",
-  "Scroll Feedback:": "Prejdite spätnú väzbu:",
   "Center Point": "Stredový bod",
   "Styled Maps Wizard": "Štylizovaný mapy sprievodca",
   "Roadmap": "Plán",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Overovanie stratené alebo server je dole.&lt;br&gt;Prosím zálohovanie súborov s File-&gt;Import(Ctrl+7) a obnovenie prehliadača",
   "Connection Error": "Chyba pripojenia",
   "New view": "Nové zobrazenie",
+  "DSA Configurator by DGLogik": "DSA konfigurátor od DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Vzdialenej Dataflow Editor DGLogik",
   "DGLux5 by DGLogik": "DGLux5 podľa DGLogik"
 }

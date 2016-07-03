@@ -297,7 +297,7 @@
   "Who has access": "Wie heeft toegang",
   "Enter username": "Gebruikersnaam",
   "Specific people": "Bepaalde personen",
-  "Anyone who has the link can view": "Iedereen die de koppeling bevat kan bekijken",
+  "Anyone with the link": "Iedereen met de link",
   "Sunday": "Zondag",
   "Monday": "Maandag",
   "was saved": "is opgeslagen",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Alle knooppunten laden",
   "Expand All Nodes": "Vouw alle knooppunten",
   "Show Loading Indicator": "Toon laden Indicator",
+  "Scroll Feedback:": "Scroll Feedback:",
   "Blacklist": "Zwarte lijst",
   "Whitelist": "Whitelist",
   "Multi-select": "Meerdere selecteren",
@@ -754,7 +755,6 @@
   "Autosize Content": "AutoSize inhoud",
   "Fit Ratio": "Fit verhouding",
   "Fit": "Passen",
-  "Scroll Feedback:": "Scroll Feedback:",
   "Center Point": "Center Point",
   "Styled Maps Wizard": "Gestileerde Maps Wizard",
   "Roadmap": "Routekaart",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Verificatie verloren of server is down.&lt;br&gt;Gelieve te back-up van uw bestanden met File-&gt;Import(Ctrl+7) en browser vernieuwen",
   "Connection Error": "Verbindingsfout",
   "New view": "Nieuwe weergave",
+  "DSA Configurator by DGLogik": "DSA Configurator door DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Externe Dataflow Editor door DGLogik",
   "DGLux5 by DGLogik": "DGLux5 door DGLogik"
 }

@@ -297,7 +297,7 @@
   "Who has access": "Qui té accés",
   "Enter username": "Introduïu el nom d'usuari",
   "Specific people": "Persones concretes",
-  "Anyone who has the link can view": "Qualsevol persona que tingui l'enllaç podeu veure",
+  "Anyone with the link": "Qualsevol persona amb l'enllaç",
   "Sunday": "Diumenge",
   "Monday": "Dilluns",
   "was saved": "s'ha desat",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Carregar tots els Nodes",
   "Expand All Nodes": "Ampliar tots els Nodes",
   "Show Loading Indicator": "Mostra l'indicador de càrrega",
+  "Scroll Feedback:": "Resposta de desplaçament:",
   "Blacklist": "Llista negra",
   "Whitelist": "Whitelist",
   "Multi-select": "Selecció múltiple",
@@ -754,7 +755,6 @@
   "Autosize Content": "Ajusta continguts",
   "Fit Ratio": "Proporció de forma",
   "Fit": "Cabre",
-  "Scroll Feedback:": "Resposta de desplaçament:",
   "Center Point": "Punt central",
   "Styled Maps Wizard": "Assistent de mapes d'estil",
   "Roadmap": "Full de ruta",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "L'autenticació perdut o servidor esta caiguda.&lt;br&gt;Si us plau, reserva els seus arxius amb File-&gt;Import(Ctrl+7) i actualitza el navegador",
   "Connection Error": "Error de connexió",
   "New view": "Nova visió",
+  "DSA Configurator by DGLogik": "Configurador de dietes per DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Editor d'usos remot per DGLogik",
   "DGLux5 by DGLogik": "DGLux5 els DGLogik"
 }

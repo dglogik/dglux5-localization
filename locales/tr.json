@@ -297,7 +297,7 @@
   "Who has access": "Kimin erişimi var",
   "Enter username": "Kullanıcı adınızı girin",
   "Specific people": "Belirli kişilere",
-  "Anyone who has the link can view": "Link olan herkes-ebilmek görüş",
+  "Anyone with the link": "Kimse ile belgili tanımlık bağlantı",
   "Sunday": "Pazar",
   "Monday": "Pazartesi",
   "was saved": "kaydedildi",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Tüm düğümlerin yük",
   "Expand All Nodes": "Tüm düğümleri genişletin",
   "Show Loading Indicator": "Gösterge yükleme göster",
+  "Scroll Feedback:": "Kaydırma geribildirim:",
   "Blacklist": "Kara liste",
   "Whitelist": "Beyaz liste",
   "Multi-select": "Çoklu seçim",
@@ -754,7 +755,6 @@
   "Autosize Content": "AutoSize içeriği",
   "Fit Ratio": "Uygun oranı",
   "Fit": "Uygun",
-  "Scroll Feedback:": "Kaydırma geribildirim:",
   "Center Point": "Orta noktası",
   "Styled Maps Wizard": "Tarz haritalar Sihirbazı",
   "Roadmap": "Yol haritası",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Kimlik doğrulama kayıp veya sunucu kapalı.&lt;br&gt;Lütfen sırt senin eğe ile File-&gt;Import(Ctrl+7) ve tarayıcıyı yenileyin",
   "Connection Error": "Bağlantı hatası",
   "New view": "Yeni görünüm",
+  "DSA Configurator by DGLogik": "DSA Yapılandırıcı DGLogik tarafından",
+  "Remote Dataflow Editor by DGLogik": "Uzak Dataflow editör tarafından DGLogik",
   "DGLux5 by DGLogik": "DGLux5 DGLogik tarafından"
 }

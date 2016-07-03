@@ -297,7 +297,7 @@
   "Who has access": "Leej twg tug",
   "Enter username": "Sau tus username",
   "Specific people": "Hom neeg",
-  "Anyone who has the link can view": "Tus neeg twg uas muaj qhov link saib",
+  "Anyone with the link": "Leej twg muaj txoj kev txuas",
   "Sunday": "Hnub xya",
   "Monday": "Monday",
   "was saved": "nyob rua",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Thauj cov ntshav",
   "Expand All Nodes": "Nthuav cov ntshav",
   "Show Loading Indicator": "Ua Loading qhia tau rau",
+  "Scroll Feedback:": "Scroll tswv yim:",
   "Blacklist": "Blacklist",
   "Whitelist": "Whitelist",
   "Multi-select": "Xaiv tej",
@@ -754,7 +755,6 @@
   "Autosize Content": "Cov ntsiab lus Autosize",
   "Fit Ratio": "Haum piv",
   "Fit": "Haum",
-  "Scroll Feedback:": "Scroll tswv yim:",
   "Center Point": "Center Point",
   "Styled Maps Wizard": "Wizard styled Maps",
   "Roadmap": "Roadmap",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Authentication ploj los yog neeg rau zaub mov lawm.&lt;br&gt;Thov koj backup koj cov ntaub ntawv uas muaj File-&gt;Import(Ctrl+7) thiab ua tshiab browser",
   "Connection Error": "Kev twb kev txuas yuam kev",
   "New view": "Tshiab saib",
+  "DSA Configurator by DGLogik": "DSA Configurator los DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Tej thaj chaw deb Dataflow Editor ntawm DGLogik",
   "DGLux5 by DGLogik": "DGLux5 los yog DGLogik"
 }

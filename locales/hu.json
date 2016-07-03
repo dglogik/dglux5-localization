@@ -297,7 +297,7 @@
   "Who has access": "Kinek van hozzáférése",
   "Enter username": "Adja meg a felhasználónevet",
   "Specific people": "Meghatározott személyek",
-  "Anyone who has the link can view": "Bárki, aki a link megtekintheti",
+  "Anyone with the link": "Akárki-val a láncszem",
   "Sunday": "Vasárnap",
   "Monday": "Hétfő",
   "was saved": "mentett",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Betölteni az összes csomópont",
   "Expand All Nodes": "Az összes csomópont kibontása",
   "Show Loading Indicator": "Megjelenítése betöltéskor mutató",
+  "Scroll Feedback:": "Lapozzunk visszajelzés:",
   "Blacklist": "Feketelista",
   "Whitelist": "Whitelist",
   "Multi-select": "Többszörös kijelölés",
@@ -754,7 +755,6 @@
   "Autosize Content": "Tartalom automatikus méretezése",
   "Fit Ratio": "Fit arány",
   "Fit": "Fit",
-  "Scroll Feedback:": "Lapozzunk visszajelzés:",
   "Center Point": "Középpont",
   "Styled Maps Wizard": "Varázsló stílusú térképek",
   "Roadmap": "Ütemterv",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Hitelesítési elveszett, vagy a kiszolgáló nem működik.&lt;br&gt;Legyen szíves hát-a fájlokat, a File-&gt;Import(Ctrl+7) és a böngésző frissítése",
   "Connection Error": "Kapcsolódási hiba",
   "New view": "Új nézet",
+  "DSA Configurator by DGLogik": "DSA Configurator által DGLogik",
+  "Remote Dataflow Editor by DGLogik": "DGLogik távoli adatfolyam-szerkesztő",
   "DGLux5 by DGLogik": "DGLux5 által DGLogik"
 }

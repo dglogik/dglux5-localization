@@ -297,7 +297,7 @@
   "Who has access": "Ποιος έχει πρόσβαση",
   "Enter username": "Εισάγετε το όνομα λογαριασμού",
   "Specific people": "Συγκεκριμένα άτομα",
-  "Anyone who has the link can view": "Όποιος έχει τη σύνδεση να δείτε",
+  "Anyone with the link": "Οποιοσδήποτε διαθέτει το σύνδεσμο",
   "Sunday": "Κυριακή",
   "Monday": "Δευτέρα",
   "was saved": "σώθηκε",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Φορτώσει όλους τους κόμβους",
   "Expand All Nodes": "Αναπτύξτε όλους τους κόμβους",
   "Show Loading Indicator": "Εμφάνιση φόρτωση δείκτης",
+  "Scroll Feedback:": "Ανατροφοδότηση κύλισης:",
   "Blacklist": "Μαύρη λίστα",
   "Whitelist": "Λευκή λίστα",
   "Multi-select": "Πολλαπλή επιλογή",
@@ -754,7 +755,6 @@
   "Autosize Content": "Αυτόματη προσαρμογή μεγέθους περιεχόμενο",
   "Fit Ratio": "Ταιριάζει αναλογία",
   "Fit": "Ταιριάζει",
-  "Scroll Feedback:": "Ανατροφοδότηση κύλισης:",
   "Center Point": "Κεντρικό σημείο",
   "Styled Maps Wizard": "Οδηγός στυλ χάρτες",
   "Roadmap": "Οδικός Χάρτης",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Έχασε τον έλεγχο ταυτότητας ή ο κεντρικός υπολογιστής είναι κάτω.&lt;br&gt;Παρακαλούμε backup τα αρχεία σας με File-&gt;Import(Ctrl+7) και να ανανεώσετε το πρόγραμμα περιήγησης",
   "Connection Error": "Σφάλμα σύνδεσης",
   "New view": "Νέα προβολή",
+  "DSA Configurator by DGLogik": "DSA Configurator από DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Πρόγραμμα επεξεργασίας της απομακρυσμένης ροής δεδομένων από DGLogik",
   "DGLux5 by DGLogik": "DGLux5 από DGLogik"
 }

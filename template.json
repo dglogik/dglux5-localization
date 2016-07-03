@@ -297,7 +297,7 @@
   "Who has access": "Who has access",
   "Enter username": "Enter username",
   "Specific people": "Specific people",
-  "Anyone who has the link can view": "Anyone who has the link can view",
+  "Anyone with the link": "Anyone with the link",
   "Sunday": "Sunday",
   "Monday": "Monday",
   "was saved": "was saved",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Load All Nodes",
   "Expand All Nodes": "Expand All Nodes",
   "Show Loading Indicator": "Show Loading Indicator",
+  "Scroll Feedback:": "Scroll Feedback:",
   "Blacklist": "Blacklist",
   "Whitelist": "Whitelist",
   "Multi-select": "Multi-select",
@@ -754,7 +755,6 @@
   "Autosize Content": "Autosize Content",
   "Fit Ratio": "Fit Ratio",
   "Fit": "Fit",
-  "Scroll Feedback:": "Scroll Feedback:",
   "Center Point": "Center Point",
   "Styled Maps Wizard": "Styled Maps Wizard",
   "Roadmap": "Roadmap",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser",
   "Connection Error": "Connection Error",
   "New view": "New view",
+  "DSA Configurator by DGLogik": "DSA Configurator by DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Remote Dataflow Editor by DGLogik",
   "DGLux5 by DGLogik": "DGLux5 by DGLogik"
 }

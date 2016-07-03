@@ -297,7 +297,7 @@
   "Who has access": "Vem har tillgång",
   "Enter username": "Ange användarnamn",
   "Specific people": "Vissa personer",
-  "Anyone who has the link can view": "Någon som har länken kan Visa",
+  "Anyone with the link": "Alla med länken",
   "Sunday": "Söndag",
   "Monday": "Måndag",
   "was saved": "sparades",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Ladda alla noder",
   "Expand All Nodes": "Visa alla noder",
   "Show Loading Indicator": "Visa laddar indikator",
+  "Scroll Feedback:": "Bläddra Feedback:",
   "Blacklist": "Svarta listan",
   "Whitelist": "Vitlista",
   "Multi-select": "Multi-SELECT",
@@ -754,7 +755,6 @@
   "Autosize Content": "AutoSize innehåll",
   "Fit Ratio": "Fit förhållandet",
   "Fit": "Passar",
-  "Scroll Feedback:": "Bläddra Feedback:",
   "Center Point": "Mittpunkt",
   "Styled Maps Wizard": "Stylade kartor guiden",
   "Roadmap": "Färdplanen",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Autentisering förlorat eller servern är nere.&lt;br&gt;Vänligen säkerhetskopiera dina filer med File-&gt;Import(Ctrl+7) och uppdatera webbläsaren",
   "Connection Error": "Anslutningsfel",
   "New view": "Ny vy",
+  "DSA Configurator by DGLogik": "DSA Configurator av DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Remote dataflöde redaktör av DGLogik",
   "DGLux5 by DGLogik": "DGLux5 av DGLogik"
 }

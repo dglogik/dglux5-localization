@@ -297,7 +297,7 @@
   "Who has access": "谁有权访问",
   "Enter username": "输入用户名",
   "Specific people": "具体的人",
-  "Anyone who has the link can view": "任何人如有该链接可以查看",
+  "Anyone with the link": "任何人与链接",
   "Sunday": "星期日",
   "Monday": "星期一",
   "was saved": "被救",
@@ -724,6 +724,7 @@
   "Load All Nodes": "加载的所有节点",
   "Expand All Nodes": "展开所有节点",
   "Show Loading Indicator": "显示加载指示器",
+  "Scroll Feedback:": "滚动的反馈:",
   "Blacklist": "黑名单",
   "Whitelist": "白名单",
   "Multi-select": "多重选择",
@@ -754,7 +755,6 @@
   "Autosize Content": "自动调整内容",
   "Fit Ratio": "配合的比",
   "Fit": "适合",
-  "Scroll Feedback:": "滚动的反馈:",
   "Center Point": "中心点",
   "Styled Maps Wizard": "带样式的映射向导",
   "Roadmap": "路线图",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "失去了身份验证或服务器已关闭。&lt;br&gt;请备份您的文件 File-&gt;Import(Ctrl+7)，并刷新浏览器",
   "Connection Error": "连接错误",
   "New view": "新的视图",
+  "DSA Configurator by DGLogik": "由 DGLogik DSA 配置器",
+  "Remote Dataflow Editor by DGLogik": "DGLogik 远程数据流编辑器",
   "DGLux5 by DGLogik": "由 DGLogik DGLux5"
 }

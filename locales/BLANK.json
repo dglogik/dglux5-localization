@@ -297,7 +297,7 @@
   "Who has access": "",
   "Enter username": "",
   "Specific people": "",
-  "Anyone who has the link can view": "",
+  "Anyone with the link": "",
   "Sunday": "",
   "Monday": "",
   "was saved": "",
@@ -724,6 +724,7 @@
   "Load All Nodes": "",
   "Expand All Nodes": "",
   "Show Loading Indicator": "",
+  "Scroll Feedback:": "",
   "Blacklist": "",
   "Whitelist": "",
   "Multi-select": "",
@@ -754,7 +755,6 @@
   "Autosize Content": "",
   "Fit Ratio": "",
   "Fit": "",
-  "Scroll Feedback:": "",
   "Center Point": "",
   "Styled Maps Wizard": "",
   "Roadmap": "",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "",
   "Connection Error": "",
   "New view": "",
+  "DSA Configurator by DGLogik": "",
+  "Remote Dataflow Editor by DGLogik": "",
   "DGLux5 by DGLogik": ""
 }

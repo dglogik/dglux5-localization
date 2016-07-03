@@ -297,7 +297,7 @@
   "Who has access": "چه کسی دسترسی دارد؟",
   "Enter username": "نام کاربری را وارد کنید",
   "Specific people": "افراد خاص",
-  "Anyone who has the link can view": "هر کسی که لینک می توانید مشاهده",
+  "Anyone with the link": "هر کسی با لینک",
   "Sunday": "یکشنبه",
   "Monday": "دوشنبه",
   "was saved": "ذخیره شد",
@@ -724,6 +724,7 @@
   "Load All Nodes": "بار تمام گره",
   "Expand All Nodes": "گسترش همه گره",
   "Show Loading Indicator": "نمایش بارگذاری شاخص",
+  "Scroll Feedback:": "بازخورد پیمایش:",
   "Blacklist": "لیست سیاه",
   "Whitelist": "لیست سپید",
   "Multi-select": "چند را انتخاب کنید",
@@ -754,7 +755,6 @@
   "Autosize Content": "تغییر اندازه خودکار محتوا",
   "Fit Ratio": "نسبت مناسب",
   "Fit": "مناسب",
-  "Scroll Feedback:": "بازخورد پیمایش:",
   "Center Point": "مرکز نقطه",
   "Styled Maps Wizard": "نقشه های مدل دهید جادوگر",
   "Roadmap": "نقشه راه",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "اعتبار از دست رفته و یا سرور است.&lt;br&gt;لطفا پشتیبان گیری فایل های خود را با File-&gt;Import(Ctrl+7) و تازه کردن مرورگر",
   "Connection Error": "خطا در اتصال",
   "New view": "نمای جدید",
+  "DSA Configurator by DGLogik": "DSA تنظیم توسط DGLogik",
+  "Remote Dataflow Editor by DGLogik": "ویرایشگر جریان داده از راه دور توسط DGLogik",
   "DGLux5 by DGLogik": "DGLux5 توسط DGLogik"
 }

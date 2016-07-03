@@ -297,7 +297,7 @@
   "Who has access": "Kellel on juurdepääs",
   "Enter username": "Sisesta kasutajanimi",
   "Specific people": "Inimestelt",
-  "Anyone who has the link can view": "Keegi on link saate vaadata",
+  "Anyone with the link": "Keegi link",
   "Sunday": "Pühapäev",
   "Monday": "Esmaspäev",
   "was saved": "salvestatud",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Laadida kõik sõlmed",
   "Expand All Nodes": "Laienda kõik sõlmed",
   "Show Loading Indicator": "Kuva laadimise indikaator",
+  "Scroll Feedback:": "Leidke tagasiside:",
   "Blacklist": "Musta nimekirja",
   "Whitelist": "Valgesse nimekirja",
   "Multi-select": "Mitme valimine",
@@ -754,7 +755,6 @@
   "Autosize Content": "Muuda sisu",
   "Fit Ratio": "Sobita suhe",
   "Fit": "Sobivad",
-  "Scroll Feedback:": "Leidke tagasiside:",
   "Center Point": "Center Point",
   "Styled Maps Wizard": "Stiilis kaarte viisard",
   "Roadmap": "Rakendusplaani",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Autentimise kaotanud või server on maas.&lt;br&gt;Palun varundada faile koos File-&gt;Import(Ctrl+7) ja värskendage brauserit",
   "Connection Error": "Ühenduse tõrge",
   "New view": "Uus vaade",
+  "DSA Configurator by DGLogik": "DSA konfiguraator poolt DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Kaugtöölaua Dataflow toimetaja poolt DGLogik",
   "DGLux5 by DGLogik": "DGLux5 poolt DGLogik"
 }

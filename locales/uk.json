@@ -297,7 +297,7 @@
   "Who has access": "Хто має доступ",
   "Enter username": "Введіть ім'я користувача",
   "Specific people": "Певним користувачам",
-  "Anyone who has the link can view": "Будь-хто, хто має посилання можна переглянути",
+  "Anyone with the link": "Хто-небудь з посиланням",
   "Sunday": "Неділя",
   "Monday": "Понеділок",
   "was saved": "була врятована",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Завантажити всі вузли",
   "Expand All Nodes": "Розгортання всіх вузлів",
   "Show Loading Indicator": "Показувати завантажуване індикатор",
+  "Scroll Feedback:": "Прокручування зворотного зв'язку:",
   "Blacklist": "Чорний список",
   "Whitelist": "Білий список",
   "Multi-select": "Із множинним вибором",
@@ -754,7 +755,6 @@
   "Autosize Content": "Автодобір розмірів вміст",
   "Fit Ratio": "Fit співвідношення",
   "Fit": "Fit",
-  "Scroll Feedback:": "Прокручування зворотного зв'язку:",
   "Center Point": "Центральної точки",
   "Styled Maps Wizard": "Стилі карт майстра",
   "Roadmap": "Дорожня карта",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Автентифікація втратили або сервер не працює.&lt;br&gt;Будь ласка резервну копію ваших файлів з File-&gt;Import(Ctrl+7)» та «оновити браузер",
   "Connection Error": "Помилка підключення",
   "New view": "Нове подання",
+  "DSA Configurator by DGLogik": "DSA конфігуратор за DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Редактор віддаленого потік даних шляхом DGLogik",
   "DGLux5 by DGLogik": "DGLux5, DGLogik"
 }

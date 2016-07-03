@@ -297,7 +297,7 @@
   "Who has access": "من لديه حق الوصول",
   "Enter username": "أدخل اسم المستخدم",
   "Specific people": "أشخاص معينين",
-  "Anyone who has the link can view": "يمكن لأي شخص له صلة عرض",
+  "Anyone with the link": "أي شخص مع الرابط",
   "Sunday": "الأحد",
   "Monday": "الاثنين",
   "was saved": "تم حفظ",
@@ -724,6 +724,7 @@
   "Load All Nodes": "تحميل كافة العقد",
   "Expand All Nodes": "قم بتوسيع كافة العقد",
   "Show Loading Indicator": "إظهار مؤشر تحميل",
+  "Scroll Feedback:": "ردود فعل التمرير:",
   "Blacklist": "القائمة السوداء",
   "Whitelist": "البيضاء",
   "Multi-select": "تحديد متعدد",
@@ -754,7 +755,6 @@
   "Autosize Content": "تغيير تلقائي لحجم المحتوى",
   "Fit Ratio": "نسبة احتواء",
   "Fit": "تناسب",
-  "Scroll Feedback:": "ردود فعل التمرير:",
   "Center Point": "نقطة المركز",
   "Styled Maps Wizard": "معالج خرائط على غرار",
   "Roadmap": "خارطة الطريق",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "فقدت المصادقة أو الخادم أسفل.&lt;br&gt;يرجى احتياطية للملفات الخاصة بك مع File-&gt;Import(Ctrl+7)، وقم بتحديث المستعرض",
   "Connection Error": "خطأ في الاتصال",
   "New view": "عرض جديد",
+  "DSA Configurator by DGLogik": "بدل الإقامة اليومي مكون من دجلوجيك",
+  "Remote Dataflow Editor by DGLogik": "محرر تدفق البيانات البعيد قبل دجلوجيك",
   "DGLux5 by DGLogik": "DGLux5 من دجلوجيك"
 }

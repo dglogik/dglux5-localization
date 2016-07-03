@@ -297,7 +297,7 @@
   "Who has access": "アクセス権を持つ",
   "Enter username": "ユーザー名を入力してください。",
   "Specific people": "特定の人",
-  "Anyone who has the link can view": "リンクを持っている人を見ることができます。",
+  "Anyone with the link": "リンクを知っている全員",
   "Sunday": "日曜日",
   "Monday": "月曜日",
   "was saved": "保存されました。",
@@ -724,6 +724,7 @@
   "Load All Nodes": "すべてのノードを読み込む",
   "Expand All Nodes": "全ノードを展開します。",
   "Show Loading Indicator": "インジケーターを読み込み表示します。",
+  "Scroll Feedback:": "スクロールのフィードバック:",
   "Blacklist": "ブラック リスト",
   "Whitelist": "ホワイト リスト",
   "Multi-select": "複数選択",
@@ -754,7 +755,6 @@
   "Autosize Content": "Autosize コンテンツ",
   "Fit Ratio": "フィットの比",
   "Fit": "フィット",
-  "Scroll Feedback:": "スクロールのフィードバック:",
   "Center Point": "センター ポイント",
   "Styled Maps Wizard": "スタイル マップ ウィザード",
   "Roadmap": "ロードマップ",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "認証を失った、またはサーバーがダウンしています。&lt;br&gt;ファイル File-&gt;Import(Ctrl+7) をバックアップ ブラウザーを更新してください。",
   "Connection Error": "接続エラー",
   "New view": "新しいビュー",
+  "DSA Configurator by DGLogik": "DGLogik による DSA コンフィギュレーター",
+  "Remote Dataflow Editor by DGLogik": "DGLogik でリモート データ フロー エディター",
   "DGLux5 by DGLogik": "DGLogik による DGLux5"
 }

@@ -297,7 +297,7 @@
   "Who has access": "Siapa mempunyai capaian",
   "Enter username": "Masukkan nama pengguna",
   "Specific people": "Orang-orang tertentu",
-  "Anyone who has the link can view": "Sesiapa sahaja yang mempunyai pautan boleh melihat",
+  "Anyone with the link": "Sesiapa yang mempunyai pautan",
   "Sunday": "Hari Ahad",
   "Monday": "Hari Isnin",
   "was saved": "telah disimpan",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Memuatkan semua nod",
   "Expand All Nodes": "Mengembangkan semua nod",
   "Show Loading Indicator": "Menunjukkan memuatkan penunjuk",
+  "Scroll Feedback:": "Skrol maklumbalas:",
   "Blacklist": "Senarai hitam",
   "Whitelist": "Senarai putih",
   "Multi-select": "Pilih berbilang",
@@ -754,7 +755,6 @@
   "Autosize Content": "Kandungan Autosize",
   "Fit Ratio": "Nisbah yang sesuai",
   "Fit": "Patut",
-  "Scroll Feedback:": "Skrol maklumbalas:",
   "Center Point": "Titik Pusat",
   "Styled Maps Wizard": "Pendeta Peta bergaya",
   "Roadmap": "Pelan hala tuju",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Pengesahan hilang atau pelayan yang turun.&lt;br&gt;Sila Sandarkan fail anda dengan File-&gt;Import(Ctrl+7) dan segarkan semula pelayar",
   "Connection Error": "Ralat sambungan",
   "New view": "Pandangan baru",
+  "DSA Configurator by DGLogik": "DSA Configurator oleh DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Editor jauh Dataflow oleh DGLogik",
   "DGLux5 by DGLogik": "DGLux5 oleh DGLogik"
 }

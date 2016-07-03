@@ -297,7 +297,7 @@
   "Who has access": "Kenellä on oikeus",
   "Enter username": "Anna käyttäjätunnus",
   "Specific people": "Tietyille henkilöille",
-  "Anyone who has the link can view": "Joku on linkki Katso",
+  "Anyone with the link": "Kaikki joilla on linkki",
   "Sunday": "Sunnuntai",
   "Monday": "Maanantai",
   "was saved": "tallennettiin",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Ladata kaikki solmut",
   "Expand All Nodes": "Laajenna kaikki solmut",
   "Show Loading Indicator": "Näytä lastaus ilmaisin",
+  "Scroll Feedback:": "Siirry Palaute:",
   "Blacklist": "Musta lista",
   "Whitelist": "Whitelist",
   "Multi-select": "Usean kohteen valinta",
@@ -754,7 +755,6 @@
   "Autosize Content": "Muuta sisältöä",
   "Fit Ratio": "Fit suhde",
   "Fit": "Sovi",
-  "Scroll Feedback:": "Siirry Palaute:",
   "Center Point": "Keskipiste",
   "Styled Maps Wizard": "Tyylistä kartat Ohjattu",
   "Roadmap": "Tiekartta",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "Todennus hävisi tai palvelin ei ole käytettävissä.&lt;br&gt;Taaksepäin sinun arkistoida File-&gt;Import(Ctrl+7) ja Päivitä selain",
   "Connection Error": "Yhteysvirhe",
   "New view": "Uusi näkymä",
+  "DSA Configurator by DGLogik": "DSA Configurator by DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Kauko Dataflow Editor by DGLogik",
   "DGLux5 by DGLogik": "DGLux5 DGLogik"
 }

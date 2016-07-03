@@ -297,7 +297,7 @@
   "Who has access": "कौन पहुँच गया",
   "Enter username": "उपयोगकर्ता नाम दर्ज करें",
   "Specific people": "विशिष्ट लोगों",
-  "Anyone who has the link can view": "किसी को भी जो लिंक है देख सकते हैं",
+  "Anyone with the link": "किसी लिंक के साथ",
   "Sunday": "रविवार",
   "Monday": "सोमवार",
   "was saved": "सहेजा गया था",
@@ -724,6 +724,7 @@
   "Load All Nodes": "सभी नोड्स लोड",
   "Expand All Nodes": "सभी नोड्स का विस्तार करें",
   "Show Loading Indicator": "लोड कर रहा है सूचक दिखाएँ",
+  "Scroll Feedback:": "स्क्रॉल प्रतिक्रिया:",
   "Blacklist": "काला सूची में डालना",
   "Whitelist": "श्वेत सूची",
   "Multi-select": "बहु-चयन",
@@ -754,7 +755,6 @@
   "Autosize Content": "स्वत: आकार सामग्री",
   "Fit Ratio": "फिट अनुपात",
   "Fit": "फिट",
-  "Scroll Feedback:": "स्क्रॉल प्रतिक्रिया:",
   "Center Point": "केंद्र बिंदु",
   "Styled Maps Wizard": "स्टाइल मैप्स विज़ार्ड",
   "Roadmap": "रोडमैप",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "प्रमाणीकरण खो दिया है या सर्वर के नीचे है।&lt;br&gt;कृपया बैकअप File-&gt;Import(Ctrl+7) के साथ अपनी फ़ाइलें और ब्राउज़र को ताज़ा करें",
   "Connection Error": "कनेक्शन त्रुटि",
   "New view": "नया दृश्य",
+  "DSA Configurator by DGLogik": "डीएसए Configurator DGLogik द्वारा",
+  "Remote Dataflow Editor by DGLogik": "DGLogik द्वारा दूरस्थ Dataflow संपादक",
   "DGLux5 by DGLogik": "DGLux5 DGLogik द्वारा"
 }

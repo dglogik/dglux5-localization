@@ -297,7 +297,7 @@
   "Who has access": "Ki moun ki gen aksè",
   "Enter username": "Antre D'",
   "Specific people": "Yon moun",
-  "Anyone who has the link can view": "Si yon moun ki gen lyen kapab wè",
+  "Anyone with the link": "Si yon moun ak lyen",
   "Sunday": "dimanch",
   "Monday": "lendi",
   "was saved": "te sove",
@@ -724,6 +724,7 @@
   "Load All Nodes": "Chajman Noeuds tout",
   "Expand All Nodes": "Pran estansyon Noeuds tout",
   "Show Loading Indicator": "Montre chaje endikatè",
+  "Scroll Feedback:": "Ki gen Commentaires:",
   "Blacklist": "Pour",
   "Whitelist": "D'",
   "Multi-select": "Sélectionnez divès",
@@ -754,7 +755,6 @@
   "Autosize Content": "Contenu Autosize",
   "Fit Ratio": "Rapò anfòm",
   "Fit": "Anfòm",
-  "Scroll Feedback:": "Ki gen Commentaires:",
   "Center Point": "Center Point",
   "Styled Maps Wizard": "Kat jeyografi defans sòsye",
   "Roadmap": "Plan",
@@ -1454,5 +1454,7 @@
   "Authentication lost or server is down.<br>Please backup your files with File->Import(Ctrl+7) and refresh browser": "L' pèdi ou sèvè desann.&lt;br&gt;Souple sauvegarde fichiers ou ak File-&gt;Import(Ctrl+7) Et rafrechi browser",
   "Connection Error": "Erreur koneksyon",
   "New view": "Nouvo view",
+  "DSA Configurator by DGLogik": "Du DSA pa DGLogik",
+  "Remote Dataflow Editor by DGLogik": "Editè elwaye Dataflow pa DGLogik",
   "DGLux5 by DGLogik": "DGLux5 pa DGLogik"
 }
