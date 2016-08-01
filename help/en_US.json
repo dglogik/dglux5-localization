@@ -1710,7 +1710,7 @@
   ],
   "clickThrough": [
     "Click Through",
-    ""
+    "<p>Determines whether mouse interactions are permitted on objects that are behind this object.</p><p>To make an object that is behind other objects accessible to mouse interactions, you must set <strong>clickThrough</strong> to TRUE on objects that are in front of it.</p><p><strong>TRUE</strong><br />Mouse interactions, such as clicking and hovering, are not permitted on this object and are permitted on objects behind it.</p><p><strong>FALSE</strong><br />Mouse interactions, such as clicking and hovering, are permitted on this object and are not permitted on objects behind it. This is the default value.</p><p>Regardless of the value of <strong>clickThrough</strong>, the <strong>Mouse Enabled</strong> property must be TRUE in order for any object to respond to mouse interactions.</p>"
   ],
   "mouseEnabled": [
     "Mouse Enabled",
