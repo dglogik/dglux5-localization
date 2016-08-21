@@ -282,7 +282,7 @@
   "Project wasn't created: ": "Проект не был создан: ",
   "Server error": "Ошибка сервера",
   "NAME": "ИМЯ",
-  "ID": "ID",
+  "ID": "ИДЕНТИФИКАТОР",
   "OWNER": "ВЛАДЕЛЕЦ",
   "DATE CREATED": "ДАТА СОЗДАНИЯ",
   "DATE MODIFIED": "ДАТА ИЗМЕНЕНИЯ",
