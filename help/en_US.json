@@ -5760,6 +5760,10 @@
     "output",
     "Returns the most recent error encountered by any of the blocks in the error group."
   ],
+  "makeObject.outputObj": [
+    "outputObj",
+    "Returns a JSON object that comprises the input key/value pairs."
+  ],
   "repeater.symbol": [
     "symbol",
     "Specifies the name of the dataflow symbol to repeat."
