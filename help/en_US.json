@@ -1192,11 +1192,11 @@
     "Selected Index",
     "<p>Sets or returns the index of the selected item in this container.</p><p>An index of 0 indicates the first item.</p><p>An index of −1 deselects all items.</p><p>If Multi-Select is enabled and multiple items are selected, comma-separated values are used.</p>"
   ],
-  "Tree.selectedItems": [
+  "divTree.selectedItems": [
     "Selected Items (Tree Component Only)",
     "<p>Sets or returns a comma-separated list of IDs of selected items in the tree. Only works if the tree's Selection Behavior is set to a value other than <strong>None</strong>. This property is not serializable, meaning that changes to this property are in effect only for the current session.</p><p>A value listed in this property is considered selected regardless of whether the specified node is loaded. However, a node that is selected in the tree will be automatically added to this property only when it is visible.</p><p>If a node with the specified ID exists in more than one table, the first node with this ID that is encountered is recognized.</p><p>To select and expand a node, and make it visible, use the <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home'>Select Node</a> property. However, <strong>Select Node</strong> works only with a single node.</p>"
   ],
-  "Tree.selectedItemsData": [
+  "divTree.selectedItemsData": [
     "Selected Items Data (Tree Component Only)",
     "Returns a read-only table describing items that are both selected and also displayed in the tree. If a node is selected but one of its ancestors is collapsed, that node is not displayed and is not included in the Selected Items Data table."
   ],
@@ -3372,79 +3372,79 @@
     "Grid.header Padding Right",
     ""
   ],
-  "Tree.data": [
+  "divTree.data": [
     "Table (Required)",
     "Defines the table that the tree uses as a data source. This table contains the top level of nodes and references to the next level of nodes, if they exist. This table must include a column that contains item IDs."
   ],
-  "Tree.itemIDColumn": [
+  "divTree.itemIDColumn": [
     "Item ID Column (Required)",
     "Contains the name of a column in this tree's source table. This column contains IDs for tree nodes. IDs must be unique within a given table."
   ],
-  "Tree.nameColumn": [
+  "divTree.nameColumn": [
     "Name Column (Recommended)",
     "Contains the name of a column in this tree's source table. This column contains names for tree nodes. If default tree styling is used, the items in this column are used as display text. If a symbol is used for the tree, and the symbol has a default property defined, the items in this column are used for that default property."
   ],
-  "Tree.hasChildrenColumn": [
+  "divTree.hasChildrenColumn": [
     "Has Children Column (Recommended)",
     "<p>Contains the name of a column in this tree's source table. This column indicates whether items in the tree have children and whether the disclosure icon is displayed. All values are considered TRUE except:<ul><li><code>false</code></li><li><code>False</code></li><li>a null value</li><li>any string that is parsed as 0</li></ul>If no column is set, the disclosure icon is always displayed, and an attempt can always be made to load children.</p>"
   ],
-  "Tree.symbol": [
+  "divTree.symbol": [
     "Symbol",
     "Optionally, this property can be used to specify a symbol to represent the tree nodes, instead of the default tree styling."
   ],
-  "Tree.dataSymbol": [
+  "divTree.dataSymbol": [
     "Data Symbol (Required)",
     "Specifies the name of the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:symbols_repeaters:home'>dataflow symbol</a> to be used by this tree. As described <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree:home'>here</a>, the dataflow symbol must include input and output <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one-row table and returns the child table that it refers to, if any."
   ],
-  "Tree.loadingTimeout": [
+  "divTree.loadingTimeout": [
     "Loading Timeout",
     "Specifies how long, in seconds, DGLux5 will attempt to load a child table before stopping the attempt."
   ],
-  "Tree.showRoot": [
+  "divTree.showRoot": [
     "Show Root",
     "<p>Specifies whether the data in the top-level table is displayed in the tree component. This property is TRUE by default.</p><p><strong>TRUE</strong><br />The tree component displays as its top level the nodes named in the table that is used as the <strong>Table</strong> property.</p><p><strong>FALSE</strong><br />The tree component displays as its top level the <em>children of the first row of</em> the table that is used as the <strong>Table</strong> property. The other rows from the top-level table are not displayed.</p>"
   ],
-  "Tree.maxDepth": [
+  "divTree.maxDepth": [
     "Max Depth",
     "An integer that specifies the maximum level of tree descendants that are allowed. A value of 0 allows an unlimited number of levels. A value of 1 allows only one level of nodes and does not allow any descendants to be loaded."
   ],
-  "Tree.loadAllNodes": [
+  "divTree.loadAllNodes": [
     "Load All Nodes",
     "<p>A boolean value that indicates whether to pre-load children for the tree. This value is FALSE by default.</p><p><strong>TRUE</strong><br />All children are loaded when the page is first loaded, when the data table is first set, or when this property becomes TRUE.</p><p><strong>FALSE</strong><br />Children of a node are loaded only when requested, for example when a user clicks the disclosure icon.</p>"
   ],
-  "Tree.expandAllNodes": [
+  "divTree.expandAllNodes": [
     "Expand All Nodes",
     "This property is visible only when <strong>Load All Nodes</strong> is TRUE. It determines whether to expand all nodes after they are loaded."
   ],
-  "Tree.showLoadingIndicator": [
+  "divTree.showLoadingIndicator": [
     "Show Loading Indicator",
     "Determines whether to disaply a visual signal when an attempt is being made to load tree nodes."
   ],
-  "Tree.selectNode": [
+  "divTree.selectNode": [
     "Select Node",
     "<p>A node ID that specifies a loaded node to select, expand, and make visible. Only works if the tree's <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:selection'>Selection Behavior</a> is set to a value other than <strong>None</strong>.</p><p>If the specified node is not loaded, this property does nothing. You can use this property together with the <strong>Load All Nodes</strong> property and the <strong>onAllNodesLoaded</strong> event property in the <a href='http://wiki.dglogik.com/dglux5_wiki:workspace_and_workflow:panels_and_menus:advanced_panel'>Advanced</a> properties, to ensure that all nodes are loaded before this property's value is set.</p><p>If a node with the specified ID exists in more than one table, then the first node with this ID that is encountered is used.</p><p>For selection of more than one node, use the <strong>Selected Items</strong> property in the <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:allcomponents:selection'>Selection properties</a>. However, <strong>Selected Items</strong> controls selection only, not which nodes are expanded.</p>"
   ],
-  "Tree.disclosureIconColor": [
+  "divTree.disclosureIconColor": [
     "Disclosure Icon Color",
     "A color to be used for the default \"expand\" and \"collapse,\" or \"open\" and \"close,\" icons for a node that has children and is not currently selected."
   ],
-  "Tree.disclosureIconSelColor": [
+  "divTree.disclosureIconSelColor": [
     "Disclosure Icon Selected Color",
     "A color to be used for the default \"expand\" and \"collapse,\" or \"open\" and \"close,\" icons for a node that has children and is currently selected. Only works if selection is enabled for this tree."
   ],
-  "Tree.openIcon": [
+  "divTree.openIcon": [
     "Open Icon",
     "An image to be used as the \"expand,\" or \"open,\" icon for a node that has children, is currently closed, and is not currently selected."
   ],
-  "Tree.openIconSel": [
+  "divTree.openIconSel": [
     "Open Icon Selected",
     "An image to be used as the \"expand,\" or \"open,\" icon for a node that has children, is currently closed, and is currently selected. Only works if selection is enabled for this tree."
   ],
-  "Tree.closeIcon": [
+  "divTree.closeIcon": [
     "Close Icon",
     "An image to be used as the \"collapse,\" or \"close,\" icon for a node that has children, is currently open, and is not currently selected."
   ],
-  "Tree.closeIconSel": [
+  "divTree.closeIconSel": [
     "Close Icon Selected",
     "An image to be used as the \"collapse,\" or \"close,\" icon for a node that has children, is currently open, and is currently selected. Only works if selection is enabled for this tree."
   ],
