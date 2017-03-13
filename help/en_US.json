@@ -5348,6 +5348,10 @@
     "autoRun",
     "<p>Specifies whether the script runs automatically.</p><p><strong>TRUE</strong><br/>The script runs every time the script is changed, and every time any property is changed. This includes the first time that the script is initialized.</p><p><strong>FALSE</strong><br/>The script runs only when the <strong>invoke</strong> property is triggered.</p>"
   ],
+  "script.qosMode": [
+    "qosMode",
+    "<p>Specifies whether the script runs as soon as it's invoked.</p><p><strong>FALSE</strong><br/>The script waits for other blocks in the queue to finish their logic before it runs, no matter how many times the script is triggerd before it's run, it will only run once.</p><p><strong>TRUE</strong><br/>The script runs instantly when script is invoked, and it won't wait for other blocks in the queue to finish their logic. This allows the script to handle every invoke and never skip data update.</p><p>Besides invoke, if there are other bindings to the script block, they might not always be updated by the time script is run</p><p>When the output of a streaming mode repeater is bound to the script's invoke, the script's qosMode needs to be true, otherwise it might lose the update comes from repeater.</p>"
+  ],
   "script.script": [
     "script",
     "Specifies the instance of DGScript held by this block. See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a> for more information about creating a script."
