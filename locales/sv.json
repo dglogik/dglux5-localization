@@ -988,7 +988,7 @@
   "Create Symbol": "Skapa Symbol",
   "You have read-only access to Symbol ": "Du har skrivskyddad åtkomst till Symbol ",
   "This Symbol is from another dg5,\\ncontinue anyway?": "Denna Symbol är från en annan dg5, \\ncontinue ändå?",
-  "Incorrect symbol path or name \"": "Felaktiga symbolsökväg eller namn\"",
+  "Incorrect symbol path or name \"": "Felaktiga symbolsökväg eller namn ”",
   "Insert": "Infoga",
   "Bind": "Binda",
   "Bring Forward": "Tidigarelägga",
