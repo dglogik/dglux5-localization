@@ -1255,6 +1255,7 @@
   "LOG2E": "LOG2E",
   "LOG10E": "LOG10E",
   "NAN": "NAN",
+  "Long Data": "Données de type long",
   "Extrude": "Extruder",
   "Circle": "Cercle",
   "Butt": "Bout à bout",
