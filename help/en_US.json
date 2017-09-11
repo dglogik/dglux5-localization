@@ -317,7 +317,7 @@
     ],
     "axis.formatString": [
         "Format String",
-        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". [See ]<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>More information</a>]"
+        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>More information</a>)"
     ],
     "axis.inverted": [
         "Inverted",
@@ -406,18 +406,6 @@
     "bool.value": [
         "value",
         "Sets and returns the value of this Boolean block."
-    ],
-    "boolEditor.FALSELabel": [
-        "FALSE Label",
-        ""
-    ],
-    "boolEditor.placeLabelRight": [
-        "Place Label Right",
-        ""
-    ],
-    "boolEditor.TRUELabel": [
-        "TRUE Label",
-        ""
     ],
     "border": [
         "Border",
@@ -597,7 +585,7 @@
     ],
     "calendar.highlightedDays": [
         "Highlighted Days",
-        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a>."
+        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>)."
     ],
     "calendar.nextArrowSymbol": [
         "Next Button Glyph",
@@ -745,7 +733,7 @@
     ],
     "case.else": [
         "else",
-        "Specifies the result value to return if none of the expressions evaluates to TRUE."
+        "Specifies the result value to return if none of the expressions evaluates to TRUE. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case'>More information</a>)"
     ],
     "case.input": [
         "input",
@@ -859,6 +847,10 @@
         "Datalist",
         "<p>Specifies the predefined colors in this color input component. Predefined colors are not supported in all browsers. Regardless of whether the predefined list is supported, the user can still enter a custom value. To edit a color in the Property Inspector, click it. Colors are displayed in order in this color input component, with the top color appearing first."
     ],
+    "colorFormInput.open": [
+        "Open",
+        "Trigger to open color input dialog."
+    ],    
     "columnSeries.dgOffset": [
         "Column Series Offset",
         "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart. For example, an offset of &minus;0.1 moves the columns to the left by 10% of this maximum width, and an offset of 0.1 moves the columns to the right by 10% of this maximum width. This property is related to the <strong>Column Width Ratio</strong> property for the chart. The <strong>Column Width Ratio</strong> determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong>: The <strong>Column Width Ratio</strong> is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
@@ -1205,7 +1197,7 @@
     ],
     "datagrid.sortColumn": [
         "Sort Column",
-        "Specifies the name of the column by which to sort the data. Only works if the column has the <strong>Sortable</strong> property enabled."
+        "Specifies the name of the column by which to sort the data. The column must have its the <strong>Sortable</strong> property enabled."
     ],
     "datagrid.sortOrder": [
         "Sort Order",
@@ -1629,7 +1621,7 @@
     ],
     "dateFormat.format": [
         "format",
-        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
+        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format'>More information)</a>"
     ],
     "dateFormat.input": [
         "input",
@@ -1638,6 +1630,10 @@
     "dateFormat.output": [
         "output",
         "Returns a DateTime string created from the specified input string and format."
+    ],
+    "dateFormat.timezone": [
+        "Time Zone",
+        "Time zone for the format."
     ],
     "dateFormInput.inputType": [
         "Input Type",
@@ -1693,7 +1689,7 @@
     ],
     "daterange.format": [
         "Date Format String",
-        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a>."
+        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range'>More information</a>)."
     ],
     "dateRange.format": [
         "format",
@@ -1705,7 +1701,7 @@
     ],
     "dateRange.formatted": [
         "formatted",
-        "Returns the range, formatted according to the <strong>format</strong>, <strong>rangeDelimiter</strong>, and <strong>keepSpecial</strong> properties."
+        "Returns the range, formatted according to the <strong>format</strong>, <strong>rangeDelimiter</strong>, and <strong>keepSpecial</strong> properties. (<a href=''>More information)</a>"
     ],
     "daterange.input": [
         "Value",
@@ -1763,6 +1759,10 @@
         "rangeDelimiter",
         "Specifies the string used to delimit the beginning of the range and the end of the range."
     ],
+    "dateRange.refresh": [
+        "Refresh",
+        "Trigger to update output."
+    ],    
     "daterange.thisRange": [
         "This Value",
         "Returns the currently selected date range."
@@ -1770,6 +1770,10 @@
     "dateRange.thisRange": [
         "thisRange",
         "Returns the currently selected range in <strong>input</strong>."
+    ],
+    "dateRange.timezone": [
+        "Time Zone",
+        "Time zone for the range."
     ],
     "daterangePicker.buttonBackground": [
         "Button Background",
@@ -1861,7 +1865,7 @@
     ],
     "datetime.year": [
         "year",
-        "Specifies the year. Can include one to four digits."
+        "Specifies the year."
     ],
     "datetimeAxis.alignLabelsToUnits": [
         "Align Labels To Units",
@@ -1885,7 +1889,7 @@
     ],
     "datetimeAxis.dgLabelUnits": [
         "Label Units",
-        ""
+        "The units that the axis uses to generate labels."
     ],
     "datetimeAxis.leftRightLabelThreshold": [
         "Left Right Label Threshold",
@@ -1906,10 +1910,6 @@
     "dbQuery.enabled": [
         "enabled",
         "<p>Specifies whether the query block is enabled.</p><p><strong>TRUE</strong>: The query runs when this block is invoked.</p><p><strong>FALSE</strong>: Nothing happens when this block is invoked.</p>"
-    ],
-    "dbQuery.error": [
-        "error",
-        "Returns the error message, if any."
     ],
     "dbQuery.interval": [
         "interval",
@@ -1947,6 +1947,14 @@
         "Default",
         "Default value for mapping"
     ],
+    "delay.0": [
+        "input",
+        "The value to be output after the delay period expires."
+    ],
+    "delay.1": [
+        "output",
+        "The value that was delivered when the delay period expired."
+    ],
     "delay.delay": [
         "delay",
         "Sets the length of the delay, in seconds."
@@ -1971,10 +1979,6 @@
         "Deselect Child On Click",
         "If the container's selection mode is single&minus;select, this property enables the user to deselect a selected item by single&minus;clicking it."
     ],
-    "deviceId": [
-        "Device Id",
-        ""
-    ],
     "dgAutoAdjust": [
         "Auto Adjust",
         "Specifies whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
@@ -1998,7 +2002,7 @@
     "dgTimeFormInput.daypartOptionBackground": [
         "List Background",
         "Color for AM&minus;PM dropdown list background."
-    ],
+    ],    
     "dgTimeFormInput.focusBackgroundColor": [
         "Focus Background Color",
         "Background color when subelement has focus."
@@ -2014,6 +2018,14 @@
     "dgTimeFormInput.OptionColor": [
         "Option Color",
         "Text color for AM&minus;PM dropdown list."
+    ],
+        "dgTimeFormInput.showClearButton": [
+        "Show Clear Button",
+        "Show or hide Clear button."
+    ],
+    "dgTimeFormInput.showStepperButton": [
+        "Show Stepper Button",
+        "Show or hide stepper buttons."
     ],
     "display": [
         "Display",
@@ -2119,6 +2131,234 @@
         "Symbol",
         "Optionally, this property can be used to specify a symbol to represent the tree nodes, instead of the default tree styling."
     ],
+    "divTreeGrid.columnFilter": [
+        "Column Filter",
+        "Specifies the columns for a filter, as a comma&minus;separated list of table column names. Use the <strong>Filter Type</strong> property to specify whether these columns are shown or hidden. The order of columns in a whitelist filter overrides the column order in the Outline and the source table."
+    ],
+    "divTreeGrid.columnFilterType": [
+        "Column Filter Type",
+        "<p>Specifies how this filter handles the listed columns.</p><p><strong>Whitelist</strong>: Only the listed columns are shown in this data grid. Columns appear in the order specified in the filter.</p><p><strong>Blacklist</strong>: The listed columns are hidden from this data grid.</p>"
+    ],
+    "divTreeGrid.dataSymbol": [
+        "Dataflow Symbol",
+        "Specifies the name of the dataflow symbol to be used by this tree. The dataflow symbol must include input and output <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one&minus;row table and returns the child table that it refers to, if any."
+    ],
+    "divTreeGrid.sortColumn": [
+        "Sort Column",
+        "Specifies the name of the column by which to sort the data. The column must have its the <strong>Sortable</strong> property enabled."
+    ],
+    "divTreeGrid.sortOrder": [
+        "Sort Order",
+        "Specifies whether the data is sorted in ascending or descending order."
+    ],
+    "datagridRows.cellPadding": [
+        "Grid.cell Padding",
+        "Specifies the amount of padding around the contents of data cells."
+    ],
+    "datagridRows.defaultCellFontColor": [
+        "Grid.default Cell Font Color",
+        "Specifies the default color for cell text."
+    ],
+    "datagridRows.defaultCellFontFamily": [
+        "Grid.default Cell Font Family",
+        "Specifies the default font for cell text."
+    ],
+    "datagridRows.defaultCellFontSize": [
+        "Grid.default Cell Font Size",
+        "Specifies the default font size for cell text."
+    ],
+    "datagridRows.defaultCellFontStyle": [
+        "Grid.default Cell Font Style",
+        "Specifies whether cell text is italic or normal."
+    ],
+    "datagridRows.defaultCellFontWeight": [
+        "Grid.default Cell Font Weight",
+        "Specifies whether cell text is bold or normal."
+    ],
+    "datagridRows.defaultCellKeepEqualPaddings": [
+        "Grid.default Cell Keep Equal Paddings",
+        "Specifies whether the amount of padding around cell text is the same."
+    ],
+    "datagridRows.defaultCellPaddingBottom": [
+        "Grid.default Cell Padding Bottom",
+        "Specifies the amount of padding below cell text."
+    ],
+    "datagridRows.defaultCellPaddingLeft": [
+        "Grid.default Cell Padding Left",
+        "Specifies the amount of padding to the left of cell text."
+    ],
+    "datagridRows.defaultCellPaddingRight": [
+        "Grid.default Cell Padding Right",
+        "Specifies the amount of padding to the right of cell text."
+    ],
+    "datagridRows.defaultCellPaddingTop": [
+        "Grid.default Cell Padding Top",
+        "Specifies the amount of padding above cell text."
+    ],
+    "datagridRows.grid.defaultCellAlign": [
+        "Rows Horizontal Alignment",
+        "Specifies whether the content in the rows is left&minus;justified, centered, or right&minus;justified."
+    ],
+    "datagridRows.grid.defaultCellClipContent": [
+        "Clip Content",
+        "<p>Specifies the handling of content that overflows this cell.</p><p><strong>TRUE</strong>: All overflowed content is clipped and is not visible.</p><p><strong>FALSE</strong>: All overflowed content is visible and responds to mouse events.</p>"
+    ],
+    "datagridRows.grid.defaultCellFontColor": [
+        "Main Row Font Color",
+        "Specifies the font color for the first group of alternating rows."
+    ],
+    "datagridRows.grid.defaultCellFontColorAlt": [
+        "Alternate Row Font Color",
+        "Specifies the font color for the second group of alternating rows."
+    ],
+    "datagridRows.grid.defaultCellFontColorFocus": [
+        "Focused Row Font Color",
+        "Specifies the font color for the row in the data grid that is in focus. When the user mouses over the row, the hovered row properties override the focused row properties."
+    ],
+    "datagridRows.grid.defaultCellFontColorHover": [
+        "Hovered Row Font Color",
+        "Specifies the font color for the row that the user mouses over."
+    ],
+    "datagridRows.grid.defaultCellFontColorSelect": [
+        "Selected Row Font Color",
+        "Specifies the font color for selected rows. Only works when selection is enabled for the data grid."
+    ],
+    "datagridRows.grid.defaultCellFontFamily": [
+        "Rows Font",
+        "Specifies the font color for this component."
+    ],
+    "datagridRows.grid.defaultCellFontSize": [
+        "Rows Font Size",
+        "Specifies the font size for this component."
+    ],
+    "datagridRows.grid.defaultCellFontStyle": [
+        "Rows Font Italic",
+        "Specifies whether the text in this component is italic."
+    ],
+    "datagridRows.grid.defaultCellFontWeight": [
+        "Rows Font Bold",
+        "Specifies whether the text in this component is bold."
+    ],
+    "datagridRows.grid.defaultCellKeepEqualPaddings": [
+        "Link Paddings",
+        "Links all four padding editors so that their values are equal."
+    ],
+    "datagridRows.grid.defaultCellPaddingBottom": [
+        "Rows Bottom Padding",
+        "Specifies a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
+    ],
+    "datagridRows.grid.defaultCellPaddingLeft": [
+        "Rows Left Padding",
+        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
+    ],
+    "datagridRows.grid.defaultCellPaddingRight": [
+        "Rows Right Padding",
+        "Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
+    ],
+    "datagridRows.grid.defaultCellPaddingTop": [
+        "Rows Top Padding",
+        "Specifies a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
+    ],
+    "datagridRows.grid.defaultCellVerticalAlign": [
+        "Rows Vertical Alignment",
+        "Specifies whether the content in the rows is positioned at the top, middle, or bottom of the container."
+    ],
+    "datagridRows.grid.gridMode": [
+        "Gridlines",
+        "Specifies whether the Property Inspector displays property editing options for horizontal gridlines, vertical gridlines, or both. Changing this property does not reset any gridline properties."
+    ],
+    "datagridRows.grid.hGridColor": [
+        "Horizontal Gridline Stroke Color",
+        "Specifies the stroke color for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
+    ],
+    "datagridRows.grid.hGridStroke": [
+        "Horizontal Gridline Stroke Style",
+        "Specifies the stroke style for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
+    ],
+    "datagridRows.grid.hGridWidth": [
+        "Horizontal Gridline Stroke Weight",
+        "Specifies the stroke weight for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
+    ],
+    "datagridRows.grid.rowHeight": [
+        "Row Height",
+        "Specifies the height in pixels of each data grid row."
+    ],
+    "datagridRows.grid.vGridColor": [
+        "Vertical Gridline Stroke Color",
+        "Specifies the stroke color for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties."
+    ],
+    "datagridRows.grid.vGridStroke": [
+        "Vertical Gridline Stroke Style",
+        "Specifies the stroke style for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties."
+    ],
+    "datagridRows.grid.vGridWidth": [
+        "Vertical Gridline Stroke Weight",
+        "Specifies the stroke weight for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties. "
+    ],   
+    "dateFromInput.arrowColor": [
+        "Arrow Color",
+        "Color of the dropdown arrow (works only in Chrome)."
+    ],   
+    "dateFromInput.arrowImage": [
+        "Arrow Image",
+        "Image to replace default dropdown arrow (works only in Chrome)."
+    ],       
+    "dateFromInput.arrowOpacity": [
+        "Arrow Opacity",
+        "Opacity of the dropdown arrow (works only in Chrome)."
+    ],   
+    "deviceMotion.accelerationGX": [
+        "Acceleration GX",
+        "Sum of the acceleration of the device on the X (west to east) axis as induced by the user and by gravity."
+    ],  
+    "deviceMotion.accelerationGY": [
+        "Acceleration GY",
+        "Sum of the acceleration of the device on the Y (south to north) axis as induced by the user and by gravity."
+    ],  
+    "deviceMotion.accelerationGZ": [
+        "Acceleration GZ",
+        "Sum of the acceleration of the device on the Z (down to up) axis as induced by the user and by gravity."
+    ],  
+    "deviceMotion.accelerationX": [
+        "Acceleration X",
+        "Acceleration of the device on the X (west to east) axis as induced by the user and by gravity, in meters per second squared."
+    ],  
+    "deviceMotion.accelerationY": [
+        "Acceleration Y",
+        "Acceleration of the device on the Y (south to north)axis as induced by the user and by gravity, in meters per second squared."
+    ],  
+    "deviceMotion.accelerationZ": [
+        "Acceleration Z",
+        "Acceleration of the device on the Z (down to up) axis as induced by the user and by gravity, in meters per second squared."
+    ],  
+    "deviceMotion.rotationAlpha": [
+        "Rotation Alpha",
+        "The rate at which the device is rotating about its Z axis (a line perpendicular to the screen). "
+    ],  
+    "deviceMotion.rotationBeta": [
+        "Rotation Beta",
+        "The rate at which the device is rotating about its X axis (front to back). "
+    ],  
+    "deviceMotion.rotationGamma": [
+        "Rotation Gamma",
+        "The rate at which the device is rotating about its Y axis (side to side). "
+    ],  
+    "deviceOrientation.alpha": [
+        "Alpha",
+        "The motion of the device around the Z axis, in degrees (0 - 360)."
+    ],  
+    "deviceOrientation.beta": [
+        "Beta",
+        "The motion of the device around the X axis, in degrees (-180 to 180)."
+    ],      
+    "deviceOrientation.compassHeading": [
+        "Compass Heading",
+        "On iOS devices, the direction in degrees relative to magnetic north. On other devices, same as alpha."
+    ],  
+    "deviceOrientation.gamma": [
+        "Gamma",
+        "The motion of the device around the Y axis, in degrees (-90 to 90)."
+    ],      
     "divTreeItemModel.indent": [
         "Indent",
         "Specifies the number of pixels by which each level in the tree is indented. If an image is specified for the <strong>Open Item Icon</strong> and <strong>Close Item Icon</strong> properties, then <strong>Indent</strong> also controls the width of this image."
@@ -2253,7 +2493,7 @@
     ],
     "dragPosition.percents": [
         "percents",
-        "Determines whether the <strong>boundsLeft</strong>, <strong>boundsTop</strong>, <strong>boundsRight</strong>, and <strong>boundsBottom</strong> properties are pixel values or percent values."
+        "Determines whether the <strong>boundsLeft</strong>, <strong>boundsTop</strong>, <strong>boundsRight</strong>, and <strong>boundsBottom</strong> properties are pixel values or percent values. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position'>More information</a>)"
     ],
     "dragSize.dragEnd": [
         "dragEnd",
@@ -2327,6 +2567,30 @@
         "Droppable",
         "Enabled if the component can be dropped by the user."
     ],
+    "dsaConnection.linkName ": [
+        "Link Name",
+        "Name of DSLink to connect to."
+    ],
+    "dsaConnection.output ": [
+        "Output",
+        ""
+    ],
+    "dsaConnection.password ": [
+        "Password",
+        "Password to be used to connect."
+    ],
+    "dsaConnection.serviceID ": [
+        "Service ID",
+        ""
+    ],
+    "dsaConnection.token ": [
+        "Link Name",
+        "Token to use for connection."
+    ],
+    "dsaConnection.username ": [
+        "Link Name",
+        "User name to use for connection."
+    ],
     "duration": [
         "Duration",
         "Specifies the duration of the animation in seconds."
@@ -2371,21 +2635,13 @@
         "enableOutput",
         "Enable population of the repeater output table."
     ],
-    "enumLabels": [
-        "Enum Labels",
-        ""
-    ],
-    "enums": [
-        "Enums",
-        ""
-    ],
     "error": [
         "Error",
         "Returns the error message, if any."
     ],
     "event": [
         "Event",
-        ""
+        "The event that triggers the block."
     ],
     "eventGate.0": [
         "input n",
@@ -2413,19 +2669,23 @@
     ],
     "exportHtml.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded."
+        "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
     ],
     "exportHtml.format": [
         "format",
-        "Specifies the file format to download. Select <strong>HTML</strong> for this property."
+        "Specifies the file format to download. Select <strong>HTML</strong> for this property. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
+    ],
+    "exportHtml.inlineStyles": [
+        "Inline Styles",
+        "To include styles inline in exported HTML, set to TRUE."
     ],
     "exportHtml.invoke": [
         "invoke",
-        "Causes the file to be exported. Only works when <strong>enabled</strong> is set to TRUE."
+        "Exports the HTML file. Only works when <strong>enabled</strong> is set to TRUE."
     ],
     "exportHtml.output": [
         "output",
-        "Returns the contents of the exported file, if no filename is defined."
+        "Returns the contents of the exported file, if no filename is specified."
     ],
     "exportHtml.pdfSize": [
         "Size",
@@ -2441,7 +2701,7 @@
     ],
     "exportPaginatedPDF.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the PDF contents are returned as a string in <strong>output</strong> and are not downloaded."
+        "Specifies a name for the exported file. If blank, the PDF contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf'>More information)</a>"
     ],
     "exportPaginatedPDF.invoke": [
         "invoke",
@@ -2494,6 +2754,10 @@
     "fileFormInput.file": [
         "File Content",
         "Displays the content of the selected file as a string or binary."
+    ],
+    "fileFormInput.multiple": [
+        "Multiple Files",
+        "Enble selection of multiple files using CTRL-click or Shift-click."
     ],
     "fileFormInput.open": [
         "Open",
@@ -2687,21 +2951,21 @@
         "Formatted",
         ""
     ],
-    "frameMsgBroadcaster.messageGroup": [
-        "messageGroup",
-        ""
-    ],
-    "frameMsgReceiver.messageGroups": [
-        "messageGroups",
-        ""
-    ],
-    "frameMsgReceiver.onMessage": [
-        "onMessage",
-        ""
+    "geoLocation.altitude": [
+        "Altitude",
+        "Returns a double representing the position's altitude in meters, relative to sea level, or null if the implementation cannot provide the data."
     ],
     "geoLocation.enabled": [
         "enabled",
         "Specifies whether the block is currently collecting location data."
+    ],
+    "geoLocation.heading": [
+        "Heading",
+        "Returns the direction specified as the number of degrees from true north."
+    ],
+    "geoLocation.highAccuracy": [
+        "High Accuracy",
+        "When enabled, specifies that the sender is to return the highest-accuracy results possible. Note that enabling this option might increase the workload of the sender."
     ],
     "geoLocation.latitude": [
         "latitude",
@@ -2710,6 +2974,14 @@
     "geoLocation.longitude": [
         "longitude",
         "Returns the longitude of the user."
+    ],
+    "geoLocation.speed": [
+        "Speed",
+        "Speed in meters per second, or null if the implementation cannot provide the data."
+    ],
+    "geoLocation.timestamp": [
+        "Timestamp",
+        "A DOMTimeStamp object specifying the creation time of the Position object with millisecond precision."
     ],
     "getChildren.output": [
         "output",
@@ -2734,10 +3006,6 @@
     "getNode.enum": [
         "enum",
         "Returns the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\"."
-    ],
-    "getNode.error": [
-        "error",
-        "Returns the error string, if applicable."
     ],
     "getNode.hasChildren": [
         "hasChildren",
@@ -2769,7 +3037,7 @@
     ],
     "getNode.unit": [
         "unit",
-        "Returns the units of the node, if applicable."
+        "Returns the units of the node, if applicable. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node'>More information</a>)"
     ],
     "getViewProperty.field": [
         "field",
@@ -3129,7 +3397,7 @@
     ],
     "if.else": [
         "else",
-        "Specifies the value to return if the expression evaluates to FALSE. To display the word FALSE, use the logical value FALSE for this parameter. <strong>else</strong> can be an input from another block or set of blocks, including formulas."
+        "Specifies the value to return if the expression evaluates to FALSE. To display the word FALSE, use the logical value FALSE for this parameter. <strong>else</strong> can be an input from another block or set of blocks, including formulas. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if'>More information)</a>"
     ],
     "if.op": [
         "op",
@@ -3173,7 +3441,7 @@
     ],
     "iframeMessage.key": [
         "key",
-        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message, in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message."
+        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message'>More information)</a>"
     ],
     "iframeMessage.loading": [
         "loading",
@@ -3187,13 +3455,9 @@
         "matchRegExp",
         "Specifies a regular expression that the message must match."
     ],
-    "iframeMessage.message": [
-        "message",
-        "Holds the message to send, if it is a JSON string. Use this property when sending a message from Solution Builder."
-    ],
     "iframeMessage.origin": [
         "origin",
-        ""
+        "The origin of the window posting the message. (<a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage'>More information)</a>"
     ],
     "iframeMessage.output": [
         "output",
@@ -3257,23 +3521,19 @@
     ],
     "invoke": [
         "Invoke",
-        ""
+        "Binds to the action that invokes the block."
     ],
     "invokeAction.action": [
         "Action",
-        ""
+        "Name of the data action to invoke"
     ],
     "invokeAction.bufferSize": [
         "Buffer Size",
-        ""
+        " Limits number of returned rows. When buffer size is set, the action operates in stream mode."
     ],
     "invokeAction.getTable": [
         "Get Table",
-        ""
-    ],
-    "isBorder": [
-        "Is Border",
-        ""
+        "True if action loads table."
     ],
     "isRepeaterMode": [
         "Is Repeater Mode",
@@ -3367,13 +3627,21 @@
         "a&mdash;z",
         "Set or return the values of properties that you can use in your script as needed."
     ],
+    "javascript.reload": [
+        "Reload",
+        "Triggers reloading of the specified JavaScript file."
+    ],
     "javascript.s": [
         "a&mdash;z",
         "Set or return the values of properties that you can use in your script as needed."
     ],
+    "javascript.scriptData": [
+        "Script Data",
+        "To load the script associated with this block, click <b>Load Scriot</b>. To edit the script, enlarge the field. "
+    ],
     "javascript.scriptPath": [
         "scriptPath",
-        "Specifies the path to the JavaScript file. It can be a file path relative to the root, or it can be some other URL. The file extension must be <code>.js</code>."
+        "Specifies the path to the JavaScript file as a file path relative to the root or a URL. The file extension must be <code>.js</code>."
     ],
     "javascript.t": [
         "a&mdash;z",
@@ -3431,6 +3699,10 @@
         "selector",
         "Specifies the location of the data in the JSON string to parse into a table."
     ],
+    "jsonParser.rawJsonFilter": [
+        "Raw Filter",
+        "Comma-separated list of children, or * to match all."
+    ],
     "jsonpLoader.autoRun": [
         "autoRun",
         "<p>Specifies whether the data is loaded automatically.</p><p><strong>TRUE</strong><br/>The data is loaded every time any property is changed. This includes the first time that the <strong>url</strong> property is populated.</p><p><strong>FALSE</strong><br/>The data is loaded only when the <strong>invoke</strong> property is triggered, or at the specified <strong>interval</strong>.</p>"
@@ -3453,7 +3725,7 @@
     ],
     "jsonpLoader.loading": [
         "loading",
-        "Returns whether the block is currently loading data."
+        "Returns TRUE if the block is currently loading data."
     ],
     "jsonpLoader.onComplete": [
         "onComplete",
@@ -3502,10 +3774,6 @@
     "keyboardEventData.ctrl": [
         "ctrl",
         "For an onKeyUp event, returns whether Ctrl is still being held, if it was held with the last key typed. For an OnKeyDown event, returns whether Ctrl was the last key down."
-    ],
-    "keyboardEventData.event": [
-        "event",
-        "Returns the name of the event type that triggers this block, such as onKeyDown."
     ],
     "keyboardEventData.filter": [
         "filter",
@@ -3581,7 +3849,7 @@
     ],
     "labelsMode": [
         "Labels Mode",
-        ""
+        "Determines how many labels to display. <ul><li><b>none</b>: No labels</li><li><b>minMax</b>: Only min and max label</li><li><b>auto</b>: Display as many labels as will fit into available space.</li><li><b>showAll</b>: Display all labels.</li></ul>"
     ],
     "labelsTextDecoration": [
         "Labels Underline",
@@ -3617,7 +3885,7 @@
     ],
     "length": [
         "Length",
-        ""
+        "Length of string."
     ],
     "length.input": [
         "input",
@@ -3677,7 +3945,7 @@
     ],
     "listFiles.loading": [
         "loading",
-        "Returns whether the list is currently loading."
+        "Returns TRUE if the list is currently loading."
     ],
     "listFiles.mode": [
         "mode",
@@ -3763,6 +4031,10 @@
         "Options Font Underline",
         "Specifies whether the options list is underlined. Not supported in all browsers."
     ],
+    "listFormElement.placeholderColor": [
+        "Placeholder Text Color",
+        "Specifies color of placeholder text."
+    ],    
     "listFormElement.showArrow": [
         "Show Arrow",
         "Determines whether an arrow graphic appears in the component, indicating a drop&minus;down list."
@@ -3821,7 +4093,7 @@
     ],
     "loadHistories.delta": [
         "delta",
-        "Specifies what is in each value column of the output table.<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
+        "Specifies what is in each value column of the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
     ],
     "loadHistories.enabled": [
         "enabled",
@@ -3829,7 +4101,7 @@
     ],
     "loadHistories.header": [
         "header",
-        "Specifies which string is used to name each value column in the output table.<ul><li><strong>Default</strong> &mdash; the default string \"v<em>n</em>\" </li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
+        "Specifies which string is used to name each value column in the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"v<em>n</em>\" </li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
     ],
     "loadHistories.interval": [
         "interval",
@@ -3838,6 +4110,10 @@
     "loadHistories.invoke": [
         "invoke",
         "Causes the histories to be loaded. Only works if <strong>enabled</strong> is set to TRUE."
+    ],
+    "loadHistories.loaded": [
+        "loaded",
+        "Returns TRUE when loading is complete."
     ],
     "loadHistories.loading": [
         "loading",
@@ -3857,11 +4133,15 @@
     ],
     "loadHistories.rollup": [
         "rollup",
-        "Specifies the type of rollup used. Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
+        "Specifies the type of rollup used. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
     ],
     "loadHistories.showStatus": [
         "showStatus",
         "Determines whether a status column is included for each history in the output table. Status values report the status of the node data at the time that data was collected, such as \"down\" or \"overridden.\" This can indicate the reliability of the value."
+    ],
+    "loadHistories.thread": [
+        "Thread",
+        ""
     ],
     "loadHistories.timeout": [
         "timeout",
@@ -3869,7 +4149,11 @@
     ],
     "loadHistories.timeRange": [
         "timeRange",
-        "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range."
+        "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
+    ],
+   "loadHistories.unifyTimezone": [
+        "Unify Timezone",
+        ""
     ],
     "loadHistory.autoRun": [
         "autoRun",
@@ -3881,7 +4165,7 @@
     ],
     "loadHistory.delta": [
         "delta",
-        "Specifies what is in the \"value\" column of the output table.<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
+        "Specifies what is in the \"value\" column of the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
     ],
     "loadHistory.enabled": [
         "enabled",
@@ -3889,7 +4173,7 @@
     ],
     "loadHistory.header": [
         "header",
-        "Specifies which string is used to name the \"value\" column in the output table.<ul><li><strong>Default</strong> &mdash; the default string \"value\"</li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
+        "Specifies which string is used to name the \"value\" column in the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"value\"</li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
     ],
     "loadHistory.interval": [
         "interval",
@@ -3901,7 +4185,11 @@
     ],
     "loadHistory.loading": [
         "loading",
-        "Returns whether the history is currently loading."
+        "Returns TRUE if the history is currently loading."
+    ],
+    "loadHistory.onError": [
+        "On Error",
+        "The event to be fired if an error occurs."
     ],
     "loadHistory.output": [
         "output",
@@ -3913,7 +4201,7 @@
     ],
     "loadHistory.rollup": [
         "rollup",
-        "Specifies the type of rollup used. Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
+        "Specifies the type of rollup used. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
     ],
     "loadHistory.timeout": [
         "timeout",
@@ -3921,11 +4209,15 @@
     ],
     "loadHistory.timeRange": [
         "timeRange",
-        "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range."
+        "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
+    ],
+   "loadHistory.unifyTimezone": [
+        "Unify Timezone",
+        ""
     ],
     "loading": [
         "Loading",
-        ""
+        "Returns TRUE if data is currently loading."
     ],
     "loadValue.enabled": [
         "enabled",
@@ -3969,7 +4261,11 @@
     ],
     "localStorage.key": [
         "key",
-        "Sets or returns the key for a key&minus;value pair."
+        "Sets or returns the key for a key&minus;value pair. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage'>More information)</a>"
+    ],
+    "localStorage.session": [
+        "Session",
+        "To enable per-session data storage, set to TRUE. Data will be stored during page session and cleared when the page session ends."
     ],
     "localStorage.value": [
         "value",
@@ -4017,10 +4313,6 @@
     ],
     "map.boundsWest": [
         "Bounds West",
-        ""
-    ],
-    "map.cloudsLayer": [
-        "Clouds Layer",
         ""
     ],
     "map.dataField": [
@@ -4071,17 +4363,9 @@
         "Min Zoom",
         "Specifies the smallest zoom level permitted for the map."
     ],
-    "map.temperatureUnit": [
-        "Temperature Unit",
-        ""
-    ],
     "map.trafficLayer": [
         "Traffic Layer",
         "Specifies whether to show the Google Maps Traffic Layer on the map."
-    ],
-    "map.weatherLayer": [
-        "Weather Layer",
-        ""
     ],
     "map.zoom": [
         "Zoom",
@@ -4157,7 +4441,7 @@
     ],
     "mapGeoJSON.geoProperty": [
         "enabled",
-        "The geoJSON field containing the values that will drive styling. For example, the 'NAME' field in the GeoJSON data might contain the name of the country described by the polygon."
+        "The geoJSON field containing the values to be used for styling. For example, the 'NAME' field in the GeoJSON data might contain the name of the country described by the polygon."
     ],
     "mapGeoJSON.layerType": [
         "enabled",
@@ -4182,6 +4466,22 @@
     "mapping": [
         "Mapping",
         ""
+    ],
+    "mapSeriesData.outX": [
+        "outX",
+        "The X coordinate after conversion. For a PointToData conversion, the result is a data coordinate. For a DataToPoint conversion, the result is a point coordinate."
+    ],
+    "mapSeriesData.outY": [
+        "outY",
+        "The Y coordinate after conversion. For a PointToData conversion, the result is a data coordinate. For a DataToPoint conversion, the result is a point coordinate."
+    ],
+    "mapSeriesData.space": [
+        "Space",
+        ""
+    ],
+    "mapSeriesData.type": [
+        "Type",
+        "The direction of the conversion that this block performs, PointToData or DataToPoint."
     ],
     "mapTileLayer.maxZoom": [
         "enabled",
@@ -4487,10 +4787,6 @@
         "dragSource",
         "Returns the ID of the component that is dropped onto this component. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this component.</li><li>Enable the <strong>draggable</strong> Advanced property for the component to be dragged.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both components.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both components.</li></ul>"
     ],
-    "mouseEventData.event": [
-        "event",
-        "Returns the event type that this listener heard."
-    ],
     "mouseEventData.fileName": [
         "fileName",
         "Returns the name of the file that is dropped onto this component. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this component.</li><li>Set the <strong>dropGroup</strong> Advanced property for this component to <code>file_png</code>. You can also replace <code>png</code> with another file extension.</li></ul>"
@@ -4507,13 +4803,21 @@
         "pageY",
         "Returns the distance, in pixels, from the top page boundary to the cursor at the time of the mouse event. Positive values are below the top page boundary."
     ],
+    "mouseEventData.preventDefault": [
+        "Prevent Default",
+        "Disable the default response to the event."
+    ],
+    "mouseEventData.stopPropagation": [
+        "Stop Propagation",
+        "Prevent further propagation of the event in the capturing and bubbling phases."
+    ],
     "mouseEventData.x": [
         "x",
-        "Returns the distance, in pixels, from the left container boundary of the component to the cursor at the time of the mouse event. Positive values are to the right of the boundary."
+        "Returns the distance, in pixels, from the left container boundary of the component to the cursor at the time of the mouse event. Positive values are to the right of the boundary. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
     ],
     "mouseEventData.y": [
         "y",
-        "Returns the distance, in pixels, from the top container boundary of the component to the cursor at the time of the mouse event. Positive values are below the top container boundary."
+        "Returns the distance, in pixels, from the top container boundary of the component to the cursor at the time of the mouse event. Positive values are below the top container boundary. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
     ],
     "moveToTop": [
         "Move To Top",
@@ -4575,17 +4879,13 @@
         "value",
         "Sets and returns the value of this Number block or Constant block."
     ],
-    "numberSliderEditor.postfix": [
-        "Postfix",
-        ""
+    "numberFormInput.alwaysShowSpinner": [
+        "Always Show Spinner",
+        "By default, spinners are displayed ony when the user mouses over an input field. To always display spinners, set the property to TRUE."
     ],
-    "numberSliderEditor.presicion": [
-        "Precision",
-        ""
-    ],
-    "numberSliderEditor.valueScale": [
-        "Value Scale",
-        ""
+    "numberFormInput.placeholderColor": [
+        "Placeholder Color",
+        "Color of placeholder text."
     ],
     "offset": [
         "Offset Operator",
@@ -4633,23 +4933,15 @@
     ],
     "openDashboard.dashboard": [
         "Dashboard",
-        "Specifies the name of the dashboard to open."
+        "Specifies the name of the dashboard to open. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "openDashboard.destination": [
         "Destination",
-        "Specifies where the dashboard is to be opened."
+        "Specifies where the dashboard is to be opened. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "openDashboard.self": [
         "Self",
-        "If the action page is inside a Page Include component, opens the dashboard in the Page Include component."
-    ],
-    "openWeb.0": [
-        "Name 0",
-        ""
-    ],
-    "openWeb.1": [
-        "Value 0",
-        ""
+        "If the action page is inside a Page Include component, opens the dashboard in the Page Include component. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "or.0": [
         "input n",
@@ -4945,11 +5237,51 @@
     ],
     "projectInfo.user": [
         "user",
-        "Returns the currently logged in user for this session."
+        "Returns the user that is currently logged in."
     ],
     "projectInfo.version": [
         "version",
-        "Returns the version number you have given to this project. Add a version number by selecting <strong>Project</strong> &#62; <strong>Project Properties</strong>."
+        "Returns the version number that you have given to this project. Add a version number by selecting <strong>Project</strong> &#62; <strong>Project Properties</strong>."
+    ],
+    "propertyHub.hubInstance ": [
+        "Hub Instance",
+        "Binds the master block to child blocks, to enable values to be propagated."
+    ],
+    "propertyHubModifier.hubMode ": [
+        "Hub Mode",
+        "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
+    ],
+    "propertyHub.jsonInput": [
+        "JSON Input",
+        "Incoming JSON data."
+    ],
+    "propertyHub.jsonOutput": [
+        "JSON Output",
+        "Data being propagated."
+    ],
+    "propertyHub.outputAll": [
+        "Output All",
+        "Specifies whether complex JSON objects are propagated. For efficiency, such objects are not propagated by default."
+    ],
+    "propertyHub.syncPropertyList": [
+        "Sync Property List",
+        ""
+    ],
+    "propertyHubModifier.hubInstance": [
+        "Hub Instance",
+        "Binds the master block to child blocks, to enable values to be propagated."
+    ],
+    "propertyHubModifier.hubMode": [
+        "Sync Property List",
+        "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
+    ],
+    "propertyHubModifier.0": [
+        "Field n",
+        "The name of the property that the field reads and writes."
+    ],
+    "propertyHubModifier.1": [
+        "Value n",
+        "The value of the field, which is read from and written to the property that is specified by field n, according to the hubMode setting."
     ],
     "queryBinding.0": [
         "Case and Mapping",
@@ -4965,24 +5297,28 @@
     ],
     "queryBinding.scaleInputMax": [
         "Scale Input Maximum",
-        "The upper bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale."
+        "The upper bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleInputMin": [
         "Scale Input Minimum",
-        "The lower bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale."
+        "The lower bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleOutputMax": [
         "Scale Output Maximum",
-        "The upper bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale."
+        "The upper bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleOutputMin": [
         "Scale Output Minimum",
-        "The lower bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale."
+        "The lower bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "radius": [
         "Marker Radius",
         "For standard markers, specifies the marker radius in pixels. For custom markers, specifies the largest radius of an inscribed ellipse, in pixels. This property is equal to half the symbol width or half the symbol height, whichever is larger."
     ],
+    "rangeFormInput.alwaysShowSpinner": [
+        "Always Show Spinner",
+        "By default, spinners are displayed ony when the user mouses over an input field. To always display spinners, set the property to TRUE."
+    ],    
     "rangeFormInput.ticks": [
         "Ticks",
         "Specifies values where ticks appear on the range selector, as a list of comma&minus;separated values."
@@ -5007,10 +5343,6 @@
         "SVG Defs",
         "<p>Specifies the &#60;defs&#62; component for the repeated SVG component. The following example specifies a style for the repeated SVG rectangle. The style includes a green fill and a black border stroke.</p><p><strong>Example</strong>: &#60;style&#62;rect&#123;fill:green;stroke:black;&#125;&#60;/style&#62;</p>"
     ],
-    "readOnly": [
-        "Read Only",
-        ""
-    ],
     "realtimeRecorder.0": [
         "name n",
         "Specifies a column name for the <strong>value <em>n</em></strong> values in the output table."
@@ -5029,7 +5361,7 @@
     ],
     "realtimeRecorder.ignoreNullValue": [
         "ignoreNullValue",
-        ""
+        "To ignore null values, set to TRUE."
     ],
     "realtimeRecorder.output": [
         "output",
@@ -5047,12 +5379,16 @@
         "output",
         "An instance of the relativizing service. Click the button to interact with the service. For details, watch the video <a href='http://www.dglogik.com/index.php/videos/introduction&minus;to&minus;relativization'>Introduction to Relativization</a>."
     ],
+    "relativize.partialPath": [
+        "Partial Path",
+        ""
+    ],
     "relativize.path": [
         "path",
         "Sets and returns the current parent directory containing the relative paths."
     ],
     "relativize.serviceId": [
-        "Service Id",
+        "Service ID",
         ""
     ],
     "rendererHeight": [
@@ -5071,9 +5407,21 @@
         "output",
         "Returns a table that lists the symbol parameter values for each instance of the symbol."
     ],
+    "repeater.renderer": [
+        "Renderer",
+        "The renderer to be used for the repeater."
+    ],
+    "repeater.streamQueue": [
+        "Stream Queue",
+        "Size of the queue for a repeater in stream mode."
+    ],
     "repeater.symbol": [
         "symbol",
         "Specifies the name of the dataflow symbol to repeat."
+    ],
+    "repeater.thread": [
+        "Thread",
+        "Specifies the number of renderers created for the repeater in threaded mode or stream mode."
     ],
     "replace.0": [
         "find n",
@@ -5111,10 +5459,6 @@
         "clientWidth",
         "Returns the width of the contents of this component, in pixels, when the component is resized. It includes padding, but it does not include the border or vertical scroll bar."
     ],
-    "resizeEventData.event": [
-        "event",
-        "Fires when the input event occurs and displays the name of the event type. It can be bound to an event."
-    ],
     "resizeEventData.input": [
         "input",
         "Specifies the event type to listen for. By default, it is the onResize event for this component."
@@ -5134,10 +5478,6 @@
     "reverseZIndex": [
         "Reverse Z Index",
         "For containers with horizontal or vertical layout that contain overlapping components, reverses the overlapped components."
-    ],
-    "revert": [
-        "Revert",
-        ""
     ],
     "right": [
         "Right",
@@ -5191,13 +5531,17 @@
         "output",
         "Returns the rounded number."
     ],
+    "round.minPrecision": [
+        "Minimum Precision",
+        "The minimum number of decimal digits to be returned."
+    ],
     "round.precision": [
         "precision",
-        "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number to the nearest integer."
+        "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number to the nearest integer. "
     ],
     "roundDown.input": [
         "input",
-        "Specifies any real number that you want rounded down."
+        "Specifies the real number that is to be rounded down."
     ],
     "roundDown.output": [
         "output",
@@ -5217,7 +5561,7 @@
     ],
     "roundUp.input": [
         "input",
-        "Specifies any real number that you want rounded up."
+        "Specifies the real number that is to be rounded up."
     ],
     "roundUp.output": [
         "output",
@@ -5225,7 +5569,15 @@
     ],
     "roundUp.precision": [
         "precision",
-        "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number up to the nearest integer."
+        "Specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number up to the nearest integer. "
+    ],
+    "router.0": [
+        "Case",
+        "Specifies a test value that is to be compared with the incoming value."
+    ],
+    "router.1": [
+        "Output",
+        "Specifies the value that is output if the condition evaluates to TRUE."
     ],
     "router.case": [
         "Condition",
@@ -5237,7 +5589,7 @@
     ],
     "router.else": [
         "Else",
-        "Specifies the value to be output if none of the conditions are met."
+        "Specifies the value to be output if none of the conditions are met. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router'>More information)</a>"
     ],
     "router.event": [
         "Event",
@@ -5489,7 +5841,7 @@
     ],
     "script.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and debugging."
+        "Returns a string that is used for errors, other notifications, and debugging. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script'>More information</a>)"
     ],
     "script.q": [
         "a&mdash;z",
@@ -5591,10 +5943,6 @@
         "active",
         "<p>Determines whether the block is currently listening.</p><p><strong>TRUE</strong>: The output properties of the block update whenever the user scrolls.</p><p><strong>FALSE</strong>: The output properties of the block do not update.</p>"
     ],
-    "scrollEventData.event": [
-        "event",
-        "Returns the type of event that triggered this block."
-    ],
     "scrollEventData.input": [
         "input",
         "Specifies the event on which the scroll listener starts reporting data. By default, <strong>input</strong> is an instance of onScrollEvent, so the listener returns data whenever the parent is scrolled. Note that the onScrollEvent property does not exist for all component types."
@@ -5605,7 +5953,7 @@
     ],
     "scrollEventData.scrollLeftMax": [
         "scrollLeftMax",
-        ""
+        "Maximum horizontal scroll position"
     ],
     "scrollEventData.scrollTop": [
         "scrollTop",
@@ -5613,7 +5961,7 @@
     ],
     "scrollEventData.scrollTopMax": [
         "scrollTopMax",
-        ""
+        "Maximum vertical scroll position"
     ],
     "scrollFastResponse": [
         "scrollFastResponse",
@@ -5715,18 +6063,6 @@
         "Service",
         "Service from which to get data."
     ],
-    "setState.0": [
-        "Path 0",
-        ""
-    ],
-    "setState.1": [
-        "Value 0",
-        ""
-    ],
-    "setState.2": [
-        "Original 0",
-        ""
-    ],
     "shadows": [
         "Shadows",
         "Attaches one or more shadows to this component."
@@ -5734,10 +6070,6 @@
     "shear": [
         "Shear",
         "Specifies the angle for a 3D shear transformation."
-    ],
-    "showBinding": [
-        "Show Binding",
-        ""
     ],
     "showDataTips": [
         "Show Datatips",
@@ -5757,7 +6089,7 @@
     ],
     "showLine": [
         "Show Line",
-        ""
+        "SHow or hide axis line."
     ],
     "showMonth": [
         "Show Month",
@@ -5786,18 +6118,6 @@
     "sin.output": [
         "input",
         "Returns the sine of the input."
-    ],
-    "snapInterval": [
-        "Snap Interval",
-        ""
-    ],
-    "snapSpeed": [
-        "Snap Speed",
-        ""
-    ],
-    "solidOnly": [
-        "Solid Only",
-        ""
     ],
     "spectrumSeries.dateField": [
         "Date Field",
@@ -5905,7 +6225,11 @@
     ],
     "stopwatch.reset": [
         "reset",
-        "Causes the stopwatch to restart at 0."
+        "Causes the stopwatch to restart at 0 (default) or the value specified in the resetValue property. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch'>More information</a>)"
+    ],
+    "stopwatch.resetValue": [
+        "resetValue",
+        "The value to which the stopwatch is set when reset is triggered (default is 0)."
     ],
     "stopwatch.step": [
         "step",
@@ -5935,6 +6259,10 @@
         "enabled",
         "<p>Specifies whether the string loader is enabled. </p><p><strong>FALSE</strong>: The string does not load.</p><p><strong>TRUE</strong>: The string loads as specified by <strong>invoke</strong>, <strong>autoRun</strong>, and <strong>interval</strong>.</p>"
     ],
+    "strLoader.errorGroup": [
+        "Error Group",
+        "For error handling with catchError blocks, specifies the group for errors thwe occur when executing this block."
+    ],
     "strLoader.headers": [
         "headers",
         "Sets the headers for the HTTP request. Use the following syntax: <code>abc&#61;abc&amp;def&#61;def</code>"
@@ -5949,7 +6277,7 @@
     ],
     "strLoader.loading": [
         "loading",
-        "Returns whether the string is currently being loaded."
+        "Returns TRUE if the string is currently being loaded."
     ],
     "strLoader.method": [
         "method",
@@ -5958,6 +6286,10 @@
     "strLoader.onComplete": [
         "onComplete",
         "Fires when the string finishes loading. "
+    ],
+     "strLoader.onError": [
+        "onError",
+        "Fires if an error occurs. "
     ],
     "strLoader.output": [
         "output",
@@ -6015,13 +6347,17 @@
         "onComplete",
         "Fires when the file has been created."
     ],
+    "strUploader.onError": [
+        "onError",
+        "Fires if an error occurs."
+    ],    
     "strUploader.path": [
         "path",
         "Specifies where to upload the new file, relative to the root of this project. Must include a file name and extension.</p><p><ul><li>To save to the root, enter <code>&#47;&#60;filename&#62;.&#60;extension&#62;</code>.</li><li>To save to the <code>assets</code> folder, enter <code>assets&#47;&#60;filename&#62;.&#60;extension&#62;</code></li></ul>"
     ],
     "subscribeValue.enabled": [
         "enabled",
-        "<p>Specifies whether this block is currently set to update when the value updates.</p><p><strong>TRUE</strong>: This block retrieves the value when the value changes.</p><p><strong>FALSE</strong>: This block does nothing, even when the value changes.</p>"
+        "<p>Specifies whether this block updates when the value is updated.</p><p><strong>TRUE</strong>: This block retrieves the value when the value changes.</p><p><strong>FALSE</strong>: This block does nothing, even when the value changes.</p>"
     ],
     "subscribeValue.lastUpdate": [
         "lastUpdate",
@@ -6033,7 +6369,7 @@
     ],
     "subscribeValue.value": [
         "value",
-        "Returns the most recently loaded value."
+        "Returns the most recently-loaded value."
     ],
     "substring.end": [
         "end",
@@ -6053,7 +6389,7 @@
     ],
     "substring.start": [
         "start",
-        "Determines the position of the first character to extract from the input text. A value of 0 indicates the first character in the input."
+        "Determines the position of the first character to extract from the input text. A value of 0 indicates the first character in the input. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block'>More information</a>)"
     ],
     "subtract.0": [
         "input n",
@@ -6063,17 +6399,13 @@
         "output",
         "Returns the result of subtracting the input values."
     ],
-    "supportSeparateBorder": [
-        "Support Separate Border",
-        ""
-    ],
     "svg:text.textAnchor": [
         "Text Anchor",
         "Specifies how text is aligned to the SVG component."
     ],
     "svgId": [
         "Svg Id",
-        ""
+        "For internal use. Do not change."
     ],
     "svgLightElement.azimuth": [
         "Azimuth",
@@ -6110,10 +6442,6 @@
     "symbol.symbol": [
         "Symbol",
         "Specifies which symbol is displayed in this symbol component. To use a symbol that is defined in the currently-open project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol. By default, this is the only property for a symbol. To add properties to a symbol, open the Edit Properties dialog for that symbol."
-    ],
-    "tabIndex": [
-        "Tab Index",
-        ""
     ],
     "table": [
         "Table",
@@ -6157,7 +6485,7 @@
     ],
     "tableAggregation.method": [
         "method",
-        "Specifies the type of aggregation.<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li></ul>"
+        "Specifies the type of aggregation. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation'>More information</a>)<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li></ul>"
     ],
     "tableAggregation.output": [
         "output",
@@ -6295,6 +6623,18 @@
         "renameColumns",
         "Determines the names in the output table for columns that come from <strong>input2</strong>. Make sure to rename columns if you don&apos;t want them combined. Use this syntax:<br /><br /><code>column1:newName</code><br /><code>column2:newName</code><br /><br />Press Alt + Enter to create line breaks between columns. To edit text in a popup window, click the <strong>Edit in Window</strong> icon."
     ],
+    "tableMultiJoin.0": [
+        "Table",
+        "Specifies a source table for the join."
+    ],
+    "tableMultiJoin.1": [
+        "Column blacklist",
+        "Comma-separated list of columns to be omitted from the join."
+    ],
+    "tableMultiJoin.column": [
+        "Column",
+        "Column on which the join is performed."
+    ],
     "tablePage.currentPage": [
         "currentPage",
         "Sets or returns the current page."
@@ -6329,7 +6669,7 @@
     ],
     "tablePage.start": [
         "start",
-        "Specifies the row index on which to start the current page. Rows before this index are omitted from the output."
+        "Specifies the row index on which to start the current page. Rows before this index are omitted from the output. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page'>More information</a>)"
     ],
     "tablePage.totalPage": [
         "totalPage",
@@ -6355,6 +6695,10 @@
         "table",
         "Receives the input table from which some rows will be removed."
     ],
+    "tableRollup.columnFilterType": [
+        "Column Filter Type",
+        "Specifies whether the column list includes or excludes the specified columns."
+    ],
     "tableRollup.dateColumn": [
         "dateColumn",
         "Specifies the name of the table column that holds the dates."
@@ -6373,7 +6717,11 @@
     ],
     "tableRollup.roundTime": [
         "roundTime",
-        "<p>Specifies whether to force all intervals to start at a round number.</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+        "<p>Specifies whether to force all intervals to start at a round number. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup'>More information</a>)</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+    ],
+    "tableRollup.persistTs": [
+        "Persist Timestamp",
+        ""
     ],
     "tableRollup.valueColumn": [
         "valueColumn",
@@ -6437,7 +6785,7 @@
     ],
     "tableSort.method": [
         "method",
-        "Specifies whether to sort values as strings (alphabetically) or as numbers."
+        "Specifies whether to sort values as strings (alphabetically) or as numbers. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>More information)</a>"
     ],
     "tableSort.order": [
         "order",
@@ -6478,10 +6826,6 @@
     "tan.output": [
         "input",
         "Returns the tangent of the input."
-    ],
-    "target": [
-        "Target",
-        "Specifies the browser window where the content is to be displayed."
     ],
     "text": [
         "Text",
@@ -6527,13 +6871,13 @@
         "Display As Password",
         "Display user-entered text as asterisks rather than clear text."
     ],
-    "textEditor.ignoreDefaultStyle": [
-        "Ignore Default Style",
-        ""
-    ],
     "textFormInput.inputType": [
         "Input Type",
         "Specifies the valid input type, or the expected input type.<ul><li><strong>Text</strong>: A single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong>: A single, properly formatted e&minus;mail address, or the empty string.</li><li><strong>URL</strong>: A single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong>: A single line of text. Line breaks are automatically removed. On mobile devices, the on&minus;screen keyboard is optimized for number entry.</li></ul>"
+    ],
+    "textFormInput.placeholder": [
+        "Placeholder",
+        "Text displayed in the field to indicate what the user is to enter."
     ],
     "tickLength": [
         "Major Tick Length",
@@ -6577,7 +6921,7 @@
     ],
     "timeRange": [
         "Time Range",
-        ""
+        "Time span for history."
     ],
     "title": [
         "Title",
@@ -6670,10 +7014,6 @@
     "tooltip": [
         "Tooltip",
         "Specifies the tooltip text to appear when the user mouses over this component. Tooltips use the default tooltip appearance for the user's browser and operating system. Tooltips appear only when the Mouse Enabled property is TRUE for the component and its parents."
-    ],
-    "tooltipHelpMode": [
-        "Tooltip Help Mode",
-        ""
     ],
     "top": [
         "Top",
@@ -7003,6 +7343,10 @@
         "protocol",
         "Returns whether the project&apos;s URL begins with HTTP or HTTPS."
     ],
+    "webDocument.preventBackspace": [
+        "Prevent Backspace",
+        "Enable or disable navigation to previous page using the backspace key."
+    ],
     "webDocument.screenHeight": [
         "screenHeight",
         "Retrieves the height of the user&apos;s entire screen in pixels."
@@ -7017,7 +7361,7 @@
     ],
     "webDocument.title": [
         "title",
-        "Specifies the title for this web document. Typically, the user sees this title in the title bar of the browser window or tab. Only works in viewer mode."
+        "Specifies the title for this web document. Typically, the user sees this title in the title bar of the browser window or tab. Only works in viewer mode. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document'>More information</a>)"
     ],
     "webDocument.url": [
         "url",
@@ -7038,6 +7382,10 @@
     "webDocument.width": [
         "width",
         "Retrieves the width of the usable portion of the user&apos;s browser window in pixels."
+    ],
+    "webDocument.zoom": [
+        "Zoom",
+        "Sets zoom factor (scale) for stage."
     ],
     "weekendBackground": [
         "Weekend Cells Fill",
@@ -7109,7 +7457,7 @@
     ],
     "xOriginalColumn": [
         "X Original Column",
-        ""
+        "Name of original column this series data provider is using."
     ],
     "y": [
         "Y",
@@ -7141,7 +7489,7 @@
     ],
     "yOriginalColumn": [
         "Y Original Column",
-        ""
+        "Name of original column this series data provider is using."
     ],
     "z": [
         "Z",
@@ -7150,6 +7498,10 @@
     "zipDownload.autoRun": [
         "autoRun",
         "<p>Specifies whether the files are converted automatically.</p><p><strong>TRUE</strong>: The files are converted every time any property is changed.</p><p><strong>FALSE</strong>: The files are converted only when the <strong>invoke</strong> property is triggered.</p>"
+    ],
+    "zipDownload.basePath": [
+        "Base Path",
+        "(Optional) Parent path of specified files."
     ],
     "zipDownload.enabled": [
         "enabled",
@@ -7191,6 +7543,10 @@
         "enabled",
         "<p>Specifies whether the block is currently set to add the files to the folder.</p><p><strong>TRUE</strong>: The files are added to the project as specified by <strong>invoke</strong> and <strong>autoRun</strong>.</p><p><strong>FALSE</strong>: The files are not added to the project.</p>"
     ],
+    "zipUpload.filePaths": [
+        "File Paths",
+        "A whilelist of specific files and folders to be uploaded. If no whiltelist is specified, all content is uploaded."
+    ],    
     "zipUpload.folder": [
         "folder",
         "Specifies the project folder where the files are to be inserted."
