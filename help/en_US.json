@@ -525,11 +525,11 @@
     ],
     "bubbleSeries.maxRadius": [
         "Max Radius",
-        "The radius of the largest item renderered in this series"
+        "The radius of the largest item rendered in this series"
     ],
     "bubbleSeries.minRadius": [
         "Min Radius",
-        "The radius of the smallest item renderered in this series"
+        "The radius of the smallest item rendered in this series"
     ],
     "bubbleSeries.rAxisType": [
         "R Axis Type",
@@ -850,7 +850,7 @@
     "colorFormInput.open": [
         "Open",
         "Trigger to open color input dialog."
-    ],    
+    ],
     "columnSeries.dgOffset": [
         "Column Series Offset",
         "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart. For example, an offset of &minus;0.1 moves the columns to the left by 10% of this maximum width, and an offset of 0.1 moves the columns to the right by 10% of this maximum width. This property is related to the <strong>Column Width Ratio</strong> property for the chart. The <strong>Column Width Ratio</strong> determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong>: The <strong>Column Width Ratio</strong> is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
@@ -1639,6 +1639,18 @@
         "Input Type",
         "Specifies the valid input type, or the expected input type.<ul><li><strong>Date</strong>: A year, month, and day.</li><li><strong>Week</strong>: A year and a week number. A week that spans two years is both week 53 of the earlier year and week 1 of the later year.</li><li><strong>Month</strong>: A month and year.</li></ul>"
     ],
+    "dateFromInput.arrowColor": [
+        "Arrow Color",
+        "Color of the dropdown arrow (works only in Chrome)."
+    ],
+    "dateFromInput.arrowImage": [
+        "Arrow Image",
+        "Image to replace default dropdown arrow (works only in Chrome)."
+    ],
+    "dateFromInput.arrowOpacity": [
+        "Arrow Opacity",
+        "Opacity of the dropdown arrow (works only in Chrome)."
+    ],
     "dateMath.day": [
         "day",
         "Specifies the number of days to add or subtract."
@@ -1762,7 +1774,7 @@
     "dateRange.refresh": [
         "Refresh",
         "Trigger to update output."
-    ],    
+    ],
     "daterange.thisRange": [
         "This Value",
         "Returns the currently selected date range."
@@ -1979,6 +1991,58 @@
         "Deselect Child On Click",
         "If the container's selection mode is single&minus;select, this property enables the user to deselect a selected item by single&minus;clicking it."
     ],
+    "deviceMotion.accelerationGX": [
+        "Acceleration GX",
+        "Sum of the acceleration of the device on the X (west to east) axis as induced by the user and by gravity."
+    ],
+    "deviceMotion.accelerationGY": [
+        "Acceleration GY",
+        "Sum of the acceleration of the device on the Y (south to north) axis as induced by the user and by gravity."
+    ],
+    "deviceMotion.accelerationGZ": [
+        "Acceleration GZ",
+        "Sum of the acceleration of the device on the Z (down to up) axis as induced by the user and by gravity."
+    ],
+    "deviceMotion.accelerationX": [
+        "Acceleration X",
+        "Acceleration of the device on the X (west to east) axis as induced by the user and by gravity, in meters per second squared."
+    ],
+    "deviceMotion.accelerationY": [
+        "Acceleration Y",
+        "Acceleration of the device on the Y (south to north)axis as induced by the user and by gravity, in meters per second squared."
+    ],
+    "deviceMotion.accelerationZ": [
+        "Acceleration Z",
+        "Acceleration of the device on the Z (down to up) axis as induced by the user and by gravity, in meters per second squared."
+    ],
+    "deviceMotion.rotationAlpha": [
+        "Rotation Alpha",
+        "The rate at which the device is rotating about its Z axis (a line perpendicular to the screen). "
+    ],
+    "deviceMotion.rotationBeta": [
+        "Rotation Beta",
+        "The rate at which the device is rotating about its X axis (front to back). "
+    ],
+    "deviceMotion.rotationGamma": [
+        "Rotation Gamma",
+        "The rate at which the device is rotating about its Y axis (side to side). "
+    ],
+    "deviceOrientation.alpha": [
+        "Alpha",
+        "The motion of the device around the Z axis, in degrees (0 - 360)."
+    ],
+    "deviceOrientation.beta": [
+        "Beta",
+        "The motion of the device around the X axis, in degrees (-180 to 180)."
+    ],
+    "deviceOrientation.compassHeading": [
+        "Compass Heading",
+        "On iOS devices, the direction in degrees relative to magnetic north. On other devices, same as alpha."
+    ],
+    "deviceOrientation.gamma": [
+        "Gamma",
+        "The motion of the device around the Y axis, in degrees (-90 to 90)."
+    ],
     "dgAutoAdjust": [
         "Auto Adjust",
         "Specifies whether the axis range and ticks intervals are determined automatically based on the data feeding the chart."
@@ -2002,7 +2066,7 @@
     "dgTimeFormInput.daypartOptionBackground": [
         "List Background",
         "Color for AM&minus;PM dropdown list background."
-    ],    
+    ],
     "dgTimeFormInput.focusBackgroundColor": [
         "Focus Background Color",
         "Background color when subelement has focus."
@@ -2019,7 +2083,7 @@
         "Option Color",
         "Text color for AM&minus;PM dropdown list."
     ],
-        "dgTimeFormInput.showClearButton": [
+    "dgTimeFormInput.showClearButton": [
         "Show Clear Button",
         "Show or hide Clear button."
     ],
@@ -2151,214 +2215,6 @@
         "Sort Order",
         "Specifies whether the data is sorted in ascending or descending order."
     ],
-    "datagridRows.cellPadding": [
-        "Grid.cell Padding",
-        "Specifies the amount of padding around the contents of data cells."
-    ],
-    "datagridRows.defaultCellFontColor": [
-        "Grid.default Cell Font Color",
-        "Specifies the default color for cell text."
-    ],
-    "datagridRows.defaultCellFontFamily": [
-        "Grid.default Cell Font Family",
-        "Specifies the default font for cell text."
-    ],
-    "datagridRows.defaultCellFontSize": [
-        "Grid.default Cell Font Size",
-        "Specifies the default font size for cell text."
-    ],
-    "datagridRows.defaultCellFontStyle": [
-        "Grid.default Cell Font Style",
-        "Specifies whether cell text is italic or normal."
-    ],
-    "datagridRows.defaultCellFontWeight": [
-        "Grid.default Cell Font Weight",
-        "Specifies whether cell text is bold or normal."
-    ],
-    "datagridRows.defaultCellKeepEqualPaddings": [
-        "Grid.default Cell Keep Equal Paddings",
-        "Specifies whether the amount of padding around cell text is the same."
-    ],
-    "datagridRows.defaultCellPaddingBottom": [
-        "Grid.default Cell Padding Bottom",
-        "Specifies the amount of padding below cell text."
-    ],
-    "datagridRows.defaultCellPaddingLeft": [
-        "Grid.default Cell Padding Left",
-        "Specifies the amount of padding to the left of cell text."
-    ],
-    "datagridRows.defaultCellPaddingRight": [
-        "Grid.default Cell Padding Right",
-        "Specifies the amount of padding to the right of cell text."
-    ],
-    "datagridRows.defaultCellPaddingTop": [
-        "Grid.default Cell Padding Top",
-        "Specifies the amount of padding above cell text."
-    ],
-    "datagridRows.grid.defaultCellAlign": [
-        "Rows Horizontal Alignment",
-        "Specifies whether the content in the rows is left&minus;justified, centered, or right&minus;justified."
-    ],
-    "datagridRows.grid.defaultCellClipContent": [
-        "Clip Content",
-        "<p>Specifies the handling of content that overflows this cell.</p><p><strong>TRUE</strong>: All overflowed content is clipped and is not visible.</p><p><strong>FALSE</strong>: All overflowed content is visible and responds to mouse events.</p>"
-    ],
-    "datagridRows.grid.defaultCellFontColor": [
-        "Main Row Font Color",
-        "Specifies the font color for the first group of alternating rows."
-    ],
-    "datagridRows.grid.defaultCellFontColorAlt": [
-        "Alternate Row Font Color",
-        "Specifies the font color for the second group of alternating rows."
-    ],
-    "datagridRows.grid.defaultCellFontColorFocus": [
-        "Focused Row Font Color",
-        "Specifies the font color for the row in the data grid that is in focus. When the user mouses over the row, the hovered row properties override the focused row properties."
-    ],
-    "datagridRows.grid.defaultCellFontColorHover": [
-        "Hovered Row Font Color",
-        "Specifies the font color for the row that the user mouses over."
-    ],
-    "datagridRows.grid.defaultCellFontColorSelect": [
-        "Selected Row Font Color",
-        "Specifies the font color for selected rows. Only works when selection is enabled for the data grid."
-    ],
-    "datagridRows.grid.defaultCellFontFamily": [
-        "Rows Font",
-        "Specifies the font color for this component."
-    ],
-    "datagridRows.grid.defaultCellFontSize": [
-        "Rows Font Size",
-        "Specifies the font size for this component."
-    ],
-    "datagridRows.grid.defaultCellFontStyle": [
-        "Rows Font Italic",
-        "Specifies whether the text in this component is italic."
-    ],
-    "datagridRows.grid.defaultCellFontWeight": [
-        "Rows Font Bold",
-        "Specifies whether the text in this component is bold."
-    ],
-    "datagridRows.grid.defaultCellKeepEqualPaddings": [
-        "Link Paddings",
-        "Links all four padding editors so that their values are equal."
-    ],
-    "datagridRows.grid.defaultCellPaddingBottom": [
-        "Rows Bottom Padding",
-        "Specifies a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed."
-    ],
-    "datagridRows.grid.defaultCellPaddingLeft": [
-        "Rows Left Padding",
-        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed."
-    ],
-    "datagridRows.grid.defaultCellPaddingRight": [
-        "Rows Right Padding",
-        "Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed."
-    ],
-    "datagridRows.grid.defaultCellPaddingTop": [
-        "Rows Top Padding",
-        "Specifies a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed."
-    ],
-    "datagridRows.grid.defaultCellVerticalAlign": [
-        "Rows Vertical Alignment",
-        "Specifies whether the content in the rows is positioned at the top, middle, or bottom of the container."
-    ],
-    "datagridRows.grid.gridMode": [
-        "Gridlines",
-        "Specifies whether the Property Inspector displays property editing options for horizontal gridlines, vertical gridlines, or both. Changing this property does not reset any gridline properties."
-    ],
-    "datagridRows.grid.hGridColor": [
-        "Horizontal Gridline Stroke Color",
-        "Specifies the stroke color for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
-    ],
-    "datagridRows.grid.hGridStroke": [
-        "Horizontal Gridline Stroke Style",
-        "Specifies the stroke style for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
-    ],
-    "datagridRows.grid.hGridWidth": [
-        "Horizontal Gridline Stroke Weight",
-        "Specifies the stroke weight for this data grid's horizontal gridlines. To define the line between the top row of data and the header, use the header's Fill and Stroke properties."
-    ],
-    "datagridRows.grid.rowHeight": [
-        "Row Height",
-        "Specifies the height in pixels of each data grid row."
-    ],
-    "datagridRows.grid.vGridColor": [
-        "Vertical Gridline Stroke Color",
-        "Specifies the stroke color for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties."
-    ],
-    "datagridRows.grid.vGridStroke": [
-        "Vertical Gridline Stroke Style",
-        "Specifies the stroke style for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties."
-    ],
-    "datagridRows.grid.vGridWidth": [
-        "Vertical Gridline Stroke Weight",
-        "Specifies the stroke weight for the vertical lines that divide columns. To define the lines between column headers, use the header's Fill and Stroke properties. "
-    ],   
-    "dateFromInput.arrowColor": [
-        "Arrow Color",
-        "Color of the dropdown arrow (works only in Chrome)."
-    ],   
-    "dateFromInput.arrowImage": [
-        "Arrow Image",
-        "Image to replace default dropdown arrow (works only in Chrome)."
-    ],       
-    "dateFromInput.arrowOpacity": [
-        "Arrow Opacity",
-        "Opacity of the dropdown arrow (works only in Chrome)."
-    ],   
-    "deviceMotion.accelerationGX": [
-        "Acceleration GX",
-        "Sum of the acceleration of the device on the X (west to east) axis as induced by the user and by gravity."
-    ],  
-    "deviceMotion.accelerationGY": [
-        "Acceleration GY",
-        "Sum of the acceleration of the device on the Y (south to north) axis as induced by the user and by gravity."
-    ],  
-    "deviceMotion.accelerationGZ": [
-        "Acceleration GZ",
-        "Sum of the acceleration of the device on the Z (down to up) axis as induced by the user and by gravity."
-    ],  
-    "deviceMotion.accelerationX": [
-        "Acceleration X",
-        "Acceleration of the device on the X (west to east) axis as induced by the user and by gravity, in meters per second squared."
-    ],  
-    "deviceMotion.accelerationY": [
-        "Acceleration Y",
-        "Acceleration of the device on the Y (south to north)axis as induced by the user and by gravity, in meters per second squared."
-    ],  
-    "deviceMotion.accelerationZ": [
-        "Acceleration Z",
-        "Acceleration of the device on the Z (down to up) axis as induced by the user and by gravity, in meters per second squared."
-    ],  
-    "deviceMotion.rotationAlpha": [
-        "Rotation Alpha",
-        "The rate at which the device is rotating about its Z axis (a line perpendicular to the screen). "
-    ],  
-    "deviceMotion.rotationBeta": [
-        "Rotation Beta",
-        "The rate at which the device is rotating about its X axis (front to back). "
-    ],  
-    "deviceMotion.rotationGamma": [
-        "Rotation Gamma",
-        "The rate at which the device is rotating about its Y axis (side to side). "
-    ],  
-    "deviceOrientation.alpha": [
-        "Alpha",
-        "The motion of the device around the Z axis, in degrees (0 - 360)."
-    ],  
-    "deviceOrientation.beta": [
-        "Beta",
-        "The motion of the device around the X axis, in degrees (-180 to 180)."
-    ],      
-    "deviceOrientation.compassHeading": [
-        "Compass Heading",
-        "On iOS devices, the direction in degrees relative to magnetic north. On other devices, same as alpha."
-    ],  
-    "deviceOrientation.gamma": [
-        "Gamma",
-        "The motion of the device around the Y axis, in degrees (-90 to 90)."
-    ],      
     "divTreeItemModel.indent": [
         "Indent",
         "Specifies the number of pixels by which each level in the tree is indented. If an image is specified for the <strong>Open Item Icon</strong> and <strong>Close Item Icon</strong> properties, then <strong>Indent</strong> also controls the width of this image."
@@ -2649,7 +2505,7 @@
     ],
     "eventGate.logOrder": [
         "logOrder",
-        "<p>Specifies how events are logged.</p><p><strong>none</strong>: Events are not logged.</p><p><strong>firstOccurance</strong>: The first event for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its first update.</p><p><strong>lastOccurance</strong>: The last input change for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its most recent update.</p><p><strong>all</strong>: All input changes are logged, beginning with a reset and ending when all fields have been updated at least once. The <strong>order</strong> property returns a list of input indexes in the order that the inputs were changed.</p>"
+        "<p>Specifies how events are logged.</p><p><strong>none</strong>: Events are not logged.</p><p><strong>firstOccurance</strong>: The first event for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its first update.</p><p><strong>lastOccurence</strong>: The last input change for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its most recent update.</p><p><strong>all</strong>: All input changes are logged, beginning with a reset and ending when all fields have been updated at least once. The <strong>order</strong> property returns a list of input indexes in the order that the inputs were changed.</p>"
     ],
     "eventGate.onFinish": [
         "onFinish",
@@ -2757,7 +2613,7 @@
     ],
     "fileFormInput.multiple": [
         "Multiple Files",
-        "Enble selection of multiple files using CTRL-click or Shift-click."
+        "Enable selection of multiple files using CTRL-click or Shift-click."
     ],
     "fileFormInput.open": [
         "Open",
@@ -3255,12 +3111,12 @@
         "Intensity Field",
         "<p>Specifies the table column from which the intensity values are determined.</p><p>\"Intensity\" refers to whatever units the heat map is measuring, for example temperature or air flow. Each data point on the heat map has an intensity value that determines its color.</p><p>Intensity values range from 0 to the highest data value. An intensity of 0 corresponds to the left end of this heat map's gradient, and the highest intensity value corresponds to the right end of this heat map's gradient.</p>"
     ],
-    "heatMap.dataMin": [
-        "Data Minimum",
-        ""
-    ],
     "heatMap.dataMax": [
         "Data Maximum",
+        ""
+    ],
+    "heatMap.dataMin": [
+        "Data Minimum",
         ""
     ],
     "heatMap.falloff": [
@@ -3637,7 +3493,7 @@
     ],
     "javascript.scriptData": [
         "Script Data",
-        "To load the script associated with this block, click <b>Load Scriot</b>. To edit the script, enlarge the field. "
+        "To load the script associated with this block, click <b>Load Script</b>. To edit the script, enlarge the field. "
     ],
     "javascript.scriptPath": [
         "scriptPath",
@@ -3695,13 +3551,13 @@
         "parseError",
         "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
     ],
-    "jsonParser.selector": [
-        "selector",
-        "Specifies the location of the data in the JSON string to parse into a table."
-    ],
     "jsonParser.rawJsonFilter": [
         "Raw Filter",
         "Comma-separated list of children, or * to match all."
+    ],
+    "jsonParser.selector": [
+        "selector",
+        "Specifies the location of the data in the JSON string to parse into a table."
     ],
     "jsonpLoader.autoRun": [
         "autoRun",
@@ -4034,7 +3890,7 @@
     "listFormElement.placeholderColor": [
         "Placeholder Text Color",
         "Specifies color of placeholder text."
-    ],    
+    ],
     "listFormElement.showArrow": [
         "Show Arrow",
         "Determines whether an arrow graphic appears in the component, indicating a drop&minus;down list."
@@ -4151,7 +4007,7 @@
         "timeRange",
         "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
     ],
-   "loadHistories.unifyTimezone": [
+    "loadHistories.unifyTimezone": [
         "Unify Timezone",
         ""
     ],
@@ -4211,7 +4067,7 @@
         "timeRange",
         "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
     ],
-   "loadHistory.unifyTimezone": [
+    "loadHistory.unifyTimezone": [
         "Unify Timezone",
         ""
     ],
@@ -4441,7 +4297,7 @@
     ],
     "mapGeoJSON.geoProperty": [
         "enabled",
-        "The geoJSON field containing the values to be used for styling. For example, the 'NAME' field in the GeoJSON data might contain the name of the country described by the polygon."
+        "The GeoJSON field containing the values to be used for styling. For example, the 'NAME' field in the GeoJSON data might contain the name of the country described by the polygon."
     ],
     "mapGeoJSON.layerType": [
         "enabled",
@@ -4881,7 +4737,7 @@
     ],
     "numberFormInput.alwaysShowSpinner": [
         "Always Show Spinner",
-        "By default, spinners are displayed ony when the user mouses over an input field. To always display spinners, set the property to TRUE."
+        "By default, spinners are displayed only when the user mouses over an input field. To always display spinners, set the property to TRUE."
     ],
     "numberFormInput.placeholderColor": [
         "Placeholder Color",
@@ -5247,10 +5103,6 @@
         "Hub Instance",
         "Binds the master block to child blocks, to enable values to be propagated."
     ],
-    "propertyHubModifier.hubMode ": [
-        "Hub Mode",
-        "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
-    ],
     "propertyHub.jsonInput": [
         "JSON Input",
         "Incoming JSON data."
@@ -5267,6 +5119,14 @@
         "Sync Property List",
         ""
     ],
+    "propertyHubModifier.0": [
+        "Field n",
+        "The name of the property that the field reads and writes."
+    ],
+    "propertyHubModifier.1": [
+        "Value n",
+        "The value of the field, which is read from and written to the property that is specified by field n, according to the hubMode setting."
+    ],
     "propertyHubModifier.hubInstance": [
         "Hub Instance",
         "Binds the master block to child blocks, to enable values to be propagated."
@@ -5275,13 +5135,9 @@
         "Sync Property List",
         "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
     ],
-    "propertyHubModifier.0": [
-        "Field n",
-        "The name of the property that the field reads and writes."
-    ],
-    "propertyHubModifier.1": [
-        "Value n",
-        "The value of the field, which is read from and written to the property that is specified by field n, according to the hubMode setting."
+    "propertyHubModifier.hubMode ": [
+        "Hub Mode",
+        "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
     ],
     "queryBinding.0": [
         "Case and Mapping",
@@ -5317,8 +5173,8 @@
     ],
     "rangeFormInput.alwaysShowSpinner": [
         "Always Show Spinner",
-        "By default, spinners are displayed ony when the user mouses over an input field. To always display spinners, set the property to TRUE."
-    ],    
+        "By default, spinners are displayed only when the user mouses over an input field. To always display spinners, set the property to TRUE."
+    ],
     "rangeFormInput.ticks": [
         "Ticks",
         "Specifies values where ticks appear on the range selector, as a list of comma&minus;separated values."
@@ -5527,13 +5383,13 @@
         "input",
         "Specifies any real number that you want to round."
     ],
-    "round.output": [
-        "output",
-        "Returns the rounded number."
-    ],
     "round.minPrecision": [
         "Minimum Precision",
         "The minimum number of decimal digits to be returned."
+    ],
+    "round.output": [
+        "output",
+        "Returns the rounded number."
     ],
     "round.precision": [
         "precision",
@@ -6089,7 +5945,7 @@
     ],
     "showLine": [
         "Show Line",
-        "SHow or hide axis line."
+        "Show or hide axis line."
     ],
     "showMonth": [
         "Show Month",
@@ -6261,7 +6117,7 @@
     ],
     "strLoader.errorGroup": [
         "Error Group",
-        "For error handling with catchError blocks, specifies the group for errors thwe occur when executing this block."
+        "For error handling with catchError blocks, specifies the group for errors that occur when executing this block."
     ],
     "strLoader.headers": [
         "headers",
@@ -6287,7 +6143,7 @@
         "onComplete",
         "Fires when the string finishes loading. "
     ],
-     "strLoader.onError": [
+    "strLoader.onError": [
         "onError",
         "Fires if an error occurs. "
     ],
@@ -6350,7 +6206,7 @@
     "strUploader.onError": [
         "onError",
         "Fires if an error occurs."
-    ],    
+    ],
     "strUploader.path": [
         "path",
         "Specifies where to upload the new file, relative to the root of this project. Must include a file name and extension.</p><p><ul><li>To save to the root, enter <code>&#47;&#60;filename&#62;.&#60;extension&#62;</code>.</li><li>To save to the <code>assets</code> folder, enter <code>assets&#47;&#60;filename&#62;.&#60;extension&#62;</code></li></ul>"
@@ -6715,13 +6571,13 @@
         "output",
         "Returns the rolled up table."
     ],
-    "tableRollup.roundTime": [
-        "roundTime",
-        "<p>Specifies whether to force all intervals to start at a round number. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup'>More information</a>)</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
-    ],
     "tableRollup.persistTs": [
         "Persist Timestamp",
         ""
+    ],
+    "tableRollup.roundTime": [
+        "roundTime",
+        "<p>Specifies whether to force all intervals to start at a round number. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup'>More information</a>)</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
     ],
     "tableRollup.valueColumn": [
         "valueColumn",
@@ -6873,7 +6729,7 @@
     ],
     "textFormInput.inputType": [
         "Input Type",
-        "Specifies the valid input type, or the expected input type.<ul><li><strong>Text</strong>: A single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong>: A single, properly formatted e&minus;mail address, or the empty string.</li><li><strong>URL</strong>: A single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong>: A single line of text. Line breaks are automatically removed. On mobile devices, the on&minus;screen keyboard is optimized for number entry.</li></ul>"
+        "Specifies the valid input type, or the expected input type.<ul><li><strong>Text</strong>: A single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong>: A single, properly formatted email address, or the empty string.</li><li><strong>URL</strong>: A single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong>: A single line of text. Line breaks are automatically removed. On mobile devices, the on&minus;screen keyboard is optimized for number entry.</li></ul>"
     ],
     "textFormInput.placeholder": [
         "Placeholder",
@@ -7025,7 +6881,7 @@
     ],
     "topology.colorField": [
         "Color Field",
-        "The table columproeprtyn that contains the color to be applied to the node."
+        "The table column property that contains the color to be applied to the node."
     ],
     "topology.hSpacing": [
         "Horizontal Spacing",
@@ -7331,6 +7187,10 @@
         "platform",
         "Retrieves the platform the browser is running on."
     ],
+    "webDocument.preventBackspace": [
+        "Prevent Backspace",
+        "Enable or disable navigation to previous page using the backspace key."
+    ],
     "webDocument.product": [
         "product",
         "Always returns \"Gecko,\" on any browser. It is not a reliable source of information."
@@ -7342,10 +7202,6 @@
     "webDocument.protocol": [
         "protocol",
         "Returns whether the project&apos;s URL begins with HTTP or HTTPS."
-    ],
-    "webDocument.preventBackspace": [
-        "Prevent Backspace",
-        "Enable or disable navigation to previous page using the backspace key."
     ],
     "webDocument.screenHeight": [
         "screenHeight",
@@ -7545,8 +7401,8 @@
     ],
     "zipUpload.filePaths": [
         "File Paths",
-        "A whilelist of specific files and folders to be uploaded. If no whiltelist is specified, all content is uploaded."
-    ],    
+        "A whitelist of specific files and folders to be uploaded. If no whitelist is specified, all content is uploaded."
+    ],
     "zipUpload.folder": [
         "folder",
         "Specifies the project folder where the files are to be inserted."
