@@ -891,6 +891,7 @@
   "Is Owner": "เป็นเจ้าของ",
   "is a template. Any change to a template will affect all the projects using this template.": "เป็นแม่แบบ การเปลี่ยนแปลงแม่แบบจะมีผลต่อโครงการทั้งหมดที่ใช้แม่แบบนี้",
   "Do not show again for this project": "ไม่ต้องแสดงอีกสำหรับโครงการนี้",
+  "Project is protected": "โครงการได้รับการป้องกัน",
   "Welcome": "ยินดีต้อนรับ",
   "Choose": "เลือก",
   "CREATE NEW": "สร้างใหม่",

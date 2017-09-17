@@ -891,6 +891,7 @@
   "Is Owner": "Eigenaar is",
   "is a template. Any change to a template will affect all the projects using this template.": "is een sjabloon. Wijzigingen in een sjabloon zal van invloed zijn op alle projecten met behulp van deze sjabloon.",
   "Do not show again for this project": "Niet meer weergeven voor dit project",
+  "Project is protected": "Project is beschermd",
   "Welcome": "Welkom",
   "Choose": "Kies",
   "CREATE NEW": "NIEUWE MAKEN",

@@ -891,6 +891,7 @@
   "Is Owner": "هو مالك",
   "is a template. Any change to a template will affect all the projects using this template.": "قالب. أي تغيير في قالب سيؤثر على كافة المشاريع التي تستخدم هذا القالب.",
   "Do not show again for this project": "لا تظهر مرة أخرى لهذا المشروع",
+  "Project is protected": "المشروع محمي",
   "Welcome": "مرحبا",
   "Choose": "اختر",
   "CREATE NEW": "إنشاء جديد",

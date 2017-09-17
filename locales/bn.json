@@ -891,6 +891,7 @@
   "Is Owner": "মালিক।",
   "is a template. Any change to a template will affect all the projects using this template.": "একটি টেমপ্লেট রয়েছে। কোন ধরনের টেমপ্লেট পরিবর্তনের এই টেমপ্লেট ব্যবহার করে প্রকল্প প্রভাবিত করবে।",
   "Do not show again for this project": "এই প্রকল্পের জন্য পুনরায় প্রদর্শন করবেন না",
+  "Project is protected": "প্রকল্পের সুরক্ষিত।",
   "Welcome": "আপনাকে স্বাগতম",
   "Choose": "চয়ন করুন",
   "CREATE NEW": "নতুন তৈরি করুন",

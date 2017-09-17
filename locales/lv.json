@@ -891,6 +891,7 @@
   "Is Owner": "Īpašnieks",
   "is a template. Any change to a template will affect all the projects using this template.": "ir veidne. Nekādas izmaiņas veidnē ietekmēs visus projektus, izmantojot šo veidni.",
   "Do not show again for this project": "Turpmāk nerādīt šo projektu",
+  "Project is protected": "Projekts ir aizsargāts",
   "Welcome": "laipni lūdzam",
   "Choose": "Izvēlieties",
   "CREATE NEW": "IZVEIDOT JAUNUS",

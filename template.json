@@ -891,6 +891,7 @@
   "Is Owner": "Is Owner",
   "is a template. Any change to a template will affect all the projects using this template.": "is a template. Any change to a template will affect all the projects using this template.",
   "Do not show again for this project": "Do not show again for this project",
+  "Project is protected": "Project is protected",
   "Welcome": "Welcome",
   "Choose": "Choose",
   "CREATE NEW": "CREATE NEW",

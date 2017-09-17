@@ -891,6 +891,7 @@
   "Is Owner": "Se mèt",
   "is a template. Any change to a template will affect all the projects using this template.": "se yon modèle. Yon chanjman pou yon modèle pral afekte tout pwojè itilize modèle sa a.",
   "Do not show again for this project": "Pa montre ankò pou pwojè sa a",
+  "Project is protected": "Pwojè an sekirite",
   "Welcome": "Byenvini",
   "Choose": "Chwazi",
   "CREATE NEW": "KREYE NOUVO",

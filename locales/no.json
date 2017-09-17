@@ -891,6 +891,7 @@
   "Is Owner": "Eier",
   "is a template. Any change to a template will affect all the projects using this template.": "er en mal. Endringer i mal vil påvirke alle prosjekter som bruker denne malen.",
   "Do not show again for this project": "Ikke Vis igjen for dette prosjektet",
+  "Project is protected": "Prosjektet er beskyttet",
   "Welcome": "velkommen",
   "Choose": "Velg",
   "CREATE NEW": "OPPRETTE NYE",

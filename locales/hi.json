@@ -891,6 +891,7 @@
   "Is Owner": "स्वामी है",
   "is a template. Any change to a template will affect all the projects using this template.": "एक टेम्पलेट है। किसी भी परिवर्तन करने के लिए एक टेम्पलेट इस टेम्पलेट का उपयोग करके सभी परियोजनाओं को प्रभावित करेगा।",
   "Do not show again for this project": "इस परियोजना के लिए फिर से न दिखाएँ",
+  "Project is protected": "प्रोजेक्ट सुरक्षित है",
   "Welcome": "स्वागत है",
   "Choose": "चुनें",
   "CREATE NEW": "नया बनाएँ",

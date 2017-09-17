@@ -891,6 +891,7 @@
   "Is Owner": "Sahibi",
   "is a template. Any change to a template will affect all the projects using this template.": "bir şablondur. Herhangi bir değişiklik için bir şablon bu şablonu kullanan tüm projeler etkiler.",
   "Do not show again for this project": "Bu proje için bir daha gösterme",
+  "Project is protected": "Proje korumalı",
   "Welcome": "Hoş geldiniz",
   "Choose": "Seçin",
   "CREATE NEW": "YENİ OLUŞTUR",

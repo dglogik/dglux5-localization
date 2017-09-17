@@ -891,6 +891,7 @@
   "Is Owner": "Huwa sid",
   "is a template. Any change to a template will affect all the projects using this template.": "huwa template. Kull bidla li template se jaffettwa l-proġetti kollha li jużaw dan il-mudell (template).",
   "Do not show again for this project": "Ma jurux mill-ġdid għal dan il-proġett",
+  "Project is protected": "Il-proġett huwa protett",
   "Welcome": "Merħba",
   "Choose": "Agħżel",
   "CREATE NEW": "OĦLOQ ĠDID",

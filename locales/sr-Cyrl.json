@@ -891,6 +891,7 @@
   "Is Owner": "Власник",
   "is a template. Any change to a template will affect all the projects using this template.": "је предложак. Свака промена у предложак ће утицати на све пројекте који су помоћу овог предлошка.",
   "Do not show again for this project": "Не приказуј поново за овај пројекат",
+  "Project is protected": "Пројекат је заштићен.",
   "Welcome": "Добро дошли",
   "Choose": "Одаберите",
   "CREATE NEW": "КРЕИРАЈ НОВИ",

@@ -891,6 +891,7 @@
   "Is Owner": "Er ejeren",
   "is a template. Any change to a template will affect all the projects using this template.": "er en skabelon. Enhver ændring af en skabelon vil påvirke alle projekter ved hjælp af denne skabelon.",
   "Do not show again for this project": "Vis ikke igen for dette projekt",
+  "Project is protected": "Projektet er beskyttet",
   "Welcome": "Velkommen",
   "Choose": "Vælg",
   "CREATE NEW": "OPRET EN NY",

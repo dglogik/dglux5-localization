@@ -891,6 +891,7 @@
   "Is Owner": "",
   "is a template. Any change to a template will affect all the projects using this template.": "         ",
   "Do not show again for this project": "   ",
+  "Project is protected": " ",
   "Welcome": "",
   "Choose": "",
   "CREATE NEW": " ",

@@ -891,6 +891,7 @@
   "Is Owner": "És propietari",
   "is a template. Any change to a template will affect all the projects using this template.": "és una plantilla. Qualsevol canvi a una plantilla afectarà tots els projectes utilitzant aquesta plantilla.",
   "Do not show again for this project": "No tornis a mostrar aquest projecte",
+  "Project is protected": "Projecte està protegit",
   "Welcome": "Benvingut",
   "Choose": "Triar",
   "CREATE NEW": "CREAR NOVES",

@@ -891,6 +891,7 @@
   "Is Owner": "Mae perchennog",
   "is a template. Any change to a template will affect all the projects using this template.": "Mae templed. Bydd unrhyw newid i'r templed yn effeithio ar bob prosiect gan ddefnyddio'r templed hwn.",
   "Do not show again for this project": "Peidio â dangos eto ar gyfer y prosiect hwn",
+  "Project is protected": "Mae'r prosiect yn cael eu hamddiffyn",
   "Welcome": "Yn croesawu",
   "Choose": "Dewis",
   "CREATE NEW": "CREU NEWYDD",

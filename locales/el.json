@@ -891,6 +891,7 @@
   "Is Owner": "Είναι ιδιοκτήτης",
   "is a template. Any change to a template will affect all the projects using this template.": "είναι ένα πρότυπο. Οποιαδήποτε αλλαγή σε ένα πρότυπο θα επηρεάσει όλα τα έργα χρησιμοποιώντας αυτό το πρότυπο.",
   "Do not show again for this project": "Να μην εμφανιστεί ξανά για αυτό το έργο",
+  "Project is protected": "Το έργο προστατεύεται",
   "Welcome": "Καλώς όρισες",
   "Choose": "Επιλέξτε",
   "CREATE NEW": "ΔΗΜΙΟΥΡΓΊΑ ΝΈΩΝ",

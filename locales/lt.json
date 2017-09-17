@@ -891,6 +891,7 @@
   "Is Owner": "Savininkas",
   "is a template. Any change to a template will affect all the projects using this template.": "yra šablonas. Bet kokį šabloną turės įtakos visiems projektams, naudojant šį šabloną.",
   "Do not show again for this project": "Neberodyti šio projekto",
+  "Project is protected": "Projektas yra apsaugotas",
   "Welcome": "sveikas atvykęs",
   "Choose": "Pasirinkti",
   "CREATE NEW": "SUKURTI NAUJAS",

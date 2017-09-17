@@ -891,6 +891,7 @@
   "Is Owner": "是所有者",
   "is a template. Any change to a template will affect all the projects using this template.": "是一个模板。对模板的任何更改将会影响使用此模板的所有项目。",
   "Do not show again for this project": "不要再显示此项目",
+  "Project is protected": "项目处于保护状态",
   "Welcome": "欢迎",
   "Choose": "选择",
   "CREATE NEW": "创建新的",

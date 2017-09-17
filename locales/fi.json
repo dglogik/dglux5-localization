@@ -891,6 +891,7 @@
   "Is Owner": "On omistaja",
   "is a template. Any change to a template will affect all the projects using this template.": "on malli. Mallin muutoksia vaikuttaa kaikkien projektien tällä mallilla.",
   "Do not show again for this project": "Älä Näytä uudelleen tämän projektin",
+  "Project is protected": "Projekti on suojattu",
   "Welcome": "Tervetuloa",
   "Choose": "Valitse",
   "CREATE NEW": "LUO UUSI",

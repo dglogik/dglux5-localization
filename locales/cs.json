@@ -891,6 +891,7 @@
   "Is Owner": "Je vlastníkem",
   "is a template. Any change to a template will affect all the projects using this template.": "je šablona. Jakákoliv změna šablony ovlivní všechny projekty, které pomocí této šablony.",
   "Do not show again for this project": "Znovu nezobrazovat pro tento projekt",
+  "Project is protected": "Projekt je chráněna",
   "Welcome": "Vítej",
   "Choose": "Zvolte",
   "CREATE NEW": "VYTVOŘIT NOVÝ",

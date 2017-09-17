@@ -891,6 +891,7 @@
   "Is Owner": ". הוא הבעלים",
   "is a template. Any change to a template will affect all the projects using this template.": "היא תבנית. כל שינוי תבנית תשפיע על כל הפרוייקטים באמצעות תבנית זו.",
   "Do not show again for this project": "אל תציג שוב עבור פרויקט זה",
+  "Project is protected": "פרוייקט מוגן",
   "Welcome": "ברוך הבא",
   "Choose": "לבחור",
   "CREATE NEW": "ליצור חדשות",

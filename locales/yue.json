@@ -891,6 +891,7 @@
   "Is Owner": "是所有者",
   "is a template. Any change to a template will affect all the projects using this template.": "係一個糢闆。 對糢闆嘅任何更改將會影響使用此糢闆嘅所有項目。",
   "Do not show again for this project": "唔好再顯示此項目",
+  "Project is protected": "項目處於保護狀態",
   "Welcome": "歡迎",
   "Choose": "選擇",
   "CREATE NEW": "創建新的",

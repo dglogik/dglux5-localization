@@ -891,6 +891,7 @@
   "Is Owner": "Является владельцем",
   "is a template. Any change to a template will affect all the projects using this template.": "представляет собой шаблон. Любые изменения в шаблон будет влиять на все проекты, используя этот шаблон.",
   "Do not show again for this project": "Больше не выводить для этого проекта",
+  "Project is protected": "Проект защищен",
   "Welcome": "Добро пожаловать",
   "Choose": "Выбрать",
   "CREATE NEW": "СОЗДАТЬ НОВЫЙ",

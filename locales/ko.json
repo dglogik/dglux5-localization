@@ -891,6 +891,7 @@
   "Is Owner": "소유자",
   "is a template. Any change to a template will affect all the projects using this template.": "서식 파일이입니다. 서식 파일을 변경에는이 서식 파일을 사용 하 여 모든 프로젝트에 적용 됩니다.",
   "Do not show again for this project": "이 프로젝트에 대 한 다시 표시 하지 않음",
+  "Project is protected": "프로젝트 보호",
   "Welcome": "환영 합니다",
   "Choose": "선택",
   "CREATE NEW": "새로 만들기",

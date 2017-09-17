@@ -891,6 +891,7 @@
   "Is Owner": "Pemilik",
   "is a template. Any change to a template will affect all the projects using this template.": "adalah sebuah template. Setiap perubahan terhadap template akan mempengaruhi semua proyek yang menggunakan template ini.",
   "Do not show again for this project": "Jangan Tampilkan lagi untuk proyek ini",
+  "Project is protected": "Proyek dilindungi",
   "Welcome": "Selamat datang",
   "Choose": "Memilih",
   "CREATE NEW": "MEMBUAT BARU",

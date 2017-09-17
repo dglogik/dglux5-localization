@@ -891,6 +891,7 @@
   "Is Owner": "所有者であります。",
   "is a template. Any change to a template will affect all the projects using this template.": "テンプレートです。テンプレートへの変更は、このテンプレートを使用してすべてのプロジェクトに反映されます。",
   "Do not show again for this project": "このプロジェクトの今後を表示しません。",
+  "Project is protected": "プロジェクトが保護されています。",
   "Welcome": "ようこそ",
   "Choose": "選択してください。",
   "CREATE NEW": "新規作成します。",

@@ -891,6 +891,7 @@
   "Is Owner": "Tulajdonosa",
   "is a template. Any change to a template will affect all the projects using this template.": "van egy sablont. A sablon módosítása hatással lesz a sablont használó valamennyi projekt.",
   "Do not show again for this project": "Ne jelenjen meg újra ez a projekt",
+  "Project is protected": "Projekt védett",
   "Welcome": "üdvözlet",
   "Choose": "Válassza a",
   "CREATE NEW": "ÚJ LÉTREHOZÁSA",

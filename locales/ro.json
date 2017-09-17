@@ -891,6 +891,7 @@
   "Is Owner": "Este proprietarul",
   "is a template. Any change to a template will affect all the projects using this template.": "este un şablon. Orice modificare adusă unui şablon va afecta toate proiectele folosind acest şablon.",
   "Do not show again for this project": "Arată din nou pentru acest proiect",
+  "Project is protected": "Proiectul este protejat",
   "Welcome": "bun venit",
   "Choose": "Alege",
   "CREATE NEW": "CREAREA DE NOI",

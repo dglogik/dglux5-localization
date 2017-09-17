@@ -891,6 +891,7 @@
   "Is Owner": "Yog tus tswv tsev",
   "is a template. Any change to a template will affect all the projects using this template.": "yog ib tug template. Pauv ib yam tshiab ib template yuav raug rau txhua tus tej yaam num siv no template.",
   "Do not show again for this project": "Tsis tau qhia ntxiv rau qhov project no",
+  "Project is protected": "Ib qhov yog kev tiv thaiv",
   "Welcome": "Txais tos",
   "Choose": "Xaiv",
   "CREATE NEW": "UA TSHIAB",

@@ -891,6 +891,7 @@
   "Is Owner": "Ist Eigentümer",
   "is a template. Any change to a template will affect all the projects using this template.": "ist eine Vorlage. Änderungen an einer Vorlage wird auf alle Projekte, die mit dieser Vorlage auswirken.",
   "Do not show again for this project": "Für dieses Projekt nicht mehr anzeigen",
+  "Project is protected": "Projekt ist geschützt",
   "Welcome": "Willkommen",
   "Choose": "Wählen Sie",
   "CREATE NEW": "NEU ERSTELLEN",

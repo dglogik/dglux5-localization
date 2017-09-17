@@ -891,6 +891,7 @@
   "Is Owner": "مالک است",
   "is a template. Any change to a template will affect all the projects using this template.": "الگو است. هر گونه تغییر در قالب پروژه ها با استفاده از این الگو تاثیر می گذارد.",
   "Do not show again for this project": "برای این پروژه دوباره نشان ندهید",
+  "Project is protected": "پروژه حفاظت شده است",
   "Welcome": "خوش آمدی",
   "Choose": "را انتخاب کنید",
   "CREATE NEW": "ایجاد جدید",

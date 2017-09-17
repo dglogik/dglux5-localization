@@ -891,6 +891,7 @@
   "Is Owner": "Là chủ sở hữu",
   "is a template. Any change to a template will affect all the projects using this template.": "là một mẫu. Bất kỳ thay đổi một bản mẫu sẽ ảnh hưởng đến tất cả các dự án sử dụng mẫu này.",
   "Do not show again for this project": "Không hiện lại cho dự án này",
+  "Project is protected": "Dự án được bảo vệ",
   "Welcome": "Chào mừng",
   "Choose": "Chọn",
   "CREATE NEW": "TẠO MỚI",

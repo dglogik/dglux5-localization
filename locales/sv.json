@@ -891,6 +891,7 @@
   "Is Owner": "Är ägare",
   "is a template. Any change to a template will affect all the projects using this template.": "är en mall. Ändringar i en mall kommer att påverka alla de projekt som använder den här mallen.",
   "Do not show again for this project": "Visa inte igen för detta projekt",
+  "Project is protected": "Projektet är skyddad",
   "Welcome": "Välkommen",
   "Choose": "Välj",
   "CREATE NEW": "SKAPA NYA",
