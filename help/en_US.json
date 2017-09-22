@@ -2195,6 +2195,10 @@
         "Symbol",
         "Optionally, this property can be used to specify a symbol to represent the tree nodes, instead of the default tree styling."
     ],
+    "divTree.openNodeOnClick": [
+        "Open Node On Click",
+        "When enabled, the disclosure icon is not displayed and users can open/close node by clicking on its area."
+    ],
     "divTreeGrid.columnFilter": [
         "Column Filter",
         "Specifies the columns for a filter, as a comma&minus;separated list of table column names. Use the <strong>Filter Type</strong> property to specify whether these columns are shown or hidden. The order of columns in a whitelist filter overrides the column order in the Outline and the source table."
