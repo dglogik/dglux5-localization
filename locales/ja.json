@@ -296,6 +296,7 @@
   "One Level Selection": "1 つのレベルの選択",
   "Full Row Selection": "行全体の選択",
   "Item Focusable": "フォーカスを設定できる項目",
+  "Open Node On Click": "クリックして開いているノード",
   "Items": "アイテム",
   "Rows": "行",
   "Columns": "列",
