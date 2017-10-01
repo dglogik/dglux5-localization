@@ -832,6 +832,7 @@
   "Load File": "Laden bestand",
   "Loading...": "Bezig met laden...",
   "Loading project dataflow": "Project dataflow laden",
+  "Sort by Name": "Sorteren op naam",
   "project dataflow saved": "project dataflow opgeslagen",
   "project dataflow not saved: $err": "dataflow niet opgeslagen project: $err",
   "Blocks": "Blokken",

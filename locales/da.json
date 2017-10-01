@@ -832,6 +832,7 @@
   "Load File": "Indlæs fil",
   "Loading...": "Indlæser...",
   "Loading project dataflow": "Lastning projekt dataflow",
+  "Sort by Name": "Sorter efter navn",
   "project dataflow saved": "projekt dataflow gemt",
   "project dataflow not saved: $err": "projekt dataflow gemmes ikke: $err",
   "Blocks": "Blokke",

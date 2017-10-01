@@ -832,6 +832,7 @@
   "Load File": "Faili ya kupakia",
   "Loading...": "Inapakia...",
   "Loading project dataflow": "Kupakia mradi dataflow",
+  "Sort by Name": "Panga kwa jina",
   "project dataflow saved": "mradi dataflow kuokolewa",
   "project dataflow not saved: $err": "mradi dataflow si kuokolewa: $err",
   "Blocks": "Vitalu",

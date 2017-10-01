@@ -832,6 +832,7 @@
   "Load File": "File ng load",
   "Loading...": "Loading...",
   "Loading project dataflow": "Nilo-load ang dataflow sa proyekto",
+  "Sort by Name": "Mag-ayos ayon sa pangalan",
   "project dataflow saved": "proyekto sa dataflow maligtas",
   "project dataflow not saved: $err": "dataflow hindi ligtas ng proyekto: $err",
   "Blocks": "Bloke",

@@ -832,6 +832,7 @@
   "Load File": "Učitavanje datoteka",
   "Loading...": "Učitavanje...",
   "Loading project dataflow": "Učitavanje projekta ne znam",
+  "Sort by Name": "Poredaj po nazivu",
   "project dataflow saved": "projekt ne znam spremiti",
   "project dataflow not saved: $err": "projekt ne znam ne spremaju: $err",
   "Blocks": "Blokova",

@@ -832,6 +832,7 @@
   "Load File": "Įkelti failą",
   "Loading...": "Pakrovimo...",
   "Loading project dataflow": "Įkeliant projekto eBiuras",
+  "Sort by Name": "Rūšiuoti pagal pavadinimą",
   "project dataflow saved": "Išsaugota projekto eBiuras",
   "project dataflow not saved: $err": "projektas neišsaugotas eBiuras: $err",
   "Blocks": "Blokai",

@@ -832,6 +832,7 @@
   "Load File": "ফাইল লোড",
   "Loading...": "লোড করা হচ্ছে...",
   "Loading project dataflow": "প্রকল্পের dataflow লোড করা হচ্ছে",
+  "Sort by Name": "নাম অনুযায়ী সাজান",
   "project dataflow saved": "dataflow সংরক্ষণ প্রকল্প",
   "project dataflow not saved: $err": "dataflow সংরক্ষণ প্রকল্প: $err",
   "Blocks": "ব্লক",

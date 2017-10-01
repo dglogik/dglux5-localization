@@ -832,6 +832,7 @@
   "Load File": "Last inn fil",
   "Loading...": "Laster inn...",
   "Loading project dataflow": "Lasting prosjektet dataflyt",
+  "Sort by Name": "Sorter etter navn",
   "project dataflow saved": "prosjektet dataflyt lagret",
   "project dataflow not saved: $err": "prosjektet dataflyt ikke lagret: $err",
   "Blocks": "Blokker",

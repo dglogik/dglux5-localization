@@ -832,6 +832,7 @@
   "Load File": "Load ntaub ntawv",
   "Loading...": "Chaw thau khoom...",
   "Loading project dataflow": "Chaw thau khoom qhov project dataflow",
+  "Sort by Name": "Tsi yog lub npe",
   "project dataflow saved": "yog ib qhov dataflow rua",
   "project dataflow not saved: $err": "picture of Kathy tsis rua dataflow: $err",
   "Blocks": "Blocks",

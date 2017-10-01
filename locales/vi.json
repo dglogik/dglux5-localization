@@ -832,6 +832,7 @@
   "Load File": "Tải tập tin",
   "Loading...": "Đang tải...",
   "Loading project dataflow": "Lực nâng của dự án dataflow",
+  "Sort by Name": "Sắp xếp theo tên",
   "project dataflow saved": "dự án dataflow lưu",
   "project dataflow not saved: $err": "dự án dataflow không lưu: $err",
   "Blocks": "Khối",

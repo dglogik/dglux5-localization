@@ -832,6 +832,7 @@
   "Load File": "Laadi fail",
   "Loading...": "Laadimine...",
   "Loading project dataflow": "Peale projekti dataflow",
+  "Sort by Name": "Sorteeri nime järgi",
   "project dataflow saved": "Salvestatud projekti andmevoo",
   "project dataflow not saved: $err": "projekti ei salvestata andmevoo: $err",
   "Blocks": "Plokid",

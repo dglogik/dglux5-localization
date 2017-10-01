@@ -832,6 +832,7 @@
   "Load File": "Načíst soubor",
   "Loading...": "Probíhá načítání...",
   "Loading project dataflow": "Načítání projektu toku",
+  "Sort by Name": "Seřadit podle názvu",
   "project dataflow saved": "tok dat projektu uložen",
   "project dataflow not saved: $err": "projekt tok není uloženo: $err",
   "Blocks": "Bloky",

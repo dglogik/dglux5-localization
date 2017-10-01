@@ -832,6 +832,7 @@
   "Load File": "پرونده بار",
   "Loading...": "در حال بارگذاری...",
   "Loading project dataflow": "بارگذاری پروژه جریان داده",
+  "Sort by Name": "مرتب سازی بر اساس نام",
   "project dataflow saved": "جریان داده پروژه ذخیره",
   "project dataflow not saved: $err": "جریان داده ذخیره پروژه: $err",
   "Blocks": "بلوک",

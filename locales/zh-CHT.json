@@ -832,6 +832,7 @@
   "Load File": "載入檔",
   "Loading...": "正在載入...",
   "Loading project dataflow": "載入專案資料流程",
+  "Sort by Name": "按名稱排序",
   "project dataflow saved": "保存專案資料流程",
   "project dataflow not saved: $err": "專案未保存的資料流程︰ $err",
   "Blocks": "塊",

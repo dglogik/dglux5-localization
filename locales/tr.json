@@ -832,6 +832,7 @@
   "Load File": "Yükleme dosyası",
   "Loading...": "Yükleniyor...",
   "Loading project dataflow": "Proje dataflow yükleniyor",
+  "Sort by Name": "Ada göre sırala",
   "project dataflow saved": "Proje dataflow kurtardı",
   "project dataflow not saved: $err": "dataflow kaydedilmemiş proje: $err",
   "Blocks": "Bloklar",

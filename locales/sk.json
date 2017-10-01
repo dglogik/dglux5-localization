@@ -832,6 +832,7 @@
   "Load File": "Nahrať súbor",
   "Loading...": "Načítava sa...",
   "Loading project dataflow": "Načítanie projektu dataflow",
+  "Sort by Name": "Zoradiť podľa názvu",
   "project dataflow saved": "projekt dataflow uložené",
   "project dataflow not saved: $err": "projekt dataflow neuloží: $err",
   "Blocks": "Bloky",

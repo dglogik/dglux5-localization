@@ -832,6 +832,7 @@
   "Load File": "โหลดไฟล์",
   "Loading...": "กำลังโหลด...",
   "Loading project dataflow": "โหลดโครงการ dataflow",
+  "Sort by Name": "เรียงตามชื่อ",
   "project dataflow saved": "โครงการบันทึก dataflow",
   "project dataflow not saved: $err": "โครงการ dataflow ไม่บันทึก: $err",
   "Blocks": "บล็อก",

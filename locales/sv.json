@@ -832,6 +832,7 @@
   "Load File": "Ladda fil",
   "Loading...": "Laddar...",
   "Loading project dataflow": "Laddar projekt dataflöde",
+  "Sort by Name": "Sortera efter namn",
   "project dataflow saved": "projektet dataflöde Sparad",
   "project dataflow not saved: $err": "projektet dataflöde sparas inte: $err",
   "Blocks": "Block",

@@ -832,6 +832,7 @@
   "Load File": "Αρχείο φορτίων",
   "Loading...": "Φόρτωση...",
   "Loading project dataflow": "Φόρτωση του έργου ροής δεδομένων",
+  "Sort by Name": "Ταξινόμηση κατά όνομα",
   "project dataflow saved": "έργο dataflow Αποθηκεύτηκε",
   "project dataflow not saved: $err": "έργου ροής δεδομένων δεν αποθηκεύονται: $err",
   "Blocks": "Μπλοκ",

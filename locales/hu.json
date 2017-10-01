@@ -832,6 +832,7 @@
   "Load File": "Fájl betöltése",
   "Loading...": "Betöltése...",
   "Loading project dataflow": "Projekt adatfolyam betöltése",
+  "Sort by Name": "Név szerinti rendezés",
   "project dataflow saved": "mentett Project-adatfolyam",
   "project dataflow not saved: $err": "adatfolyam nem mentett Project: $err",
   "Blocks": "Blokkok",

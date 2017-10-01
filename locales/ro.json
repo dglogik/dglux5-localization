@@ -832,6 +832,7 @@
   "Load File": "Încărcare fişier",
   "Loading...": "Incarcare...",
   "Loading project dataflow": "Proiect dataflow de încărcare",
+  "Sort by Name": "Sorteaza dupa nume",
   "project dataflow saved": "proiect dataflow salvat",
   "project dataflow not saved: $err": "dataflow nu salvate de proiect: $err",
   "Blocks": "Blocuri",

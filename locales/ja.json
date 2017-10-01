@@ -832,6 +832,7 @@
   "Load File": "ファイルの読み込み",
   "Loading...": "読み込んでいます.",
   "Loading project dataflow": "プロジェクトのデータ フローの読み込み",
+  "Sort by Name": "名前順で並べ替え",
   "project dataflow saved": "保存されたプロジェクト データ フロー",
   "project dataflow not saved: $err": "プロジェクトの保存されていないデータ フロー: $err",
   "Blocks": "ブロック",

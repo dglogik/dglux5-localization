@@ -832,6 +832,7 @@
   "Load File": "Ielādēt failu",
   "Loading...": "Notiek ielāde...",
   "Loading project dataflow": "Iekraušanas projekta dataflow",
+  "Sort by Name": "Kārtot pēc nosaukuma",
   "project dataflow saved": "saglabāta projekta dataflow",
   "project dataflow not saved: $err": "projekts netiek saglabātas dataflow: $err",
   "Blocks": "Bloki",

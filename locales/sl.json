@@ -832,6 +832,7 @@
   "Load File": "Obremenitev datoteko",
   "Loading...": "Nalaganje...",
   "Loading project dataflow": "Nalaganje projekta podatkovni tok",
+  "Sort by Name": "Razvrsti po imenu",
   "project dataflow saved": "projekt podatkovni tok, shranjene",
   "project dataflow not saved: $err": "projekt podatkovni tok, ki se ne shranijo: $err",
   "Blocks": "Bloki",

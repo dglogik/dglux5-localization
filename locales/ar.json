@@ -832,6 +832,7 @@
   "Load File": "تحميل ملف",
   "Loading...": "تحميل...",
   "Loading project dataflow": "تحميل المشروع تدفق البيانات",
+  "Sort by Name": "فرز حسب الاسم",
   "project dataflow saved": "مشروع تدفق البيانات المحفوظة",
   "project dataflow not saved: $err": "تدفق البيانات التي لم يتم حفظ المشروع: $err",
   "Blocks": "كتل",

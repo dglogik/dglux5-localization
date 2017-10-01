@@ -832,6 +832,7 @@
   "Load File": "Load File",
   "Loading...": "Memuat...",
   "Loading project dataflow": "Loading proyek dataflow",
+  "Sort by Name": "Urut berdasarkan nama",
   "project dataflow saved": "Proyek dataflow disimpan",
   "project dataflow not saved: $err": "Proyek dataflow yang tidak disimpan: $err",
   "Blocks": "Blok",

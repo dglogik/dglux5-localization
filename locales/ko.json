@@ -832,6 +832,7 @@
   "Load File": "로드 파일",
   "Loading...": "로드 중입니다...",
   "Loading project dataflow": "로드 프로젝트 데이터 흐름",
+  "Sort by Name": "이름으로 정렬",
   "project dataflow saved": "프로젝트를 저장 하는 데이터 흐름",
   "project dataflow not saved: $err": "저장 되지 않은 데이터 흐름 프로젝트: $err",
   "Blocks": "블록",

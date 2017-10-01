@@ -832,6 +832,7 @@
   "Load File": "Il-fajl tat-tagħbija",
   "Loading...": "Qed jillowdja...",
   "Loading project dataflow": "Proġett dataflow tat-tagħbija",
+  "Sort by Name": "Issortja bl-isem",
   "project dataflow saved": "dataflow proġett issejvjat",
   "project dataflow not saved: $err": "dataflow mhux issejvjat tal-proġett: $err",
   "Blocks": "Blokki",

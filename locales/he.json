@@ -832,6 +832,7 @@
   "Load File": "טעינת קובץ",
   "Loading...": "טוען...",
   "Loading project dataflow": "טעינת פרויקט dataflow",
+  "Sort by Name": "מיין לפי שם",
   "project dataflow saved": "dataflow פרוייקט הצלת",
   "project dataflow not saved: $err": "פרויקט dataflow לא נשמר: $err",
   "Blocks": "רחובות",

@@ -832,6 +832,7 @@
   "Load File": "Заредете файл",
   "Loading...": "Зареждане...",
   "Loading project dataflow": "Зареждане на проекта да се създаде поток",
+  "Sort by Name": "Сортирай по име",
   "project dataflow saved": "проекта да се създаде поток записани",
   "project dataflow not saved: $err": "да се създаде поток не записани на проекта: $err",
   "Blocks": "Блокове",

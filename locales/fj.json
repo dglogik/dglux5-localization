@@ -832,6 +832,7 @@
   "Load File": "Faile ni icolacola",
   "Loading...": "Vakavodoki ni...",
   "Loading project dataflow": "Vakavodoki tiko na cakacaka ni dataflow",
+  "Sort by Name": "Tuvai ni yaca",
   "project dataflow saved": "dataflow ni cakacaka ni vakabulai",
   "project dataflow not saved: $err": "vakaraitaka na dataflow sega ni vakabulai: $err",
   "Blocks": "Buloko",

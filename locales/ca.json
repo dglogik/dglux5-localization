@@ -832,6 +832,7 @@
   "Load File": "Fitxer de càrrega",
   "Loading...": "Carregant...",
   "Loading project dataflow": "Projecte usos de càrrega",
+  "Sort by Name": "Ordenar per nom",
   "project dataflow saved": "projecte usos salvat",
   "project dataflow not saved: $err": "usos no salvat del projecte: $err",
   "Blocks": "Blocs",

@@ -832,6 +832,7 @@
   "Load File": "Llwytho ffeil",
   "Loading...": "Wrthi'n llwytho...",
   "Loading project dataflow": "Llwytho prosiect dataflow",
+  "Sort by Name": "Trefnu yn ôl enw",
   "project dataflow saved": "dataflow prosiect arbed",
   "project dataflow not saved: $err": "prosiect dataflow harbed ni: $err",
   "Blocks": "Blociau",

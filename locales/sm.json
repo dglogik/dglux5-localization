@@ -832,6 +832,7 @@
   "Load File": "Faila o uta",
   "Loading...": "Utaina o...",
   "Loading project dataflow": "Utaina o galuega faatino o le dataflow",
+  "Sort by Name": "Faavasega i le igoa",
   "project dataflow saved": "dataflow o le galuega faatino o le faaolaina",
   "project dataflow not saved: $err": "galuega faatino o le dataflow o le faaolaina: $err",
   "Blocks": "Poloka",

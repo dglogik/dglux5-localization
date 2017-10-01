@@ -832,6 +832,7 @@
   "Load File": "Cargar archivo",
   "Loading...": "Cargando...",
   "Loading project dataflow": "Carga de proyecto de flujo de datos",
+  "Sort by Name": "Ordenar por nombre",
   "project dataflow saved": "proyecto de flujo de datos guardado",
   "project dataflow not saved: $err": "proyecto de flujo de datos no guardado: $err",
   "Blocks": "Bloques de",

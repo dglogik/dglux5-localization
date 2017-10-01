@@ -832,6 +832,7 @@
   "Load File": "Laai lêer",
   "Loading...": "Laai tans...",
   "Loading project dataflow": "Laai van projek dataflow",
+  "Sort by Name": "Rangskik volgens naam",
   "project dataflow saved": "projek dataflow gestoor",
   "project dataflow not saved: $err": "projek dataflow gestoor nie: $err",
   "Blocks": "Blokke",

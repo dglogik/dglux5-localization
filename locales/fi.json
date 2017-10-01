@@ -832,6 +832,7 @@
   "Load File": "Lataa tiedosto",
   "Loading...": "Ladataan...",
   "Loading project dataflow": "Ladataan projektin dataflow",
+  "Sort by Name": "Nimen mukaan",
   "project dataflow saved": "projektin dataflow tallennettu",
   "project dataflow not saved: $err": "hankkeen dataflow ei tallenneta: $err",
   "Blocks": "Lohkot",
