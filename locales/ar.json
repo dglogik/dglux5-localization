@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "طبقة جويسون ماببوكس",
   "Mapbox Draw Layer": "طبقة رسم ماببوكس",
   "Mapbox Tile Layer": "طبقة بلاط ماببوكس",
+  "Mapbox Group": "مجموعة ماببوكس",
   "Mapbox Hexbin Layer": "طبقة هيكسبين ماببوكس",
   "Topology": "طوبولوجيا",
   "IFrame": "IFrame",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON 层",
   "Mapbox Draw Layer": "Mapbox 绘制层",
   "Mapbox Tile Layer": "Mapbox 平铺层",
+  "Mapbox Group": "Mapbox 组",
   "Mapbox Hexbin Layer": "Mapbox Hexbin 层",
   "Topology": "拓扑结构",
   "IFrame": "IFrame",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox couche de GeoJSON",
   "Mapbox Draw Layer": "Tirage de Mapbox couche",
   "Mapbox Tile Layer": "Mapbox carreleur",
+  "Mapbox Group": "Groupe Mapbox",
   "Mapbox Hexbin Layer": "Mapbox Hexbin couche",
   "Topology": "Topologie",
   "IFrame": "IFrame",

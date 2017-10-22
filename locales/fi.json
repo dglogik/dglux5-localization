@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON kerros",
   "Mapbox Draw Layer": "Mapbox Draw kerros",
   "Mapbox Tile Layer": "Mapbox laatta kerros",
+  "Mapbox Group": "Mapbox ryhmä",
   "Mapbox Hexbin Layer": "Mapbox Hexbin kerros",
   "Topology": "Topologia",
   "IFrame": "IFrame",

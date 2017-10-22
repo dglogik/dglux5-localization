@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON لایه",
   "Mapbox Draw Layer": "لایه Mapbox قرعه کشی",
   "Mapbox Tile Layer": "لایه Mapbox کاشی",
+  "Mapbox Group": "گروه Mapbox",
   "Mapbox Hexbin Layer": "Mapbox Hexbin لایه",
   "Topology": "توپولوژی",
   "IFrame": "IFrame",

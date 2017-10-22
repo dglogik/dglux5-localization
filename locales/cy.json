@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Haen GeoJSON Mapbox",
   "Mapbox Draw Layer": "Tynnu Mapbox haen",
   "Mapbox Tile Layer": "Haen teils Mapbox",
+  "Mapbox Group": "Grŵp Mapbox",
   "Mapbox Hexbin Layer": "Haen Hexbin Mapbox",
   "Topology": "Topoleg",
   "IFrame": "IFrame",

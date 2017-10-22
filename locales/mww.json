@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON txheej",
   "Mapbox Draw Layer": "Kos Mapbox txheej",
   "Mapbox Tile Layer": "Txheej pobzeb Mapbox",
+  "Mapbox Group": "Mapbox Group",
   "Mapbox Hexbin Layer": "Mapbox Hexbin txheej",
   "Topology": "Topology",
   "IFrame": "IFrame",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON шар",
   "Mapbox Draw Layer": "Шар Mapbox нічия",
   "Mapbox Tile Layer": "Mapbox плитка шар",
+  "Mapbox Group": "Mapbox Група",
   "Mapbox Hexbin Layer": "Mapbox Hexbin шар",
   "Topology": "Топологія",
   "IFrame": "IFrame",

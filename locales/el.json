@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON στρώμα",
   "Mapbox Draw Layer": "Mapbox κλήρωση στρώμα",
   "Mapbox Tile Layer": "Στρώση πλακιδίων Mapbox",
+  "Mapbox Group": "Mapbox ομάδα",
   "Mapbox Hexbin Layer": "Mapbox Hexbin στρώμα",
   "Topology": "Τοπολογία",
   "IFrame": "IFrame",

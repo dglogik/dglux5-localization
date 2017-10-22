@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON kiht",
   "Mapbox Draw Layer": "Mapbox Joonista kiht",
   "Mapbox Tile Layer": "Mapbox plaatide kiht",
+  "Mapbox Group": "Mapbox rühm",
   "Mapbox Hexbin Layer": "Mapbox Hexbin kiht",
   "Topology": "Topoloogia",
   "IFrame": "IFrame",

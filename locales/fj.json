@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Cake ni GeoJSON ni Mapbox",
   "Mapbox Draw Layer": "Mapbox toro cake",
   "Mapbox Tile Layer": "Cake ni Tile ni Mapbox",
+  "Mapbox Group": "Ilawalawa ni Mapbox",
   "Mapbox Hexbin Layer": "Cake ni Hexbin ni Mapbox",
   "Topology": "Topology",
   "IFrame": "Iframe na ivakarau",

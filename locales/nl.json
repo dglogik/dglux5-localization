@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON laag",
   "Mapbox Draw Layer": "Mapbox Draw laag",
   "Mapbox Tile Layer": "Tegel van de Mapbox laag",
+  "Mapbox Group": "Mapbox groep",
   "Mapbox Hexbin Layer": "Mapbox Hexbin laag",
   "Topology": "Topologie",
   "IFrame": "IFrame",

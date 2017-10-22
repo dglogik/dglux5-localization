@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON 層",
   "Mapbox Draw Layer": "Mapbox 描画層",
   "Mapbox Tile Layer": "Mapbox タイル レイヤー",
+  "Mapbox Group": "Mapbox グループ",
   "Mapbox Hexbin Layer": "Mapbox Hexbin 層",
   "Topology": "トポロジ",
   "IFrame": "IFrame",

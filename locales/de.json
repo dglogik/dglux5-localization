@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "MapBox GeoJSON Schicht",
   "Mapbox Draw Layer": "MapBox Draw Schicht",
   "Mapbox Tile Layer": "MapBox Kachelebene",
+  "Mapbox Group": "MapBox Gruppe",
   "Mapbox Hexbin Layer": "MapBox Hexbin Schicht",
   "Topology": "Topologie",
   "IFrame": "IFrame",

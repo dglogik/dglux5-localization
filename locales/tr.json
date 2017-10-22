@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON katman",
   "Mapbox Draw Layer": "Mapbox çizim katmanı",
   "Mapbox Tile Layer": "Mapbox döşeme katmanı",
+  "Mapbox Group": "Mapbox grubu",
   "Mapbox Hexbin Layer": "Mapbox Hexbin katman",
   "Topology": "Topoloji",
   "IFrame": "IFRAME",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON Layer",
   "Mapbox Draw Layer": "Gumuhit ng Mapbox Layer",
   "Mapbox Tile Layer": "Pitak ng Mapbox Layer",
+  "Mapbox Group": "Grupo ng Mapbox",
   "Mapbox Hexbin Layer": "Mapbox Hexbin Layer",
   "Topology": "Topology",
   "IFrame": "IFrame",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "'Otu GeoJSON 'o e Mapbox",
   "Mapbox Draw Layer": "Ta 'o e Mapbox pe",
   "Mapbox Tile Layer": "Fakatoka 'o e taila 'o e Mapbox",
+  "Mapbox Group": "Kulupu 'o e Mapbox",
   "Mapbox Hexbin Layer": "'Otu Hexbin 'o e Mapbox",
   "Topology": "Topology",
   "IFrame": "IFrame",

@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "mapbox geojson patlh",
   "Mapbox Draw Layer": "mapbox tu'lu'be' patlh",
   "Mapbox Tile Layer": "mapbox Tile patlh",
+  "Mapbox Group": "mapbox ghom",
   "Mapbox Hexbin Layer": "mapbox hexbin patlh",
   "Topology": "topology",
   "IFrame": "iframe",

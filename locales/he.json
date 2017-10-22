@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON שכבה",
   "Mapbox Draw Layer": "צייר Mapbox שכבה",
   "Mapbox Tile Layer": "שכבה Mapbox אריח",
+  "Mapbox Group": "קבוצה Mapbox",
   "Mapbox Hexbin Layer": "Mapbox Hexbin שכבה",
   "Topology": "טופולוגיה",
   "IFrame": "IFrame",

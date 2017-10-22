@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "ชั้น GeoJSON Mapbox",
   "Mapbox Draw Layer": "Mapbox วาดเลเยอร์",
   "Mapbox Tile Layer": "ชั้นกระเบื้อง Mapbox",
+  "Mapbox Group": "กลุ่ม Mapbox",
   "Mapbox Hexbin Layer": "ชั้น Hexbin Mapbox",
   "Topology": "โทโพโลยี",
   "IFrame": "IFrame",

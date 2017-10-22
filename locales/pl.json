@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "MapBox GeoJSON warstwy",
   "Mapbox Draw Layer": "Losowanie MapBox warstwy",
   "Mapbox Tile Layer": "Warstwa kafli MapBox",
+  "Mapbox Group": "MapBox grupy",
   "Mapbox Hexbin Layer": "MapBox Hexbin warstwy",
   "Topology": "Topologii",
   "IFrame": "IFrame",

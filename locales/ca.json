@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON capa",
   "Mapbox Draw Layer": "Sorteig Mapbox capa",
   "Mapbox Tile Layer": "Capa Mapbox de rajola",
+  "Mapbox Group": "Mapbox grup",
   "Mapbox Hexbin Layer": "Mapbox Hexbin capa",
   "Topology": "Topologia",
   "IFrame": "IFrame",

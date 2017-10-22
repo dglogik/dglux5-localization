@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON réteg",
   "Mapbox Draw Layer": "Mapbox rajz Layer",
   "Mapbox Tile Layer": "Mapbox réteg",
+  "Mapbox Group": "Mapbox csoport",
   "Mapbox Hexbin Layer": "Mapbox Hexbin réteg",
   "Topology": "Topológia",
   "IFrame": "IFrame",

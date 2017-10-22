@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Strat de GeoJSON Mapbox",
   "Mapbox Draw Layer": "Mapbox Draw strat",
   "Mapbox Tile Layer": "Strat de placi de Mapbox",
+  "Mapbox Group": "Grupa de Mapbox",
   "Mapbox Hexbin Layer": "Strat de Hexbin Mapbox",
   "Topology": "Topologie",
   "IFrame": "IFrame",

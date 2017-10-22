@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "MapBox-a GeoJSON sloj",
   "Mapbox Draw Layer": "MapBox-a izvući sloj",
   "Mapbox Tile Layer": "MapBox-a crijep sloj",
+  "Mapbox Group": "MapBox-a grupa",
   "Mapbox Hexbin Layer": "MapBox-a Hexbin sloj",
   "Topology": "Topologija",
   "IFrame": "IFrame",

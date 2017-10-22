@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Lapisan GeoJSON Mapbox",
   "Mapbox Draw Layer": "Lapisan cabutan Mapbox",
   "Mapbox Tile Layer": "Lapisan jubin Mapbox",
+  "Mapbox Group": "Kumpulan Mapbox",
   "Mapbox Hexbin Layer": "Lapisan Hexbin Mapbox",
   "Topology": "Topologi",
   "IFrame": "IFrame",

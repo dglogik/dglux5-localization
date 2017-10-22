@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Lớp GeoJSON Mapbox",
   "Mapbox Draw Layer": "Mapbox vẽ lớp",
   "Mapbox Tile Layer": "Gạch Mapbox lớp",
+  "Mapbox Group": "Mapbox nhóm",
   "Mapbox Hexbin Layer": "Lớp Hexbin Mapbox",
   "Topology": "Tô pô",
   "IFrame": "Khung nội tuyến",

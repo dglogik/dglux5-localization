@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON sluoksnis",
   "Mapbox Draw Layer": "Mapbox atkreipti sluoksnis",
   "Mapbox Tile Layer": "Mapbox plytelių sluoksnį",
+  "Mapbox Group": "Mapbox grupė",
   "Mapbox Hexbin Layer": "Mapbox Hexbin sluoksnis",
   "Topology": "Topologija",
   "IFrame": "IFrame",

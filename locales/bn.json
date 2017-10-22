@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON স্তর",
   "Mapbox Draw Layer": "Mapbox আঁকা স্তর",
   "Mapbox Tile Layer": "টালি Mapbox স্তর",
+  "Mapbox Group": "Mapbox গ্রুপ",
   "Mapbox Hexbin Layer": "Mapbox Hexbin স্তর",
   "Topology": "বিন্যাসক্রম",
   "IFrame": "ফ্রেম",

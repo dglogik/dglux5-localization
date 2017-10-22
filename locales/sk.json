@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "MapBox GeoJSON Augmented vrstvy",
   "Mapbox Draw Layer": "MapBox čerpať vrstvy",
   "Mapbox Tile Layer": "MapBox dlaždíc vrstvy",
+  "Mapbox Group": "MapBox skupiny",
   "Mapbox Hexbin Layer": "MapBox Hexbin vrstvu",
   "Topology": "Topológia",
   "IFrame": "IFrame",

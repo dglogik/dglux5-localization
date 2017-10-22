@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Camada de GeoJSON Mapbox",
   "Mapbox Draw Layer": "Mapbox Draw Layer",
   "Mapbox Tile Layer": "Camada de telha Mapbox",
+  "Mapbox Group": "Grupo Mapbox",
   "Mapbox Hexbin Layer": "Camada de Hexbin de Mapbox",
   "Topology": "Topologia",
   "IFrame": "IFrame",

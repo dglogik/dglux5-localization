@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "  ",
   "Mapbox Draw Layer": "  ",
   "Mapbox Tile Layer": "  ",
+  "Mapbox Group": " ",
   "Mapbox Hexbin Layer": "  ",
   "Topology": "",
   "IFrame": "",

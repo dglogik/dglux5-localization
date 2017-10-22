@@ -659,6 +659,7 @@
   "Mapbox GeoJSON Layer": "Mapbox GeoJSON lag",
   "Mapbox Draw Layer": "Mapbox-uavgjort lag",
   "Mapbox Tile Layer": "Mapbox flis-lag",
+  "Mapbox Group": "Mapbox gruppe",
   "Mapbox Hexbin Layer": "Mapbox Hexbin lag",
   "Topology": "Topologi",
   "IFrame": "IFrame",
