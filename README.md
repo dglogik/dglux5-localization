@@ -1,6 +1,6 @@
-# DGLux5 Localization
+# Atrius Localization
 
-DGLux5 Translation Dictionaries
+Atrius Translation Dictionaries
 
 ## Contributing
 
