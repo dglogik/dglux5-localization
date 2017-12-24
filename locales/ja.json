@@ -351,6 +351,7 @@
   "Column Series": "連載コラム",
   "Bar Series": "バーのシリーズ",
   "Interpolate Values": "補間値",
+  "Enable Hovered Index": "ホバー時のインデックスを有効にします。",
   "Series Animation": "シリーズのアニメーション",
   "Interpolate": "補間します。",
   "Slide": "スライド",

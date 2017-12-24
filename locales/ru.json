@@ -351,6 +351,7 @@
   "Column Series": "Колонки серии",
   "Bar Series": "Бар серии",
   "Interpolate Values": "Интерполировать значения",
+  "Enable Hovered Index": "Включить изменившегося индекс",
   "Series Animation": "Серии анимации",
   "Interpolate": "Интерполяция",
   "Slide": "Слайд",

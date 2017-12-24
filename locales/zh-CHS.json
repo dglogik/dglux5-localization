@@ -351,6 +351,7 @@
   "Column Series": "列系列",
   "Bar Series": "酒吧系列",
   "Interpolate Values": "插入值",
+  "Enable Hovered Index": "启用悬停索引",
   "Series Animation": "系列动画",
   "Interpolate": "内插",
   "Slide": "幻灯片",

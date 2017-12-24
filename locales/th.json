@@ -351,6 +351,7 @@
   "Column Series": "ชุดคอลัมน์",
   "Bar Series": "บาร์ชุด",
   "Interpolate Values": "ช่องค่า",
+  "Enable Hovered Index": "เปิดใช้งานดัชนีแบบโฮเวอร์",
   "Series Animation": "ชุดภาพเคลื่อนไหว",
   "Interpolate": "ช่อง",
   "Slide": "ภาพนิ่ง",
