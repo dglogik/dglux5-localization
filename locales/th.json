@@ -61,6 +61,7 @@
   "Current Year": "ปีปัจจุบัน",
   "Selection Mode": "โหมดการเลือก",
   "Disable Selection of Future Dates": "ปิดใช้งานตัวเลือกวันที่ในอนาคต",
+  "Disable Selection of Past Dates": "ปิดใช้งานตัวเลือกของวันที่ผ่านมา",
   "Month Names": "ชื่อเดือน",
   "DOW Names": "ชื่อดาว",
   "First Day of Week": "วันแรกของสัปดาห์",
