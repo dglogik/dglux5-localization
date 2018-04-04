@@ -407,6 +407,18 @@
         "value",
         "Sets and returns the value of this Boolean block."
     ],
+    "boolEditor.FALSELabel": [
+        "FALSE Label",
+        ""
+    ],
+    "boolEditor.placeLabelRight": [
+        "Place Label Right",
+        ""
+    ],
+    "boolEditor.TRUELabel": [
+        "TRUE Label",
+        ""
+    ],
     "border": [
         "Border",
         "Specifies the stroke color or border image for outlining this component."
@@ -1621,7 +1633,7 @@
     ],
     "dateFormat.format": [
         "format",
-        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format'>More information)</a>"
+        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information)</a>"
     ],
     "dateFormat.input": [
         "input",
@@ -1701,7 +1713,7 @@
     ],
     "daterange.format": [
         "Date Format String",
-        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range'>More information</a>)."
+        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information</a>)."
     ],
     "dateRange.format": [
         "format",
@@ -1877,7 +1889,7 @@
     ],
     "datetime.year": [
         "year",
-        "Specifies the year."
+        "Specifies the year. Can include one to four digits."
     ],
     "datetimeAxis.alignLabelsToUnits": [
         "Align Labels To Units",
@@ -1922,6 +1934,10 @@
     "dbQuery.enabled": [
         "enabled",
         "<p>Specifies whether the query block is enabled.</p><p><strong>TRUE</strong>: The query runs when this block is invoked.</p><p><strong>FALSE</strong>: Nothing happens when this block is invoked.</p>"
+    ],
+    "dbQuery.error": [
+        "error",
+        "Returns the error message, if any."
     ],
     "dbQuery.interval": [
         "interval",
@@ -1990,6 +2006,10 @@
     "deselectChildOnClick": [
         "Deselect Child On Click",
         "If the container's selection mode is single&minus;select, this property enables the user to deselect a selected item by single&minus;clicking it."
+    ],
+    "deviceId": [
+        "Device Id",
+        ""
     ],
     "deviceMotion.accelerationGX": [
         "Acceleration GX",
@@ -2495,6 +2515,14 @@
         "enableOutput",
         "Enable population of the repeater output table."
     ],
+    "enumLabels": [
+        "Enum Labels",
+        ""
+    ],
+    "enums": [
+        "Enums",
+        ""
+    ],
     "error": [
         "Error",
         "Returns the error message, if any."
@@ -2509,7 +2537,7 @@
     ],
     "eventGate.logOrder": [
         "logOrder",
-        "<p>Specifies how events are logged.</p><p><strong>none</strong>: Events are not logged.</p><p><strong>firstOccurance</strong>: The first event for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its first update.</p><p><strong>lastOccurence</strong>: The last input change for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its most recent update.</p><p><strong>all</strong>: All input changes are logged, beginning with a reset and ending when all fields have been updated at least once. The <strong>order</strong> property returns a list of input indexes in the order that the inputs were changed.</p>"
+        "<p>Specifies how events are logged.</p><p><strong>none</strong>: Events are not logged.</p><p><strong>firstOccurence</strong>: The first event for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its first update.</p><p><strong>lastOccurence</strong>: The last input change for each <strong>input <em>n</em></strong> is recorded, beginning with a reset and ending when all fields have been updated at least once. The listener remembers the order in which each input received its most recent update.</p><p><strong>all</strong>: All input changes are logged, beginning with a reset and ending when all fields have been updated at least once. The <strong>order</strong> property returns a list of input indexes in the order that the inputs were changed.</p>"
     ],
     "eventGate.onFinish": [
         "onFinish",
@@ -2811,6 +2839,18 @@
         "Formatted",
         ""
     ],
+    "frameMsgBroadcaster.messageGroup": [
+        "messageGroup",
+        ""
+    ],
+    "frameMsgReceiver.messageGroups": [
+        "messageGroups",
+        ""
+    ],
+    "frameMsgReceiver.onMessage": [
+        "onMessage",
+        ""
+    ],
     "geoLocation.altitude": [
         "Altitude",
         "Returns a double representing the position's altitude in meters, relative to sea level, or null if the implementation cannot provide the data."
@@ -2866,6 +2906,10 @@
     "getNode.enum": [
         "enum",
         "Returns the names of the enum options, if applicable. For a boolean value, this column holds the strings associated with each value, such as \"On\" and \"Off\"."
+    ],
+    "getNode.error": [
+        "error",
+        "Returns the error string, if applicable."
     ],
     "getNode.hasChildren": [
         "hasChildren",
@@ -3315,6 +3359,10 @@
         "matchRegExp",
         "Specifies a regular expression that the message must match."
     ],
+    "iframeMessage.message": [
+        "message",
+        "Holds the message to send, if it is a JSON string. Use this property when sending a message from Solution Builder."
+    ],
     "iframeMessage.origin": [
         "origin",
         "The origin of the window posting the message. (<a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage'>More information)</a>"
@@ -3369,7 +3417,7 @@
     ],
     "input": [
         "Input",
-        "TEST"
+        ""
     ],
     "inputOutOfRange": [
         "Input Out Of Range",
@@ -3394,6 +3442,10 @@
     "invokeAction.getTable": [
         "Get Table",
         "True if action loads table."
+    ],
+    "isBorder": [
+        "Is Border",
+        ""
     ],
     "isRepeaterMode": [
         "Is Repeater Mode",
@@ -3634,6 +3686,10 @@
     "keyboardEventData.ctrl": [
         "ctrl",
         "For an onKeyUp event, returns whether Ctrl is still being held, if it was held with the last key typed. For an OnKeyDown event, returns whether Ctrl was the last key down."
+    ],
+    "keyboardEventData.event": [
+        "event",
+        "Returns the name of the event type that triggers this block, such as onKeyDown."
     ],
     "keyboardEventData.filter": [
         "filter",
@@ -4175,6 +4231,10 @@
         "Bounds West",
         ""
     ],
+    "map.cloudsLayer": [
+        "Clouds Layer",
+        ""
+    ],
     "map.dataField": [
         "Data Field",
         ""
@@ -4223,9 +4283,17 @@
         "Min Zoom",
         "Specifies the smallest zoom level permitted for the map."
     ],
+    "map.temperatureUnit": [
+        "Temperature Unit",
+        ""
+    ],
     "map.trafficLayer": [
         "Traffic Layer",
         "Specifies whether to show the Google Maps Traffic Layer on the map."
+    ],
+    "map.weatherLayer": [
+        "Weather Layer",
+        ""
     ],
     "map.zoom": [
         "Zoom",
@@ -4647,6 +4715,10 @@
         "dragSource",
         "Returns the ID of the component that is dropped onto this component. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this component.</li><li>Enable the <strong>draggable</strong> Advanced property for the component to be dragged.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both components.</li><li>Make sure that the <strong>dragGroup</strong> Advanced property is the same for both components.</li></ul>"
     ],
+    "mouseEventData.event": [
+        "event",
+        "Returns the event type that this listener heard."
+    ],
     "mouseEventData.fileName": [
         "fileName",
         "Returns the name of the file that is dropped onto this component. To use this property, you must do the following:<ul><li>Enable the <strong>droppable</strong> Advanced property for this component.</li><li>Set the <strong>dropGroup</strong> Advanced property for this component to <code>file_png</code>. You can also replace <code>png</code> with another file extension.</li></ul>"
@@ -4739,6 +4811,18 @@
         "value",
         "Sets and returns the value of this Number block or Constant block."
     ],
+    "numberSliderEditor.postfix": [
+        "Postfix",
+        ""
+    ],
+    "numberSliderEditor.presicion": [
+        "Precision",
+        ""
+    ],
+    "numberSliderEditor.valueScale": [
+        "Value Scale",
+        ""
+    ],
     "numberFormInput.alwaysShowSpinner": [
         "Always Show Spinner",
         "By default, spinners are displayed only when the user mouses over an input field. To always display spinners, set the property to TRUE."
@@ -4802,6 +4886,14 @@
     "openDashboard.self": [
         "Self",
         "If the action page is inside a Page Include component, opens the dashboard in the Page Include component. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
+    ],
+    "openWeb.0": [
+        "Name 0",
+        ""
+    ],
+    "openWeb.1": [
+        "Value 0",
+        ""
     ],
     "or.0": [
         "input n",
@@ -5203,6 +5295,10 @@
         "SVG Defs",
         "<p>Specifies the &#60;defs&#62; component for the repeated SVG component. The following example specifies a style for the repeated SVG rectangle. The style includes a green fill and a black border stroke.</p><p><strong>Example</strong>: &#60;style&#62;rect&#123;fill:green;stroke:black;&#125;&#60;/style&#62;</p>"
     ],
+    "readOnly": [
+        "Read Only",
+        ""
+    ],
     "realtimeRecorder.0": [
         "name n",
         "Specifies a column name for the <strong>value <em>n</em></strong> values in the output table."
@@ -5319,6 +5415,10 @@
         "clientWidth",
         "Returns the width of the contents of this component, in pixels, when the component is resized. It includes padding, but it does not include the border or vertical scroll bar."
     ],
+    "resizeEventData.event": [
+        "event",
+        "Fires when the input event occurs and displays the name of the event type. It can be bound to an event."
+    ],
     "resizeEventData.input": [
         "input",
         "Specifies the event type to listen for. By default, it is the onResize event for this component."
@@ -5338,6 +5438,10 @@
     "reverseZIndex": [
         "Reverse Z Index",
         "For containers with horizontal or vertical layout that contain overlapping components, reverses the overlapped components."
+    ],
+    "revert": [
+        "Revert",
+        ""
     ],
     "right": [
         "Right",
@@ -5803,6 +5907,10 @@
         "active",
         "<p>Determines whether the block is currently listening.</p><p><strong>TRUE</strong>: The output properties of the block update whenever the user scrolls.</p><p><strong>FALSE</strong>: The output properties of the block do not update.</p>"
     ],
+    "scrollEventData.event": [
+        "event",
+        "Returns the type of event that triggered this block."
+    ],
     "scrollEventData.input": [
         "input",
         "Specifies the event on which the scroll listener starts reporting data. By default, <strong>input</strong> is an instance of onScrollEvent, so the listener returns data whenever the parent is scrolled. Note that the onScrollEvent property does not exist for all component types."
@@ -5923,6 +6031,18 @@
         "Service",
         "Service from which to get data."
     ],
+    "setState.0": [
+        "Path 0",
+        ""
+    ],
+    "setState.1": [
+        "Value 0",
+        ""
+    ],
+    "setState.2": [
+        "Original 0",
+        ""
+    ],
     "shadows": [
         "Shadows",
         "Attaches one or more shadows to this component."
@@ -5930,6 +6050,10 @@
     "shear": [
         "Shear",
         "Specifies the angle for a 3D shear transformation."
+    ],
+    "showBinding": [
+        "Show Binding",
+        ""
     ],
     "showDataTips": [
         "Show Datatips",
@@ -5978,6 +6102,18 @@
     "sin.output": [
         "input",
         "Returns the sine of the input."
+    ],
+    "snapInterval": [
+        "Snap Interval",
+        ""
+    ],
+    "snapSpeed": [
+        "Snap Speed",
+        ""
+    ],
+    "solidOnly": [
+        "Solid Only",
+        ""
     ],
     "spectrumSeries.dateField": [
         "Date Field",
@@ -6259,6 +6395,10 @@
         "output",
         "Returns the result of subtracting the input values."
     ],
+    "supportSeparateBorder": [
+        "Support Separate Border",
+        ""
+    ],
     "svg:text.textAnchor": [
         "Text Anchor",
         "Specifies how text is aligned to the SVG component."
@@ -6302,6 +6442,10 @@
     "symbol.symbol": [
         "Symbol",
         "Specifies which symbol is displayed in this symbol component. To use a symbol that is defined in the currently-open project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol. By default, this is the only property for a symbol. To add properties to a symbol, open the Edit Properties dialog for that symbol."
+    ],
+    "tabIndex": [
+        "Tab Index",
+        ""
     ],
     "table": [
         "Table",
@@ -6687,6 +6831,10 @@
         "input",
         "Returns the tangent of the input."
     ],
+    "target": [
+        "Target",
+        "Specifies the browser window where the content is to be displayed."
+    ],
     "text": [
         "Text",
         "Sets or reflects the string that appears in this text component."
@@ -6730,6 +6878,10 @@
     "textEditor.displayAsPassword": [
         "Display As Password",
         "Display user-entered text as asterisks rather than clear text."
+    ],
+    "textEditor.ignoreDefaultStyle": [
+        "Ignore Default Style",
+        ""
     ],
     "textFormInput.inputType": [
         "Input Type",
@@ -6874,6 +7026,10 @@
     "tooltip": [
         "Tooltip",
         "Specifies the tooltip text to appear when the user mouses over this component. Tooltips use the default tooltip appearance for the user's browser and operating system. Tooltips appear only when the Mouse Enabled property is TRUE for the component and its parents."
+    ],
+    "tooltipHelpMode": [
+        "Tooltip Help Mode",
+        ""
     ],
     "top": [
         "Top",
