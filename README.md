@@ -14,6 +14,6 @@ To contribute hand-made translations, follow the following process:
 
 ## How DGLux generates translations
 
-1. Looks for translation in "overrides/*(language)*.json", if it finds it use that
-2. Looks for translation in "locales/*(language)*.json"
+1. Looks for translation in "overrides/**(language)**.json", if it finds it use that
+2. Looks for translation in "locales/**(language)**.json"
   * This will be auto-translated from Microsoft Cognative Services. Do **not** edit this file directly, it will be overwritten by our CI build.
