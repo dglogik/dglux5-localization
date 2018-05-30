@@ -1,0 +1,17 @@
+{
+  "Fill": "Farbe",
+  "No Fill": "Keine Füllfarbe",
+  "Solid Color": "Einfarbig",
+  "Web Palette": "Web-Palette",
+  "Repeat": "Wiederholung",
+  "Radial Gradient": "Kreisförmiger Farbverlauf",
+  "No Tiling": "Nicht kacheln",
+  "Tiling": "Kacheln",
+  "Scaling": "Skalieren",
+  "No Tiling or Scaling": "Kein kacheln oder skalieren",
+  "Horiz Alignment": "Horiz Ausrichtung",
+  "Vert Alignment": "Vert Ausrichtung",
+  "Centre": "Mitte",
+  "Top": "Oben",
+  "Hue": "Farbton"
+}
