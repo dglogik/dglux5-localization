@@ -13,7 +13,7 @@
   "Bold": "Kühn",
   "Underline": "Unterstreichung",
   "Left": "Links",
-  "Center": "Zentrum",
+  "Center": "Mitte",
   "Right": "Rechts",
   "Top": "Oben",
   "Middle": "Mitte",
@@ -215,6 +215,8 @@
   "HSV": "HSV",
   "Color": "Farbe",
   "Gradient": "Farbverlauf",
+  "Linear Gradient": "Linearer Farbverlauf",
+  "Radial Gradient": "Kreisförmiger Farbverlauf",
   "No Fill": "Keine Füllfarbe",
   "Solid Color": "Einfarbig",
   "Image": "Bild",
@@ -961,6 +963,7 @@
   "Project Properties": "Projekteigenschaften",
   "Template": "Vorlage",
   "Version": "Version",
+  "Load Locale in Viewer": "Last Gebietsschema im Viewer",
   "Load External Configuration File": "Externe Konfiguration-Datei laden",
   "Who has access": "Wer hat Zugang",
   "Enter username": "Geben Sie Benutzernamen",
@@ -1767,8 +1770,6 @@
   "Closest side": "Nächste Seite",
   "Farthest side": "Am weitesten entfernten Seite",
   "Closest corner": "Nächste Ecke",
-  "Linear Gradient": "Linearer Farbverlauf",
-  "Radial Gradient": "Kreisförmiger Farbverlauf",
   "Dotted solid double dashed": "Gepunktete Solid doppelt gestrichelt",
   "Dotted solid": "Gepunktete solid",
   "Distant light": "Fernen Licht",
@@ -1777,6 +1778,5 @@
   "Spread": "Verbreitung",
   "Save File With Log": "Speichern Sie die Datei mit Log",
   "New view": "Neue Ansicht",
-  "Remote Dataflow Editor by DGLogik": "Entfernten Datenfluss-Editor von DGLogik",
-  "Centre": "Mitte"
+  "Remote Dataflow Editor by DGLogik": "Entfernten Datenfluss-Editor von DGLogik"
 }
