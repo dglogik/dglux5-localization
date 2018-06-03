@@ -1459,6 +1459,7 @@
   "Longitude Field": "经度字段",
   "Marker": "标记",
   "Circle Radius Field": "圆半径字段",
+  "Circle Opacity Field": "圆圈不透明度字段",
   "Circle Color Field": "圆的颜色字段",
   "Icon": "图标",
   "Icon Field": "图标字段",

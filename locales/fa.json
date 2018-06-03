@@ -1459,6 +1459,7 @@
   "Longitude Field": "حوزه جغرافیایی",
   "Marker": "نشانگر",
   "Circle Radius Field": "میدان شعاع دایره",
+  "Circle Opacity Field": "دایره زمینه تاری",
   "Circle Color Field": "دایره رنگ زمینه",
   "Icon": "آیکون",
   "Icon Field": "نماد میدان",

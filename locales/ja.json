@@ -1459,6 +1459,7 @@
   "Longitude Field": "[経度] フィールド",
   "Marker": "マーカー",
   "Circle Radius Field": "円半径フィールド",
+  "Circle Opacity Field": "サークル不透明度フィールド",
   "Circle Color Field": "サークル カラー フィールド",
   "Icon": "アイコン",
   "Icon Field": "アイコンのフィールド",

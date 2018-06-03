@@ -1459,6 +1459,7 @@
   "Longitude Field": "Γεωγραφικό μήκος πεδίου",
   "Marker": "Μαρκαδόρος",
   "Circle Radius Field": "Κύκλος ακτίνας πεδίο",
+  "Circle Opacity Field": "Πεδίο αδιαφάνεια κύκλος",
   "Circle Color Field": "Κύκλο χρώμα πεδίο",
   "Icon": "Το εικονίδιο",
   "Icon Field": "Εικονίδιο πεδίο",

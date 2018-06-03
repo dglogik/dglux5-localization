@@ -1459,6 +1459,7 @@
   "Longitude Field": "Champ de saisie de la longitude",
   "Marker": "Marqueur",
   "Circle Radius Field": "Champ de rayon de cercle",
+  "Circle Opacity Field": "Champ d’opacité cercle",
   "Circle Color Field": "Champ de couleur de cercle",
   "Icon": "Icône",
   "Icon Field": "Icône de champ",

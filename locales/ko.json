@@ -1459,6 +1459,7 @@
   "Longitude Field": "경도 분야",
   "Marker": "표식",
   "Circle Radius Field": "원 반지름 필드",
+  "Circle Opacity Field": "동그라미 불투명도 필드",
   "Circle Color Field": "동그라미 색상 필드",
   "Icon": "아이콘",
   "Icon Field": "아이콘 필드",

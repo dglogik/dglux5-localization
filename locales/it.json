@@ -1459,6 +1459,7 @@
   "Longitude Field": "Campo di longitudine",
   "Marker": "Marcatore",
   "Circle Radius Field": "Campo di raggio del cerchio",
+  "Circle Opacity Field": "Campo di opacità del cerchio",
   "Circle Color Field": "Campo di colore del cerchio",
   "Icon": "Icona",
   "Icon Field": "Campo dell'icona",

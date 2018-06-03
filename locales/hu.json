@@ -1459,6 +1459,7 @@
   "Longitude Field": "Hosszúság mező",
   "Marker": "Marker",
   "Circle Radius Field": "Kör Radius mező",
+  "Circle Opacity Field": "Kör átlátszatlanság mezőben",
   "Circle Color Field": "Kör szín mező",
   "Icon": "Ikon",
   "Icon Field": "Ikon a mező",

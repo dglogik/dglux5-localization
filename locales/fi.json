@@ -1459,6 +1459,7 @@
   "Longitude Field": "Pituusaste kenttä",
   "Marker": "Merkki",
   "Circle Radius Field": "Ympyrän säde kentästä",
+  "Circle Opacity Field": "Ympyrä peittävyys-kenttään",
   "Circle Color Field": "Ympyrän väri-kentän",
   "Icon": "Kuvake",
   "Icon Field": "Kuvakekenttä",

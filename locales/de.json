@@ -1459,6 +1459,7 @@
   "Longitude Field": "Längengrad-Feld",
   "Marker": "Marker",
   "Circle Radius Field": "Kreis-Radius-Feld",
+  "Circle Opacity Field": "Kreis Deckkraft Feld",
   "Circle Color Field": "Feld \"Farbe\" Kreis",
   "Icon": "Symbol",
   "Icon Field": "Icon-Feld",

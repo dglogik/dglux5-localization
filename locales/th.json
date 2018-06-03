@@ -1459,6 +1459,7 @@
   "Longitude Field": "ลองจิจูดฟิลด์",
   "Marker": "เครื่องหมาย",
   "Circle Radius Field": "ฟิลด์รัศมีวงกลม",
+  "Circle Opacity Field": "วงกลมทึบฟิลด์",
   "Circle Color Field": "ฟิลด์สีวงกลม",
   "Icon": "ไอคอน",
   "Icon Field": "ไอคอนฟิลด์",

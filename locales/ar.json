@@ -1459,6 +1459,7 @@
   "Longitude Field": "حقل الطول",
   "Marker": "علامة",
   "Circle Radius Field": "دائرة نصف قطرها الميدانية",
+  "Circle Opacity Field": "دائرة التعتيم الحقل",
   "Circle Color Field": "دائرة حقل اللون",
   "Icon": "رمز",
   "Icon Field": "رمز الحقل",

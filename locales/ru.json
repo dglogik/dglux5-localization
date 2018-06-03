@@ -1459,6 +1459,7 @@
   "Longitude Field": "Долгота поле",
   "Marker": "Маркер",
   "Circle Radius Field": "Поле Радиус окружности",
+  "Circle Opacity Field": "Поле Непрозрачность круг",
   "Circle Color Field": "Поле цвет круга",
   "Icon": "Значок",
   "Icon Field": "Значок поля",
