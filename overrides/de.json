@@ -13,5 +13,12 @@
   "Vert Alignment": "Vert Ausrichtung",
   "Center": "Mitte",
   "Top": "Oben",
-  "Hue": "Farbton"
+  "Hue": "Farbton",
+  "Relative": "Relativ",
+  "current": "aktuell",
+  "previous": "vorherig",
+  "days": "Tage",
+  "This Month": "Dieser Monat",
+  "Last Month": "Letzter Monat",
+  "This Year": "Dieses Jahr",
 }
