@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "شامل داشبورد \"${عنوان}\" تغییر ذخیره نشده است. به هر حال نزدیک شده است؟",
   "Dashboard '${fileName}' was updated. Reload?": "صفحهٔ \"${نام}\" به روز شد. بازنگری این صفحه?",
   "Confirm reload": "تایید بازنگری این صفحه",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "شامل داشبورد \"${عنوان}\" تغییر ذخیره نشده است. به هر حال بارگذاری مجدد?",
   "File": "دریافت فایل",
   "New File": "فایل جدید",
   "Recent": "اخیر",

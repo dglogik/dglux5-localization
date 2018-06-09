@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Dashboard '${title}' indeholder ikke er ændret. Lukke alligevel?",
   "Dashboard '${fileName}' was updated. Reload?": "Dashboard '${fileName}' blev opdateret. Genindlæse?",
   "Confirm reload": "Bekræfte reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Dashboard '${title}' indeholder ikke er ændret. Genindlæse alligevel?",
   "File": "Fil",
   "New File": "Ny fil",
   "Recent": "De seneste",

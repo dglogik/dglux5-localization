@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Pano '${başlık}' içeren değiştirilen kaydedilmemiş. Yine de kapatmak?",
   "Dashboard '${fileName}' was updated. Reload?": "Pano '${dosya adı}' güncelleştirildi. Yeniden yükle?",
   "Confirm reload": "Yeniden Onayla",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Pano '${başlık}' içeren değiştirilen kaydedilmemiş. Yine de yeniden?",
   "File": "Dosya",
   "New File": "Yeni dosya",
   "Recent": "Son",

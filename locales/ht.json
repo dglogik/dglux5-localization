@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Dach '${Tit}' gen non chanje. Fèmen de tout fason?",
   "Dashboard '${fileName}' was updated. Reload?": "Dach '${du}' te jour. Rechargement?",
   "Confirm reload": "Konfime recharger",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Dach '${Tit}' gen non chanje. Rechargement de tout fason?",
   "File": "Fichier",
   "New File": "Nouvo Fichier",
   "Recent": "Dènye",

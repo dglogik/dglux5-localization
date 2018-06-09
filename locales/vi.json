@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Bảng '${tiêu đề}' chứa lưu thay đổi. Đóng dù sao?",
   "Dashboard '${fileName}' was updated. Reload?": "Bảng '${fileName}' đã được Cập Nhật. Tải lại?",
   "Confirm reload": "Xác nhận tải lại",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Bảng '${title}' chứa lưu thay đổi. Tải lại dù sao?",
   "File": "Tập tin",
   "New File": "Tập tin mới",
   "Recent": "Tại",

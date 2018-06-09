@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "डैशबोर्ड '${शीर्षक}' शामिल हैं बदले में बिना सहेजे। वैसे भी बंद करें?",
   "Dashboard '${fileName}' was updated. Reload?": "डैशबोर्ड '{फ़ाइल का नाम} $' अद्यतन किया गया था। पुनः लोड करें?",
   "Confirm reload": "पुनः लोड की पुष्टि करें",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "डैशबोर्ड ' $ {शीर्षक} ' में बिना सहेजे परिवर्तित है । फिर से लोड?",
   "File": "फ़ाइल",
   "New File": "नई फ़ाइल",
   "Recent": "हाल ही में",

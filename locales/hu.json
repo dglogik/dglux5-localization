@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Műszerfal \"${title}\" tartalmaz nem mentett megváltozott. Biztosan bezárja?",
   "Dashboard '${fileName}' was updated. Reload?": "Műszerfal \"${fájlnév}\" frissítve lett. Újratöltés?",
   "Confirm reload": "Erősítse meg a reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Műszerfal \"${title}\" tartalmaz nem mentett megváltozott. Reload egyébként?",
   "File": "Fájl",
   "New File": "Új fájl",
   "Recent": "Legutóbbi",

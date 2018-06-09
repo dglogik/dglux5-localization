@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Quadre de comandament \"${title}\" conté no desats canviada. Tanca de totes maneres?",
   "Dashboard '${fileName}' was updated. Reload?": "Quadre de comandament \"${fileName}\" s'actualitzava. Recarregar?",
   "Confirm reload": "Confirmar recarregar",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Quadre de comandament \"${title}\" conté no desats canviada. De tota manera de recarregar?",
   "File": "Arxiu",
   "New File": "Nou fitxer",
   "Recent": "Recents",

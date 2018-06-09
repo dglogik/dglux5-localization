@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Tabuľa \"${title}\" obsahuje neuložené zmenil. Aj napriek tomu zavrieť?",
   "Dashboard '${fileName}' was updated. Reload?": "Tabuľa \"${názov}\" bol aktualizovaný. Načítať?",
   "Confirm reload": "Potvrdiť Aktualizuj",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Dashboard \"${title}\" obsahuje neuložené zmenil. Reload rovnako?",
   "File": "Súbor",
   "New File": "Nový súbor",
   "Recent": "Nedávne",

@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Таблото '${заглавие}' съдържа незаписани промени. Затворите Въпреки това?",
   "Dashboard '${fileName}' was updated. Reload?": "Таблото '${fileName}' беше актуализиран. Презареждане?",
   "Confirm reload": "Потвърдете презареждане",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Таблото '${заглавие}' съдържа незаписани промени. Презареждане все пак?",
   "File": "Файл",
   "New File": "Нов файл",
   "Recent": "Последните",

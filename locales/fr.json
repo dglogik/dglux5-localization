@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Le tableau de bord '${titre}' contient des modifications non enregistrées. Voulez-vous vraiment le fermer ?",
   "Dashboard '${fileName}' was updated. Reload?": "Le tableau de bord '${nom de fichier}' a été mis à jour. Voulez-vous vraiment le recharger ?",
   "Confirm reload": "Confirmer le rechargement",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Tableau de bord « ${titre} » contient unsaved modifiées. Recharger quand même ?",
   "File": "Fichier",
   "New File": "Nouveau fichier",
   "Recent": "Les plus récents",

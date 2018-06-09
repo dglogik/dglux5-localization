@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Řídicí panel '${title}' obsahuje neuložené změny. Přesto zavřít?",
   "Dashboard '${fileName}' was updated. Reload?": "Řídicí panel '${fileName}' byl aktualizován. Znovu načíst?",
   "Confirm reload": "Potvrdit znovu načíst",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Řídicí panel \"${název}\" obsahuje neuložené změny. Přesto znovu?",
   "File": "Soubor",
   "New File": "Nový soubor",
   "Recent": "Nedávné",

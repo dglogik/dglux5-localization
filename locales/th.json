@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "ประกอบด้วยแดชบอร์ด '${ชื่อเรื่อง}' ยังไม่ได้บันทึกเปลี่ยนแปลง ปิด",
   "Dashboard '${fileName}' was updated. Reload?": "แดชบอร์ด '${ชื่อแฟ้ม}' ถูกปรับปรุง โหลด",
   "Confirm reload": "ยืนยันโหลด",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "ประกอบด้วยแดชบอร์ด '${ชื่อเรื่อง}' บันทึกการเปลี่ยนแปลง โหลดอยู่ดี",
   "File": "แฟ้ม",
   "New File": "แฟ้มใหม่",
   "Recent": "ล่าสุด",

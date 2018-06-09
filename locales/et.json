@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Armatuurlaua ${pealkiri} sisaldab salvestamata muutunud. Siiski sulgeda?",
   "Dashboard '${fileName}' was updated. Reload?": "Armatuurlaua ${nimi} värskendatud. Reload?",
   "Confirm reload": "Kinnitage reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Armatuurlaua \"${nimetus}\" sisaldab salvestamata muutunud. Reload niikuinii?",
   "File": "Faili",
   "New File": "Uus fail",
   "Recent": "Tehtud",

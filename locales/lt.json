@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Prietaisų skydelis '${surname}' yra neišsaugoti pasikeitė. Vis tiek norite uždaryti?",
   "Dashboard '${fileName}' was updated. Reload?": "Prietaisų skydelis \"${failo vardas}\" buvo atnaujintas. Perkrauti?",
   "Confirm reload": "Patvirtinti perkrauti",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Prietaisų skydelyje '${surname}' yra neišsaugoti pasikeitė. Bet kokiu atveju perkraukite puslapį?",
   "File": "Failas",
   "New File": "Naujas failas",
   "Recent": "Neseniai",

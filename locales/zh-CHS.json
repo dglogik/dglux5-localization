@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "仪表板 '${标题}' 包含未保存的更改。仍要关闭?",
   "Dashboard '${fileName}' was updated. Reload?": "仪表板 '${文件名}' 进行了更新。重新加载?",
   "Confirm reload": "确认重新加载",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "仪表板 \"$ {title}\" 包含未保存的更改。重新加载？",
   "File": "文件",
   "New File": "新的文件",
   "Recent": "最近",

@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Dasbor '${title}' berisi belum disimpan berubah. Tutup anyway?",
   "Dashboard '${fileName}' was updated. Reload?": "Dasbor '${fileName}' telah diupdate. Reload?",
   "Confirm reload": "Konfirmasi ulang",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Dasbor '${title}' berisi belum disimpan berubah. Reload tetap?",
   "File": "File",
   "New File": "File baru",
   "Recent": "Hari",

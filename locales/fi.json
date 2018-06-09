@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Dashboard ${tehtävänimike} sisältää tallentamattomia muuttunut. Haluatko silti sulkea?",
   "Dashboard '${fileName}' was updated. Reload?": "Dashboard ${tiedostonimi} on päivitetty. Reload?",
   "Confirm reload": "Vahvista reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "”${Tehtävänimike}-Dashboard sisältää tallentamattomia muuttunut. Reload anyway?",
   "File": "Tiedosto",
   "New File": "Uusi tiedosto",
   "Recent": "Hotelliin",

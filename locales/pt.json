@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Painel de controle '${title}' contém não salvas alterados. Perto de qualquer maneira?",
   "Dashboard '${fileName}' was updated. Reload?": "Painel de controle '${fileName}' foi atualizado. Recarga?",
   "Confirm reload": "Confirmar a recarga",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Painel de controle '${title}' contém não salvas alterados. Recarregar, enfim?",
   "File": "Arquivo",
   "New File": "Novo arquivo",
   "Recent": "Recentes",

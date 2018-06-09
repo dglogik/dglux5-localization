@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Instrumentpanel '${title}' innehåller osparade ändrade. Nära ändå?",
   "Dashboard '${fileName}' was updated. Reload?": "Dashboard \"${filnamn}\" uppdaterades. Ladda om?",
   "Confirm reload": "Bekräfta reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Instrumentpanelen '${title}' innehåller osparade ändrade. Ladda ändå?",
   "File": "Fil",
   "New File": "Ny fil",
   "Recent": "De senaste",

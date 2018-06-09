@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Nadzorne plošče »${FirstName} «vsebuje neshranjene spremenjene. Vseeno zapreti?",
   "Dashboard '${fileName}' was updated. Reload?": "Nadzorne plošče »${fileName} «je bila posodobljena. Osvežite?",
   "Confirm reload": "Potrditev reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Nadzorne plošče »${FirstName} «vsebuje neshranjene spremenjene. Osvežite nekako?",
   "File": "Datoteke",
   "New File": "Novo datoteko",
   "Recent": "Nedavni",

@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "ڈیش بورڈ '${عنوان}' کا حامل ہے تبدیل شدہ محفوظ نہیں ہے ۔ بہر صورت بند کریں؟",
   "Dashboard '${fileName}' was updated. Reload?": "ڈیش بورڈ '${نام مسل}' تازہ کاری کی گئی ۔ پھر لوڈ کریں؟",
   "Confirm reload": "دوبارہ لوڈ کی تصدیق کریں",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "ڈیش بورڈ '${عنوان}' کا حامل ہے تبدیل شدہ محفوظ نہیں ہے ۔ ویسے بھی دوبارہ لوڈ کریں؟",
   "File": "مسل",
   "New File": "نئی مسل",
   "Recent": "حالیہ",

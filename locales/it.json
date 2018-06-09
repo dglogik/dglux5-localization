@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Contiene dashboard '${title}' non salvate modificati. Chiudere comunque?",
   "Dashboard '${fileName}' was updated. Reload?": "Cruscotto '${nomefile}' è stato aggiornato. Ricaricare?",
   "Confirm reload": "Confermare la ricarica",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Contiene dashboard '${title}' non salvate modificati. Ricaricare comunque?",
   "File": "File",
   "New File": "Nuovo File",
   "Recent": "Recenti",

@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Dashboard '${title}' contains unsaved changed. Close anyway?",
   "Dashboard '${fileName}' was updated. Reload?": "Dashboard '${fileName}' was updated. Reload?",
   "Confirm reload": "Confirm reload",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Dashboard '${title}' contains unsaved changed. Reload anyway?",
   "File": "File",
   "New File": "New File",
   "Recent": "Recent",

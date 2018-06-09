@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Informācijas paneli '${nosaukums}' ir nesaglabātas izmaiņas. Vai tomēr aizvērt?",
   "Dashboard '${fileName}' was updated. Reload?": "Tika apjaunota servera vadības paneli '${fileName}'. Pārlādēt?",
   "Confirm reload": "Apstipriniet pārlādēt",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Informācijas paneli '${nosaukums}' ir nesaglabātas izmaiņas. Pārlādēt anyways?",
   "File": "Failu",
   "New File": "Jaunu failu",
   "Recent": "Nesen",

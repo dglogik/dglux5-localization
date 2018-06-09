@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Tabloul de bord \"${title}\" conține nesalvate schimbat. Închideți totuși?",
   "Dashboard '${fileName}' was updated. Reload?": "Tabloul de bord '${fileName}' a fost actualizat. Reîncărcare?",
   "Confirm reload": "Confirma reîncărcare",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Tabloul de bord \"${title}\" conține nesalvate schimbat. Reincarca oricum?",
   "File": "Fişier",
   "New File": "Fişier nou",
   "Recent": "Recente",

@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Приладна дошка \"${заголовок}\" містить незбережені змінені. Закрити?",
   "Dashboard '${fileName}' was updated. Reload?": "Приладна дошка '${ім'я файлу.}' був оновлений. Перезавантаження?",
   "Confirm reload": "Підтвердити перезавантаження",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Приладна дошка \"${заголовок}\" містить незбережені змінені. Перезавантаження все одно?",
   "File": "Файл",
   "New File": "Новий файл",
   "Recent": "Останні",

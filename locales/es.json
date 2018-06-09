@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Tablero de instrumentos '${title}' contiene sin guardar cambios. ¿Cerca de todos modos?",
   "Dashboard '${fileName}' was updated. Reload?": "Tablero de instrumentos '${archivo}' se ha actualizado. ¿Volver a cargar?",
   "Confirm reload": "Confirmar la recarga",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Tablero de instrumentos '${title}' contiene sin guardar cambios. ¿Cargar de todos modos?",
   "File": "Archivo",
   "New File": "Nuevo archivo",
   "Recent": "Recientes",

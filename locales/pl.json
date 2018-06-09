@@ -1098,6 +1098,7 @@
   "Dashboard '${title}' contains unsaved changed. Close anyway?": "Panel '${title}' zawiera niezapisane zmiany. Tak blisko?",
   "Dashboard '${fileName}' was updated. Reload?": "Panel \"${nazwa pliku}\" została zaktualizowana. Załaduj ponownie?",
   "Confirm reload": "Potwierdzenie przeładowania",
+  "Dashboard '${title}' contains unsaved changed. Reload anyway?": "Panel '${title}' zawiera niezapisane zmiany. W każdym razie przeładować?",
   "File": "Plik",
   "New File": "Nowy plik",
   "Recent": "Ostatnie",
