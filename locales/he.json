@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV מנתח",
   "CSV Writer": "CSV סופר",
   "JSON Parser": "מנתח JSON",
+  "Table To JSON String": "טבלה למחרוזת JSON",
   "Column Mapping": "מיפוי העמודה",
   "Sort": "מיון",
   "Group By": "קבץ לפי",

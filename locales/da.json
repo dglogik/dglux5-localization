@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV-Parser",
   "CSV Writer": "CSV-forfatter",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabel til JSON strengen",
   "Column Mapping": "Kolonnetilknytningen",
   "Sort": "Sorter",
   "Group By": "Gruppe af",

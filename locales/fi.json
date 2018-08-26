@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV Parser",
   "CSV Writer": "CSV kirjailija",
   "JSON Parser": "JSON jäsennin",
+  "Table To JSON String": "Taulukon JSON-merkkijonoon",
   "Column Mapping": "Sarakkeiden yhdistämismäärityksen",
   "Sort": "Lajittele",
   "Group By": "Ryhmittely",

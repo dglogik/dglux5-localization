@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV Parser",
   "CSV Writer": "CSV kirjanik",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabeli JSON-stringi",
   "Column Mapping": "Veeruvastenduse",
   "Sort": "Sortimine",
   "Group By": "Kaupa",

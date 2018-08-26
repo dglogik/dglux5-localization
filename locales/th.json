@@ -1354,6 +1354,7 @@
   "CSV Parser": "ตัวแยกวิเคราะห์ CSV",
   "CSV Writer": "เขียน CSV",
   "JSON Parser": "ตัวแยกวิเคราะห์ JSON",
+  "Table To JSON String": "ตารางสตริ JSON",
   "Column Mapping": "การแม็ปคอลัมน์",
   "Sort": "เรียงลำดับ",
   "Group By": "จัดกลุ่มตาม",

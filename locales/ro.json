@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV Parser",
   "CSV Writer": "CSV scriitor",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabel pentru a JSON String",
   "Column Mapping": "Maparea de coloană",
   "Sort": "Sortare",
   "Group By": "Grupa de",

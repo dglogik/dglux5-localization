@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV analizatorius",
   "CSV Writer": "CSV rašytojas",
   "JSON Parser": "JSON analizatorius",
+  "Table To JSON String": "JSON eilutę lentelės",
   "Column Mapping": "Stulpelių atvaizdavimą",
   "Sort": "Rūšiuoti",
   "Group By": "Grupuoti pagal",

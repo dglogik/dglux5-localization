@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV تجزیه کننده",
   "CSV Writer": "نویسنده به CSV",
   "JSON Parser": "JSON به تجزیه کننده",
+  "Table To JSON String": "جدول رشته JSON",
   "Column Mapping": "نقشه برداری ستون",
   "Sort": "مرتب کردن بر اساس",
   "Group By": "گروه بندی بر اساس",

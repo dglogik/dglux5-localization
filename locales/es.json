@@ -1354,6 +1354,7 @@
   "CSV Parser": "Analizador CSV",
   "CSV Writer": "Escritor CSV",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabla de cadena JSON",
   "Column Mapping": "Asignación de columna",
   "Sort": "Tipo",
   "Group By": "Grupo por",

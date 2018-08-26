@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV 파서",
   "CSV Writer": "CSV 작가",
   "JSON Parser": "JSON 파서",
+  "Table To JSON String": "JSON 문자열 테이블",
   "Column Mapping": "열 매핑",
   "Sort": "정렬",
   "Group By": "그룹화",

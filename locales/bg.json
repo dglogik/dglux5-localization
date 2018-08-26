@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV анализатор",
   "CSV Writer": "CSV писател",
   "JSON Parser": "Анализатора JSON",
+  "Table To JSON String": "Таблица до JSON низ",
   "Column Mapping": "Колони картографирането",
   "Sort": "Сортиране",
   "Group By": "Групиране по",

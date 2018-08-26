@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV Parser",
   "CSV Writer": "Penulis CSV",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabel untuk JSON String",
   "Column Mapping": "Pemetaan kolom",
   "Sort": "Urutkan",
   "Group By": "Kelompok oleh",

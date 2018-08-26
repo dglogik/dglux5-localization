@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV analyzátor",
   "CSV Writer": "CSV spisovatel",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Tabulka na řetězec formátu JSON",
   "Column Mapping": "Mapování sloupce",
   "Sort": "Řazení",
   "Group By": "Seskupit podle",

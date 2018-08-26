@@ -1354,6 +1354,7 @@
   "CSV Parser": "Phân tích cú pháp CSV",
   "CSV Writer": "Nhà văn CSV",
   "JSON Parser": "Phân tích cú pháp JSON",
+  "Table To JSON String": "Bảng để chuỗi JSON",
   "Column Mapping": "Cột lập bản đồ",
   "Sort": "Sắp xếp",
   "Group By": "Nhóm theo",

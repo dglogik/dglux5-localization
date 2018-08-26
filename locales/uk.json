@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV аналізатор",
   "CSV Writer": "CSV письменник",
   "JSON Parser": "JSON аналізатор",
+  "Table To JSON String": "Таблиці рядок формату JSON",
   "Column Mapping": "Зіставлення стовпців",
   "Sort": "Сортування",
   "Group By": "Групування за",

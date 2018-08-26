@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV Parser",
   "CSV Writer": "CSV rakstnieks",
   "JSON Parser": "JSON Parser",
+  "Table To JSON String": "Gal-diņā JSON virkni",
   "Column Mapping": "Kolonnu kartēšana",
   "Sort": "Kārtot",
   "Group By": "Grupēt pēc",

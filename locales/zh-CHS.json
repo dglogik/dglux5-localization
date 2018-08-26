@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV 分析器",
   "CSV Writer": "CSV 作家",
   "JSON Parser": "JSON 解析器",
+  "Table To JSON String": "表到 JSON 字符串",
   "Column Mapping": "列映射",
   "Sort": "排序",
   "Group By": "通过分组",

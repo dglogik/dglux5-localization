@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV ayrıştırıcı",
   "CSV Writer": "CSV yazar",
   "JSON Parser": "JSON ayrıştırıcısı",
+  "Table To JSON String": "JSON dize tabloya",
   "Column Mapping": "Sütun eşleme",
   "Sort": "Sıralama",
   "Group By": "Göre Gruplandır",

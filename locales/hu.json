@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV-elemző",
   "CSV Writer": "CSV-író",
   "JSON Parser": "JSON elemző",
+  "Table To JSON String": "Táblázat JSON karakterlánccá",
   "Column Mapping": "Oszlopok megfeleltetése",
   "Sort": "Rendezés",
   "Group By": "Csoportosítás",

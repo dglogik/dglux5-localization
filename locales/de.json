@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV-Parser",
   "CSV Writer": "CSV-Schriftsteller",
   "JSON Parser": "JSON-Parser",
+  "Table To JSON String": "Tabelle in JSON String",
   "Column Mapping": "Spaltenzuordnung",
   "Sort": "Art",
   "Group By": "Group By-",

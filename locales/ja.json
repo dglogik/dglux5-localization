@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV パーサ",
   "CSV Writer": "CSV 作家",
   "JSON Parser": "JSON パーサー",
+  "Table To JSON String": "JSON 文字列テーブル",
   "Column Mapping": "列マッピング",
   "Sort": "並べ替え",
   "Group By": "グループ化します。",

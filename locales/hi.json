@@ -1354,6 +1354,7 @@
   "CSV Parser": "CSV पार्सर",
   "CSV Writer": "CSV लेखक",
   "JSON Parser": "JSON पार्सर",
+  "Table To JSON String": "तालिका JSON स्ट्रिंग के लिए",
   "Column Mapping": "स्तंभ मैपिंग",
   "Sort": "सॉर्ट करें",
   "Group By": "आधार पर समूहीकृत करें",

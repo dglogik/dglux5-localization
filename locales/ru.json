@@ -1354,6 +1354,7 @@
   "CSV Parser": "Синтаксический анализатор CSV",
   "CSV Writer": "Писатель CSV",
   "JSON Parser": "Синтаксический анализатор JSON",
+  "Table To JSON String": "Таблица в JSON строку",
   "Column Mapping": "Сопоставление столбцов",
   "Sort": "Сортировка",
   "Group By": "Группировать по",

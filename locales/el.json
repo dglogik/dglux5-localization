@@ -1354,6 +1354,7 @@
   "CSV Parser": "Πρόγραμμα ανάλυσης του CSV",
   "CSV Writer": "Πρόγραμμα εγγραφής CSV",
   "JSON Parser": "Πρόγραμμα ανάλυσης του JSON",
+  "Table To JSON String": "Πίνακα στη συμβολοσειρά JSON",
   "Column Mapping": "Αντιστοίχιση στηλών",
   "Sort": "Είδος",
   "Group By": "Ομαδοποίηση κατά",

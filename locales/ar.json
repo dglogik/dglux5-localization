@@ -1354,6 +1354,7 @@
   "CSV Parser": "محلل CSV",
   "CSV Writer": "الكاتب CSV",
   "JSON Parser": "محلل JSON",
+  "Table To JSON String": "الجدول إلى سلسلة JSON",
   "Column Mapping": "تعيين العمود",
   "Sort": "الفرز",
   "Group By": "تجميع حسب",
