@@ -1053,7 +1053,6 @@
   "Step Y": "שלב Y",
   "Grid Properties": "מאפייני רשת",
   "I Agree": "אני מסכים",
-  "Atrius Solution Builder": "Atrius פתרון בונה",
   "Bind as metric": "לאגד כמו מטרי",
   "Bind as metric with dialog": "לאגד כמו מטרי עם דו-שיח",
   "Formatted": "מעוצב",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "שמור את הקובץ עם יומן",
   "Failed to Initialize": "נכשל אתחול",
   "New view": "תצוגה חדשה",
-  "Remote Dataflow Editor by DGLogik": "עורך Dataflow מרחוק על-ידי DGLogik"
+  "Remote Dataflow Editor by DGLogik": "עורך Dataflow מרחוק על-ידי DGLogik",
+  "DG Solution Builder": "בונה פתרון די. ג'י"
 }

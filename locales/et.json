@@ -1053,7 +1053,6 @@
   "Step Y": "Samm Y",
   "Grid Properties": "Võrgu omadused",
   "I Agree": "Olen nõus",
-  "Atrius Solution Builder": "Atrius lahendus ehitaja",
   "Bind as metric": "Kui mõõdiku siduda",
   "Bind as metric with dialog": "Kui mõõdiku dialoogiga siduda",
   "Formatted": "Vormindatud",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Logi faili salvestada",
   "Failed to Initialize": "Lähtestamine nurjus",
   "New view": "Uus vaade",
-  "Remote Dataflow Editor by DGLogik": "Kaugtöölaua Dataflow toimetaja poolt DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Kaugtöölaua Dataflow toimetaja poolt DGLogik",
+  "DG Solution Builder": "Peadirektoraat lahendus ehitaja"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "Langkah Y",
   "Grid Properties": "Sifat-sifat grid",
   "I Agree": "saya setuju",
-  "Atrius Solution Builder": "Penyelesaian Atrius Builder",
   "Bind as metric": "Mengikat sebagai tan metrik",
   "Bind as metric with dialog": "Mengikat sebagai metrik dengan dialog",
   "Formatted": "Diformatkan",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Simpan fail dengan Log",
   "Failed to Initialize": "Gagal untuk mengawalkan",
   "New view": "Pandangan baru",
-  "Remote Dataflow Editor by DGLogik": "Editor jauh Dataflow oleh DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Editor jauh Dataflow oleh DGLogik",
+  "DG Solution Builder": "DG penyelesaian Builder"
 }

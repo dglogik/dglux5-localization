@@ -1053,7 +1053,6 @@
   "Step Y": "Pa nan Y",
   "Grid Properties": "Gwiyad pwopwiyete",
   "I Agree": "mwen dako",
-  "Atrius Solution Builder": "Solisyon Atrius bati",
   "Bind as metric": "Tavhe kòm metrik",
   "Bind as metric with dialog": "Tavhe tankou mèt ak dialog",
   "Formatted": "Fòmate",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Mete sou kote ranpli ak boutèy demi lit",
   "Failed to Initialize": "Te tonbe pou Initialiser",
   "New view": "Nouvo view",
-  "Remote Dataflow Editor by DGLogik": "Editè elwaye Dataflow pa DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Editè elwaye Dataflow pa DGLogik",
+  "DG Solution Builder": "DG solisyon bati"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "Βήμα Y",
   "Grid Properties": "Ιδιότητες πλέγματος",
   "I Agree": "Συμφωνώ",
-  "Atrius Solution Builder": "Οικοδόμος Atrius λύση",
   "Bind as metric": "Δεσμεύουν ως Μετρική",
   "Bind as metric with dialog": "Δεσμεύουν ως Μετρική με παράθυρο διαλόγου",
   "Formatted": "Μορφοποίηση",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Αποθηκεύστε το αρχείο με το αρχείο καταγραφής",
   "Failed to Initialize": "Απέτυχε η προετοιμασία",
   "New view": "Νέα προβολή",
-  "Remote Dataflow Editor by DGLogik": "Πρόγραμμα επεξεργασίας της απομακρυσμένης ροής δεδομένων από DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Πρόγραμμα επεξεργασίας της απομακρυσμένης ροής δεδομένων από DGLogik",
+  "DG Solution Builder": "ΓΔ λύση οικοδόμος"
 }

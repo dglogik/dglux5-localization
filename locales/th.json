@@ -1053,7 +1053,6 @@
   "Step Y": "ขั้นตอนที่ Y",
   "Grid Properties": "คุณสมบัติของเส้นตาราง",
   "I Agree": "ฉันเห็นด้วย",
-  "Atrius Solution Builder": "สร้างโซลูชัน Atrius",
   "Bind as metric": "ผูกเป็นเมตริก",
   "Bind as metric with dialog": "ผูกเป็นเมตริกด้วยกล่องโต้ตอบ",
   "Formatted": "จัดรูปแบบ",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "บันทึกแฟ้มบันทึก",
   "Failed to Initialize": "ไม่สามารถเตรียมใช้งาน",
   "New view": "มุมมองใหม่",
-  "Remote Dataflow Editor by DGLogik": "แก้ไข Dataflow ระยะไกล โดย DGLogik"
+  "Remote Dataflow Editor by DGLogik": "แก้ไข Dataflow ระยะไกล โดย DGLogik",
+  "DG Solution Builder": "สร้างโซลูชัน DG"
 }

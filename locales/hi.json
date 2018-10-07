@@ -1053,7 +1053,6 @@
   "Step Y": "चरण Y",
   "Grid Properties": "ग्रिड गुण",
   "I Agree": "मैं सहमत हूँ",
-  "Atrius Solution Builder": "Atrius समाधान बिल्डर",
   "Bind as metric": "मैट्रिक के रूप में बाइंड",
   "Bind as metric with dialog": "संवाद के साथ मैट्रिक के रूप में बाइंड करना",
   "Formatted": "स्वरूपित किया गया",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "के साथ लॉग फ़ाइल सहेजें",
   "Failed to Initialize": "प्रारंभ करने में विफल",
   "New view": "नया दृश्य",
-  "Remote Dataflow Editor by DGLogik": "DGLogik द्वारा दूरस्थ Dataflow संपादक"
+  "Remote Dataflow Editor by DGLogik": "DGLogik द्वारा दूरस्थ Dataflow संपादक",
+  "DG Solution Builder": "डीजी समाधान बिल्डर"
 }

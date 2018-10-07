@@ -1053,7 +1053,6 @@
   "Step Y": "Schritt Y",
   "Grid Properties": "Grid-Eigenschaften",
   "I Agree": "Ich stimme zu",
-  "Atrius Solution Builder": "Atrius Solution Builder",
   "Bind as metric": "Als metrische binden",
   "Bind as metric with dialog": "Als metrische mit Dialog binden",
   "Formatted": "Formatiert",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Speichern Sie die Datei mit Log",
   "Failed to Initialize": "Fehler beim Initialisieren",
   "New view": "Neue Ansicht",
-  "Remote Dataflow Editor by DGLogik": "Entfernten Datenfluss-Editor von DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Entfernten Datenfluss-Editor von DGLogik",
+  "DG Solution Builder": "DG-Lösung-Generator"
 }

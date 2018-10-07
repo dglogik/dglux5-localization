@@ -1053,7 +1053,6 @@
   "Step Y": "Стъпка Y",
   "Grid Properties": "Свойства на мрежата",
   "I Agree": "Приемам",
-  "Atrius Solution Builder": "Atrius разтвор строител",
   "Bind as metric": "Обвърже като метрични",
   "Bind as metric with dialog": "Обвърже като метрични с циферблат",
   "Formatted": "Форматиран",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Запишете файла с дневника",
   "Failed to Initialize": "Неуспешно инициализиране",
   "New view": "Нов изглед",
-  "Remote Dataflow Editor by DGLogik": "Дистанционно да се създаде поток редактор от DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Дистанционно да се създаде поток редактор от DGLogik",
+  "DG Solution Builder": "ГД разтвор строител"
 }

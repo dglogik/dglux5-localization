@@ -1053,7 +1053,6 @@
   "Step Y": "الخطوة Y",
   "Grid Properties": "خصائص الشبكة",
   "I Agree": "أوافق",
-  "Atrius Solution Builder": "الحل أتريوس باني",
   "Bind as metric": "ربط متري",
   "Bind as metric with dialog": "ربط متري مع الحوار",
   "Formatted": "تنسيق",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "حفظ ملف السجل",
   "Failed to Initialize": "فشل في تهيئة",
   "New view": "عرض جديد",
-  "Remote Dataflow Editor by DGLogik": "محرر تدفق البيانات البعيد قبل دجلوجيك"
+  "Remote Dataflow Editor by DGLogik": "محرر تدفق البيانات البعيد قبل دجلوجيك",
+  "DG Solution Builder": "أني حل المديرية العامة"
 }

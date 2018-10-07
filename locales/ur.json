@@ -1053,7 +1053,6 @@
   "Step Y": "قدم Y",
   "Grid Properties": "گرڈ خواص",
   "I Agree": "ميں مانتی ہوں",
-  "Atrius Solution Builder": "اٹریوس حل بلڈر",
   "Bind as metric": "میٹرک کے طور پر باندھ",
   "Bind as metric with dialog": "مکالمہ کے ساتھ میٹرک کے طور پر باندھ",
   "Formatted": "وضع",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "کے ساتھ لاگ مسل محفوظ کریں",
   "Failed to Initialize": "ابتدا کرنے میں ناکام رہا",
   "New view": "نیا منظر",
-  "Remote Dataflow Editor by DGLogik": "دگلوجاک کی طرف سے بعید داتفلاوو ایڈیٹر"
+  "Remote Dataflow Editor by DGLogik": "دگلوجاک کی طرف سے بعید داتفلاوو ایڈیٹر",
+  "DG Solution Builder": "ڈی جی حل بلڈر"
 }

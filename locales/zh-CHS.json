@@ -1053,7 +1053,6 @@
   "Step Y": "步骤 Y",
   "Grid Properties": "网格属性",
   "I Agree": "我同意",
-  "Atrius Solution Builder": "Atrius 解决方案生成器",
   "Bind as metric": "绑定为公制",
   "Bind as metric with dialog": "用对话框绑定为公制",
   "Formatted": "格式化",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "将文件与日志保存",
   "Failed to Initialize": "初始化失败",
   "New view": "新的视图",
-  "Remote Dataflow Editor by DGLogik": "DGLogik 远程数据流编辑器"
+  "Remote Dataflow Editor by DGLogik": "DGLogik 远程数据流编辑器",
+  "DG Solution Builder": "DG 解决方案生成器"
 }

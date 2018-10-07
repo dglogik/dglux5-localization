@@ -1053,7 +1053,6 @@
   "Step Y": "Шаг Y",
   "Grid Properties": "Свойства сетки",
   "I Agree": "Принимаю",
-  "Atrius Solution Builder": "Решение Atrius строитель",
   "Bind as metric": "Привязка в качестве метрики",
   "Bind as metric with dialog": "Привязка в качестве метрики с диалогом",
   "Formatted": "Формат",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Сохранить файл журнала",
   "Failed to Initialize": "Не удалось инициализировать",
   "New view": "Новое представление",
-  "Remote Dataflow Editor by DGLogik": "Редактор удаленного потока данных по DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Редактор удаленного потока данных по DGLogik",
+  "DG Solution Builder": "ГД решение строитель"
 }

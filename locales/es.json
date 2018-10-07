@@ -1053,7 +1053,6 @@
   "Step Y": "Paso Y",
   "Grid Properties": "Propiedades de la cuadrícula",
   "I Agree": "De acuerdo",
-  "Atrius Solution Builder": "Atrius solución Builder",
   "Bind as metric": "Enlazar como métricas",
   "Bind as metric with dialog": "Enlazar como métricas con cuadro de diálogo",
   "Formatted": "El formato",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Guardar archivo con registro de",
   "Failed to Initialize": "No se pudo inicializar",
   "New view": "Nueva vista",
-  "Remote Dataflow Editor by DGLogik": "Editor de flujo de datos remoto de DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Editor de flujo de datos remoto de DGLogik",
+  "DG Solution Builder": "DG solución Builder"
 }

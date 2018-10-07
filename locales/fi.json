@@ -1053,7 +1053,6 @@
   "Step Y": "Askel Y",
   "Grid Properties": "Ruudukon ominaisuudet",
   "I Agree": "Olen samaa mieltä",
-  "Atrius Solution Builder": "Atrius ratkaisu rakentaja",
   "Bind as metric": "Sitoa kuin metrinen",
   "Bind as metric with dialog": "Sitoa kuin metrinen dialogi",
   "Formatted": "Muotoiltu",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Tallenna tiedosto log",
   "Failed to Initialize": "Alustus epäonnistui",
   "New view": "Uusi näkymä",
-  "Remote Dataflow Editor by DGLogik": "Kauko Dataflow Editor by DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Kauko Dataflow Editor by DGLogik",
+  "DG Solution Builder": "Pääosaston ratkaisu rakentaja"
 }

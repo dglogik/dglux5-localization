@@ -1053,7 +1053,6 @@
   "Step Y": "Krok Y",
   "Grid Properties": "Vlastnosti mriežky",
   "I Agree": "súhlasím",
-  "Atrius Solution Builder": "Atrius riešenie Builder",
   "Bind as metric": "Viazať ako metrické",
   "Bind as metric with dialog": "Viazať ako metrické dialógové okno",
   "Formatted": "Formátovaný",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Uložte súbor s Log",
   "Failed to Initialize": "Nepodarilo sa inicializovať",
   "New view": "Nové zobrazenie",
-  "Remote Dataflow Editor by DGLogik": "Vzdialenej Dataflow Editor DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Vzdialenej Dataflow Editor DGLogik",
+  "DG Solution Builder": "Generálne riaditeľstvo pre riešenie Builder"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "Adım Y",
   "Grid Properties": "Kılavuz özelliklerini",
   "I Agree": "Kabul Ediyorum",
-  "Atrius Solution Builder": "Atrius çözüm Oluşturucu",
   "Bind as metric": "Metrik olarak bağlama",
   "Bind as metric with dialog": "İletişim ile metrik olarak bağlamak",
   "Formatted": "Biçimlendirilmiş",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Günlük ile dosyayı kaydedin",
   "Failed to Initialize": "Başlatılamadı",
   "New view": "Yeni görünüm",
-  "Remote Dataflow Editor by DGLogik": "Uzak Dataflow editör tarafından DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Uzak Dataflow editör tarafından DGLogik",
+  "DG Solution Builder": "DG çözüm Oluşturucu"
 }

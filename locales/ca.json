@@ -1053,7 +1053,6 @@
   "Step Y": "Pas Y",
   "Grid Properties": "Quadrícula de propietats",
   "I Agree": "Estic d'acord",
-  "Atrius Solution Builder": "Solució Atrius constructor",
   "Bind as metric": "S'uneixen com mètric",
   "Bind as metric with dialog": "S'uneixen com mètric amb diàleg",
   "Formatted": "Formatat",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Deseu el fitxer amb registre",
   "Failed to Initialize": "Ha fallat la inicialització",
   "New view": "Nova visió",
-  "Remote Dataflow Editor by DGLogik": "Editor d'usos remot per DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Editor d'usos remot per DGLogik",
+  "DG Solution Builder": "DG solució constructor"
 }

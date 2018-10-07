@@ -1053,7 +1053,6 @@
   "Step Y": "Lépés Y",
   "Grid Properties": "Rács tulajdonságai",
   "I Agree": "egyetértek",
-  "Atrius Solution Builder": "Építő Atrius megoldás",
   "Bind as metric": "Metrikus kötés",
   "Bind as metric with dialog": "Kötés metrikus párbeszédablak",
   "Formatted": "Formázott",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Mentse a fájlt a napló",
   "Failed to Initialize": "Inicializálása nem sikerült",
   "New view": "Új nézet",
-  "Remote Dataflow Editor by DGLogik": "DGLogik távoli adatfolyam-szerkesztő"
+  "Remote Dataflow Editor by DGLogik": "DGLogik távoli adatfolyam-szerkesztő",
+  "DG Solution Builder": "DG megoldás Builder"
 }

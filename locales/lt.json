@@ -1053,7 +1053,6 @@
   "Step Y": "Žingsnis Y",
   "Grid Properties": "Mygtukyno ypatybės",
   "I Agree": "aš sutinku",
-  "Atrius Solution Builder": "Atrius tirpalas statybininkas",
   "Bind as metric": "Jungiasi kaip metrinių",
   "Bind as metric with dialog": "Jungiasi kaip metrinė su dialogo langu",
   "Formatted": "Formatuoti",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Žurnalo failą įrašyti",
   "Failed to Initialize": "Nepavyko inicijuoti",
   "New view": "Naujas vaizdas",
-  "Remote Dataflow Editor by DGLogik": "Nuotolinis eBiuras redaktorius iš DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Nuotolinis eBiuras redaktorius iš DGLogik",
+  "DG Solution Builder": "Generalinio direktorato sprendimą statybininkas"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "Pas Y",
   "Grid Properties": "Grila de proprietăţi",
   "I Agree": "sunt de acord",
-  "Atrius Solution Builder": "Atrius Solution Builder",
   "Bind as metric": "Obligati ca metrice",
   "Bind as metric with dialog": "Obligati ca metrice cu dialog",
   "Formatted": "Formatat",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Salvaţi fişierul cu Log",
   "Failed to Initialize": "Nu a reuşit să iniţializa",
   "New view": "Vizualizare nouă",
-  "Remote Dataflow Editor by DGLogik": "Editor la distanţă Dataflow de DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Editor la distanţă Dataflow de DGLogik",
+  "DG Solution Builder": "DG Solution Builder"
 }

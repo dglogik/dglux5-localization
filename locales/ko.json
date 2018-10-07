@@ -1053,7 +1053,6 @@
   "Step Y": "단계 Y",
   "Grid Properties": "그리드 속성",
   "I Agree": "동의해요",
-  "Atrius Solution Builder": "Atrius 솔루션 작성기",
   "Bind as metric": "미터법으로 바인딩",
   "Bind as metric with dialog": "대화와 미터법으로 바인딩",
   "Formatted": "포맷",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "로그 파일 저장",
   "Failed to Initialize": "초기화 하지 못했습니다.",
   "New view": "새로운 보기",
-  "Remote Dataflow Editor by DGLogik": "DGLogik에 의해 원격 데이터 흐름 편집기"
+  "Remote Dataflow Editor by DGLogik": "DGLogik에 의해 원격 데이터 흐름 편집기",
+  "DG Solution Builder": "DG 솔루션 작성기"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "Y. solis",
   "Grid Properties": "Režģa rekvizīti",
   "I Agree": "es piekrītu",
-  "Atrius Solution Builder": "Atrius Solution Builder",
   "Bind as metric": "Saistošs kā metriskā",
   "Bind as metric with dialog": "Saistošs kā metriskajās ar dialogu",
   "Formatted": "Formatēts",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Saglabāt failu ar Log",
   "Failed to Initialize": "Neizdevās inicializēt",
   "New view": "Jauns skats",
-  "Remote Dataflow Editor by DGLogik": "Attālā Dataflow redaktors, DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Attālā Dataflow redaktors, DGLogik",
+  "DG Solution Builder": "DG Solution Builder"
 }

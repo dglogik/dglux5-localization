@@ -1053,7 +1053,6 @@
   "Step Y": "ステップ Y",
   "Grid Properties": "グリッドのプロパティ",
   "I Agree": "賛成です",
-  "Atrius Solution Builder": "Atrius ソリューションビルダー",
   "Bind as metric": "メトリックとしてバインドします。",
   "Bind as metric with dialog": "ダイアログをメトリックとしてバインドします。",
   "Formatted": "書式設定されました。",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "ログ ファイルを保存します。",
   "Failed to Initialize": "初期化に失敗しました",
   "New view": "新しいビュー",
-  "Remote Dataflow Editor by DGLogik": "DGLogik でリモート データ フロー エディター"
+  "Remote Dataflow Editor by DGLogik": "DGLogik でリモート データ フロー エディター",
+  "DG Solution Builder": "DG ソリューション ビルダー"
 }

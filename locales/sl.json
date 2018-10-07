@@ -1053,7 +1053,6 @@
   "Step Y": "Korak Y",
   "Grid Properties": "Mreža lastnosti",
   "I Agree": "se strinjam",
-  "Atrius Solution Builder": "Builder Atrius rešitev",
   "Bind as metric": "Vežejo kot metrične",
   "Bind as metric with dialog": "Vežejo kot metrične pogovorno okno",
   "Formatted": "Oblikovano",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Shranite datoteko z Log",
   "Failed to Initialize": "Ni bilo mogoče inicializirati",
   "New view": "Nov pogled",
-  "Remote Dataflow Editor by DGLogik": "Oddaljeni podatkovni tok urednik z DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Oddaljeni podatkovni tok urednik z DGLogik",
+  "DG Solution Builder": "GD rešitev Builder"
 }

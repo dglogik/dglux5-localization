@@ -1053,7 +1053,6 @@
   "Step Y": "Trin Y",
   "Grid Properties": "Gitteregenskaber",
   "I Agree": "Jeg er enig",
-  "Atrius Solution Builder": "Atrius Solution Builder",
   "Bind as metric": "Binde som metrisk",
   "Bind as metric with dialog": "Binde som metriske med dialog",
   "Formatted": "Formateret",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Gem filen med Log",
   "Failed to Initialize": "Det lykkedes ikke at initialisere",
   "New view": "Ny visning",
-  "Remote Dataflow Editor by DGLogik": "Remote Dataflow redaktør af DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Remote Dataflow redaktør af DGLogik",
+  "DG Solution Builder": "GD Solution Builder"
 }

@@ -1053,7 +1053,6 @@
   "Step Y": "مرحله Y",
   "Grid Properties": "ویژگی های شبکه",
   "I Agree": "موافقم",
-  "Atrius Solution Builder": "راه حل Atrius ساز",
   "Bind as metric": "اتصال به عنوان متریک",
   "Bind as metric with dialog": "اتصال به عنوان متریک با گفتگو",
   "Formatted": "قالب بندی",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "ذخیره پرونده با ورود به سیستم",
   "Failed to Initialize": "عدم موفقیت در مقداردهی اولیه",
   "New view": "نمای جدید",
-  "Remote Dataflow Editor by DGLogik": "ویرایشگر جریان داده از راه دور توسط DGLogik"
+  "Remote Dataflow Editor by DGLogik": "ویرایشگر جریان داده از راه دور توسط DGLogik",
+  "DG Solution Builder": "ریاست عمومی راه حل سازنده"
 }

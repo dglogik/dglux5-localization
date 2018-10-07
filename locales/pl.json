@@ -1053,7 +1053,6 @@
   "Step Y": "Krok Y",
   "Grid Properties": "Właściwości siatki",
   "I Agree": "Zgadzam się",
-  "Atrius Solution Builder": "Atrius Solution Builder",
   "Bind as metric": "Utworzyć powiązanie jako metryczne",
   "Bind as metric with dialog": "Utworzyć powiązanie jako metrycznych z okna dialogowego",
   "Formatted": "Sformatowany",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Zapisz plik dziennika",
   "Failed to Initialize": "Nie można zainicjować",
   "New view": "Nowy widok",
-  "Remote Dataflow Editor by DGLogik": "Przepływ danych zdalnego Edytor przez DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Przepływ danych zdalnego Edytor przez DGLogik",
+  "DG Solution Builder": "DG Solution Builder"
 }

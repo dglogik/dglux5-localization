@@ -1053,7 +1053,6 @@
   "Step Y": "Крок Y",
   "Grid Properties": "Сітка властивості",
   "I Agree": "Погоджуюся",
-  "Atrius Solution Builder": "Atrius розчин будівельника",
   "Bind as metric": "Прив'язати як метричні",
   "Bind as metric with dialog": "Прив'язати як метричні діалогове вікно",
   "Formatted": "Форматування",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Збережіть файл з журналу",
   "Failed to Initialize": "Помилка ініціалізації",
   "New view": "Нове подання",
-  "Remote Dataflow Editor by DGLogik": "Редактор віддаленого потік даних шляхом DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Редактор віддаленого потік даних шляхом DGLogik",
+  "DG Solution Builder": "DG рішення будівельника"
 }

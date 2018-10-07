@@ -1053,7 +1053,6 @@
   "Step Y": "Bước Y",
   "Grid Properties": "Tài sản lưới điện",
   "I Agree": "Tôi đồng ý",
-  "Atrius Solution Builder": "Atrius giải pháp xây dựng",
   "Bind as metric": "Ràng buộc như số liệu",
   "Bind as metric with dialog": "Ràng buộc như số liệu với hộp thoại",
   "Formatted": "Định dạng",
@@ -1860,5 +1859,6 @@
   "Save File With Log": "Lưu tập tin với đăng nhập",
   "Failed to Initialize": "Thất bại khi khởi tạo",
   "New view": "Cái nhìn mới",
-  "Remote Dataflow Editor by DGLogik": "Biên tập viên từ xa Dataflow bởi DGLogik"
+  "Remote Dataflow Editor by DGLogik": "Biên tập viên từ xa Dataflow bởi DGLogik",
+  "DG Solution Builder": "DG giải pháp xây dựng"
 }
