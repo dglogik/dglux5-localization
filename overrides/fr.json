@@ -1,4 +1,4 @@
-{
+﻿{
   "This Month": "Mois courant",
   "Last Month": "Mois précédent",
   "Relative": "Relatif",
@@ -811,7 +811,11 @@
   "Import Project Failed": "Le projet d'importation a échoué",
   "error impporting project": "erreur lors de l'importation du projet",
   "Importing Project...": "Importation du projet...",
-  "You are about to rewrite project${existsProjects.length > 1 ? 's' : ''} '${existsProjects.join(', ": "Vous êtes sur le point de réécrire project${existsProjects.length > 1 ? 's' : ''} '${existsProjects.join(', ",
+  "You are about to rewrite projects": "Vous êtes sur le point d’écraser les projets",
+  "You are about to rewrite project": "Vous êtes sur le point d’écraser le projet",
+  "and all theirs files": "et tous les fichiers qu'ils contiennent",
+  "and all its files": "et tous les fichiers qu'il contient",
+  "This operation cannot be undone. Proceed?": "Cette opération est irréversible. Voulez-vous continuer ?",
   "Import Project": "Importer un Projet",
   "Delete Project": "Supprimer le projet",
   "Deleting": "Suppression",
