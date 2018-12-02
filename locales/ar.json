@@ -764,6 +764,7 @@
   "ESRI Map": "خريطة معهد بحوث النظم البيئية",
   "ESRI Map Group": "المجموعة خريطة معهد بحوث النظم البيئية",
   "ESRI Map GeoJSON Layer": "معهد بحوث النظم البيئية خريطة جويسون طبقة",
+  "ESRI Map Heatmap Layer": "معهد بحوث النظم البيئية خريطة Heatmap طبقة",
   "Mapbox Hexbin Layer": "طبقة هيكسبين ماببوكس",
   "Topology": "طوبولوجيا",
   "IFrame": "IFrame",

@@ -764,6 +764,7 @@
   "ESRI Map": "แผนที่ ESRI",
   "ESRI Map Group": "กลุ่มแผนที่ ESRI",
   "ESRI Map GeoJSON Layer": "ชั้น GeoJSON แผนที่ ESRI",
+  "ESRI Map Heatmap Layer": "ชั้น Heatmap แผนที่ ESRI",
   "Mapbox Hexbin Layer": "ชั้น Hexbin Mapbox",
   "Topology": "โทโพโลยี",
   "IFrame": "IFrame",

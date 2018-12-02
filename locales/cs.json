@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI mapa",
   "ESRI Map Group": "ESRI mapa skupina",
   "ESRI Map GeoJSON Layer": "Vrstvy ESRI GeoJSON mapy",
+  "ESRI Map Heatmap Layer": "Vrstvy ESRI Heatmap mapy",
   "Mapbox Hexbin Layer": "Mapbox Hexbin vrstva",
   "Topology": "Topologie",
   "IFrame": "IFrame",

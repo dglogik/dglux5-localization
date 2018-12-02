@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI नकाशा",
   "ESRI Map Group": "ESRI मानचित्र समूह",
   "ESRI Map GeoJSON Layer": "ESRI नकाशा GeoJSON परत",
+  "ESRI Map Heatmap Layer": "ESRI नकाशा हीटमैप परत",
   "Mapbox Hexbin Layer": "Mapbox Hexbin परत",
   "Topology": "टोपोलॉजी",
   "IFrame": "iframe",

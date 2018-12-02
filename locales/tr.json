@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI harita",
   "ESRI Map Group": "ESRI harita Grup",
   "ESRI Map GeoJSON Layer": "ESRI harita GeoJSON katmanı",
+  "ESRI Map Heatmap Layer": "ESRI harita Heatmap katmanı",
   "Mapbox Hexbin Layer": "Mapbox Hexbin katman",
   "Topology": "Topoloji",
   "IFrame": "IFRAME",

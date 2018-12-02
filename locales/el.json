@@ -764,6 +764,7 @@
   "ESRI Map": "Χάρτης ESRI",
   "ESRI Map Group": "ESRI χάρτη ομάδα",
   "ESRI Map GeoJSON Layer": "ESRI χάρτη GeoJSON στρώμα",
+  "ESRI Map Heatmap Layer": "ESRI χάρτη Heatmap στρώμα",
   "Mapbox Hexbin Layer": "Mapbox Hexbin στρώμα",
   "Topology": "Τοπολογία",
   "IFrame": "IFrame",

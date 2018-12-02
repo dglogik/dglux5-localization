@@ -764,6 +764,7 @@
   "ESRI Map": "Kaart van de ESRI",
   "ESRI Map Group": "ESRI kaart groep",
   "ESRI Map GeoJSON Layer": "ESRI kaart GeoJSON laag",
+  "ESRI Map Heatmap Layer": "ESRI kaart Heatmap laag",
   "Mapbox Hexbin Layer": "Mapbox Hexbin laag",
   "Topology": "Topologie",
   "IFrame": "IFrame",

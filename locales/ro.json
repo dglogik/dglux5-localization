@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI hartă",
   "ESRI Map Group": "Grup de hartă ESRI",
   "ESRI Map GeoJSON Layer": "ESRI hartă GeoJSON strat",
+  "ESRI Map Heatmap Layer": "ESRI hartă Heatmap strat",
   "Mapbox Hexbin Layer": "Strat de Hexbin Mapbox",
   "Topology": "Topologie",
   "IFrame": "IFrame",

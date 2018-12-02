@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI карта",
   "ESRI Map Group": "ESRI карту Група",
   "ESRI Map GeoJSON Layer": "ESRI карту GeoJSON шару",
+  "ESRI Map Heatmap Layer": "ESRI карту Теплова карта шар",
   "Mapbox Hexbin Layer": "Mapbox Hexbin шар",
   "Topology": "Топологія",
   "IFrame": "IFrame",

@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI zemljevid",
   "ESRI Map Group": "ESRI zemljevid skupine",
   "ESRI Map GeoJSON Layer": "ESRI zemljevid GeoJSON plast",
+  "ESRI Map Heatmap Layer": "ESRI zemljevid Heatmap plast",
   "Mapbox Hexbin Layer": "Mapbox Hexbin plast",
   "Topology": "Topologija",
   "IFrame": "IFrame",

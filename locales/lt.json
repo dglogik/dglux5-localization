@@ -764,6 +764,7 @@
   "ESRI Map": "\"Esri\" žemėlapyje",
   "ESRI Map Group": "\"Esri\" žemėlapį grupei",
   "ESRI Map GeoJSON Layer": "\"Esri\" žemėlapyje GeoJSON sluoksnis",
+  "ESRI Map Heatmap Layer": "\"Esri\" žemėlapyje Heatmap sluoksnis",
   "Mapbox Hexbin Layer": "Mapbox Hexbin sluoksnis",
   "Topology": "Topologija",
   "IFrame": "IFrame",

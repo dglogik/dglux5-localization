@@ -764,6 +764,7 @@
   "ESRI Map": "esri 地图",
   "ESRI Map Group": "esri 地图组",
   "ESRI Map GeoJSON Layer": "地理层",
+  "ESRI Map Heatmap Layer": "esri 地图热图图层",
   "Mapbox Hexbin Layer": "Mapbox Hexbin 层",
   "Topology": "拓扑结构",
   "IFrame": "iframe",

@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI の地図",
   "ESRI Map Group": "ESRI の地図グループ",
   "ESRI Map GeoJSON Layer": "ESRI の地図 GeoJSON 層",
+  "ESRI Map Heatmap Layer": "ESRI マップレイヤーのヒートマップ",
   "Mapbox Hexbin Layer": "Mapbox Hexbin 層",
   "Topology": "トポロジ",
   "IFrame": "IFrame",

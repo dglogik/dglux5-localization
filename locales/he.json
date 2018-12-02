@@ -764,6 +764,7 @@
   "ESRI Map": "מפת ESRI",
   "ESRI Map Group": "קבוצה מפה ESRI",
   "ESRI Map GeoJSON Layer": "שכבה GeoJSON של ESRI מפה",
+  "ESRI Map Heatmap Layer": "ESRI מפה Heatmap שכבה",
   "Mapbox Hexbin Layer": "Mapbox Hexbin שכבה",
   "Topology": "טופולוגיה",
   "IFrame": "IFrame",

@@ -764,6 +764,7 @@
   "ESRI Map": "Mapa d'ESRI",
   "ESRI Map Group": "ESRI mapa grup",
   "ESRI Map GeoJSON Layer": "ESRI mapa GeoJSON capa",
+  "ESRI Map Heatmap Layer": "ESRI mapa Heatmap capa",
   "Mapbox Hexbin Layer": "Mapbox Hexbin capa",
   "Topology": "Topologia",
   "IFrame": "IFrame",

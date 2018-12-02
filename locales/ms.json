@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI Peta",
   "ESRI Map Group": "ESRI Peta Kumpulan",
   "ESRI Map GeoJSON Layer": "ESRI Peta GeoJSON lapisan",
+  "ESRI Map Heatmap Layer": "ESRI Peta Heatmap lapisan",
   "Mapbox Hexbin Layer": "Lapisan Hexbin Mapbox",
   "Topology": "Topologi",
   "IFrame": "IFrame",

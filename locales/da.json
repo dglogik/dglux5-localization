@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI kort",
   "ESRI Map Group": "ESRI kort gruppe",
   "ESRI Map GeoJSON Layer": "ESRI kort GeoJSON lag",
+  "ESRI Map Heatmap Layer": "ESRI kort Heatmap lag",
   "Mapbox Hexbin Layer": "Mapbox Hexbin lag",
   "Topology": "Topologi",
   "IFrame": "IFrame",

@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI 지도",
   "ESRI Map Group": "ESRI 지도 그룹",
   "ESRI Map GeoJSON Layer": "ESRI 지도 GeoJSON 레이어",
+  "ESRI Map Heatmap Layer": "ESRI 지도 Heatmap 계층",
   "Mapbox Hexbin Layer": "Mapbox Hexbin 레이어",
   "Topology": "토폴로지",
   "IFrame": "IFrame",

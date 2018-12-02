@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI نقشه",
   "ESRI Map Group": "گروه نقشه ESRI",
   "ESRI Map GeoJSON Layer": "ESRI نقشه GeoJSON لایه",
+  "ESRI Map Heatmap Layer": "ESRI نقشه Heatmap لایه",
   "Mapbox Hexbin Layer": "Mapbox Hexbin لایه",
   "Topology": "توپولوژی",
   "IFrame": "IFrame",

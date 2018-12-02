@@ -764,6 +764,7 @@
   "ESRI Map": "Bản đồ của ESRI",
   "ESRI Map Group": "Nhóm Map ESRI",
   "ESRI Map GeoJSON Layer": "ESRI đồ GeoJSON lớp",
+  "ESRI Map Heatmap Layer": "ESRI đồ Heatmap lớp",
   "Mapbox Hexbin Layer": "Lớp Hexbin Mapbox",
   "Topology": "Tô pô",
   "IFrame": "Khung nội tuyến",

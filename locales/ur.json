@@ -764,6 +764,7 @@
   "ESRI Map": "ایسرا کا نقشہ",
   "ESRI Map Group": "ایسرا نقشہ گروپ",
   "ESRI Map GeoJSON Layer": "ایسرا نقشہ گیوجساون پرت",
+  "ESRI Map Heatmap Layer": "ایسرا نقشہ ہیاتماپ پرت",
   "Mapbox Hexbin Layer": "ماپبون ہیابان پرت",
   "Topology": "ٹوپالوجی",
   "IFrame": "IFrame",

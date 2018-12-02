@@ -764,6 +764,7 @@
   "ESRI Map": "ESRI megjelenítése",
   "ESRI Map Group": "ESRI megjelenítése csoport",
   "ESRI Map GeoJSON Layer": "ESRI réteg GeoJSON megjelenítése",
+  "ESRI Map Heatmap Layer": "ESRI térképréteget hőtérkép",
   "Mapbox Hexbin Layer": "Mapbox Hexbin réteg",
   "Topology": "Topológia",
   "IFrame": "IFrame",
