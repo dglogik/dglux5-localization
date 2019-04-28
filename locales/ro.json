@@ -1484,6 +1484,7 @@
   "NAN": "NAN",
   "Remote server failed to save the dataflow": "Server de la distanţă nu a reuşit să salveze dataflow",
   "Long Data": "Lung date",
+  "Annotation": "Adnotare",
   "Extrude": "Extrudare",
   "Circle": "Cerc",
   "Butt": "Cap la cap",
@@ -1837,6 +1838,7 @@
   "Url": "URL-ul",
   "Tel": "Tel",
   "when in strict mode, result is null when any input is null": "atunci când în mod strict, rezultatul este nul atunci când orice intrare este null",
+  "Font Size": "Dimensiunea fontului",
   "After": "După",
   "Before": "Înainte de a",
   "Format Clean": "Formatul curat",
@@ -1944,5 +1946,5 @@
   "Failed to Initialize": "Nu a reuşit să iniţializa",
   "New view": "Vizualizare nouă",
   "Remote Dataflow Editor by DGLogik": "Editor la distanţă Dataflow de DGLogik",
-  "DG Solution Builder": "DG Solution Builder"
+  "DG Solution Builder": "DG soluții constructor"
 }
