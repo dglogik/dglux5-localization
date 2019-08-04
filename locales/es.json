@@ -106,6 +106,7 @@
   "Selection Mode": "Modo de selección",
   "Disable Selection of Future Dates": "Desactivar la selección de fechas futuras",
   "Disable Selection of Past Dates": "Desactivar la selección de fechas pasadas",
+  "Disable Selection out of Month": "Deshabilitar selección fuera de mes",
   "Month Names": "Nombres de los meses",
   "DOW Names": "Nombres de DOW",
   "Start week on": "Semana de inicio en",

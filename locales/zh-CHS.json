@@ -106,6 +106,7 @@
   "Selection Mode": "选择模式",
   "Disable Selection of Future Dates": "禁用选择的未来日期",
   "Disable Selection of Past Dates": "禁用过去日期的选择",
+  "Disable Selection out of Month": "禁用\"月外选择\"",
   "Month Names": "月份名称",
   "DOW Names": "道琼斯指数名称",
   "Start week on": "开始周",

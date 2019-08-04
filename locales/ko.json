@@ -106,6 +106,7 @@
   "Selection Mode": "선택 모드",
   "Disable Selection of Future Dates": "미래 날짜의 선택 해제",
   "Disable Selection of Past Dates": "지난 날짜의 선택 해제",
+  "Disable Selection out of Month": "월별 선택 사용 안 함",
   "Month Names": "월 이름",
   "DOW Names": "다우 이름",
   "Start week on": "시작 주",

@@ -106,6 +106,7 @@
   "Selection Mode": "A kijelölő üzemmód",
   "Disable Selection of Future Dates": "Tiltsa le a jövő dátumok kiválasztása",
   "Disable Selection of Past Dates": "Tiltsa le a kiválasztott elmúlt",
+  "Disable Selection out of Month": "A hónap kiválasztásának tiltása",
   "Month Names": "Hónapnevek",
   "DOW Names": "DOW nevek",
   "Start week on": "Indítsa el a héten",

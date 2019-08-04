@@ -106,6 +106,7 @@
   "Selection Mode": "Valikurežiim",
   "Disable Selection of Future Dates": "Keela valimine tulevasi kuupäevi",
   "Disable Selection of Past Dates": "Keela valimine viimase",
+  "Disable Selection out of Month": "Keela valik kuu kohta",
   "Month Names": "Kuunimesid",
   "DOW Names": "DOW nimed",
   "Start week on": "Nädal algab",

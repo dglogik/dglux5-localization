@@ -106,6 +106,7 @@
   "Selection Mode": "選択モード",
   "Disable Selection of Future Dates": "将来の日付の選択を無効にします。",
   "Disable Selection of Past Dates": "過去の日付の選択を無効にします。",
+  "Disable Selection out of Month": "月外の選択を無効にする",
   "Month Names": "月の名前",
   "DOW Names": "ダウ名",
   "Start week on": "曜日を先頭します。",
