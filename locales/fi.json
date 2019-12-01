@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Kärkipisteitä katkaiseva",
   "Snapping To Grid": "Kohdistaminen ruudukkoon",
   "Snapping In Dataflow": "Katkaiseva Dataflow",
-  "Ignore Snapping Points": "Ohita pisteiden kiinnittäminen",
+  "Snapping To Custom Points": "Mukautettujen pisteiden kohdistaminen",
   "Enable": "Ota käyttöön",
   "Left Top Corner": "Vasemmassa yläkulmassa",
   "Right Top Corner": "Oikeassa yläkulmassa",

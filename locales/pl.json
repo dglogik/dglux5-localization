@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Przyciąganie do wierzchołków",
   "Snapping To Grid": "Przyciąganie do siatki",
   "Snapping In Dataflow": "Pęknięcia w przepływ danych",
-  "Ignore Snapping Points": "Ignoruj, przyciąganie punktów",
+  "Snapping To Custom Points": "Przyciąganie do punktów niestandardowych",
   "Enable": "Włącz",
   "Left Top Corner": "Lewym górnym rogu",
   "Right Top Corner": "Prawym, górnym rogu",

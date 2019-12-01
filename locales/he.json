@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "מצלם את הקודקודים",
   "Snapping To Grid": "הצמדה לרשת",
   "Snapping In Dataflow": "מצלם ב- Dataflow",
-  "Ignore Snapping Points": "התעלם הצמדת נקודות",
+  "Snapping To Custom Points": "הצמדה לנקודות מותאמות אישית",
   "Enable": "לאפשר",
   "Left Top Corner": "בפינה העליונה השמאלית",
   "Right Top Corner": "בפינה הימנית העליונה",

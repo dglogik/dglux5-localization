@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Köşeleri için dayama",
   "Snapping To Grid": "Izgarasına yapışmayı",
   "Snapping In Dataflow": "Dataflow içinde yapışma",
-  "Ignore Snapping Points": "Yapışma noktaları göz ardı",
+  "Snapping To Custom Points": "Özel Noktalara Yapışma",
   "Enable": "Etkinleştir",
   "Left Top Corner": "Sol üst köşesindeki",
   "Right Top Corner": "Sağ üst köşe",

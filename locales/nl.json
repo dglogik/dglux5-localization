@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Magnetisch uitlijnen op hoekpunten",
   "Snapping To Grid": "Vastklikken aan raster",
   "Snapping In Dataflow": "Breuk In Dataflow",
-  "Ignore Snapping Points": "Negeren magnetisch punten",
+  "Snapping To Custom Points": "Magnetisch uitlijnen op aangepaste punten",
   "Enable": "Inschakelen",
   "Left Top Corner": "Linker boven hoek",
   "Right Top Corner": "Rechterbovenhoek",

@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "करने के लिए पेरीमीटर तड़क",
   "Snapping To Grid": "ग्रिड के लिए तड़क",
   "Snapping In Dataflow": "Dataflow में तड़क",
-  "Ignore Snapping Points": "स्नैप पॉइंट्स पर ध्यान न दें",
+  "Snapping To Custom Points": "कस्टम अंक के लिए तड़क",
   "Enable": "सक्षम करें",
   "Left Top Corner": "बाएँ शीर्ष कोने",
   "Right Top Corner": "सही शीर्ष कोने",

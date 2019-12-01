@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "頂点にスナップ",
   "Snapping To Grid": "グリッドへのスナップ",
   "Snapping In Dataflow": "データ フローでのスナップ",
-  "Ignore Snapping Points": "スナップ ポイントを無視します。",
+  "Snapping To Custom Points": "カスタム ポイントへのスナップ",
   "Enable": "有効にします。",
   "Left Top Corner": "左上隅",
   "Right Top Corner": "右上隅",

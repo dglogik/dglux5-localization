@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Прилепва към върховете",
   "Snapping To Grid": "Прилепване към мрежата",
   "Snapping In Dataflow": "Счупване в да се създаде поток",
-  "Ignore Snapping Points": "Игнорирай хаплив точки",
+  "Snapping To Custom Points": "Прилепване към персонализирани точки",
   "Enable": "Разреши",
   "Left Top Corner": "Ляв горен ъгъл",
   "Right Top Corner": "Горния десен ъгъл",

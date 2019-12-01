@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Προσκόλληση στο κορυφές",
   "Snapping To Grid": "Προσκόλληση στο πλέγμα",
   "Snapping In Dataflow": "Προσκόλληση σε ροής δεδομένων",
-  "Ignore Snapping Points": "Παράβλεψη Snapping σημεία",
+  "Snapping To Custom Points": "Προσκόλληση σε προσαρμοσμένα σημεία",
   "Enable": "Ενεργοποίηση",
   "Left Top Corner": "Πάνω αριστερή γωνία",
   "Right Top Corner": "Πάνω δεξιά γωνία",

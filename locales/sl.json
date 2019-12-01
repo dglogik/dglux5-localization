@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Snapping vozlov",
   "Snapping To Grid": "Pripenjanje na mrežo",
   "Snapping In Dataflow": "Nekaj kar povzroča pok v podatkovni tok",
-  "Ignore Snapping Points": "Prezreti nekaj kar povzroča pok točk",
+  "Snapping To Custom Points": "Snapping za Custom točke",
   "Enable": "Omogoči",
   "Left Top Corner": "Levem zgornjem kotu",
   "Right Top Corner": "Desnem zgornjem kotu",

@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Trāpot uz virsotnes",
   "Snapping To Grid": "Piestiprināja pie režģa",
   "Snapping In Dataflow": "Trāpot Dataflow",
-  "Ignore Snapping Points": "Ignorēt, trāpot punkti",
+  "Snapping To Custom Points": "Snapping pielāgotiem punktiem",
   "Enable": "Iespējot",
   "Left Top Corner": "Kreisajā augšējā stūrī",
   "Right Top Corner": "Labajā augšējā stūrī",

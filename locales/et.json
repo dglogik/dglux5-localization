@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Haaramine tippudest",
   "Snapping To Grid": "Haaramine koordinaatvõrgule",
   "Snapping In Dataflow": "Dataflow haaramine",
-  "Ignore Snapping Points": "Ignoreeri haaramine punktid",
+  "Snapping To Custom Points": "Kohandatud punktide haaramine",
   "Enable": "Luba",
   "Left Top Corner": "Vasakus ülanurgas",
   "Right Top Corner": "Paremal üleval nurgas",

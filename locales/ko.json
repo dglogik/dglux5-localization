@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "꼭 스냅",
   "Snapping To Grid": "격자에 스냅",
   "Snapping In Dataflow": "데이터 흐름에 맞추기",
-  "Ignore Snapping Points": "포인트 스냅 무시",
+  "Snapping To Custom Points": "사용자 지정 포인트에 스냅",
   "Enable": "활성화",
   "Left Top Corner": "왼쪽된 상단 모서리",
   "Right Top Corner": "오른쪽 상단 모서리",

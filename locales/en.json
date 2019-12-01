@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Snapping To Vertexes",
   "Snapping To Grid": "Snapping To Grid",
   "Snapping In Dataflow": "Snapping In Dataflow",
-  "Ignore Snapping Points": "Ignore Snapping Points",
+  "Snapping To Custom Points": "Snapping To Custom Points",
   "Enable": "Enable",
   "Left Top Corner": "Left Top Corner",
   "Right Top Corner": "Right Top Corner",

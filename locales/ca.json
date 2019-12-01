@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Ajustament als vèrtexs",
   "Snapping To Grid": "Ajustament a la quadrícula",
   "Snapping In Dataflow": "Ajustament a usos",
-  "Ignore Snapping Points": "Ignorar l'ajustament de punts",
+  "Snapping To Custom Points": "Trencar a punts personalitzats",
   "Enable": "Permetre",
   "Left Top Corner": "Cantonada superior esquerra",
   "Right Top Corner": "Dreta part superior cantonada",

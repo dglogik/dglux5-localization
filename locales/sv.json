@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Knäppa till brytpunkter",
   "Snapping To Grid": "Fästning mot rutnät",
   "Snapping In Dataflow": "Knäppa i dataflöde",
-  "Ignore Snapping Points": "Ignorera knäppa punkter",
+  "Snapping To Custom Points": "Fästa vid anpassade punkter",
   "Enable": "Aktiverar",
   "Left Top Corner": "Vänstra övre hörnet",
   "Right Top Corner": "Övre högra hörnet",

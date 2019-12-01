@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Aggancio ai vertici",
   "Snapping To Grid": "Allineamento alla griglia",
   "Snapping In Dataflow": "Bloccarli nel flusso di dati",
-  "Ignore Snapping Points": "Ignorare i punti di aggancio",
+  "Snapping To Custom Points": "Aggancio a punti personalizzati",
   "Enable": "permettere",
   "Left Top Corner": "Nell'angolo superiore sinistro",
   "Right Top Corner": "Nell'angolo superiore destro",

@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Festing til toppunkt",
   "Snapping To Grid": "Festes til rutenett",
   "Snapping In Dataflow": "Snapping i dataflyt",
-  "Ignore Snapping Points": "Ignorere knipser poeng",
+  "Snapping To Custom Points": "Feste til egendefinerte punkt",
   "Enable": "Aktiverer",
   "Left Top Corner": "Topp til venstre",
   "Right Top Corner": "Øvre høyre hjørnet",

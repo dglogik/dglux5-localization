@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Andocken an Eckpunkte",
   "Snapping To Grid": "An Raster ausrichten",
   "Snapping In Dataflow": "Dataflow einrasten",
-  "Ignore Snapping Points": "Ignorieren Sie fangen Punkte",
+  "Snapping To Custom Points": "Fangen an benutzerdefinierten Punkten",
   "Enable": "Aktivieren",
   "Left Top Corner": "Links oben",
   "Right Top Corner": "Rechten oberen Ecke",

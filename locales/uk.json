@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Прив'язування до вершин",
   "Snapping To Grid": "Прив'язка до сітки",
   "Snapping In Dataflow": "Клацаючи в потік даних",
-  "Ignore Snapping Points": "Ігнорувати прив'язування точок",
+  "Snapping To Custom Points": "Прив'язка до настроюваних точок",
   "Enable": "Увімкнути",
   "Left Top Corner": "Лівий верхній кут",
   "Right Top Corner": "Правому верхньому куті",

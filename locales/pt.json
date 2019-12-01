@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Encaixe de vértices",
   "Snapping To Grid": "Encaixe na grade",
   "Snapping In Dataflow": "Ajuste no fluxo de dados",
-  "Ignore Snapping Points": "Ignorar pontos de encaixe",
+  "Snapping To Custom Points": "Agarrando-se a pontos personalizados",
   "Enable": "Permitir",
   "Left Top Corner": "Canto superior esquerdo",
   "Right Top Corner": "Canto superior direito",

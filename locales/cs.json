@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Přichycení k uchycení",
   "Snapping To Grid": "Přichycení k mřížce",
   "Snapping In Dataflow": "Uchycení v tok dat",
-  "Ignore Snapping Points": "Ignorovat, uchycení bodů",
+  "Snapping To Custom Points": "Přitahování na vlastní body",
   "Enable": "Povolit",
   "Left Top Corner": "Levý horní roh",
   "Right Top Corner": "Pravý horní roh",

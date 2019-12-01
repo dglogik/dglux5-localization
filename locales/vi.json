@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Chụp để Vertexes",
   "Snapping To Grid": "Chụp với mạng lưới",
   "Snapping In Dataflow": "Chụp trong Dataflow",
-  "Ignore Snapping Points": "Bỏ qua chụp điểm",
+  "Snapping To Custom Points": "Snapping để tùy chỉnh điểm",
   "Enable": "Kích hoạt",
   "Left Top Corner": "Ở góc trên cùng bên trái",
   "Right Top Corner": "Góc trên cùng bên phải",

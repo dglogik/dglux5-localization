@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Ajuste de vértices",
   "Snapping To Grid": "Ajustar a cuadrícula",
   "Snapping In Dataflow": "Ajuste de flujo de datos",
-  "Ignore Snapping Points": "Ignorar ajustar puntos",
+  "Snapping To Custom Points": "Ajustar a puntos personalizados",
   "Enable": "Permiten",
   "Left Top Corner": "Esquina superior izquierda",
   "Right Top Corner": "Esquina superior derecha",

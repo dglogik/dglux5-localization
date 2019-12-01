@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "捕捉到頂點",
   "Snapping To Grid": "對齊網格",
   "Snapping In Dataflow": "在資料流程中對齊",
-  "Ignore Snapping Points": "忽略捕捉點",
+  "Snapping To Custom Points": "捕捉到自訂點",
   "Enable": "啟用",
   "Left Top Corner": "左上角",
   "Right Top Corner": "右上角",

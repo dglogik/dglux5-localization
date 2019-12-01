@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "الانجذاب إلى الذرا",
   "Snapping To Grid": "الانجذاب إلى الشبكة",
   "Snapping In Dataflow": "العض في تدفق البيانات",
-  "Ignore Snapping Points": "تجاهل التقاط النقاط",
+  "Snapping To Custom Points": "الانجذاب إلى النقاط المخصصة",
   "Enable": "تمكين",
   "Left Top Corner": "الزاوية العليا اليسرى",
   "Right Top Corner": "الركن العلوي الأيمن",

@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "ถ่ายไปยังจุดยอด",
   "Snapping To Grid": "ถ่ายไปยังเส้นตาราง",
   "Snapping In Dataflow": "จัดระยะใน Dataflow",
-  "Ignore Snapping Points": "ละเว้นการหักคะแนน",
+  "Snapping To Custom Points": "การถ่ายไปยังจุดที่กำหนดเอง",
   "Enable": "เปิดใช้งาน",
   "Left Top Corner": "มุมบนซ้าย",
   "Right Top Corner": "มุมด้านบนขวา",

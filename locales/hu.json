@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "A csomópontok harapós",
   "Snapping To Grid": "Igazítás rácshoz",
   "Snapping In Dataflow": "Harapós-adatfolyam",
-  "Ignore Snapping Points": "Figyelmen kívül hagyja a harapós pontok",
+  "Snapping To Custom Points": "Igazítás egyéni pontokhoz",
   "Enable": "Engedélyezi a",
   "Left Top Corner": "Bal felső sarokban",
   "Right Top Corner": "Jobb felső sarok",

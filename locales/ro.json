@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Să se rupă la vârfuri",
   "Snapping To Grid": "Ajustare la grilă",
   "Snapping In Dataflow": "Snapping în Dataflow",
-  "Ignore Snapping Points": "Ignora Snapping puncte",
+  "Snapping To Custom Points": "Snapping la puncte personalizate",
   "Enable": "Permite",
   "Left Top Corner": "Colţul din stânga",
   "Right Top Corner": "Colţul dreapta-sus",

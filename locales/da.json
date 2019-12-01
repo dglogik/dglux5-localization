@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "Fastgøre til toppunkter",
   "Snapping To Grid": "Fastgørelse til gitter",
   "Snapping In Dataflow": "Fastgørelse i Dataflow",
-  "Ignore Snapping Points": "Ignorere snapper point",
+  "Snapping To Custom Points": "Fastgørelse til brugerdefinerede punkter",
   "Enable": "Aktiverer",
   "Left Top Corner": "Venstre øverste hjørne",
   "Right Top Corner": "Øverste højre hjørne",

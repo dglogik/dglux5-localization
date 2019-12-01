@@ -1243,7 +1243,7 @@
   "Snapping To Vertexes": "خوراکی به پیچیدنی",
   "Snapping To Grid": "خوراکی به شبکه",
   "Snapping In Dataflow": "خوراکی در جریان داده",
-  "Ignore Snapping Points": "نادیده گرفتن امتیاز بزرگ خوراکی",
+  "Snapping To Custom Points": "خوراکی به نقاط سفارشی",
   "Enable": "فعال کردن",
   "Left Top Corner": "گوشه بالا سمت چپ",
   "Right Top Corner": "گوشه سمت راست بالا",
