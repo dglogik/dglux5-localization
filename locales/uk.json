@@ -1725,6 +1725,7 @@
   "Loop": "Петля",
   "Reverse": "Реверс",
   "On Image Loaded": "На зображення, що завантажується",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Визначає, які типи файлів, що буде прийнята",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "розширення файлу, починаючи з характером стоп, наприклад:. GIF,. jpg, «. PNG», «. txt»",
   "all sound files are accepted": "приймаються всі звукові файли",

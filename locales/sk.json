@@ -1725,6 +1725,7 @@
   "Loop": "Slučka",
   "Reverse": "Reverzné",
   "On Image Loaded": "Na obraz naložené",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Určuje typy súborov, ktoré budú prijímané",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "príponu súboru počnúc STOP znak, napr.: .gif .jpg, .png, .txt",
   "all sound files are accepted": "Všetky zvukové súbory sú prijímané",

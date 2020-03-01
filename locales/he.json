@@ -1725,6 +1725,7 @@
   "Loop": "לולאה",
   "Reverse": "הפוך",
   "On Image Loaded": "התמונה שנטענה",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "מציין את סוגי הקבצים יתקבלו",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "סיומת קובץ החל מהתו עצירה, למשל: .gif. jpg,. png,. txt",
   "all sound files are accepted": "כל קבצי צליל מתקבלים",

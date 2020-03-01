@@ -1725,6 +1725,7 @@
   "Loop": "Βρόχο",
   "Reverse": "Αντίστροφη",
   "On Image Loaded": "Στην εικόνα φορτώνεται",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Καθορίζει τους τύπους αρχείων που θα γίνονται δεκτές",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "μια επέκταση αρχείου, ξεκινώντας με τον χαρακτήρα του στάση, π.χ.: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "όλα τα αρχεία ήχου είναι αποδεκτές",

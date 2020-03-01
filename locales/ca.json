@@ -1725,6 +1725,7 @@
   "Loop": "LOOP",
   "Reverse": "Inversa",
   "On Image Loaded": "Carrega la imatge",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Especifica els tipus de fitxers que s'acceptaran",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "una extensió de fitxer començant amb el caràcter de parada, per exemple:. gif,. jpg,. png,. txt",
   "all sound files are accepted": "s'accepten tots els arxius de so",

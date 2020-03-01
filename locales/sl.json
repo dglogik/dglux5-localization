@@ -1725,6 +1725,7 @@
   "Loop": "Zanke",
   "Reverse": "Povratne",
   "On Image Loaded": "Podoba naložen",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Določa vrste datotek, ki bodo sprejeta",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "pripono datoteke, začenši s STOP znak, npr: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "vse zvočne datoteke so sprejeli",

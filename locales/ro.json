@@ -1725,6 +1725,7 @@
   "Loop": "Bucla",
   "Reverse": "Inversa",
   "On Image Loaded": "Pe imagine încărcat",
+  "Extend1px": "Extindere1px",
   "Specifies the types of files that will be accepted": "Specifică tipurile de fişiere care vor fi acceptate",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "extensia de fişier începe cu caracterul de oprire, de exemplu: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "toate fişierele de sunet sunt acceptate",

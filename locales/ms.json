@@ -1725,6 +1725,7 @@
   "Loop": "Gelung",
   "Reverse": "Belakang",
   "On Image Loaded": "Pada imej yang dimuatkan",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Menentukan jenis-jenis fail yang akan diterima",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "sambungan fail yang bermula dengan watak berhenti, e.g: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "Semua fail bunyi yang diterima",

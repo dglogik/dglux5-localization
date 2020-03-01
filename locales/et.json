@@ -1725,6 +1725,7 @@
   "Loop": "Silmus",
   "Reverse": "Vastupidine",
   "On Image Loaded": "Pildi laadimise",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Määrab aktsepteeritakse failitüübid",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "alustades STOP märk faililaiend nt: .gif, .jpg, .png ja .txt",
   "all sound files are accepted": "Kõik helifaile aktsepteeritakse",

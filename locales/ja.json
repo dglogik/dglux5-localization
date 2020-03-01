@@ -1725,6 +1725,7 @@
   "Loop": "ループ",
   "Reverse": "リバース",
   "On Image Loaded": "読み込まれたイメージに",
+  "Extend1px": "エクステンス1px",
   "Specifies the types of files that will be accepted": "受け入れられるファイルの種類を指定します。",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "停止文字で始まるファイルの拡張子例: .gif、.jpg、.png、.txt",
   "all sound files are accepted": "すべてのサウンド ファイルを受け取る",

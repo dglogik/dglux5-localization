@@ -1725,6 +1725,7 @@
   "Loop": "Lus",
   "Reverse": "Omgekeerde",
   "On Image Loaded": "Op afbeelding geladen",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Hiermee geeft u de typen bestanden die geaccepteerd worden",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "een bestandsextensie beginnen met het STOP-teken, bijvoorbeeld: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "alle geluidsbestanden worden geaccepteerd",

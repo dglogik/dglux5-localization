@@ -1725,6 +1725,7 @@
   "Loop": "Döngü",
   "Reverse": "Ters çevir",
   "On Image Loaded": "Yansımada yüklü",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Kabul edilecek dosya türlerini belirtir",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "STOP karakteri ile başlayan dosya uzantısı e.g: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "tüm ses dosyaları kabul edilir",

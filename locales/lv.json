@@ -1725,6 +1725,7 @@
   "Loop": "Cilpa",
   "Reverse": "Pretējā virzienā",
   "On Image Loaded": "Uz attēlu, kas ielādēts",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Norāda, kāda veida faili, kas tiks pieņemts",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "faila paplašinājumu, sākot no pieturas rakstzīmes, piem.:. gif,. jpg,. png,. txt",
   "all sound files are accepted": "tiek pieņemti visi skaņas faili",

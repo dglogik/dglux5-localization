@@ -1725,6 +1725,7 @@
   "Loop": "حلقة",
   "Reverse": "عكس",
   "On Image Loaded": "تحميل الصورة",
+  "Extend1px": "تمديد1px",
   "Specifies the types of files that will be accepted": "تحديد أنواع الملفات التي سيتم قبول",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "ملحق ملف بدءاً من وقف الحرف، على سبيل المثال:.gif,.jpg,.png, txt.",
   "all sound files are accepted": "يتم قبول جميع ملفات الصوت",

@@ -1725,6 +1725,7 @@
   "Loop": "Linijos",
   "Reverse": "Atbulinės eigos",
   "On Image Loaded": "Ant paveikslėlio įkelti",
+  "Extend1px": "Extend1px (1 px)",
   "Specifies the types of files that will be accepted": "Nurodo tipus, failus, kurie bus priimti",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "failo plėtinys, pradedant nuo langelio simbolio, pvz.: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "priimami visi garso failai",

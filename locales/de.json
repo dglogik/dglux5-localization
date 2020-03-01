@@ -1725,6 +1725,7 @@
   "Loop": "Schleife",
   "Reverse": "Rückseite",
   "On Image Loaded": "Auf Bild geladen",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Gibt die Typen von Dateien, die akzeptiert werden",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "eine Dateierweiterung beginnend mit dem STOP-Zeichen, z.B.: .jpg, .png, .gif, .txt",
   "all sound files are accepted": "Alle sound-Dateien werden akzeptiert",

@@ -1725,6 +1725,7 @@
   "Loop": "Silmukka",
   "Reverse": "Kääntää",
   "On Image Loaded": "Kuva on ladattu",
+  "Extend1px": "Laajenna1px",
   "Specifies the types of files that will be accepted": "Määrittää tiedostotyypit, joka hyväksytään",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "STOP-merkistä alkaen tiedostopääte esim: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "kaikki äänitiedostot hyväksytään",

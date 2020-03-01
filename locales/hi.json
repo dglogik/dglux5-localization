@@ -1725,6 +1725,7 @@
   "Loop": "पाश",
   "Reverse": "रिवर्स",
   "On Image Loaded": "छवि लोड पर",
+  "Extend1px": "एक्सटेंड1px",
   "Specifies the types of files that will be accepted": "स्वीकार किए जाते हैं हो जाएगा फ़ाइलों के प्रकार को निर्दिष्ट करता है",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "किसी फ़ाइल एक्सटेंशन रोकने के चरित्र के साथ, शुरू उदा:. gif,. jpg,. png,. txt",
   "all sound files are accepted": "सभी ध्वनि फ़ाइलें स्वीकार किए जाते हैं",

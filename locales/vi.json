@@ -1725,6 +1725,7 @@
   "Loop": "Vòng lặp",
   "Reverse": "Đảo ngược",
   "On Image Loaded": "Trên hình ảnh được tải",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Chỉ định các loại tệp mà sẽ được chấp nhận",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "một phần mở rộng tệp bắt đầu với nhân vật dừng, ví dụ như: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "Tất cả các file âm thanh được chấp nhận",

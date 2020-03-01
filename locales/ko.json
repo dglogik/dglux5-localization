@@ -1725,6 +1725,7 @@
   "Loop": "루프",
   "Reverse": "리버스",
   "On Image Loaded": "이미지 로드",
+  "Extend1px": "연장1px",
   "Specifies the types of files that will be accepted": "접수 파일의 형식 지정",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "중지 문자 시작 파일 확장명 예:.gif,.jpg,.png,.txt",
   "all sound files are accepted": "모든 사운드 파일 허용",

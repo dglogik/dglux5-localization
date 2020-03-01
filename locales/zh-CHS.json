@@ -1725,6 +1725,7 @@
   "Loop": "循环",
   "Reverse": "反向",
   "On Image Loaded": "在图像加载",
+  "Extend1px": "扩展1px",
   "Specifies the types of files that will be accepted": "指定将被接受的文件类型",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "以停止字符为起始文件扩展名例如：.gif、.jpg、.png、.txt",
   "all sound files are accepted": "接受了所有的声音文件",

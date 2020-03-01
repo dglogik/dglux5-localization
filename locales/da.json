@@ -1725,6 +1725,7 @@
   "Loop": "Løkke",
   "Reverse": "Omvendt",
   "On Image Loaded": "På billede indlæses",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "Angiver typerne af filer, der vil blive accepteret",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "et filtypenavn, der starter med tegnet STOP fx: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "alle lydfiler er accepteret",

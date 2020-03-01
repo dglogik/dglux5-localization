@@ -1725,6 +1725,7 @@
   "Loop": "วน",
   "Reverse": "ย้อนกลับ",
   "On Image Loaded": "จากภาพที่โหลด",
+  "Extend1px": "Extend1px",
   "Specifies the types of files that will be accepted": "ระบุชนิดของแฟ้มที่จะยอมรับ",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "ส่วนขยายของแฟ้มเริ่มต้น ด้วยอักขระต้อง เช่น: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "เป็นที่ยอมรับไฟล์เสียงทั้งหมด",

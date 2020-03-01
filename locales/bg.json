@@ -1725,6 +1725,7 @@
   "Loop": "Цикъл",
   "Reverse": "Заден ход",
   "On Image Loaded": "На изображението зареждат",
+  "Extend1px": "Разширен1px",
   "Specifies the types of files that will be accepted": "Указва типовете файлове, които ще бъдат приети",
   "a file extension starting with the STOP character, e.g: .gif, .jpg, .png, .txt": "разширение на файл, започвайки от СПИРКА знак, например: .gif, .jpg, .png, .txt",
   "all sound files are accepted": "приемат се всички звукови файлове",
