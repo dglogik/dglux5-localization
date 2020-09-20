@@ -965,6 +965,7 @@
   "Properties": "속성",
   "Autosave on close": "주변에 자동 저장",
   "Autosave": "자동 저장",
+  "Copy Path": "경로 복사",
   "Apply": "적용",
   "Load Completed": "로드 완료",
   "Decoding failed:": "암호를 해독 하지 못했습니다.",

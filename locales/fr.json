@@ -965,6 +965,7 @@
   "Properties": "Propriétés",
   "Autosave on close": "Enregistrement automatique lors de la fermeture",
   "Autosave": "Enregistrement automatique",
+  "Copy Path": "Copier le chemin d’accès",
   "Apply": "Appliquer",
   "Load Completed": "Chargement terminé",
   "Decoding failed:": "Échec du décodage :",

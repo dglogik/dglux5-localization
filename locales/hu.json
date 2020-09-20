@@ -965,6 +965,7 @@
   "Properties": "Tulajdonságok",
   "Autosave on close": "Automatikus mentés a Bezárás",
   "Autosave": "Automatikus mentés",
+  "Copy Path": "Elérési út másolása",
   "Apply": "Alkalmazása",
   "Load Completed": "Terhelés befejezése",
   "Decoding failed:": "Dekódolása sikertelen:",
