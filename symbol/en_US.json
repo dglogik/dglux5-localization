@@ -748,7 +748,7 @@
   "shape": "Shape",
   "Address": "Address",
   "Information": "Information",
-  "paths_L":"Paths";
+  "paths_L":"Paths",
   "Left Axis": "Left Axis",
   "Right Axis": "Right Axis",
   "true": "True",

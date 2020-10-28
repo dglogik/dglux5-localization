@@ -750,7 +750,7 @@
   "shape": "Forme",
   "Address": "Adresse",
   "Information": "Information",
-  "paths_L":"Chemins";
+  "paths_L":"Chemins",
   "Left Axis": "Axe gauche",
   "Right Axis": "Axe droit",
   "true": "Vrai",
