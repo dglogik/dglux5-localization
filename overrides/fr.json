@@ -742,7 +742,7 @@
   "http://www.dglogik.com": "http://www.dglogik.com",
   "Save With Log": "Enregistrer avec compte-rendu",
   "Enabled": "Activé",
-  "Disabled": "Personnes handicapées",
+  "Disabled": "Désactivé",
   "Clear": "Effacer",
   "Marketplace": "Marché",
   "You can\\'t place component inside symbol\\'s root container": "Il n’est pas possible de placer le composant à l’intérieur du conteneur racine du symbole",
