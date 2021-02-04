@@ -7647,121 +7647,158 @@
 
 
     ".add": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/add.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:add",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Math_Operations.htm"
     ],
     ".subtract": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/subtract.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____122"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:subtract",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Subtract.htm"
     ],
     ".multiply": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/multiply.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____79"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:multiply",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Multiply.htm"
     ],
     ".divide": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/divide.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____30"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:divide",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Divide.htm"
     ],
     ".max": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/max.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____71"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:max",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Maximum.htm"
     ],
     ".min": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/min.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____73"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:min",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Minimum.htm"
     ],
     ".average": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/average.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____10"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:average",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Statistical_Functions_1.htm#TOC_Average"
     ],
     ".median": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/median.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____72"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:median",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Median.htm"
     ],
     ".not": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/operations_not.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____80"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_not"
     ],
     ".modulo": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/modulo.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____75"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:modulo",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Modulo.htm"
     ],
     ".log": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/logarithm.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____68"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:logarithm",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Logarithm.htm"
     ],
     ".power": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/power.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____87"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:power",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Power.htm"
     ],
     ".root": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/root.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____100"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:root",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Root.htm"
     ],
     ".factorial": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/factorial.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____38"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:factorial",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Factorial.htm"
     ],
     ".sin": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/sine.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____111"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:sine",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Sine.htm"
     ],
     ".cos": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/cosine.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____20"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cosine",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Cosine.htm"
     ],
     ".tan": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/tangent.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____125"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:tangent",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Tangent.htm"
     ],
     ".cot": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/cotangent.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____21"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cotangent",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Cotangent.htm"
     ],
     ".asin": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/arc_sine.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____8"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_sine",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Arc_Sine.htm"
     ],
     ".acos": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/arc_cosine.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____7"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_cosine",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trigonometric_Functions_1.htm#TOC_Arc_Cosine"
     ],
     ".atan": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/arc_tangent.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____9"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_tangent",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Arc_Tangent.htm"
     ],
     ".toRadian": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/radian.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____91"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:radian",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Radian.htm"
     ],
     ".toDegree": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/degree.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____26"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:degree",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Degree.htm"
     ],
     ".abs": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/absolute.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____2"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:absolute",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Number_Formatting_1.htm#TOC_Absolute"
     ],
     ".round": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/round.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____101"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round.htm"
     ],
     ".roundUp": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_up",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round_Up.htm"
     ],
     ".roundDown": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/round_down.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____102"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_down",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round_Down.htm"
     ],
     ".scale": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/round_up.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____103"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:scale",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Bound.htm"
     ],
     ".bound": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/bound.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____13"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:bound",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Bound.htm"
     ],
     ".length": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/length.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____58"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:length",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Length.htm"
     ],
     ".left": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/left.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____57"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:left",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Left.htm"
     ],
     ".right": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/right.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____98"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:right",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Right.htm"
     ],
     ".substring": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/subst_block.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____121"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Substring.htm"
     ],
     ".trim": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/trim.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____128"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:trim",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trim.htm"
     ],
     ".split": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/split.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____113"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:split",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Split.htm"
     ],
     ".label": [
         ""
     ],
     ".parseNumber": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/parse_number.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____85"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:parse_number",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Parse_Number.htm"
     ],
     ".formatDate": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Format.htm"
     ],
     ".formatNumber": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/format_number.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____40"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:format_number",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Format_Number.htm"
     ],
     ".encodeBase64str": [
         ""
@@ -7791,70 +7828,89 @@
         ""
     ],
     ".datetime": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/date_time.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____25"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time"
     ],
     ".dateFormat": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Format.htm"
     ],
     ".parseDateTime": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/parse_date_time.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____84"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:parse_date_time",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Parse_Date_Time.htm"
     ],
     ".dateMath": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_math",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Math.htm"
     ],
     ".dateRange": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/date_range.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____24"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Range.htm"
     ],
     ".script": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/script.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____106"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Script.htm"
     ],
     ".stopwatch": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/stop_watch.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____117"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Stop_Watch.htm"
     ],
     ".propertyHub": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/property_hub.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____89"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Hub.htm"
     ],
     ".dynamic": [
         ""
     ],
     ".table": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/table.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____123"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:table",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table.htm"
     ],
     ".tableSort": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/sort.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____112"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Sort.htm"
     ],
     ".tableFilter": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/filter.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____39"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:filter",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Filter.htm"
     ],
     ".tableRollup": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/rollup.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____99"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Rollup.htm"
     ],
     ".tableJoin": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/join.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____53"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:join",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Join.htm"
     ],
     ".tableMultiJoin": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:multijoin"
     ],
     ".tablePage": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/page.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____83"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Page.htm"
     ],
     ".tableSelectRows": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/select_rows.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____109"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_rows",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Select_Rows.htm"
     ],
     ".tableSelectColumns": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/select_columns.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____108"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_columns",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Select_Columns.htm"
     ],
     ".tableAggregation": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/aggregation.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____5"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Aggregation.htm"
     ],
     ".tableGetColumns": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/get_columns.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____43"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:get_columns",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_Columns.htm"
     ],
     ".tableRemoveRows": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/remove_rows.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____94"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:remove_rows",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Remove_Row.htm"
     ],
     ".tableTranspose": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/transpose.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____127"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:transpose",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Transpose.htm"
     ],
     ".mapToTable": [
         ""
@@ -7863,16 +7919,20 @@
         ""
     ],
     ".makeObject": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/make_object.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____69"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:make_object",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Make_Object.htm"
     ],
     ".jsonParser": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/json_parser.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____54"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:json_parser",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/JSON_Parser.htm"
     ],
     ".csvParser": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/csv_parser.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____22"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_parser",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table_Operations_1.htm#TOC_CSV_Parser"
     ],
     ".csvWriter": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/csv_writer.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____23"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_writer",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/CSV_Writer.htm"
     ],
     ".dfsymbol": [
         ""
@@ -7881,7 +7941,8 @@
         ""
     ],
     ".repeater": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/repeater.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____95"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:repeater",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Repeater.htm"
     ],
     ".fill": [
         ""
@@ -7890,55 +7951,66 @@
         ""
     ],
     ".gradientMapping": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/gradient_mapping.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____47"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:gradient_mapping",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Gradient_Mapping.htm"
     ],
     ".gradientStop": [
         ""
     ],
     ".stateItem": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/state.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____115"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/State.htm"
     ],
     ".strUploader": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/string_uploader.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____120"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_uploader",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Uploader.htm"
     ],
     ".strLoader": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/string_loader.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____119"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_loader",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Loader.htm"
     ],
     ".listFiles": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/list_files.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____59"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_files",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/List_Files.htm"
     ],
     ".jsonpLoader": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/jsonp_loader.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____55"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:jsonp_loader",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Browser_API_1.htm#TOC_JSONP_Loader"
     ],
     ".mouseEventData": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/mouse_event.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____76"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Mouse_Event.htm"
     ],
     ".keyboardEventData": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/keyboard_event.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____56"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:keyboard_event",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Keyboard_Event.htm"
     ],
     ".scrollEventData": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/scroll_event.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____107"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:scroll_event",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Scroll_Event.htm"
     ],
     ".resizeEventData": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/resize_event.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____97"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:resize_event",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Resize_Event.htm"
     ],
     ".relativize": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/relativize.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____93"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:relativize",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Relativize.htm"
     ],
     ".relativizeNodePath": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Relativization.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____16"
+        ""
     ],
     ".loadValue": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/load_value.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____64"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_value"
     ],
     ".loadHistory": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/load_history.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____63"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history"
     ],
     ".invokeAction": [
         ""
     ],
     ".getDefaultParams": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/get_default.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____44"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_default"
     ],
     ".dbQuery": [
         ""
@@ -7947,70 +8019,87 @@
         ""
     ],
     ".getChildren": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/get_children.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____42"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_children"
     ],
     ".getNode": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/get_node.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____45"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_Node.htm"
     ],
     ".listNode": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/list_node.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____60"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_node",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Data_Services_1.htm#TOC_List_Node"
     ],
     ".subscribeValue": [
         ""
     ],
     ".loadHistories": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/multi-histories.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____77"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:multi-histories",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Multi-Histories.htm"
     ],
     ".string": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/string.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____118"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:string",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Variables_1.htm#TOC_String"
     ],
     ".number": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/number.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____81"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:number",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Number.htm"
     ],
     ".bool": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/boolean.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____12"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:boolean",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Boolean.htm"
     ],
     ".color": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/color.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____17"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:color",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Color.htm"
     ],
     ".svgLightElement": [
         ""
     ],
     ".catchError": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/catch_error.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____15"
-    ],
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:catch_error",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Catch_Error.htm"
+   ],
     ".group": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Group.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____9"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:group:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Groups.htm"
     ],
     ".viewDeck": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Viewdeck Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____24"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:view_deck:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/View_Deck.htm#MiniTOC_1010619"
     ],
     ".symbol": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Symbols.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____18"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Symbols.htm#MiniTOC_1013750"
     ],
     ".jswidget": [
         ""
     ],
     ".pageInclude": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Page Include Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____15"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:page_include:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Page_Include.htm#MiniTOC_1011697"
     ],
     ".text": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Text Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____19"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:text:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Text.htm#MiniTOC_1009434"
     ],
     ".shape": [
         ""
     ],
     ".img": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Image Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____12"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:image:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Images.htm#MiniTOC_1009668"
     ],
     ".iframe": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/iFrame Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____11"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:iframe:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/IFrame.htm#MiniTOC_1011471"
     ],
     ".video": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Video.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____23"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:video:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Video.htm#MiniTOC_1013378"
     ],
     ".rawSvgRepeater": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:raw_svg_repeater:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Raw_SVG_Repeater.htm"
     ],
     ".scrollbarStyles": [
         ""
@@ -8022,22 +8111,28 @@
         ""
     ],
     ".svg": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/SVG_Shapes.htm"
     ],
     ".svg:g": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/SVG_Shapes.htm"
     ],
     ".svg:path": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#paths_and_polylines",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Paths_and_Polylines.htm"
     ],
     ".svg:rect": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Rectangles_and_Ellipses.htm"
     ],
     ".svg:ellipse": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Rectangles_and_Ellipses.htm"
     ],
     ".svg:line": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#lines",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Lines.htm"
     ],
     ".svg:image": [
         ""
@@ -8064,348 +8159,438 @@
         ""
     ],
     ".projectInfo": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/project-info.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____88"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:project-info",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Project_Info.htm"
     ],
     ".localStorage": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/local_storage.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____65"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Local_Storage.htm"
     ],
     ".blobUrl": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/blob_url.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____11"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:blob_url",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Blob_URL.htm"
     ],
     ".closeDashboard": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".openDashboard": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".downloadFile": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".playSound": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".logout": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".gridColumn": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#column_properties",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Column_Properties.htm"
     ],
     ".iframeMessage": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/iframe_message.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____51"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/IFrame_Message.htm"
     ],
     ".frameMsgBroadcaster": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/iframe_message.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____51"
+        ""
     ],
     ".frameMsgReceiver": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/iframe_message.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____51"
+        ""
     ],
     ".javascript": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/javascript.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____52"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:javascript",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Javascript.htm"
     ],
     ".exportHtml": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/export_html.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____37"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Export_HTML.htm"
     ],
     ".exportPaginatedPDF": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/export_paginated_pdf.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____36"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf"
     ],
     ".geoLocation": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/geo-location.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____41"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:geo-location",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Geo-Location.htm"
     ],
     ".deviceOrientation": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/device-orientation.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____29"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-orientation",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Device_Orientation.htm"
     ],
     ".deviceMotion": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/device-motion.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____28"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-motion",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Device_Motion.htm"
     ],
     ".webDocument": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/web-document.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____130"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Web_Document.htm"
     ],
     ".getViewProperty": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/get_view_property.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____46"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:get_view_property",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_View_Property.htm"
     ],
     ".dragPosition": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/drag_position.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____31"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Drag_Position.htm"
     ],
     ".dragSize": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/drag_size.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____32"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_size",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Drag_Size.htm"
     ],
     ".zipUpload": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/zip-upload.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____133"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-upload",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Upload.htm"
     ],
     ".zipDownload": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/zip-download.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____131"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-download",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Download.htm"
     ],
     ".zipParser": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/zip-parser.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____132"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-parser",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Parser.htm"
     ],
     ".mapSeriesData": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/map_series_data.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____70"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:map_series_data",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Map_Series_Data.htm"
     ],
     ".closeWarningDialog": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/close_warning_dialog.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____16"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:close_warning_dialog",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Close_Warning_Dialog.htm"
     ],
     ".dsaConnection": [
         ""
     ],
     ".chart": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".scaleTicks": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Gauges.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____7"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:ticks:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".scaleLabels": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Gauges.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____7"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:labels:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".scaleTrack": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Gauges.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____7"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:track:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".linearAxis": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".logAxis": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".categoryAxis": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".datetimeAxis": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".axisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".radialAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".angularAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".linearAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".logAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".categoryAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".datetimeAxisRenderer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".lineSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".areaSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".columnSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".barSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".bubbleSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".spectrumSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".radarSeries": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".lineSet": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".areaSet": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".columnSet": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".barSet": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".radarSet": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+    ],
+    ".pieSeries": [
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:pie",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Pie_Chart_Properties.htm"
     ],
     ".gridlines": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Charts.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:plot_area",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Plot_Area_Properties.htm"
     ],
     ".datagrid": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Data Grid Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____4"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Creating_a_Data_Grid.htm"
     ],
     ".divTree": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Tree.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____21"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Tree.htm"
     ],
     ".divTreeGrid": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Tree Grid.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____22"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree_grid:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Tree_Grid.htm"
     ],
     ".datagridRows": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Data Grid Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____4"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_row_properties",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Row_Properties.htm"
     ],
-    ".dathttps://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Data Grid Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____4agridHeader": [
-        ""
+    ".datagridHeader": [
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_header_properties",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Header_Properties.htm"
     ],
     ".divTreeItemModel": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Tree.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____21"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home#tree_items"
     ],
     ".divTreeGridRowModel": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Tree Grid.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____22"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home"
     ],
     ".calendar": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Calendar Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____2"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:calendar:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Calendars.htm"
     ],
     ".calendarCellStyle": [
         ""
     ],
     ".daterangePicker": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Date Range Picker.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____5"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:date_range:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Date_Range_Picker.htm"
     ],
     ".map": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Google Map Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____8"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"
     ],
     ".mapGroup": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Map Groups.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____13"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:map_group:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Map_Group.htm"
     ],
     ".heatMap": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Heat Maps.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____10"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:heat_map:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Heat_Map.htm"
     ],
     ".heatMapOverlay": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Google Map Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____8"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"        
     ],
     ".mapbox": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxHeatMapLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxMarkerLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxGeoJsonLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxTileLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxDrawLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxHexbinLayer": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/MapBox GL Components.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxGroup": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Map Groups.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____13"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".topology": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Topology.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7C_____20"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:topology:home"
     ],
     ".textFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02%20Components/Text%20Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____1"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Text_Input_and_Text_Area_Properties.htm"
     ],
     ".textAreaFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Text Area.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____2"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text_area:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Text_Input_and_Text_Area_Properties.htm"
     ],
     ".colorFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Color Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____5"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:color:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Color_Input_Properties.htm"
     ],
     ".numberFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Number Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____6"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:number:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Number_Input_Properties.htm"
     ],
     ".rangeFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Range Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____7"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:range:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Range_Input_Properties.htm"
     ],
     ".dateFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Date Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____4"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:date:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Date_Input_Properties.htm"
     ],
     ".dgTimeFormInput": [
         ""
     ],
     ".passwordFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/Password Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____3"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:password:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Shared_Input_Properties.htm"
     ],
     ".listFormElement": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/List Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____9"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:list:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/List_Input_Properties.htm"
     ],
     ".fileFormInput": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/02 Components/File Input.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CComponents%2520and%2520Widgets%7CForm%2520Input%7C_____8"
+        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:file:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/File_Input_Properties.htm"
     ],
     ".mode": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:mode",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Mode.htm"
     ],
     ".variance": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/variance.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____129"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:variance",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Variance.htm"
     ],
     ".stdDeviation": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/std_deviation.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____116"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:std_deviation",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Standard_Deviation.htm"
     ],
     ".concat": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/concatenate.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____19"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:concatenate",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Operations_1.htm#TOC_Concatenate"
     ],
     ".replace": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/replace.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____96"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:replace",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Replace.htm"
     ],
     ".if": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/if.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____50"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/If.htm"
     ],
     ".case": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/case.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____14"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Case.htm"        
     ],
     ".router": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/router.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____104"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router"
     ],
     ".hub": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/hub.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____49"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Hub.htm"
     ],
     ".eventGate": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/event_gate.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____35"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:event_gate",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Event_Gate.htm"
     ],
     ".trace": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/trace.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____126"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trace.htm"
     ],
     ".delay": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/delay.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____27"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:delay",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Delay.htm"
     ],
     ".propertyHubModifier": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/property_hub_modifier.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____90"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub_modifier"
     ],
     ".tableAdvancedRollup": [
         ""
     ],
-    ".tableMultiJoin": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/multijoin.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____78"
-    ],
     ".realtimeRecorder": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/realtime_recorder.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____92"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:realtime_recorder",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Real-time_Recorder.htm"
     ],
     ".seriesRealtimeRecorder": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/series_realtime_recorder.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____110"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:series_realtime_recorder",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Series_Real-time_Recorder.htm"
     ],
     ".tableColumnMapping": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/column_mapping.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____18"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Column_Mapping.htm"
     ],
     ".tableGroupBy": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/group_by.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____48"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:group_by",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Group_By.htm"
     ],
     ".tableRowCells": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/table_row_cells.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____124"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_row_cells",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table_Row_Cells.htm"
     ],
     ".tableAddRow": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/add_row.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____4"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:add_row",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Add_Row.htm"
     ],
     ".tableEditRows": [
-        "https://developer.atrius-iot.com/documentation/solutionbuilder/default.htm#Topics/03%20Dataflow%20Block%20Reference/edit_rows.htm%3FTocPath%3DAtrius%2520Solution%2520Builder%7CDataflow%2520Programming%2520and%2520Scripting%7CDataflow%2520Programming%7C_____34"
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:edit_rows",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Edit_Rows.htm"
     ],
     ".changeState": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/State.htm"
     ],
     ".queryBinding": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Bindings/Data_Bindings_in_the_Binding_Dialog.htm"
     ],
     ".valueBinding": [
-        ""
+        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Bindings/Data_Bindings_in_the_Binding_Dialog.htm"
     ],
     ".openWeb": [
-        ""
+        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ]
 }
