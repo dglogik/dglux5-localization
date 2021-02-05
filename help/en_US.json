@@ -8592,5 +8592,13 @@
     ".openWeb": [
         "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
+    ],
+    ".script#number": [
+        "http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/Number_Formats_Functions_and_Constants.htm"
+    ],
+    ".script#datetime": [
+        "http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/DateTime_Formats_and_Functions.htm"
     ]
 }
