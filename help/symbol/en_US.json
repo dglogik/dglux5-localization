@@ -27,10 +27,6 @@
 	"seriesMode_L",
 	"Defines how the data values are rendered.<br><br><br><b>clustered</b> - Compares data values side by side. This only applies to column series's.<br><br><b>overlaid</b> - Compares data values by overlapping them.<br><br><b>stacked</b> - Shows how data values contribute to a total.<br><br><b>100%</b> - Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Paths_L" : [
-	"paths",
-	"Sets which paths to load histories from.<br><br><br>To add paths, expand the text input and drag and drop comma separated paths into the field. Press the enter key when finished."
-],
 "dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis" : [
 	"enabeled_L",
 	"<b>true</b> - Series and left Axis is displayed.<br><b>false</b> - Series and left Axis is hidden."
@@ -91,10 +87,6 @@
 	"Series Mode",
 	"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Overlaid:</b> Compares data values by overlapping them.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Paths1" : [
-	"Paths",
-	"Holds comma separated paths that will be will rendered on the chart. If you place a comma with nothing following it, then a blank label will be created. <br><br>You can cut and paste the paths directly to the string input field. You can also expand the field by clicking on the icon in the bottom right corner. Drag the text box closer to your data panel and then you can drag and drop paths directly from your data tree to the text box. Place a comma after each path, and drop as many paths as you need. Click on the Ok button to save and close the maximized text box, or click Apply to Save and leave the text box open."
-],
 "dcWidgets/palette/widgets:Chart.Generic.Rollup1" : [
 	"Rollup",
 	"Specifies the type of rollup used. The value of rollup can be one of the following:<br><br><b>Avg:</b> The average of all number values for the interval<br><b>Min:</b> The smallest number value for the interval<br><b>Max:</b> The largest number value from the interval<br><b>Sum:</b> The sum of all number values for the interval<br><b>First:</b> The first value for the interval<br><b>Last:</b> The last value for the interval<br><b>Count:</b> The number of non-null values that exist for the interval"
@@ -111,14 +103,6 @@
 	"Output Table",
 	"This shows the data table that is being rendered by the chart."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Label" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Label1" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
 "dcWidgets/palette/widgets.Data_Interval" : [
 	"Data Interval",
 	"Specifies the date or time interval between each consecutive pair of data points."
@@ -126,10 +110,6 @@
 "dcWidgets/palette/widgets:Chart.Generic.Data_Interval1" : [
 	"Data Interval",
 	"Specifies the date or time interval between each consecutive pair of data points."
-],
-"dcWidgets/palette/widgets.Paths" : [
-	"Paths",
-	"Holds comma separated paths that will be will rendered on the chart. If you place a comma with nothing following it, then a blank label will be created. <br><br>You can cut and paste the paths directly to the string input field. You can also expand the field by clicking on the icon in the bottom right corner. Drag the text box closer to your data panel and then you can drag and drop paths directly from your data tree to the text box. Place a comma after each path, and drop as many paths as you need. Click on the Ok button to save and close the maximized text box, or click Apply to Save and leave the text box open."
 ],
 "dcWidgets/palette/widgets.Mode" : [
 	"Mode",
@@ -151,18 +131,6 @@
 	"Show Datatips",
 	"<b>true:</b> When you mouse over a pie slice, data about the slice will appear.<br><b>false:</b> When you mouse over a pie slice, data about the slice will not appear"
 ],
-"dcWidgets/palette/widgets:Chart.Pie.Label" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
-"dcWidgets/palette/widgets:Chart.Enum.Label" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
-"dcWidgets/palette/widgets:Chart.Bar.Paths_Table" : [
-	"Paths Table",
-	"Receives a table with 3 columns. This table will get the data to be displayed in the bar graph and categorize them so that they appear grouped correctly. They should have the following names and order:<br><br><b>Column1: pathORvalue</b> The cells in this column can contain ether a path that will fetch live or historical values, or it can be a static value.<br><b>Column 2: barName:</b> The cells in this column will hold the name of the bar you would like the data to appear in. Each unique name will appear as a bar and the label of the bar on the y-axis.<br><b>Column 3: grouping:</b> The cells in this column should have the name of the group of the data. Each unique name will have a color assigned to it and the name will appear as a label above the bar graph.<br><br>Please see this sample below:<br><br>---------------------------------------------------<br>| pathORvalue. | barName | grouping |<br>|---------------------|--------------|-------------|<br>| data/b1/temp. | building1 | temp |<br>|---------------------|--------------|-------------|<br>| data/b1/light. | building1 | light |<br>|---------------------|--------------|-------------|<br>| data/b2/temp. | building2 | temp |<br>|---------------------|--------------|-------------|<br>| data/b2/light. | building2 | light |<br>|---------------------|--------------|-------------|<br>"
-],
 "dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode" : [
 	"Aggregation Mode",
 	"Specifies the type of value to return. The value of the method property can be one of the following:<br><br><b>First: </b> Returns the first value in the column. <br><b>Last: </b> Returns the last value in the column. <br><b>Average: </b> Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Sum: </b> Returns the sum of all number values in the column. If there are no number values, returns 0. <br><b>Max: </b> Returns the greatest number value in the column. If there are no number values, returns null. <br><b>Min: </b> Returns the smallest number value in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Count: </b> Returns the number of values in the column. Null values are not included."
@@ -171,17 +139,9 @@
 	"Series Mode",
 	"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
 ],
-"dcWidgets/palette/widgets:Chart.Bool.Label" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
 "dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius" : [
 	"Marker Radius",
 	"Defines the marker radius in pixels."
-],
-"dcWidgets/palette/widgets:Chart.Scatter.Label" : [
-	"Label",
-	"Specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
 ],
 "dcWidgets/palette/widgets.Options" : [
 	"Options",
@@ -502,5 +462,129 @@
 "dcWidgets/palette/widgets:Slider.Slider.Track_Start" : [
 	"Origin Value",
 	"Places an origin location at this point. If you want a standard slider, set the Origin Value equal to the Min Value. If the Origin Value does not equal the Minimum, then the knob will move out from the Origin Point."
+],
+"dcWidgets/palette/widgets.Show_Header" : [
+	"Show Header",
+	"<b>true:</b> The header is displayed.<br><b>false:</b> The header is not displayed."
+],
+"dcWidgets/palette/widgets.Step" : [
+	"Step",
+	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+],
+"dcWidgets/palette/widgets.Step1" : [
+	"Step",
+	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+],
+"dcWidgets/palette/widgets.Line_Mode" : [
+	"Line Mode",
+	"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
+],
+"dcWidgets/palette/widgets.Line_Mode1" : [
+	"Line Mode",
+	"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
+],
+"dcWidgets/palette/widgets.Placement" : [
+	"Placement",
+	"Specifies whether the axis is positioned on the left, right or center of the chart."
+],
+"dcWidgets/palette/widgets.Placement1" : [
+	"Placement",
+	"Specifies whether the axis is positioned on the left, right or center of the chart."
+],
+"dcWidgets/palette/widgets.Markers" : [
+	"Markers",
+	"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
+],
+"dcWidgets/palette/widgets.Markers1" : [
+	"Markers",
+	"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
+],
+"dcWidgets/palette/widgets.Interval_Unit" : [
+	"Interval Unit",
+	"Defines the units for this Datetime axis. A value of Auto means that units are determined automatically based on the data feeding the chart."
+],
+"dcWidgets/palette/widgets.Update_Interval" : [
+	"Update Interval",
+	"Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded onautoLoad."
+],
+"dcWidgets/palette/widgets.Default_Label2" : [
+	"Default Label",
+	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+],
+"dcWidgets/palette/widgets.Default_Label3" : [
+	"Default Label",
+	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+],
+"dcWidgets/palette/widgets.MinY1" : [
+	"Min",
+	"Sets the lower bound of the axis."
+],
+"dcWidgets/palette/widgets.MinY2" : [
+	"Min",
+	"Sets the lower bound of the axis."
+],
+"dcWidgets/palette/widgets.MaxY1" : [
+	"Max",
+	"Sets the upper bound of the axis."
+],
+"dcWidgets/palette/widgets.MaxY2" : [
+	"Max",
+	"Sets the upper bound of the axis."
+],
+"dcWidgets/palette/widgets.UnitY1" : [
+	"Unit",
+	"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
+],
+"dcWidgets/palette/widgets.UnitY2" : [
+	"Unit",
+	"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
+],
+"dcWidgets/palette/widgets.Axis" : [
+	"Axis",
+	"The path will be assigned to the Primary or Secondary axis."
+],
+"dcWidgets/palette/widgets.Color" : [
+	"Color",
+	"The color of the label and data."
+],
+"dcWidgets/palette/widgets.Bar_Name" : [
+	"Bar Name",
+	"This is the label that will appear on the Y Axis and will group all the points into this bar. Make sure all paths that you would like to have appear in a bar have the exact same Bar Name."
+],
+"dcWidgets/palette/widgets.Group" : [
+	"Group",
+	"Sets the group name which is used to identify similar values in each bar. All items in the group will have the same color, to make them easy to identify in the bar graph. It will also appear as a label on the top of the graph."
+],
+"dcWidgets/palette/widgets.Group_Color" : [
+	"Group Color",
+	"The color of the group. If left null, a color from the Enysion color palette will be automatically selected."
+],
+"dcWidgets/palette/widgets.Reset_Input" : [
+	"Reset Input",
+	"Drag and drop the path that will be the X point of the live point."
+],
+"dcWidgets/palette/widgets.Reset_Output" : [
+	"Reset Output",
+	"Drag and drop the path that will be the Y point of the live point."
+],
+"dcWidgets/palette/widgets.Curve_Color" : [
+	"Curve Color",
+	"Sets the color of the heat curve and the markers."
+],
+"dcWidgets/palette/widgets.Live_Color" : [
+	"Live Color",
+	"Sets the color of the live point."
+],
+"dcWidgets/palette/widgets.Show_Unit" : [
+	"Show Unit",
+	"<b>true:</b> The unit is displayed.<br><b>false:</b> The unit is not displayed."
+],
+"dcWidgets/palette/widgets.Points" : [
+	"Points",
+	"Sets the path for the Y point. Drag and drop path from data tree to the chart to bring up binding dialog. You can also drag and drop the path button on the plus sign bellow, to get the same binding dialog. Once paths have been dropped, you may edit any of the sub-properties by clicking the pencil icon or you can delete it by clicking on the \"-\" icon."
+],
+"dcWidgets/palette/widgets.Xpath" : [
+	"X Path",
+	"Sets the path for the X point."
 ]
 }

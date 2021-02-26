@@ -27,10 +27,6 @@
 	"Mode de la série",
 	"Indique comment les valeurs des données sont représentées.<br><br><br><b>En cluster</b> - Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><br><b>Superposés</b> - Compare les valeurs des données en les superposant.<br><br><b>Empilés</b> - Montre comment les valeurs des données contribuent au total.<br><br><b>100%</b> - Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Paths_L" : [
-	"Chemins",
-	"Définit les chemins pour le chargement des historiques.<br><br><br>Pour ajouter des chemins, ouvrez le champ de texte et glissez-y et déposez des chemins séparés par des virgules. Appuyez sur la touche Entrée lorsque vous avez terminé."
-],
 "dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis" : [
 	"Activé",
 	"<b>true</b> - La série et l'axe gauche sont affichés.<br><b>false</b> - La série et l'axe gauche sont cachés."
@@ -91,10 +87,6 @@
 	"Mode de la série",
 	"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Paths1" : [
-	"Chemins",
-	"Contient les chemins séparés par des virgules des données qui seront représentées dans le graphe. Si vous placez une virgule suivie d'un blanc, un étiquette vide sera créé. <br><br>Vous pouvez copier-coller les chemins directement dans le champ de saisie de texte. Vous pouvez également agrandir le champ en cliquant sur l'icône dans le coin inférieur droit. Déplacer la boîte de texte à côté du panneau de données pour pouvoir glisser et déposer les chemins directement de votre arbre de données dans la boîte de texte. Séparez chaque chemin par une virgule et ajoutez le nombre requis de chemins. Cliquez sur le bouton Ok pour sauvegarder et fermer la boîte de texte agrandie ou cliquez sur Appliquer pour sauvegarder et laisser la boîte de texte ouverte."
-],
 "dcWidgets/palette/widgets:Chart.Generic.Rollup1" : [
 	"Cumul",
 	"Indique le type de cumul utilisé. La valeur du cumul peut être l'une des suivantes:<br><br><b>Moy:</b> La moyenne de toutes les valeurs numériques pour l'intervalle<br><b>Min:</b> La valeur numérique la plus petite pour l'intervalle<br><b>Max:</b> La valeur numérique la plus grande pour l'intervalle<br><b>Somme:</b> La sommes de toutes les valeurs numériques pour l'intervalle<br><b>Première:</b> La première valeur pour l'intervalle<br><b>Dernière:</b> La dernière valeur pour l'intervalle<br><b>Total:</b> Le décompte total de valeurs non-nulles pour l'interval"
@@ -111,14 +103,6 @@
 	"Table de sortie",
 	"Affiche le tableau qui contient les données qui sont représentées dans le graphe."
 ],
-"dcWidgets/palette/widgets:Chart.Generic.Label" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Label1" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
-],
 "dcWidgets/palette/widgets.Data_Interval" : [
 	"Intervalle",
 	"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
@@ -126,10 +110,6 @@
 "dcWidgets/palette/widgets:Chart.Generic.Data_Interval1" : [
 	"Intervalle",
 	"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
-],
-"dcWidgets/palette/widgets.Paths" : [
-	"Chemins",
-	"Contient les chemins séparés par des virgules des données qui seront représentées dans le graphe. Si vous placez une virgule suivie d'un blanc, un étiquette vide sera créé. <br><br>Vous pouvez copier-coller les chemins directement dans le champ de saisie de texte. Vous pouvez également agrandir le champ en cliquant sur l'icône dans le coin inférieur droit. Déplacer la boîte de texte à côté du panneau de données pour pouvoir glisser et déposer les chemins directement de votre arbre de données dans la boîte de texte. Séparez chaque chemin par une virgule et ajoutez le nombre requis de chemins. Cliquez sur le bouton Ok pour sauvegarder et fermer la boîte de texte agrandie ou cliquez sur Appliquer pour sauvegarder et laisser la boîte de texte ouverte."
 ],
 "dcWidgets/palette/widgets.Mode" : [
 	"Mode",
@@ -151,18 +131,6 @@
 	"Montrer les infobulles",
 	"<b>true:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur seront affichées.<br><b>false:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur ne seront pas affichées."
 ],
-"dcWidgets/palette/widgets:Chart.Pie.Label" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
-],
-"dcWidgets/palette/widgets:Chart.Enum.Label" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
-],
-"dcWidgets/palette/widgets:Chart.Bar.Paths_Table" : [
-	"Table des chemins",
-	"Affiche un tableau avec 3 colonnes. Ce tableau extraira les données à afficher dans le diagramme à barres et les catégorisera afin de les regrouper. Ces colonnes devraient être nommées et ordonnées comme suit:<br><br><b>Colonne 1: pathORvalue</b> Les cellules dans cette colonne peuvent contenir soit un chemin qui retournera des valeurs en direct ou historiques, ou une valeur statique.<br><b>Colonne 2: barName:</b> Les cellules de cette conlonne contiennent le nom de la barre dans laquelle chaque donnée doit apparaître. Chaque nom unique apparaîtra comme une barre et l'étiquette de la barre sur l'axe y.<br><b>Colonne 3: regroupement:</b> Les cellules de cette colonne doivent contenir le nom du groupe de données. Chaque nom unique sera associé à une couleur et le nom apparaîtra comme un étiquette au-dessus du diagramme à barres.<br><br>Veuillez vous référer à l'échantillon ci-dessous:<br><br>---------------------------------------------------<br>| pathORvalue. | barName | grouping |<br>|---------------------|--------------|-------------|<br>| data/b1/temp. | building1 | temp |<br>|---------------------|--------------|-------------|<br>| data/b1/light. | building1 | light |<br>|---------------------|--------------|-------------|<br>| data/b2/temp. | building2 | temp |<br>|---------------------|--------------|-------------|<br>| data/b2/light. | building2 | light |<br>|---------------------|--------------|-------------|<br>"
-],
 "dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode" : [
 	"Mode d'agrégation",
 	"Spécifie le type de valeur à retourner. La valeur de la propriété peut être l'une des suivantes:<br><br><b>Premier: </b> Retourne la première valeur dans la colonne. <br><b>Dernier: </b> Retourne la dernière valeur dans la colonne. <br><b>Moyenne: </b> Retourne la moyenne de toutes les valeurs numériques dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Somme: </b> Retourne la somme de toutes les valeurs numériques dans la colonne. S'il n'y a pas de valeur numérique, retourne 0. <br><b>Max: </b> Retourne la valeur numérique la plus élevée dans la colonne. S'il n'y a pas de valeur numérique, retourne une valeur nulle. <br><b>Min: </b> Retourne la valeur numérique la moins élevée dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Total: </b> Retourne le nombre total de valeurs dans la colonne. Les valeurs nulles ne sont pas considérées."
@@ -171,17 +139,9 @@
 	"Mode de la série",
 	"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
 ],
-"dcWidgets/palette/widgets:Chart.Bool.Label" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
-],
 "dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius" : [
 	"Rayon de marqueur",
 	"Spécifie le rayon des marqueurs en pixels."
-],
-"dcWidgets/palette/widgets:Chart.Scatter.Label" : [
-	"Étiquette",
-	"Spécifie la chaîne qui est utilisée pour nommer chanque colonne de valeur historique dans la table de sortie. La valeur de la propriété en-tête peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne affiche l'historique des données<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Nom du parent</b>: Le nom du noeud et de son parent"
 ],
 "dcWidgets/palette/widgets.Options" : [
 	"Options",
@@ -502,5 +462,129 @@
 "dcWidgets/palette/widgets:Slider.Slider.Track_Start" : [
 	"Valeur d'origne",
 	"Place un point d'oringe à cet endroit. Si vous voulez définir un curseur standard, spécifiez une valeur d'origine égale à la valeur minimale. Si la valeur d'origine est différente de la valeur minimale, le bouton se déplacera à partir du point d'origine."
+],
+"dcWidgets/palette/widgets.Show_Header" : [
+	"Show Header",
+	"<b>true:</b> The header is displayed.<br><b>false:</b> The header is not displayed."
+],
+"dcWidgets/palette/widgets.Step" : [
+	"Step",
+	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+],
+"dcWidgets/palette/widgets.Step1" : [
+	"Step",
+	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+],
+"dcWidgets/palette/widgets.Line_Mode" : [
+	"Mode de ligne",
+	"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
+],
+"dcWidgets/palette/widgets.Line_Mode1" : [
+	"Mode de ligne",
+	"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
+],
+"dcWidgets/palette/widgets.Placement" : [
+	"Position",
+	"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
+],
+"dcWidgets/palette/widgets.Placement1" : [
+	"Position",
+	"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
+],
+"dcWidgets/palette/widgets.Markers" : [
+	"Marqueurs",
+	"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
+],
+"dcWidgets/palette/widgets.Markers1" : [
+	"Marqueurs",
+	"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
+],
+"dcWidgets/palette/widgets.Interval_Unit" : [
+	"Intervalle des unités",
+	"Définit les unités pour l'axe de date et heure. La valeur Auto signifie que les unités sont déterminées automatiquement selon les données qui composent le graphe."
+],
+"dcWidgets/palette/widgets.Update_Interval" : [
+	"Interval de mise à jour",
+	"Indique la fréquence à laquelle l'historique est rafraîchi, en secondes. Si la valeur est 0, l'historique est rafraîchi selon l'autoLoad."
+],
+"dcWidgets/palette/widgets.Default_Label2" : [
+	"Étiquette par défaut",
+	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+],
+"dcWidgets/palette/widgets.Default_Label3" : [
+	"Étiquette par défaut",
+	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+],
+"dcWidgets/palette/widgets.MinY1" : [
+	"Min",
+	"Indique la limite minimale de l'axe."
+],
+"dcWidgets/palette/widgets.MinY2" : [
+	"Min",
+	"Indique la limite minimale de l'axe."
+],
+"dcWidgets/palette/widgets.MaxY1" : [
+	"Max",
+	"Indique la limite maximale de l'axe."
+],
+"dcWidgets/palette/widgets.MaxY2" : [
+	"Max",
+	"Indique la limite maximale de l'axe."
+],
+"dcWidgets/palette/widgets.UnitY1" : [
+	"Unité",
+	"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
+],
+"dcWidgets/palette/widgets.UnitY2" : [
+	"Unit",
+	"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
+],
+"dcWidgets/palette/widgets.Axis" : [
+	"Axe",
+	"Le chemin sera associé à l'axe secondaire ou primaire."
+],
+"dcWidgets/palette/widgets.Color" : [
+	"Couleur",
+	"La couleur de l'étiquette et de la donnée."
+],
+"dcWidgets/palette/widgets.Bar_Name" : [
+	"Nom de barre",
+	"L'étiquette qui sera affiché sur l'axe Y et qui regroupera tous les points dans cette barre. Assurez-vous que tous les chemins qui devraient apparaître dans une barre aient exactement le même nom de barre."
+],
+"dcWidgets/palette/widgets.Group" : [
+	"Groupe",
+	"Définit le nom du groupe qui est utilisé pour identifier les valeurs similaires dans chaque barre. Tous les items du groupe auront la même couleur afin de les rendre facile à identifier dans le diagramme à barres. Le nom du groupe sera aussi affiché comme étiquette en haut du diagramme."
+],
+"dcWidgets/palette/widgets.Group_Color" : [
+	"Couleur du groupe",
+	"La couleur du groupe. Si la valeur est null, une couleur de la palette d'ENVYSION sera sélectionnée automatiquement."
+],
+"dcWidgets/palette/widgets.Reset_Input" : [
+	"Entrée de remise à zéro",
+	"Glissez et déposez le chemin qui sera le point X du point Live."
+],
+"dcWidgets/palette/widgets.Reset_Output" : [
+	"Sortie de remise à zéro",
+	"Glissez et déposez le chemin qui sera le point Y du point Live."
+],
+"dcWidgets/palette/widgets.Curve_Color" : [
+	"Couleur de la courbe",
+	"Définit la couleur de la courbe de chaleur et des marqueurs."
+],
+"dcWidgets/palette/widgets.Live_Color" : [
+	"Couleur live",
+	"Définit la couleur du point live."
+],
+"dcWidgets/palette/widgets.Show_Unit" : [
+	"Afficher l'unité",
+	"<b>true:</b> L'unité est affichée.<br><b>false:</b> L'unité n'est pas affichée."
+],
+"dcWidgets/palette/widgets.Points" : [
+	"Points",
+	"Définit le chemin pour le point Y. Glissez et déposez le chemin à partir de l'arbre de données pour ouvrir la fenêtre d'association. Vous pouvez aussi glisser et déposer le bouton du chemin sur le symbole + ci-dessous pour ouvrir la fenêtre d'association. Pour modifier les sous-propriétés des chemins ajoutés, cliquez sur l'icone du crayon. Pour supprimer un chemin, cliquez sur le symbole \"-\"."
+],
+"dcWidgets/palette/widgets.Xpath" : [
+	"Chemin X",
+	"Définit le chemin pour le point X."
 ]
 }
