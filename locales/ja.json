@@ -1299,6 +1299,7 @@
   "Distribute Bottom": "底を配布します。",
   "Convert To Symbol": "シンボルに変換します。",
   "Change Theme": "テーマを変更します。",
+  "Restore Default Designer Layout": "既定のデザイナー レイアウトの復元",
   "Export Symbol Help": "シンボルヘルプのエクスポート",
   "Symbol Node Path": "シンボル ノード パス",
   "No Invoke Event": "いいえのイベントを起動",

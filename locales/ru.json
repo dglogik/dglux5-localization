@@ -1299,6 +1299,7 @@
   "Distribute Bottom": "Распространять снизу",
   "Convert To Symbol": "Преобразовать в символ",
   "Change Theme": "Изменить тему",
+  "Restore Default Designer Layout": "Восстановление макета конструктора по умолчанию",
   "Export Symbol Help": "Справка по экспортным символам",
   "Symbol Node Path": "Символ путь узла",
   "No Invoke Event": "Не вызвать событие",

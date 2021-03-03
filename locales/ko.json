@@ -1299,6 +1299,7 @@
   "Distribute Bottom": "바닥을 배포",
   "Convert To Symbol": "심볼로 변환",
   "Change Theme": "테마 변경",
+  "Restore Default Designer Layout": "기본 디자이너 레이아웃 복원",
   "Export Symbol Help": "기호 도움말 내보내기",
   "Symbol Node Path": "기호 노드 경로",
   "No Invoke Event": "더 이벤트 호출",

@@ -1299,6 +1299,7 @@
   "Distribute Bottom": "กระจายด้านล่าง",
   "Convert To Symbol": "แปลงเป็นสัญลักษณ์",
   "Change Theme": "เปลี่ยนแปลงชุดรูปแบบ",
+  "Restore Default Designer Layout": "คืนค่าเค้าโครงตัวออกแบบเริ่มต้น",
   "Export Symbol Help": "วิธีใช้การส่งออกสัญลักษณ์",
   "Symbol Node Path": "เส้นทางโหนสัญลักษณ์",
   "No Invoke Event": "ไม่เรียกเหตุการณ์",
