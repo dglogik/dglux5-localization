@@ -317,7 +317,7 @@
     ],
     "axis.formatString": [
         "Format String",
-        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>More information</a>)"
+        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>More information</a>)"
     ],
     "axis.inverted": [
         "Inverted",
@@ -597,7 +597,7 @@
     ],
     "calendar.highlightedDays": [
         "Highlighted Days",
-        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>)."
+        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>)."
     ],
     "calendar.nextArrowSymbol": [
         "Next Button Glyph",
@@ -617,11 +617,11 @@
     ],
     "calendar.selectedRangeValue": [
         "Selected Range",
-        "<p>Sets or returns the currently selected date range for this calendar. Uses the format \"yyyy&minus;MM&minus;ddThh:mm:ss/yyyy&minus;MM&minus;ddThh:mm:ss\". <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a>. To let the user change this property, set the Selection Mode property to Day, Week, or Month. To change this property using the Property Inspector, click the Selected Range button to open a date range picker. Using this dialog, you can choose a date range in several ways:<ul><li><strong>Range</strong>: Specify a start date and end date. Optionally, you can also specify a start time and end time using 24&minus;hour time.</li><li><strong>Day</strong>: Specify a single day.</li><li><strong>Week</strong>: Specify one week. Clicking any date selects a week that includes that date. The selected week starts on a Sunday and ends on a Saturday.</li><li><strong>Month</strong>: Specify a month and year.</li><li><strong>Year</strong>: Specify a year.</li><li><strong>Relative</strong>: Specify a range relative to the current date and time. Enter a number of seconds, minutes, hours, days, weeks, months, or years, and specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26 PM, the \"previous hour\" is the hour from 2:00 to 3:00.</li></ul>"
+        "<p>Sets or returns the currently selected date range for this calendar. Uses the format \"yyyy&minus;MM&minus;ddThh:mm:ss/yyyy&minus;MM&minus;ddThh:mm:ss\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a>. To let the user change this property, set the Selection Mode property to Day, Week, or Month. To change this property using the Property Inspector, click the Selected Range button to open a date range picker. Using this dialog, you can choose a date range in several ways:<ul><li><strong>Range</strong>: Specify a start date and end date. Optionally, you can also specify a start time and end time using 24&minus;hour time.</li><li><strong>Day</strong>: Specify a single day.</li><li><strong>Week</strong>: Specify one week. Clicking any date selects a week that includes that date. The selected week starts on a Sunday and ends on a Saturday.</li><li><strong>Month</strong>: Specify a month and year.</li><li><strong>Year</strong>: Specify a year.</li><li><strong>Relative</strong>: Specify a range relative to the current date and time. Enter a number of seconds, minutes, hours, days, weeks, months, or years, and specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26 PM, the \"previous hour\" is the hour from 2:00 to 3:00.</li></ul>"
     ],
     "calendar.selectedValue": [
         "Selected Date",
-        "<p>Sets or returns the currently selected date for this calendar. Uses the format \"yyyy&minus;MM&minus;dd\". <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a></p><p>If the user selects a range of dates, this property reflects only the date that the user clicked to select the range.</p>"
+        "<p>Sets or returns the currently selected date for this calendar. Uses the format \"yyyy&minus;MM&minus;dd\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a></p><p>If the user selects a range of dates, this property reflects only the date that the user clicked to select the range.</p>"
     ],
     "calendar.titleFontFamily": [
         "Header Font",
@@ -745,7 +745,7 @@
     ],
     "case.else": [
         "else",
-        "Specifies the result value to return if none of the expressions evaluates to TRUE. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case'>More information</a>)"
+        "Specifies the result value to return if none of the expressions evaluates to TRUE. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case'>More information</a>)"
     ],
     "case.input": [
         "input",
@@ -1213,7 +1213,7 @@
     ],
     "datagrid.sortOrder": [
         "Sort Order",
-        "Specifies whether the data is sorted in ascending or descending order. To change whether the data is treated as strings or numbers when sorted, open the dataflow for this data grid and edit the <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>Sort</a> block."
+        "Specifies whether the data is sorted in ascending or descending order. To change whether the data is treated as strings or numbers when sorted, open the dataflow for this data grid and edit the <a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>Sort</a> block."
     ],
     "datagrid.vGridColor": [
         "Vertical Gridline Stroke Color",
@@ -1633,11 +1633,11 @@
     ],
     "dateFormat.format": [
         "format",
-        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information)</a>"
+        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information)</a>"
     ],
     "dateFormat.input": [
         "input",
-        "Specifies the serial number or any supported date time string as outlined in <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>. This can also be a string from which a date can be parsed."
+        "Specifies the serial number or any supported date time string as outlined in <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>. This can also be a string from which a date can be parsed."
     ],
     "dateFormat.output": [
         "output",
@@ -1673,7 +1673,7 @@
     ],
     "dateMath.input": [
         "input",
-        "Specifies the serial number or any supported date time string. [<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]"
+        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]"
     ],
     "dateMath.millisecond": [
         "millisecond",
@@ -1713,11 +1713,11 @@
     ],
     "daterange.format": [
         "Date Format String",
-        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information</a>)."
+        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information</a>)."
     ],
     "dateRange.format": [
         "format",
-        "Specifies the <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>date and time formatting string</a> that is used to format the dates and times in this block."
+        "Specifies the <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>date and time formatting string</a> that is used to format the dates and times in this block."
     ],
     "daterange.formatted": [
         "Formatted Value",
@@ -1737,7 +1737,7 @@
     ],
     "daterange.keepSpecial": [
         "Keep Special Value",
-        "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:daterange'>the wiki</a>."
+        "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='https://wiki.dglogik.com/dglux5_wiki:property_inspector:daterange'>the wiki</a>."
     ],
     "dateRange.keepSpecial": [
         "keepSpecial",
@@ -1777,7 +1777,7 @@
     ],
     "daterange.rangeDelimiter": [
         "Range Delimiter",
-        "Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used. [<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>]"
+        "Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>]"
     ],
     "dateRange.rangeDelimiter": [
         "rangeDelimiter",
@@ -2145,7 +2145,7 @@
     ],
     "divTree.dataSymbol": [
         "Data Symbol",
-        "Specifies the name of the dataflow symbol to be used by this tree. The dataflow symbol must include input and output <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one&minus;row table and returns the child table that it refers to, if any."
+        "Specifies the name of the dataflow symbol to be used by this tree. The dataflow symbol must include input and output <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one&minus;row table and returns the child table that it refers to, if any."
     ],
     "divTree.disclosureIconColor": [
         "Disclosure Icon Color",
@@ -2229,7 +2229,7 @@
     ],
     "divTreeGrid.dataSymbol": [
         "Dataflow Symbol",
-        "Specifies the name of the dataflow symbol to be used by this tree. The dataflow symbol must include input and output <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one&minus;row table and returns the child table that it refers to, if any."
+        "Specifies the name of the dataflow symbol to be used by this tree. The dataflow symbol must include input and output <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home'>tabledata parameters</a>. This symbol takes a one&minus;row table and returns the child table that it refers to, if any."
     ],
     "divTreeGrid.sortColumn": [
         "Sort Column",
@@ -2261,11 +2261,11 @@
     ],
     "divTreeItemModel.itemPaddingLeft": [
         "Left Padding",
-        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. [<a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
+        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. [<a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
     ],
     "divTreeItemModel.itemPaddingRight": [
         "Right Padding",
-        "Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. [<a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
+        "Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. [<a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
     ],
     "divTreeItemModel.itemVerticalAlign": [
         "Vertical Alignment",
@@ -2373,7 +2373,7 @@
     ],
     "dragPosition.percents": [
         "percents",
-        "Determines whether the <strong>boundsLeft</strong>, <strong>boundsTop</strong>, <strong>boundsRight</strong>, and <strong>boundsBottom</strong> properties are pixel values or percent values. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position'>More information</a>)"
+        "Determines whether the <strong>boundsLeft</strong>, <strong>boundsTop</strong>, <strong>boundsRight</strong>, and <strong>boundsBottom</strong> properties are pixel values or percent values. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position'>More information</a>)"
     ],
     "dragSize.dragEnd": [
         "dragEnd",
@@ -2557,11 +2557,11 @@
     ],
     "exportHtml.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
+        "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
     ],
     "exportHtml.format": [
         "format",
-        "Specifies the file format to download. Select <strong>HTML</strong> for this property. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
+        "Specifies the file format to download. Select <strong>HTML</strong> for this property. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
     ],
     "exportHtml.inlineStyles": [
         "Inline Styles",
@@ -2589,7 +2589,7 @@
     ],
     "exportPaginatedPDF.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the PDF contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf'>More information)</a>"
+        "Specifies a name for the exported file. If blank, the PDF contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf'>More information)</a>"
     ],
     "exportPaginatedPDF.invoke": [
         "invoke",
@@ -2649,7 +2649,7 @@
     ],
     "fileFormInput.open": [
         "Open",
-        "A trigger that opens the browser file chooser. For information about using triggers, see <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:bindings:home#triggers'>this page</a>."
+        "A trigger that opens the browser file chooser. For information about using triggers, see <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:bindings:home#triggers'>this page</a>."
     ],
     "filename": [
         "Filename",
@@ -2825,7 +2825,7 @@
     ],
     "formatNumber.format": [
         "format",
-        "Specifies a combination of <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
+        "Specifies a combination of <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
     ],
     "formatNumber.input": [
         "input",
@@ -2941,7 +2941,7 @@
     ],
     "getNode.unit": [
         "unit",
-        "Returns the units of the node, if applicable. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node'>More information</a>)"
+        "Returns the units of the node, if applicable. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node'>More information</a>)"
     ],
     "getViewProperty.field": [
         "field",
@@ -2997,15 +2997,15 @@
     ],
     "gridColumn.!label": [
         "Column Label",
-        "Specifies the label to be used as heading text for columns controlled by this column editor. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>[More information]</a>."
+        "Specifies the label to be used as heading text for columns controlled by this column editor. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>[More information]</a>."
     ],
     "gridColumn.category": [
         "Category",
-        "<p>Specifies the category to which this column belongs. Must match the <strong>Selector</strong> property of some other column editor in this grid. [<a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#categories'>More information</a>]</p>"
+        "<p>Specifies the category to which this column belongs. Must match the <strong>Selector</strong> property of some other column editor in this grid. [<a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#categories'>More information</a>]</p>"
     ],
     "gridColumn.headerSymbol": [
         "Header Symbol",
-        "Specifies the symbol that appears in the header of the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+        "Specifies the symbol that appears in the header of the columns affected by this <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
     ],
     "gridColumn.selector": [
         "Column Editor Selector",
@@ -3013,7 +3013,7 @@
     ],
     "gridColumn.sortable": [
         "Sortable",
-        "<p>Specifies whether the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a> are sortable.</p>"
+        "<p>Specifies whether the columns affected by this <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a> are sortable.</p>"
     ],
     "gridColumn.sortAsc": [
         "Sort Ascending",
@@ -3029,11 +3029,11 @@
     ],
     "gridColumn.symbol": [
         "Symbol",
-        "Specifies the symbol that appears in each cell of the columns affected by this <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
+        "Specifies the symbol that appears in each cell of the columns affected by this <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a>. If the symbol is in this project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol."
     ],
     "gridColumn.type": [
         "Column Editor Type",
-        "Specifies the kind of column group this column editor controls. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>[More information]</a>.<ul><li><strong>All</strong>: An All column editor dictates that all of the columns from the source table are included in the grid, except for those that you filter out of the entire grid. Grid columns appear in source table order, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to all columns.</li><li><strong>Name</strong>: Each Name column editor dictates that one column from the source table is included in the grid. Grid columns appear in the order in which they appear in the Outline, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to this column.</li><li><strong>Repeater</strong>: A Repeater column editor lets you use a configuration table to determine which source table columns appear in the grid, which symbols represent those columns (if any), and properties of the symbols.</li></ul>"
+        "Specifies the kind of column group this column editor controls. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>[More information]</a>.<ul><li><strong>All</strong>: An All column editor dictates that all of the columns from the source table are included in the grid, except for those that you filter out of the entire grid. Grid columns appear in source table order, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to all columns.</li><li><strong>Name</strong>: Each Name column editor dictates that one column from the source table is included in the grid. Grid columns appear in the order in which they appear in the Outline, unless you specify another order using a whitelist filter. Properties edited for this column editor apply to this column.</li><li><strong>Repeater</strong>: A Repeater column editor lets you use a configuration table to determine which source table columns appear in the grid, which symbols represent those columns (if any), and properties of the symbols.</li></ul>"
     ],
     "gridColumn.visible": [
         "Visible",
@@ -3301,7 +3301,7 @@
     ],
     "if.else": [
         "else",
-        "Specifies the value to return if the expression evaluates to FALSE. To display the word FALSE, use the logical value FALSE for this parameter. <strong>else</strong> can be an input from another block or set of blocks, including formulas. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if'>More information)</a>"
+        "Specifies the value to return if the expression evaluates to FALSE. To display the word FALSE, use the logical value FALSE for this parameter. <strong>else</strong> can be an input from another block or set of blocks, including formulas. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if'>More information)</a>"
     ],
     "if.op": [
         "op",
@@ -3345,7 +3345,7 @@
     ],
     "iframeMessage.key": [
         "key",
-        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message'>More information)</a>"
+        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message'>More information)</a>"
     ],
     "iframeMessage.loading": [
         "loading",
@@ -3589,7 +3589,7 @@
     ],
     "jsonParser.drillDownFilter": [
         "drillDownFilter",
-        "Specifies what to return for nested tables. Enter * to return all nested tables to the specified <strong>drillDownDepth</strong>. For more information about nested tables, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
+        "Specifies what to return for nested tables. Enter * to return all nested tables to the specified <strong>drillDownDepth</strong>. For more information about nested tables, see <a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
     ],
     "jsonParser.flatFilter": [
         "flatFilter",
@@ -4009,7 +4009,7 @@
     ],
     "loadHistories.delta": [
         "delta",
-        "Specifies what is in each value column of the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
+        "Specifies what is in each value column of the output table. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
     ],
     "loadHistories.enabled": [
         "enabled",
@@ -4017,7 +4017,7 @@
     ],
     "loadHistories.header": [
         "header",
-        "Specifies which string is used to name each value column in the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"v<em>n</em>\" </li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
+        "Specifies which string is used to name each value column in the output table. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"v<em>n</em>\" </li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
     ],
     "loadHistories.interval": [
         "interval",
@@ -4049,7 +4049,7 @@
     ],
     "loadHistories.rollup": [
         "rollup",
-        "Specifies the type of rollup used. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
+        "Specifies the type of rollup used. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
     ],
     "loadHistories.showStatus": [
         "showStatus",
@@ -4065,7 +4065,7 @@
     ],
     "loadHistories.timeRange": [
         "timeRange",
-        "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
+        "Specifies the date and time range to return the histories for. You can click the button and use the date range picker to specify a range. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
     ],
     "loadHistories.unifyTimezone": [
         "Unify Timezone",
@@ -4081,7 +4081,7 @@
     ],
     "loadHistory.delta": [
         "delta",
-        "Specifies what is in the \"value\" column of the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
+        "Specifies what is in the \"value\" column of the output table. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)<ul><li><strong>None</strong> &mdash; the value collected at the given time</li><li><strong>With previous</strong> &mdash; the difference between the values in this row and the previous one</li><li><strong>With next</strong> &mdash; the difference between the values in this row and the next one</li></ul>"
     ],
     "loadHistory.enabled": [
         "enabled",
@@ -4089,7 +4089,7 @@
     ],
     "loadHistory.header": [
         "header",
-        "Specifies which string is used to name the \"value\" column in the output table. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"value\"</li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
+        "Specifies which string is used to name the \"value\" column in the output table. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information)</a><ul><li><strong>Default</strong> &mdash; the default string \"value\"</li><li><strong>Name</strong> &mdash; the name of the data node for which this is a history</li><li><strong>Parent</strong> &mdash; the name of the data node's parent</li><li><strong>Parent_Name</strong> &mdash; the names of both this node and its parent</li></ul>"
     ],
     "loadHistory.interval": [
         "interval",
@@ -4117,7 +4117,7 @@
     ],
     "loadHistory.rollup": [
         "rollup",
-        "Specifies the type of rollup used. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
+        "Specifies the type of rollup used. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>) Options are:<ul><li><strong>Avg</strong> &mdash; the average of all number values for the interval</li><li><strong>Min</strong> &mdash; the smallest number value for the interval</li><li><strong>Max</strong> &mdash; the largest number value from the interval</li><li><strong>Sum</strong> &mdash; the sum of all number values for the interval</li><li><strong>First</strong> &mdash; the first value for the interval</li><li><strong>Last</strong> &mdash; the last value for the interval</li><li><strong>Count</strong> &mdash; the number of non&minus;null values that exist for the interval</li></ul>"
     ],
     "loadHistory.timeout": [
         "timeout",
@@ -4125,7 +4125,7 @@
     ],
     "loadHistory.timeRange": [
         "timeRange",
-        "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
+        "Specifies the date and time range to return the history for. You can click the button and use the date range picker to specify a range. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history'>More information</a>)"
     ],
     "loadHistory.unifyTimezone": [
         "Unify Timezone",
@@ -4177,7 +4177,7 @@
     ],
     "localStorage.key": [
         "key",
-        "Sets or returns the key for a key&minus;value pair. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage'>More information)</a>"
+        "Sets or returns the key for a key&minus;value pair. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage'>More information)</a>"
     ],
     "localStorage.session": [
         "Session",
@@ -4745,11 +4745,11 @@
     ],
     "mouseEventData.x": [
         "x",
-        "Returns the distance, in pixels, from the left container boundary of the component to the cursor at the time of the mouse event. Positive values are to the right of the boundary. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
+        "Returns the distance, in pixels, from the left container boundary of the component to the cursor at the time of the mouse event. Positive values are to the right of the boundary. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
     ],
     "mouseEventData.y": [
         "y",
-        "Returns the distance, in pixels, from the top container boundary of the component to the cursor at the time of the mouse event. Positive values are below the top container boundary. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
+        "Returns the distance, in pixels, from the top container boundary of the component to the cursor at the time of the mouse event. Positive values are below the top container boundary. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event'>More information</a>)"
     ],
     "moveToTop": [
         "Move To Top",
@@ -4837,11 +4837,11 @@
     ],
     "offsetLeft": [
         "Left Padding",
-        "Specifies the distance between the left side of a linear scale and the container bounds, in pixels. If a border stroke is defined, Specifies the distance between the scale and the border stroke. [<a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
+        "Specifies the distance between the left side of a linear scale and the container bounds, in pixels. If a border stroke is defined, Specifies the distance between the scale and the border stroke. [<a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
     ],
     "offsetRight": [
         "Right Padding",
-        "Specifies the distance between the right side of a linear scale and the container bounds, in pixels. If a border stroke is defined, Specifies the distance between the scale and the border stroke. [<a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
+        "Specifies the distance between the right side of a linear scale and the container bounds, in pixels. If a border stroke is defined, Specifies the distance between the scale and the border stroke. [<a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>More information</a>]"
     ],
     "offsetVal": [
         "Offset Value",
@@ -4877,15 +4877,15 @@
     ],
     "openDashboard.dashboard": [
         "Dashboard",
-        "Specifies the name of the dashboard to open. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
+        "Specifies the name of the dashboard to open. (<a href='https://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "openDashboard.destination": [
         "Destination",
-        "Specifies where the dashboard is to be opened. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
+        "Specifies where the dashboard is to be opened. (<a href='https://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "openDashboard.self": [
         "Self",
-        "If the action page is inside a Page Include component, opens the dashboard in the Page Include component. (<a href='http://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
+        "If the action page is inside a Page Include component, opens the dashboard in the Page Include component. (<a href='https://wiki.dglogik.com/dglux5_wiki:actions:home'>More information</a>)"
     ],
     "openWeb.0": [
         "Name 0",
@@ -4965,19 +4965,19 @@
     ],
     "paddingBottom": [
         "Bottom Padding",
-        "Specifies a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
+        "Specifies a number of pixels of space between the bottom container boundary and the bottommost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
     ],
     "paddingLeft": [
         "Left Padding",
-        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
+        "Specifies a number of pixels of space between the left container boundary and the leftmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
     ],
     "paddingRight": [
         "Right Padding",
-        "<p>Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
+        "<p>Specifies a number of pixels of space between the right container boundary and the rightmost edge of the content. Negative numbers are not allowed. Padding is part of an object's width and height. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
     ],
     "paddingTop": [
         "Top Padding",
-        "<p>Specifies a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed.Padding is part of an object's width and height. <a href='http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
+        "<p>Specifies a number of pixels of space between the top container boundary and the topmost edge of the content. Negative numbers are not allowed.Padding is part of an object's width and height. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:box&minus;sizing:home'>[More information]</a>"
     ],
     "pageInclude.onContentLoaded": [
         "On Content Loaded",
@@ -5005,7 +5005,7 @@
     ],
     "parseDateTime.input": [
         "input",
-        "Specifies the serial number or any supported date time string. [<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]. This can also be text from which a date can be parsed."
+        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]. This can also be text from which a date can be parsed."
     ],
     "parseDateTime.millisecond": [
         "millisecond",
@@ -5249,19 +5249,19 @@
     ],
     "queryBinding.scaleInputMax": [
         "Scale Input Maximum",
-        "The upper bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
+        "The upper bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleInputMin": [
         "Scale Input Minimum",
-        "The lower bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
+        "The lower bound of the original scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleOutputMax": [
         "Scale Output Maximum",
-        "The upper bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
+        "The upper bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "queryBinding.scaleOutputMin": [
         "Scale Output Minimum",
-        "The lower bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
+        "The lower bound of the new scale. A scale binding takes the source value's relationship to an original scale and returns the corresponding value on a new scale. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home'>More information</a>) "
     ],
     "radius": [
         "Marker Radius",
@@ -5553,7 +5553,7 @@
     ],
     "router.else": [
         "Else",
-        "Specifies the value to be output if none of the conditions are met. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router'>More information)</a>"
+        "Specifies the value to be output if none of the conditions are met. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router'>More information)</a>"
     ],
     "router.event": [
         "Event",
@@ -5649,7 +5649,7 @@
     ],
     "scaleLabels.formatString": [
         "Format",
-        "<p>Specifies the number format for scale labels, as a format string. [<a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>More information</a>] For example:<ul><li><strong>,##0.00</strong> &mdash; Labels have a thousands separator and two decimal digits.  < /li><li><strong>000.00</strong > & mdash;Labels have three mandatory digits before the decimal and two mandatory digits after the decimal.  < /li></ul > "
+        "<p>Specifies the number format for scale labels, as a format string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>More information</a>] For example:<ul><li><strong>,##0.00</strong> &mdash; Labels have a thousands separator and two decimal digits.  < /li><li><strong>000.00</strong > & mdash;Labels have three mandatory digits before the decimal and two mandatory digits after the decimal.  < /li></ul > "
     ],
     "scaleLabels.justify": [
         "Justify",
@@ -5805,7 +5805,7 @@
     ],
     "script.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and debugging. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script'>More information</a>)"
+        "Returns a string that is used for errors, other notifications, and debugging. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script'>More information</a>)"
     ],
     "script.q": [
         "a&mdash;z",
@@ -5825,7 +5825,7 @@
     ],
     "script.script": [
         "script",
-        "Specifies the instance of DGScript held by this block. See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a> for more information about creating a script."
+        "Specifies the instance of DGScript held by this block. See <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a> for more information about creating a script."
     ],
     "script.t": [
         "a&mdash;z",
@@ -5957,7 +5957,7 @@
     ],
     "selected": [
         "Selected",
-        "<p>A runtime property that shows whether this component is selected. This property is not saved in Edit mode.</p><p>This property is related to the parent's Selection Behavior property. For example, if the Selection Behavior of this component's parent is Single Select, then clicking this component selects it and deselects its siblings. For more about the Selection Behavior property, see <a href='http://wiki.dglogik.com/dglux5_wiki:property_inspector:allcomponents#selection_properties'>the wiki</a>.</p><p>Regardless of the parent&apos;s Selection Behavior, you can also change this property in the Property Inspector. For example, if you want this component to be selected when the user clicks a menu button, bind the Selected property of the button to the Selected property of this component.</p>"
+        "<p>A runtime property that shows whether this component is selected. This property is not saved in Edit mode.</p><p>This property is related to the parent's Selection Behavior property. For example, if the Selection Behavior of this component's parent is Single Select, then clicking this component selects it and deselects its siblings. For more about the Selection Behavior property, see <a href='https://wiki.dglogik.com/dglux5_wiki:property_inspector:allcomponents#selection_properties'>the wiki</a>.</p><p>Regardless of the parent&apos;s Selection Behavior, you can also change this property in the Property Inspector. For example, if you want this component to be selected when the user clicks a menu button, bind the Selected property of the button to the Selected property of this component.</p>"
     ],
     "selectedBackground": [
         "Selected Cells Fill",
@@ -6221,7 +6221,7 @@
     ],
     "stopwatch.reset": [
         "reset",
-        "Causes the stopwatch to restart at 0 (default) or the value specified in the resetValue property. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch'>More information</a>)"
+        "Causes the stopwatch to restart at 0 (default) or the value specified in the resetValue property. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch'>More information</a>)"
     ],
     "stopwatch.resetValue": [
         "resetValue",
@@ -6385,7 +6385,7 @@
     ],
     "substring.start": [
         "start",
-        "Determines the position of the first character to extract from the input text. A value of 0 indicates the first character in the input. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block'>More information</a>)"
+        "Determines the position of the first character to extract from the input text. A value of 0 indicates the first character in the input. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block'>More information</a>)"
     ],
     "subtract.0": [
         "input n",
@@ -6489,7 +6489,7 @@
     ],
     "tableAggregation.method": [
         "method",
-        "Specifies the type of aggregation. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation'>More information</a>)<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li></ul>"
+        "Specifies the type of aggregation. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation'>More information</a>)<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li></ul>"
     ],
     "tableAggregation.output": [
         "output",
@@ -6497,7 +6497,7 @@
     ],
     "tableColumnMapping.0": [
         "name n and from n",
-        "<strong>name <em>n</em></strong> specifies the new column name. <strong>from <em>n</em></strong> specifies the data to appear in the new column, using <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>JavaScript notation</a>. For example:<ul><li>\"=v1+v2\" returns the sum of the values in the \"v1\" column and the \"v2\" column.</li><li>\"=dateFormat(timestamp,\"y&minus;MM&minus;dd\")\" returns the date in the \"timestamp\" column with the specified formatting.</li><li>\"=numberFormat(value,\"0.00\")\" returns the value in the \"value\" column, rounded to the hundredths place.</li></ul> See <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping'>Column Mapping</a>"
+        "<strong>name <em>n</em></strong> specifies the new column name. <strong>from <em>n</em></strong> specifies the data to appear in the new column, using <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>JavaScript notation</a>. For example:<ul><li>\"=v1+v2\" returns the sum of the values in the \"v1\" column and the \"v2\" column.</li><li>\"=dateFormat(timestamp,\"y&minus;MM&minus;dd\")\" returns the date in the \"timestamp\" column with the specified formatting.</li><li>\"=numberFormat(value,\"0.00\")\" returns the value in the \"value\" column, rounded to the hundredths place.</li></ul> See <a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping'>Column Mapping</a>"
     ],
     "tableColumnMapping.input": [
         "input",
@@ -6509,7 +6509,7 @@
     ],
     "tableColumnMapping.print": [
         "print",
-        "Displays error messages and other notifications for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Displays error messages and other notifications for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
     ],
     "tableColumnMapping.retainColumns": [
         "retainColumns",
@@ -6525,7 +6525,7 @@
     ],
     "tableEditRows.condition": [
         "condition",
-        "Specifies the expression that determines which rows are to be edited. For example, to edit the first row in the table, enter <code>row==0</code>. See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
+        "Specifies the expression that determines which rows are to be edited. For example, to edit the first row in the table, enter <code>row==0</code>. See <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
     ],
     "tableEditRows.enabled": [
         "enabled",
@@ -6537,7 +6537,7 @@
     ],
     "tableEditRows.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>"
+        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>"
     ],
     "tableEditRows.table": [
         "table",
@@ -6545,7 +6545,7 @@
     ],
     "tableFilter.condition": [
         "condition",
-        "Specifies the condition of the filter. Use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
+        "Specifies the condition of the filter. Use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
     ],
     "tableFilter.input": [
         "input",
@@ -6557,7 +6557,7 @@
     ],
     "tableFilter.print": [
         "print",
-        "Returns output from the <strong>condition</strong> field. Use it for <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Returns output from the <strong>condition</strong> field. Use it for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
     ],
     "tableGetColumns.input": [
         "input",
@@ -6593,7 +6593,7 @@
     ],
     "tableGroupBy.nestedData": [
         "nestedData",
-        "Specifies whether to keep the original rows in a new column of the output table as nested tables. For more information about nested tables, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
+        "Specifies whether to keep the original rows in a new column of the output table as nested tables. For more information about nested tables, see <a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:working_with_tables:home#tables_faq_nested'>How do I view the data in nested tables?</a>"
     ],
     "tableGroupBy.output": [
         "output",
@@ -6673,7 +6673,7 @@
     ],
     "tablePage.start": [
         "start",
-        "Specifies the row index on which to start the current page. Rows before this index are omitted from the output. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page'>More information</a>)"
+        "Specifies the row index on which to start the current page. Rows before this index are omitted from the output. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page'>More information</a>)"
     ],
     "tablePage.totalPage": [
         "totalPage",
@@ -6681,7 +6681,7 @@
     ],
     "tableRemoveRows.condition": [
         "condition",
-        "Specifies the expression that determines which rows are removed. For example, to remove the first row in the table, enter <code>row==0</code>. See <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
+        "Specifies the expression that determines which rows are removed. For example, to remove the first row in the table, enter <code>row==0</code>. See <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home'>Scripting and Syntax</a>."
     ],
     "tableRemoveRows.enabled": [
         "enabled",
@@ -6693,7 +6693,7 @@
     ],
     "tableRemoveRows.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
     ],
     "tableRemoveRows.table": [
         "table",
@@ -6725,7 +6725,7 @@
     ],
     "tableRollup.roundTime": [
         "roundTime",
-        "<p>Specifies whether to force all intervals to start at a round number. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup'>More information</a>)</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
+        "<p>Specifies whether to force all intervals to start at a round number. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup'>More information</a>)</p><p><strong>TRUE</strong>: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes\", all intervals start at multiples of five minutes past the hour.</p><p><strong>FALSE</strong>: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.</p>"
     ],
     "tableRollup.valueColumn": [
         "valueColumn",
@@ -6789,7 +6789,7 @@
     ],
     "tableSort.method": [
         "method",
-        "Specifies whether to sort values as strings (alphabetically) or as numbers. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>More information)</a>"
+        "Specifies whether to sort values as strings (alphabetically) or as numbers. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>More information)</a>"
     ],
     "tableSort.order": [
         "order",
@@ -7093,7 +7093,7 @@
     ],
     "trace.tracing": [
         "tracing",
-        "<p>Specifies whether the changes are recorded. To learn about setting the value to Auto, see <a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace'>this page</a>.</p><p><strong>TRUE</strong>: Changes are logged in the console.</p><p><strong>FALSE</strong>: Changes are not logged.</p><p><strong>Auto</strong>: Changes are logged only if the Advanced property **traceLabel** is not null for the Stage.</p>"
+        "<p>Specifies whether the changes are recorded. To learn about setting the value to Auto, see <a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace'>this page</a>.</p><p><strong>TRUE</strong>: Changes are logged in the console.</p><p><strong>FALSE</strong>: Changes are not logged.</p><p><strong>Auto</strong>: Changes are logged only if the Advanced property **traceLabel** is not null for the Stage.</p>"
     ],
     "traceLabel": [
         "traceLabel",
@@ -7373,11 +7373,11 @@
     ],
     "webDocument.search": [
         "search",
-        "Returns the string that appears after the question mark (?) symbol in the URL. You can bind the search property to a script block and use <a href='http://wiki.dglogik.com/dglux5_wiki:dgscript:home#string'>string functions</a>, such as <code>str.decodeUriComponent()</code>, to parse it into a usable string."
+        "Returns the string that appears after the question mark (?) symbol in the URL. You can bind the search property to a script block and use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#string'>string functions</a>, such as <code>str.decodeUriComponent()</code>, to parse it into a usable string."
     ],
     "webDocument.title": [
         "title",
-        "Specifies the title for this web document. Typically, the user sees this title in the title bar of the browser window or tab. Only works in viewer mode. (<a href='http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document'>More information</a>)"
+        "Specifies the title for this web document. Typically, the user sees this title in the title bar of the browser window or tab. Only works in viewer mode. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document'>More information</a>)"
     ],
     "webDocument.url": [
         "url",
@@ -7647,157 +7647,157 @@
 
 
     ".add": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:add",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:add",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Math_Operations.htm"
     ],
     ".subtract": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:subtract",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:subtract",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Subtract.htm"
     ],
     ".multiply": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:multiply",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:multiply",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Multiply.htm"
     ],
     ".divide": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:divide",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:divide",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Divide.htm"
     ],
     ".max": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:max",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:max",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Maximum.htm"
     ],
     ".min": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:min",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:min",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Minimum.htm"
     ],
     ".average": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:average",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:average",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Statistical_Functions_1.htm#TOC_Average"
     ],
     ".median": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:median",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:median",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Median.htm"
     ],
     ".not": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_not"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_not"
     ],
     ".modulo": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:modulo",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:modulo",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Modulo.htm"
     ],
     ".log": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:logarithm",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:logarithm",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Logarithm.htm"
     ],
     ".power": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:power",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:power",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Power.htm"
     ],
     ".root": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:root",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:root",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Root.htm"
     ],
     ".factorial": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:factorial",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:factorial",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Factorial.htm"
     ],
     ".sin": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:sine",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:sine",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Sine.htm"
     ],
     ".cos": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cosine",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cosine",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Cosine.htm"
     ],
     ".tan": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:tangent",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:tangent",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Tangent.htm"
     ],
     ".cot": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cotangent",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:cotangent",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Cotangent.htm"
     ],
     ".asin": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_sine",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_sine",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Arc_Sine.htm"
     ],
     ".acos": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_cosine",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_cosine",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trigonometric_Functions_1.htm#TOC_Arc_Cosine"
     ],
     ".atan": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_tangent",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:arc_tangent",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Arc_Tangent.htm"
     ],
     ".toRadian": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:radian",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:radian",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Radian.htm"
     ],
     ".toDegree": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:degree",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:trigonometric_functions:degree",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Degree.htm"
     ],
     ".abs": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:absolute",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:absolute",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Number_Formatting_1.htm#TOC_Absolute"
     ],
     ".round": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round.htm"
     ],
     ".roundUp": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_up",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_up",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round_Up.htm"
     ],
     ".roundDown": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_down",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:round_down",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Round_Down.htm"
     ],
     ".scale": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:scale",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:math_operations:scale",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Bound.htm"
     ],
     ".bound": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:bound",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:bound",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Bound.htm"
     ],
     ".length": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:length",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:length",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Length.htm"
     ],
     ".left": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:left",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:left",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Left.htm"
     ],
     ".right": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:right",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:right",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Right.htm"
     ],
     ".substring": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:subst_block",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Substring.htm"
     ],
     ".trim": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:trim",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:trim",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trim.htm"
     ],
     ".split": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:split",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:split",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Split.htm"
     ],
     ".label": [
         ""
     ],
     ".parseNumber": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:parse_number",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:parse_number",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Parse_Number.htm"
     ],
     ".formatDate": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Format.htm"
     ],
     ".formatNumber": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:format_number",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:format_number",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Format_Number.htm"
     ],
     ".encodeBase64str": [
@@ -7828,88 +7828,88 @@
         ""
     ],
     ".datetime": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_time"
     ],
     ".dateFormat": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_format",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Format.htm"
     ],
     ".parseDateTime": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:parse_date_time",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:parse_date_time",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Parse_Date_Time.htm"
     ],
     ".dateMath": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_math",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_math",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Math.htm"
     ],
     ".dateRange": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:date_time_operations:date_range",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Date_Range.htm"
     ],
     ".script": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:script",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Script.htm"
     ],
     ".stopwatch": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Stop_Watch.htm"
     ],
     ".propertyHub": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Hub.htm"
     ],
     ".dynamic": [
         ""
     ],
     ".table": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:table",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:table",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table.htm"
     ],
     ".tableSort": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Sort.htm"
     ],
     ".tableFilter": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:filter",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:filter",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Filter.htm"
     ],
     ".tableRollup": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:rollup",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Rollup.htm"
     ],
     ".tableJoin": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:join",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:join",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Join.htm"
     ],
     ".tableMultiJoin": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:multijoin"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:multijoin"
     ],
     ".tablePage": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:page",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Page.htm"
     ],
     ".tableSelectRows": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_rows",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_rows",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Select_Rows.htm"
     ],
     ".tableSelectColumns": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_columns",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:select_columns",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Select_Columns.htm"
     ],
     ".tableAggregation": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Aggregation.htm"
     ],
     ".tableGetColumns": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:get_columns",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:get_columns",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_Columns.htm"
     ],
     ".tableRemoveRows": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:remove_rows",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:remove_rows",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Remove_Row.htm"
     ],
     ".tableTranspose": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:transpose",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:transpose",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Transpose.htm"
     ],
     ".mapToTable": [
@@ -7919,19 +7919,19 @@
         ""
     ],
     ".makeObject": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:make_object",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:make_object",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Make_Object.htm"
     ],
     ".jsonParser": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:json_parser",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:json_parser",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/JSON_Parser.htm"
     ],
     ".csvParser": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_parser",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_parser",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table_Operations_1.htm#TOC_CSV_Parser"
     ],
     ".csvWriter": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_writer",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:csv_writer",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/CSV_Writer.htm"
     ],
     ".dfsymbol": [
@@ -7941,7 +7941,7 @@
         ""
     ],
     ".repeater": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:repeater",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:repeater",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Repeater.htm"
     ],
     ".fill": [
@@ -7951,66 +7951,66 @@
         ""
     ],
     ".gradientMapping": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:gradient_mapping",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:number_formatting:gradient_mapping",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Gradient_Mapping.htm"
     ],
     ".gradientStop": [
         ""
     ],
     ".stateItem": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/State.htm"
     ],
     ".strUploader": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_uploader",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_uploader",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Uploader.htm"
     ],
     ".strLoader": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_loader",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:string_loader",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Loader.htm"
     ],
     ".listFiles": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_files",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_files",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/List_Files.htm"
     ],
     ".jsonpLoader": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:jsonp_loader",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:jsonp_loader",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Browser_API_1.htm#TOC_JSONP_Loader"
     ],
     ".mouseEventData": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:mouse_event",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Mouse_Event.htm"
     ],
     ".keyboardEventData": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:keyboard_event",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:keyboard_event",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Keyboard_Event.htm"
     ],
     ".scrollEventData": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:scroll_event",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:scroll_event",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Scroll_Event.htm"
     ],
     ".resizeEventData": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:resize_event",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:resize_event",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Resize_Event.htm"
     ],
     ".relativize": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:relativize",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:relativize",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Relativize.htm"
     ],
     ".relativizeNodePath": [
         ""
     ],
     ".loadValue": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_value"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_value"
     ],
     ".loadHistory": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:load_history"
     ],
     ".invokeAction": [
         ""
     ],
     ".getDefaultParams": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_default"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_default"
     ],
     ".dbQuery": [
         ""
@@ -8019,86 +8019,86 @@
         ""
     ],
     ".getChildren": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_children"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_children"
     ],
     ".getNode": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:get_node",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_Node.htm"
     ],
     ".listNode": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_node",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:list_node",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Data_Services_1.htm#TOC_List_Node"
     ],
     ".subscribeValue": [
         ""
     ],
     ".loadHistories": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:multi-histories",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:multi-histories",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Multi-Histories.htm"
     ],
     ".string": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:string",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:string",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Variables_1.htm#TOC_String"
     ],
     ".number": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:number",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:number",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Number.htm"
     ],
     ".bool": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:boolean",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:boolean",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Boolean.htm"
     ],
     ".color": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:color",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:color",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Color.htm"
     ],
     ".svgLightElement": [
         ""
     ],
     ".catchError": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:catch_error",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:catch_error",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Catch_Error.htm"
    ],
     ".group": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:group:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:group:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Groups.htm"
     ],
     ".viewDeck": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:view_deck:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:view_deck:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/View_Deck.htm#MiniTOC_1010619"
     ],
     ".symbol": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:symbols:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Symbols.htm#MiniTOC_1013750"
     ],
     ".jswidget": [
         ""
     ],
     ".pageInclude": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:page_include:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:page_include:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Page_Include.htm#MiniTOC_1011697"
     ],
     ".text": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:text:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:text:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Text.htm#MiniTOC_1009434"
     ],
     ".shape": [
         ""
     ],
     ".img": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:image:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:image:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Images.htm#MiniTOC_1009668"
     ],
     ".iframe": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:iframe:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:iframe:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/IFrame.htm#MiniTOC_1011471"
     ],
     ".video": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:video:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:video:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Video.htm#MiniTOC_1013378"
     ],
     ".rawSvgRepeater": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:raw_svg_repeater:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:raw_svg_repeater:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Raw_SVG_Repeater.htm"
     ],
     ".scrollbarStyles": [
@@ -8111,27 +8111,27 @@
         ""
     ],
     ".svg": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/SVG_Shapes.htm"
     ],
     ".svg:g": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/SVG_Shapes.htm"
     ],
     ".svg:path": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#paths_and_polylines",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#paths_and_polylines",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Paths_and_Polylines.htm"
     ],
     ".svg:rect": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Rectangles_and_Ellipses.htm"
     ],
     ".svg:ellipse": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#rectangles_and_ellipses",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Rectangles_and_Ellipses.htm"
     ],
     ".svg:line": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#lines",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:shapes_paths:home#lines",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Lines.htm"
     ],
     ".svg:image": [
@@ -8159,43 +8159,43 @@
         ""
     ],
     ".projectInfo": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:project-info",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:project-info",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Project_Info.htm"
     ],
     ".localStorage": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:local_storage",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Local_Storage.htm"
     ],
     ".blobUrl": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:blob_url",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:blob_url",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Blob_URL.htm"
     ],
     ".closeDashboard": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".openDashboard": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".downloadFile": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".playSound": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".logout": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".gridColumn": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#column_properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#column_properties",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Column_Properties.htm"
     ],
     ".iframeMessage": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/IFrame_Message.htm"
     ],
     ".frameMsgBroadcaster": [
@@ -8205,400 +8205,400 @@
         ""
     ],
     ".javascript": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:javascript",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:javascript",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Javascript.htm"
     ],
     ".exportHtml": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Export_HTML.htm"
     ],
     ".exportPaginatedPDF": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf"
     ],
     ".geoLocation": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:geo-location",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:geo-location",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Geo-Location.htm"
     ],
     ".deviceOrientation": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-orientation",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-orientation",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Device_Orientation.htm"
     ],
     ".deviceMotion": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-motion",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:device-motion",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Device_Motion.htm"
     ],
     ".webDocument": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:web-document",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Web_Document.htm"
     ],
     ".getViewProperty": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:get_view_property",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:get_view_property",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Get_View_Property.htm"
     ],
     ".dragPosition": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_position",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Drag_Position.htm"
     ],
     ".dragSize": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_size",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:drag_size",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Drag_Size.htm"
     ],
     ".zipUpload": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-upload",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-upload",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Upload.htm"
     ],
     ".zipDownload": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-download",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-download",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Download.htm"
     ],
     ".zipParser": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-parser",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:zip-parser",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Zip_Parser.htm"
     ],
     ".mapSeriesData": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:map_series_data",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:map_series_data",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Map_Series_Data.htm"
     ],
     ".closeWarningDialog": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:close_warning_dialog",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:close_warning_dialog",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Close_Warning_Dialog.htm"
     ],
     ".dsaConnection": [
         ""
     ],
     ".chart": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".scaleTicks": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:ticks:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:ticks:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".scaleLabels": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:labels:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:labels:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".scaleTrack": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:track:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:gauges:track:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Appendix/Gauges.htm"
     ],
     ".linearAxis": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".logAxis": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".categoryAxis": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".datetimeAxis": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".axisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".radialAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".angularAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".linearAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".logAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".categoryAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".datetimeAxisRenderer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".lineSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".areaSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".columnSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".barSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".bubbleSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".spectrumSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".radarSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".lineSet": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".areaSet": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".columnSet": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".barSet": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".radarSet": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home#series_stacker"
     ],
     ".pieSeries": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:pie",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:pie",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Pie_Chart_Properties.htm"
     ],
     ".gridlines": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:plot_area",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:plot_area",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Plot_Area_Properties.htm"
     ],
     ".datagrid": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Creating_a_Data_Grid.htm"
     ],
     ".divTree": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Tree.htm"
     ],
     ".divTreeGrid": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree_grid:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:tree_grid:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Tree_Grid.htm"
     ],
     ".datagridRows": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_row_properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_row_properties",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Row_Properties.htm"
     ],
     ".datagridHeader": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_header_properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:datagrid:home#data_grid_header_properties",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Data_Grid_Header_Properties.htm"
     ],
     ".divTreeItemModel": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home#tree_items"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home#tree_items"
     ],
     ".divTreeGridRowModel": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:tree:home"
     ],
     ".calendar": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:calendar:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:calendar:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Calendars.htm"
     ],
     ".calendarCellStyle": [
         ""
     ],
     ".daterangePicker": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:date_range:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:date_range:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Date_Range_Picker.htm"
     ],
     ".map": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"
     ],
     ".mapGroup": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:map_group:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:map_group:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Map_Group.htm"
     ],
     ".heatMap": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:heat_map:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:heat_map:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Heat_Map.htm"
     ],
     ".heatMapOverlay": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"        
     ],
     ".mapbox": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxHeatMapLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxMarkerLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxGeoJsonLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxTileLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxDrawLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxHexbinLayer": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".mapboxGroup": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
     ],
     ".topology": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:topology:home"
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:topology:home"
     ],
     ".textFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Text_Input_and_Text_Area_Properties.htm"
     ],
     ".textAreaFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text_area:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:text_area:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Text_Input_and_Text_Area_Properties.htm"
     ],
     ".colorFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:color:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:color:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Color_Input_Properties.htm"
     ],
     ".numberFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:number:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:number:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Number_Input_Properties.htm"
     ],
     ".rangeFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:range:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:range:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Range_Input_Properties.htm"
     ],
     ".dateFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:date:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:date:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Date_Input_Properties.htm"
     ],
     ".dgTimeFormInput": [
         ""
     ],
     ".passwordFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:password:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:password:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Shared_Input_Properties.htm"
     ],
     ".listFormElement": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:list:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:list:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/List_Input_Properties.htm"
     ],
     ".fileFormInput": [
-        "http://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:file:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:file:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/File_Input_Properties.htm"
     ],
     ".mode": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:mode",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:mode",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Mode.htm"
     ],
     ".variance": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:variance",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:variance",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Variance.htm"
     ],
     ".stdDeviation": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:std_deviation",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:statistical_functions:std_deviation",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Standard_Deviation.htm"
     ],
     ".concat": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:concatenate",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:concatenate",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/String_Operations_1.htm#TOC_Concatenate"
     ],
     ".replace": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:replace",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:replace",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Replace.htm"
     ],
     ".if": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:if",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/If.htm"
     ],
     ".case": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:case",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Case.htm"        
     ],
     ".router": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:router"
     ],
     ".hub": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Hub.htm"
     ],
     ".eventGate": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:event_gate",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:event_gate",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Event_Gate.htm"
     ],
     ".trace": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:trace",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Trace.htm"
     ],
     ".delay": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:delay",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:delay",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Delay.htm"
     ],
     ".propertyHubModifier": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub_modifier"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub_modifier"
     ],
     ".tableAdvancedRollup": [
         ""
     ],
     ".realtimeRecorder": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:realtime_recorder",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:realtime_recorder",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Real-time_Recorder.htm"
     ],
     ".seriesRealtimeRecorder": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:series_realtime_recorder",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:series_realtime_recorder",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Series_Real-time_Recorder.htm"
     ],
     ".tableColumnMapping": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:column_mapping",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Column_Mapping.htm"
     ],
     ".tableGroupBy": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:group_by",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:group_by",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Group_By.htm"
     ],
     ".tableRowCells": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_row_cells",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_row_cells",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Table_Row_Cells.htm"
     ],
     ".tableAddRow": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:add_row",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:add_row",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Add_Row.htm"
     ],
     ".tableEditRows": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:edit_rows",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:edit_rows",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Edit_Rows.htm"
     ],
     ".changeState": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:state",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/State.htm"
     ],
     ".queryBinding": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Bindings/Data_Bindings_in_the_Binding_Dialog.htm"
     ],
     ".valueBinding": [
-        "http://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:bindings:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Bindings/Data_Bindings_in_the_Binding_Dialog.htm"
     ],
     ".openWeb": [
-        "http://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
+        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".script#number": [
-        "http://wiki.dglogik.com/dglux5_wiki:dgscript:home#number",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/Number_Formats_Functions_and_Constants.htm"
     ],
     ".script#datetime": [
-        "http://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/DateTime_Formats_and_Functions.htm"
     ]
 }
