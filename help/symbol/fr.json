@@ -153,7 +153,7 @@
 ],
 "dcWidgets/palette/widgets:Selection.Combo_Box.Selected" : [
 	"Selectionné",
-	"Chaque item sélectionné par l'utilisateur sera ajouté à une liste séparée par des virgules."
+	"Retourne ce que l'utilisateur a sélectionné. Les valeurs sont retournées séparées par une virgule lors d'une sélection multiple. L'utilisateur peut aussi associer des valeurs à ce champ et celles-ci seront affichées comme étant sélectionnées. Cependant, si l'utilisateur clique sur une nouvelle sélection, la nouvelle valeur apparaîtra dans cette propriété. Pour associer plusieurs valeurs, celles-ci doivent être séparées par des virgules sans espace. "
 ],
 "dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected" : [
 	"Selected",
@@ -173,7 +173,7 @@
 ],
 "dcWidgets/palette/widgets.On_Click" : [
 	"On Click",
-	"Invoque une action lorsqu'on clique sur le bouton. Commencez la logique de votre bouton en associant une action à ce champ."
+	"Exécute une action lorsque la souris est utilisée pour cliquer sur le symbole."
 ],
 "dcWidgets/palette/widgets:Button.Icon_Button.Path" : [
 	"Chemin",
@@ -431,49 +431,49 @@
 	"Fermer",
 	"Invoque l'action en interne. L'utilisateur peut commencer une association à partir de cette action pour déclencher un autre évnement après la fermeture de la liste déroulante."
 ],
-"dcWidgets/palette/widgets:Slider.Slider.Value" : [
-	"Valeur",
-	"La valeur actuelle du curseur."
+"dcWidgets/palette/widgets:Slider.Slider.Value_Out" : [
+	"Valeur sortie",
+	"La valeur actuelle du bouton de défilement. Cette valeur est en lecture seule."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Min" : [
 	"Min",
-	"Définit la valeur minimale du curseur."
+	"Définit la valeur minimale du bouton de défilement."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Max" : [
 	"Max",
-	"Définit la valeur maximale du curseur."
+	"Définit la valeur maximale du bouton de défilement."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Show_Value" : [
 	"Montrer la valeur",
-	"Indique quand une représentation numérique de la valeur actuelle est montrée.<br><br><b>Toujours:</b> La valeur est toujours affichée.<br><b>En mouvement:</b> La valeur est affichée pendant que le bouton du curseur est en mouvement.<br><b>Jamais:</b> La valeur n'est jamais affichée."
+	"Indique quand une représentation numérique de la valeur actuelle est montrée.<br><br><b>Toujours:</b> La valeur est toujours affichée.<br><b>En mouvement:</b> La valeur est affichée pendant que le bouton de défilement est en mouvement.<br><b>Jamais:</b> La valeur n'est jamais affichée."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Enabled" : [
 	"Activé",
-	"<b>true:</b> Le curseur est activé.<b>false:</b> Le curseur est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
+	"<b>true:</b> Le bouton de défilement est activé.<b>false:</b> Le bouton de défilement est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Enabled1" : [
 	"Activé",
-	"<b>true:</b> Le bouton se déplacera selon un intervalle définit par l'utilisateur plutôt que selon un intervalle de 1.<br><false:</b> Le bouton se déplacera selon un interval déterminé par l'écart entre les valeurs maximale et minimale."
+	"<b>true:</b> Le bouton de défilement se déplacera selon un intervalle définit par l'utilisateur plutôt que selon un intervalle de 1.<br><false:</b> Le bouton de défilement se déplacera selon un interval déterminé par l'écart entre les valeurs maximale et minimale."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Interval" : [
 	"Interval",
-	"Si les étapes sont activées, définit l'interval de mouvement du bouton. Si les étapes de sont pas activées, l'interval sera déterminé par l'écart entre les valeurs maximale et minimale. Si cet écart est inférieur à 10, l'intervalle sera en dixièmes. Si l'écart est supérieur à 10, l'interval sera de 1."
+	"Si les étapes sont activées, définit l'interval de mouvement du bouton de défilement. Si les étapes de sont pas activées, l'interval sera déterminé par l'écart entre les valeurs maximale et minimale. Si cet écart est inférieur à 10, l'intervalle sera en dixièmes. Si l'écart est supérieur à 10, l'interval sera de 1."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Track_Start" : [
 	"Valeur d'origne",
-	"Place un point d'oringe à cet endroit. Si vous voulez définir un curseur standard, spécifiez une valeur d'origine égale à la valeur minimale. Si la valeur d'origine est différente de la valeur minimale, le bouton se déplacera à partir du point d'origine."
+	"Place un point d'oringe à cet endroit. Si vous voulez définir un bouton de défilement standard, spécifiez une valeur d'origine égale à la valeur minimale. Si la valeur d'origine est différente de la valeur minimale, le bouton de défilement se déplacera à partir du point d'origine."
 ],
 "dcWidgets/palette/widgets.Show_Header" : [
-	"Show Header",
-	"<b>true:</b> The header is displayed.<br><b>false:</b> The header is not displayed."
+	"Afficher l'entête",
+	"<b>true:</b> L'en-tête est affiché.<br><b>false:</b> L'en-tête n'est pas affiché."
 ],
 "dcWidgets/palette/widgets.Step" : [
-	"Step",
-	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+	"Saut",
+	"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
 ],
 "dcWidgets/palette/widgets.Step1" : [
-	"Step",
-	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+	"Saut",
+	"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
 ],
 "dcWidgets/palette/widgets.Line_Mode" : [
 	"Mode de ligne",
@@ -509,11 +509,11 @@
 ],
 "dcWidgets/palette/widgets.Default_Label2" : [
 	"Étiquette par défaut",
-	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
 ],
 "dcWidgets/palette/widgets.Default_Label3" : [
 	"Étiquette par défaut",
-	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut \"vn\"<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
 ],
 "dcWidgets/palette/widgets.MinY1" : [
 	"Min",
@@ -559,11 +559,11 @@
 	"Couleur du groupe",
 	"La couleur du groupe. Si la valeur est null, une couleur de la palette d'ENVYSION sera sélectionnée automatiquement."
 ],
-"dcWidgets/palette/widgets.Reset_Input" : [
+"dcWidgets/palette/widgets.Curve_Input" : [
 	"Entrée de remise à zéro",
 	"Glissez et déposez le chemin qui sera le point X du point Live."
 ],
-"dcWidgets/palette/widgets.Reset_Output" : [
+"dcWidgets/palette/widgets.Curve_Output" : [
 	"Sortie de remise à zéro",
 	"Glissez et déposez le chemin qui sera le point Y du point Live."
 ],
@@ -571,7 +571,7 @@
 	"Couleur de la courbe",
 	"Définit la couleur de la courbe de chaleur et des marqueurs."
 ],
-"dcWidgets/palette/widgets.Live_Color" : [
+"dcWidgets/palette/widgets.Live_Point_Color" : [
 	"Couleur live",
 	"Définit la couleur du point live."
 ],
@@ -581,10 +581,22 @@
 ],
 "dcWidgets/palette/widgets.Points" : [
 	"Points",
-	"Définit le chemin pour le point Y. Glissez et déposez le chemin à partir de l'arbre de données pour ouvrir la fenêtre d'association. Vous pouvez aussi glisser et déposer le bouton du chemin sur le symbole + ci-dessous pour ouvrir la fenêtre d'association. Pour modifier les sous-propriétés des chemins ajoutés, cliquez sur l'icone du crayon. Pour supprimer un chemin, cliquez sur le symbole \"-\"."
+	"Définit le chemin pour le point Y. Glissez et déposez le chemin à partir de l'arbre de données pour ouvrir la fenêtre d'association. Vous pouvez aussi glisser et déposer le bouton du chemin sur le symbole + ci-dessous pour ouvrir la fenêtre d'association. Pour modifier les sous-propriétés des chemins ajoutés, cliquez sur l'icone du crayon. Pour supprimer un chemin, cliquez sur le symbole '-'."
 ],
 "dcWidgets/palette/widgets.Xpath" : [
 	"Chemin X",
 	"Définit le chemin pour le point X."
+],
+"dcWidgets/palette/widgets.MinX" : [
+	"Min",
+	"Définit la limite minimale pour l'axe."
+],
+"dcWidgets/palette/widgets.MaxX" : [
+	"Max",
+	"Définit la limite maximale pour l'axe."
+],
+"dcWidgets/palette/widgets:Slider.Slider.Value_In" : [
+	"Valeur entrée",
+	"Associez une valeur dans ce champ pour que le bouton de défilement s'ajuste à celle-ci. Lorsque l'utilisateur bouge le bouton de défilement, la valeur affichée sera celle que l'utilisateur a définie.Cependant, si la valeur associée au bouton de défilement change, le bouton se placera automatiquement à cette valeur."
 ]
 }

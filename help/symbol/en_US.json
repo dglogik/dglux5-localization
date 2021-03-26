@@ -153,7 +153,7 @@
 ],
 "dcWidgets/palette/widgets:Selection.Combo_Box.Selected" : [
 	"Selected",
-	"Each item the user selects will be added to a Comma Separated List."
+	"This returns what the user has selected. If in multi select mode, then it returns them as a csv. The user can also bind values to this field and they will be displayed as selected. However, as soon as a user changes the selection, by clicking on it, then the new item will appear in this property. If you choose to bind in multiple items, they must be in csv form, with no extra spaces."
 ],
 "dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected" : [
 	"Selected",
@@ -173,7 +173,7 @@
 ],
 "dcWidgets/palette/widgets.On_Click" : [
 	"On Click",
-	"Passes an action when the button is clicked. Bind from here to start your button logic."
+	"Passes an action out when the mouse is clicked on the symbol."
 ],
 "dcWidgets/palette/widgets:Button.Icon_Button.Path" : [
 	"Path",
@@ -431,9 +431,9 @@
 	"Close",
 	"Passes the action internally. User could bind from it to trigger other event after drop down closes."
 ],
-"dcWidgets/palette/widgets:Slider.Slider.Value" : [
-	"Value",
-	"The current value of the slider."
+"dcWidgets/palette/widgets:Slider.Slider.Value_Out" : [
+	"Value Out",
+	"The current value of the slider. It is read only."
 ],
 "dcWidgets/palette/widgets:Slider.Slider.Min" : [
 	"Min",
@@ -505,15 +505,15 @@
 ],
 "dcWidgets/palette/widgets.Update_Interval" : [
 	"Update Interval",
-	"Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded onautoLoad."
+	"Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on autoLoad."
 ],
 "dcWidgets/palette/widgets.Default_Label2" : [
 	"Default Label",
-	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
 ],
 "dcWidgets/palette/widgets.Default_Label3" : [
 	"Default Label",
-	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string \"vn\"<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
 ],
 "dcWidgets/palette/widgets.MinY1" : [
 	"Min",
@@ -559,20 +559,20 @@
 	"Group Color",
 	"The color of the group. If left null, a color from the Enysion color palette will be automatically selected."
 ],
-"dcWidgets/palette/widgets.Reset_Input" : [
-	"Reset Input",
+"dcWidgets/palette/widgets.Curve_Input" : [
+	"Curve Input",
 	"Drag and drop the path that will be the X point of the live point."
 ],
-"dcWidgets/palette/widgets.Reset_Output" : [
-	"Reset Output",
+"dcWidgets/palette/widgets.Curve_Output" : [
+	"Curve Output",
 	"Drag and drop the path that will be the Y point of the live point."
 ],
 "dcWidgets/palette/widgets.Curve_Color" : [
 	"Curve Color",
 	"Sets the color of the heat curve and the markers."
 ],
-"dcWidgets/palette/widgets.Live_Color" : [
-	"Live Color",
+"dcWidgets/palette/widgets.Live_Point_Color" : [
+	"Live Point Color",
 	"Sets the color of the live point."
 ],
 "dcWidgets/palette/widgets.Show_Unit" : [
@@ -581,10 +581,22 @@
 ],
 "dcWidgets/palette/widgets.Points" : [
 	"Points",
-	"Sets the path for the Y point. Drag and drop path from data tree to the chart to bring up binding dialog. You can also drag and drop the path button on the plus sign bellow, to get the same binding dialog. Once paths have been dropped, you may edit any of the sub-properties by clicking the pencil icon or you can delete it by clicking on the \"-\" icon."
+	"Sets the path for the Y point. Drag and drop a path from the data tree to the chart to bring up binding dialog. You can also drag and drop the path button on the plus sign below, to get the same binding dialog. Once paths have been dropped, you may edit any of the sub-properties by clicking the pencil icon, or you can delete it by clicking on the '-' icon."
 ],
-"dcWidgets/palette/widgets.Xpath" : [
+"dcWidgets/palette/widgets.X_Path" : [
 	"X Path",
 	"Sets the path for the X point."
+],
+"dcWidgets/palette/widgets.MinX" : [
+	"Min",
+	"Sets the lower bound of the axis."
+],
+"dcWidgets/palette/widgets.MaxX" : [
+	"Max",
+	"Sets the upper bound of the axis."
+],
+"dcWidgets/palette/widgets:Slider.Slider.Value_In" : [
+	"Value In",
+	"Bind a value here to have the slider adjust to the bound value. Once the user moves the slider, the value shown will show what the user set it to. However, if the value bound to it changes, then the slider will move automatically to that value."
 ]
 }
