@@ -823,5 +823,15 @@
   "Selection_Type": "Selection Type",
   "Value_In": "Value In",
   "Value_Out": "Value Out",
-  "On_Click": "On Click" 
+  "On_Click": "On Click",
+  "Line_Mode": "Line Mode",
+  "Min_Unit": "Min Unit",
+  "Max_Unit": "Max Unit",
+  "auto": "Auto",
+  "seconds": "Seconds",
+  "minutes": "Minutes",
+  "hours": "Hours",
+  "days": "Days",
+  "weeks": "Weeks",
+  "months": "Months"
 }

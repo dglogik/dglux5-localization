@@ -843,5 +843,22 @@
   "Value_Out": "Valeur de sortie",
   "Single Select": "Sélection unique",
   "Multi Select": "Sélection multiple",
-  "On Click": "Lors d'un clic"
+  "On Click": "Lors d'un clic",
+  "Data_Interval1": "Intervalle 1 de données",
+  "On_Click": "Lors d'un clic",
+  "Line_Mode": "Mode de ligne",
+  "Min_Unit": "Unité Min",
+  "Max_Unit": "Unité Max",
+  "auto": "Auto",
+  "seconds": "Secondes",
+  "minutes": "Minutes",
+  "hours": "Heures",
+  "days": "Jours",
+  "weeks": "Semaines",
+  "months": "Mois",
+  "Multi Line Overlay": "Lignes multiples superposées",
+  "Multi Area Overlay": "Aires multiples superposées",
+  "Multi Column Overlay": "Colonnes multiples superposées",
+  "Heating Curve": "Courbe de chauffage",
+  "Dropdown": "Déroulant"
 }
