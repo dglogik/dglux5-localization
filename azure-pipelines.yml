@@ -1,0 +1,66 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+variables:
+  Dart.SDK.Version: 1.19.1
+  Release.CounterBase: 1
+  Build.Counter: $[counter(variables['Release.CounterBase'], 1)]
+
+name: $(Build.Counter)
+
+#trigger:
+#- master
+
+pool:
+  vmImage: ubuntu-latest
+
+resources:
+  repositories:
+  - repository: DGLuxRepo
+    type: git
+    name: DGIoTPlatform/dglux
+    ref: master
+
+steps:
+# $(Pipeline.Workspace)/s/dglux5-localization
+- checkout: self
+  persistCredentials: true
+  displayName: 'Checkout dglux5-localization'
+# $(Pipeline.Workspace)/s/dglux
+- checkout: DGLuxRepo
+  persistCredentials: true
+  submodules: true
+  displayName: 'Checkout DGLux source code'
+- bash: |
+    wget https://storage.googleapis.com/dart-archive/channels/stable/release/$(Dart.SDK.Version)/sdk/dartsdk-linux-x64-release.zip -O sdk.zip
+    unzip -o sdk.zip
+    chmod +x dart-sdk/bin/dart dart-sdk/bin/pub
+    dart-sdk/bin/dart --version
+  displayName: 'Download Dart SDK'
+- bash: |
+    export DART_SDK="$(System.DefaultWorkingDirectory)/dart-sdk"
+    export PATH="${DART_SDK}/bin:${PATH}"
+    dart --version
+    pub get
+    cd tool/lang
+    pub get
+    cd ../../
+    ./tool/lang.sh -g -t ALL -o $(Pipeline.Workspace)/s/dglux5-localization/locales/
+  displayName: 'Update localization files'
+  workingDirectory: $(Pipeline.Workspace)/s/dglux/dgluxjs
+- bash: |
+    cp locales/en.json template.json
+    git add .
+    git commit -m "Update Locales" | true
+    git push
+  displayName: 'Commit localization changes'
+  workingDirectory: $(Pipline.Workspace)/s/dglux5-localization
+- bash: |
+    git submodule foreach git pull origin master
+    git add web/lang
+    git commit -a -m "Updated Localization Submodule" | true
+    git push
+  displayName: 'Switch dglux localization submodule'
+  workingDirectory: $(Pipeline.Workspace)/s/dglux/dgluxjs
