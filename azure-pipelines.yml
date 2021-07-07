@@ -39,7 +39,7 @@ steps:
     wget https://storage.googleapis.com/dart-archive/channels/stable/release/$(Dart17.SDK.Version)/sdk/dartsdk-linux-x64-release.zip -O sdk.zip
     unzip -o sdk.zip -d dart17
     chmod +x dart17/dart-sdk/bin/dart2js
-    cp dgluxjs/tool/dart2dart.platform dart17/dart-sdk/lib/dart2dart.platform
+    cp $(Pipeline.Workspace)/s/dglux/dgluxjs/tool/dart2dart.platform dart17/dart-sdk/lib/dart2dart.platform
   displayName: 'Download Dart17 SDK'
 - bash: |
     export DART_SDK="$(System.DefaultWorkingDirectory)/dart-sdk"
