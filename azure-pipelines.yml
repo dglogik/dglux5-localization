@@ -59,6 +59,8 @@ steps:
 - bash: |
     cp locales/en.json template.json
     git add .
+    git config --global user.email "ilya.tsarev@acuitybrands.com"
+    git config --global user.name "Azure Pipelines"    
     git commit -m "Update Locales" | true
     git push
   displayName: 'Commit localization changes'
