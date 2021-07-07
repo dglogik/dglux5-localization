@@ -1,5 +1,6 @@
 variables:
   Dart.SDK.Version: 1.19.1
+  Dart17.SDK.Version: 1.17.1
   Release.CounterBase: 1
   Build.Counter: $[counter(variables['Release.CounterBase'], 1)]
 
@@ -16,7 +17,7 @@ resources:
   - repository: DGLuxRepo
     type: git
     name: DGIoTPlatform/dglux
-    ref: master
+    ref: develop/develop
 
 steps:
 # $(Pipeline.Workspace)/s/dglux5-localization
@@ -35,13 +36,24 @@ steps:
     dart-sdk/bin/dart --version
   displayName: 'Download Dart SDK'
 - bash: |
+    wget https://storage.googleapis.com/dart-archive/channels/stable/release/$(Dart17.SDK.Version)/sdk/dartsdk-linux-x64-release.zip -O sdk.zip
+    unzip -o sdk.zip -d dart17
+    chmod +x dart17/dart-sdk/bin/dart2js
+    cp dgluxjs/tool/dart2dart.platform dart17/dart-sdk/lib/dart2dart.platform
+  displayName: 'Download Dart17 SDK'
+- bash: |
     export DART_SDK="$(System.DefaultWorkingDirectory)/dart-sdk"
     export PATH="${DART_SDK}/bin:${PATH}"
     dart --version
+    pub get
     cd tool/lang
     pub get
+    ./$(System.DefaultWorkingDirectory)/dart17/dart-sdk/bin/dart2js -m --output-type=dart -o ./bin/lang_compiled.dart ./bin/lang.dart
     cd ../../
-    ./tool/lang.sh -g -t ALL -o $(Pipeline.Workspace)/s/dglux5-localization/locales/
+    git checkout -B master remotes/origin/master --
+    git submodule update
+    dart ./tool/lang/bin/lang_compiled.dart -g -t ALL -o $(Pipeline.Workspace)/s/dglux5-localization/locales/
+    git checkout .
   displayName: 'Update localization files'
   workingDirectory: $(Pipeline.Workspace)/s/dglux/dgluxjs
 - bash: |
