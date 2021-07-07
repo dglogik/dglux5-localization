@@ -62,7 +62,7 @@ steps:
     git commit -m "Update Locales" | true
     git push
   displayName: 'Commit localization changes'
-  workingDirectory: $(Pipline.Workspace)/s/dglux5-localization
+  workingDirectory: $(Pipeline.Workspace)/s/dglux5-localization
 - bash: |
     git submodule foreach git pull origin master
     git add web/lang
