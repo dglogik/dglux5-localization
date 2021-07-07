@@ -42,6 +42,10 @@ steps:
     cp $(Pipeline.Workspace)/s/dglux/dgluxjs/tool/dart2dart.platform dart17/dart-sdk/lib/dart2dart.platform
   displayName: 'Download Dart17 SDK'
 - bash: |
+    git checkout -B master remotes/origin/master --
+  displayName: 'Switch dglux5-localization to master'
+  workingDirectory: $(Pipeline.Workspace)/s/dglux5-localization
+- bash: |
     export DART_SDK="$(System.DefaultWorkingDirectory)/dart-sdk"
     export PATH="${DART_SDK}/bin:${PATH}"
     dart --version
