@@ -48,7 +48,7 @@ steps:
     pub get
     cd tool/lang
     pub get
-    ./$(System.DefaultWorkingDirectory)/dart17/dart-sdk/bin/dart2js -m --output-type=dart -o ./bin/lang_compiled.dart ./bin/lang.dart
+    $(System.DefaultWorkingDirectory)/dart17/dart-sdk/bin/dart2js -m --output-type=dart -o ./bin/lang_compiled.dart ./bin/lang.dart
     cd ../../
     git checkout -B master remotes/origin/master --
     git submodule update
