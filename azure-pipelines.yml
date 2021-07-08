@@ -1,3 +1,13 @@
+parameters:
+  - name: branch
+    displayName: Select Branch
+    default: master
+    values:
+    - master
+    - develop/develop
+    - dglux5/develop
+    - develop2/develop
+
 variables:
   Dart.SDK.Version: 1.19.1
   Dart17.SDK.Version: 1.17.1
@@ -54,7 +64,7 @@ steps:
     pub get
     $(System.DefaultWorkingDirectory)/dart17/dart-sdk/bin/dart2js -m --output-type=dart -o ./bin/lang_compiled.dart ./bin/lang.dart
     cd ../../
-    git checkout -B master remotes/origin/master --
+    git checkout -B ${{ parameters.branch }} remotes/origin/${{ parameters.branch }} --
     git submodule update
     dart ./tool/lang/bin/lang_compiled.dart -g -t ALL -o $(Pipeline.Workspace)/s/dglux5-localization/locales/
     git checkout .
@@ -65,7 +75,7 @@ steps:
     git add .
     git config --global user.email "ilya.tsarev@acuitybrands.com"
     git config --global user.name "Azure Pipelines"    
-    git commit -m "Update Locales" | true
+    git commit -m "Update Locales ${{ parameters.branch }}" | true
     git push
   displayName: 'Commit localization changes'
   workingDirectory: $(Pipeline.Workspace)/s/dglux5-localization
