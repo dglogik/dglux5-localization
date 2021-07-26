@@ -82,6 +82,8 @@ steps:
 - bash: |
     git submodule foreach git pull origin master
     git add web/lang
+    git config --global user.email "ilya.tsarev@acuitybrands.com"
+    git config --global user.name "Ilya Tsarev"    
     git commit -a -m "Updated Localization Submodule" | true
     git push
   displayName: 'Switch dglux localization submodule'
