@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Det gick inte att initiera",
   "New view": "Ny vy",
   "DG Solution Builder": "GD Solution Builder",
-  "Remote Dataflow Editor by DGLogik": "Remote dataflöde redaktör av DGLogik",
   "Project has been changed. Save file anyway?": "Projektet har ändrats. Spara filen ändå?",
   "Save File With Log": "Spara filen med Log"
 }

@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "초기화 하지 못했습니다.",
   "New view": "새로운 보기",
   "DG Solution Builder": "DG 솔루션 작성기",
-  "Remote Dataflow Editor by DGLogik": "DGLogik에 의해 원격 데이터 흐름 편집기",
   "Project has been changed. Save file anyway?": "프로젝트 변경 되었습니다. 어쨌든 파일을 저장?",
   "Save File With Log": "로그 파일 저장"
 }

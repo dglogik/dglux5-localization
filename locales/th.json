@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "ไม่สามารถเตรียมใช้งาน",
   "New view": "มุมมองใหม่",
   "DG Solution Builder": "สร้างโซลูชัน DG",
-  "Remote Dataflow Editor by DGLogik": "แก้ไข Dataflow ระยะไกล โดย DGLogik",
   "Project has been changed. Save file anyway?": "โครงการมีการเปลี่ยนแปลง บันทึกแฟ้มต่อไป",
   "Save File With Log": "บันทึกแฟ้มบันทึก"
 }

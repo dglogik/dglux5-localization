@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Initialisierung fehlgeschlagen",
   "New view": "Neue Ansicht",
   "DG Solution Builder": "DG-Lösung-Generator",
-  "Remote Dataflow Editor by DGLogik": "Entfernter DataFlow-Editor von DGLogik",
   "Project has been changed. Save file anyway?": "Projekt wurde geändert. Speichern Sie die Datei trotzdem?",
   "Save File With Log": "Datei mit Protokoll speichern",
   "licensee can\\'t be blank": "Der Name darf nicht leer sein.",
@@ -2127,5 +2126,6 @@
   "Snapping To Grid": "Am Raster ausrichten",
   "Snapping In Dataflow": "Andocken im DataFlow",
   "Snapping To Custom Points": "An benutzerdefinierten Punkten ausrichten",
-  "Enable": "Aktivieren"
+  "Enable": "Aktivieren",
+  "Remote Dataflow Editor by DGLogik": "Entfernter DataFlow-Editor von DGLogik"
 }

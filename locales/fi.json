@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Alustus epäonnistui",
   "New view": "Uusi näkymä",
   "DG Solution Builder": "Pääosaston ratkaisu rakentaja",
-  "Remote Dataflow Editor by DGLogik": "Kauko Dataflow Editor by DGLogik",
   "Project has been changed. Save file anyway?": "Projekti on muutettu. Silti tallentaa tiedoston?",
   "Save File With Log": "Tallenna tiedosto log"
 }

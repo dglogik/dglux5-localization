@@ -2035,7 +2035,7 @@
   "30-day Trial License \\u00A0\\u00A0 | \\u00A0\\u00A0 100 Topics": "30日間試用版ライセンス \\u00A0\\u00A0 |\\u00A0\\u00A0 100 トピックス",
   "Kiosk / Engineering \\u00A0\\u00A0 | \\u00A0\\u00A0 100 Topics": "キオスク / エンジニアリング \\u00A0\\u00A0 |\\u00A0\\u00A0 100 トピックス",
   "Small License \\u00A0\\u00A0 | \\u00A0\\u00A0 1000 Topics": "スモール ライセンス \\u00A0\\u00A0 |\\u00A0\\u00A0 1000 トピックス",
-  "Medium License \\u00A0\\u00A0 | \\u00A0\\u00A0 10000 Topics": "中程度のライセンス \\u00A0\\u00A0 |\\u00A0\\u00A0 10000 トピックス",
+  "Medium License \\u00A0\\u00A0 | \\u00A0\\u00A0 10000 Topics": "中程度ライセンス \\u00A0\\u00A0 |\\u00A0\\u00A0 10000 トピックス",
   "Large License \\u00A0\\u00A0 | \\u00A0\\u00A0 50000 Topics": "ラージ ライセンス \\u00A0\\u00A0 |\\u00A0\\u00A0 50000 トピックス",
   "Custom License": "カスタム ライセンス",
   "Full Name": "完全な名前",
@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "初期化に失敗しました",
   "New view": "新しいビュー",
   "DG Solution Builder": "DG ソリューション ビルダー",
-  "Remote Dataflow Editor by DGLogik": "DGLogik でリモート データ フロー エディター",
   "Project has been changed. Save file anyway?": "プロジェクトは変更されています。ファイルを保存しますか。",
   "Save File With Log": "ログ ファイルを保存します。"
 }

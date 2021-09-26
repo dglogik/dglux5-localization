@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Echec à l’initialisation",
   "New view": "Nouvelle visualisation",
   "DG Solution Builder": "DG solution Builder",
-  "Remote Dataflow Editor by DGLogik": "Éditeur de flux de données distant par DGLogik",
   "Project has been changed. Save file anyway?": "Projet a été modifié. Enregistrez le fichier quand même ?",
   "Save File With Log": "Enregistrer le fichier avec un compte-rendu",
   "First Day of Week": "Premier jour de semaine",
@@ -2145,5 +2144,6 @@
   "CONNECT": "SE CONNECTER",
   "PATCH": "PATCH",
   "comma-separated string for children name\\nuse * to match all": "chaîne séparée par des virgules pour les enfants name\\nuse * afin de correspondre à tous",
-  "Table union": "Union de table"
+  "Table union": "Union de table",
+  "Remote Dataflow Editor by DGLogik": "Éditeur de flux de données distant par DGLogik"
 }

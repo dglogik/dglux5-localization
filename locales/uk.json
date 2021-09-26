@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Помилка ініціалізації",
   "New view": "Нове подання",
   "DG Solution Builder": "DG рішення будівельника",
-  "Remote Dataflow Editor by DGLogik": "Редактор віддаленого потік даних шляхом DGLogik",
   "Project has been changed. Save file anyway?": "Проект був змінений. Збережіть файл у будь-якому випадку?",
   "Save File With Log": "Збережіть файл з журналу"
 }

@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "初始化失败",
   "New view": "新的视图",
   "DG Solution Builder": "DG 解决方案生成器",
-  "Remote Dataflow Editor by DGLogik": "DGLogik 远程数据流编辑器",
   "Project has been changed. Save file anyway?": "项目已更改。是否保存文件？",
   "Save File With Log": "将文件与日志保存"
 }

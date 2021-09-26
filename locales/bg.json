@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Неуспешно инициализиране",
   "New view": "Нов изглед",
   "DG Solution Builder": "ГД разтвор строител",
-  "Remote Dataflow Editor by DGLogik": "Дистанционно да се създаде поток редактор от DGLogik",
   "Project has been changed. Save file anyway?": "Проектът е променен. Запишете файла все пак?",
   "Save File With Log": "Запишете файла с дневника"
 }

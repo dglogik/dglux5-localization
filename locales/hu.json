@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Inicializálása nem sikerült",
   "New view": "Új nézet",
   "DG Solution Builder": "DG megoldás Builder",
-  "Remote Dataflow Editor by DGLogik": "DGLogik távoli adatfolyam-szerkesztő",
   "Project has been changed. Save file anyway?": "Megváltozott a projekt. Mentse a fájlt egyébként?",
   "Save File With Log": "Mentse a fájlt a napló"
 }

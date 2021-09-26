@@ -2036,7 +2036,7 @@
   "Kiosk / Engineering \\u00A0\\u00A0 | \\u00A0\\u00A0 100 Topics": "Quiosque / Engenharia \\u00A0\\u00A0 | \\u00A0\\u00A0 100 Tópicos",
   "Small License \\u00A0\\u00A0 | \\u00A0\\u00A0 1000 Topics": "Licença pequena \\u00A0\\u00A0 | \\u00A0\\u00A0 1000 Tópicos",
   "Medium License \\u00A0\\u00A0 | \\u00A0\\u00A0 10000 Topics": "Licença Média \\u00A0\\u00A0 | \\u00A0\\u00A0 10000 Tópicos",
-  "Large License \\u00A0\\u00A0 | \\u00A0\\u00A0 50000 Topics": "Licença grande \\u00A0\\u00A0 | \\u00A0\\u00A0 50000 Tópicos",
+  "Large License \\u00A0\\u00A0 | \\u00A0\\u00A0 50000 Topics": "Licença grande \\u00A0\\u00A0 | \\u00A0\\u00A0 50000",
   "Custom License": "Licença personalizada",
   "Full Name": "Nome completo",
   "Company Name": "Nome da empresa",
@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Falha ao inicializar",
   "New view": "Nova vista",
   "DG Solution Builder": "DG solução Builder",
-  "Remote Dataflow Editor by DGLogik": "Editor de fluxo de dados remoto por DGLogik",
   "Project has been changed. Save file anyway?": "Projeto foi alterado. Salve o arquivo de qualquer forma?",
   "Save File With Log": "Salve o arquivo com Log"
 }

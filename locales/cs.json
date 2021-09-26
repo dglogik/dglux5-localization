@@ -2075,7 +2075,6 @@
   "Failed to Initialize": "Nepodařilo se inicializovat",
   "New view": "Nový pohled",
   "DG Solution Builder": "Tvůrce řešení DG",
-  "Remote Dataflow Editor by DGLogik": "Vzdálené Dataflow Editor DGLogik",
   "Project has been changed. Save file anyway?": "Projekt byl změněn. Přesto uložit soubor?",
   "Save File With Log": "Uložte soubor s protokolem"
 }
