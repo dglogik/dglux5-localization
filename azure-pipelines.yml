@@ -64,6 +64,7 @@ steps:
     pub get
     $(System.DefaultWorkingDirectory)/dart17/dart-sdk/bin/dart2js -m --output-type=dart -o ./bin/lang_compiled.dart ./bin/lang.dart
     cd ../../
+    git checkout .
     git checkout -B ${{ parameters.branch }} remotes/origin/${{ parameters.branch }} --
     git submodule update
     dart ./tool/lang/bin/lang_compiled.dart -g -t ALL -o $(Pipeline.Workspace)/s/dglux5-localization/locales/
