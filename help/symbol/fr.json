@@ -1,602 +1,638 @@
 {
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Default" : [
-	"Défaut",
-	"Définit la position initiale par défaut de la bascule lors du chargement. La valeur peut se situer entre 0 et 2."
-],
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Selected" : [
-	"Selectionné",
-	"L'index de l'item sélectionné."
-],
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Label" : [
-	"Étiquette",
-	"Retourne la valeur dans la bascule sélectionnée."
-],
-"dcWidgets/palette/widgets.Accent_Color" : [
-	"Couleur d'accent",
-	"Définit la couleur du marqueur d'accent et des points de menu."
-],
-"dcWidgets/palette/widgets.Time_Range" : [
-	"Intervalle de temps",
-	"Définit l'intervalle de temps de cette série."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type_L" : [
-	"Type de graphe",
-	"Indique comment les données de la série sont visuellement représentées.<br><br><br><b>Série de lignes</b> - Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><br><b>Série de zones</b> - Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><br><b>Série de colonnes</b> - Des colonnes représentent les points de donnée."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode_L" : [
-	"Mode de la série",
-	"Indique comment les valeurs des données sont représentées.<br><br><br><b>En cluster</b> - Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><br><b>Superposés</b> - Compare les valeurs des données en les superposant.<br><br><b>Empilés</b> - Montre comment les valeurs des données contribuent au total.<br><br><b>100%</b> - Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis" : [
-	"Activé",
-	"<b>true</b> - La série et l'axe gauche sont affichés.<br><b>false</b> - La série et l'axe gauche sont cachés."
-],
-"dcWidgets/palette/widgets.Dark_Theme" : [
-	"Thème sombre",
-	"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
-],
-"dcWidgets/palette/widgets.Header" : [
-	"En-tête",
-	"Spécifie le texte de l'en-tête."
-],
-"dcWidgets/palette/widgets.Axis_Label" : [
-	"Étiquette de l'axe",
-	"Spécifie l'étiquette de l'axe y."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled" : [
-	"Activé",
-	"<b>true</b> - La série et l'axe sont affichés.<br><b>false</b> - La série et l'axe sont cachés."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type" : [
-	"Type de graphe",
-	"Indique comment les données de la série sont visuellement représentées.<br><br><b>Série de lignes</b> Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><b>Série de zones</b> Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><b>Série de colonnes</b> Des colonnes représentent les points de donnée."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode" : [
-	"Mode de la série",
-	"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
-],
-"dcWidgets/palette/widgets.Rollup" : [
-	"Cumul",
-	"Indique le type de cumul utilisé. La valeur du cumul peut être l'une des suivantes:<br><br><b>Moy:</b> La moyenne de toutes les valeurs numériques pour l'intervalle<br><b>Min:</b> La valeur numérique la plus petite pour l'intervalle<br><b>Max:</b> La valeur numérique la plus grande pour l'intervalle<br><b>Somme:</b> La sommes de toutes les valeurs numériques pour l'intervalle<br><b>Première:</b> La première valeur pour l'intervalle<br><b>Dernière:</b> La dernière valeur pour l'intervalle<br><b>Total:</b> Le décompte total de valeurs non-nulles pour l'interval"
-],
-"dcWidgets/palette/widgets.Missing_Value" : [
-	"Valeur manquante",
-	"Indique la valeur à afficher lorsqu'une donnée est manquante. La valeur de la propriété missingValue peut être l'une des suivantes:<br><br><b>Nulle:</b> Une valeur nulle<br><b>Utilisation du précédent:</b> La valeur du timestamp précédent<br><b>Utilisation du suivant:</b> La valeur du timestamp suivant<br><b>Interpoler:</b>La moyenne des valeurs des timestamps précédant et suivant<br><b>Zéro:</b>Zéro"
-],
-"dcWidgets/palette/widgets.Delta" : [
-	"Delta",
-	"Spécifie ce qui se retrouve dans les colonnes d'historique des valeurs du tableau de sortie.<br><br><b>Aucun:</b> La valeur à un temps donné <br><b>Avec le précédent:</b> La différence entre les valeurs dans cette randée et celles dans la rangée précédente<br><b>Avec le prochain:</b> La différence entre les valeurs dans cette randée et celles dans la rangée suivante"
-],
-"dcWidgets/palette/widgets.Output_Table" : [
-	"Table de sortie",
-	"Affiche le tableau qui contient les données qui sont représentées dans le graphe."
-],
-"dcWidgets/palette/widgets.Show_Menu" : [
-	"Monrer le menu",
-	"Affiche ou cache les trois points verticaux pour ouvrir le menu.<br><br><b>true:</b> Les points de menu sont affichés.<br><b>false:</b> Les points de menu sont cachés."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled1" : [
-	"Activé",
-	"<b>true</b> - La série et l'axe sont affichés.<br><b>false</b> - La série et l'axe sont cachés."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type1" : [
-	"Type de graphe",
-	"Indique comment les données de la série sont visuellement représentées. <br><br><b>Série de lignes:</b> Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><b>Série de zones:</b> Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><b>Série de colonnes:</b> Des colonnes représentent les points de donnée."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode1" : [
-	"Mode de la série",
-	"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Rollup1" : [
-	"Cumul",
-	"Indique le type de cumul utilisé. La valeur du cumul peut être l'une des suivantes:<br><br><b>Moy:</b> La moyenne de toutes les valeurs numériques pour l'intervalle<br><b>Min:</b> La valeur numérique la plus petite pour l'intervalle<br><b>Max:</b> La valeur numérique la plus grande pour l'intervalle<br><b>Somme:</b> La sommes de toutes les valeurs numériques pour l'intervalle<br><b>Première:</b> La première valeur pour l'intervalle<br><b>Dernière:</b> La dernière valeur pour l'intervalle<br><b>Total:</b> Le décompte total de valeurs non-nulles pour l'interval"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Missing_Value1" : [
-	"Valeur manquante",
-	"Indique la valeur à afficher lorsqu'une donnée est manquante. La valeur de la propriété missingValue peut être l'une des suivantes:<br><br><b>Nulle:</b> Une valeur nulle<br><b>Utilisation du précédent:</b> La valeur du timestamp précédent<br><b>Utilisation du suivant:</b> La valeur du timestamp suivant<br><b>Interpoler:</b>La moyenne des valeurs des timestamps précédant et suivant<br><b>Zéro:</b>Zéro"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Delta1" : [
-	"Delta",
-	"Spécifie ce qui se retrouve dans les colonnes d'historique des valeurs du tableau de sortie.<br><br><b>Aucun:</b> La valeur à un temps donné <br><b>Avec le précédent:</b> La différence entre les valeurs dans cette randée et celles dans la rangée précédente<br><b>Avec le prochain:</b> La différence entre les valeurs dans cette randée et celles dans la rangée suivante"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Output_Table1" : [
-	"Table de sortie",
-	"Affiche le tableau qui contient les données qui sont représentées dans le graphe."
-],
-"dcWidgets/palette/widgets.Data_Interval" : [
-	"Intervalle",
-	"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Data_Interval1" : [
-	"Intervalle",
-	"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
-],
-"dcWidgets/palette/widgets.Mode" : [
-	"Mode",
-	"Indique si les données retournées sont en direct ou historiques.<br><br>Indique si les données affichées sont en direct ou historiques.<br><br><b>En direct:</b> Les chemins vont retourner des données en direct.<br><b>Historique:</b> Les chemins vont retourner des données historiques. Agrandissez la section Historique pour indiquer comment les données seront retournées."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Precision" : [
-	"Précision",
-	"Le nombre de décimales qui seront affichées pour les infobulles et les étiquettes."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Legend" : [
-	"Montrer la légende",
-	"<b>true:</b> Montre la légende dans le haut de la zone du graphe.<br><b>false:</b> Ne montre pas la légende en haut du diagramme."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Labels" : [
-	"Montrer les étiquettes",
-	"<b>true:</b> Montre les étiquettes autour du diagramme à secteurs.<br><b>false:</b> ne montre pas les étiquettes autour du diagramme à secteurs."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Datatip" : [
-	"Montrer les infobulles",
-	"<b>true:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur seront affichées.<br><b>false:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur ne seront pas affichées."
-],
-"dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode" : [
-	"Mode d'agrégation",
-	"Spécifie le type de valeur à retourner. La valeur de la propriété peut être l'une des suivantes:<br><br><b>Premier: </b> Retourne la première valeur dans la colonne. <br><b>Dernier: </b> Retourne la dernière valeur dans la colonne. <br><b>Moyenne: </b> Retourne la moyenne de toutes les valeurs numériques dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Somme: </b> Retourne la somme de toutes les valeurs numériques dans la colonne. S'il n'y a pas de valeur numérique, retourne 0. <br><b>Max: </b> Retourne la valeur numérique la plus élevée dans la colonne. S'il n'y a pas de valeur numérique, retourne une valeur nulle. <br><b>Min: </b> Retourne la valeur numérique la moins élevée dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Total: </b> Retourne le nombre total de valeurs dans la colonne. Les valeurs nulles ne sont pas considérées."
-],
-"dcWidgets/palette/widgets:Chart.Bar.Series_Mode1" : [
-	"Mode de la série",
-	"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
-],
-"dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius" : [
-	"Rayon de marqueur",
-	"Spécifie le rayon des marqueurs en pixels."
-],
-"dcWidgets/palette/widgets.Options" : [
-	"Options",
-	"Une liste séparée par des virgules qui sera convertie pour afficher chaque item qui apparaîtra dans la liste déroulante. Le nombre d'entrées dans la liste séparée par des virgules déterminera le nombre d'items qui apparaîtront dans la liste déroulante. "
-],
-"dcWidgets/palette/widgets.Label" : [
-	"Étiquette",
-	"Le texte affiché."
-],
-"dcWidgets/palette/widgets:Selection.Combo_Box.Selected" : [
-	"Selectionné",
-	"Retourne ce que l'utilisateur a sélectionné. Les valeurs sont retournées séparées par une virgule lors d'une sélection multiple. L'utilisateur peut aussi associer des valeurs à ce champ et celles-ci seront affichées comme étant sélectionnées. Cependant, si l'utilisateur clique sur une nouvelle sélection, la nouvelle valeur apparaîtra dans cette propriété. Pour associer plusieurs valeurs, celles-ci doivent être séparées par des virgules sans espace. "
-],
-"dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected" : [
-	"Selected",
-	"<b>true:</b> L'item est sélectionné.<br><b>false:</b>L'item n'est pas sélectionné."
-],
-"dcWidgets/palette/widgets:Button.Button.Label" : [
-	"Étiquette",
-	"Définit le texte qui sera affiché dans le bouton."
-],
-"dcWidgets/palette/widgets:Button.Button.Style" : [
-	"Style",
-	"<b>Primaire:</b> Bouton bleu avec texte blanc.<br><br><b>Secondaire:</b> Bouton blanc avec texte noir.<br>"
-],
-"dcWidgets/palette/widgets:Button.Button.Enabled" : [
-	"Activé",
-	"Indique si le bouton est activé ou désactivé.<br><br><b>true:</b> Le bouton est activé.<b>false:</b> Le bouton est désactivé. Le bouton sera grisé et il sera impossible de cliquer dessus.<br>"
-],
-"dcWidgets/palette/widgets.On_Click" : [
-	"On Click",
-	"Exécute une action lorsque la souris est utilisée pour cliquer sur le symbole."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Path" : [
-	"Chemin",
-	"Le chemin de l'image."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Style" : [
-	"Style",
-	"<b>Primaire:</b> Bouton bleu avec texte blanc.<br><b>Secondaire:</b> Bouton blanc avec texte noir."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Enabled" : [
-	"Activé",
-	"Indique si le bouton est activé ou désactivé.<br><br><b>true:</b> Le bouton est activé.<b>false:</b> Le bouton est désactivé. Le bouton sera grisé et il sera impossible de cliquer dessus.<br>"
-],
-"dcWidgets/palette/widgets:Navigation.Top.Data" : [
-	"Données",
-	"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 2 colonnes: “label” (étiquette) et “path” (chemin). Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet."
-],
-"dcWidgets/palette/widgets.Default" : [
-	"Défaut",
-	"Indique l'index de l'onglet qui sera sélectionné par défaut. Si vous ne voulez pas qu'un onglet soit sélectionné lors du chargement, cliquez à droite sur le point bleu à droite de cette propriété et sélectionnez Réinitialiser pour spécifier la valeur null."
-],
-"dcWidgets/palette/widgets.Selected" : [
-	"Selectionné",
-	"L'index de l'onglet sélectionné."
-],
-"dcWidgets/palette/widgets.Path" : [
-	"Chemin",
-	"Le chemin associé à l'onglet sélectionné. Cette propriété est souvent utilisée avec “page include” pour spécifier la navigation de la page."
-],
-"dcWidgets/palette/widgets.Logo" : [
-	"Logo",
-	"Définit le chemin de l'image du logo."
-],
-"dcWidgets/palette/widgets.Logo_Padding" : [
-	"Remplissage logo",
-	"Spécifie le remplissage autour du logo."
-],
-"dcWidgets/palette/widgets.Enabled" : [
-	"Activé",
-	"<b>true:</b> L'en-tête est affiché.<br><b>false:</b> L'en-tête est caché."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Default" : [
-	"Onglet par défaut",
-	"Indiquez l'index de l'onglet qui sera sélectionné par défaut. If you want no tab to be initially selected on load, Si vous ne voulez pas qu'un onglet soit sélectionné lors du chargement, cliquez à droite sur le point bleu à droite de cette propriété et sélectionnez Réinitialiser pour spécifier la valeur null."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Selected" : [
-	"Onglet sélectionné",
-	"L'index de l'onglet sélectionné."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Data" : [
-	"Données",
-	"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 2 colonnes: “label” (étiquette) et “path” (chemin). Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet."
-],
-"dcWidgets/palette/widgets.Data" : [
-	"Données",
-	"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 4 colonnes, \"parent\", “label” (étiquette), “path.” (chemin) et \"icons.\" (icônes) Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source.<br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet.<br><b>icons:</b> Spécifiez the chemin de l'imgae que vous voulez afficher sous l'étiquette. Laissez cette cellule vide si vous ne voulez pas d'image.<br>"
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Selected" : [
-	"Selectionné",
-	"<b>true:</b> L'item est sélectionné.<br><b>false:</b>L'item n'est pas sélectionné."
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Style" : [
-	"Style de la sélection",
-	"<b>Boîte:</b> Le point de sélection sera un carré.<br><b>Circle:</b> Le point de sélection sera un cercle."
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Enabled" : [
-	"Activé",
-	"<b>true:</b>L'item de la sélection est activé.<b>false:</b> L'item de la sélection est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
-],
-"dcWidgets/palette/widgets.Min" : [
-	"Min",
-	"Indique la valeur minimale."
-],
-"dcWidgets/palette/widgets.Max" : [
-	"Max",
-	"Indique la valeur maximale."
-],
-"dcWidgets/palette/widgets.Value" : [
-	"Valeur",
-	"La valeur actuelle."
-],
-"dcWidgets/palette/widgets.Unit" : [
-	"Unité",
-	"<b>true:</b> Affiche les unités à droite de la valeur.<br><b>false:</b> N'affiche pas les unités à droite de la valeur."
-],
-"dcWidgets/palette/widgets.Left" : [
-	"Étiquette gauche",
-	"Le texte sera affiché à gauche."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Middle" : [
-	"Étiquette centre",
-	"Le texte sera affiché au centre."
-],
-"dcWidgets/palette/widgets.Right" : [
-	"Étiquette droite",
-	"Le texte sera affiché à droite."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Default" : [
-	"Défaut",
-	"Définit la position initiale par défaut de la bascule lors du chargement. La valeur peut se situer entre 0 et 2."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Selected" : [
-	"Selectionné",
-	"L'index de l'item sélectionné."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Label" : [
-	"Étiquette",
-	"Retourne la valeur dans la bascule sélectionnée."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Orientation" : [
-	"Orientation",
-	"Indique si la condition true est à gauche ou à droite.<br><br><b>Gauche:</b> Le rond de la bascule est à gauche lorsque la condition est à true.<br><b>On Droite:</b> Le rond de la bascule est à droite lorsque la condition est à true."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Enabled" : [
-	"Activé",
-	"Désactive la bascule. <br><br><b>true:</b> La bascule est activée. <br><b>false:</b> La bascule est désactivée. Elle sera grisée et il sera impossible de cliquer dessus."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Value" : [
-	"Valeur",
-	"Représente l'état de la bascule. Lorsque l'utilisateur clique dessus, son état devient true ou false. La valeur de la bascule peut donc être utilisée pour gérer un comportement ou une action. Par contre, si vous voulez que la bascule soit automatisée par un autre processus, associez le processus à cette valeur. "
-],
-"dcWidgets/palette/widgets:Weather.Postal_Code" : [
-	"Code postal",
-	"Indique le code postal de la localisation pour le service de météo. Si aucun code de pays n'est spécifié, le code pour les États-Unis sera utilisé par défaut. Si le pays n'est pas les États-Unis, vous devez donc spécifier le code du pays en question."
-],
-"dcWidgets/palette/widgets:Weather.Units" : [
-	"Unités",
-	"Indique les unités d'affichage pour les données météo."
-],
-"dcWidgets/palette/widgets:Weather.City" : [
-	"Ville",
-	"Indique la ville de la localisation pour le service de météo. Vous devez également spécifier un code de pays. <br><br>S'il y a plus d'une ville avec le même nom dans le pays, le widget ne pourra pas déterminer quelle ville doit être utilisée. Dans ce cas, la Latitude / Longitude ou le Code posta sont des méthodes plus précises pour spécifier la localisation désirée."
-],
-"dcWidgets/palette/widgets:Weather.Latitude" : [
-	"Latitude",
-	"Indique la lalitude de la localisation pour le service de météo. Cette valeur devrait être entre -90 et 90. Par souci de précision, assurez-vous de spécifier les 6 décimales de la valeur. La valeur affichée dans le panneau des propriétés est arrondie, mais toutes les décimales seront affichées lorsque vous cliquez dans le champ."
-],
-"dcWidgets/palette/widgets:Weather.Longitude" : [
-	"Longitude",
-	"Indique la longitude de la localisation pour le service de météo. Cette valeur devrait être entre -180 et 180. Par souci de précision, assurez-vous de spécifier les 6 décimales de la valeur. La valeur affichée dans le panneau des propriétés est arrondie, mais toutes les décimales seront affichées lorsque vous cliquez dans le champ."
-],
-"dcWidgets/palette/widgets:Weather.State" : [
-	"État",
-	"Code d'état pour les États-Unis seulement. Si vous êtes dans un autre pays, sélectionnez Sans objet. Vous devez également spécifier un code de pays."
-],
-"dcWidgets/palette/widgets:Weather.Mode" : [
-	"Mode",
-	"Indique la méthode d'interrogation l'API du service de météo pour déterminer la localisation qui sera affichée dans le gadget de météo.<br><br><b>Code postal: </b> La localisation sera déterminée par le code postal.<br><b>Latitude / Longitude: </b> La localisation sera déterminée par la latitude et la longitude.<br><b>Localisation: </b> La localisation sera déterminée par le pays et la ville."
-],
-"dcWidgets/palette/widgets:Weather.Country" : [
-	"Pays",
-	"Le code ISO 3166 Alpha 2. Veuillez vous référer au lien suivant pour la liste complète des codes de pays. Veuillez noter que vous ne pouvez pas cliquer sur le lien; vous devez le copier-coller dans une nouvelle fenêtre de navigateur.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
-],
-"dcWidgets/palette/widgets:Weather.API_Key" : [
-	"Clé API",
-	"La nouvelle clé API pour Openweather.org."
-],
-"dcWidgets/palette/widgets:Weather.Set_API_Key" : [
-	"Définir la nouvelle clé API",
-	"Définit la nouvelle clé API pour Opeanweather.org."
-],
-"dcWidgets/palette/widgets:Weather.Country1" : [
-	"Pays",
-	"Le code ISO 3166 Alpha 2. Veuillez vous référer au lien suivant pour la liste complète des codes de pays. Veuillez noter que vous ne pouvez pas cliquer sur le lien; vous devez le copier-coller dans une nouvelle fenêtre de navigateur.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
-],
-"dcWidgets/palette/widgets.Language" : [
-	"Langue",
-	"Définit la langue Sets language d'affichage pour le gadget météo. <br><br><b>en:</b> Anglais<br><b>fr:</b> Français"
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Selected_Row" : [
-	"Ranfée sélectionnée",
-	"La rangée sélectionnée par la navigation."
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Auto_Close_Time" : [
-	"Temps de fermeture automatique",
-	"Le temps, en secondes, qui s'écoulera avant la fermeture du sous-menu après qu'une sélection ait été faite."
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Data" : [
-	"Data",
-	"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 4 colonnes, \"parent\", “label” (étiquette), “path.” (chemin) et \"icons.\" (icônes) Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source.<br><br><b>parent:</b> Indique s'il y a un noeud parent. Si vous voulez que l'item de menu soit dans le menu racine, laissez cette cellule vide. Toutes les rangées avec le même parent seront regroupées dans un sous-menu. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet.<br><b>icons:</b> Spécifiez the chemin de l'imgae que vous voulez afficher sous l'étiquette. Laissez cette cellule vide si vous ne voulez pas d'image.<br>"
-],
-"dcWidgets/palette/widgets:Image.Image.Dark_Theme" : [
-	"Thème sombre",
-	"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
-],
-"dcWidgets/palette/widgets:Image.Image.Path" : [
-	"Chemin",
-	"Le chemin de l'image."
-],
-"dcWidgets/palette/widgets:Image.Building.Image_Scaling" : [
-	"Mise à l'échelle de l'image",
-	"<b>Contain: </b>L'image est mise à l'échelle tout en conservant son rapport de forme. Une portion du conteur peut être vide.<br> <b>Cover: </b>L'image est mise à l'échelle pour remplir le conteneur tout en conservant son rapport de forme. Les portions de l'image qui dépassent du conteneur sont coupées.<br><b>Stretch: </b>L'image est étirée pour remplir le conteneur. Le rapport de forme de l'image n'est pas conservé."
-],
-"dcWidgets/palette/widgets.Image_Path" : [
-	"Chemin de l'image",
-	"Le chemin d'accès de l'image."
-],
-"dcWidgets/palette/widgets:Floorplan.Title" : [
-	"Titre",
-	"Définit le nom d'affichage de cette série."
-],
-"dcWidgets/palette/widgets:Floorplan.Dark_Mode" : [
-	"Thème sombre",
-	"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
-],
-"dcWidgets/palette/widgets:Floorplan.Menu" : [
-	"Menu",
-	"Affiche ou cache les trois points verticaux pour ouvrir le menu.<br><br><b>true:</b> Les points de menu sont affichés.<br><b>false:</b> Les points de menu sont cachés."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Value" : [
-	"Valeur",
-	"Définit la valeur du marqueur. Vous pouvez associer la valeur à un point de donnée à partir de l'onglet Données. Cette valeur sera affichée avec une police plus petite sur la 3e ligne de l'info-bulle. Elle sera également utilisée pour calculer la couleur de gradient selon les valeurs maximales et minimales."
-],
-"dcWidgets/palette/widgets.Min_Value" : [
-	"Valeur min",
-	"Définit la valeur minimale."
-],
-"dcWidgets/palette/widgets.Max_Value" : [
-	"Valeur max",
-	"Définit la valeur maximale."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Short_Label" : [
-	"Étiquette court",
-	"Définit l'étiquette court. Il sera affiché avec une police plus grande sur la 1re ligne de l'info-bulle; il devrait donc être une version courte de l'étiquette long ou un code de référence rapide."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Long_Label" : [
-	"Étiquette long",
-	"Définit l'étiquette long. Il sera affiché avec une police plus petite sur la 2e ligne de l'info-bulle."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Small_Size_Display" : [
-	"Affichage de petite taille",
-	"Indique le texte qui sera affiché sur le marqueur. <br><br><b>Court:</b> Le texte spécifié pour la propriété Étiquette court. <br><b>Long:</b> Le texte spécifié pour la propriété Étiquette long.<br><b>Valeur:</b> Le texte spécifié pour la propriété Veleur."
-],
-"dcWidgets/palette/widgets.Min_Color" : [
-	"Couleur min",
-	"Définit la couleur qui représentera la portion la plus froide du gradient de couleur. Le gradient deviendra blanc au point médian."
-],
-"dcWidgets/palette/widgets.Max_Color" : [
-	"Couleur max",
-	"Définit la couleur qui représentera la portion la plus chaude du gradient de couleur. Le gradient deviendra blanc au point médian."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Shadow" : [
-	"Ombrage",
-	"<b>true:</b> Un ombrage est affiché.<br><b>false:</b>Aucun ombrage n'est affiché."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Precision" : [
-	"Précision",
-	"Le nombre de décimales qui seront affichées pour les infobulles et les étiquettes."
-],
-"dcWidgets/palette/widgets:Selection.Dropdown.Selected" : [
-	"Sélectionné",
-	"Chaque item que l'utilisateur sélectionne sera ajouté dans une liste séparée par des virgules."
-],
-"dcWidgets/palette/widgets:Selection.Dropdown.Close" : [
-	"Fermer",
-	"Invoque l'action en interne. L'utilisateur peut commencer une association à partir de cette action pour déclencher un autre évnement après la fermeture de la liste déroulante."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Value_Out" : [
-	"Valeur sortie",
-	"La valeur actuelle du bouton de défilement. Cette valeur est en lecture seule."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Min" : [
-	"Min",
-	"Définit la valeur minimale du bouton de défilement."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Max" : [
-	"Max",
-	"Définit la valeur maximale du bouton de défilement."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Show_Value" : [
-	"Montrer la valeur",
-	"Indique quand une représentation numérique de la valeur actuelle est montrée.<br><br><b>Toujours:</b> La valeur est toujours affichée.<br><b>En mouvement:</b> La valeur est affichée pendant que le bouton de défilement est en mouvement.<br><b>Jamais:</b> La valeur n'est jamais affichée."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Enabled" : [
-	"Activé",
-	"<b>true:</b> Le bouton de défilement est activé.<b>false:</b> Le bouton de défilement est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
-],
-"dcWidgets/palette/widgets:Slider.Slider.Enabled1" : [
-	"Activé",
-	"<b>true:</b> Le bouton de défilement se déplacera selon un intervalle définit par l'utilisateur plutôt que selon un intervalle de 1.<br><false:</b> Le bouton de défilement se déplacera selon un interval déterminé par l'écart entre les valeurs maximale et minimale."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Interval" : [
-	"Interval",
-	"Si les étapes sont activées, définit l'interval de mouvement du bouton de défilement. Si les étapes de sont pas activées, l'interval sera déterminé par l'écart entre les valeurs maximale et minimale. Si cet écart est inférieur à 10, l'intervalle sera en dixièmes. Si l'écart est supérieur à 10, l'interval sera de 1."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Track_Start" : [
-	"Valeur d'origne",
-	"Place un point d'oringe à cet endroit. Si vous voulez définir un bouton de défilement standard, spécifiez une valeur d'origine égale à la valeur minimale. Si la valeur d'origine est différente de la valeur minimale, le bouton de défilement se déplacera à partir du point d'origine."
-],
-"dcWidgets/palette/widgets.Show_Header" : [
-	"Afficher l'entête",
-	"<b>true:</b> L'en-tête est affiché.<br><b>false:</b> L'en-tête n'est pas affiché."
-],
-"dcWidgets/palette/widgets.Step" : [
-	"Saut",
-	"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
-],
-"dcWidgets/palette/widgets.Step1" : [
-	"Saut",
-	"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
-],
-"dcWidgets/palette/widgets.Line_Mode" : [
-	"Mode de ligne",
-	"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
-],
-"dcWidgets/palette/widgets.Line_Mode1" : [
-	"Mode de ligne",
-	"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
-],
-"dcWidgets/palette/widgets.Placement" : [
-	"Position",
-	"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
-],
-"dcWidgets/palette/widgets.Placement1" : [
-	"Position",
-	"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
-],
-"dcWidgets/palette/widgets.Markers" : [
-	"Marqueurs",
-	"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
-],
-"dcWidgets/palette/widgets.Markers1" : [
-	"Marqueurs",
-	"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
-],
-"dcWidgets/palette/widgets.Interval_Unit" : [
-	"Intervalle des unités",
-	"Définit les unités pour l'axe de date et heure. La valeur Auto signifie que les unités sont déterminées automatiquement selon les données qui composent le graphe."
-],
-"dcWidgets/palette/widgets.Update_Interval" : [
-	"Interval de mise à jour",
-	"Indique la fréquence à laquelle l'historique est rafraîchi, en secondes. Si la valeur est 0, l'historique est rafraîchi selon l'autoLoad."
-],
-"dcWidgets/palette/widgets.Default_Label2" : [
-	"Étiquette par défaut",
-	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
-],
-"dcWidgets/palette/widgets.Default_Label3" : [
-	"Étiquette par défaut",
-	"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
-],
-"dcWidgets/palette/widgets.MinY1" : [
-	"Min",
-	"Indique la limite minimale de l'axe."
-],
-"dcWidgets/palette/widgets.MinY2" : [
-	"Min",
-	"Indique la limite minimale de l'axe."
-],
-"dcWidgets/palette/widgets.MaxY1" : [
-	"Max",
-	"Indique la limite maximale de l'axe."
-],
-"dcWidgets/palette/widgets.MaxY2" : [
-	"Max",
-	"Indique la limite maximale de l'axe."
-],
-"dcWidgets/palette/widgets.UnitY1" : [
-	"Unité",
-	"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
-],
-"dcWidgets/palette/widgets.UnitY2" : [
-	"Unit",
-	"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
-],
-"dcWidgets/palette/widgets.Axis" : [
-	"Axe",
-	"Le chemin sera associé à l'axe secondaire ou primaire."
-],
-"dcWidgets/palette/widgets.Color" : [
-	"Couleur",
-	"La couleur de l'étiquette et de la donnée."
-],
-"dcWidgets/palette/widgets.Bar_Name" : [
-	"Nom de barre",
-	"L'étiquette qui sera affiché sur l'axe Y et qui regroupera tous les points dans cette barre. Assurez-vous que tous les chemins qui devraient apparaître dans une barre aient exactement le même nom de barre."
-],
-"dcWidgets/palette/widgets.Group" : [
-	"Groupe",
-	"Définit le nom du groupe qui est utilisé pour identifier les valeurs similaires dans chaque barre. Tous les items du groupe auront la même couleur afin de les rendre facile à identifier dans le diagramme à barres. Le nom du groupe sera aussi affiché comme étiquette en haut du diagramme."
-],
-"dcWidgets/palette/widgets.Group_Color" : [
-	"Couleur du groupe",
-	"La couleur du groupe. Si la valeur est null, une couleur de la palette d'ENVYSION sera sélectionnée automatiquement."
-],
-"dcWidgets/palette/widgets.Curve_Input" : [
-	"Entrée de remise à zéro",
-	"Glissez et déposez le chemin qui sera le point X du point Live."
-],
-"dcWidgets/palette/widgets.Curve_Output" : [
-	"Sortie de remise à zéro",
-	"Glissez et déposez le chemin qui sera le point Y du point Live."
-],
-"dcWidgets/palette/widgets.Curve_Color" : [
-	"Couleur de la courbe",
-	"Définit la couleur de la courbe de chaleur et des marqueurs."
-],
-"dcWidgets/palette/widgets.Live_Point_Color" : [
-	"Couleur live",
-	"Définit la couleur du point live."
-],
-"dcWidgets/palette/widgets.Show_Unit" : [
-	"Afficher l'unité",
-	"<b>true:</b> L'unité est affichée.<br><b>false:</b> L'unité n'est pas affichée."
-],
-"dcWidgets/palette/widgets.Points" : [
-	"Points",
-	"Définit le chemin pour le point Y. Glissez et déposez le chemin à partir de l'arbre de données pour ouvrir la fenêtre d'association. Vous pouvez aussi glisser et déposer le bouton du chemin sur le symbole + ci-dessous pour ouvrir la fenêtre d'association. Pour modifier les sous-propriétés des chemins ajoutés, cliquez sur l'icone du crayon. Pour supprimer un chemin, cliquez sur le symbole '-'."
-],
-"dcWidgets/palette/widgets.Xpath" : [
-	"Chemin X",
-	"Définit le chemin pour le point X."
-],
-"dcWidgets/palette/widgets.MinX" : [
-	"Min",
-	"Définit la limite minimale pour l'axe."
-],
-"dcWidgets/palette/widgets.MaxX" : [
-	"Max",
-	"Définit la limite maximale pour l'axe."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Value_In" : [
-	"Valeur entrée",
-	"Associez une valeur dans ce champ pour que le bouton de défilement s'ajuste à celle-ci. Lorsque l'utilisateur bouge le bouton de défilement, la valeur affichée sera celle que l'utilisateur a définie.Cependant, si la valeur associée au bouton de défilement change, le bouton se placera automatiquement à cette valeur."
-]
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Default": [
+		"Défaut",
+		"Définit la position initiale par défaut de la bascule lors du chargement. La valeur peut se situer entre 0 et 2."
+	],
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Selected": [
+		"Selectionné",
+		"L'index de l'item sélectionné."
+	],
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Label": [
+		"Étiquette",
+		"Retourne la valeur dans la bascule sélectionnée."
+	],
+	"dcWidgets/palette/widgets.Accent_Color": [
+		"Couleur d'accent",
+		"Définit la couleur du marqueur d'accent et des points de menu."
+	],
+	"dcWidgets/palette/widgets.Time_Range": [
+		"Intervalle de temps",
+		"Définit l'intervalle de temps de cette série."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type_L": [
+		"Type de graphe",
+		"Indique comment les données de la série sont visuellement représentées.<br><br><br><b>Série de lignes</b> - Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><br><b>Série de zones</b> - Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><br><b>Série de colonnes</b> - Des colonnes représentent les points de donnée."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode_L": [
+		"Mode de la série",
+		"Indique comment les valeurs des données sont représentées.<br><br><br><b>En cluster</b> - Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><br><b>Superposés</b> - Compare les valeurs des données en les superposant.<br><br><b>Empilés</b> - Montre comment les valeurs des données contribuent au total.<br><br><b>100%</b> - Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis": [
+		"Activé",
+		"<b>true</b> - La série et l'axe gauche sont affichés.<br><b>false</b> - La série et l'axe gauche sont cachés."
+	],
+	"dcWidgets/palette/widgets.Dark_Theme": [
+		"Thème sombre",
+		"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
+	],
+	"dcWidgets/palette/widgets.Header": [
+		"En-tête",
+		"Spécifie le texte de l'en-tête."
+	],
+	"dcWidgets/palette/widgets.Axis_Label": [
+		"Étiquette de l'axe",
+		"Spécifie l'étiquette de l'axe y."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled": [
+		"Activé",
+		"<b>true</b> - La série et l'axe sont affichés.<br><b>false</b> - La série et l'axe sont cachés."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type": [
+		"Type de graphe",
+		"Indique comment les données de la série sont visuellement représentées.<br><br><b>Série de lignes</b> Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><b>Série de zones</b> Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><b>Série de colonnes</b> Des colonnes représentent les points de donnée."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode": [
+		"Mode de la série",
+		"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
+	],
+	"dcWidgets/palette/widgets.Rollup": [
+		"Cumul",
+		"Indique le type de cumul utilisé. La valeur du cumul peut être l'une des suivantes:<br><br><b>Moy:</b> La moyenne de toutes les valeurs numériques pour l'intervalle<br><b>Min:</b> La valeur numérique la plus petite pour l'intervalle<br><b>Max:</b> La valeur numérique la plus grande pour l'intervalle<br><b>Somme:</b> La sommes de toutes les valeurs numériques pour l'intervalle<br><b>Première:</b> La première valeur pour l'intervalle<br><b>Dernière:</b> La dernière valeur pour l'intervalle<br><b>Total:</b> Le décompte total de valeurs non-nulles pour l'interval"
+	],
+	"dcWidgets/palette/widgets.Missing_Value": [
+		"Valeur manquante",
+		"Indique la valeur à afficher lorsqu'une donnée est manquante. La valeur de la propriété missingValue peut être l'une des suivantes:<br><br><b>Nulle:</b> Une valeur nulle<br><b>Utilisation du précédent:</b> La valeur du timestamp précédent<br><b>Utilisation du suivant:</b> La valeur du timestamp suivant<br><b>Interpoler:</b>La moyenne des valeurs des timestamps précédant et suivant<br><b>Zéro:</b>Zéro"
+	],
+	"dcWidgets/palette/widgets.Delta": [
+		"Delta",
+		"Spécifie ce qui se retrouve dans les colonnes d'historique des valeurs du tableau de sortie.<br><br><b>Aucun:</b> La valeur à un temps donné <br><b>Avec le précédent:</b> La différence entre les valeurs dans cette randée et celles dans la rangée précédente<br><b>Avec le prochain:</b> La différence entre les valeurs dans cette randée et celles dans la rangée suivante"
+	],
+	"dcWidgets/palette/widgets.Output_Table": [
+		"Table de sortie",
+		"Affiche le tableau qui contient les données qui sont représentées dans le graphe."
+	],
+	"dcWidgets/palette/widgets.Show_Menu": [
+		"Monrer le menu",
+		"Affiche ou cache les trois points verticaux pour ouvrir le menu.<br><br><b>true:</b> Les points de menu sont affichés.<br><b>false:</b> Les points de menu sont cachés."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled1": [
+		"Activé",
+		"<b>true</b> - La série et l'axe sont affichés.<br><b>false</b> - La série et l'axe sont cachés."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type1": [
+		"Type de graphe",
+		"Indique comment les données de la série sont visuellement représentées. <br><br><b>Série de lignes:</b> Des marqueurs représentent les points donnée. Des lignes connectent les marqueurs.<br><b>Série de zones:</b> Des marqueurs représentent les points de donnée. Des lignes connectent les marqueurs, et la zone délimitée par les lignes est remplie.<br><b>Série de colonnes:</b> Des colonnes représentent les points de donnée."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode1": [
+		"Mode de la série",
+		"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Rollup1": [
+		"Cumul",
+		"Indique le type de cumul utilisé. La valeur du cumul peut être l'une des suivantes:<br><br><b>Moy:</b> La moyenne de toutes les valeurs numériques pour l'intervalle<br><b>Min:</b> La valeur numérique la plus petite pour l'intervalle<br><b>Max:</b> La valeur numérique la plus grande pour l'intervalle<br><b>Somme:</b> La sommes de toutes les valeurs numériques pour l'intervalle<br><b>Première:</b> La première valeur pour l'intervalle<br><b>Dernière:</b> La dernière valeur pour l'intervalle<br><b>Total:</b> Le décompte total de valeurs non-nulles pour l'interval"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Missing_Value1": [
+		"Valeur manquante",
+		"Indique la valeur à afficher lorsqu'une donnée est manquante. La valeur de la propriété missingValue peut être l'une des suivantes:<br><br><b>Nulle:</b> Une valeur nulle<br><b>Utilisation du précédent:</b> La valeur du timestamp précédent<br><b>Utilisation du suivant:</b> La valeur du timestamp suivant<br><b>Interpoler:</b>La moyenne des valeurs des timestamps précédant et suivant<br><b>Zéro:</b>Zéro"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Delta1": [
+		"Delta",
+		"Spécifie ce qui se retrouve dans les colonnes d'historique des valeurs du tableau de sortie.<br><br><b>Aucun:</b> La valeur à un temps donné <br><b>Avec le précédent:</b> La différence entre les valeurs dans cette randée et celles dans la rangée précédente<br><b>Avec le prochain:</b> La différence entre les valeurs dans cette randée et celles dans la rangée suivante"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Output_Table1": [
+		"Table de sortie",
+		"Affiche le tableau qui contient les données qui sont représentées dans le graphe."
+	],
+	"dcWidgets/palette/widgets.Data_Interval": [
+		"Intervalle",
+		"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Data_Interval1": [
+		"Intervalle",
+		"Spécifie l'intervalle de dates ou de temps entre chaque paire consécutive de points de donnée."
+	],
+	"dcWidgets/palette/widgets.Mode": [
+		"Mode",
+		"Indique si les données retournées sont en direct ou historiques.<br><br>Indique si les données affichées sont en direct ou historiques.<br><br><b>En direct:</b> Les chemins vont retourner des données en direct.<br><b>Historique:</b> Les chemins vont retourner des données historiques. Agrandissez la section Historique pour indiquer comment les données seront retournées."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Precision": [
+		"Précision",
+		"Le nombre de décimales qui seront affichées pour les infobulles et les étiquettes."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Legend": [
+		"Montrer la légende",
+		"<b>true:</b> Montre la légende dans le haut de la zone du graphe.<br><b>false:</b> Ne montre pas la légende en haut du diagramme."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Labels": [
+		"Montrer les étiquettes",
+		"<b>true:</b> Montre les étiquettes autour du diagramme à secteurs.<br><b>false:</b> ne montre pas les étiquettes autour du diagramme à secteurs."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Datatip": [
+		"Montrer les infobulles",
+		"<b>true:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur seront affichées.<br><b>false:</b> Lorsque vous pointez la souris sur un secteur du diagramme, les données à propos du secteur ne seront pas affichées."
+	],
+	"dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode": [
+		"Mode d'agrégation",
+		"Spécifie le type de valeur à retourner. La valeur de la propriété peut être l'une des suivantes:<br><br><b>Premier: </b> Retourne la première valeur dans la colonne. <br><b>Dernier: </b> Retourne la dernière valeur dans la colonne. <br><b>Moyenne: </b> Retourne la moyenne de toutes les valeurs numériques dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Somme: </b> Retourne la somme de toutes les valeurs numériques dans la colonne. S'il n'y a pas de valeur numérique, retourne 0. <br><b>Max: </b> Retourne la valeur numérique la plus élevée dans la colonne. S'il n'y a pas de valeur numérique, retourne une valeur nulle. <br><b>Min: </b> Retourne la valeur numérique la moins élevée dans la colonne. Les valeurs non numériques sont traitées comme des valeurs nulles et ne sont pas incluses dans le calcul. <br><b>Total: </b> Retourne le nombre total de valeurs dans la colonne. Les valeurs nulles ne sont pas considérées."
+	],
+	"dcWidgets/palette/widgets:Chart.Bar.Series_Mode1": [
+		"Mode de la série",
+		"Indique comment les valeurs des données sont représentées.<br><br><b>En cluster:</b> Compare les valeurs des données côte à côte. Ceci s'applique seulement aux séries de colonnes.<br><b>Superposés:</b> Compare les valeurs des données en les superposant.<br><b>Empilés</b> Montre comment les valeurs des données contribuent au total.<br><b>100%:</b> Additionne toutes les données et ramène la somme sur un ratio de 100%, de façon à ce que chaque ensemble de données représente une proportion relative de 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius": [
+		"Rayon de marqueur",
+		"Spécifie le rayon des marqueurs en pixels."
+	],
+	"dcWidgets/palette/widgets.Options": [
+		"Options",
+		"Une liste séparée par des virgules qui sera convertie pour afficher chaque item qui apparaîtra dans la liste déroulante. Le nombre d'entrées dans la liste séparée par des virgules déterminera le nombre d'items qui apparaîtront dans la liste déroulante. "
+	],
+	"dcWidgets/palette/widgets.Label": [
+		"Étiquette",
+		"Le texte affiché."
+	],
+	"dcWidgets/palette/widgets:Selection.Combo_Box.Selected": [
+		"Selectionné",
+		"Retourne ce que l'utilisateur a sélectionné. Les valeurs sont retournées séparées par une virgule lors d'une sélection multiple. L'utilisateur peut aussi associer des valeurs à ce champ et celles-ci seront affichées comme étant sélectionnées. Cependant, si l'utilisateur clique sur une nouvelle sélection, la nouvelle valeur apparaîtra dans cette propriété. Pour associer plusieurs valeurs, celles-ci doivent être séparées par des virgules sans espace. "
+	],
+	"dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected": [
+		"Selected",
+		"<b>true:</b> L'item est sélectionné.<br><b>false:</b>L'item n'est pas sélectionné."
+	],
+	"dcWidgets/palette/widgets:Button.Button.Label": [
+		"Étiquette",
+		"Définit le texte qui sera affiché dans le bouton."
+	],
+	"dcWidgets/palette/widgets:Button.Button.Style": [
+		"Style",
+		"<b>Primaire:</b> Bouton bleu avec texte blanc.<br><br><b>Secondaire:</b> Bouton blanc avec texte noir.<br>"
+	],
+	"dcWidgets/palette/widgets:Button.Button.Enabled": [
+		"Activé",
+		"Indique si le bouton est activé ou désactivé.<br><br><b>true:</b> Le bouton est activé.<b>false:</b> Le bouton est désactivé. Le bouton sera grisé et il sera impossible de cliquer dessus.<br>"
+	],
+	"dcWidgets/palette/widgets.On_Click": [
+		"On Click",
+		"Exécute une action lorsque la souris est utilisée pour cliquer sur le symbole."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Path": [
+		"Chemin",
+		"Le chemin de l'image."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Style": [
+		"Style",
+		"<b>Primaire:</b> Bouton bleu avec texte blanc.<br><b>Secondaire:</b> Bouton blanc avec texte noir."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Enabled": [
+		"Activé",
+		"Indique si le bouton est activé ou désactivé.<br><br><b>true:</b> Le bouton est activé.<b>false:</b> Le bouton est désactivé. Le bouton sera grisé et il sera impossible de cliquer dessus.<br>"
+	],
+	"dcWidgets/palette/widgets:Navigation.Top.Data": [
+		"Données",
+		"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 2 colonnes: “label” (étiquette) et “path” (chemin). Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet."
+	],
+	"dcWidgets/palette/widgets.Default": [
+		"Défaut",
+		"Indique l'index de l'onglet qui sera sélectionné par défaut. Si vous ne voulez pas qu'un onglet soit sélectionné lors du chargement, cliquez à droite sur le point bleu à droite de cette propriété et sélectionnez Réinitialiser pour spécifier la valeur null."
+	],
+	"dcWidgets/palette/widgets.Selected": [
+		"Selectionné",
+		"L'index de l'onglet sélectionné."
+	],
+	"dcWidgets/palette/widgets.Path": [
+		"Chemin",
+		"Le chemin associé à l'onglet sélectionné. Cette propriété est souvent utilisée avec “page include” pour spécifier la navigation de la page."
+	],
+	"dcWidgets/palette/widgets.Logo": [
+		"Logo",
+		"Définit le chemin de l'image du logo."
+	],
+	"dcWidgets/palette/widgets.Logo_Padding": [
+		"Remplissage logo",
+		"Spécifie le remplissage autour du logo."
+	],
+	"dcWidgets/palette/widgets.Enabled": [
+		"Activé",
+		"<b>true:</b> L'en-tête est affiché.<br><b>false:</b> L'en-tête est caché."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Default": [
+		"Onglet par défaut",
+		"Indiquez l'index de l'onglet qui sera sélectionné par défaut. If you want no tab to be initially selected on load, Si vous ne voulez pas qu'un onglet soit sélectionné lors du chargement, cliquez à droite sur le point bleu à droite de cette propriété et sélectionnez Réinitialiser pour spécifier la valeur null."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Selected": [
+		"Onglet sélectionné",
+		"L'index de l'onglet sélectionné."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Data": [
+		"Données",
+		"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 2 colonnes: “label” (étiquette) et “path” (chemin). Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet."
+	],
+	"dcWidgets/palette/widgets.Data": [
+		"Données",
+		"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 4 colonnes, \"parent\", “label” (étiquette), “path.” (chemin) et \"icons.\" (icônes) Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source.<br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet.<br><b>icons:</b> Spécifiez the chemin de l'imgae que vous voulez afficher sous l'étiquette. Laissez cette cellule vide si vous ne voulez pas d'image.<br>"
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Selected": [
+		"Selectionné",
+		"<b>true:</b> L'item est sélectionné.<br><b>false:</b>L'item n'est pas sélectionné."
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Style": [
+		"Style de la sélection",
+		"<b>Boîte:</b> Le point de sélection sera un carré.<br><b>Circle:</b> Le point de sélection sera un cercle."
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Enabled": [
+		"Activé",
+		"<b>true:</b>L'item de la sélection est activé.<b>false:</b> L'item de la sélection est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
+	],
+	"dcWidgets/palette/widgets.Min": [
+		"Min",
+		"Indique la valeur minimale."
+	],
+	"dcWidgets/palette/widgets.Max": [
+		"Max",
+		"Indique la valeur maximale."
+	],
+	"dcWidgets/palette/widgets.Value": [
+		"Valeur",
+		"La valeur actuelle."
+	],
+	"dcWidgets/palette/widgets.Unit": [
+		"Unité",
+		"<b>true:</b> Affiche les unités à droite de la valeur.<br><b>false:</b> N'affiche pas les unités à droite de la valeur."
+	],
+	"dcWidgets/palette/widgets.Left": [
+		"Étiquette gauche",
+		"Le texte sera affiché à gauche."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Middle": [
+		"Étiquette centre",
+		"Le texte sera affiché au centre."
+	],
+	"dcWidgets/palette/widgets.Right": [
+		"Étiquette droite",
+		"Le texte sera affiché à droite."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Default": [
+		"Défaut",
+		"Définit la position initiale par défaut de la bascule lors du chargement. La valeur peut se situer entre 0 et 2."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Selected": [
+		"Selectionné",
+		"L'index de l'item sélectionné."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Label": [
+		"Étiquette",
+		"Retourne la valeur dans la bascule sélectionnée."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Orientation": [
+		"Orientation",
+		"Indique si la condition true est à gauche ou à droite.<br><br><b>Gauche:</b> Le rond de la bascule est à gauche lorsque la condition est à true.<br><b>On Droite:</b> Le rond de la bascule est à droite lorsque la condition est à true."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Enabled": [
+		"Activé",
+		"Désactive la bascule. <br><br><b>true:</b> La bascule est activée. <br><b>false:</b> La bascule est désactivée. Elle sera grisée et il sera impossible de cliquer dessus."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Value": [
+		"Valeur",
+		"Représente l'état de la bascule. Lorsque l'utilisateur clique dessus, son état devient true ou false. La valeur de la bascule peut donc être utilisée pour gérer un comportement ou une action. Par contre, si vous voulez que la bascule soit automatisée par un autre processus, associez le processus à cette valeur. "
+	],
+	"dcWidgets/palette/widgets:Weather.Postal_Code": [
+		"Code postal",
+		"Indique le code postal de la localisation pour le service de météo. Si aucun code de pays n'est spécifié, le code pour les États-Unis sera utilisé par défaut. Si le pays n'est pas les États-Unis, vous devez donc spécifier le code du pays en question."
+	],
+	"dcWidgets/palette/widgets:Weather.Units": [
+		"Unités",
+		"Indique les unités d'affichage pour les données météo."
+	],
+	"dcWidgets/palette/widgets:Weather.City": [
+		"Ville",
+		"Indique la ville de la localisation pour le service de météo. Vous devez également spécifier un code de pays. <br><br>S'il y a plus d'une ville avec le même nom dans le pays, le widget ne pourra pas déterminer quelle ville doit être utilisée. Dans ce cas, la Latitude / Longitude ou le Code posta sont des méthodes plus précises pour spécifier la localisation désirée."
+	],
+	"dcWidgets/palette/widgets:Weather.Latitude": [
+		"Latitude",
+		"Indique la lalitude de la localisation pour le service de météo. Cette valeur devrait être entre -90 et 90. Par souci de précision, assurez-vous de spécifier les 6 décimales de la valeur. La valeur affichée dans le panneau des propriétés est arrondie, mais toutes les décimales seront affichées lorsque vous cliquez dans le champ."
+	],
+	"dcWidgets/palette/widgets:Weather.Longitude": [
+		"Longitude",
+		"Indique la longitude de la localisation pour le service de météo. Cette valeur devrait être entre -180 et 180. Par souci de précision, assurez-vous de spécifier les 6 décimales de la valeur. La valeur affichée dans le panneau des propriétés est arrondie, mais toutes les décimales seront affichées lorsque vous cliquez dans le champ."
+	],
+	"dcWidgets/palette/widgets:Weather.State": [
+		"État",
+		"Code d'état pour les États-Unis seulement. Si vous êtes dans un autre pays, sélectionnez Sans objet. Vous devez également spécifier un code de pays."
+	],
+	"dcWidgets/palette/widgets:Weather.Mode": [
+		"Mode",
+		"Indique la méthode d'interrogation l'API du service de météo pour déterminer la localisation qui sera affichée dans le gadget de météo.<br><br><b>Code postal: </b> La localisation sera déterminée par le code postal.<br><b>Latitude / Longitude: </b> La localisation sera déterminée par la latitude et la longitude.<br><b>Localisation: </b> La localisation sera déterminée par le pays et la ville."
+	],
+	"dcWidgets/palette/widgets:Weather.Country": [
+		"Pays",
+		"Le code ISO 3166 Alpha 2. Veuillez vous référer au lien suivant pour la liste complète des codes de pays. Veuillez noter que vous ne pouvez pas cliquer sur le lien; vous devez le copier-coller dans une nouvelle fenêtre de navigateur.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
+	],
+	"dcWidgets/palette/widgets:Weather.API_Key": [
+		"Clé API",
+		"La nouvelle clé API pour Openweather.org."
+	],
+	"dcWidgets/palette/widgets:Weather.Set_API_Key": [
+		"Définir la nouvelle clé API",
+		"Définit la nouvelle clé API pour Opeanweather.org."
+	],
+	"dcWidgets/palette/widgets:Weather.Country1": [
+		"Pays",
+		"Le code ISO 3166 Alpha 2. Veuillez vous référer au lien suivant pour la liste complète des codes de pays. Veuillez noter que vous ne pouvez pas cliquer sur le lien; vous devez le copier-coller dans une nouvelle fenêtre de navigateur.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
+	],
+	"dcWidgets/palette/widgets.Language": [
+		"Langue",
+		"Définit la langue Sets language d'affichage pour le gadget météo. <br><br><b>en:</b> Anglais<br><b>fr:</b> Français"
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Selected_Row": [
+		"Ranfée sélectionnée",
+		"La rangée sélectionnée par la navigation."
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Auto_Close_Time": [
+		"Temps de fermeture automatique",
+		"Le temps, en secondes, qui s'écoulera avant la fermeture du sous-menu après qu'une sélection ait été faite."
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Data": [
+		"Data",
+		"Le tableau qui contient les étiquettes et les chemins qui seront affichés dans des onglets. Chaque rangée du tableau représente un onglet. Le tableau doit contenir 4 colonnes, \"parent\", “label” (étiquette), “path.” (chemin) et \"icons.\" (icônes) Il devrait avoir un échantillon de tableau dans le flux de données du symbole. Pour éditer le tableau, cliquez sur Modifiez la table source.<br><br><b>parent:</b> Indique s'il y a un noeud parent. Si vous voulez que l'item de menu soit dans le menu racine, laissez cette cellule vide. Toutes les rangées avec le même parent seront regroupées dans un sous-menu. <br><br><b>label:</b> Le texte qui apparaîtra sur l'onglet.<br><p>path:</b> Le chemin associé à l'onglet.<br><b>icons:</b> Spécifiez the chemin de l'imgae que vous voulez afficher sous l'étiquette. Laissez cette cellule vide si vous ne voulez pas d'image.<br>"
+	],
+	"dcWidgets/palette/widgets:Image.Image.Dark_Theme": [
+		"Thème sombre",
+		"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
+	],
+	"dcWidgets/palette/widgets:Image.Image.Path": [
+		"Chemin",
+		"Le chemin de l'image."
+	],
+	"dcWidgets/palette/widgets:Image.Building.Image_Scaling": [
+		"Mise à l'échelle de l'image",
+		"<b>Contain: </b>L'image est mise à l'échelle tout en conservant son rapport de forme. Une portion du conteur peut être vide.<br> <b>Cover: </b>L'image est mise à l'échelle pour remplir le conteneur tout en conservant son rapport de forme. Les portions de l'image qui dépassent du conteneur sont coupées.<br><b>Stretch: </b>L'image est étirée pour remplir le conteneur. Le rapport de forme de l'image n'est pas conservé."
+	],
+	"dcWidgets/palette/widgets.Image_Path": [
+		"Chemin de l'image",
+		"Le chemin d'accès de l'image."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Title": [
+		"Titre",
+		"Définit le nom d'affichage de cette série."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Dark_Mode": [
+		"Thème sombre",
+		"Active le thème clair ou sombre prédéfini.<br><br><b>true:</b> Active le thème sombre.<br><b>false:</b> Active le thème clair."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Menu": [
+		"Menu",
+		"Affiche ou cache les trois points verticaux pour ouvrir le menu.<br><br><b>true:</b> Les points de menu sont affichés.<br><b>false:</b> Les points de menu sont cachés."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Value": [
+		"Valeur",
+		"Définit la valeur du marqueur. Vous pouvez associer la valeur à un point de donnée à partir de l'onglet Données. Cette valeur sera affichée avec une police plus petite sur la 3e ligne de l'info-bulle. Elle sera également utilisée pour calculer la couleur de gradient selon les valeurs maximales et minimales."
+	],
+	"dcWidgets/palette/widgets.Min_Value": [
+		"Valeur min",
+		"Définit la valeur minimale."
+	],
+	"dcWidgets/palette/widgets.Max_Value": [
+		"Valeur max",
+		"Définit la valeur maximale."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Short_Label": [
+		"Étiquette court",
+		"Définit l'étiquette court. Il sera affiché avec une police plus grande sur la 1re ligne de l'info-bulle; il devrait donc être une version courte de l'étiquette long ou un code de référence rapide."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Long_Label": [
+		"Étiquette long",
+		"Définit l'étiquette long. Il sera affiché avec une police plus petite sur la 2e ligne de l'info-bulle."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Small_Size_Display": [
+		"Affichage de petite taille",
+		"Indique le texte qui sera affiché sur le marqueur. <br><br><b>Court:</b> Le texte spécifié pour la propriété Étiquette court. <br><b>Long:</b> Le texte spécifié pour la propriété Étiquette long.<br><b>Valeur:</b> Le texte spécifié pour la propriété Veleur."
+	],
+	"dcWidgets/palette/widgets.Min_Color": [
+		"Couleur min",
+		"Définit la couleur qui représentera la portion la plus froide du gradient de couleur. Le gradient deviendra blanc au point médian."
+	],
+	"dcWidgets/palette/widgets.Max_Color": [
+		"Couleur max",
+		"Définit la couleur qui représentera la portion la plus chaude du gradient de couleur. Le gradient deviendra blanc au point médian."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Shadow": [
+		"Ombrage",
+		"<b>true:</b> Un ombrage est affiché.<br><b>false:</b>Aucun ombrage n'est affiché."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Precision": [
+		"Précision",
+		"Le nombre de décimales qui seront affichées pour les infobulles et les étiquettes."
+	],
+	"dcWidgets/palette/widgets:Selection.Dropdown.Selected": [
+		"Sélectionné",
+		"Chaque item que l'utilisateur sélectionne sera ajouté dans une liste séparée par des virgules."
+	],
+	"dcWidgets/palette/widgets:Selection.Dropdown.Close": [
+		"Fermer",
+		"Invoque l'action en interne. L'utilisateur peut commencer une association à partir de cette action pour déclencher un autre évnement après la fermeture de la liste déroulante."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Value_Out": [
+		"Valeur sortie",
+		"La valeur actuelle du bouton de défilement. Cette valeur est en lecture seule."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Min": [
+		"Min",
+		"Définit la valeur minimale du bouton de défilement."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Max": [
+		"Max",
+		"Définit la valeur maximale du bouton de défilement."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Show_Value": [
+		"Montrer la valeur",
+		"Indique quand une représentation numérique de la valeur actuelle est montrée.<br><br><b>Toujours:</b> La valeur est toujours affichée.<br><b>En mouvement:</b> La valeur est affichée pendant que le bouton de défilement est en mouvement.<br><b>Jamais:</b> La valeur n'est jamais affichée."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Enabled": [
+		"Activé",
+		"<b>true:</b> Le bouton de défilement est activé.<b>false:</b> Le bouton de défilement est désactivé. Il sera grisé et il sera impossible de cliquer dessus.<br>"
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Enabled1": [
+		"Activé",
+		"<b>true:</b> Le bouton de défilement se déplacera selon un intervalle définit par l'utilisateur plutôt que selon un intervalle de 1.<br><false:</b> Le bouton de défilement se déplacera selon un interval déterminé par l'écart entre les valeurs maximale et minimale."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Interval": [
+		"Interval",
+		"Si les étapes sont activées, définit l'interval de mouvement du bouton de défilement. Si les étapes de sont pas activées, l'interval sera déterminé par l'écart entre les valeurs maximale et minimale. Si cet écart est inférieur à 10, l'intervalle sera en dixièmes. Si l'écart est supérieur à 10, l'interval sera de 1."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Track_Start": [
+		"Valeur d'origne",
+		"Place un point d'oringe à cet endroit. Si vous voulez définir un bouton de défilement standard, spécifiez une valeur d'origine égale à la valeur minimale. Si la valeur d'origine est différente de la valeur minimale, le bouton de défilement se déplacera à partir du point d'origine."
+	],
+	"dcWidgets/palette/widgets.Show_Header": [
+		"Afficher l'entête",
+		"<b>true:</b> L'en-tête est affiché.<br><b>false:</b> L'en-tête n'est pas affiché."
+	],
+	"dcWidgets/palette/widgets.Step": [
+		"Saut",
+		"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
+	],
+	"dcWidgets/palette/widgets.Step1": [
+		"Saut",
+		"Définit l'intervalle entre chaque paire consécutive de sauts majeurs, dans l'unité de l'axe."
+	],
+	"dcWidgets/palette/widgets.Line_Mode": [
+		"Mode de ligne",
+		"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
+	],
+	"dcWidgets/palette/widgets.Line_Mode1": [
+		"Mode de ligne",
+		"Définit la forme des lignes dans une série de lignes ou d'aires.<br><br><b>Segment: </b>Les marqueurs sont connectés par des segments de lignes.<br><b>Paliers </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments horizontaux alternent avec des segments verticaux, en commençant par un segment horizontal. <br><b>Palier inversé: </b>Les marqueurs sont connectés par des segments de lignes othogonaux. Les segments verticaux alternent avec des segments horizontaux, en commençant par un segment vertical.<br><b>Vertical: </b>Seuls les segments verticaux d'une ligne en palier sont affichés.<br><b>Horizontal: </b>Seuls les segments horizontaux d'une ligne en palier sont affichés.<br><b>Courbe: </b>Les marqueurs sont connectés par une courbe."
+	],
+	"dcWidgets/palette/widgets.Placement": [
+		"Position",
+		"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
+	],
+	"dcWidgets/palette/widgets.Placement1": [
+		"Position",
+		"Indique si l'axe est situé à gauche, à droite ou au centre du graphe."
+	],
+	"dcWidgets/palette/widgets.Markers": [
+		"Marqueurs",
+		"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
+	],
+	"dcWidgets/palette/widgets.Markers1": [
+		"Marqueurs",
+		"<b>true:</b> Un marqueur est affiché pour chaque point de donnée.<br><b>false:</b>Aucun marqueur n'est affiché."
+	],
+	"dcWidgets/palette/widgets.Interval_Unit": [
+		"Intervalle des unités",
+		"Définit les unités pour l'axe de date et heure. La valeur Auto signifie que les unités sont déterminées automatiquement selon les données qui composent le graphe."
+	],
+	"dcWidgets/palette/widgets.Update_Interval": [
+		"Interval de mise à jour",
+		"Indique la fréquence à laquelle l'historique est rafraîchi, en secondes. Si la valeur est 0, l'historique est rafraîchi selon l'autoLoad."
+	],
+	"dcWidgets/palette/widgets.Default_Label2": [
+		"Étiquette par défaut",
+		"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+	],
+	"dcWidgets/palette/widgets.Default_Label3": [
+		"Étiquette par défaut",
+		"Si l'utilisateur ne spécifie pas d'étiquette en ajoutant un chemin au graphe, spécifie la chaîne qui est utilisée pour nommer chaque colonne d'historiques de valeurs dans le tableau de sortie. La valeur de l'étiquette peut être l'une des suivantes:<br><br><b>Défaut:</b> La chaîne par défaut 'vn'<br><b>Nom:</b> Le nom du noeud pour lequel la colonne est un historique de valeurs<br><b>Parent:</b> Le nom du parent du noeud de données<br><b>Parent Nom</b>: Le nom du noeud et de son parent."
+	],
+	"dcWidgets/palette/widgets.MinY1": [
+		"Min",
+		"Indique la limite minimale de l'axe."
+	],
+	"dcWidgets/palette/widgets.MinY2": [
+		"Min",
+		"Indique la limite minimale de l'axe."
+	],
+	"dcWidgets/palette/widgets.MaxY1": [
+		"Max",
+		"Indique la limite maximale de l'axe."
+	],
+	"dcWidgets/palette/widgets.MaxY2": [
+		"Max",
+		"Indique la limite maximale de l'axe."
+	],
+	"dcWidgets/palette/widgets.UnitY1": [
+		"Unité",
+		"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
+	],
+	"dcWidgets/palette/widgets.UnitY2": [
+		"Unit",
+		"<b>true:</b> Montre l'unité à côté de l'axe<br><b>false:</b> Ne montre pas l'unité à côté de l'axe."
+	],
+	"dcWidgets/palette/widgets.Axis": [
+		"Axe",
+		"Le chemin sera associé à l'axe secondaire ou primaire."
+	],
+	"dcWidgets/palette/widgets.Color": [
+		"Couleur",
+		"La couleur de l'étiquette et de la donnée."
+	],
+	"dcWidgets/palette/widgets.Bar_Name": [
+		"Nom de barre",
+		"L'étiquette qui sera affiché sur l'axe Y et qui regroupera tous les points dans cette barre. Assurez-vous que tous les chemins qui devraient apparaître dans une barre aient exactement le même nom de barre."
+	],
+	"dcWidgets/palette/widgets.Group": [
+		"Groupe",
+		"Définit le nom du groupe qui est utilisé pour identifier les valeurs similaires dans chaque barre. Tous les items du groupe auront la même couleur afin de les rendre facile à identifier dans le diagramme à barres. Le nom du groupe sera aussi affiché comme étiquette en haut du diagramme."
+	],
+	"dcWidgets/palette/widgets.Group_Color": [
+		"Couleur du groupe",
+		"La couleur du groupe. Si la valeur est null, une couleur de la palette d'ENVYSION sera sélectionnée automatiquement."
+	],
+	"dcWidgets/palette/widgets.Curve_Input": [
+		"Entrée de remise à zéro",
+		"Glissez et déposez le chemin qui sera le point X du point Live."
+	],
+	"dcWidgets/palette/widgets.Curve_Output": [
+		"Sortie de remise à zéro",
+		"Glissez et déposez le chemin qui sera le point Y du point Live."
+	],
+	"dcWidgets/palette/widgets.Curve_Color": [
+		"Couleur de la courbe",
+		"Définit la couleur de la courbe de chaleur et des marqueurs."
+	],
+	"dcWidgets/palette/widgets.Live_Point_Color": [
+		"Couleur live",
+		"Définit la couleur du point live."
+	],
+	"dcWidgets/palette/widgets.Show_Unit": [
+		"Afficher l'unité",
+		"<b>true:</b> L'unité est affichée.<br><b>false:</b> L'unité n'est pas affichée."
+	],
+	"dcWidgets/palette/widgets.Points": [
+		"Points",
+		"Définit le chemin pour le point Y. Glissez et déposez le chemin à partir de l'arbre de données pour ouvrir la fenêtre d'association. Vous pouvez aussi glisser et déposer le bouton du chemin sur le symbole + ci-dessous pour ouvrir la fenêtre d'association. Pour modifier les sous-propriétés des chemins ajoutés, cliquez sur l'icone du crayon. Pour supprimer un chemin, cliquez sur le symbole '-'."
+	],
+	"dcWidgets/palette/widgets.Xpath": [
+		"Chemin X",
+		"Définit le chemin pour le point X."
+	],
+	"dcWidgets/palette/widgets.MinX": [
+		"Min",
+		"Définit la limite minimale pour l'axe."
+	],
+	"dcWidgets/palette/widgets.MaxX": [
+		"Max",
+		"Définit la limite maximale pour l'axe."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Value_In": [
+		"Valeur entrée",
+		"Associez une valeur dans ce champ pour que le bouton de défilement s'ajuste à celle-ci. Lorsque l'utilisateur bouge le bouton de défilement, la valeur affichée sera celle que l'utilisateur a définie.Cependant, si la valeur associée au bouton de défilement change, le bouton se placera automatiquement à cette valeur."
+	],
+	"dcWidgets/palette/widgets.Alarm_Count_Period": [
+		"Période de décompte des alarmes",
+		"Définit l'intervalle de temps, en heures, sur lequel le décompte des alarmes est basé."
+	],
+	"dcWidgets/palette/widgets.Sample_Interval": [
+		"Intervalle d'échantillonnage",
+		"Spécifie l'intervalle de temps entre chaque paire consécutive de points de donnée. Il est recommandé de specifier cette valeur avant de spécifier les intervalles de temps."
+	],
+	"dcWidgets/palette/widgets.Series_1_Time_Range": [
+		"Intervalle de temps",
+		"Définit l'intervalle de temps pendant lequel les données sont incluses dans le graphe. Pour de meilleurs résultats, assurez-vous que les deux intervalles de temps sont de la même durée."
+	],
+	"dcWidgets/palette/widgets.Series_2_Time_Range": [
+		"Intervalle de temps",
+		"Définit l'intervalle de temps pendant lequel les données sont incluses dans le graphe. Pour de meilleurs résultats, assurez-vous que les deux intervalles de temps sont de la même durée."
+	],
+	"dcWidgets/palette/widgets.Width": [
+		"Largeur",
+		"Définit la largeur de la légende. Par défaut, les unités sont en pixels. Pour les changer en pourcentage, ajoutez '%' après la valeur entrée."
+	],
+	"dcWidgets/palette/widgets.Height": [
+		"Hauteur",
+		"Définit la hauteur de la légende. Par défaut, les unités sont en pixels. Pour les changer en pourcentage, ajoutez '%' après la valeur entrée."
+	],
+	"dcWidgets/palette/widgets.Page_Include_Path": [
+		"Chemin",
+		"Spécifiez le chemin d'accès le page dg5 qui sera affichée dans la légende lorsqu'on clique sur le marqueur dans la carte."
+	],
+	"dcWidgets/palette/widgets.Action": [
+		"Action",
+		"Spécifiez l'action qui sera exécutée lorsqu'on cliquera sur le bouton. L'entrée est sensible à la case."
+	],
+	"dcWidgets/palette/widgets.Action_Value": [
+		"Valeur",
+		"Si une valeur est nécessaire pour exécuter l'action, spécifiez la valeur (sensible à la case) dans le champ Valeur. Sinon, laissez le champ vide."
+	]
 }

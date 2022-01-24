@@ -1,602 +1,638 @@
 {
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Default" : [
-	"Default",
-	"Sets a default for the initial location of the toggle on load. It uses computer indexing, running from 0 – 2."
-],
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Selected" : [
-	"Selected",
-	"The index of the currently selected item."
-],
-"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Label" : [
-	"Label",
-	"Returns the value in the selected toggle."
-],
-"dcWidgets/palette/widgets.Accent_Color" : [
-	"Accent Color",
-	"Sets the color of the accent marker and menu dots."
-],
-"dcWidgets/palette/widgets.Time_Range" : [
-	"Time Range",
-	"Sets the time range of this series."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type_L" : [
-	"chartType_L",
-	"Defines how the series data is visually represented <br><br><br><b>lineSeries</b> - Markers represent the data points. Lines connect the markers.<br><br><b>areaSeries</b> - Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><br><b>columnSeries</b> - Vertical columns represent the data points."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode_L" : [
-	"seriesMode_L",
-	"Defines how the data values are rendered.<br><br><br><b>clustered</b> - Compares data values side by side. This only applies to column series's.<br><br><b>overlaid</b> - Compares data values by overlapping them.<br><br><b>stacked</b> - Shows how data values contribute to a total.<br><br><b>100%</b> - Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis" : [
-	"enabeled_L",
-	"<b>true</b> - Series and left Axis is displayed.<br><b>false</b> - Series and left Axis is hidden."
-],
-"dcWidgets/palette/widgets.Dark_Theme" : [
-	"Dark Theme",
-	"Sets predefined light or dark color theme.<br><br><b>true:</b> Sets dark theme.<br><b>false:</b> Sets light theme."
-],
-"dcWidgets/palette/widgets.Header" : [
-	"Header",
-	"Sets the header."
-],
-"dcWidgets/palette/widgets.Axis_Label" : [
-	"Axis Label",
-	"Sets the y-axis label."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled" : [
-	"Enabled",
-	"<b>true</b> - Series and axis is displayed.<br><b>false</b> - Series and axis is hidden."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type" : [
-	"Chart Type",
-	"Defines how the series data is visually represented <br><br><b>Line Series:</b> Markers represent the data points. Lines connect the markers.<br><b>Area Series:</b> Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><b>Column Series:</b> Vertical columns represent the data points."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode" : [
-	"Series Mode",
-	"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Overlaid:</b> Compares data values by overlapping them.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
-],
-"dcWidgets/palette/widgets.Rollup" : [
-	"Rollup",
-	"Specifies the type of rollup used. The value of rollup can be one of the following:<br><br><b>Avg:</b> The average of all number values for the interval<br><b>Min:</b> The smallest number value for the interval<br><b>Max:</b> The largest number value from the interval<br><b>Sum:</b> The sum of all number values for the interval<br><b>First:</b> The first value for the interval<br><b>Last:</b> The last value for the interval<br><b>Count:</b> The number of non-null values that exist for the interval"
-],
-"dcWidgets/palette/widgets.Missing_Value" : [
-	"Missing Value",
-	"Specifies what value to display in the event of missing data. The value of the missingValue property can be one of the following:<br><br><b>Null:</b> A null value<br><b>Use Previous:</b> The value for the previous timestamp<br><b>Use Next:</b> The value for the next timestamp<br><b>Interpolate</b>—The average between the previous and next timestamps<br><b>Zero</b>—Zero"
-],
-"dcWidgets/palette/widgets.Delta" : [
-	"Delta",
-	"Delta specifies what is in the value history columns of the output table.<br><br><b>None:</b> The value collected at the given time<br><b>With Previous:</b> The difference between the values in this row and the previous one<br><b>With Next:</b> The difference between the values in this row and the next one"
-],
-"dcWidgets/palette/widgets.Output_Table" : [
-	"Output Table",
-	"This shows the data table that is being rendered by the chart."
-],
-"dcWidgets/palette/widgets.Show_Menu" : [
-	"Show Menu",
-	"Shows or hides the 3 vertical menu dots.<br><br><b>true:</b> Menu dots are shown.<br><b>false:</b> Menu dots are hidden."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Enabled1" : [
-	"Enabled",
-	"<b>true</b> - Series and axis is displayed.<br><b>false</b> - Series and axis is hidden."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Chart_Type1" : [
-	"Chart Type",
-	"Defines how the series data is visually represented <br><br><b>Line Series:</b> Markers represent the data points. Lines connect the markers.<br><b>Area Series:</b> Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><b>Column Series:</b> Vertical columns represent the data points."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Series_Mode1" : [
-	"Series Mode",
-	"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Overlaid:</b> Compares data values by overlapping them.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Rollup1" : [
-	"Rollup",
-	"Specifies the type of rollup used. The value of rollup can be one of the following:<br><br><b>Avg:</b> The average of all number values for the interval<br><b>Min:</b> The smallest number value for the interval<br><b>Max:</b> The largest number value from the interval<br><b>Sum:</b> The sum of all number values for the interval<br><b>First:</b> The first value for the interval<br><b>Last:</b> The last value for the interval<br><b>Count:</b> The number of non-null values that exist for the interval"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Missing_Value1" : [
-	"Missing Value",
-	"Specifies which value to display in the event of missing data. The value of the missingValue property can be one of the following:<br><br><b>Null:</b> A null value<br><b>Use Previous:</b> The value for the previous timestamp<br><b>Use Next:</b> The value for the next timestamp<br><b>Interpolate</b>—The average between the previous and next timestamps<br><b>Zero</b>—Zero"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Delta1" : [
-	"Delta",
-	"Delta specifies what is in the value history columns of the output table.<br><br><b>None:</b> The value collected at the given time<br><b>With Previous:</b> The difference between the values in this row and the previous one<br><b>With Next:</b> The difference between the values in this row and the next one"
-],
-"dcWidgets/palette/widgets:Chart.Generic.Output_Table1" : [
-	"Output Table",
-	"This shows the data table that is being rendered by the chart."
-],
-"dcWidgets/palette/widgets.Data_Interval" : [
-	"Data Interval",
-	"Specifies the date or time interval between each consecutive pair of data points."
-],
-"dcWidgets/palette/widgets:Chart.Generic.Data_Interval1" : [
-	"Data Interval",
-	"Specifies the date or time interval between each consecutive pair of data points."
-],
-"dcWidgets/palette/widgets.Mode" : [
-	"Mode",
-	"Specifies whether to get live or historical data.<br><br>Specifies whether to get live or historical data.<br><br><b>Live:</b> Paths will return live data.<br><b>Historical:</b> Paths will return historical data. Expand the historical section to set the properties of how the data will be returned."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Precision" : [
-	"Precision",
-	"The amount of places after the decimal that will be displayed for datatips and labels."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Legend" : [
-	"Show Legend",
-	"<b>true:</b> Shows the legend at the top of the chart area.<br><b>false:</b> Does not show the legend at the top of the chart area."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Labels" : [
-	"Show Labels",
-	"<b>true:</b> Shows the labels around the pie chart.<br><b>false:</b> Does not shows the labels around the pie chart."
-],
-"dcWidgets/palette/widgets:Chart.Pie.Show_Datatip" : [
-	"Show Datatips",
-	"<b>true:</b> When you mouse over a pie slice, data about the slice will appear.<br><b>false:</b> When you mouse over a pie slice, data about the slice will not appear"
-],
-"dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode" : [
-	"Aggregation Mode",
-	"Specifies the type of value to return. The value of the method property can be one of the following:<br><br><b>First: </b> Returns the first value in the column. <br><b>Last: </b> Returns the last value in the column. <br><b>Average: </b> Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Sum: </b> Returns the sum of all number values in the column. If there are no number values, returns 0. <br><b>Max: </b> Returns the greatest number value in the column. If there are no number values, returns null. <br><b>Min: </b> Returns the smallest number value in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Count: </b> Returns the number of values in the column. Null values are not included."
-],
-"dcWidgets/palette/widgets:Chart.Bar.Series_Mode1" : [
-	"Series Mode",
-	"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
-],
-"dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius" : [
-	"Marker Radius",
-	"Defines the marker radius in pixels."
-],
-"dcWidgets/palette/widgets.Options" : [
-	"Options",
-	"A Comma Separated List that will be converted into the text of each item which will be displayed in the Drop down. The number of items in the Comma Separated list will determine how many items appear in the dropdown."
-],
-"dcWidgets/palette/widgets.Label" : [
-	"Label",
-	"The text displayed."
-],
-"dcWidgets/palette/widgets:Selection.Combo_Box.Selected" : [
-	"Selected",
-	"This returns what the user has selected. If in multi select mode, then it returns them as a csv. The user can also bind values to this field and they will be displayed as selected. However, as soon as a user changes the selection, by clicking on it, then the new item will appear in this property. If you choose to bind in multiple items, they must be in csv form, with no extra spaces."
-],
-"dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected" : [
-	"Selected",
-	"<b>true:</b> It is selected.<br><b>false:</b>It is not selected."
-],
-"dcWidgets/palette/widgets:Button.Button.Label" : [
-	"Label",
-	"Sets the text which will be displayed in the button."
-],
-"dcWidgets/palette/widgets:Button.Button.Style" : [
-	"Style",
-	"<b>Primary:</b> Blue button with white text.<br><br><b>Secondary:</b> White button with black text.<br>"
-],
-"dcWidgets/palette/widgets:Button.Button.Enabled" : [
-	"Enabled",
-	"Sets whether the button is enabled or disabled.<br><br><b>true:</b> The button is enabled.<b>false:</b> The button is disabled. The button will turn grey and be unclickable.<br>"
-],
-"dcWidgets/palette/widgets.On_Click" : [
-	"On Click",
-	"Passes an action out when the mouse is clicked on the symbol."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Path" : [
-	"Path",
-	"The path of the image."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Style" : [
-	"Style",
-	"<b>Primary:</b> Blue button with white text.<br><b>Secondary:</b> White button with black text."
-],
-"dcWidgets/palette/widgets:Button.Icon_Button.Enabled" : [
-	"Enabled",
-	"Sets whether the button is enabled or disabled.<br><br><b>true:</b> The button is enabled.<b>false:</b> The button is disabled. The button will turn grey and be unclickable.<br>"
-],
-"dcWidgets/palette/widgets:Navigation.Top.Data" : [
-	"Data",
-	"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 2 columns, “label” and “path.” There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label that will be on the tab.<br><p>path:</b> The path associated with the tab."
-],
-"dcWidgets/palette/widgets.Default" : [
-	"Default",
-	"Set this to the index of the tab you would like to have as the tab selected by dfault. If you want no tab to be initially selected on load, Right click on the blue dot to the right of this property and select “Reset” to set it to null."
-],
-"dcWidgets/palette/widgets.Selected" : [
-	"Selected",
-	"The index of the currently selected tab."
-],
-"dcWidgets/palette/widgets.Path" : [
-	"Path",
-	"This is the path associated with the tab that is currently selected. It is commonly used with a Page Include to drive navigation of the page."
-],
-"dcWidgets/palette/widgets.Logo" : [
-	"Logo",
-	"Sets the path of the logo image."
-],
-"dcWidgets/palette/widgets.Logo_Padding" : [
-	"Logo Padding",
-	"Sets the padding around the logo."
-],
-"dcWidgets/palette/widgets.Enabled" : [
-	"Enabled",
-	"<b>true:</b> Header is displayed.<br><b>false:</b> Header is hidden."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Default" : [
-	"Default Tab",
-	"Set this to the index of the tab you would like to have as the default, selected tab. If you want no tab to be initially selected on load, Right click on the blue dot to the right of this property and select “Reset” to set it to null."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Selected" : [
-	"Selected Tab",
-	"The index of the currently selected tab."
-],
-"dcWidgets/palette/widgets:Navigation.Layout_A.Data" : [
-	"Data",
-	"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 2 columns, “label” and “path.” There should already be a sample table in the dataflow of the symbol. To edit click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab."
-],
-"dcWidgets/palette/widgets.Data" : [
-	"Data",
-	"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 4 columns, \"parent\", “label”, “path.”, and \"icons.\" There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab.<br><b>icons:</b> Set a path to an image if you would like there to be an image with the label. Leave it null if you do not want to have an image.<br>"
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Selected" : [
-	"Selected",
-	"<b>true:</b> It is selected.<br><b>false:</b>It is not selected."
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Style" : [
-	"Select Style",
-	"<b>Box:</b> The selection location will be a square.<br><b>Circle:</b> The selection location will be a circle."
-],
-"dcWidgets/palette/widgets:Selection.Selection_Marker.Enabled" : [
-	"Enabled",
-	"<b>true:</b>It is enabled.<b>false:</b> It is disabled. Greyed out and unclickable.<br>"
-],
-"dcWidgets/palette/widgets.Min" : [
-	"Min",
-	"Sets the minimum value."
-],
-"dcWidgets/palette/widgets.Max" : [
-	"Max",
-	"Sets the maximum value."
-],
-"dcWidgets/palette/widgets.Value" : [
-	"Value",
-	"The current value."
-],
-"dcWidgets/palette/widgets.Unit" : [
-	"Unit",
-	"<b>true:</b> Shows a unit to the right of the value.<br><b>false:</b> Does not show a unit to the right of the value."
-],
-"dcWidgets/palette/widgets.Left" : [
-	"Left Label",
-	"The text will be displayed at the left position."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Middle" : [
-	"Middle Label",
-	"The text will be displayed at the middle position."
-],
-"dcWidgets/palette/widgets.Right" : [
-	"Right",
-	"The text will be displayed at the right position."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Default" : [
-	"Default",
-	"Sets a default for the initial location of the toggle on load. It uses computer indexing, running from 0 – 2."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Selected" : [
-	"Selected",
-	"The index of the currently selected item."
-],
-"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Label" : [
-	"Label",
-	"Returns the value in the selected toggle."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Orientation" : [
-	"Orientation",
-	"Sets if the true condition is on the left or right.<br><br><b>On Left:</b> The ball of the toggle is on the left when the condition is true.<br><b>On Right:</b> The ball of the toggle is on the right when the condition is true."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Enabled" : [
-	"Enabled",
-	"Disables click and movement of toggle.<br><br><b>true:</b> Toggle is enabled. <br><b>false:</b> Toggle will grey out and not be clickable."
-],
-"dcWidgets/palette/widgets:Toggle.Toggle.Value" : [
-	"Value",
-	"Reflects the state of the toggle. As the user click on it, it changes from true to false. This can be bound to drive behavior or actions. Alternately, if you want to have the toggle automated by another process, bind it to this Boolean."
-],
-"dcWidgets/palette/widgets:Weather.Postal_Code" : [
-	"Postal Code",
-	"Sets the Postal Code for the weather location. If no Country Code is selected as well, it will default to USA. If it is a country other then the USA, then you must also select a County Code."
-],
-"dcWidgets/palette/widgets:Weather.Units" : [
-	"Units",
-	"Select the units you wish to display weather data in."
-],
-"dcWidgets/palette/widgets:Weather.City" : [
-	"City",
-	"Sets the City of the location. You must also select a Country Code. <br><br>If there are more than one city, with the same name in the country, there is no way to determine which city it should be. In that case, either Latitude / Longitude or Postal Code is a more precise way to establish the desired location."
-],
-"dcWidgets/palette/widgets:Weather.Latitude" : [
-	"Latitude",
-	"Sets the latitude of the weather location. It should be a value between -90 and 90. Make sure to use all 6 decimal places to maintain accuracy. The number displayed in the property panel is rounded, but will show the full value is you click on the field."
-],
-"dcWidgets/palette/widgets:Weather.Longitude" : [
-	"Longitude",
-	"Sets the longitude of the weather location. It should be a value between -180 and 180. Make sure to use all 6 decimal places to maintain accuracy. The number displayed in the property panel is rounded, but will show the full value is you click on the field."
-],
-"dcWidgets/palette/widgets:Weather.State" : [
-	"State",
-	"USA only state codes. If you are not in the USA, select Not Applicable. You must also select a County Code."
-],
-"dcWidgets/palette/widgets:Weather.Mode" : [
-	"Mode",
-	"Selects which method will query the weather API to set the location that will be displayed in the weather widget.<br><br><b>Postal Code: </b> You will set the location by entering the postal code of said location.<br><b>Latitude / Longitude: </b> You will set the location by entering the latitude and longitude of said location.<br><b>Location: </b> You will set the location by entering the city and country of said location."
-],
-"dcWidgets/palette/widgets:Weather.Country" : [
-	"Country",
-	"Is the ISO 3166 Alpha 2 code standard. Please refer to the link to see the full list. It is not clickable. Cut and paste it into a new browser window.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
-],
-"dcWidgets/palette/widgets:Weather.API_Key" : [
-	"API Key",
-	"This is your new API key to Openweather.org."
-],
-"dcWidgets/palette/widgets:Weather.Set_API_Key" : [
-	"Set New API Key",
-	"Sets a new API key to Opeanweather.org."
-],
-"dcWidgets/palette/widgets:Weather.Country1" : [
-	"Country",
-	"Is the ISO 3166 Alpha 2 code standard. Please refer to the link to see the full list. It is not clickable. Cut and paste it into a new browser window.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
-],
-"dcWidgets/palette/widgets.Language" : [
-	"Language",
-	"Sets language that is not captured by the global selection. <br><br><b>en:</b> English<br><b>fr:</b> French"
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Selected_Row" : [
-	"Selected Row",
-	"The row that is currently selected by the navigation."
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Auto_Close_Time" : [
-	"Auto Close Time",
-	"The time, in seconds, in which the submenu will disappear after making a selection."
-],
-"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Data" : [
-	"Data",
-	"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 4 columns, \"parent\", “label”, “path.” and \"icons.\" There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>parent:</b> This indicates wether there is a parent node. If you would like the menu item to be in the root menu, then leave it null. All rows with the same parent will be grouped together for a sub menu.<br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab.<br><b>icons:</b> Set a path to an image if you would like there to be an image with the label. Leave it null if you do not want to have an image.<br>"
-],
-"dcWidgets/palette/widgets:Image.Image.Dark_Theme" : [
-	"Dark Theme",
-	"Sets predefined light or dark color theme.<br><br><br><b>true</b> - Sets dark theme.<br><br><b>false</b> - Sets light theme.<br>"
-],
-"dcWidgets/palette/widgets:Image.Image.Path" : [
-	"Path",
-	"The path of the image."
-],
-"dcWidgets/palette/widgets:Image.Building.Image_Scaling" : [
-	"Image Scaling",
-	"<b>Contain: </b>The image scales while maintaining its aspect ratio. Part of the container might be empty.<br> <b>Cover: </b>The image scales to fill the container while maintaining its aspect ratio. Any part of the image that overflows the container is clipped.<br><b>Stretch: </b>The image stretches to cover the container. The image’s aspect ratio is not maintained."
-],
-"dcWidgets/palette/widgets.Image_Path" : [
-	"Image Path",
-	"The path of the image."
-],
-"dcWidgets/palette/widgets:Floorplan.Title" : [
-	"Title",
-	"Defines the display name of this series."
-],
-"dcWidgets/palette/widgets:Floorplan.Dark_Mode" : [
-	"Dark Mode",
-	"Sets predefined light or dark color theme.<br><br><br><b>true</b> - Sets dark theme.<br><br><b>false</b> - Sets light theme.<br>"
-],
-"dcWidgets/palette/widgets:Floorplan.Menu" : [
-	"Menu",
-	"Shows or hides the 3 vertical menu dots.<br><br><br><br><b>true</b> - Menu dots are shown.<br><br><b>false</b> - Menu dots are hidden.<br>"
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Value" : [
-	"Value",
-	"This sets the value displayed. Bind from the target point. It will be the third line in the callout. It is a smaller font size. It will also be used to calculate the gradient color based on the relationship between the min and max values."
-],
-"dcWidgets/palette/widgets.Min_Value" : [
-	"Min Value",
-	"Sets the minimum value."
-],
-"dcWidgets/palette/widgets.Max_Value" : [
-	"Max Value",
-	"Sets the maximum value."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Short_Label" : [
-	"Short Label",
-	"This sets the short label. It will be the top line of the callout and slightly larger font size. So it is assumed to be a shorter version or code for quick reference."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Long_Label" : [
-	"Long Label",
-	"This sets the long label. It will be the second line in the callout and can give more description about the location. It is a smaller font size."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Small_Size_Display" : [
-	"Small Size Display",
-	"Selects which text will be displayed in the marker. <br><br><b>Short:</b> The text entered in the Short Label property. <br><b>Long:</b> The text entered in the Long Label property.<br><b>Value:</b> The text entered in the Value property."
-],
-"dcWidgets/palette/widgets.Min_Color" : [
-	"Min Color",
-	"Sets the color that will be the coldest of the color gradient. The gradient will change to white at the midpoint."
-],
-"dcWidgets/palette/widgets.Max_Color" : [
-	"Max Color",
-	"Sets the color that will be the hottest of the color gradient. The gradient will start as white at the midpoint."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Shadow" : [
-	"Shadow",
-	"<b>true:</b> A shadow is displayed.<br><b>false:</b>A shadow is not displayed."
-],
-"dcWidgets/palette/widgets:Floorplan.Marker.Precision" : [
-	"Precision",
-	"The amount of places after the decimal that will be displayed for values."
-],
-"dcWidgets/palette/widgets:Selection.Dropdown.Selected" : [
-	"Selected",
-	"Each item the user selects will be added to a Comma Separated List."
-],
-"dcWidgets/palette/widgets:Selection.Dropdown.Close" : [
-	"Close",
-	"Passes the action internally. User could bind from it to trigger other event after drop down closes."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Value_Out" : [
-	"Value Out",
-	"The current value of the slider. It is read only."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Min" : [
-	"Min",
-	"Sets the minimum value of the slider bar."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Max" : [
-	"Max",
-	"Sets the maximum value of the slider bar."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Show_Value" : [
-	"Show Value",
-	"Sets the condition that will show the numeric representation of the current value.<br><br><b>Always:</b> The value will always be displayed.<br><b>While Moving:</b> The value will displayed while the slider knob is moving.<br><b>Never:</b> The value will never be displayed."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Enabled" : [
-	"Enabled",
-	"<b>true:</b> The slider is enabled.<b>false:</b> The slider is disabled. It will be greyed out and unclickable.<br>"
-],
-"dcWidgets/palette/widgets:Slider.Slider.Enabled1" : [
-	"Enabled",
-	"<b>true:</b> The knob will move in increments defined by the user, instead of by increments of 1.<br><false:</b> The knob will move in increments based on the range difference between the min and max values."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Interval" : [
-	"Interval",
-	"If Enable Steps is set to true, it sets the interval at which the knob will move. If Enable Steps is set to false, the interval will be based on the range of the max and min values. If the range is less than 10, then the interval will be in tenths. If greater than 10, it will be 1."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Track_Start" : [
-	"Origin Value",
-	"Places an origin location at this point. If you want a standard slider, set the Origin Value equal to the Min Value. If the Origin Value does not equal the Minimum, then the knob will move out from the Origin Point."
-],
-"dcWidgets/palette/widgets.Show_Header" : [
-	"Show Header",
-	"<b>true:</b> The header is displayed.<br><b>false:</b> The header is not displayed."
-],
-"dcWidgets/palette/widgets.Step" : [
-	"Step",
-	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
-],
-"dcWidgets/palette/widgets.Step1" : [
-	"Step",
-	"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
-],
-"dcWidgets/palette/widgets.Line_Mode" : [
-	"Line Mode",
-	"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
-],
-"dcWidgets/palette/widgets.Line_Mode1" : [
-	"Line Mode",
-	"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
-],
-"dcWidgets/palette/widgets.Placement" : [
-	"Placement",
-	"Specifies whether the axis is positioned on the left, right or center of the chart."
-],
-"dcWidgets/palette/widgets.Placement1" : [
-	"Placement",
-	"Specifies whether the axis is positioned on the left, right or center of the chart."
-],
-"dcWidgets/palette/widgets.Markers" : [
-	"Markers",
-	"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
-],
-"dcWidgets/palette/widgets.Markers1" : [
-	"Markers",
-	"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
-],
-"dcWidgets/palette/widgets.Interval_Unit" : [
-	"Interval Unit",
-	"Defines the units for this Datetime axis. A value of Auto means that units are determined automatically based on the data feeding the chart."
-],
-"dcWidgets/palette/widgets.Update_Interval" : [
-	"Update Interval",
-	"Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on autoLoad."
-],
-"dcWidgets/palette/widgets.Default_Label2" : [
-	"Default Label",
-	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
-"dcWidgets/palette/widgets.Default_Label3" : [
-	"Default Label",
-	"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
-],
-"dcWidgets/palette/widgets.MinY1" : [
-	"Min",
-	"Sets the lower bound of the axis."
-],
-"dcWidgets/palette/widgets.MinY2" : [
-	"Min",
-	"Sets the lower bound of the axis."
-],
-"dcWidgets/palette/widgets.MaxY1" : [
-	"Max",
-	"Sets the upper bound of the axis."
-],
-"dcWidgets/palette/widgets.MaxY2" : [
-	"Max",
-	"Sets the upper bound of the axis."
-],
-"dcWidgets/palette/widgets.UnitY1" : [
-	"Unit",
-	"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
-],
-"dcWidgets/palette/widgets.UnitY2" : [
-	"Unit",
-	"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
-],
-"dcWidgets/palette/widgets.Axis" : [
-	"Axis",
-	"The path will be assigned to the Primary or Secondary axis."
-],
-"dcWidgets/palette/widgets.Color" : [
-	"Color",
-	"The color of the label and data."
-],
-"dcWidgets/palette/widgets.Bar_Name" : [
-	"Bar Name",
-	"This is the label that will appear on the Y Axis and will group all the points into this bar. Make sure all paths that you would like to have appear in a bar have the exact same Bar Name."
-],
-"dcWidgets/palette/widgets.Group" : [
-	"Group",
-	"Sets the group name which is used to identify similar values in each bar. All items in the group will have the same color, to make them easy to identify in the bar graph. It will also appear as a label on the top of the graph."
-],
-"dcWidgets/palette/widgets.Group_Color" : [
-	"Group Color",
-	"The color of the group. If left null, a color from the Enysion color palette will be automatically selected."
-],
-"dcWidgets/palette/widgets.Curve_Input" : [
-	"Curve Input",
-	"Drag and drop the path that will be the X point of the live point."
-],
-"dcWidgets/palette/widgets.Curve_Output" : [
-	"Curve Output",
-	"Drag and drop the path that will be the Y point of the live point."
-],
-"dcWidgets/palette/widgets.Curve_Color" : [
-	"Curve Color",
-	"Sets the color of the heat curve and the markers."
-],
-"dcWidgets/palette/widgets.Live_Point_Color" : [
-	"Live Point Color",
-	"Sets the color of the live point."
-],
-"dcWidgets/palette/widgets.Show_Unit" : [
-	"Show Unit",
-	"<b>true:</b> The unit is displayed.<br><b>false:</b> The unit is not displayed."
-],
-"dcWidgets/palette/widgets.Points" : [
-	"Points",
-	"Sets the path for the Y point. Drag and drop a path from the data tree to the chart to bring up binding dialog. You can also drag and drop the path button on the plus sign below, to get the same binding dialog. Once paths have been dropped, you may edit any of the sub-properties by clicking the pencil icon, or you can delete it by clicking on the '-' icon."
-],
-"dcWidgets/palette/widgets.X_Path" : [
-	"X Path",
-	"Sets the path for the X point."
-],
-"dcWidgets/palette/widgets.MinX" : [
-	"Min",
-	"Sets the lower bound of the axis."
-],
-"dcWidgets/palette/widgets.MaxX" : [
-	"Max",
-	"Sets the upper bound of the axis."
-],
-"dcWidgets/palette/widgets:Slider.Slider.Value_In" : [
-	"Value In",
-	"Bind a value here to have the slider adjust to the bound value. Once the user moves the slider, the value shown will show what the user set it to. However, if the value bound to it changes, then the slider will move automatically to that value."
-]
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Default": [
+		"Default",
+		"Sets a default for the initial location of the toggle on load. It uses computer indexing, running from 0 – 2."
+	],
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Selected": [
+		"Selected",
+		"The index of the currently selected item."
+	],
+	"dcWidgets/palette/widgets:Toggle.2_State_Toggle.Label": [
+		"Label",
+		"Returns the value in the selected toggle."
+	],
+	"dcWidgets/palette/widgets.Accent_Color": [
+		"Accent Color",
+		"Sets the color of the accent marker and menu dots."
+	],
+	"dcWidgets/palette/widgets.Time_Range": [
+		"Time Range",
+		"Sets the time range of this series."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type_L": [
+		"chartType_L",
+		"Defines how the series data is visually represented <br><br><br><b>lineSeries</b> - Markers represent the data points. Lines connect the markers.<br><br><b>areaSeries</b> - Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><br><b>columnSeries</b> - Vertical columns represent the data points."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode_L": [
+		"seriesMode_L",
+		"Defines how the data values are rendered.<br><br><br><b>clustered</b> - Compares data values side by side. This only applies to column series's.<br><br><b>overlaid</b> - Compares data values by overlapping them.<br><br><b>stacked</b> - Shows how data values contribute to a total.<br><br><b>100%</b> - Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled_Left_Axis": [
+		"enabeled_L",
+		"<b>true</b> - Series and left Axis is displayed.<br><b>false</b> - Series and left Axis is hidden."
+	],
+	"dcWidgets/palette/widgets.Dark_Theme": [
+		"Dark Theme",
+		"Sets predefined light or dark color theme.<br><br><b>true:</b> Sets dark theme.<br><b>false:</b> Sets light theme."
+	],
+	"dcWidgets/palette/widgets.Header": [
+		"Header",
+		"Sets the header."
+	],
+	"dcWidgets/palette/widgets.Axis_Label": [
+		"Axis Label",
+		"Sets the y-axis label."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled": [
+		"Enabled",
+		"<b>true</b> - Series and axis is displayed.<br><b>false</b> - Series and axis is hidden."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type": [
+		"Chart Type",
+		"Defines how the series data is visually represented <br><br><b>Line Series:</b> Markers represent the data points. Lines connect the markers.<br><b>Area Series:</b> Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><b>Column Series:</b> Vertical columns represent the data points."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode": [
+		"Series Mode",
+		"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Overlaid:</b> Compares data values by overlapping them.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
+	],
+	"dcWidgets/palette/widgets.Rollup": [
+		"Rollup",
+		"Specifies the type of rollup used. The value of rollup can be one of the following:<br><br><b>Avg:</b> The average of all number values for the interval<br><b>Min:</b> The smallest number value for the interval<br><b>Max:</b> The largest number value from the interval<br><b>Sum:</b> The sum of all number values for the interval<br><b>First:</b> The first value for the interval<br><b>Last:</b> The last value for the interval<br><b>Count:</b> The number of non-null values that exist for the interval"
+	],
+	"dcWidgets/palette/widgets.Missing_Value": [
+		"Missing Value",
+		"Specifies what value to display in the event of missing data. The value of the missingValue property can be one of the following:<br><br><b>Null:</b> A null value<br><b>Use Previous:</b> The value for the previous timestamp<br><b>Use Next:</b> The value for the next timestamp<br><b>Interpolate</b>—The average between the previous and next timestamps<br><b>Zero</b>—Zero"
+	],
+	"dcWidgets/palette/widgets.Delta": [
+		"Delta",
+		"Delta specifies what is in the value history columns of the output table.<br><br><b>None:</b> The value collected at the given time<br><b>With Previous:</b> The difference between the values in this row and the previous one<br><b>With Next:</b> The difference between the values in this row and the next one"
+	],
+	"dcWidgets/palette/widgets.Output_Table": [
+		"Output Table",
+		"This shows the data table that is being rendered by the chart."
+	],
+	"dcWidgets/palette/widgets.Show_Menu": [
+		"Show Menu",
+		"Shows or hides the 3 vertical menu dots.<br><br><b>true:</b> Menu dots are shown.<br><b>false:</b> Menu dots are hidden."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Enabled1": [
+		"Enabled",
+		"<b>true</b> - Series and axis is displayed.<br><b>false</b> - Series and axis is hidden."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Chart_Type1": [
+		"Chart Type",
+		"Defines how the series data is visually represented <br><br><b>Line Series:</b> Markers represent the data points. Lines connect the markers.<br><b>Area Series:</b> Markers represent the data points. Lines connect the markers, and the area delimited by the lines is filled in.<br><b>Column Series:</b> Vertical columns represent the data points."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Series_Mode1": [
+		"Series Mode",
+		"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Overlaid:</b> Compares data values by overlapping them.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Rollup1": [
+		"Rollup",
+		"Specifies the type of rollup used. The value of rollup can be one of the following:<br><br><b>Avg:</b> The average of all number values for the interval<br><b>Min:</b> The smallest number value for the interval<br><b>Max:</b> The largest number value from the interval<br><b>Sum:</b> The sum of all number values for the interval<br><b>First:</b> The first value for the interval<br><b>Last:</b> The last value for the interval<br><b>Count:</b> The number of non-null values that exist for the interval"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Missing_Value1": [
+		"Missing Value",
+		"Specifies which value to display in the event of missing data. The value of the missingValue property can be one of the following:<br><br><b>Null:</b> A null value<br><b>Use Previous:</b> The value for the previous timestamp<br><b>Use Next:</b> The value for the next timestamp<br><b>Interpolate</b>—The average between the previous and next timestamps<br><b>Zero</b>—Zero"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Delta1": [
+		"Delta",
+		"Delta specifies what is in the value history columns of the output table.<br><br><b>None:</b> The value collected at the given time<br><b>With Previous:</b> The difference between the values in this row and the previous one<br><b>With Next:</b> The difference between the values in this row and the next one"
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Output_Table1": [
+		"Output Table",
+		"This shows the data table that is being rendered by the chart."
+	],
+	"dcWidgets/palette/widgets.Data_Interval": [
+		"Data Interval",
+		"Specifies the date or time interval between each consecutive pair of data points."
+	],
+	"dcWidgets/palette/widgets:Chart.Generic.Data_Interval1": [
+		"Data Interval",
+		"Specifies the date or time interval between each consecutive pair of data points."
+	],
+	"dcWidgets/palette/widgets.Mode": [
+		"Mode",
+		"Specifies whether to get live or historical data.<br><br>Specifies whether to get live or historical data.<br><br><b>Live:</b> Paths will return live data.<br><b>Historical:</b> Paths will return historical data. Expand the historical section to set the properties of how the data will be returned."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Precision": [
+		"Precision",
+		"The amount of places after the decimal that will be displayed for datatips and labels."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Legend": [
+		"Show Legend",
+		"<b>true:</b> Shows the legend at the top of the chart area.<br><b>false:</b> Does not show the legend at the top of the chart area."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Labels": [
+		"Show Labels",
+		"<b>true:</b> Shows the labels around the pie chart.<br><b>false:</b> Does not shows the labels around the pie chart."
+	],
+	"dcWidgets/palette/widgets:Chart.Pie.Show_Datatip": [
+		"Show Datatips",
+		"<b>true:</b> When you mouse over a pie slice, data about the slice will appear.<br><b>false:</b> When you mouse over a pie slice, data about the slice will not appear"
+	],
+	"dcWidgets/palette/widgets:Chart.Bar.Aggregation_Mode": [
+		"Aggregation Mode",
+		"Specifies the type of value to return. The value of the method property can be one of the following:<br><br><b>First: </b> Returns the first value in the column. <br><b>Last: </b> Returns the last value in the column. <br><b>Average: </b> Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Sum: </b> Returns the sum of all number values in the column. If there are no number values, returns 0. <br><b>Max: </b> Returns the greatest number value in the column. If there are no number values, returns null. <br><b>Min: </b> Returns the smallest number value in the column. Non-number values are treated as null and are not included in the calculation. <br><b>Count: </b> Returns the number of values in the column. Null values are not included."
+	],
+	"dcWidgets/palette/widgets:Chart.Bar.Series_Mode1": [
+		"Series Mode",
+		"Defines how the data values are rendered.<br><br><b>Clustered:</b> Compares data values side by side. This only applies to column series's.<br><b>Stacked:</b> Shows how data values contribute to a total.<br><b>100%:</b> Sums all data and scales it to 100, so that each data set is a relative proportion of 100."
+	],
+	"dcWidgets/palette/widgets:Chart.Scatter.Marker_Radius": [
+		"Marker Radius",
+		"Defines the marker radius in pixels."
+	],
+	"dcWidgets/palette/widgets.Options": [
+		"Options",
+		"A Comma Separated List that will be converted into the text of each item which will be displayed in the Drop down. The number of items in the Comma Separated list will determine how many items appear in the dropdown."
+	],
+	"dcWidgets/palette/widgets.Label": [
+		"Label",
+		"The text displayed."
+	],
+	"dcWidgets/palette/widgets:Selection.Combo_Box.Selected": [
+		"Selected",
+		"This returns what the user has selected. If in multi select mode, then it returns them as a csv. The user can also bind values to this field and they will be displayed as selected. However, as soon as a user changes the selection, by clicking on it, then the new item will appear in this property. If you choose to bind in multiple items, they must be in csv form, with no extra spaces."
+	],
+	"dcWidgets/palette/widgets:Selection.Data_Grid_Check_Box.Selected": [
+		"Selected",
+		"<b>true:</b> It is selected.<br><b>false:</b>It is not selected."
+	],
+	"dcWidgets/palette/widgets:Button.Button.Label": [
+		"Label",
+		"Sets the text which will be displayed in the button."
+	],
+	"dcWidgets/palette/widgets:Button.Button.Style": [
+		"Style",
+		"<b>Primary:</b> Blue button with white text.<br><br><b>Secondary:</b> White button with black text.<br>"
+	],
+	"dcWidgets/palette/widgets:Button.Button.Enabled": [
+		"Enabled",
+		"Sets whether the button is enabled or disabled.<br><br><b>true:</b> The button is enabled.<b>false:</b> The button is disabled. The button will turn grey and be unclickable.<br>"
+	],
+	"dcWidgets/palette/widgets.On_Click": [
+		"On Click",
+		"Passes an action out when the mouse is clicked on the symbol."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Path": [
+		"Path",
+		"The path of the image."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Style": [
+		"Style",
+		"<b>Primary:</b> Blue button with white text.<br><b>Secondary:</b> White button with black text."
+	],
+	"dcWidgets/palette/widgets:Button.Icon_Button.Enabled": [
+		"Enabled",
+		"Sets whether the button is enabled or disabled.<br><br><b>true:</b> The button is enabled.<b>false:</b> The button is disabled. The button will turn grey and be unclickable.<br>"
+	],
+	"dcWidgets/palette/widgets:Navigation.Top.Data": [
+		"Data",
+		"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 2 columns, “label” and “path.” There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label that will be on the tab.<br><p>path:</b> The path associated with the tab."
+	],
+	"dcWidgets/palette/widgets.Default": [
+		"Default",
+		"Set this to the index of the tab you would like to have as the tab selected by dfault. If you want no tab to be initially selected on load, Right click on the blue dot to the right of this property and select “Reset” to set it to null."
+	],
+	"dcWidgets/palette/widgets.Selected": [
+		"Selected",
+		"The index of the currently selected tab."
+	],
+	"dcWidgets/palette/widgets.Path": [
+		"Path",
+		"This is the path associated with the tab that is currently selected. It is commonly used with a Page Include to drive navigation of the page."
+	],
+	"dcWidgets/palette/widgets.Logo": [
+		"Logo",
+		"Sets the path of the logo image."
+	],
+	"dcWidgets/palette/widgets.Logo_Padding": [
+		"Logo Padding",
+		"Sets the padding around the logo."
+	],
+	"dcWidgets/palette/widgets.Enabled": [
+		"Enabled",
+		"<b>true:</b> Header is displayed.<br><b>false:</b> Header is hidden."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Default": [
+		"Default Tab",
+		"Set this to the index of the tab you would like to have as the default, selected tab. If you want no tab to be initially selected on load, Right click on the blue dot to the right of this property and select “Reset” to set it to null."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Selected": [
+		"Selected Tab",
+		"The index of the currently selected tab."
+	],
+	"dcWidgets/palette/widgets:Navigation.Layout_A.Data": [
+		"Data",
+		"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 2 columns, “label” and “path.” There should already be a sample table in the dataflow of the symbol. To edit click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab."
+	],
+	"dcWidgets/palette/widgets.Data": [
+		"Data",
+		"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 4 columns, \"parent\", “label”, “path.”, and \"icons.\" There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab.<br><b>icons:</b> Set a path to an image if you would like there to be an image with the label. Leave it null if you do not want to have an image.<br>"
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Selected": [
+		"Selected",
+		"<b>true:</b> It is selected.<br><b>false:</b>It is not selected."
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Style": [
+		"Select Style",
+		"<b>Box:</b> The selection location will be a square.<br><b>Circle:</b> The selection location will be a circle."
+	],
+	"dcWidgets/palette/widgets:Selection.Selection_Marker.Enabled": [
+		"Enabled",
+		"<b>true:</b>It is enabled.<b>false:</b> It is disabled. Greyed out and unclickable.<br>"
+	],
+	"dcWidgets/palette/widgets.Min": [
+		"Min",
+		"Sets the minimum value."
+	],
+	"dcWidgets/palette/widgets.Max": [
+		"Max",
+		"Sets the maximum value."
+	],
+	"dcWidgets/palette/widgets.Value": [
+		"Value",
+		"The current value."
+	],
+	"dcWidgets/palette/widgets.Unit": [
+		"Unit",
+		"<b>true:</b> Shows a unit to the right of the value.<br><b>false:</b> Does not show a unit to the right of the value."
+	],
+	"dcWidgets/palette/widgets.Left": [
+		"Left Label",
+		"The text will be displayed at the left position."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Middle": [
+		"Middle Label",
+		"The text will be displayed at the middle position."
+	],
+	"dcWidgets/palette/widgets.Right": [
+		"Right",
+		"The text will be displayed at the right position."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Default": [
+		"Default",
+		"Sets a default for the initial location of the toggle on load. It uses computer indexing, running from 0 – 2."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Selected": [
+		"Selected",
+		"The index of the currently selected item."
+	],
+	"dcWidgets/palette/widgets:Toggle.3_State_Toggle.Label": [
+		"Label",
+		"Returns the value in the selected toggle."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Orientation": [
+		"Orientation",
+		"Sets if the true condition is on the left or right.<br><br><b>On Left:</b> The ball of the toggle is on the left when the condition is true.<br><b>On Right:</b> The ball of the toggle is on the right when the condition is true."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Enabled": [
+		"Enabled",
+		"Disables click and movement of toggle.<br><br><b>true:</b> Toggle is enabled. <br><b>false:</b> Toggle will grey out and not be clickable."
+	],
+	"dcWidgets/palette/widgets:Toggle.Toggle.Value": [
+		"Value",
+		"Reflects the state of the toggle. As the user click on it, it changes from true to false. This can be bound to drive behavior or actions. Alternately, if you want to have the toggle automated by another process, bind it to this Boolean."
+	],
+	"dcWidgets/palette/widgets:Weather.Postal_Code": [
+		"Postal Code",
+		"Sets the Postal Code for the weather location. If no Country Code is selected as well, it will default to USA. If it is a country other then the USA, then you must also select a County Code."
+	],
+	"dcWidgets/palette/widgets:Weather.Units": [
+		"Units",
+		"Select the units you wish to display weather data in."
+	],
+	"dcWidgets/palette/widgets:Weather.City": [
+		"City",
+		"Sets the City of the location. You must also select a Country Code. <br><br>If there are more than one city, with the same name in the country, there is no way to determine which city it should be. In that case, either Latitude / Longitude or Postal Code is a more precise way to establish the desired location."
+	],
+	"dcWidgets/palette/widgets:Weather.Latitude": [
+		"Latitude",
+		"Sets the latitude of the weather location. It should be a value between -90 and 90. Make sure to use all 6 decimal places to maintain accuracy. The number displayed in the property panel is rounded, but will show the full value is you click on the field."
+	],
+	"dcWidgets/palette/widgets:Weather.Longitude": [
+		"Longitude",
+		"Sets the longitude of the weather location. It should be a value between -180 and 180. Make sure to use all 6 decimal places to maintain accuracy. The number displayed in the property panel is rounded, but will show the full value is you click on the field."
+	],
+	"dcWidgets/palette/widgets:Weather.State": [
+		"State",
+		"USA only state codes. If you are not in the USA, select Not Applicable. You must also select a County Code."
+	],
+	"dcWidgets/palette/widgets:Weather.Mode": [
+		"Mode",
+		"Selects which method will query the weather API to set the location that will be displayed in the weather widget.<br><br><b>Postal Code: </b> You will set the location by entering the postal code of said location.<br><b>Latitude / Longitude: </b> You will set the location by entering the latitude and longitude of said location.<br><b>Location: </b> You will set the location by entering the city and country of said location."
+	],
+	"dcWidgets/palette/widgets:Weather.Country": [
+		"Country",
+		"Is the ISO 3166 Alpha 2 code standard. Please refer to the link to see the full list. It is not clickable. Cut and paste it into a new browser window.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
+	],
+	"dcWidgets/palette/widgets:Weather.API_Key": [
+		"API Key",
+		"This is your new API key to Openweather.org."
+	],
+	"dcWidgets/palette/widgets:Weather.Set_API_Key": [
+		"Set New API Key",
+		"Sets a new API key to Opeanweather.org."
+	],
+	"dcWidgets/palette/widgets:Weather.Country1": [
+		"Country",
+		"Is the ISO 3166 Alpha 2 code standard. Please refer to the link to see the full list. It is not clickable. Cut and paste it into a new browser window.<br><br>https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes"
+	],
+	"dcWidgets/palette/widgets.Language": [
+		"Language",
+		"Sets language that is not captured by the global selection. <br><br><b>en:</b> English<br><b>fr:</b> French"
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Selected_Row": [
+		"Selected Row",
+		"The row that is currently selected by the navigation."
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Auto_Close_Time": [
+		"Auto Close Time",
+		"The time, in seconds, in which the submenu will disappear after making a selection."
+	],
+	"dcWidgets/palette/widgets:Navigation.Left_w_SubMenu.Data": [
+		"Data",
+		"The table that holds the labels and Paths that will be displayed as a tab. Each row of the table is one tab. The table must have 4 columns, \"parent\", “label”, “path.” and \"icons.\" There should already be a sample table in the dataflow of the symbol. To edit, click on Edit Source Table and edit as you need.<br><br><b>parent:</b> This indicates wether there is a parent node. If you would like the menu item to be in the root menu, then leave it null. All rows with the same parent will be grouped together for a sub menu.<br><b>label:</b> The label which will be on the tab.<br><p>path:</b> The path associated with the tab.<br><b>icons:</b> Set a path to an image if you would like there to be an image with the label. Leave it null if you do not want to have an image.<br>"
+	],
+	"dcWidgets/palette/widgets:Image.Image.Dark_Theme": [
+		"Dark Theme",
+		"Sets predefined light or dark color theme.<br><br><br><b>true</b> - Sets dark theme.<br><br><b>false</b> - Sets light theme.<br>"
+	],
+	"dcWidgets/palette/widgets:Image.Image.Path": [
+		"Path",
+		"The path of the image."
+	],
+	"dcWidgets/palette/widgets:Image.Building.Image_Scaling": [
+		"Image Scaling",
+		"<b>Contain: </b>The image scales while maintaining its aspect ratio. Part of the container might be empty.<br> <b>Cover: </b>The image scales to fill the container while maintaining its aspect ratio. Any part of the image that overflows the container is clipped.<br><b>Stretch: </b>The image stretches to cover the container. The image’s aspect ratio is not maintained."
+	],
+	"dcWidgets/palette/widgets.Image_Path": [
+		"Image Path",
+		"The path of the image."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Title": [
+		"Title",
+		"Defines the display name of this series."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Dark_Mode": [
+		"Dark Mode",
+		"Sets predefined light or dark color theme.<br><br><br><b>true</b> - Sets dark theme.<br><br><b>false</b> - Sets light theme.<br>"
+	],
+	"dcWidgets/palette/widgets:Floorplan.Menu": [
+		"Menu",
+		"Shows or hides the 3 vertical menu dots.<br><br><br><br><b>true</b> - Menu dots are shown.<br><br><b>false</b> - Menu dots are hidden.<br>"
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Value": [
+		"Value",
+		"This sets the value displayed. Bind from the target point. It will be the third line in the callout. It is a smaller font size. It will also be used to calculate the gradient color based on the relationship between the min and max values."
+	],
+	"dcWidgets/palette/widgets.Min_Value": [
+		"Min Value",
+		"Sets the minimum value."
+	],
+	"dcWidgets/palette/widgets.Max_Value": [
+		"Max Value",
+		"Sets the maximum value."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Short_Label": [
+		"Short Label",
+		"This sets the short label. It will be the top line of the callout and slightly larger font size. So it is assumed to be a shorter version or code for quick reference."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Long_Label": [
+		"Long Label",
+		"This sets the long label. It will be the second line in the callout and can give more description about the location. It is a smaller font size."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Small_Size_Display": [
+		"Small Size Display",
+		"Selects which text will be displayed in the marker. <br><br><b>Short:</b> The text entered in the Short Label property. <br><b>Long:</b> The text entered in the Long Label property.<br><b>Value:</b> The text entered in the Value property."
+	],
+	"dcWidgets/palette/widgets.Min_Color": [
+		"Min Color",
+		"Sets the color that will be the coldest of the color gradient. The gradient will change to white at the midpoint."
+	],
+	"dcWidgets/palette/widgets.Max_Color": [
+		"Max Color",
+		"Sets the color that will be the hottest of the color gradient. The gradient will start as white at the midpoint."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Shadow": [
+		"Shadow",
+		"<b>true:</b> A shadow is displayed.<br><b>false:</b>A shadow is not displayed."
+	],
+	"dcWidgets/palette/widgets:Floorplan.Marker.Precision": [
+		"Precision",
+		"The amount of places after the decimal that will be displayed for values."
+	],
+	"dcWidgets/palette/widgets:Selection.Dropdown.Selected": [
+		"Selected",
+		"Each item the user selects will be added to a Comma Separated List."
+	],
+	"dcWidgets/palette/widgets:Selection.Dropdown.Close": [
+		"Close",
+		"Passes the action internally. User could bind from it to trigger other event after drop down closes."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Value_Out": [
+		"Value Out",
+		"The current value of the slider. It is read only."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Min": [
+		"Min",
+		"Sets the minimum value of the slider bar."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Max": [
+		"Max",
+		"Sets the maximum value of the slider bar."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Show_Value": [
+		"Show Value",
+		"Sets the condition that will show the numeric representation of the current value.<br><br><b>Always:</b> The value will always be displayed.<br><b>While Moving:</b> The value will displayed while the slider knob is moving.<br><b>Never:</b> The value will never be displayed."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Enabled": [
+		"Enabled",
+		"<b>true:</b> The slider is enabled.<b>false:</b> The slider is disabled. It will be greyed out and unclickable.<br>"
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Enabled1": [
+		"Enabled",
+		"<b>true:</b> The knob will move in increments defined by the user, instead of by increments of 1.<br><false:</b> The knob will move in increments based on the range difference between the min and max values."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Interval": [
+		"Interval",
+		"If Enable Steps is set to true, it sets the interval at which the knob will move. If Enable Steps is set to false, the interval will be based on the range of the max and min values. If the range is less than 10, then the interval will be in tenths. If greater than 10, it will be 1."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Track_Start": [
+		"Origin Value",
+		"Places an origin location at this point. If you want a standard slider, set the Origin Value equal to the Min Value. If the Origin Value does not equal the Minimum, then the knob will move out from the Origin Point."
+	],
+	"dcWidgets/palette/widgets.Show_Header": [
+		"Show Header",
+		"<b>true:</b> The header is displayed.<br><b>false:</b> The header is not displayed."
+	],
+	"dcWidgets/palette/widgets.Step": [
+		"Step",
+		"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+	],
+	"dcWidgets/palette/widgets.Step1": [
+		"Step",
+		"Defines the interval between each consecutive pair of major ticks, in the units of the axis."
+	],
+	"dcWidgets/palette/widgets.Line_Mode": [
+		"Line Mode",
+		"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
+	],
+	"dcWidgets/palette/widgets.Line_Mode1": [
+		"Line Mode",
+		"Defines the shape of the lines in a line or area series.<br><br><b>Segment: </b>Markers are connected using line segments.<br><b>Step: </b>Markers are connected using orthogonal line segments. Horizontal and vertical segments alternate, beginning with a horizontal segment.<br><b>Reverse Step: </b>Markers are connected using orthogonal line segments. Vertical and horizontal segments alternate, beginning with a vertical segment.<br><b>Vertical: </b>Only the vertical segments from a Step line form are displayed.<br><b>Horizontal: </b>Only the horizontal segments from a Step line form are displayed.<br><b>Curve: </b>Markers are connected using a curve."
+	],
+	"dcWidgets/palette/widgets.Placement": [
+		"Placement",
+		"Specifies whether the axis is positioned on the left, right or center of the chart."
+	],
+	"dcWidgets/palette/widgets.Placement1": [
+		"Placement",
+		"Specifies whether the axis is positioned on the left, right or center of the chart."
+	],
+	"dcWidgets/palette/widgets.Markers": [
+		"Markers",
+		"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
+	],
+	"dcWidgets/palette/widgets.Markers1": [
+		"Markers",
+		"<b>true:</b> Markers are displayed for each data point.<br><b>false:</b>Markers are not displayed."
+	],
+	"dcWidgets/palette/widgets.Interval_Unit": [
+		"Interval Unit",
+		"Defines the units for this Datetime axis. A value of Auto means that units are determined automatically based on the data feeding the chart."
+	],
+	"dcWidgets/palette/widgets.Update_Interval": [
+		"Update Interval",
+		"Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on autoLoad."
+	],
+	"dcWidgets/palette/widgets.Default_Label2": [
+		"Default Label",
+		"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+	],
+	"dcWidgets/palette/widgets.Default_Label3": [
+		"Default Label",
+		"If the user does not assign a label when adding a path to the chart then specifies the string that is used as the name of each value history column in the output table. The value of the header property can be one of the following:<br><br><b>Default:</b> The default string 'vn'<br><b>Name:</b> The name of this node, for which this column is a value history<br><b>Parent:</b> The name of the data node's parent<br><b>Parent Name</b>: The names of both this node and its parent"
+	],
+	"dcWidgets/palette/widgets.MinY1": [
+		"Min",
+		"Sets the lower bound of the axis."
+	],
+	"dcWidgets/palette/widgets.MinY2": [
+		"Min",
+		"Sets the lower bound of the axis."
+	],
+	"dcWidgets/palette/widgets.MaxY1": [
+		"Max",
+		"Sets the upper bound of the axis."
+	],
+	"dcWidgets/palette/widgets.MaxY2": [
+		"Max",
+		"Sets the upper bound of the axis."
+	],
+	"dcWidgets/palette/widgets.UnitY1": [
+		"Unit",
+		"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
+	],
+	"dcWidgets/palette/widgets.UnitY2": [
+		"Unit",
+		"<b>true:</b> Shows the units next to the axis.<br><b>false:</b> Does not show the units next to the axis."
+	],
+	"dcWidgets/palette/widgets.Axis": [
+		"Axis",
+		"The path will be assigned to the Primary or Secondary axis."
+	],
+	"dcWidgets/palette/widgets.Color": [
+		"Color",
+		"The color of the label and data."
+	],
+	"dcWidgets/palette/widgets.Bar_Name": [
+		"Bar Name",
+		"This is the label that will appear on the Y Axis and will group all the points into this bar. Make sure all paths that you would like to have appear in a bar have the exact same Bar Name."
+	],
+	"dcWidgets/palette/widgets.Group": [
+		"Group",
+		"Sets the group name which is used to identify similar values in each bar. All items in the group will have the same color, to make them easy to identify in the bar graph. It will also appear as a label on the top of the graph."
+	],
+	"dcWidgets/palette/widgets.Group_Color": [
+		"Group Color",
+		"The color of the group. If left null, a color from the Enysion color palette will be automatically selected."
+	],
+	"dcWidgets/palette/widgets.Curve_Input": [
+		"Curve Input",
+		"Drag and drop the path that will be the X point of the live point."
+	],
+	"dcWidgets/palette/widgets.Curve_Output": [
+		"Curve Output",
+		"Drag and drop the path that will be the Y point of the live point."
+	],
+	"dcWidgets/palette/widgets.Curve_Color": [
+		"Curve Color",
+		"Sets the color of the heat curve and the markers."
+	],
+	"dcWidgets/palette/widgets.Live_Point_Color": [
+		"Live Point Color",
+		"Sets the color of the live point."
+	],
+	"dcWidgets/palette/widgets.Show_Unit": [
+		"Show Unit",
+		"<b>true:</b> The unit is displayed.<br><b>false:</b> The unit is not displayed."
+	],
+	"dcWidgets/palette/widgets.Points": [
+		"Points",
+		"Sets the path for the Y point. Drag and drop a path from the data tree to the chart to bring up binding dialog. You can also drag and drop the path button on the plus sign below, to get the same binding dialog. Once paths have been dropped, you may edit any of the sub-properties by clicking the pencil icon, or you can delete it by clicking on the '-' icon."
+	],
+	"dcWidgets/palette/widgets.X_Path": [
+		"X Path",
+		"Sets the path for the X point."
+	],
+	"dcWidgets/palette/widgets.MinX": [
+		"Min",
+		"Sets the lower bound of the axis."
+	],
+	"dcWidgets/palette/widgets.MaxX": [
+		"Max",
+		"Sets the upper bound of the axis."
+	],
+	"dcWidgets/palette/widgets:Slider.Slider.Value_In": [
+		"Value In",
+		"Bind a value here to have the slider adjust to the bound value. Once the user moves the slider, the value shown will show what the user set it to. However, if the value bound to it changes, then the slider will move automatically to that value."
+	],
+	"dcWidgets/palette/widgets.Alarm_Count_Period": [
+		"Alarm Count Period",
+		"Defines the time range in hours on which the alarm count calculation is based."
+	],
+	"dcWidgets/palette/widgets.Sample_Interval": [
+		"Sample Interval",
+		"Specifies the time interval between each consecutive pair of data points. It is recommended to set this before you set your time ranges."
+	],
+	"dcWidgets/palette/widgets.Series_1_Time_Range": [
+		"Time Range",
+		"Defines the Time Range for which to graph the data. For best results, ensure both time ranges are of equal length."
+	],
+	"dcWidgets/palette/widgets.Series_2_Time_Range": [
+		"Time Range",
+		"Defines the Time Range for which to graph the data. For best results, ensure both time ranges are of equal length."
+	],
+	"dcWidgets/palette/widgets.Width": [
+		"Width",
+		"Sets the width of the callout. Default units are pixels. To make it a percentage, use a '%', after your value input"
+	],
+	"dcWidgets/palette/widgets.Height": [
+		"Height",
+		"Sets the width of the callout. Default units are pixels. To make it a percentage, use a '%'', after your value input"
+	],
+	"dcWidgets/palette/widgets.Page_Include_Path": [
+		"Path",
+		"Enter the path of the dg5 page to render in the callout when the map marker is clicked."
+	],
+	"dcWidgets/palette/widgets.Action": [
+		"Action",
+		"Enter the action for the button to execute when clicked. Entry is case sensitive"
+	],
+	"dcWidgets/palette/widgets.Action_Value": [
+		"Value",
+		"If the action requires a value, enter the value (case sensitive) in the value field. If the action has no value, leave it blank."
+	]
 }
