@@ -39,6 +39,12 @@ steps:
   persistCredentials: true
   submodules: true
   displayName: 'Checkout DGLux source code'
+- task: VariableSetTask@1
+  inputs:
+    VariableName: 'Build.BuildNumber'
+    Value: '$(Build.Counter) Update Locales for ${{ parameters.branch }}'
+    IsSecret: false
+  displayName: 'Set build number'
 - bash: |
     wget https://storage.googleapis.com/dart-archive/channels/stable/release/$(Dart.SDK.Version)/sdk/dartsdk-linux-x64-release.zip -O sdk.zip
     unzip -o sdk.zip
