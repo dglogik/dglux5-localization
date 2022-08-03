@@ -953,5 +953,6 @@
   "Show_Humidity": "Show Humidity",
   "Light_On": "Light On",
   "Show_Setpoint": "Show Setpoint",
-  "Temp_Unit": "Temp Unit"
+  "Temp_Unit": "Temp Unit",
+  "Show_Min_Max_Labels": "Show Min Max Labels"
 }
