@@ -124,7 +124,7 @@
         "Specifies the cosine to get the angle for. Must be between &minus;1 and 1."
     ],
     "acos.output": [
-        "input",
+        "output",
         "Returns the arccosine of the input, in degrees."
     ],
     "add.0": [
@@ -161,7 +161,7 @@
     ],
     "and.op": [
         "op",
-        "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an And block is \"and\". The block will not act as described if you change this property.</p>"
+        "<p>Specifies the comparison, logical, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an And block is \"and\". The block will not act as described if you change this property.</p>"
     ],
     "and.output": [
         "output",
@@ -173,11 +173,11 @@
     ],
     "angleFrom": [
         "Start Angle",
-        "Specifies the start angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between &minus;180 and 180."
+        "Specifies the start angle of the circular scale, in degrees. A value of zero indicates the top of the circle. Valid values are between &minus;360 and 360."
     ],
     "angleTo": [
         "End Angle",
-        "Specifies the end angle of the circular scale. A value of zero indicates the top of the circle. Valid values are between &minus;180 and 180."
+        "Specifies the end angle of the circular scale, in degrees. A value of zero indicates the top of the circle. Valid values are between &minus;360 and 360."
     ],
     "apikey": [
         "API Key",
@@ -208,15 +208,15 @@
         "Specifies the sine to get the angle for. Must be between &minus;1 and 1."
     ],
     "asin.output": [
-        "input",
+        "output",
         "Returns the arcsine of the input, in degrees."
     ],
     "atan.input": [
         "input",
-        "Specifies the tangent to get the angle for."
+        "Specifies the tangent to get the angle for, or the y-coordinate of a point when x is set."
     ],
     "atan.output": [
-        "input",
+        "output",
         "Returns the arctangent of the input, in degrees."
     ],
     "autocomplete": [
@@ -285,19 +285,19 @@
     ],
     "axis.computedMaximum": [
         "Computed Maximum",
-        "Returns the maximum of the axis range, which is defined either automatically or by the <strong>Axis Maximum</strong> property. This is a read&minus;only property, so changing it does nothing."
+        "Returns the maximum of the axis range, which is defined either automatically or by the <strong>Max</strong> property. This is a read-only property."
     ],
     "axis.computedMinimum": [
         "Computed Minimum",
-        "Returns the minimum of the axis range, which is defined either automatically or by the <strong>Axis Minimum</strong> property. This is a read&minus;only property, so changing it does nothing."
+        "Returns the minimum of the axis range, which is defined either automatically or by the <strong>Min</strong> property. This is a read-only property."
     ],
     "axis.dgAssignedMaximum": [
-        "Axis Maximum",
-        "Specifies the maximum of the axis range."
+        "Max",
+        "Specifies the maximum of the axis range. If not set, the maximum is determined automatically."
     ],
     "axis.dgAssignedMinimum": [
-        "Axis Minimum",
-        "Specifies the minimum of the axis range."
+        "Min",
+        "Specifies the minimum of the axis range. If not set, the minimum is determined automatically."
     ],
     "axis.dgAutoAdjust": [
         "Auto Adjust",
@@ -340,8 +340,8 @@
         "Specifies the font used for the labels along this axis. To add a font to your project:<ol><li>If your project does not have a fonts folder, right&minus;click the root folder for your project, and add a folder named <code>fonts</code>.</li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop&minus;down menu for this property.</li></ol>"
     ],
     "axisRenderer.labelSymbol": [
-        "Label Symbol",
-        "Specifies the symbol to use for a custom label renderer."
+        "Custom Label Symbol",
+        "Specifies the symbol to use for custom labels when Label Type is Custom."
     ],
     "axisRenderer.labelToTitleGap": [
         "Label to Title Gap",
@@ -352,7 +352,7 @@
         "<p>For a vertical axis, specifies whether the axis is positioned on the left or the right of the chart. For a horizontal axis, specifies whether the axis is positioned on the top or the bottom of the chart.</p>"
     ],
     "axisRenderer.titleAlign": [
-        "Title Alignment",
+        "Title Align",
         "For a vertical axis, specifies whether the axis title is aligned to the top, bottom, or center of the axis. For a horizontal axis, specifies whether the axis title is aligned to the left, right, or center of the axis."
     ],
     "axisRenderer.titleColor": [
@@ -380,7 +380,7 @@
         "Specifies whether the title of this axis is underlined."
     ],
     "axisStroke": [
-        "Axis Stroke Color",
+        "Line",
         "Specifies the color of the line that represents this axis."
     ],
     "axisStrokeStyle": [
@@ -569,7 +569,7 @@
     ],
     "calBondType": [
         "Callout Bond",
-        "Specifies the shape of the stroke that connects this callout to its target."
+        "Specifies the shape of the stroke that connects a static callout to its target: None (default), Line, or Curve."
     ],
     "calCacheSymbol": [
         "Callout Cache Symbol",
@@ -580,8 +580,8 @@
         "Specifies how the callout contents is clipped."
     ],
     "calCreationPolicy": [
-        "calCreationPolicy",
-        "<p>For browser performance optimization, specifies when memory is allocated for a callout.</p>"
+        "Creation Policy",
+        "Specifies when the callout symbol is created and whether it is kept after the callout is hidden. On Display (default): created when shown, removed when hidden. On Demand: created when first shown, then cached. Always: created in advance and cached."
     ],
     "calendar.arrowFontFamily": [
         "Arrow Font",
@@ -673,7 +673,7 @@
     ],
     "calIgnoreBounds": [
         "Ignore Bounds",
-        "When enabled, allows callouts to go out of the container's boundary."
+        "When FALSE (default), mouse-over and event callouts are moved to stay inside the visible window. When TRUE, the callout is placed at its position even if part of it is outside the visible area."
     ],
     "calloutSymbolId": [
         "Symbol",
@@ -753,7 +753,7 @@
     ],
     "case.op": [
         "op",
-        "Specifies the arithmetic, comparison, or text operator to apply to the source value and each test value. It is used in conjunction with <strong>input</strong> and <strong>case <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE."
+        "Specifies the comparison or text operator to apply to the source value and each test value: =, >, <, >=, <=, contains, startsWith, endsWith, regexp. It is used in conjunction with <strong>input</strong> and <strong>case <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE."
     ],
     "case.output": [
         "output",
@@ -864,7 +864,7 @@
         "Trigger to open color input dialog."
     ],
     "columnSeries.dgOffset": [
-        "Column Series Offset",
+        "Offset",
         "<p>Moves columns to the left or right by a portion of the maximum column width. The maximum column width is equal to 1&#47;n of the plot area width, with n being the total number of columns for the chart. For example, an offset of &minus;0.1 moves the columns to the left by 10% of this maximum width, and an offset of 0.1 moves the columns to the right by 10% of this maximum width. This property is related to the <strong>Column Width Ratio</strong> property for the chart. The <strong>Column Width Ratio</strong> determines the width of each column in the chart as a percentage of the maximum column width.</p><p><strong>Example</strong>: The <strong>Column Width Ratio</strong> is 60%, and there are two series. To offset the columns in series 1 by 10% of their width, use the value (0.6 &#47; 2) * 0.1 &#61; 0.03 for <strong>Column Series Offset</strong>.</p>"
     ],
     "columnSeries.symbol": [
@@ -904,7 +904,7 @@
         "Specifies the angle to get the cosine for, in degrees."
     ],
     "cos.output": [
-        "input",
+        "output",
         "Returns the cosine of the input."
     ],
     "cot.input": [
@@ -912,7 +912,7 @@
         "Specifies the angle to get the cotangent for, in degrees."
     ],
     "cot.output": [
-        "input",
+        "output",
         "Returns the cotangent of the input."
     ],
     "creationPolicy": [
@@ -949,7 +949,7 @@
     ],
     "csvWriter.withHeader": [
         "withHeader",
-        "Specifies whether the input table contains a header row."
+        "Specifies whether the output CSV string starts with a header row that contains the column names."
     ],
     "cursor": [
         "Cursor",
@@ -1033,7 +1033,7 @@
     ],
     "datagrid.gridMode": [
         "Gridlines",
-        "Specifies whether the Property Inspector displays property editing options for horizontal gridlines, vertical gridlines, or both. Changing this property does not reset any gridline properties."
+        "Specifies which gridlines are used: None (default), Horizontal, Vertical, or Both. The Property Inspector displays the editing options for the selected gridlines. Changing this property does not reset any gridline properties."
     ],
     "datagrid.headerAlign": [
         "Header Align",
@@ -1209,7 +1209,7 @@
     ],
     "datagrid.sortColumn": [
         "Sort Column",
-        "Specifies the name of the column by which to sort the data. The column must have its the <strong>Sortable</strong> property enabled."
+        "Specifies the name of the column by which to sort the data. The column must have the <strong>Sortable</strong> property enabled."
     ],
     "datagrid.sortOrder": [
         "Sort Order",
@@ -1644,8 +1644,8 @@
         "Returns a DateTime string created from the specified input string and format."
     ],
     "dateFormat.timezone": [
-        "Time Zone",
-        "Time zone for the format."
+        "timezone",
+        "Specifies the time zone of the output: local (default), auto (use the offset in the input string), or an offset such as +08:00."
     ],
     "dateFormInput.inputType": [
         "Input Type",
@@ -1737,7 +1737,7 @@
     ],
     "daterange.keepSpecial": [
         "Keep Special Value",
-        "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='https://wiki.dglogik.com/dglux5_wiki:property_inspector:daterange'>the wiki</a>."
+        "Specifies how formatting is determined for the Formatted Value, Next Value, and Previous Value properties. For more information, see <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:daterange:home#keep_special'>the wiki</a>."
     ],
     "dateRange.keepSpecial": [
         "keepSpecial",
@@ -1784,8 +1784,8 @@
         "Specifies the string used to delimit the beginning of the range and the end of the range."
     ],
     "dateRange.refresh": [
-        "Refresh",
-        "Trigger to update output."
+        "refresh",
+        "Recalculates the outputs."
     ],
     "daterange.thisRange": [
         "This Value",
@@ -1796,8 +1796,8 @@
         "Returns the currently selected range in <strong>input</strong>."
     ],
     "dateRange.timezone": [
-        "Time Zone",
-        "Time zone for the range."
+        "timezone",
+        "Time zone offset such as +08:00 used to calculate special values and relative ranges."
     ],
     "daterangePicker.buttonBackground": [
         "Button Background",
@@ -1892,12 +1892,12 @@
         "Specifies the year. Can include one to four digits."
     ],
     "datetimeAxis.alignLabelsToUnits": [
-        "Align Labels To Units",
-        "By default, labels start at the beginning data. To start labels at the beginning of the specified data interval, enable this option."
+        "Align To Units",
+        "Specifies whether labels are aligned to the start of the label units (for example, the start of each day)."
     ],
     "datetimeAxis.dateRange": [
         "Date Range",
-        "Manually&minus;specified range of dates for axis."
+        "Sets the axis minimum and maximum from a date range. Only takes effect when Auto Adjust is FALSE."
     ],
     "datetimeAxis.dgDataInterval": [
         "Data Interval",
@@ -1916,8 +1916,8 @@
         "The units that the axis uses to generate labels."
     ],
     "datetimeAxis.leftRightLabelThreshold": [
-        "Left Right Label Threshold",
-        "Percent of current label interval used to determine whether to display label before the first and after the last data point."
+        "Left/Right Label Threshold",
+        "Percent of current label interval used to determine whether to display a label before the first and after the last data point."
     ],
     "day": [
         "Day",
@@ -1976,12 +1976,12 @@
         "Default value for mapping"
     ],
     "delay.0": [
-        "input",
-        "The value to be output after the delay period expires."
+        "input n",
+        "The value to be output on output n after the delay period expires."
     ],
     "delay.1": [
-        "output",
-        "The value that was delivered when the delay period expired."
+        "output n",
+        "The value of input n, delivered when the delay period expired."
     ],
     "delay.delay": [
         "delay",
@@ -2381,7 +2381,7 @@
     ],
     "dragSize.dragMode": [
         "dragMode",
-        "<p>Specifies restrictions on the direction of resizing.</p><p><strong>maxWidth</strong>: Resizing is not restricted.</p><p><strong>maxHeight</strong>: The user can resize the object vertically by dragging, but not horizontally.</p><p><strong>dragMode</strong>: The user can resize the object horizontally by dragging, but not vertically.</p>"
+        "<p>Specifies restrictions on the direction of resizing.</p><p><strong>Default</strong>: Resizing is not restricted.</p><p><strong>Vertical</strong>: The user can resize the object vertically by dragging, but not horizontally.</p><p><strong>Horizontal</strong>: The user can resize the object horizontally by dragging, but not vertically.</p>"
     ],
     "dragSize.dragStart": [
         "dragStart",
@@ -2533,7 +2533,7 @@
     ],
     "eventGate.0": [
         "input n",
-        "Specifies one of the values that this block listens to."
+        "Specifies one of the values that this block listens to. An input counts as updated whenever a value is set to it, even if the value is unchanged."
     ],
     "eventGate.logOrder": [
         "logOrder",
@@ -2557,11 +2557,11 @@
     ],
     "exportHtml.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the HTML contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
+        "Specifies a name for the exported file. If it has no extension, the format is appended. If blank, the contents are returned in <strong>output</strong> (an HTML string for html, binary otherwise) and are not downloaded. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
     ],
     "exportHtml.format": [
         "format",
-        "Specifies the file format to download. Select <strong>HTML</strong> for this property. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
+        "Specifies the export format: png (default), jpg, pdf, or html. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_html'>More information)</a>"
     ],
     "exportHtml.inlineStyles": [
         "Inline Styles",
@@ -2577,11 +2577,11 @@
     ],
     "exportHtml.pdfSize": [
         "Size",
-        "Specifies the paper size of the output."
+        "Specifies the page size for PDF export: a3, a4, a5 (default), letter, legal, or autosize."
     ],
     "exportHtml.scale": [
         "Scale",
-        "Scale factor for graphics."
+        "Resolution factor for PDF export. Default 1."
     ],
     "exportPaginatedPDF.enabled": [
         "enabled",
@@ -2589,7 +2589,7 @@
     ],
     "exportPaginatedPDF.filename": [
         "filename",
-        "Specifies a name for the exported file. If blank, the PDF contents are returned as a string in <strong>output</strong> and are not downloaded. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf'>More information)</a>"
+        "Specifies a name for the exported file. If it has no extension, .pdf is appended. If blank, the PDF is returned as binary data in <strong>output</strong> and is not saved. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:export_pdf'>More information)</a>"
     ],
     "exportPaginatedPDF.invoke": [
         "invoke",
@@ -2601,7 +2601,7 @@
     ],
     "exportPaginatedPDF.padding": [
         "Padding",
-        "The amount of padding around page contents."
+        "Margin around the content of each page, in pixels. Default 20."
     ],
     "exportPaginatedPDF.scale": [
         "Scale",
@@ -2609,11 +2609,11 @@
     ],
     "exportPaginatedPDF.size": [
         "Size",
-        "Specifies the paper size of the output."
+        "Specifies the page size: a3, a4, a5 (default), letter, legal, or autosize."
     ],
     "exportPaginatedPDF.units": [
         "Units",
-        "The unit in which padding is specified."
+        "Measurement unit of the PDF document: pt, mm (default), cm, or in."
     ],
     "expression": [
         "Expression",
@@ -2789,7 +2789,7 @@
     ],
     "followPathPosition": [
         "Follow Path Position",
-        "Specifies how far along the path this component is located. Typically, a value of 0% indicates the top&minus;left corner of the path. Valid values are between 0% and 100%."
+        "Specifies how far along the path this component is located. Typically, a value of 0% indicates the top-left corner of the path. Valid values are between -100% and 100%."
     ],
     "followPathRotationEnabled": [
         "Follow Path Rotation",
@@ -2833,7 +2833,7 @@
     ],
     "formatNumber.output": [
         "output",
-        "Returns the number or formatted string."
+        "Returns the formatted string."
     ],
     "formatted": [
         "Formatted",
@@ -2977,11 +2977,11 @@
     ],
     "gradientMapping.max": [
         "max",
-        "Specifies the maximum of the number scale, corresponding to the right end of the gradient."
+        "Specifies the maximum of the number scale, corresponding to the right end of the gradient. The default is 100."
     ],
     "gradientMapping.min": [
         "min",
-        "Specifies the minimum of the number scale, corresponding to the left end of the gradient."
+        "Specifies the minimum of the number scale, corresponding to the left end of the gradient. The default is 0."
     ],
     "gradientMapping.output": [
         "output",
@@ -2996,7 +2996,7 @@
         "Specifies the position of the selected fill color in the gradient. A value of 0% positions the selected color at the leftmost edge of the track that Specifies the gradient. A value of 100% positions it at the rightmost edge."
     ],
     "gridColumn.!label": [
-        "Column Label",
+        "Label",
         "Specifies the label to be used as heading text for columns controlled by this column editor. <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>[More information]</a>."
     ],
     "gridColumn.category": [
@@ -3016,11 +3016,11 @@
         "<p>Specifies whether the columns affected by this <a href='https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:data_grid:home#order'>column editor</a> are sortable.</p>"
     ],
     "gridColumn.sortAsc": [
-        "Sort Ascending",
+        "Sort Asc",
         "Sorts the data using this column, in ascending order. Using this trigger changes the <strong>Sort Order</strong> to Ascending, under Data Grid properties."
     ],
     "gridColumn.sortDesc": [
-        "Sort Descending",
+        "Sort Desc",
         "Sorts the data using this column, in descending order. Using this trigger changes the <strong>Sort Order</strong> to Descending, under Data Grid properties."
     ],
     "gridColumn.sortingIndicator": [
@@ -3160,12 +3160,12 @@
         "<p>Specifies the table column from which the intensity values are determined.</p><p>\"Intensity\" refers to whatever units the heat map is measuring, for example temperature or air flow. Each data point on the heat map has an intensity value that determines its color.</p><p>Intensity values range from 0 to the highest data value. An intensity of 0 corresponds to the left end of this heat map's gradient, and the highest intensity value corresponds to the right end of this heat map's gradient.</p>"
     ],
     "heatMap.dataMax": [
-        "Data Maximum",
-        ""
+        "Data Max",
+        "Optional maximum of a fixed intensity range. Used only when Data Min is also set and is smaller than Data Max."
     ],
     "heatMap.dataMin": [
-        "Data Minimum",
-        ""
+        "Data Min",
+        "Optional minimum of a fixed intensity range. Used only when Data Max is also set and is greater than Data Min."
     ],
     "heatMap.falloff": [
         "Falloff",
@@ -3176,7 +3176,7 @@
         ""
     ],
     "heatMap.radius": [
-        "Radius",
+        "Item Radius",
         "Specifies the radius of each item on the heat map."
     ],
     "heatMap.secondStopColor": [
@@ -3277,22 +3277,22 @@
     ],
     "hub.onChange": [
         "On Change",
-        "Event fired when the output changes."
+        "Fires each time an input is updated."
     ],
     "hub.output": [
         "output",
         "Returns the value of the most recently updated <strong>input <em>n</em></strong> property."
     ],
     "hZoomMax": [
-        "Horizontal Zoom Maximum",
+        "Horiz Zoom Maximum",
         "Sets or returns the maximum of the range on the horizontal axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen. Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\"."
     ],
     "hZoomMin": [
-        "Horizontal Zoom Minimum",
+        "Horiz Zoom Minimum",
         "Sets or returns the minimum of the range on the horizontal axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen. Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\"."
     ],
     "hZoomTrigger": [
-        "Horizontal Zoom Trigger",
+        "Horiz Zoom Trigger",
         "Zooms the chart to the range specified by the Horizontal Zoom Minimum and Maximum. To return the chart to its pre&minus;zoom view, the user can click on the chart. Zooming works only with linear, log, and datetime axes."
     ],
     "if.0": [
@@ -3305,7 +3305,7 @@
     ],
     "if.op": [
         "op",
-        "Specifies the arithmetic, comparison, or text operator to apply to the input values. It is used in conjunction with <strong>input <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE. For example, \"input 0 = input 1\" is a logical expression. If the value in <strong>input 0</strong> is equal to the value in <strong>input 1</strong>, the expression evaluates to TRUE. Otherwise, the expression evaluates to FALSE.<ul><li><strong>= (equal to)</strong> &mdash; The expression is TRUE if all input values are equal.</li><li><strong>&#62; (greater than) </strong> &mdash; The expression is TRUE if each input value is greater than the value that immediately follows it.</li><li><strong>&#60; (less than)</strong> &mdash; The expression is TRUE if each input value is less than the value that immediately follows it.</li><li><strong>&#62;= (greater than or equal to)</strong> &mdash; The expression is TRUE if each input value is greater than or equal to the value that immediately follows it.</li><li><strong>&#60;= (less than or equal to)</strong> &mdash; The expression is TRUE if each input value is less than or equal to the value that immediately follows it.</li><li><strong>!= (not equal to)</strong> &mdash; The expression is TRUE if all input values are different. No two can be equal.</li><li><strong>and</strong> &mdash; The expression is TRUE if all input values evaluate to TRUE.</li><li><strong>or</strong> &mdash; The expression is TRUE if one or more input values evaluate to TRUE. </li></ul>"
+        "Specifies the comparison, logical, or text operator to apply to the input values: =, >, <, >=, <=, !=, and, or, contains, startsWith, endsWith. It is used in conjunction with <strong>input <em>n</em></strong> to form an expression that can be evaluated to TRUE or FALSE. The default is =."
     ],
     "if.output": [
         "output",
@@ -3320,7 +3320,7 @@
         "Triggers a refresh of the IFrame."
     ],
     "iframe.scrolling": [
-        "IFrame Scrolling",
+        "Scrolling",
         "Specifies whether scrolling is enabled on the IFrame component. If this is disabled, then content that overflows the component is clipped."
     ],
     "IFrame.url": [
@@ -3329,7 +3329,7 @@
     ],
     "iframeMessage.autoRun": [
         "autoRun",
-        "Specifies whether the message is sent automatically when the page loads."
+        "Specifies whether the message is sent automatically whenever <strong>message</strong> changes."
     ],
     "iframeMessage.enabled": [
         "enabled",
@@ -3345,7 +3345,7 @@
     ],
     "iframeMessage.key": [
         "key",
-        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message'>More information)</a>"
+        "Filters received messages. Use * to accept every message; otherwise the received object must contain this key, and its value must equal <strong>match</strong>. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:browser_api:iframe_message'>More information)</a>"
     ],
     "iframeMessage.loading": [
         "loading",
@@ -3353,23 +3353,23 @@
     ],
     "iframeMessage.match": [
         "match",
-        "<strong>key</strong> and <strong>match</strong> specify a key&minus;value pair that must be matched somewhere in the JSON message, in order for the message to be sent. Use a value of <code>*</code> for <strong>match</strong> to accept any value for the specified key. Use these properties when sending a message."
+        "Value that <strong>key</strong> must have in a received message. Use * to accept any value for the key."
     ],
     "iframeMessage.matchRegExp": [
         "matchRegExp",
-        "Specifies a regular expression that the message must match."
+        "Regular expression that a received plain-string message must match to be returned in output."
     ],
     "iframeMessage.message": [
         "message",
-        "Holds the message to send, if it is a JSON string. Use this property when sending a message from Solution Builder."
+        "JSON string to send to the parent window. Invalid JSON sets error to \"invalid Json\"."
     ],
     "iframeMessage.origin": [
         "origin",
-        "The origin of the window posting the message. (<a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage'>More information)</a>"
+        "Target origin when sending, and the only accepted origin when receiving. Use * to match any domain. (<a href='https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage'>More information)</a>"
     ],
     "iframeMessage.output": [
         "output",
-        "Returns the message."
+        "Returns the last received message that matched key/match or matchRegExp."
     ],
     "iframeMessage.timeout": [
         "timeout",
@@ -3401,7 +3401,7 @@
     ],
     "img.intervalMillis": [
         "Interval",
-        "Specifies how long each frame is displayed, in seconds."
+        "Specifies how long each frame is displayed, in seconds. The default is 0.5."
     ],
     "img.isAnimator": [
         "Frame Animator",
@@ -3448,8 +3448,8 @@
         ""
     ],
     "isRepeaterMode": [
-        "Is Repeater Mode",
-        "Enable repeater mode for stacker (dynamic number of series)."
+        "Repeater mode",
+        "Enable repeater mode for the series set (dynamic number of series)."
     ],
     "isTRUEPath": [
         "Is TRUE Path",
@@ -3608,8 +3608,8 @@
         "Indicates whether the block encountered an error. An error might be caused by improperly formatted input."
     ],
     "jsonParser.rawJsonFilter": [
-        "Raw Filter",
-        "Comma-separated list of children, or * to match all."
+        "rawJsonFilter",
+        "Comma-separated list of key names whose values are kept as raw JSON in one cell. Use * to match all."
     ],
     "jsonParser.selector": [
         "selector",
@@ -3693,7 +3693,7 @@
     ],
     "keyboardEventData.filter": [
         "filter",
-        "<p>Specifies the keystroke to listen for. This can be a character, or one of the following strings:<ul><li><strong>esc</strong> &mdash; Escape key</li><li><strong>enter</strong> &mdash; Enter or Return key</li><li><strong>up</strong> &mdash; Up arrow</li><li><strong>down</strong> &mdash; Down arrow</li><li><strong>left</strong> &mdash; Left arrow</li><li><strong>right</strong> &mdash; Right arrow</li><li><strong>Combination strings such as \"alt+enter\"</strong></li></ul></p>"
+        "<p>Specifies the keystroke to listen for. This can be a letter or digit, or one of: esc, enter, up, down, left, right, space, backspace. Combine with the modifiers ctrl, alt, shift and meta using +, for example alt+enter. Modifiers must match exactly. An upper-case letter means shift+letter.</p>"
     ],
     "keyboardEventData.input": [
         "input",
@@ -3709,7 +3709,7 @@
     ],
     "keyboardEventData.output": [
         "output",
-        "Fires when the specified event occurs."
+        "Fires when the event matches filter. When it fires, the default browser response is disabled and the event does not propagate further."
     ],
     "keyboardEventData.shift": [
         "shift",
@@ -3805,7 +3805,7 @@
     ],
     "length.input": [
         "input",
-        "Specifies the text to find the length for. Spaces count as characters."
+        "Specifies the text to find the length for. Spaces count as characters. If input is an array, the number of items is returned."
     ],
     "length.output": [
         "output",
@@ -3849,7 +3849,7 @@
     ],
     "listFiles.filter": [
         "filter",
-        "Specifies a string that file names must include to be listed, such as a file extension. Directories are always included in the output if <strong>mode</strong> is <strong>All</strong> or <strong>Directories</strong>. They are not filtered by this property.<ul><li>To list only PNG files, enter <code>png</code>.</li><li>To list all files, leave this field blank.</li></ul>"
+        "Specifies a string that file names must include to be listed, such as a file extension. Directories are always included in the output if <strong>mode</strong> is <strong>All</strong> or <strong>Directory</strong>. They are not filtered by this property.<ul><li>To list only PNG files, enter <code>png</code>.</li><li>To list all files, leave this field blank.</li></ul>"
     ],
     "listFiles.interval": [
         "interval",
@@ -3865,7 +3865,7 @@
     ],
     "listFiles.mode": [
         "mode",
-        "Specifies whether the output table lists only files, only directories, or both.<ul><li><strong>All</strong>: Files and directories are listed.</li><li><strong>Files</strong>: Only files are listed.</li><li><strong>Directories</strong>: Only directories are listed.</li></ul>"
+        "Specifies whether the output table lists only files, only directories, or both.<ul><li><strong>All</strong>: Files and directories are listed.</li><li><strong>File</strong>: Only files are listed.</li><li><strong>Directory</strong>: Only directories are listed.</li></ul>"
     ],
     "listFiles.onComplete": [
         "onComplete",
@@ -3965,7 +3965,7 @@
     ],
     "listNode.actions": [
         "actions",
-        "Returns a table of the actions that can be taken on this node, such as overriding it. Each row of this table contains a nested table that lists the parameters of that action. To view a nested table, drag a Table dataflow block into the dataflow window, and drag the cell containing the table onto it."
+        "Returns a table of the actions that can be taken on this node, such as overriding it. Only populated when <strong>resolveActions</strong> is TRUE. Each row of this table contains a nested table that lists the parameters of that action."
     ],
     "listNode.children": [
         "children",
@@ -3989,7 +3989,7 @@
     ],
     "listNode.profile": [
         "profile",
-        "The DSA profile of the node: data type, optional URL for device description, and booleans indicating whether the node has a real-time value associated with it, whether it has historical data, and whether it supports stream subscription."
+        "Returns the DSA profile ($is) of the node."
     ],
     "listNode.resolveActions": [
         "resolveActions",
@@ -4021,7 +4021,7 @@
     ],
     "loadHistories.interval": [
         "interval",
-        "Specifies how often the histories are loaded, in seconds. A value of 0 means that they are reloaded on <strong>autoLoad</strong> or <strong>invoke</strong> only."
+        "Specifies how often the histories are loaded, in seconds. A value of 0 means that they are reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only."
     ],
     "loadHistories.invoke": [
         "invoke",
@@ -4029,7 +4029,7 @@
     ],
     "loadHistories.loaded": [
         "loaded",
-        "Returns TRUE when loading is complete."
+        "Returns the number of histories that have finished loading."
     ],
     "loadHistories.loading": [
         "loading",
@@ -4045,7 +4045,7 @@
     ],
     "loadHistories.paths": [
         "paths",
-        "Specifies the histories that this block loads. To specify the histories:<ol><li>Click the <strong>Expand</strong> icon to open a <strong>loadHistories.paths</strong> panel.</li><li>In the Data panel, click the relevant device or data source.</li><li>In the Metrics panel, select a relevant device point, and drag its <strong>History</strong> icon to the <strong>loadHistories.paths</strong> panel.</li><li>Press Alt + Enter to create a new line.</li><li>Repeat steps 2&mdash;4 until all paths are entered.</li></ol>"
+        "Specifies the histories that this block loads, separated by line breaks or commas. Drag History icons from the Metrics panel to this field."
     ],
     "loadHistories.rollup": [
         "rollup",
@@ -4057,7 +4057,7 @@
     ],
     "loadHistories.thread": [
         "Thread",
-        ""
+        "Maximum number of histories requested at the same time. 0 (default) means all at once."
     ],
     "loadHistories.timeout": [
         "timeout",
@@ -4069,7 +4069,7 @@
     ],
     "loadHistories.unifyTimezone": [
         "Unify Timezone",
-        ""
+        "<ul><li><strong>auto</strong>/<strong>local</strong>: timestamps in the browser's time zone.</li><li><strong>remote</strong>: keep the server's time zone.</li></ul>You can also enter an offset such as +08:00."
     ],
     "loadHistory.autoRun": [
         "autoRun",
@@ -4093,7 +4093,7 @@
     ],
     "loadHistory.interval": [
         "interval",
-        "Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on <strong>autoLoad</strong> or <strong>invoke</strong> only."
+        "Specifies how often the history is loaded, in seconds. A value of 0 means that the history is reloaded on <strong>autoRun</strong> or <strong>invoke</strong> only."
     ],
     "loadHistory.invoke": [
         "invoke",
@@ -4129,7 +4129,7 @@
     ],
     "loadHistory.unifyTimezone": [
         "Unify Timezone",
-        ""
+        "<ul><li><strong>auto</strong>/<strong>local</strong>: timestamps in the browser's time zone.</li><li><strong>remote</strong>: keep the server's time zone.</li></ul>You can also enter an offset such as +08:00."
     ],
     "loading": [
         "Loading",
@@ -4189,7 +4189,7 @@
     ],
     "log.base": [
         "base",
-        "Specifies the base for the logarithm."
+        "Specifies the base for the logarithm. The default is 10."
     ],
     "log.input": [
         "input",
@@ -4241,7 +4241,7 @@
     ],
     "map.filter": [
         "Filter",
-        "For MapGL layers, specifies the table column and value that determine what points to display, if you need a simple way to reduce the data displayed on the layer."
+        "For Mapbox layers, a Mapbox filter expression as a JSON array. Only points that match the filter are displayed."
     ],
     "map.imageMaxZoom": [
         "Image Max Zoom",
@@ -4249,7 +4249,7 @@
     ],
     "map.imagePattern": [
         "Image Pattern",
-        ""
+        "URL pattern of an image tile overlay. [x], [y], [ry] (inverted y) and [zoom] are replaced by the tile coordinates."
     ],
     "map.imageTileSize": [
         "Image Tile Size",
@@ -4268,15 +4268,15 @@
         "Specifies whether to show map controls, allowing the user to manipulate the map. Map controls allow the user to zoom in or out and move left, right, down, or up."
     ],
     "map.mapStyle": [
-        "Map Type",
-        "For MapGL components, specifies the URL of the style sheet to be used to style the map."
+        "Map Style",
+        "For Mapbox GL Map components, specifies the URL of the style to be used to style the map, in the form mapbox://styles/:owner/:style."
     ],
     "map.mapType": [
         "Map Type",
-        "Specifies the type of Google Map to be displayed in the component.<ul><li><strong>Roadmap</strong>: The default road map view.</li><li><strong>Satellite</strong>: Google Earth satellite images.</li><li><strong>Hybrid</strong>: A mixture of road map and satellite images.</li><li><strong>Terrain</strong>: A physical map based on terrain data.</li></ul>"
+        "Specifies the type of map to be displayed in the component.<ul><li><strong>Roadmap</strong>: The default road map view.</li><li><strong>Satellite</strong>: Google Earth satellite images.</li><li><strong>Hybrid</strong>: A mixture of road map and satellite images.</li><li><strong>Terrain</strong>: A physical map based on terrain data.</li><li><strong>Open Street Map</strong>: Map tiles from OpenStreetMap.</li></ul>For ESRI Map components, selects the ArcGIS basemap."
     ],
     "map.maxZoom": [
-        "Min Zoom",
+        "Max Zoom",
         "Specifies the largest zoom level permitted for the map."
     ],
     "map.minZoom": [
@@ -4328,11 +4328,11 @@
         "Specifies the weight of the outline around the default marker."
     ],
     "mapGeoJSON.dataKeyField": [
-        "enabled",
+        "Data Key Field",
         "The name of the dataflow table column that contains the values corresponding to those in the geo Property field (for example, state names)."
     ],
     "mapGeoJSON.dataValueField": [
-        "enabled",
+        "Data Value Field",
         "The name of the dataflow table column that contains the value to be assigned to the style setting."
     ],
     "mapGeoJSON.extrudeBaseHeight": [
@@ -4368,24 +4368,24 @@
         ""
     ],
     "mapGeoJSON.geoProperty": [
-        "enabled",
+        "Geo Property",
         "The GeoJSON field containing the values to be used for styling. For example, the 'NAME' field in the GeoJSON data might contain the name of the country described by the polygon."
     ],
     "mapGeoJSON.layerType": [
-        "enabled",
-        "Show/hide the layer."
+        "Layer Type",
+        "How the GeoJSON features are drawn: Fill, Extrude, Line or Circle."
     ],
     "mapGeoJSON.styleData": [
-        "enabled",
+        "Data",
         "The table from which the GeoJSON layer reads style data."
     ],
     "mapGeoJSON.targetProperty": [
-        "enabled",
+        "Target Property",
         "The map style property that you want to set, for example, fill-color."
     ],
     "mapGeoJSON.targetPropertyField": [
-        "enabled",
-        "The table column from which the target property is read. The target property specifies the table property that you want to set."
+        "Target Property Field",
+        "The table column from which the target property is read."
     ],
     "mapGroup.symbol": [
         "Symbol",
@@ -4405,51 +4405,51 @@
     ],
     "mapSeriesData.space": [
         "Space",
-        ""
+        "The coordinate space of the point coordinates: Page, Document, Chart (default) or Series."
     ],
     "mapSeriesData.type": [
         "Type",
         "The direction of the conversion that this block performs, PointToData or DataToPoint."
     ],
     "mapTileLayer.maxZoom": [
-        "enabled",
-        "The maximum zoom layer permitted for the tile layer."
+        "Max Zoom",
+        "The maximum zoom level at which the tile layer is shown."
     ],
     "mapTileLayer.minZoom": [
-        "enabled",
-        "The minimum zoom level permitted for the tile layer."
+        "Min Zoom",
+        "The minimum zoom level at which the tile layer is shown."
     ],
     "mapTileLayer.tileBrightnessMax": [
-        "enabled",
-        ""
+        "Max Brightness",
+        "Maximum brightness of the tiles."
     ],
     "mapTileLayer.tileBrightnessMin": [
-        "enabled",
-        ""
+        "Min Brightness",
+        "Minimum brightness of the tiles."
     ],
     "mapTileLayer.tileContrast": [
-        "enabled",
-        ""
+        "Contrast",
+        "Contrast adjustment of the tiles, from -100% to 100%."
     ],
     "mapTileLayer.tileFadeDuration": [
-        "enabled",
-        ""
+        "Faded Duration",
+        "Fade duration in milliseconds when new tiles appear."
     ],
     "mapTileLayer.tileHueRotate": [
-        "enabled",
-        ""
+        "Hue Rotate",
+        "Hue rotation of the tiles in degrees."
     ],
     "mapTileLayer.tileOpacity": [
-        "enabled",
-        ""
+        "Opacity",
+        "Opacity of the tiles."
     ],
     "mapTileLayer.tileSize": [
-        "enabled",
+        "Tile Size",
         "Specifies tile size in pixels. For best results, specify multiples of 8. Smaller tiles provide better resolution at the expense of rendering speed. Maximum tile size is 512."
     ],
     "mapTileLayer.urlField": [
-        "enabled",
-        "Show/hide the tile layer."
+        "URL field",
+        "The column of the Data table that contains tile URLs. When Data and URL field are set, a tile source is shown for each row instead of URL."
     ],
     "markerMap.circleColor": [
         "Circle Color",
@@ -4476,40 +4476,40 @@
         "Enable/disable marker clustering when zooming out."
     ],
     "markerMap.clusterCircleColor": [
-        "clusterCircleColor",
+        "Circle Color",
         "Specifies color for clustered markers."
     ],
     "markerMap.clusterCircleOpacity": [
-        "clusterCircleOpacity",
+        "Circle Opacity",
         "Specifies opacity of clustered markers."
     ],
     "markerMap.clusterCircleRadius": [
-        "clusterCircleRadius",
+        "Circle Radius",
         "Specifies radius of clustered markers."
     ],
     "markerMap.clusterIcon": [
-        "clusterIcon",
+        "Icon",
         "Specifies icon to display for clustered markers."
     ],
     "markerMap.clusterLabelColor": [
-        "clusterLabelColor",
+        "Label Color",
         "Specifies color of label for clustered markers."
     ],
     "markerMap.clusterLabelOutlineColor": [
-        "clusterLabelOutlineColor",
+        "Label Outline Color",
         "Specifies color of label outline for clustered markers."
     ],
     "markerMap.clusterLabelOutlineWidth": [
-        "clusterLabelOutlineWidth",
+        "Label Outline Width",
         "Specifies width of label outline for clustered markers."
     ],
     "markerMap.clusterMaxZoom": [
-        "clusterMaxZoom",
-        ""
+        "Max Zoom",
+        "Maximum zoom level at which markers are clustered."
     ],
     "markerMap.clusterRadius": [
-        "clusterRadius",
-        ""
+        "Radius",
+        "Radius within which markers are clustered."
     ],
     "markerMap.icon": [
         "Icon",
@@ -4597,7 +4597,7 @@
     ],
     "median.output": [
         "output",
-        "Returns the median of all input values."
+        "Returns the median of all input values. For an even number of values, the greater of the two middle values is returned."
     ],
     "message": [
         "Message",
@@ -4801,7 +4801,7 @@
     ],
     "not.input": [
         "input",
-        "Specifies a value that can be evaluated to TRUE or FALSE. If <strong>input</strong> is a number, a value of 0 evaluates to FALSE and a value of 1 evaluates to TRUE."
+        "Specifies a value that can be evaluated to TRUE or FALSE. If <strong>input</strong> is a number, 0 evaluates to FALSE and any other number evaluates to TRUE. An empty input evaluates to FALSE."
     ],
     "not.output": [
         "output",
@@ -4905,11 +4905,11 @@
     ],
     "or.op": [
         "op",
-        "<p>Specifies the comparison, arithmetic, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an Or block is \"or\". The block will not act as described if you change this property.</p>"
+        "<p>Specifies the comparison, logical, or text operator to apply to the input values. The operator is used in conjunction with inputs to form an expression that can be evaluated to TRUE or FALSE.</p><p>By default, the op value of an Or block is \"or\". The block will not act as described if you change this property.</p>"
     ],
     "or.output": [
         "output",
-        "Returns either the <strong>then</strong> value or the <strong>else</strong> value. It returns the <strong>then</strong> value if all of the <strong>input <em>n</em></strong> values evaluate to TRUE, and the <strong>else</strong> value otherwise."
+        "Returns either the <strong>then</strong> value or the <strong>else</strong> value. It returns the <strong>then</strong> value if one or more of the <strong>input <em>n</em></strong> values evaluate to TRUE, and the <strong>else</strong> value otherwise."
     ],
     "or.then": [
         "then",
@@ -4988,8 +4988,8 @@
         "Event to fire when content loading fails."
     ],
     "pageInclude.path": [
-        "Path",
-        "Specifies the relative or absolute URL of the project page file to be used as a Page Include. This lets you use other project page files as components within this file. To specify a file, either type a URL in the field, click the folder to specify a path, or drag a project page file from the Project panel to the field."
+        "URL",
+        "Specifies the relative or absolute URL of the project page file to be used as a Page Include. This lets you use other project page files as components within this file. To specify a file, either type a URL in the field, click the folder to specify a path, or drag a page file from the Project panel to the field."
     ],
     "pageInclude.reload": [
         "Reload",
@@ -5029,7 +5029,7 @@
     ],
     "parseDateTime.weekday": [
         "weekday",
-        "Returns the day of the week as a number from 1 to 7. The number 1 represents Sunday, and the number 7 represents Saturday."
+        "Returns the day of the week as a number from 1 to 7. The number 1 represents Monday, and the number 7 represents Sunday."
     ],
     "parseDateTime.year": [
         "year",
@@ -5048,12 +5048,12 @@
         "Returns the first numeric value parsed from the input string."
     ],
     "percentOriginX": [
-        "Percent Origin X",
-        "X position for drawing center point."
+        "OriginX",
+        "For scale labels, the X position of the scale center, as a percentage of the container width."
     ],
     "percentOriginY": [
-        "Percent Origin Y",
-        "Y position for drawing center point."
+        "OriginY",
+        "For scale labels, the Y position of the scale center, as a percentage of the container height."
     ],
     "percentRadius": [
         "Radius",
@@ -5117,7 +5117,7 @@
     ],
     "pieSeries.labelPosition": [
         "Label Position",
-        "Specifies the position of the labels.<ul><li><strong>None</strong>: No labels.</li><li><strong>Outside</strong>: Labels are positioned for each wedge, near the outer edge of the pie series. Labels might be inside or outside the wedges, depending on the outer radius of the series.  < /li><li><strong>Callout</strong >: Labels are positioned outside of the chart, with callout lines. < /li><li><strong>Inside</strong >: Labels are positioned inside each pie wedge. < /li><li><strong>Inside with Callout</strong >: Labels are positioned inside each pie wedge when possible.If a label can 't be positioned inside, it is positioned outside of the chart, with a callout line.</li></ul>"
+        "Specifies the position of the labels.<ul><li><strong>None</strong>: No labels.</li><li><strong>Outside</strong>: Near the outer edge of each wedge.</li><li><strong>Callout</strong>: Outside of the chart, with callout lines.</li><li><strong>Inside</strong>: Inside each wedge.</li><li><strong>Inside with callout</strong>: Inside each wedge, with callout lines for labels that do not fit.</li></ul>"
     ],
     "pieSeries.outerRadiusInPixels": [
         "Outer Radius In Pixels",
@@ -5213,7 +5213,7 @@
     ],
     "propertyHub.syncPropertyList": [
         "Sync Property List",
-        ""
+        "Copies the list of custom properties from the main hub bound to hubInstance."
     ],
     "propertyHubModifier.0": [
         "Field n",
@@ -5225,11 +5225,11 @@
     ],
     "propertyHubModifier.hubInstance": [
         "Hub Instance",
-        "Binds the master block to child blocks, to enable values to be propagated."
+        "Bind to the hubInstance of a Property Hub block in main mode."
     ],
     "propertyHubModifier.hubMode": [
-        "Sync Property List",
-        "Specify the block behavior as follows: <b>Master</b> instantiates the properties object, defines a single master, and binds it to the objects that you want its properties to control. <b>Slave</b> sends and receives values to connected property hubs but does not instantiate the properties. Read-only blocks can have their values set but do not propagate the values, and write-only blocks propagate their values but are not affected by changes to other connected property hubs."
+        "Hub Mode",
+        "readWrite (default): reads from and writes to the main hub bound to hubInstance. readOnly: only reads. writeOnly: only writes."
     ],
     "propertyHubModifier.hubMode ": [
         "Hub Mode",
@@ -5317,7 +5317,7 @@
     ],
     "realtimeRecorder.ignoreNullValue": [
         "ignoreNullValue",
-        "To ignore null values, set to TRUE."
+        "Specifies whether changes to null values are ignored instead of recorded."
     ],
     "realtimeRecorder.output": [
         "output",
@@ -5329,7 +5329,7 @@
     ],
     "relativize.fullPath": [
         "Full Path",
-        ""
+        "Returns the full base path of the relativizing service."
     ],
     "relativize.output": [
         "output",
@@ -5337,7 +5337,7 @@
     ],
     "relativize.partialPath": [
         "Partial Path",
-        ""
+        "If TRUE, <strong>path</strong> is used as a prefix and relative paths are appended directly (no / separator)."
     ],
     "relativize.path": [
         "path",
@@ -5345,7 +5345,7 @@
     ],
     "relativize.serviceId": [
         "Service ID",
-        ""
+        "Returns the ID of the data service used."
     ],
     "rendererHeight": [
         "rendererHeight",
@@ -5356,7 +5356,7 @@
         "Specify width for virtual layout for a group repeater."
     ],
     "repeater.data": [
-        "symbol",
+        "data",
         "Specifies the table that determines the number of symbol instances and the properties of each symbol instance."
     ],
     "repeater.output": [
@@ -5492,12 +5492,12 @@
         "Specifies any real number that you want to round."
     ],
     "round.minPrecision": [
-        "Minimum Precision",
-        "The minimum number of decimal digits to be returned."
+        "minPrecision",
+        "Specifies the minimum number of digits after the decimal. Trailing zeros are removed until this many digits remain. If null, it is the same as precision."
     ],
     "round.output": [
         "output",
-        "Returns the rounded number."
+        "Returns the rounded number. If precision is greater than 0, returns a string with that many digits after the decimal."
     ],
     "round.precision": [
         "precision",
@@ -5509,7 +5509,7 @@
     ],
     "roundDown.output": [
         "output",
-        "Returns the rounded&minus;down number."
+        "Returns the rounded-down number. If precision is greater than 0, returns a string with that many digits after the decimal."
     ],
     "roundDown.precision": [
         "precision",
@@ -5529,7 +5529,7 @@
     ],
     "roundUp.output": [
         "output",
-        "Returns the rounded&minus;up number."
+        "Returns the rounded-up number. If precision is greater than 0, returns a string with that many digits after the decimal."
     ],
     "roundUp.precision": [
         "precision",
@@ -5541,7 +5541,7 @@
     ],
     "router.1": [
         "Output",
-        "Specifies the value that is output if the condition evaluates to TRUE."
+        "Receives the event value when the matching case is the first case that evaluates to TRUE."
     ],
     "router.case": [
         "Condition",
@@ -5561,7 +5561,7 @@
     ],
     "router.op": [
         "Op",
-        "Specifies the operator to be used to evaluate the condition."
+        "Specifies the operator used to compare the condition with each case: =, >, <, >=, <=, contains, startsWith, endsWith, regexp."
     ],
     "router.output": [
         "Output",
@@ -5569,7 +5569,7 @@
     ],
     "router.singleOutput": [
         "Single Output",
-        "When singleOutput is set to TRUE, all outputs but the result are set to null when an event is routed. By default, outputs retain their value between evaluations."
+        "When TRUE, the previously used output is set to null when an event is routed to a different output, so only one output holds a value at a time. By default, outputs retain their value between evaluations."
     ],
     "saDir": [
         "Direction",
@@ -5656,7 +5656,7 @@
         "Specifies whether the labels appear on the inside, outside, or center of the circle or line that Specifies the scale."
     ],
     "scaleLabels.labelsFontFamily": [
-        "Labels Font",
+        "Font",
         "Specifies the font used for the labels along this scale. To add a font to your project:<ol><li>If your project does not have a fonts folder, right&minus;click the root folder for your project, and add a folder named <code>fonts</code></li><li>Navigate to the font file on your computer and drag it to the <code>fonts</code> folder.</li><li>Save your work and refresh the browser.</li><li>Specify the font using the drop&minus;down menu for this property.</li></ol>"
     ],
     "scaleLabels.majorTicksCount": [
@@ -5664,7 +5664,7 @@
         "Specifies the total number of labels along a labeled scale. Must be an integer greater than or equal to 2. The <strong>Only Min/Max Labels</strong> property overrides this property."
     ],
     "scaleLabels.percentTextSize": [
-        "Labels Size",
+        "Size",
         "Specifies the height of the scale labels, as a pixel value or percentage. For circular scales, a percentage is a portion of the circle's radius. For linear scales, a percentage is a portion of half the container width."
     ],
     "scaleLabels.showMinMaxOnly": [
@@ -5813,7 +5813,7 @@
     ],
     "script.qosMode": [
         "qosMode",
-        "<p>Specifies whether the script runs as soon as it's invoked.</p><p><strong>FALSE</strong><br/>The script waits for other blocks in the queue to finish their logic before it runs, no matter how many times the script is triggered before it's run, it will only run once.</p><p><strong>TRUE</strong><br/>The script runs instantly when script is invoked, and it won't wait for other blocks in the queue to finish their logic. This allows the script to handle every invoke and never skip data update.</p><p>Besides invoke, if there are other bindings to the script block, they might not always be updated by the time script is run</p><p>When the output of a streaming mode repeater is bound to the script's invoke, the script's qosMode needs to be TRUE, otherwise it might lose the update comes from repeater.</p>"
+        "<p>Specifies when the script runs after invoke is triggered.</p><p><strong>FALSE</strong> (default)<br/>The script waits until other pending blocks have been updated. If it is triggered several times before it runs, it runs only once.</p><p><strong>TRUE</strong><br/>The script runs immediately, every time invoke is triggered.</p>"
     ],
     "script.r": [
         "a&mdash;z",
@@ -6100,7 +6100,7 @@
         "Specifies the angle to get the sine for, in degrees."
     ],
     "sin.output": [
-        "input",
+        "output",
         "Returns the sine of the input."
     ],
     "snapInterval": [
@@ -6169,7 +6169,7 @@
     ],
     "split.separator": [
         "separator",
-        "Specifies the character or string that delimits the pieces."
+        "Specifies the character or string that delimits the pieces. The default is a comma (,)."
     ],
     "start": [
         "Start",
@@ -6221,7 +6221,7 @@
     ],
     "stopwatch.reset": [
         "reset",
-        "Causes the stopwatch to restart at 0 (default) or the value specified in the resetValue property. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:stop_watch'>More information</a>)"
+        "Causes the stopwatch to restart at the resetValue (default 0)."
     ],
     "stopwatch.resetValue": [
         "resetValue",
@@ -6277,7 +6277,7 @@
     ],
     "strLoader.method": [
         "method",
-        "<p>Specifies the <a href='http://www.w3.org/Protocols/rfc2616/rfc2616&minus;sec9.html'>HTTP request method</a> for loading the string. In almost all cases, you want GET or POST.</p><p><strong>GET</strong>: Retrieves the string at the specified URL.</p><p><strong>POST</strong>: Adds something to the string at the specified URL.</p>"
+        "<p>Specifies the HTTP request method: GET (default), POST, HEAD, PUT, DELETE, TRACE, OPTIONS, CONNECT or PATCH. In almost all cases, you want GET or POST.</p>"
     ],
     "strLoader.onComplete": [
         "onComplete",
@@ -6369,7 +6369,7 @@
     ],
     "substring.end": [
         "end",
-        "Determines the position of the last character to extract."
+        "Determines the position after the last character to extract. A negative value counts from the end of the input."
     ],
     "substring.input": [
         "input",
@@ -6380,7 +6380,7 @@
         "Specifies the number of characters to extract."
     ],
     "substring.output": [
-        "length",
+        "output",
         "Returns the substring."
     ],
     "substring.start": [
@@ -6457,7 +6457,7 @@
     ],
     "table.save": [
         "save",
-        "Removes any binding to the <strong>data</strong> property. When <strong>save</strong> is invoked, data currently in the table is maintained."
+        "Removes any binding to the <strong>data</strong> property. When <strong>save</strong> is invoked, data currently in the table is maintained. This property is not displayed on the block."
     ],
     "tableAddRow.0": [
         "column n",
@@ -6489,7 +6489,7 @@
     ],
     "tableAggregation.method": [
         "method",
-        "Specifies the type of aggregation. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation'>More information</a>)<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li></ul>"
+        "Specifies the type of aggregation. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:aggregation'>More information</a>)<ul><li><strong>First</strong>: Returns the first value in the column.</li><li><strong>Last</strong>: Returns the last value in the column.</li><li><strong>Average</strong>: Returns the average of all number values in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values in the column. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value in the column. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value in the column. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values in the column. Null values are not included.</li><li><strong>Concat</strong>: Returns all values in the column, separated by commas. Duplicate values are included.</li><li><strong>Concat unique</strong>: Returns all unique values in the column, separated by commas. Duplicate values are not included.</li><li><strong>Table Union</strong>: If the data type of the input column is \"table\", performs a union join on the nested tables and returns the joined table.</li><li><strong>Median</strong>: Returns the average of the value(s) in the middle row(s) of the column. Rows are not sorted first.</li><li><strong>Standard deviation</strong>: Returns the population standard deviation of the column values.</li><li><strong>Variance</strong>: Returns the population variance of the column values.</li><li><strong>Mode</strong>: Returns the most common value in the column, or null if several values are tied.</li></ul>"
     ],
     "tableAggregation.output": [
         "output",
@@ -6573,7 +6573,7 @@
     ],
     "tableGroupBy.1": [
         "method n",
-        "<p>specifies how to return values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong>: Returns the first value in the group.</p><p><strong>last</strong>: Returns the last value in the group.</p><p><strong>average</strong>: Returns the average of all number values in the group. Non&minus;number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong>: Returns the sum of all number values in the group. If there are no number values, returns 0.</p><p><strong>max</strong>: Returns the largest number value in the group. If there are no number values, returns null.</p><p><strong>min</strong>: Returns the smallest number in the group. Non&minus;number values are treated as null and are not included in the calculation.</p><p><strong>count</strong>: Returns the number of values in the group.</p><p><strong>concat</strong>: Returns all values in the group, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong>: Returns all unique values in the group, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong>: Returns a table of values.</p>"
+        "<p>specifies how to return values in column <em>n</em> for each baseColumn value.</p><p><strong>first</strong>: Returns the first value in the group.</p><p><strong>last</strong>: Returns the last value in the group.</p><p><strong>average</strong>: Returns the average of all number values in the group. Non&minus;number values are treated as null and are not included in the calculation.</p><p><strong>sum</strong>: Returns the sum of all number values in the group. If there are no number values, returns 0.</p><p><strong>max</strong>: Returns the largest number value in the group. If there are no number values, returns null.</p><p><strong>min</strong>: Returns the smallest number in the group. Non&minus;number values are treated as null and are not included in the calculation.</p><p><strong>count</strong>: Returns the number of values in the group.</p><p><strong>concat</strong>: Returns all values in the group, separated by commas. Duplicate values are listed.</p><p><strong>concatUnique</strong>: Returns all unique values in the group, separated by commas. Duplicate values are not listed.</p><p><strong>tableUnion</strong>: Returns a table of values.</p><p><strong>median</strong>: Returns the average of the value(s) in the middle row(s) of the group.</p>"
     ],
     "tableGroupBy.2": [
         "outColumn n",
@@ -6617,7 +6617,7 @@
     ],
     "tableJoin.join": [
         "join",
-        "<p>Determines the method of joining.The value of the <strong>join</strong> property can be one of the following:</p><p><strong>Left</strong>: All rows from <strong>input1</strong> are included. Rows from <strong>input2</strong> are included and merged when the <strong>column2</strong> value matches a <strong>column1</strong> value.</p><p><strong>Right</strong>: All rows from <strong>input2</strong> are included. Rows from <strong>input1</strong> are included and merged when the <strong>column1</strong> value matches a <strong>column2</strong> value.</p><p><strong>Inner</strong>: Rows are included and merged only when the values in <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Full</strong>: All rows from both tables are included, and the rows are merged if the values of <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Union</strong>: All rows from both tables are included in a new table. Rows are not merged.</p>"
+        "<p>Determines the method of joining.The value of the <strong>join</strong> property can be one of the following:</p><p><strong>Left</strong>: All rows from <strong>input1</strong> are included. Rows from <strong>input2</strong> are included and merged when the <strong>column2</strong> value matches a <strong>column1</strong> value.</p><p><strong>Right</strong>: All rows from <strong>input2</strong> are included. Rows from <strong>input1</strong> are included and merged when the <strong>column1</strong> value matches a <strong>column2</strong> value.</p><p><strong>Inner</strong>: Rows are included and merged only when the values in <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Full</strong>: All rows from both tables are included, and the rows are merged if the values of <strong>column1</strong> and <strong>column2</strong> are the same.</p><p><strong>Exclude</strong>: Only rows from <strong>input1</strong> whose <strong>column1</strong> value does not appear in <strong>column2</strong> of <strong>input2</strong> are included.</p><p><strong>Union</strong>: All rows from both tables are included in a new table. Rows are not merged.</p>"
     ],
     "tableJoin.output": [
         "output",
@@ -6701,7 +6701,7 @@
     ],
     "tableRollup.columnFilterType": [
         "Column Filter Type",
-        "Specifies whether the column list includes or excludes the specified columns."
+        "Specifies which columns are rolled up. Whitelist: only the columns listed in valueColumn. Blacklist: all columns except those listed in valueColumn and the date column."
     ],
     "tableRollup.dateColumn": [
         "dateColumn",
@@ -6713,7 +6713,7 @@
     ],
     "tableRollup.interval": [
         "interval",
-        "Specifies the duration of the range to roll up. It can be any of the following.<ul><li>One minute</li><li>Five minutes</li><li>Ten minutes</li><li>Fifteen minutes</li><li>Twenty minutes</li><li>Thirty minutes</li><li>Hour</li><li>Two hours</li><li>Three hours</li><li>Four hours</li><li>Six hours</li><li>Twelve hours</li><li>Day</li><li>Two days</li><li>Week</li><li>Month</li><li>Year</li></ul>"
+        "Specifies the duration of the range to roll up. It can be any of the following.<ul><li>One minute</li><li>Five minutes</li><li>Ten minutes</li><li>Fifteen minutes</li><li>Twenty minutes</li><li>Thirty minutes</li><li>Hour</li><li>Two hours</li><li>Three hours</li><li>Four hours</li><li>Six hours</li><li>Eight hours</li><li>Twelve hours</li><li>Day</li><li>Two days</li><li>Week</li><li>Month</li><li>Year</li></ul>"
     ],
     "tableRollup.output": [
         "output",
@@ -6721,7 +6721,7 @@
     ],
     "tableRollup.persistTs": [
         "Persist Timestamp",
-        ""
+        "Specifies whether to keep the time zone offset of the input timestamps in the output dates."
     ],
     "tableRollup.roundTime": [
         "roundTime",
@@ -6729,11 +6729,11 @@
     ],
     "tableRollup.valueColumn": [
         "valueColumn",
-        "Specifies the name of the table column that holds the values to be rolled up."
+        "Specifies the name of the table column that holds the values to be rolled up. Separate several column names with commas."
     ],
     "tableRollup.valueRollup": [
         "valueRollup",
-        "Specifies the type of rollup used.<ul><li><strong>First</strong>: Returns the first value for the interval.</li><li><strong>Last</strong>: Returns the last value for the interval.</li><li><strong>Average</strong>: Returns the average of all number values for the interval. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values for the interval. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value from the interval. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value for the interval. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values that exist for the interval. Null values are not included.</li><li><strong>Concat</strong>: Returns all values for the interval, separated by commas. Duplicate values are included.</li><li><strong>ConcatUnique</strong>: Returns all unique values for the interval, separated by commas. Duplicate values are not included.</li></ul>"
+        "Specifies the type of rollup used.<ul><li><strong>First</strong>: Returns the first value for the interval.</li><li><strong>Last</strong>: Returns the last value for the interval.</li><li><strong>Average</strong>: Returns the average of all number values for the interval. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Sum</strong>: Returns the sum of all number values for the interval. If there are no number values, returns 0.</li><li><strong>Max</strong>: Returns the greatest number value from the interval. If there are no number values, returns null.</li><li><strong>Min</strong>: Returns the smallest number value for the interval. Non&minus;number values are treated as null and are not included in the calculation.</li><li><strong>Count</strong>: Returns the number of values that exist for the interval. Null values are not included.</li><li><strong>Concat</strong>: Returns all values for the interval, separated by commas. Duplicate values are included.</li><li><strong>ConcatUnique</strong>: Returns all unique values for the interval, separated by commas. Duplicate values are not included.</li><li><strong>Median</strong>: Returns the average of the value(s) in the middle row(s) of the interval (rows are ordered by date, not by value).</li></ul>"
     ],
     "tableRowCells.0": [
         "column n",
@@ -6789,7 +6789,7 @@
     ],
     "tableSort.method": [
         "method",
-        "Specifies whether to sort values as strings (alphabetically) or as numbers. (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>More information)</a>"
+        "Specifies how to compare values: Number (default), String, or Mixed (case-insensitive natural order, e.g. item2 before item10). (<a href='https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:sort'>More information)</a>"
     ],
     "tableSort.order": [
         "order",
@@ -6828,7 +6828,7 @@
         "Specifies the angle to get the tangent for, in degrees."
     ],
     "tan.output": [
-        "input",
+        "output",
         "Returns the tangent of the input."
     ],
     "target": [
@@ -6885,7 +6885,7 @@
     ],
     "textFormInput.inputType": [
         "Input Type",
-        "Specifies the valid input type, or the expected input type.<ul><li><strong>Text</strong>: A single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong>: A single, properly formatted email address, or the empty string.</li><li><strong>URL</strong>: A single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong>: A single line of text. Line breaks are automatically removed. On mobile devices, the on&minus;screen keyboard is optimized for number entry.</li></ul>"
+        "Specifies the valid input type, or the expected input type.<ul><li><strong>Text</strong>: A single line of text. Line breaks are automatically removed.</li><li><strong>Email</strong>: A single, properly formatted email address, or the empty string.</li><li><strong>URL</strong>: A single, valid, absolute URL, or the empty string.</li><li><strong>Tel</strong>: A single line of text. Line breaks are automatically removed. On mobile devices, the on&minus;screen keyboard is optimized for number entry.</li><li><strong>Search</strong>: A single line of text shown as a search field.</li></ul>"
     ],
     "textFormInput.placeholder": [
         "Placeholder",
@@ -7020,7 +7020,7 @@
         "Specifies the angle in radians, to convert to degrees."
     ],
     "toDegree.output": [
-        "input",
+        "output",
         "Returns the input value, converted from radians to degrees."
     ],
     "tooltip": [
@@ -7065,7 +7065,7 @@
     ],
     "topology.textColor": [
         "Text Color",
-        "The table column that contains the color to be applied to the node name text."
+        "The color of the node name text."
     ],
     "topology.vSpacing": [
         "Vertical Spacing",
@@ -7080,7 +7080,7 @@
         "Specifies the angle in degrees, to convert to radians."
     ],
     "toRadian.output": [
-        "input",
+        "output",
         "Returns the input value, converted from degrees to radians."
     ],
     "trace.0": [
@@ -7241,7 +7241,7 @@
     ],
     "video.volume": [
         "Volume",
-        "Changes the video player&apos;s volume. You can bind to this property, or modify it as part of a recorded action."
+        "Changes the video player's volume, from 0 to 100%. A volume below 1% mutes the video, which allows browsers to autoplay it. You can bind to this property, or modify it as part of a recorded action."
     ],
     "viewDeck.symbol": [
         "Symbol",
@@ -7260,15 +7260,15 @@
         "Specifies vertical scrolling behavior on this component.<ul><li><strong>Off</strong>: Vertical scrolling is always disabled.</li><li><strong>On</strong>: Vertical scrolling is always enabled. The track appears even if the content does not overflow.</li><li><strong>Auto</strong>: Vertical scrolling is automatically enabled when content overflows.</li></ul>"
     ],
     "vZoomMax": [
-        "Vertical Zoom Maximum",
+        "Vert Zoom Maximum",
         "Sets or returns the maximum of the range on the vertical axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen. Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\"."
     ],
     "vZoomMin": [
-        "Vertical Zoom Minimum",
+        "Vert Zoom Minimum",
         "Sets or returns the minimum of the range on the vertical axis for the zoomed view. If either Minimum or Maximum is null, the zoom does not happen. Zooming works only with linear, log, and datetime axes. For dates, use the format \"yyyyMMdd\"."
     ],
     "vZoomTrigger": [
-        "Vertical Zoom Trigger",
+        "Vert Zoom Trigger",
         "Zooms the chart to the range specified by the Vertical Zoom Minimum and Maximum. To return the chart to its pre&minus;zoom view, the user can click on the chart. Zooming works only with linear, log, and datetime axes."
     ],
     "w": [
@@ -7301,7 +7301,7 @@
     ],
     "webDocument.hasTouch": [
         "hasTouch",
-        "Returns whether the user&apos;s device has a touch screen."
+        "Returns TRUE if the user's device supports touch events."
     ],
     "webDocument.height": [
         "height",
@@ -7321,7 +7321,7 @@
     ],
     "webDocument.isMobile": [
         "isMobile",
-        "Returns whether the user is using a mobile device."
+        "Returns TRUE if the user is using a mobile device."
     ],
     "webDocument.language": [
         "language",
@@ -7341,7 +7341,7 @@
     ],
     "webDocument.pixelRatio": [
         "pixelRatio",
-        "Retrieves the ratio of the width to the height of each pixel on the user&apos;s monitor, as reported by the browser."
+        "Returns the ratio of physical screen pixels to CSS pixels (window.devicePixelRatio)."
     ],
     "webDocument.platform": [
         "platform",
@@ -7460,8 +7460,8 @@
         "If 'One Column' is specified for x column selection, specifies the column to use."
     ],
     "xDataRule": [
-        "X Data Rule",
-        "Specifies how x axis column is selected."
+        "X Column Rule",
+        "Specifies how X columns are selected: One Column, Other Columns, Columns List, or Exclude Columns."
     ],
     "xExclude": [
         "X Exclude",
@@ -7525,7 +7525,7 @@
     ],
     "zipDownload.filePaths": [
         "filePaths",
-        "Specifies the list of paths to the files to convert, separated by line breaks. Do not use commas to separate file names. You can drag files from the Project panel to this field. Press Alt + Enter to create line breaks."
+        "Specifies the list of paths to the files or folders to put in the ZIP file, separated by line breaks. Paths without a '.' are treated as folders and included recursively. You can drag files from the Project panel to this field."
     ],
     "zipDownload.invoke": [
         "invoke",
@@ -7545,7 +7545,7 @@
     ],
     "zipParser.output": [
         "output",
-        "Returns a table that contains the files that comprise the input ZIP file."
+        "Returns a table of the files in the input ZIP file, with columns path, size, type (extension), isText and data."
     ],
     "zipUpload.autoRun": [
         "autoRun",
@@ -7584,7 +7584,7 @@
         "Y axis center for zoom operation."
     ],
     "zoomerFill": [
-        "Zoomer Fill",
+        "Zoomer Area Fill",
         "Specifies the fill of the zoom marquee."
     ],
     "zoomerLineStroke": [
@@ -7642,6 +7642,662 @@
     "zoomToolPosition": [
         "Zoom Tool Position",
         "Specifies the location of the zoom tool in its container."
+    ],
+    "areaSeries.minField": [
+        "Min Field",
+        "Optional table column that defines the base (minimum) value of the area. If not set, the base is the axis origin."
+    ],
+    "atan.x": [
+        "x",
+        "Specifies the x-coordinate of a point. The default is 1. The block returns the angle of the point (x, input), from -180 to 180 degrees."
+    ],
+    "axis.alignLabelsToInterval": [
+        "Align Labels To Interval",
+        "For a linear axis, specifies whether labels are placed at multiples of the major interval."
+    ],
+    "axisRenderer.labelType": [
+        "Label Type",
+        "Specifies whether axis labels are Standard text labels or Custom labels rendered with the Custom Label Symbol."
+    ],
+    "barSeries.minField": [
+        "Min Field",
+        "Optional table column that defines the base (minimum) value of each bar. If not set, the base is the axis origin."
+    ],
+    "barSet.type": [
+        "Type",
+        "Defines how the series in this set are combined: Clustered, Overlaid, Stacked, or 100%."
+    ],
+    "binary.value": [
+        "value",
+        "Sets and returns the binary data held by this Binary block."
+    ],
+    "blobUrl.data": [
+        "data",
+        "The binary object or string to store. Strings are stored as text/plain, binary as application/octet-binary."
+    ],
+    "blobUrl.enabled": [
+        "enabled",
+        "When TRUE, a new URL is created whenever data changes. The previous URL is revoked."
+    ],
+    "blobUrl.url": [
+        "url",
+        "The temporary URL where the data can be accessed."
+    ],
+    "bubbleSeries.radiusField": [
+        "R Field",
+        "Specifies the table column that defines the radius of each bubble."
+    ],
+    "calendar.firstDow": [
+        "Start week on",
+        "Defines the day of the week that appears in the leftmost column of the calendar. The default is Sunday."
+    ],
+    "calendar.noSelectOutOfMonth": [
+        "Disable Selection out of Month",
+        "Determines whether the user can select the cells that show days of the previous and next months. FALSE by default."
+    ],
+    "calendar.noSelectPastDate": [
+        "Disable Selection of Past Dates",
+        "Determines whether the user can select dates before today. FALSE by default."
+    ],
+    "calendar.onlySelectFromRange": [
+        "Select Only From Range",
+        "If set, the user can only select dates inside this date range."
+    ],
+    "changeState.group": [
+        "group",
+        "A text property. It is not used by the State block itself."
+    ],
+    "chart.crosshairNumberFormat": [
+        "Crosshair Number Format",
+        "The number format used for the values shown by the crosshair. Default is ,###.##."
+    ],
+    "chart.showCrosshair": [
+        "Show Crosshair",
+        "If enabled, a crosshair follows the mouse over the plot area and shows the axis values at the mouse position."
+    ],
+    "closeWarningDialog.enabled": [
+        "enabled",
+        "When TRUE, a warning dialog is shown when the user tries to close the page. Viewer only."
+    ],
+    "closeWarningDialog.message": [
+        "message",
+        "Message to show in the dialog, if the browser allows it."
+    ],
+    "columnSeries.minField": [
+        "Min Field",
+        "Optional table column that defines the base (minimum) value of each column. If not set, the base is the axis origin."
+    ],
+    "columnSet.type": [
+        "Type",
+        "Defines how the series in this set are combined: Clustered, Overlaid, Stacked, or 100%."
+    ],
+    "dateFormInput.arrowColor": [
+        "Arrow Color",
+        "Color of the drop-down arrow."
+    ],
+    "datetimeAxis.computedUnits": [
+        "Computed Units",
+        "(Read-only) Returns the units used for the axis labels."
+    ],
+    "datetimeAxis.dgShowZeroLabel": [
+        "Show Zero Label",
+        "Specifies whether to show the label for the zero date (January 1, 1970), which appears when the axis has no data."
+    ],
+    "delay.invoke": [
+        "invoke",
+        "Immediately sends all pending (delayed) values to their outputs."
+    ],
+    "dgTimeFormInput.@onAmPmChange": [
+        "onAmPmChange",
+        "Event to fire when the AM/PM selector changes."
+    ],
+    "dgTimeFormInput.daypartOptionColor": [
+        "Option Color",
+        "Text color for AM/PM dropdown list."
+    ],
+    "dgTimeFormInput.intervalEnd": [
+        "Interval End",
+        "With a 12-hour format, if TRUE, 12:00 AM with all fields zero means 24:00 (end of day) instead of 00:00."
+    ],
+    "dgTimeFormInput.max": [
+        "Max",
+        "Latest valid time, in milliseconds since midnight. Can't exceed 24 hours."
+    ],
+    "dgTimeFormInput.min": [
+        "Min",
+        "Earliest valid time, in milliseconds since midnight."
+    ],
+    "dgTimeFormInput.showStepperButtons": [
+        "Show Stepper Buttons",
+        "Show or hide stepper buttons."
+    ],
+    "dgTimeFormInput.step": [
+        "Step",
+        "Step in milliseconds used by arrow keys and stepper buttons. Default is 1."
+    ],
+    "dgTimeFormInput.value": [
+        "Value",
+        "Selected time, in milliseconds since midnight."
+    ],
+    "downloadFile.filename": [
+        "filename",
+        "(Optional) The name and extension of the downloaded file. If <strong>type</strong> is data and this is blank, the file is named download."
+    ],
+    "downloadFile.input": [
+        "input",
+        "Specifies what to download. If <strong>type</strong> is data, this is the file content (a table is downloaded as CSV, binary is downloaded as is). If <strong>type</strong> is path, this is a project file path or URL."
+    ],
+    "downloadFile.type": [
+        "type",
+        "<ul><li><strong>data</strong>: <strong>input</strong> is the content of the file.</li><li><strong>path</strong>: <strong>input</strong> is a file path or URL.</li></ul>"
+    ],
+    "dragPosition.onDragEnd": [
+        "onDragEnd",
+        "Fires when dragging ends."
+    ],
+    "dragPosition.onDragStart": [
+        "onDragStart",
+        "Fires when dragging starts."
+    ],
+    "dragSize.onDragEnd": [
+        "onDragEnd",
+        "Fires when resizing ends."
+    ],
+    "dragSize.onDragStart": [
+        "onDragStart",
+        "Fires when resizing starts."
+    ],
+    "exportHtml.loading": [
+        "loading",
+        "Returns TRUE while the file is being exported."
+    ],
+    "exportHtml.orientation": [
+        "Orientation",
+        "Page orientation for PDF export: landscape (default) or portrait."
+    ],
+    "exportHtml.pdfOverflow": [
+        "PDF Overflow",
+        "For PDF export, when TRUE, content that does not fit on one page continues on additional pages."
+    ],
+    "exportPaginatedPDF.error": [
+        "error",
+        "Returns the error message if saving the file in the project fails."
+    ],
+    "exportPaginatedPDF.loading": [
+        "loading",
+        "Returns TRUE while the file is being exported."
+    ],
+    "exportPaginatedPDF.location": [
+        "location",
+        "Where the file is saved when filename is set: download (default) downloads it in the browser; project saves it in the project (fails if the file already exists)."
+    ],
+    "exportPaginatedPDF.onComplete": [
+        "onComplete",
+        "Fires when the file has been saved in the project."
+    ],
+    "exportPaginatedPDF.onError": [
+        "onError",
+        "Fires when saving the file in the project fails."
+    ],
+    "exportPaginatedPDF.orientation": [
+        "Orientation",
+        "Page orientation: landscape (default) or portrait."
+    ],
+    "formatNumber.decimalSeparator": [
+        "decimalSeparator",
+        "Specifies the text to use as the decimal separator in the output. If null, the default separator for the current locale is used."
+    ],
+    "formatNumber.groupSeparator": [
+        "groupSeparator",
+        "Specifies the text to use as the thousands (group) separator in the output. If null, the default separator for the current locale is used."
+    ],
+    "getNode.max": [
+        "max",
+        "Returns the maximum value of the node, if applicable."
+    ],
+    "getNode.min": [
+        "min",
+        "Returns the minimum value of the node, if applicable."
+    ],
+    "getNode.range": [
+        "range",
+        "Returns a table of value/label pairs from the node's range, if applicable."
+    ],
+    "gradientMapping.gradient": [
+        "gradient",
+        "Defines the colors for the gradient scale. Colors at the left of the track correspond to min, and colors at the right correspond to max."
+    ],
+    "gridColumn.autosizeMode": [
+        "Autosize Mode",
+        "<p>Specifies whether the column width is adjusted to fit the cell content. Only applies to Name column editors.</p><p><strong>None</strong>: No automatic sizing (default).</p><p><strong>On Scroll</strong>: When rendered or scrolled, the width is set to the widest visible cell.</p><p><strong>On Scroll, No Reduce</strong>: Like On Scroll, but the width never shrinks.</p>"
+    ],
+    "gridColumn.configTable": [
+        "Configuration Table",
+        "Only used when the column editor type is Repeater. Each row of the configuration table defines one grid column; the column named by the Selector property contains the data table column names."
+    ],
+    "gridlines.clipContent": [
+        "Clip Content",
+        "Specifies whether series content is clipped to the plot area."
+    ],
+    "gridlines.horizontalAxes": [
+        "Horizontal Axes",
+        "Comma-separated list of horizontal axis indices (for example 0,1) that gridlines are drawn for."
+    ],
+    "gridlines.radarFillsField": [
+        "Table Column",
+        "The column of the Fills Table that contains the fills."
+    ],
+    "gridlines.radarFillsTable": [
+        "Fills Table",
+        "A table that lists fills to use between radar gridlines, instead of Fill and Alt Fill."
+    ],
+    "gridlines.radarLineForm": [
+        "Radar Line Form",
+        "For radar charts, defines the shape of the gridlines: Line (polygon) or Arc (circle)."
+    ],
+    "gridlines.verticalAxes": [
+        "Vertical Axes",
+        "Comma-separated list of vertical axis indices (for example 0,1) that gridlines are drawn for."
+    ],
+    "group.contentHeight": [
+        "Content Height",
+        "The height of the group content before scaling, in pixels. Set automatically when Scale changes from None to Fit Ratio or Fit, and can be edited."
+    ],
+    "group.contentWidth": [
+        "Content Width",
+        "The width of the group content before scaling, in pixels. Set automatically when Scale changes from None to Fit Ratio or Fit, and can be edited."
+    ],
+    "group.rendererHeight": [
+        "Renderer Height",
+        "Fixed height of each repeated symbol instance when Virtual Layout is enabled, in pixels."
+    ],
+    "group.rendererWidth": [
+        "Renderer Width",
+        "Fixed width of each repeated symbol instance when Virtual Layout is enabled, in pixels."
+    ],
+    "group.virtualLayout": [
+        "Virtual Layout",
+        "If true, only the repeated symbol instances visible in the scroll area are created. Only for Horizontal or Vertical layout."
+    ],
+    "heatMap.thirdStopThreshold": [
+        "Third Stop Threshold",
+        "For Mapbox heatmap layers, the density at which the third stop color is reached."
+    ],
+    "hub.ignoreNull": [
+        "ignoreNull",
+        "If TRUE, an input that is updated to null does not change the output."
+    ],
+    "iframe.@onLoad": [
+        "On Load",
+        "Event that fires each time the IFrame finishes loading its page."
+    ],
+    "iframe.allow": [
+        "allow",
+        "Sets the HTML allow attribute (permissions policy) of the IFrame, for example fullscreen; camera; microphone."
+    ],
+    "iframe.refresh": [
+        "Refresh",
+        "Reloads the content of the IFrame from the current URL."
+    ],
+    "iframe.url": [
+        "URL",
+        "Specifies the URL to be displayed within the IFrame."
+    ],
+    "iframeMessage.error": [
+        "error",
+        "Returns the error message, if any."
+    ],
+    "img.extendEdge": [
+        "ExtendEdge",
+        "If true, the image is drawn 2 pixels larger on each side and can overflow its bounds, hiding thin gaps between adjacent images."
+    ],
+    "img.reload": [
+        "Reload",
+        "Reloads the image from its URL."
+    ],
+    "javascript.loaded": [
+        "Loaded",
+        "Returns TRUE when the JavaScript file has been loaded."
+    ],
+    "jsonpLoader.error": [
+        "error",
+        "Returns the error message, if any."
+    ],
+    "layer.childrenScale": [
+        "Children Scale",
+        "Sets Scale X and Scale Y of all components in this layer."
+    ],
+    "layer.contentHeight": [
+        "Content Height",
+        "The content height of the layer's parent (usually the page). Shared by all layers in that parent."
+    ],
+    "layer.contentWidth": [
+        "Content Width",
+        "The content width of the layer's parent (usually the page). Shared by all layers in that parent."
+    ],
+    "layer.layerScale": [
+        "Layer Scale",
+        "Scales the whole layer and its content. The layer size is adjusted so that it still covers its parent."
+    ],
+    "lineSet.type": [
+        "Type",
+        "Defines how the series in this set are combined: Overlaid, Stacked, or 100%."
+    ],
+    "loadHistory.error": [
+        "error",
+        "Returns the error message, if any. Returns timeout if the request times out."
+    ],
+    "loadValue.subpath": [
+        "subpath",
+        "(Optional) Appended to <strong>path</strong> to form the node path."
+    ],
+    "localStorage.setOnLoad": [
+        "Set On Load",
+        "When TRUE, the stored value is written back to the property bound to <strong>value</strong> when the block loads."
+    ],
+    "localize.language": [
+        "language",
+        "Specifies the language code, which is the name of the language file in the project's locales folder, without the .json extension. If null, en is used."
+    ],
+    "mapSeriesData.mode": [
+        "Mode",
+        "How a point is mapped to data in a PointToData conversion: Raw (default), Min Distance, Closest or Datatip."
+    ],
+    "mapToTable.input": [
+        "input",
+        "Receives a table row, a map, or a table."
+    ],
+    "mapToTable.output": [
+        "output",
+        "Returns a table with one row."
+    ],
+    "mouseEventData.fastResponse": [
+        "fastResponse",
+        "Makes this event respond as fast as possible, which could cause other actions to be delayed to the next frame."
+    ],
+    "numberFormInput.stepSnapping": [
+        "Step Snapping",
+        "If TRUE, the entered number is rounded to the nearest multiple of Step when the user presses Enter or the input loses focus."
+    ],
+    "openWizard.symbol": [
+        "symbol",
+        "The name of the symbol to open as the wizard."
+    ],
+    "openWizard.target": [
+        "target",
+        "The object that the wizard edits."
+    ],
+    "pageInclude.autoSize": [
+        "Autosize",
+        "When true, the Page Include can expand to its content's minimal size."
+    ],
+    "pageInclude.validate": [
+        "validate",
+        "If true, the included page is only loaded if it belongs to a licensed project."
+    ],
+    "pieSeries.labelSymbolId": [
+        "Label Renderer",
+        "Specifies a symbol to use as the label of each wedge, instead of the Wedge Label text."
+    ],
+    "pieSeries.showLabels": [
+        "Show Labels",
+        "Specifies whether this series has labels."
+    ],
+    "projectInfo.authenticated": [
+        "authenticated",
+        "Returns TRUE if the current user is not a guest and the connection to the server is working."
+    ],
+    "projectInfo.dsaGroups": [
+        "dsaGroups",
+        "Returns the DSA permission groups of the current user."
+    ],
+    "projectInfo.libraryPath": [
+        "libraryPath",
+        "Returns the root path of this project."
+    ],
+    "projectInfo.refresh": [
+        "refresh",
+        "Immediately checks the server connection and updates <strong>user</strong> and <strong>authenticated</strong>."
+    ],
+    "projectInfo.serverType": [
+        "serverType",
+        "Returns the server type from the server license."
+    ],
+    "projectInfo.theme": [
+        "theme",
+        "Returns the current theme."
+    ],
+    "projectInfo.userLanguage": [
+        "userLanguage",
+        "Returns the language of the current user interface, such as en_US."
+    ],
+    "propertyHub.autoRun": [
+        "autoRun",
+        "Runs the block automatically each time a custom property changes."
+    ],
+    "propertyHub.hubInstance": [
+        "Hub Instance",
+        "In main mode, outputs a reference to this hub. In other modes, bind it to the hubInstance of the main hub."
+    ],
+    "propertyHub.hubMode": [
+        "Hub Mode",
+        "main (default): this block holds the values and outputs itself through hubInstance. readWrite: reads from and writes to the main hub bound to hubInstance. readOnly: only reads. writeOnly: only writes."
+    ],
+    "propertyHub.invoke": [
+        "invoke",
+        "Runs the block. In main mode it updates jsonOutput; in readWrite or writeOnly mode it writes all values to the main hub."
+    ],
+    "rAxisType": [
+        "R Axis Type",
+        "Specifies how R Field values are mapped to bubble radius: Linear or Logarithmic."
+    ],
+    "radarSeries.aField": [
+        "Angle Field",
+        "Specifies the table column that is mapped to the angular axis."
+    ],
+    "radarSeries.enableHighlight": [
+        "Enable Highlight",
+        "If enabled, a series element can be highlighted."
+    ],
+    "radarSeries.highlightOnClick": [
+        "Highlight On Click",
+        "Highlights an element when the user clicks it."
+    ],
+    "radarSeries.highlightStroke": [
+        "Highlight Stroke",
+        "Stroke used for the highlighted element."
+    ],
+    "radarSeries.highlightedValue": [
+        "Highlighted Value",
+        "Value of the highlighted element. Set it to highlight an element."
+    ],
+    "radarSeries.rField": [
+        "Radius Field",
+        "Specifies the table column that is mapped to the radial axis."
+    ],
+    "radarSeries.renderType": [
+        "Render Type",
+        "Defines how the radar series is drawn: Area, Curve, or Columns."
+    ],
+    "realtimeRecorder.timeWindow": [
+        "timeWindow",
+        "Specifies, in seconds, how long rows are kept. 0 means no limit."
+    ],
+    "repeater.currentQueue": [
+        "currentQueue",
+        "Returns the number of rows waiting in the queue in stream mode."
+    ],
+    "repeater.keyColumn": [
+        "keyColumn",
+        "In normal mode, the column that identifies each row. A renderer is reused for the row with the same key when the table changes."
+    ],
+    "repeater.mode": [
+        "mode",
+        "Specifies how the repeater handles data: normal (default), threaded or stream."
+    ],
+    "scaleLabels.labelsAlign": [
+        "Align",
+        "Text alignment of the labels: Left, Center, or Right."
+    ],
+    "scaleLabels.labelsRotation": [
+        "Rotation",
+        "Rotates each label by the specified angle, in degrees (−180 to 180)."
+    ],
+    "spectrumSeries.dateFormatString": [
+        "Date Format",
+        "Format string for date labels."
+    ],
+    "spectrumSeries.interval": [
+        "Interval (Y)",
+        "Time interval represented by one cell along the Y axis."
+    ],
+    "spectrumSeries.maximum": [
+        "Maximum",
+        "Value mapped to the peak color. If not set, computed from the data."
+    ],
+    "spectrumSeries.minimum": [
+        "Minimum",
+        "Value mapped to the minimum color. If not set, computed from the data."
+    ],
+    "spectrumSeries.timeFormatString": [
+        "Time format",
+        "Format string for time labels."
+    ],
+    "strLoader.enableCSRF": [
+        "enableCSRF",
+        "Specifies whether the CSRF protection token is sent with the request. Default is TRUE."
+    ],
+    "strLoader.outputFormat": [
+        "outputFormat",
+        "<ul><li><strong>Auto</strong>: binary for URLs ending in .gif, .png, .jpg, .jpeg, .bin or .zip; text otherwise.</li><li><strong>Text</strong>: return a string.</li><li><strong>Binary</strong>: return binary data.</li></ul>"
+    ],
+    "symbolProfiler.invoke": [
+        "invoke",
+        "Runs the analysis."
+    ],
+    "symbolProfiler.output": [
+        "output",
+        "Returns the analysis result as a formatted JSON string, with totals (totalObject, totalSymbol, totalRepeater, totalRepeaterChildren, totalRepeaterQueue, totalTable, totalTableRows) and a tree that follows the dataflow structure."
+    ],
+    "tableAdvancedRollup.0": [
+        "valueColumn n",
+        "Specifies the name of an input table column to roll up."
+    ],
+    "tableAdvancedRollup.1": [
+        "valueRollup n",
+        "Specifies the rollup method for valueColumn n."
+    ],
+    "tableAdvancedRollup.2": [
+        "outColumn n",
+        "Specifies the output column name for valueColumn n. If empty, the valueColumn n name is used."
+    ],
+    "tableAdvancedRollup.dateColumn": [
+        "dateColumn",
+        "Specifies the name of the table column that holds the dates."
+    ],
+    "tableAdvancedRollup.input": [
+        "input",
+        "Receives the table in which you want to roll up values."
+    ],
+    "tableAdvancedRollup.interval": [
+        "interval",
+        "Specifies the duration of the range to roll up."
+    ],
+    "tableAdvancedRollup.nestedData": [
+        "nestedData",
+        "Specifies whether to keep the original rows of each interval in a nestedData column as nested tables."
+    ],
+    "tableAdvancedRollup.output": [
+        "output",
+        "Returns the rolled up table."
+    ],
+    "tableAdvancedRollup.persistTs": [
+        "Persist Timestamp",
+        "Specifies whether to keep the time zone offset of the input timestamps in the output dates."
+    ],
+    "tableAdvancedRollup.roundTime": [
+        "roundTime",
+        "Specifies whether to force all intervals to start at a round number."
+    ],
+    "tableToJsonString.excludeRowColumn": [
+        "excludeRowColumn",
+        "Specifies whether to leave out the row column from the JSON objects."
+    ],
+    "tableToJsonString.input": [
+        "input",
+        "Receives the table to convert to a JSON string."
+    ],
+    "tableToJsonString.output": [
+        "output",
+        "Returns the JSON string: an array with one object per table row."
+    ],
+    "text.liveUpdate": [
+        "liveUpdate",
+        "If true and the text is editable, the text property updates while the user types."
+    ],
+    "text.measureText": [
+        "Measure Text",
+        "Recalculates the font size when Font Size is Auto."
+    ],
+    "text.selectContent": [
+        "Select Content",
+        "Selects all of the text, if the text is editable or selectable."
+    ],
+    "text.wordWrap": [
+        "Word Wrap",
+        "Specifies whether overflow text wraps when Multiline is enabled. None: no wrapping. Wrap: wrap at word boundaries. Break-word: also break words that are too long for one line."
+    ],
+    "topology.data": [
+        "Data",
+        "The table that defines the nodes."
+    ],
+    "topology.horizontalSpacing": [
+        "Horizontal Spacing",
+        "The amount of horizontal space between levels of nodes, in pixels."
+    ],
+    "topology.symbol": [
+        "Symbol",
+        "Optional symbol used to draw each node instead of the default circle."
+    ],
+    "topology.verticalSpacing": [
+        "Vertical Spacing",
+        "The amount of vertical space between sibling nodes, in pixels."
+    ],
+    "video.@onError": [
+        "onError",
+        "Event that fires when the video fails to load or play."
+    ],
+    "video.sourceSupport": [
+        "Source status",
+        "(Read-only) True if the browser can play the video source; false if the format is not supported or cannot be decoded."
+    ],
+    "viewDeck.animation": [
+        "animation",
+        "The transition used when the selected index changes: None, Slide Left, Slide Right, Slide Up, or Slide Down."
+    ],
+    "viewDeck.animationDuration": [
+        "animationDuration",
+        "Duration of the transition, in seconds."
+    ],
+    "viewDeck.animationFunction": [
+        "animationFunction",
+        "Easing of the transition: Ease, Ease In, Ease Out, Ease In Out, or Linear."
+    ],
+    "webDocument.currentFile": [
+        "currentFile",
+        "Returns the path of the .dg5 file that is currently open."
+    ],
+    "webDocument.dragGroup": [
+        "dragGroup",
+        "Returns the drag group of the item currently being dragged."
+    ],
+    "webDocument.iosVersion": [
+        "iosVersion",
+        "Returns the major iOS version, or -1 if not on iOS."
+    ],
+    "zoomAllAxes": [
+        "Zoom All Axes",
+        "If the chart has more than one horizontal or vertical axis, specifies whether zooming applies to all axes. If FALSE, only the first axis in each direction is zoomed."
     ],
 
 
@@ -7900,8 +8556,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Stop_Watch.htm"
     ],
     ".propertyHub": [
-        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
-        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:hub",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Hub.htm"
     ],
     ".dynamic": [
@@ -7971,7 +8627,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Dataflow_blocks/Transpose.htm"
     ],
     ".mapToTable": [
-        ""
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:map_to_table"
     ],
     ".oneRowTable": [
         ""
@@ -8281,8 +8938,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".downloadFile": [
-        "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
-        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:download_file",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:data_services:download_file"
     ],
     ".playSound": [
         "https://wiki.dglogik.com/dglux_v2_wiki:behaviors:actions:home",
@@ -8430,13 +9087,13 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Axis_Properties.htm"
     ],
     ".radialAxisRenderer": [
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis#radar_chart_axes",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis#radar_chart_axes",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".angularAxisRenderer": [
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis#radar_chart_axes",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:axis#radar_chart_axes",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Component_and_widget_essentials/Creating_a_Simple_Chart.htm"
     ],
     ".linearAxisRenderer": [
@@ -8490,8 +9147,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".radarSeries": [
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:charts:designing:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:property_inspector:charts:series",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Series_Properties.htm"
     ],
     ".lineSet": [
@@ -8579,9 +9236,9 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Heat_Map.htm"
     ],
     ".heatMapOverlay": [
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
-        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:google_map:home",
-        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"        
+        "https://wiki.dglogik.comeat_map:home",
+        "https://wiki.dglogik.comeat_map:home",
+        "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Google_Map.htm"
     ],
     ".mapbox": [
         "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:home"
@@ -8641,7 +9298,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Properties_panel/Date_Input_Properties.htm"
     ],
     ".dgTimeFormInput": [
-        ""
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:dg_time:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:dg_time:home"
     ],
     ".passwordFormInput": [
         "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:form_input:password:home",
@@ -8720,7 +9378,8 @@
         "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:property_hub_modifier"
     ],
     ".tableAdvancedRollup": [
-        ""
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:advanced_rollup",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:advanced_rollup"
     ],
     ".realtimeRecorder": [
         "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:realtime_recorder",
@@ -8786,6 +9445,58 @@
         "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/DateTime_Formats_and_Functions.htm"
     ],
+    ".and": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_and",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_and"
+    ],
+    ".binary": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:binary",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:variables:binary"
+    ],
+    ".esrimap": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:home"
+    ],
+    ".esrimapGeoJsonLayer": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties"
+    ],
+    ".esrimapGroup": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties"
+    ],
+    ".esrimapHeatmapLayer": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:esri_map:properties"
+    ],
+    ".layer": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:layer:home",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:layer:home"
+    ],
+    ".localize": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:localize",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:string_operations:localize"
+    ],
+    ".mapboxClusterLayer": [
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:properties",
+        "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:mapbox_gl_map:properties"
+    ],
+    ".openWizard": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:open_wizard",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:open_wizard"
+    ],
+    ".or": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_or",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:operations_or"
+    ],
+    ".symbolProfiler": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:symbol_profiler",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:logic:symbol_profiler"
+    ],
+    ".tableToJsonString": [
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_to_json_string",
+        "https://wiki.dglogik.com/dglux5_wiki:dataflow:dataflow_blocks_reference:table_operations:table_to_json_string"
+    ],
 
 
     
@@ -8807,11 +9518,11 @@
     ],
     "type.max": [
         "Maximum",
-        "The Maximum block returns the greatest value in a list of arguments. If none of the input n values is a number, the Maximum block outputs infinity.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>input n (number) specifies one of the input values for the statistical function.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>output (number) returns the largest of the input values."
+        "The Maximum block returns the greatest value in a list of arguments. If none of the input n values is a number, the Maximum block outputs zero.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (number) specifies one of the input values for the statistical function.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the largest of the input values."
     ],
     "type.min": [
         "Minimum",
-        "The Minimum block returns the smallest value in a list of values. If none of the input n values is a number, the block outputs zero.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (number) specifies one of the input values for the statistical func­tion.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the smallest of the input values."
+        "The Minimum block returns the smallest value in a list of values. If none of the input n values is a number, the block outputs infinity.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (number) specifies one of the input values for the statistical function.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the smallest of the input values."
     ],
     "type.average": [
         "Average",
@@ -8867,7 +9578,7 @@
     ],
     "type.atan": [
         "Arc Tangent",
-        "The Arc Tangent block returns the arctangent, or inverse tangent, of a number, in degrees. The arctangent of a number is the angle for which that number is the tangent.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number) defines the tangent to get the angle for.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the arctangent of the input, in degrees.<br/>In this example, the tangent is 1, and the arctangent is 45 degrees."
+        "The Arc Tangent block returns the arctangent, or inverse tangent, of a number, in degrees.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number) defines the tangent to get the angle for (the y-coordinate when x is set).<br/>•x (number) specifies the x-coordinate of a point. The default is 1. The block returns the angle of the point (x, input), from -180 to 180 degrees.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the arctangent, in degrees.<br/>In this example, the tangent is 1, and the arctangent is 45 degrees."
     ],
     "type.toRadian": [
         "Radian",
@@ -8894,8 +9605,8 @@
         "The Round Down block rounds a number down, toward zero if positive and away from zero if negative.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number) specifies any real number that you want rounded down.<br/>•precision (number) specifies the number of digits after the decimal to round the number to. A value of 0, less than 0, or null rounds the number down to the nearest integer.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the rounded-down number.<br/>In this example, the number 76.9 is rounded down to an integer"
     ],
     "type.scale": [
-        "Bound",
-        "Returns the value of a number within the defined minimum and maxi­mum. If the number is above the maximum, this block returns the maximum; if the number is below the minimum, this block returns the minimum.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number) specifies the number to compare to the range.<br/>•min (number) specifies the minimum of the range.<br/>•max (number) specifies the maximum of the range.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•inputOutOfRange (Boolean) returns TRUE if the input is outside the range, FALSE otherwise.<br/>•output (number) returns the input number if it is within the range, the min value if input is below the range, or the max value if input is above the range."
+        "Scale",
+        "The Scale block returns the result of re-scaling a number from one defined set of lower and upper limits to another: (input - inputMin) * (outputMax - outputMin) / (inputMax - inputMin) + outputMin. The result is limited to the output range.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number) specifies the number to re-scale.<br/>•inputMin (number) specifies the minimum of the original scale.<br/>•inputMax (number) specifies the maximum of the original scale.<br/>•outputMin (number) specifies the minimum of the new scale.<br/>•outputMax (number) specifies the maximum of the new scale.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•inputOutOfRange (Boolean) returns TRUE if the input is outside the input range, FALSE otherwise.<br/>•output (number) returns the value in the new scale that corresponds to input in the old scale."
     ],
     "type.bound": [
         "Bound",
@@ -8915,7 +9626,7 @@
     ],
     "type.substring": [
         "Substring",
-        "The Substring block returns a specific substring from a string. The block checks for parameters in the following order of importance:<br/>•A start character position and length<br/>•A start character position and end character position<br/>•An end character position and length<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (string) specifies the text string that contains the characters to extract.<br/>•start (number) determines the position of the first character in the input text to extract. A value of 0 indicates the first character in the input.<br/>•length (number) specifies the number of characters to extract from the input.<br/>•end (number) determines the position of the last character in the input text to extract.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (string) returns the substring.<br/>The following are special cases for the Substring block:<br/>•If start, length, and end are null, the full input string is returned.<br/>•If start is greater than the length of input, the Substring block returns empty text.<br/>•If start plus length exceeds the length of input, the Substring block returns a substring beginning with start and ending with the end of the text."
+        "The Substring block returns a specific substring from a string. The block checks for parameters in the following order of importance:<br/>•A start character position and length<br/>•A start character position and end character position<br/>•An end character position and length<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (string) specifies the text string that contains the characters to extract.<br/>•start (number) determines the position of the first character to extract. 0 is the first character; a negative value counts from the end.<br/>•length (number) specifies the number of characters to extract.<br/>•end (number) determines the position after the last character to extract; a negative value counts from the end.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (string) returns the substring.<br/>Special cases:<br/>•If start, length, and end are null, the full input string is returned.<br/>•If start or end is outside the input, or start plus length exceeds the length of input, output returns null."
     ],
     "type.trim": [
         "Trim",
@@ -8947,7 +9658,7 @@
     ],
     "type.parseDateTime": [
         "Parse Date Time",
-        "Converts a serial number to time, year, month, day, hour, minute, second, millisecond, weekday.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number or date time string) specifies the serial number or any sup­ported date time string as outlined in DateTime (dateString) formats.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•time (number) returns the serial number.<br/>•year (number) returns the year.<br/>•month (number) returns the month of the year as a number from 1 to 12.<br/>•day (number) returns the day of the month as a number from 1 to 31.<br/>•hour (number) returns the hour of the day as a number from 1 to 23.<br/>•minute (number) returns the minute of the hour as a number from 1 to 59.<br/>•second (number) returns the second of the minute as a number from 1 to 59.<br/>•millisecond (number) returns the millisecond of the second as a number from 1 to 9990.<br/>•weekday (number) returns the day of the week as a number from 1 to 7. The number 1 represents Sunday, and the number 7 represents Satur­day."
+        "Converts a serial number to time, year, month, day, hour, minute, second, millisecond, weekday.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (number or date time string) specifies the serial number or any sup­ported date time string as outlined in DateTime (dateString) formats.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•time (number) returns the serial number.<br/>•year (number) returns the year.<br/>•month (number) returns the month of the year as a number from 1 to 12.<br/>•day (number) returns the day of the month as a number from 1 to 31.<br/>•hour (number) returns the hour of the day as a number from 0 to 23.<br/>•minute (number) returns the minute of the hour as a number from 0 to 59.<br/>•second (number) returns the second of the minute as a number from 0 to 59.<br/>•millisecond (number) returns the millisecond of the second as a number from 0 to 999.<br/>•weekday (number) returns the day of the week as a number from 1 to 7. The number 1 represents Monday, and the number 7 represents Sunday."
     ],
     "type.dateMath": [
         "Date Math",
@@ -8966,8 +9677,8 @@
         "The Stop Watch block counts up when enabled. An event is fired when the block loops or stops.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•enabled (Boolean) sets or returns whether the stopwatch is currently run­ning.<br/>•interval (number) specifies the duration, in seconds, between stopwatch updates. For example, if interval is 0.5 seconds, the stopwatch counts up every 0.5 seconds.<br/>•step (number) specifies the number that is added to the output with each update. For example, if step is 1, then each time the stopwatch updates, its output increases by 1.<br/>•modulo (number) specifies the value that signals the stopwatch to stop or reset. If loop is TRUE, then the output value is always less than modulo. If loop is FALSE, then the output value is always equal to or less than mod­ulo.<br/>•loop (Boolean) determines whether the stopwatch loops when it gets near the modulo value.<br/>•TRUE: the stopwatch resets when its output reaches the final step before reaching modulo. If the difference between the final step and modulo equals the step value, the stopwatch restarts at 0. If the differ­ence is less than the step value, the stopwatch restarts with a value of that difference.<br/>•FALSE: the stopwatch stops counting when it reaches the final step where output is less than or equal to modulo.<br/>•reset (trigger) causes the stopwatch to restart at 0.<br/>•onLoop (event) fires when the stopwatch either loops or stops. It can be used to trigger an action.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the current stopwatch value.<br/>In this example, the IFrame refreshes every 20 seconds:"
     ],
     "type.propertyHub": [
-        "Hub",
-        "Outputs the most recently updated value from multiple inputs. An initial output of a script that is set to autorun is an initial value of the property and is not considered a change.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (string) sets and returns one of the values watched by this hub.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•index (number) returns the index of the input n value that was updated most recently. The index is the number in the input's property name. For example, when input 0 updates at 11:00am, and input 1 updates at 11:05am, index is 1 because input 1 updated last.<br/>•output (string) returns the value of the most recently updated input n property.<br/>You can add more input n properties by clicking the plus sign, and delete them by clicking the minus sign. There is no limit to the number of inputs you can have.<br/>In this example, John made a deposit into a shared bank account at 11:00am, Jack at 3:30pm, and Jane at 5:30pm. The hub outputs the index and value of the most recent deposit.<br/>‘"
+        "Property Hub",
+        "Handles related properties as a group. Add custom properties with the + button. A Property Hub in main mode holds the values and shares them through hubInstance with other Property Hub and Property Hub Modifier blocks.<br/>Input/Output properties<br/>• invoke (trigger)<br/>• hubMode (enum): main, readWrite, readOnly, writeOnly<br/>• hubInstance<br/>• outputAll (Boolean)<br/>Output properties<br/>• jsonOutput (string)"
     ],
     "type.table": [
         "Table",
@@ -8983,7 +9694,7 @@
     ],
     "type.tableRollup": [
         "Rollup",
-        "The Rollup block returns a new table that contains one row for each date and time interval in the input table. The output table contains one column for the date and time interval and one column for the value.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table in which you want to roll up values.<br/>•interval (string) specifies the length of the range to roll up. It can be any of the following.<br/>•One minute<br/>•Five minutes<br/>•Ten minutes<br/>•Fifteen minutes<br/>•Twenty minutes<br/>•Thirty minutes<br/>•Hour<br/>•Two hours<br/>•Three hours<br/>•Four hours<br/>•Six hours<br/>•Twelve hours<br/>•Day<br/>•Two days<br/>•Week<br/>•Month<br/>•Year<br/>•dateColumn (string) specifies the name of the table column that holds the dates.<br/>•valueColumn (string) specifies the name of the table column that holds the values to be rolled up.<br/>•valueRollup (string or enum) specifies the type of rollup used.<br/>•First: Returns the first value for the interval.<br/>•Last: Returns the last value for the interval.<br/>•Average: Returns the average of all number values for the interval. Non-number values are treated as null and are not included in the calculation.<br/>•Sum: Returns the sum of all number values for the interval. If there are no number values, returns 0.<br/>•Max: Returns the largest number value from the interval. If there are no number values, returns null.<br/>•Min: Returns the smallest number value for the interval. Non-number values are treated as null and are not included in the calculation.<br/>•Count: Returns the number of values that exist for the interval. Null values are not included.<br/>•Concat: Returns all values for the interval, separated by commas. Includes duplicate values.<br/>•ConcatUnique: Returns all unique values for the interval, separated by commas. Duplicate values are not included.<br/>•roundTime (Boolean) specifies whether to force all intervals to start at a round number.<br/>•TRUE: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes,\" all intervals start at a multiple of five minutes past the hour.<br/>•FALSE: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the rolled up table."
+        "The Rollup block returns a new table that contains one row for each date and time interval in the input table. The output table contains one column for the date and time interval and one column for the value.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table in which you want to roll up values.<br/>•interval (enum) specifies the length of the range to roll up. It can be any of the following.<br/>•One minute<br/>•Five minutes<br/>•Ten minutes<br/>•Fifteen minutes<br/>•Twenty minutes<br/>•Thirty minutes<br/>•Hour<br/>•Two hours<br/>•Three hours<br/>•Four hours<br/>•Six hours<br/>•Eight hours<br/>•Twelve hours<br/>•Day<br/>•Two days<br/>•Week<br/>•Month<br/>•Year<br/>•dateColumn (string) specifies the name of the table column that holds the dates.<br/>•valueColumn (string) specifies the name of the table column that holds the values to be rolled up.<br/>•valueRollup (string or enum) specifies the type of rollup used.<br/>•First: Returns the first value for the interval.<br/>•Last: Returns the last value for the interval.<br/>•Average: Returns the average of all number values for the interval. Non-number values are treated as null and are not included in the calculation.<br/>•Sum: Returns the sum of all number values for the interval. If there are no number values, returns 0.<br/>•Max: Returns the largest number value from the interval. If there are no number values, returns null.<br/>•Min: Returns the smallest number value for the interval. Non-number values are treated as null and are not included in the calculation.<br/>•Count: Returns the number of values that exist for the interval. Null values are not included.<br/>•Concat: Returns all values for the interval, separated by commas. Includes duplicate values.<br/>•ConcatUnique: Returns all unique values for the interval, separated by commas. Duplicate values are not included.<br/>•Median: Returns the average of the value(s) in the middle row(s) of the interval.<br/>•roundTime (Boolean) specifies whether to force all intervals to start at a round number.<br/>•TRUE: Intervals start at a round number. For example, if interval is \"day\", all intervals start at midnight. If interval is \"five minutes,\" all intervals start at a multiple of five minutes past the hour.<br/>•FALSE: The first interval starts at the first timestamp, and intervals are appended accordingly. For example, if interval is \"day\" and the first value is 2015/07/19T08:01:19, then all intervals begin at T08:01:19.<br/>•columnFilterType (enum) specifies which columns are rolled up. Whitelist: only the columns in valueColumn. Blacklist: all columns except those in valueColumn and the date column.<br/>•persistTs (Boolean) specifies whether to keep the time zone offset of the input timestamps in the output.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the rolled up table."
     ],
     "type.tableJoin": [
         "Join",
@@ -9003,7 +9714,7 @@
     ],
     "type.tableAggregation": [
         "Aggregation",
-        "The Aggregation block returns a value that reflects the table records in the specified column.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table in which you want to aggregate values.<br/>•column (string) specifies the name of the table column.<br/>•method (enum) specifies the type of aggregation.<br/>•First: Returns the first value in the column.<br/>•Last: Returns the last value in the column.<br/>•Average: Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation.<br/>•Sum: Returns the sum of all number values in the column. If there are no number values, returns 0.<br/>•Max: Returns the greatest number value in the column. If there are no number values, returns null.<br/>•Min: Returns the smallest number value in the column. Non-number values are treated as null and are not included in the calculation.<br/>•Count: Returns the number of values in the column. Null values are not included.<br/>•Concat: Returns all values in the column, separated by commas. Duplicate values are included.<br/>•Concat unique: Returns all unique values in the column, separated by commas. Duplicate values are not included.<br/>•Table Union: If the input column contains tables, performs a union join on the nested tables and returns the joined table.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output returns the output determined by the method property.<br/>In this example, the Aggregation block returns the sum of all values in col­umn v2 of the input table."
+        "The Aggregation block returns a value that reflects the table records in the specified column.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table in which you want to aggregate values.<br/>•column (string) specifies the name of the table column.<br/>•method (enum) specifies the type of aggregation.<br/>•First: Returns the first value in the column.<br/>•Last: Returns the last value in the column.<br/>•Average: Returns the average of all number values in the column. Non-number values are treated as null and are not included in the calculation.<br/>•Sum: Returns the sum of all number values in the column. If there are no number values, returns 0.<br/>•Max: Returns the greatest number value in the column. If there are no number values, returns null.<br/>•Min: Returns the smallest number value in the column. Non-number values are treated as null and are not included in the calculation.<br/>•Count: Returns the number of values in the column. Null values are not included.<br/>•Concat: Returns all values in the column, separated by commas. Duplicate values are included.<br/>•Concat unique: Returns all unique values in the column, separated by commas. Duplicate values are not included.<br/>•Table Union: If the input column contains tables, performs a union join on the nested tables and returns the joined table.<br/>•Median: Returns the average of the value(s) in the middle row(s) of the column. Rows are not sorted first.<br/>•Standard deviation: Returns the population standard deviation of the column values.<br/>•Variance: Returns the population variance of the column values.<br/>•Mode: Returns the most common value in the column, or null if several values are tied.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output returns the output determined by the method property.<br/>In this example, the Aggregation block returns the sum of all values in col­umn v2 of the input table."
     ],
     "type.tableGetColumns": [
         "Get Columns",
@@ -9227,11 +9938,11 @@
     ],
     "type.geoLocation": [
         "Geo-Location",
-        "The Geo-location block retrieves the user's latitude and longitude.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•enabled (Boolean) specifies whether the block is currently collecting location data.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•latitude (number) returns the latitude of the user.<br/>•longitude (number) returns the longitude of the user.<br/>The Geo-Location block's properties are bound to the Google Maps compo­nent's properties, so the map will open with the user's location at its center."
+        "The Geo-location block retrieves the user's location from the browser.<br/>Input/Output properties<br/>•enabled (Boolean) specifies whether the block is currently collecting location data.<br/>•highAccuracy (Boolean) requests the most accurate position available. Default TRUE.<br/>Output properties<br/>•latitude (number) returns the latitude of the user.<br/>•longitude (number) returns the longitude of the user.<br/>•altitude (number) returns the altitude in meters, or null if not available.<br/>•heading (number) returns the direction of travel in degrees from true north, or null.<br/>•speed (number) returns the speed in meters per second, or null.<br/>•timestamp (number) returns the time the position was retrieved, in milliseconds."
     ],
     "type.deviceOrientation": [
         "Device Orientation",
-        "Input/Output properties<br/>These properties can take input and give output.<br/>•enabled (Boolean) specifies whether the rotation is currently being tracked and reported.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•alpha returns the roll, or rotation around the Z axis, of the device. This movement typically looks like a change between horizontal and vertical orientation of the screen."
+        "The Device Orientation block returns the DeviceOrientationEvent alpha, beta, and gamma of the device, and the compass heading, if available.<br/>Input/Output properties<br/>•enabled (Boolean) specifies whether the rotation is currently being tracked and reported.<br/>Output properties<br/>•alpha returns the roll, or rotation around the Z axis, of the device.<br/>•beta returns the pitch, or rotation around the X axis.<br/>•gamma returns the yaw, or rotation around the Y axis.<br/>•compassHeading returns the compass heading of the device in degrees."
     ],
     "type.deviceMotion": [
         "Device Motion",
@@ -9318,8 +10029,8 @@
         "This page includes steps for creating a heat map layer on an image.<br/>Typically, a heat map positions color-coded circular elements at specified locations on an image, for the purpose of visualizing some data that you want to associate with the image. For example, to visualize temperature by room, you could position a circular element on each room in a floor plan, and you could color code these markers according to temperature. To create a heat map layer on an image, first you group an image component and a heat map component, and then you load tables that describe the marker locations and the temperature data.<br/>In a heat map, the data value used for color coding is called the intensity value.<br/>For a detailed reference of properties that affect heat map components, see Common Properties and Heat Map Properties."
     ],
     "type.heatMapOverlay": [
-        "Google Map",
-        "The Google Map component is a customizable, interactive Google Map. It includes a repeater that can render a given symbol once for each row of data in a table. Each instance of the symbol appears at the latitude and longitude specified in the table and can have other dynamic properties.<br/>For a detailed reference of properties that affect Google Maps components, see Common Properties and Google Map Properties.<br/>NOTE: To use the Google Maps API, include a Javascript dataflow block in the dataflow for the map component."
+        "Heat Map Overlay",
+        "A heat map drawn over a Google Map. Insert it as a child of a Google Map component. It has the same properties as the Heat Map component, except that the X Field and Y Field are replaced by Lat Field and Lng Field."
     ],
     "type.textFormInput": [
         "Text Input and Text Area Properties",
@@ -9370,8 +10081,8 @@
         "The Standard Deviation block calculates standard deviation based on the list of arguments. The standard deviation is a measure of how widely values are dispersed from the mean. It uses the following expression:<br/> <br/>In this expression, x is the sample value,  is the mean of all x values, and n is the sample size. If none of the input n values is a number, the block out­puts NaN.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input  n (number) defines one of the numbers in the sample.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (number) returns the standard deviation of the input values."
     ],
     "type.concat": [
-        "String Operations<br/>Concatenate",
-        "The Concatenate block joins several text strings into one string.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (string) specifies one of the strings to concatenate.<br/>•strict (Boolean)<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>output (string) returns a string formed by concatenating all of the input val­ues.<br/>You can add inputs by left-clicking on the \"+\" icon, delete inputs by left-click­ing on the \"-\" icon. There is no limit to the number of inputs you can have.<br/>In this example, three strings are concatenated:"
+        "Concatenate",
+        "The Concatenate block joins several text strings into one string.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input n (string) specifies one of the strings to concatenate.<br/>•strict (Boolean) when TRUE, output is null if any input is null. When FALSE, null inputs are treated as empty text.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (string) returns a string formed by concatenating all of the input values.<br/>You can add inputs by left-clicking on the \"+\" icon, delete inputs by left-clicking on the \"-\" icon."
     ],
     "type.replace": [
         "Replace",
@@ -9415,7 +10126,7 @@
     ],
     "type.tableGroupBy": [
         "Group By",
-        "The Group By block groups table rows based on identical entries in the specified column.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table whose values you want to group.<br/>•baseColumn (string) specifies the name of the table column in which to group values.<br/>•nestedData (Boolean) specifies whether to keep the original rows and store them in a new column of the output table as nested tables. You can view child table data by binding a cell containing a table to a Table data­flow block.<br/>•includeBlankValue (Boolean) specifies whether to include a row for a blank value of baseColumn, if a blank value exists.<br/>•column n (string) specifies the name of an input table column to group.<br/>•method n (string or enum) specifies how to return values in column n for each baseColumn value:<br/>•first returns the first value in the group.<br/>•last returns the last value in the group.<br/>•average returns the average of all number values in the group. Non-number values are treated as null and are not included in the calcula­tion.<br/>•sum returns the sum of all number values in the group. If there are no number values, returns 0.<br/>•max returns the largest number value in the group. If there are no number values, returns null.<br/>•min returns the smallest number in the group. Non-number values are treated as null and are not included in the calculation.<br/>•count returns the number of values in the group.<br/>•concat returns all values in the group, separated by commas. Dupli­cate values are listed.<br/>•concatUnique returns all unique values in the group, separated by commas. Duplicate values are not listed.<br/>•tableUnion returns a table of values.<br/>•outColumn n (string) specifies the label for the column of grouped col­umn n values.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the output table. It contains one row for each unique value in baseColumn.<br/>The input table is grouped on column \"v2.\" The output table includes a column of sums and a column of lists."
+        "The Group By block groups table rows based on identical entries in the specified column.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table whose values you want to group.<br/>•baseColumn (string) specifies the name of the table column in which to group values.<br/>•nestedData (Boolean) specifies whether to keep the original rows and store them in a new column of the output table as nested tables. You can view child table data by binding a cell containing a table to a Table data­flow block.<br/>•includeBlankValue (Boolean) specifies whether to include a row for a blank value of baseColumn, if a blank value exists.<br/>•column n (string) specifies the name of an input table column to group.<br/>•method n (string or enum) specifies how to return values in column n for each baseColumn value:<br/>•first returns the first value in the group.<br/>•last returns the last value in the group.<br/>•average returns the average of all number values in the group. Non-number values are treated as null and are not included in the calcula­tion.<br/>•sum returns the sum of all number values in the group. If there are no number values, returns 0.<br/>•max returns the largest number value in the group. If there are no number values, returns null.<br/>•min returns the smallest number in the group. Non-number values are treated as null and are not included in the calculation.<br/>•count returns the number of values in the group.<br/>•concat returns all values in the group, separated by commas. Dupli­cate values are listed.<br/>•concatUnique returns all unique values in the group, separated by commas. Duplicate values are not listed.<br/>•tableUnion returns a table of values.<br/>•median returns the average of the value(s) in the middle row(s) of the group.<br/>•outColumn n (string) specifies the label for the column of grouped col­umn n values.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the output table. It contains one row for each unique value in baseColumn.<br/>The input table is grouped on column \"v2.\" The output table includes a column of sums and a column of lists."
     ],
     "type.tableRowCells": [
         "Table Row Cells",
@@ -9448,5 +10159,49 @@
     "type.script#datetime": [
         "DateTime Formats and Functions",
         "DateTime (dateString) formats<br/>The following are examples of date and time strings that have been formatted using date and time formatting strings:<br/>•2012-02-27 13:27:00<br/>•2012-02-27 13:27:00.123456z<br/>•20120227 13:27:00<br/>•20120227T132700<br/>•20120227<br/>•+20120227<br/>•2012-02-27T14Z<br/>•2012-02-27T14+00:00<br/>NOTE: The string 2002-02-27T14:00:00-0500 represents the same date and time as the string 2002-02-27T19:00:00Z.<br/>Supported dateFormat patterns<br/>The following table lists date and time pattern components. These compo­nents can be included within a date and time format string.<br/>NOTE: Date and time strings are affected by locale.<br/>In some languages, the month of a year, or the day of a week, is a dif­ferent word or declension from a standalone month or day.<br/>Symbol<br/>\t<br/>Meaning<br/>\t<br/>Example<br/><br/><br/>G<br/>\t<br/>Era designator<br/>\t<br/>AD<br/><br/><br/>y<br/>\t<br/>Year<br/>\t<br/>2017<br/><br/><br/>M<br/>\t<br/>Month in year, number<br/>\t<br/>8<br/><br/><br/>MM<br/>\t<br/>Month in year, number as two digits<br/>\t<br/>08<br/><br/><br/>MMM<br/>\t<br/>Month in year, abbreviated name<br/>\t<br/>Aug<br/><br/><br/>MMMM<br/>\t<br/>Month in year, full name<br/>\t<br/>August<br/><br/><br/>L<br/>\t<br/>Standalone month, number<br/>\t<br/>08<br/><br/><br/>LL<br/>\t<br/>Standalone month, number as two digits<br/>\t<br/> <br/><br/><br/>LLL<br/>\t<br/>Standalone month, abbreviated name<br/>\t<br/> <br/><br/><br/>LLLL<br/>\t<br/>Standalone month, full name<br/>\t<br/> <br/><br/><br/>d<br/>\t<br/>Day in month<br/>\t<br/>10<br/><br/><br/>c<br/>\t<br/>Standalone day<br/>\t<br/>10<br/><br/><br/>h<br/>\t<br/>Hour in 12-hour time (1-12)<br/>\t<br/>12<br/><br/><br/>H<br/>\t<br/>Hour in 24-hour time (0-23)<br/>\t<br/>0<br/><br/><br/>m<br/>\t<br/>Minute in hour<br/>\t<br/>30<br/><br/><br/>s<br/>\t<br/>Second in minute<br/>\t<br/>55<br/><br/><br/>S<br/>\t<br/>Fractional second<br/>\t<br/>978<br/><br/><br/>E<br/>\t<br/>Day of week, abbreviated<br/>\t<br/>Fri<br/><br/><br/>EEEE<br/>\t<br/>Day of week, full name<br/>\t<br/>Friday<br/><br/><br/>D<br/>\t<br/>Day of year<br/>\t<br/>189<br/><br/><br/>a<br/>\t<br/>AM or PM designator<br/>\t<br/>PM<br/><br/><br/>k<br/>\t<br/>Hour of day, in 24-hour time (0<br/>\t<br/>24<br/><br/><br/>K<br/>\t<br/>Hour of day, in 12-hour time (0-11)<br/>\t<br/>0<br/><br/><br/>z<br/>\t<br/>General time zone<br/>\t<br/>-8<br/><br/><br/>Z<br/>\t<br/>Time zone (RFC 822)<br/>\t<br/>-800<br/><br/><br/>v<br/>\t<br/>Time zone (generic)<br/>\t<br/>Pacific Time<br/><br/><br/>Q<br/>\t<br/>Quarter<br/>\t<br/>Q3<br/><br/><br/>Single quote (')<br/>\t<br/>Escapes a character or encloses a string<br/>\t<br/>'o\"clock', 'Date='<br/> <br/>Supported ICU/dateFormat skeletons<br/>The following table lists ICU date and time skeleton components. These com­ponents can be combined to create an ICU dateFormat skeleton, which can format DateTime values.<br/>NOTE: Date and time strings are affected by locale.<br/>You can use two vertical bar characters separated by a space<br/>(| |) to join two dateFormat skeletons. For example, the string yMd| |Hms produces the string 8/24/2015 15:38:00.<br/>String<br/>\t<br/>Meaning<br/>\t<br/>Example (en_US locale)<br/><br/><br/>d<br/>\t<br/>Day<br/>\t<br/>24<br/><br/><br/>E<br/>\t<br/>Day of week<br/>\t<br/>Thu<br/><br/><br/>EEEE<br/>\t<br/>Day of week<br/>\t<br/>Thursday<br/><br/><br/>LLL<br/>\t<br/>Standalone month<br/>\t<br/>Aug<br/><br/><br/>LLLL<br/>\t<br/>Standalone month<br/>\t<br/>August<br/><br/><br/>M<br/>\t<br/>Month<br/>\t<br/>8<br/><br/><br/>Md<br/>\t<br/>Month and day<br/>\t<br/>8/24<br/><br/><br/>MEd<br/>\t<br/>Month, day, and day of week<br/>\t<br/>Thu, 8/24<br/><br/><br/>MMM<br/>\t<br/>Month<br/>\t<br/>Aug<br/><br/><br/>MMMd<br/>\t<br/>Month and day<br/>\t<br/>Aug 24<br/><br/><br/>MMMEd<br/>\t<br/>Month, day, and day of week<br/>\t<br/>Thu, Aug 24<br/><br/><br/>MMMM<br/>\t<br/>Month<br/>\t<br/>August<br/><br/><br/>MMMMd<br/>\t<br/>Month and day<br/>\t<br/>August 24<br/><br/><br/>MMMMEEEEd<br/>\t<br/>Month, day, and day of week<br/>\t<br/>Thursday, August 24<br/><br/><br/>QQQ<br/>\t<br/>Quarter<br/>\t<br/>Q3<br/><br/><br/>QQQQ<br/>\t<br/>Quarter<br/>\t<br/>3rd quarter<br/><br/><br/>y<br/>\t<br/>Year<br/>\t<br/>2015<br/><br/><br/>yM<br/>\t<br/>Year and month<br/>\t<br/>8/2017<br/><br/><br/>yMd<br/>\t<br/>Year, month, and day<br/>\t<br/>8/1/2017<br/><br/><br/>yMEd<br/>\t<br/>Year, month, day, and day of week<br/>\t<br/>Thu, 8/24/2017<br/><br/><br/>yMMM<br/>\t<br/>Year and month<br/>\t<br/>Aug 2017<br/><br/><br/>yMMMd<br/>\t<br/>Year, month, and day<br/>\t<br/>August 1, 2017<br/><br/><br/>yMMMEd<br/>\t<br/>Year, month, day, and day of week<br/>\t<br/>Thu, Aug 24, 2017<br/><br/><br/>yMMMM<br/>\t<br/>Year and month<br/>\t<br/>August 2017<br/><br/><br/>yMMMMd<br/>\t<br/>Year, month, and day<br/>\t<br/>August 24, 2017<br/><br/><br/>yMMMMEEEEd<br/>\t<br/>Year, month, day, and day of week<br/>\t<br/>Thursday, August 24, 2017<br/><br/><br/>yQQQ<br/>\t<br/>Year and quarter<br/>\t<br/>Q3 2017<br/><br/><br/>yQQQQ<br/>\t<br/>Year and quarter<br/>\t<br/>3rd quarter 2017<br/><br/><br/>H<br/>\t<br/>Hour in day (24-hour time)<br/>\t<br/>15<br/><br/><br/>Hm<br/>\t<br/>Hour and minute (24-hour time)<br/>\t<br/>15:38<br/><br/><br/>Hms<br/>\t<br/>Hour, minute, and second (24-hour time)<br/>\t<br/>15:38:00<br/><br/><br/>j<br/>\t<br/>Hour (12-hour time)<br/>\t<br/>3 PM<br/><br/><br/>jm<br/>\t<br/>Hour and minute (12-hour time)<br/>\t<br/>3:38 PM<br/><br/><br/>jms<br/>\t<br/>Hour, minute, and second (12-hour time)<br/>\t<br/>3:38:00 PM<br/><br/><br/>m<br/>\t<br/>Minute<br/>\t<br/>38<br/><br/><br/>ms<br/>\t<br/>Minute and second<br/>\t<br/>38:00<br/><br/><br/>s<br/>\t<br/>Second<br/>\t<br/>0"
+    ],
+    "type.binary": [
+        "Binary",
+        "The Binary block holds binary data, such as the contents of a file. In the Property Inspector, choose a file to load its contents into the block.<br/>Input/Output properties<br/>This property can take input and give output.<br/>•value (binary) sets and returns the binary data held by the block."
+    ],
+    "type.dgTimeFormInput": [
+        "DG Time Input Properties",
+        "The DG Time Input component lets the user enter a time of day. Value, Min, Max and Step are in milliseconds since midnight.<br/>•Format: which fields are shown, e.g. 'hh:mm a', 'HH:mm', 'HH:mm:ss.S' (default)<br/>•Show Clear Button / Show Stepper Buttons: show or hide the extra buttons<br/>•Focus Color / Focus Background Color: colors of the focused field"
+    ],
+    "type.esrimap": [
+        "ESRI Map",
+        "The ESRI Map component shows an interactive map from the ArcGIS API for JavaScript. It supports ArcGIS basemaps, a 3D view, custom vector tile styles, and ESRI Map Group, GeoJSON and Heatmap layers."
+    ],
+    "type.exportPaginatedPDF": [
+        "Export Paginated PDF",
+        "The Export Paginated PDF block exports the contents of the containing view deck or group as a paginated PDF file. Each child becomes a separate page.<br/>Input/Output properties<br/>•invoke (trigger) exports the file, if enabled is TRUE.<br/>•enabled (Boolean) specifies whether exporting is enabled.<br/>•filename (string) name of the exported file. If blank, the PDF is returned in output.<br/>•location (enum) download or project.<br/>•padding (number) page margin in pixels.<br/>•orientation (enum) landscape or portrait.<br/>•units (enum) pt, mm, cm, or in.<br/>•size (enum) a3, a4, a5, letter, legal, or autosize.<br/>•scale (number) resolution factor.<br/>Output properties<br/>•output (binary) the PDF contents, if no filename is specified."
+    ],
+    "type.layer": [
+        "Layer",
+        "A layer is a container that always fills its parent, usually the page. Use layers to organize a page into stacked planes, such as background, zones, and widgets.<br/>• A layer can't be moved, resized, or nested in another layer.<br/>• Components inserted while a layer is selected are added to that layer.<br/>• Empty areas of a new layer let mouse events pass through to layers below."
+    ],
+    "type.localize": [
+        "Localize",
+        "The Localize block returns translated text for the current language. It reads the file locales/<language>.json from the project.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•language (string) specifies the language code, which is the name of the language file without .json. If null, en is used.<br/>Output properties<br/>•custom parameters (string) each return the translation for the key that matches the parameter's name. Use colons to look up nested keys, for example alarm:high. If a key is not found, the parameter returns its name (or the last part of a nested name).<br/>To create a custom parameter, click the plus sign in the block."
+    ],
+    "type.mapToTable": [
+        "Map to Table",
+        "The Map to Table block converts a table row (such as @parent.@data in a repeater item) or a map into a table with one row.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input receives a table row, a map, or a table. A table is passed through unchanged.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the one-row table."
+    ],
+    "type.openWizard": [
+        "Open Wizard",
+        "Opens a wizard symbol in the editor to edit a target object. Works only in Design mode.<br/>Input/Output properties<br/>• invoke (trigger) opens the wizard.<br/>• enabled (Boolean)<br/>• symbol: the wizard symbol to open.<br/>• target: the object that the wizard edits."
+    ],
+    "type.symbolProfiler": [
+        "Symbol Profiler",
+        "Analyzes the dataflow that contains it and reports how many objects, symbols, repeaters and tables it holds. Useful for finding performance problems.<br/>Input/Output properties<br/>• invoke (trigger) runs the analysis.<br/>Output properties<br/>• output (string) returns the result as a JSON string."
+    ],
+    "type.tableAdvancedRollup": [
+        "Advanced Rollup",
+        "The Advanced Rollup block returns a new table that contains one row for each date and time interval in the input table. Unlike the Rollup block, each value column has its own rollup method and output column name.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table in which you want to roll up values.<br/>•interval (enum) specifies the duration of the range to roll up, from One minute to Year.<br/>•dateColumn (string) specifies the name of the column that holds the dates.<br/>•roundTime (Boolean) specifies whether to force all intervals to start at a round number.<br/>•persistTs (Boolean) specifies whether to keep the time zone offset of the input timestamps.<br/>•nestedData (Boolean) specifies whether to keep the original rows of each interval as nested tables in a nestedData column.<br/>•valueColumn n (string) specifies a column to roll up.<br/>•valueRollup n (enum) specifies the rollup method for valueColumn n: First, Last, Average, Sum, Max, Min, Count, Concat, Concat unique, or Median.<br/>•outColumn n (string) specifies the output column name. If empty, valueColumn n is used.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (table) returns the rolled up table."
+    ],
+    "type.tableToJsonString": [
+        "Table To JSON String",
+        "The Table To JSON String block returns the input table as a JSON string: an array with one object per row that maps column names to cell values.<br/>Input/Output properties<br/>These properties can take input and give output.<br/>•input (table) receives the table to convert.<br/>•excludeRowColumn (Boolean) specifies whether to leave out the row column. Default is FALSE.<br/>Output properties<br/>These properties can give output. They cannot take input.<br/>•output (string) returns the JSON string."
     ]
 }
