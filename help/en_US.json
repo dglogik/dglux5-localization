@@ -317,7 +317,7 @@
     ],
     "axis.formatString": [
         "Format String",
-        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number'>More information</a>)"
+        "Specifies the format used for the axis labels. For example, a Datetime axis might use the string \"MM/dd/yyyy\", and a number axis might use the string \",##0.00\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:numbers_math'>More information</a>)"
     ],
     "axis.inverted": [
         "Inverted",
@@ -597,7 +597,7 @@
     ],
     "calendar.highlightedDays": [
         "Highlighted Days",
-        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>)."
+        "Sets the highlighted days, as a list of comma&minus;separated values with the format \"yyyy&minus;MM&minus;dd\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>More information</a>)."
     ],
     "calendar.nextArrowSymbol": [
         "Next Button Glyph",
@@ -617,11 +617,11 @@
     ],
     "calendar.selectedRangeValue": [
         "Selected Range",
-        "<p>Sets or returns the currently selected date range for this calendar. Uses the format \"yyyy&minus;MM&minus;ddThh:mm:ss/yyyy&minus;MM&minus;ddThh:mm:ss\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a>. To let the user change this property, set the Selection Mode property to Day, Week, or Month. To change this property using the Property Inspector, click the Selected Range button to open a date range picker. Using this dialog, you can choose a date range in several ways:<ul><li><strong>Range</strong>: Specify a start date and end date. Optionally, you can also specify a start time and end time using 24&minus;hour time.</li><li><strong>Day</strong>: Specify a single day.</li><li><strong>Week</strong>: Specify one week. Clicking any date selects a week that includes that date. The selected week starts on a Sunday and ends on a Saturday.</li><li><strong>Month</strong>: Specify a month and year.</li><li><strong>Year</strong>: Specify a year.</li><li><strong>Relative</strong>: Specify a range relative to the current date and time. Enter a number of seconds, minutes, hours, days, weeks, months, or years, and specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26 PM, the \"previous hour\" is the hour from 2:00 to 3:00.</li></ul>"
+        "<p>Sets or returns the currently selected date range for this calendar. Uses the format \"yyyy&minus;MM&minus;ddThh:mm:ss/yyyy&minus;MM&minus;ddThh:mm:ss\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>[More information]</a>. To let the user change this property, set the Selection Mode property to Day, Week, or Month. To change this property using the Property Inspector, click the Selected Range button to open a date range picker. Using this dialog, you can choose a date range in several ways:<ul><li><strong>Range</strong>: Specify a start date and end date. Optionally, you can also specify a start time and end time using 24&minus;hour time.</li><li><strong>Day</strong>: Specify a single day.</li><li><strong>Week</strong>: Specify one week. Clicking any date selects a week that includes that date. The selected week starts on a Sunday and ends on a Saturday.</li><li><strong>Month</strong>: Specify a month and year.</li><li><strong>Year</strong>: Specify a year.</li><li><strong>Relative</strong>: Specify a range relative to the current date and time. Enter a number of seconds, minutes, hours, days, weeks, months, or years, and specify either \"current\" or \"previous.\" A \"current\" range begins at the start of the unit; for example, if the current time is 3:26, the \"current hour\" is the hour from 3:00 to 4:00, and the \"current two hours\" is the period from 2:00 to 4:00. A \"previous\" range immediately precedes the current one. For example, if the time is 3:26 PM, the \"previous hour\" is the hour from 2:00 to 3:00.</li></ul>"
     ],
     "calendar.selectedValue": [
         "Selected Date",
-        "<p>Sets or returns the currently selected date for this calendar. Uses the format \"yyyy&minus;MM&minus;dd\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>[More information]</a></p><p>If the user selects a range of dates, this property reflects only the date that the user clicked to select the range.</p>"
+        "<p>Sets or returns the currently selected date for this calendar. Uses the format \"yyyy&minus;MM&minus;dd\". <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>[More information]</a></p><p>If the user selects a range of dates, this property reflects only the date that the user clicked to select the range.</p>"
     ],
     "calendar.titleFontFamily": [
         "Header Font",
@@ -1633,7 +1633,7 @@
     ],
     "dateFormat.format": [
         "format",
-        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information)</a>"
+        "Specifies the date and time formatting string. For example, you can format the date to be displayed as \"Mon, Jan 5, 2015\" with this format string: \"E, MMM d, yyyy\". (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>More information)</a>"
     ],
     "dateFormat.input": [
         "input",
@@ -1673,7 +1673,7 @@
     ],
     "dateMath.input": [
         "input",
-        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]"
+        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime#format_patterns'>More information</a>]"
     ],
     "dateMath.millisecond": [
         "millisecond",
@@ -1713,7 +1713,7 @@
     ],
     "daterange.format": [
         "Date Format String",
-        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime_formats_and_functions'>More information</a>)."
+        "Specifies the date format used by the component, as a date format string. The default format is \"yyyy&minus;MM&minus;ddTHH:mm:ss\".  (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>More information</a>)."
     ],
     "dateRange.format": [
         "format",
@@ -1777,7 +1777,7 @@
     ],
     "daterange.rangeDelimiter": [
         "Range Delimiter",
-        "Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime'>More information</a>]"
+        "Specifies the delimiter used between the start date and end date of the range. If null, a slash (/) is used. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime'>More information</a>]"
     ],
     "dateRange.rangeDelimiter": [
         "rangeDelimiter",
@@ -2825,7 +2825,7 @@
     ],
     "formatNumber.format": [
         "format",
-        "Specifies a combination of <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
+        "Specifies a combination of <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:numbers_math#number_format_patterns'>number format patterns</a> to use. For example, you can format the value to be displayed as \"1,050.40\" by using the string \"#,###.00\"."
     ],
     "formatNumber.input": [
         "input",
@@ -5005,7 +5005,7 @@
     ],
     "parseDateTime.input": [
         "input",
-        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#supported_dateformat_patterns'>More information</a>]. This can also be text from which a date can be parsed."
+        "Specifies the serial number or any supported date time string. [<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime#format_patterns'>More information</a>]. This can also be text from which a date can be parsed."
     ],
     "parseDateTime.millisecond": [
         "millisecond",
@@ -6509,7 +6509,7 @@
     ],
     "tableColumnMapping.print": [
         "print",
-        "Displays error messages and other notifications for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Displays error messages and other notifications for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:debugging'>debugging</a>."
     ],
     "tableColumnMapping.retainColumns": [
         "retainColumns",
@@ -6537,7 +6537,7 @@
     ],
     "tableEditRows.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>"
+        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:debugging'>debugging</a>"
     ],
     "tableEditRows.table": [
         "table",
@@ -6545,7 +6545,7 @@
     ],
     "tableFilter.condition": [
         "condition",
-        "Specifies the condition of the filter. Use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
+        "Specifies the condition of the filter. Use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:language#operators'>Javascript</a> notation. For example, \"Damper_Pos==0\" returns all rows where the value of the \"Damper_Pos\" column is 0."
     ],
     "tableFilter.input": [
         "input",
@@ -6557,7 +6557,7 @@
     ],
     "tableFilter.print": [
         "print",
-        "Returns output from the <strong>condition</strong> field. Use it for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Returns output from the <strong>condition</strong> field. Use it for <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:debugging'>debugging</a>."
     ],
     "tableGetColumns.input": [
         "input",
@@ -6693,7 +6693,7 @@
     ],
     "tableRemoveRows.print": [
         "print",
-        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#debugging'>debugging</a>."
+        "Returns a string that is used for errors, other notifications, and <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:debugging'>debugging</a>."
     ],
     "tableRemoveRows.table": [
         "table",
@@ -7373,7 +7373,7 @@
     ],
     "webDocument.search": [
         "search",
-        "Returns the string that appears after the question mark (?) symbol in the URL. You can bind the search property to a script block and use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:home#string'>string functions</a>, such as <code>str.decodeUriComponent()</code>, to parse it into a usable string."
+        "Returns the string that appears after the question mark (?) symbol in the URL. You can bind the search property to a script block and use <a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:strings'>string functions</a>, such as <code>str.decodeUriComponent()</code>, to parse it into a usable string."
     ],
     "webDocument.title": [
         "title",
@@ -9436,13 +9436,13 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Actions/About_Actions.htm"
     ],
     ".script#number": [
-        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number",
-        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#number",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:numbers_math",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:numbers_math",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/Number_Formats_Functions_and_Constants.htm"
     ],
     ".script#datetime": [
-        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
-        "https://wiki.dglogik.com/dglux5_wiki:dgscript:home#datetime",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:datetime",
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Scripting_and_Syntax/DateTime_Formats_and_Functions.htm"
     ],
     ".and": [
