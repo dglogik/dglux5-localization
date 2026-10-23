@@ -6443,6 +6443,10 @@
         "Symbol",
         "Specifies which symbol is displayed in this symbol component. To use a symbol that is defined in the currently-open project, enter the name of the symbol. To use a symbol from another project in your library, enter the path to that symbol. By default, this is the only property for a symbol. To add properties to a symbol, open the Edit Properties dialog for that symbol."
     ],
+    "jswidget.js": [
+        "Symbol",
+        "Specifies the JavaScript file that defines the widget, as a project path such as lib/js/examples/parameters/parameters.js, or an http or https URL. (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:js_widget'>More information</a>)"
+    ],
     "tabIndex": [
         "Tab Index",
         ""
@@ -8814,7 +8818,8 @@
         "https://docs.distech-controls.com/bundle/ENVYSION-ResponsiveHTML5/page/ENVYSION/Core_Components_in_ENVYSION/Symbols.htm#MiniTOC_1013750"
     ],
     ".jswidget": [
-        ""
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:js_widget",
+        "https://wiki.dglogik.com/dglux5_wiki:dgscript:js_widget"
     ],
     ".pageInclude": [
         "https://wiki.dglogik.com/dglux5_wiki:widgets_and_property_inspector:components:page_include:home",
@@ -9835,6 +9840,10 @@
     "type.symbol": [
         "Symbols",
         "The symbol component is a container that takes a path to an symbol that you have created or imported. Edits that you make in one place affect all instances of the symbol.<br/>There are several ways to create a symbol and to enter the special symbol editing mode that lets you edit a symbol.<br/>You can save symbols to the widget palette, or import symbols to the lib folder, to use them in different pages, projects, and user accounts. Unlike other widgets in the widget palette, editing a symbol that you drag from the widget palette affects the source symbol and all other instances, regardless of project. This is true only if you have can edit access to the symbol's source file.<br/>Symbols are required when you create repeaters and callouts.<br/>NOTE: You can use your symbol across multiple projects by saving it as a widget. See Widget Palette."
+    ],
+    "type.jswidget": [
+        "JS Widget",
+        "A component whose content is drawn by your own JavaScript code. Use it to turn a third-party JavaScript library, such as D3 or three.js, into a DGLux5 component. Set the Symbol field to the JavaScript file that defines the widget. The widget's properties appear in the Property Inspector like symbol parameters. A template and examples are available in the <a href='https://github.com/dglux/dglux5_js_lib' target='_blank'>dglux5_js_lib</a> project on GitHub. (<a href='https://wiki.dglogik.com/dglux5_wiki:dgscript:js_widget'>More information</a>)"
     ],
     "type.pageInclude": [
         "Page Include",
